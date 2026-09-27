@@ -224,6 +224,7 @@ class Compilateur:
             # Identifiant opaque : les données du joueur désignent le fascicule par lui.
             "id": fid,
             "numero": fsc["numero"],
+            "nom": fsc["nom"],
             "parution": fsc["parution"],
             "jaquette": self._media("jaquette", "fascicule", fid),
             "compteurs": compteurs,
@@ -249,6 +250,9 @@ class Compilateur:
             "langues": [sans_prive(v) for _, v in sorted(self.c.langues.items())],
             "systemes_ecriture": [sans_prive(v) for _, v in sorted(self.c.ecritures.items())],
             "conventions": [sans_prive(v) for _, v in sorted(self.c.conventions.items())],
+            # Noms des relations et des transformations, pour la section « En savoir plus ».
+            "types_relation": [sans_prive(v) for _, v in sorted(self.c.types_relation.items())],
+            "types_transformation": [sans_prive(v) for _, v in sorted(self.c.types_transformation.items())],
         }
 
     def compiler(self) -> Artefact:

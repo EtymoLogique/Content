@@ -31,6 +31,14 @@ def test_publication_ecarte_les_fascicules_de_test(depot, tmp_path):
     assert parutions["fascicules"] == []
 
 
+def test_referentiels_nomment_relations_et_transformations(depot, tmp_path):
+    referentiels = _compiler(depot, tmp_path / "a")["referentiels"]
+    relations = {t["code"]: t["libelles"]["fr"]["nom"] for t in referentiels["types_relation"]}
+    transformations = {t["code"]: t["libelles"]["fr"]["nom"] for t in referentiels["types_transformation"]}
+    assert relations["forme_de_composition"] == "forme de composition"
+    assert transformations["elision"] == "élision"
+
+
 def _manifeste(sortie: Path, fascicule: dict) -> dict:
     return json.loads((sortie / fascicule["manifeste"]).read_text(encoding="utf-8"))
 
@@ -160,6 +168,11 @@ def test_verifier_signale_un_media_altere(depot, tmp_path):
     fichier = next((tmp_path / "a" / "a").iterdir())
     fichier.write_bytes(fichier.read_bytes() + b" ")
     assert verifier(tmp_path / "a") == [f"Empreinte fausse : a/{fichier.name}"]
+
+
+def test_manifeste_porte_le_nom_du_fascicule(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    assert _manifeste(tmp_path / "a", parutions["fascicules"][0])["nom"] == "Bêta"
 
 
 def test_manifeste_porte_les_graines(depot, tmp_path):

@@ -32,7 +32,7 @@ def second_fascicule(depot, numero: int, parution: str) -> None:
     ingredient = next(l for l in premier["unites"] if l["role"] == "ingredient")
     depot.ecrire(
         depot.racine / "ludique" / "fascicules" / "fsc_zzzzzzzz.json",
-        {"id": "fsc_zzzzzzzz", "numero": numero, "parution": parution, "test": False, "unites": [ingredient]},
+        {"id": "fsc_zzzzzzzz", "numero": numero, "nom": "Essai", "parution": parution, "test": False, "unites": [ingredient]},
     )
 
 
