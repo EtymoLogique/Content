@@ -41,6 +41,7 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `outils/etymo_contenu/` | Validateur, compilateur de l’artefact, visualisation locale et générateur d’identifiants | — |
 | `artefact/` | Artefact compilé : **ignoré par Git** | — |
 | `tests/` | Un test par règle de validation | — |
+| `.agents/skills/` | Skills des agents : nouveau fascicule, nouveau mot, silhouette, jaquette, préparation de la publication (`.github/skills` y renvoie) | — |
 | `imports/` | Imports datés du Wiktionnaire : **ignoré par Git** | — |
 | `rapports/` | Rapports de validation et visualisation générés : **ignoré par Git** | — |
 
@@ -73,6 +74,7 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/etymo-contenu visualiser               # page locale rapports/catalogue.html : graphe, cartes, silhouettes
 .venv/bin/etymo-contenu nouvel-id unt -n 3       # trois identifiants d'unité inédits
 .venv/bin/python -m pytest -q                    # tests du validateur et du compilateur
+.venv/bin/python .agents/skills/preparer-publication/pre_publication.py 1   # rapport de pré-publication du fascicule 1
 ```
 
 La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance les tests et `valider` à chaque push.
