@@ -77,5 +77,27 @@
       "role": "ingredient"
     }
   ],
+  "graines": [
+    {
+      "brique_id": "brq_9v8w7dzj",
+      "exemplaires": 2
+    },
+    {
+      "brique_id": "brq_e99p5xzq",
+      "exemplaires": 2
+    },
+    {
+      "brique_id": "brq_gjgmxbbz",
+      "exemplaires": 2
+    },
+    {
+      "brique_id": "brq_ttj1n1hs",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_y8y1gj09",
+      "exemplaires": 1
+    }
+  ],
   "note_interne": "Fascicule d’essai : exemples travaillés du modèle de données, jamais publié."
 }

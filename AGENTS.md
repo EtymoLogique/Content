@@ -23,10 +23,12 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 | `schemas/` | JSON Schema 2020-12, `communs.schema.json` pour les définitions partagées (`fait`, `libelles`, identifiants). |
 | `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `medias.py` (profil SVG, langues citées), `compilation.py` (artefact en hash de contenu), `visualisation.py` et `visualisation.html` (page locale du catalogue, jamais publiée), `rapport.py`, `ids.py`, `cli.py`. |
 | `tests/` | `conftest.py` copie le dépôt dans un dossier temporaire ; chaque test casse une seule règle. |
+| `.agents/skills/` | Skills des agents (`.github/skills` est un lien symbolique vers ce dossier). |
 | `imports/`, `rapports/`, `artefact/` | Ignorés par Git. |
 
 ## Règles
 
+- **D’abord un logiciel qui marche, ensuite les tests.** Faire fonctionner l’application comme elle a été conçue prime sur l’écriture de tests : livrez d’abord une fonctionnalité qui marche de bout en bout, puis ajoutez les tests qui la protègent.
 - **Identifiants opaques** : `etymo-contenu nouvel-id <préfixe>`. Ne réutilisez jamais un identifiant, n’y mettez jamais de graphie, ne renommez jamais un objet publié : un changement de nature ou une suppression passe par une migration (ADR 0005).
 - **Aucun texte copié** du Wiktionnaire ni d’une référence savante. Rédigez les gloses, définitions et explications. N’inventez ni entrée, ni page, ni édition de source : laissez `localisation` à `null` et décrivez dans `note_interne` ce qu’il reste à vérifier.
 - **Un nouveau fait naît `brouillon`.** Seule une relecture humaine le passe à `relu`.
@@ -39,6 +41,16 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 
 - **Branches** (ADR 0028) : `develop` publie en hors-prod, en mode `--essai` ; `master` publie en prod, avec les exigences de publication. Une branche de feature ne publie rien.
 - **L’artefact n’emporte jamais** `note_interne`, `etat_relecture` ni un fait `non_retenue`. Tout nouveau champ privé s’ajoute à `CHAMPS_PRIVES` dans `compilation.py`, avec son test.
+
+## Skills
+
+| Skill | Quand l'utiliser |
+|---|---|
+| [`nouveau-fascicule`](.agents/skills/nouveau-fascicule/SKILL.md) | Ouvrir un fascicule : numéro, date provisoire, plan de 20 à 30 mots, déclaration des unités. |
+| [`nouveau-mot`](.agents/skills/nouveau-mot/SKILL.md) | Repérer un mot, le vérifier dans une source de référence, puis saisir sa chaîne jusqu'au fascicule. |
+| [`silhouette`](.agents/skills/silhouette/SKILL.md) | Dessiner et déclarer la silhouette d'une carte ou d'une langue. |
+| [`jaquette`](.agents/skills/jaquette/SKILL.md) | Dessiner et déclarer la jaquette d'un fascicule. |
+| [`preparer-publication`](.agents/skills/preparer-publication/SKILL.md) | Lancer tous les contrôles d'un fascicule, planifier sa date de parution, vérifier la compilation prod. |
 
 ## Modifier le contenu ou l’outillage
 

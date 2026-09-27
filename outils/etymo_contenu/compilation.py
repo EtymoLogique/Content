@@ -221,6 +221,8 @@ class Compilateur:
 
         manifeste = {
             "format": FORMAT,
+            # Identifiant opaque : les données du joueur désignent le fascicule par lui.
+            "id": fid,
             "numero": fsc["numero"],
             "parution": fsc["parution"],
             "jaquette": self._media("jaquette", "fascicule", fid),
@@ -233,6 +235,8 @@ class Compilateur:
             "recettes": recettes,
             "exclusions": chemin_exclusions,
             "jalons": [],
+            # Réserve de départ, accordée une fois à chaque joueur (ADR 0030).
+            "graines": sorted(fsc.get("graines", []), key=lambda g: g["brique_id"]),
         }
         if fsc.get("test"):
             manifeste["test"] = True

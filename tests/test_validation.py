@@ -417,6 +417,55 @@ def test_fascicule_reel_numero_zero(depot):
     assert "schema" in erreurs(depot.valider())
 
 
+def test_graine_inconnue(depot):
+    depot.modifier(depot.fascicule(), lambda f: f["graines"].append({"brique_id": "brq_00000000", "exemplaires": 1}))
+    assert "reference.cassee" in erreurs(depot.valider())
+
+
+def test_graine_dupliquee(depot):
+    geo = depot.brique("géo")[1]["id"]
+    depot.modifier(depot.fascicule(), lambda f: f["graines"].append({"brique_id": geo, "exemplaires": 1}))
+    assert "fascicule.graine_dupliquee" in erreurs(depot.valider())
+
+
+def test_graine_hors_fascicule(depot):
+    phile = depot.brique("phile")[1]["id"]
+
+    def semer(f):
+        f["unites"] = [l for l in f["unites"] if l["unite_id"] != depot.uid("phile")]
+        f["graines"].append({"brique_id": phile, "exemplaires": 1})
+
+    depot.modifier(depot.fascicule(), semer)
+    assert "fascicule.graine_hors_fascicule" in erreurs(depot.valider())
+
+
+def test_graine_exemplaires_bornes(depot):
+    depot.modifier(depot.fascicule(), lambda f: f["graines"][0].update(exemplaires=6))
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_amorcage_insuffisant(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(graines=f["graines"][:2]))
+    assert "fascicule.amorcage" in avertissements(depot.valider())
+
+
+def test_amorcage_exemplaires_insuffisants(depot):
+    logie = depot.brique("logie")[1]["id"]
+    depot.modifier(depot.fascicule(), lambda f: [g.update(exemplaires=1) for g in f["graines"] if g["brique_id"] == logie])
+    assert "fascicule.amorcage" in avertissements(depot.valider())
+
+
+def test_premier_fascicule_sans_graines(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.pop("graines"))
+    assert "fascicule.amorcage" in avertissements(depot.valider())
+
+
+def test_recette_de_trois_briques(depot):
+    iste = depot.brique("iste")[1]["id"]
+    depot.modifier(depot.recette("géologie"), lambda r: r["emplacements"].append({"rang": 3, "briques_acceptees": [iste]}))
+    assert "recette.deux_briques" in erreurs(depot.valider())
+
+
 # ---------------------------------------------------------------------- exclusions
 
 
