@@ -14,6 +14,8 @@ from etymo_contenu.rapport import Rapport
 LOCALE_REFERENCE = "fr"
 TRAITS_UNION = ("-", "\u2010", "\u2011", "\u2012", "\u2013", "\u2014")
 TAILLE_FASCICULE = (20, 30)  # ADR 0022, paramètre d'équilibrage
+# Règle d'amorçage (game-design) : trois découvertes au moins sans ouvrir de pli.
+MIN_RECETTES_AMORCAGE = 3
 
 
 class Controleur:
@@ -418,6 +420,7 @@ class Controleur:
                         self._erreur("fascicule.resultat_sans_recette", f"Le résultat {uid} n’a pas de recette.", fid)
                 elif unite and self._brique_de(uid) is None:
                     self._erreur("fascicule.ingredient_sans_brique", f"L’ingrédient {uid} n’a pas de brique.", fid)
+            self._graines(fid, fsc, vus)
 
         for fid, fsc in self.c.fascicules.items():
             declares = {l["unite_id"]: l["role"] for l in fsc["unites"]}
@@ -449,10 +452,49 @@ class Controleur:
             if not fsc["test"] and not minimum <= nb_mots <= maximum:
                 self._avert("fascicule.taille", f"{nb_mots} mots : un fascicule en publie de {minimum} à {maximum}.", fid)
 
+        for test in (False, True):
+            premiers = sorted((f["numero"], fid) for fid, f in self.c.fascicules.items() if f["test"] is test)
+            if premiers and not self.c.fascicules[premiers[0][1]].get("graines"):
+                self._avert("fascicule.amorcage", "Le premier fascicule ne déclare aucune graine : pas de réserve de départ.", premiers[0][1])
+
         dates = sorted((f["numero"], f["parution"], fid) for fid, f in self.c.fascicules.items() if not f["test"])
         for (n1, d1, _), (n2, d2, f2) in itertools.pairwise(dates):
             if d2 <= d1:
                 self._avert("fascicule.chronologie", f"Le fascicule {n2} paraît avant ou en même temps que le fascicule {n1}.", f2)
+
+    def _graines(self, fid: str, fsc: dict, declares: set[str]) -> None:
+        """Réserve de départ (ADR 0030) : briques du fascicule, et au moins trois
+        recettes réalisables avec elles seules, toutes ensemble (règle d'amorçage)."""
+        graines: dict[str, int] = {}
+        for graine in fsc.get("graines", []):
+            bid = graine["brique_id"]
+            if bid in graines:
+                self._erreur("fascicule.graine_dupliquee", f"La brique {bid} est semée deux fois.", fid)
+            graines[bid] = graine["exemplaires"]
+            brique = self._ref(self.c.briques, bid, fid, "graines", "brique")
+            if brique and brique["unite_id"] not in declares:
+                self._erreur("fascicule.graine_hors_fascicule", f"La graine {bid} n’est pas une brique du fascicule.", fid)
+        if not graines:
+            return
+        besoins: dict[str, int] = {}
+        realisables = 0
+        for uid in sorted(l["unite_id"] for l in fsc["unites"] if l["role"] == "resultat"):
+            for recette in self._recettes_du_mot(uid):
+                choix = [next((b for b in e["briques_acceptees"] if b in graines), None) for e in recette["emplacements"]]
+                if None in choix:
+                    continue
+                realisables += 1
+                for bid in choix:
+                    besoins[bid] = besoins.get(bid, 0) + 1
+        manquants = sorted(bid for bid, n in besoins.items() if n > graines[bid])
+        if realisables < MIN_RECETTES_AMORCAGE or manquants:
+            self._avert(
+                "fascicule.amorcage",
+                f"{realisables} recette(s) réalisable(s) avec les graines, {MIN_RECETTES_AMORCAGE} attendues"
+                + (f" ; exemplaires insuffisants pour {', '.join(manquants)}" if manquants else "")
+                + ".",
+                fid,
+            )
 
     def exclusions(self) -> None:
         suites = getattr(self, "_suites_connues", {})

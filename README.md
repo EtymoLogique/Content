@@ -33,7 +33,7 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `relations/` | Relations étymologiques entre unités | `relation` |
 | `ludique/briques/` | Briques : unité, forme et sens affichés, rareté | `brique` |
 | `ludique/recettes/` | Recettes : composition jouée, emplacements, briques acceptées | `recette` |
-| `ludique/fascicules/` | Fascicules : numéro, parution, unités résultat et ingrédient | `fascicule` |
+| `ludique/fascicules/` | Fascicules : numéro, parution, unités résultat et ingrédient, graines (réserve de départ, [ADR 0030](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0030-reserve-de-depart-par-fascicule.md)) | `fascicule` |
 | `ludique/exclusions/` | Combinaisons attestées volontairement écartées | `exclusion` |
 | `ludique/medias/` | Médias : type (silhouette ou jaquette), fichier, unité, langue ou fascicule illustré | `media` |
 | `medias/silhouettes/`, `medias/jaquettes/` | Fichiers SVG bruts, sous des noms de travail lisibles (ADR 0026) | profil SVG |
@@ -99,7 +99,7 @@ La page montre les notes internes et les faits non relus. Elle reste locale : `r
 - **Relations** : source et cible différentes, sans doublon ni cycle ; un emprunt relie deux langues ; un héritage suit la filiation.
 - **Briques** : une par unité, qui affiche la forme canonique et un sens glosé de son unité.
 - **Recettes** : les emplacements suivent les parties et acceptent la brique de chaque partie ; aucune suite de briques ne mène à deux recettes ; aucune analyse non retenue ; une définition pour le mot résultat.
-- **Fascicules** : numéros uniques ; un mot n’est le résultat que d’un fascicule ; un résultat est un mot avec une recette ; un ingrédient a une brique ; autonomie (tout ingrédient est déclaré, et publié dans ce fascicule ou un précédent) ; en avertissement : taille de 20 à 30 mots (ADR 0022), ingrédients inutiles, chronologie.
+- **Fascicules** : numéros uniques ; un mot n’est le résultat que d’un fascicule ; un résultat est un mot avec une recette ; un ingrédient a une brique ; autonomie (tout ingrédient est déclaré, et publié dans ce fascicule ou un précédent) ; graines (ADR 0030) : briques existantes, déclarées par le fascicule, sans doublon, de 1 à 5 exemplaires ; en avertissement : taille de 20 à 30 mots (ADR 0022), ingrédients inutiles, chronologie, règle d’amorçage (au moins trois recettes réalisables avec les seules graines, toutes ensemble ; un premier fascicule sans graines).
 - **Exclusions** : aucune ne contredit une recette.
 - **Médias** : cible existante ; une seule silhouette par unité ou langue, une seule jaquette par fascicule ; fichier présent et conforme au profil SVG ; en avertissement : fichier de `medias/` que nul média ne déclare. Pour chaque fascicule qui n’est pas de test : chaque carte et chaque langue citée (celle de l’unité ou d’un étymon) a sa silhouette, et le fascicule sa jaquette. C’est un avertissement, et une erreur avec `--publication`.
 - **Avec `--publication`**, pour chaque fascicule qui n’est pas de test : tout fait publié est `relu`, cite au moins une source de rôle `reference` (deux pour un fait `discutee`) avec l’entrée consultée, et n’est pas `non_retenue`. Le Wiktionnaire seul ne suffit jamais (ADR 0014). Chaque exclusion est relue.
@@ -111,7 +111,7 @@ La page montre les notes internes et les faits non relus. Elle reste locale : `r
 | Fichier | Contenu |
 |---|---|
 | `r/<sha256>.json` | Ressources : carte de chaque unité déclarée, recette, exclusions d’un fascicule. |
-| `f/<sha256>.json` | Manifeste de fascicule : compteurs hors légendaires, briques tirables, chemins des cartes et de leurs silhouettes, silhouettes des langues citées (`langues`), jaquette, recettes et exclusions. |
+| `f/<sha256>.json` | Manifeste de fascicule : identifiant, compteurs hors légendaires, briques tirables, graines, chemins des cartes et de leurs silhouettes, silhouettes des langues citées (`langues`), jaquette, recettes et exclusions. |
 | `a/<sha256>.svg` | Médias : silhouettes et jaquettes, nommées d’après l’empreinte de leurs octets, jamais d’après le mot ni l’identifiant (ADR 0025). |
 | `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date et son manifeste. La tâche de parution en tire `public/index.json`. |
 

@@ -160,3 +160,11 @@ def test_verifier_signale_un_media_altere(depot, tmp_path):
     fichier = next((tmp_path / "a" / "a").iterdir())
     fichier.write_bytes(fichier.read_bytes() + b" ")
     assert verifier(tmp_path / "a") == [f"Empreinte fausse : a/{fichier.name}"]
+
+
+def test_manifeste_porte_les_graines(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    manifeste = json.loads((tmp_path / "a" / parutions["fascicules"][0]["manifeste"]).read_text())
+    attendues = sorted(depot.fascicule()[1]["graines"], key=lambda g: g["brique_id"])
+    assert manifeste["graines"] == attendues
+    assert manifeste["id"] == depot.fascicule()[1]["id"]
