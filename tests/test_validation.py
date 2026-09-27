@@ -484,7 +484,7 @@ def test_media_orphelin(depot):
 
 
 def test_media_svg_invalide(depot):
-    depot.media("silhouette", "unite_id", depot.uid("iste"), svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><script>alert(1)</script></svg>')
+    depot.media("silhouette", "unite_id", depot.uid("phile"), svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><script>alert(1)</script></svg>')
     assert erreurs(depot.valider()) == {"media.svg_invalide"}
 
 
@@ -543,6 +543,7 @@ def test_profil_svg_admet_evidement_et_decoupe():
 
 def test_media_manquant_avertit_hors_publication(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    depot.media_de("fascicule_id", depot.fascicule()[1]["id"])[0].unlink()
     rapport = depot.valider()
     assert "media.manquant" in avertissements(rapport)
     assert "media.manquant" not in erreurs(rapport)
@@ -569,7 +570,7 @@ def _completer_medias(depot):
     """Une silhouette pour chaque carte et chaque langue citée, et la jaquette du fascicule."""
     _, fascicule = depot.fascicule()
     catalogue = charger(depot.racine, Rapport())
-    illustres = {m.get("unite_id") or m.get("langue_id") for m in catalogue.medias.values()}
+    illustres = {m.get("unite_id") or m.get("langue_id") or m.get("fascicule_id") for m in catalogue.medias.values()}
     uids = [l["unite_id"] for l in fascicule["unites"]]
     for uid in uids:
         if uid not in illustres:
@@ -577,7 +578,8 @@ def _completer_medias(depot):
     for lid in langues_citees(catalogue, uids):
         if lid not in illustres:
             depot.media("silhouette", "langue_id", lid)
-    depot.media("jaquette", "fascicule_id", fascicule["id"])
+    if fascicule["id"] not in illustres:
+        depot.media("jaquette", "fascicule_id", fascicule["id"])
 
 
 def _rendre_publiable(depot):

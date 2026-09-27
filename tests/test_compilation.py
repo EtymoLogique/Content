@@ -119,6 +119,9 @@ def test_cli_essai(depot, tmp_path, capsys):
 
 
 def test_silhouettes_des_cartes_et_des_langues(depot, tmp_path):
+    chemin, sans = depot.media_de("unite_id", depot.uid("mener"))
+    chemin.unlink()
+    (depot.racine / "medias" / sans["fichier"]).unlink()
     parutions = _compiler(depot, tmp_path / "a")
     manifeste = _manifeste(tmp_path / "a", parutions["fascicules"][0])
     _, media = depot.media_de("unite_id", depot.uid("biologie"))
@@ -128,15 +131,14 @@ def test_silhouettes_des_cartes_et_des_langues(depot, tmp_path):
     assert next(c for c in manifeste["cartes"] if c["id"] == depot.uid("mener"))["silhouette"] is None
     assert [l["id"] for l in manifeste["langues"]] == sorted(l["id"] for l in manifeste["langues"])
     assert {"lng_wa90y54n", "lng_kmf44d76"} <= {l["id"] for l in manifeste["langues"] if l["silhouette"]}
-    assert manifeste["jaquette"] is None
+    assert manifeste["jaquette"].startswith("a/")
 
 
 def test_jaquette_et_media_partage(depot, tmp_path):
-    fascicule = depot.fascicule()[1]["id"]
-    depot.media("jaquette", "fascicule_id", fascicule)
     # Deux cartes au même dessin partagent un seul fichier publié.
     _, geo = depot.media_de("unite_id", depot.uid("géo"))
-    depot.media("silhouette", "unite_id", depot.uid("iste"), svg=(depot.racine / "medias" / geo["fichier"]).read_text(encoding="utf-8"))
+    _, iste = depot.media_de("unite_id", depot.uid("iste"))
+    (depot.racine / "medias" / iste["fichier"]).write_bytes((depot.racine / "medias" / geo["fichier"]).read_bytes())
     parutions = _compiler(depot, tmp_path / "a")
     manifeste = _manifeste(tmp_path / "a", parutions["fascicules"][0])
     assert manifeste["jaquette"].startswith("a/")

@@ -1,4 +1,4 @@
-"""Interface en ligne de commande : « valider », « compiler » et « nouvel-id »."""
+"""Interface en ligne de commande : « valider », « compiler », « visualiser » et « nouvel-id »."""
 
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ from etymo_contenu.compilation import compiler, ecrire, verifier
 from etymo_contenu.controles import controler
 from etymo_contenu.ids import PREFIXES, nouvel_id
 from etymo_contenu.rapport import Rapport
+from etymo_contenu.visualisation import ecrire_page
 
 
 def valider(racine: Path, publication: bool = False) -> Rapport:
@@ -40,6 +41,10 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Hors-prod seulement : inclure les fascicules de test et les faits non relus. L’artefact est marqué « essai ».",
     )
+
+    p_vis = sous.add_parser("visualiser", help="Écrire une page HTML locale qui montre tout le catalogue : graphe, cartes, silhouettes.")
+    p_vis.add_argument("--racine", type=Path, default=Path.cwd(), help="Racine du dépôt (par défaut : dossier courant).")
+    p_vis.add_argument("--sortie", type=Path, default=Path("rapports/catalogue.html"), help="Fichier écrit (par défaut : rapports/catalogue.html, ignoré par Git).")
 
     p_id = sous.add_parser("nouvel-id", help="Générer des identifiants opaques inédits.")
     p_id.add_argument("prefixe", choices=sorted(PREFIXES), help="Type d’objet.")
@@ -75,6 +80,15 @@ def main(argv: list[str] | None = None) -> int:
             f"{len(artefact.fichiers)} fichiers, {len(parutions['fascicules'])} fascicule(s), "
             f"version {parutions['version']}, mode {mode} → {args.sortie}"
         )
+        return 0
+
+    if args.commande == "visualiser":
+        # La page s'écrit même sur un dépôt invalide : elle montre ses diagnostics.
+        rapport = Rapport()
+        catalogue = charger(args.racine, rapport)
+        controler(catalogue, rapport)
+        ecrire_page(catalogue, rapport, args.sortie)
+        print(f"{len(catalogue.unites)} unités, {len(rapport.erreurs)} erreur(s), {len(rapport.avertissements)} avertissement(s) → {args.sortie}")
         return 0
 
     rapport = Rapport()

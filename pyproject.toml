@@ -20,6 +20,9 @@ etymo-contenu = "etymo_contenu.cli:main"
 [tool.setuptools.packages.find]
 where = ["outils"]
 
+[tool.setuptools.package-data]
+etymo_contenu = ["*.html"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["outils"]

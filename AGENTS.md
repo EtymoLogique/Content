@@ -21,7 +21,7 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 | `ludique/` | Couche ludique : briques, recettes, fascicules, exclusions, médias. Elle référence la couche linguistique, jamais l’inverse (ADR 0009). |
 | `medias/` | SVG bruts des silhouettes et des jaquettes, sous des noms de travail lisibles, déclarés par `ludique/medias/` (ADR 0026). |
 | `schemas/` | JSON Schema 2020-12, `communs.schema.json` pour les définitions partagées (`fait`, `libelles`, identifiants). |
-| `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `medias.py` (profil SVG, langues citées), `compilation.py` (artefact en hash de contenu), `rapport.py`, `ids.py`, `cli.py`. |
+| `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `medias.py` (profil SVG, langues citées), `compilation.py` (artefact en hash de contenu), `visualisation.py` et `visualisation.html` (page locale du catalogue, jamais publiée), `rapport.py`, `ids.py`, `cli.py`. |
 | `tests/` | `conftest.py` copie le dépôt dans un dossier temporaire ; chaque test casse une seule règle. |
 | `imports/`, `rapports/`, `artefact/` | Ignorés par Git. |
 

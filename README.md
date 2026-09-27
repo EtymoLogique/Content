@@ -38,11 +38,11 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `ludique/medias/` | Médias : type (silhouette ou jaquette), fichier, unité, langue ou fascicule illustré | `media` |
 | `medias/silhouettes/`, `medias/jaquettes/` | Fichiers SVG bruts, sous des noms de travail lisibles (ADR 0026) | profil SVG |
 | `schemas/` | JSON Schema (draft 2020-12) de chaque type d’objet | — |
-| `outils/etymo_contenu/` | Validateur, compilateur de l’artefact et générateur d’identifiants | — |
+| `outils/etymo_contenu/` | Validateur, compilateur de l’artefact, visualisation locale et générateur d’identifiants | — |
 | `artefact/` | Artefact compilé : **ignoré par Git** | — |
 | `tests/` | Un test par règle de validation | — |
 | `imports/` | Imports datés du Wiktionnaire : **ignoré par Git** | — |
-| `rapports/` | Rapports de validation générés : **ignoré par Git** | — |
+| `rapports/` | Rapports de validation et visualisation générés : **ignoré par Git** | — |
 
 ### Conventions d’édition
 
@@ -70,11 +70,22 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/etymo-contenu valider --strict         # les avertissements font échouer
 .venv/bin/etymo-contenu compiler                 # artefact publiable dans artefact/
 .venv/bin/etymo-contenu compiler --essai         # hors-prod : fascicules de test et faits non relus compris
+.venv/bin/etymo-contenu visualiser               # page locale rapports/catalogue.html : graphe, cartes, silhouettes
 .venv/bin/etymo-contenu nouvel-id unt -n 3       # trois identifiants d'unité inédits
 .venv/bin/python -m pytest -q                    # tests du validateur et du compilateur
 ```
 
 La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance les tests et `valider` à chaque push.
+
+### Visualiser le catalogue
+
+`etymo-contenu visualiser` écrit une page HTML autonome, par défaut `rapports/catalogue.html`, à ouvrir dans un navigateur. Elle ne charge rien d’extérieur.
+
+- **Graphe** : chaque unité est un nœud. Sa forme donne la nature (rond pour un mot, carré pour une brique), son contour donne la langue. Les flèches pleines vont des parties au mot composé, les flèches pointillées suivent les relations étymologiques. On peut filtrer par fascicule (ou « sans fascicule »), nature, langue et type de lien, ne garder que les brouillons, et chercher une forme ou une glose. Un clic ouvre la fiche : sens, faits et relecture, brique, recettes, fascicules, silhouette, compositions et relations. Échap ou un clic sur le fond la referme.
+- **Cartes** : pour chaque fascicule, sa jaquette (un clic ouvre la fiche du fascicule), puis ses cartes avec leur silhouette. Viennent ensuite les langues, puis les unités hors fascicule. Une carte sans silhouette a un bord en pointillé.
+- **Diagnostics** : le rapport de `valider` est affiché dans la page, qui se génère même sur un dépôt invalide.
+
+La page montre les notes internes et les faits non relus. Elle reste locale : `rapports/` est ignoré par Git, et la page ne se publie jamais. Une silhouette n’y est insérée que si elle passe le profil SVG.
 
 ### Ce que vérifie `valider`
 
@@ -126,7 +137,7 @@ Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose da
 - Le **Wiktionnaire** sert au repérage seulement : **aucun de ses textes n’est copié** (ADR 0014). Ses imports datés restent dans `imports/`, hors de Git.
 - Les **références savantes** (TLFi, Bailly, Gaffiot…) sont citées, jamais recopiées. Les gloses, définitions et explications sont rédigées par l’équipe.
 - Le jeu actuel (fascicule 0) reprend les **exemples travaillés** du modèle de données. Tout y est en `brouillon`, à vérifier avant toute publication.
-- Ses silhouettes (`medias/silhouettes/`) sont exportées des maquettes du codex (`cardArt`, dossier de conception) : elles illustrent le format, sans préfigurer un fascicule réel (ADR 0026).
+- Ses silhouettes (`medias/silhouettes/`) sont exportées des maquettes du codex (`cardArt`, dossier de conception) ou dessinées selon la même grammaire, et sa jaquette « BETA » (`medias/jaquettes/beta.svg`) suit la palette des jaquettes. Elles illustrent le format, sans préfigurer un fascicule réel (ADR 0026).
 
 | Périmètre | Licence |
 |---|---|

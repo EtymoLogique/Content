@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:">
+<meta name="robots" content="noindex">
+<title>ÉtymoLogique — catalogue (local)</title>
+<style>
+  :root {
+    --encre: #0f1f19; --encre-2: #44564d; --papier: #f3eee3; --creme: #fbf8f1; --filet: #d9d2c3;
+    --mot: #0f1f19; --prefixe: #c96f4a; --suffixe: #3f7a8c; --corail: #c0503a;
+    --art-bg: var(--creme);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--encre); background: var(--papier); height: 100vh; display: flex; flex-direction: column; }
+  header { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; align-items: center; padding: .6rem 1rem; border-bottom: 1px solid var(--filet); background: var(--creme); }
+  header h1 { font-size: 1rem; margin: 0; }
+  .compteurs { color: var(--encre-2); }
+  .onglets button, .diag-btn { border: 1px solid var(--filet); background: transparent; padding: .25rem .7rem; border-radius: 999px; cursor: pointer; font: inherit; color: inherit; }
+  .onglets button[aria-selected="true"] { background: var(--encre); color: var(--papier); border-color: var(--encre); }
+  .diag-btn.erreur { border-color: var(--corail); color: var(--corail); }
+  .filtres { display: flex; flex-wrap: wrap; gap: .4rem .9rem; align-items: center; padding: .45rem 1rem; border-bottom: 1px solid var(--filet); font-size: 13px; }
+  .filtres fieldset { border: 0; margin: 0; padding: 0; display: flex; gap: .5rem; align-items: center; }
+  .filtres legend { float: left; margin-right: .3rem; color: var(--encre-2); }
+  .filtres input[type=search], .filtres select { font: inherit; padding: .2rem .4rem; border: 1px solid var(--filet); border-radius: 4px; background: var(--creme); }
+  main { flex: 1; display: flex; min-height: 0; }
+  .vue { flex: 1; min-width: 0; position: relative; overflow: auto; }
+  .vue[hidden] { display: none; }
+  #graphe svg { width: 100%; height: 100%; display: block; cursor: grab; user-select: none; }
+  #graphe svg.glisse { cursor: grabbing; }
+  .noeud { cursor: pointer; outline: none; }
+  .noeud:focus-visible circle, .noeud:focus-visible rect { stroke: var(--corail); }
+  .noeud text { font-size: 12px; paint-order: stroke; stroke: var(--papier); stroke-width: 3px; }
+  .noeud.estompe, .lien.estompe { opacity: .12; }
+  .noeud.choisi circle, .noeud.choisi rect { stroke: var(--corail); stroke-width: 3; }
+  .lien { fill: none; stroke-width: 1.4; }
+  .lien.composition { stroke: #8a8f86; }
+  .lien.relation { stroke-dasharray: 5 4; }
+  .legende { position: absolute; left: .75rem; bottom: .75rem; background: color-mix(in srgb, var(--creme) 92%, transparent); border: 1px solid var(--filet); border-radius: 6px; padding: .5rem .7rem; font-size: 12px; }
+  .legende div { display: flex; gap: .4rem; align-items: center; }
+  .pastille { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  .trait { width: 22px; height: 0; border-top: 2px solid; display: inline-block; }
+  @media (max-width: 900px) { aside { width: 240px !important; } .legende { display: none; } }
+  aside { width: 340px; border-left: 1px solid var(--filet); background: var(--creme); overflow: auto; padding: 1rem; }
+  aside h2 { margin: 0 0 .2rem; font-size: 1.3rem; }
+  aside h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; color: var(--encre-2); margin: 1rem 0 .3rem; }
+  aside ul { margin: 0; padding-left: 1.1rem; }
+  aside a { color: inherit; cursor: pointer; text-decoration: underline; }
+  .meta { color: var(--encre-2); font-size: 12px; }
+  .badge { display: inline-block; font-size: 11px; padding: 0 .4rem; border-radius: 999px; border: 1px solid var(--filet); margin-right: .25rem; }
+  .badge.brouillon, .badge.en_relecture { border-color: #d8a23a; color: #8a5d00; }
+  .badge.relu { border-color: #4e8c5c; color: #2f6b3d; }
+  .badge.rejete, .badge.non_retenue { border-color: var(--corail); color: var(--corail); }
+  .note { background: #fff6d6; border-left: 3px solid #d8a23a; padding: .3rem .5rem; font-size: 12px; margin-top: .3rem; }
+  .apercu { width: 150px; aspect-ratio: 3/4; border: 1px solid var(--filet); border-radius: 8px; overflow: hidden; color: var(--encre); background: var(--creme); }
+  .apercu svg { width: 100%; height: 100%; }
+  #cartes { padding: 1rem 1.25rem 2rem; }
+  #cartes h2 { font-size: 1.05rem; margin: 1.4rem 0 .6rem; display: flex; gap: .6rem; align-items: baseline; }
+  .grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: .8rem; }
+  .carte { position: relative; aspect-ratio: 3/4; border-radius: 10px; overflow: hidden; background: var(--creme); border: 1px solid var(--filet); cursor: pointer; display: flex; flex-direction: column; text-align: left; font: inherit; color: inherit; padding: 0; }
+  .carte .bandeau { height: 26px; display: flex; justify-content: space-between; align-items: center; padding: 0 .5rem; font-size: 11px; color: var(--papier); position: relative; z-index: 1; }
+  .carte .art { position: absolute; inset: 26px 0 0 0; color: var(--encre); opacity: .1; }
+  .carte .art svg { width: 100%; height: 100%; }
+  .carte .corps { position: relative; z-index: 1; padding: .6rem .55rem; display: flex; flex-direction: column; gap: .2rem; flex: 1; }
+  .carte .mot { font-weight: 650; font-size: 1.05rem; }
+  .carte .glose { color: var(--encre-2); font-size: 12px; }
+  .carte .pied { margin-top: auto; font-size: 11px; color: var(--encre-2); }
+  .carte.sans-art { border-style: dashed; }
+  .carte.sans-art .pied::before { content: "sans silhouette · "; color: var(--corail); }
+  .jaquette { position: relative; aspect-ratio: 3/4; border-radius: 10px; overflow: hidden; border: 1px solid var(--filet); background: var(--creme); cursor: pointer; padding: 0; font: inherit; color: var(--encre); display: flex; align-items: center; justify-content: center; text-align: center; }
+  .jaquette svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .jaquette .etiquette { position: absolute; left: .4rem; bottom: .4rem; background: var(--creme); border-radius: 999px; padding: 0 .45rem; font-size: 11px; }
+  .jaquette.absente { border: 2px dashed var(--corail); color: var(--corail); font-size: 12px; padding: .5rem; }
+  .apercu.grand { width: 100%; max-width: 300px; }
+  #diagnostics { position: fixed; right: 1rem; top: 3.2rem; width: min(640px, 90vw); max-height: 60vh; overflow: auto; background: var(--creme); border: 1px solid var(--filet); border-radius: 8px; box-shadow: 0 8px 24px rgb(0 0 0 / .12); padding: .6rem .9rem; z-index: 5; font-size: 12px; }
+  #diagnostics li { margin: .2rem 0; }
+  #diagnostics .erreur { color: var(--corail); }
+  .vide { color: var(--encre-2); font-style: italic; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ÉtymoLogique — catalogue</h1>
+  <span class="compteurs" id="compteurs"></span>
+  <nav class="onglets" role="tablist">
+    <button role="tab" aria-selected="true" data-vue="graphe">Graphe</button>
+    <button role="tab" aria-selected="false" data-vue="cartes">Cartes</button>
+  </nav>
+  <button class="diag-btn" id="diag-btn" type="button"></button>
+</header>
+<div class="filtres" id="filtres">
+  <input type="search" id="recherche" placeholder="Rechercher une forme, une glose…" aria-label="Rechercher">
+  <label>Fascicule <select id="fascicule"><option value="">tous</option><option value="__aucun">sans fascicule</option></select></label>
+  <label><input type="checkbox" id="brouillons"> brouillons seulement</label>
+  <fieldset id="f-natures"><legend>Nature</legend></fieldset>
+  <fieldset id="f-langues"><legend>Langue</legend></fieldset>
+  <fieldset id="f-liens"><legend>Liens</legend></fieldset>
+</div>
+<main>
+  <section class="vue" id="graphe" aria-label="Graphe des unités"></section>
+  <section class="vue" id="cartes" hidden aria-label="Cartes par fascicule"></section>
+  <aside id="detail"><p class="vide">Cliquez sur une unité pour voir sa fiche.</p></aside>
+</main>
+<div id="diagnostics" hidden></div>
+<script type="application/json" id="donnees">/*DONNEES*/null</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById("donnees").textContent);
+const SVGNS = "http://www.w3.org/2000/svg";
+const $ = (s) => document.querySelector(s);
+const el = (tag, attrs = {}, ...enfants) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") n.className = v; else if (k.startsWith("on")) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+  }
+  for (const e of enfants) if (e != null && e !== false) n.append(e instanceof Node ? e : String(e));
+  return n;
+};
+const ajoute = (parent, ...enfants) => parent.append(...enfants.filter((e) => e != null && e !== false));
+const sv = (tag, attrs = {}) => {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  return n;
+};
+
+const NATURES = { mot: "mot", prefixe: "préfixe", suffixe: "suffixe" };
+const COULEUR_NATURE = { mot: "#0f1f19", prefixe: "#e3b04b", suffixe: "#b8c9c2" };
+const TYPES_LIEN = [...new Set(D.liens.map((l) => l.type))].sort((a, b) => (a === "composition" ? -1 : b === "composition" ? 1 : a.localeCompare(b)));
+const COULEUR_LIEN = { composition: "#8a8f86", emprunt: "#b0553d", heritage: "#4e7a3a", forme_de_composition: "#6b5ca5" };
+const PALETTE = ["#2d6a8f", "#b0553d", "#4e7a3a", "#8a4f9e", "#b3882a", "#3f8c86", "#9e4f6b", "#5c6b2d"];
+const LANGUES = new Map(D.langues.map((l, i) => [l.id, { ...l, couleur: PALETTE[i % PALETTE.length] }]));
+const UNITES = new Map(D.unites.map((u) => [u.id, u]));
+const nomLangue = (id) => LANGUES.get(id)?.nom ?? id;
+const affiche = (u) => (u.nature === "prefixe" ? `${u.texte}-` : u.nature === "suffixe" ? `-${u.texte}` : u.texte);
+
+// Silhouette déjà passée par le profil SVG : on la parse en SVG, jamais en HTML, et on
+// préfixe ses identifiants pour que deux cartes d'une même page ne se les disputent pas.
+let compteurSvg = 0;
+function silhouette(media) {
+  if (!media?.svg) return null;
+  const doc = new DOMParser().parseFromString(media.svg, "image/svg+xml");
+  const racine = doc.documentElement;
+  if (racine.nodeName !== "svg") return null;
+  const prefixe = `s${++compteurSvg}-`;
+  for (const n of racine.querySelectorAll("[id]")) n.id = prefixe + n.id;
+  for (const n of racine.querySelectorAll("*")) {
+    for (const a of ["clip-path", "mask", "fill", "stroke"]) {
+      const v = n.getAttribute(a);
+      if (v && v.startsWith("url(#")) n.setAttribute(a, v.replace("url(#", `url(#${prefixe}`));
+    }
+  }
+  racine.setAttribute("aria-hidden", "true");
+  return document.importNode(racine, true);
+}
+
+// ------------------------------------------------------------------ en-tête
+const erreurs = D.diagnostics.filter((d) => d.niveau === "erreur");
+$("#compteurs").textContent = `${D.unites.length} unités · ${D.liens.filter((l) => l.type === "composition").length} parties de composition · ${D.liens.filter((l) => l.type !== "composition").length} relations · ${D.fascicules.length} fascicule(s)`;
+const diagBtn = $("#diag-btn");
+diagBtn.textContent = `${erreurs.length} erreur(s), ${D.diagnostics.length - erreurs.length} avertissement(s)`;
+if (erreurs.length) diagBtn.classList.add("erreur");
+const diag = $("#diagnostics");
+diag.append(D.diagnostics.length ? el("ul", {}, ...D.diagnostics.map((d) => el("li", { class: d.niveau }, `[${d.regle}] `, d.fichier ? `${d.fichier} — ` : "", d.message))) : el("p", { class: "vide" }, "Aucun diagnostic : valider passe."));
+diagBtn.addEventListener("click", () => (diag.hidden = !diag.hidden));
+
+for (const b of document.querySelectorAll(".onglets button")) {
+  b.addEventListener("click", () => {
+    for (const x of document.querySelectorAll(".onglets button")) x.setAttribute("aria-selected", String(x === b));
+    for (const v of document.querySelectorAll(".vue")) v.hidden = v.id !== b.dataset.vue;
+    if (b.dataset.vue === "graphe") redimensionner();
+  });
+}
+
+// ------------------------------------------------------------------ filtres
+const etat = { recherche: "", fascicule: "", brouillons: false, natures: new Set(Object.keys(NATURES)), langues: new Set(LANGUES.keys()), liens: new Set(TYPES_LIEN), choisi: null };
+for (const f of D.fascicules) $("#fascicule").append(el("option", { value: f.id }, `n° ${f.numero}${f.test ? " (test)" : ""}`));
+function cases(conteneur, valeurs, ensemble, libelle, couleur) {
+  for (const v of valeurs) {
+    const c = el("input", { type: "checkbox", checked: "" });
+    c.addEventListener("change", () => { c.checked ? ensemble.add(v) : ensemble.delete(v); appliquer(); });
+    conteneur.append(el("label", {}, c, " ", couleur ? el("span", { class: "pastille", style: `background:${couleur(v)}` }) : null, " ", libelle(v)));
+  }
+}
+cases($("#f-natures"), Object.keys(NATURES), etat.natures, (v) => NATURES[v], (v) => COULEUR_NATURE[v]);
+cases($("#f-langues"), [...LANGUES.keys()], etat.langues, nomLangue, (v) => LANGUES.get(v).couleur);
+cases($("#f-liens"), TYPES_LIEN, etat.liens, (v) => v.replaceAll("_", " "), (v) => COULEUR_LIEN[v] ?? "#999");
+$("#recherche").addEventListener("input", (e) => { etat.recherche = e.target.value.trim().toLowerCase(); appliquer(); });
+$("#fascicule").addEventListener("change", (e) => { etat.fascicule = e.target.value; appliquer(); });
+$("#brouillons").addEventListener("change", (e) => { etat.brouillons = e.target.checked; appliquer(); });
+// Échap ou clic sur le fond : on désélectionne (et on ferme les diagnostics).
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
+  if (!diag.hidden) diag.hidden = true;
+  else choisir(null);
+});
+
+const texteRecherche = (u) => [u.texte, u.translitteration, ...u.sens.flatMap((s) => [s.glose, s.definition])].filter(Boolean).join(" ").toLowerCase();
+// Filtres communs au graphe et aux cartes.
+const garde = (u) => etat.natures.has(u.nature) && etat.langues.has(u.langue) && (!etat.brouillons || u.fait?.relecture === "brouillon");
+function visible(u) {
+  if (!garde(u)) return false;
+  if (etat.fascicule === "__aucun") return u.fascicules.length === 0;
+  if (etat.fascicule) {
+    const f = D.fascicules.find((x) => x.id === etat.fascicule);
+    // Un fascicule montre ses unités et les étymons de leurs relations.
+    const dans = new Set(f.unites);
+    const etymons = D.liens.filter((l) => l.type !== "composition" && dans.has(l.cible)).map((l) => l.source);
+    if (!dans.has(u.id) && !etymons.includes(u.id)) return false;
+  }
+  return true;
+}
+const correspond = (u) => !etat.recherche || texteRecherche(u).includes(etat.recherche);
+
+// ------------------------------------------------------------------- graphe
+const conteneur = $("#graphe");
+const svg = sv("svg", { role: "img", "aria-label": "Graphe des unités, compositions et relations" });
+const defs = sv("defs");
+for (const t of TYPES_LIEN) {
+  const m = sv("marker", { id: `fl-${t}`, viewBox: "0 0 10 10", refX: "10", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse" });
+  m.append(sv("path", { d: "M0 0L10 5L0 10Z", fill: COULEUR_LIEN[t] ?? "#999" }));
+  defs.append(m);
+}
+const scene = sv("g");
+const calqueLiens = sv("g");
+const calqueNoeuds = sv("g");
+scene.append(calqueLiens, calqueNoeuds);
+svg.append(defs, scene);
+conteneur.append(svg);
+
+const legende = el("div", { class: "legende" },
+  ...Object.entries(NATURES).map(([k, v]) => el("div", {}, el("span", { class: "pastille", style: `background:${COULEUR_NATURE[k]};${k === "mot" ? "" : "border-radius:3px"}` }), `${v} (contour : langue)`)),
+  ...TYPES_LIEN.map((t) => el("div", {}, el("span", { class: "trait", style: `border-color:${COULEUR_LIEN[t] ?? "#999"};${t === "composition" ? "" : "border-top-style:dashed"}` }), t.replaceAll("_", " "))),
+  el("div", { class: "meta" }, "Molette : zoom · glisser le fond : déplacer · glisser un nœud : l’épingler · double-clic : recadrer"));
+conteneur.append(legende);
+
+const noeuds = D.unites.map((u, i) => {
+  const a = (i / D.unites.length) * Math.PI * 2;
+  return { u, x: Math.cos(a) * 300, y: Math.sin(a) * 300, vx: 0, vy: 0, fixe: false };
+});
+const parId = new Map(noeuds.map((n) => [n.u.id, n]));
+const aretes = D.liens.map((l) => ({ l, a: parId.get(l.source), b: parId.get(l.cible) }));
+
+for (const ar of aretes) {
+  ar.el = sv("path", { class: `lien ${ar.l.type === "composition" ? "composition" : "relation"}`, stroke: COULEUR_LIEN[ar.l.type] ?? "#999", "marker-end": `url(#fl-${ar.l.type})` });
+  ar.el.append(sv("title")); ar.el.firstChild.textContent = `${ar.l.type.replaceAll("_", " ")} : ${affiche(ar.a.u)} → ${affiche(ar.b.u)}`;
+  calqueLiens.append(ar.el);
+}
+for (const n of noeuds) {
+  const g = sv("g", { class: "noeud", tabindex: "0" });
+  const r = n.u.nature === "mot" ? 11 : 9;
+  n.r = r;
+  const forme = n.u.nature === "mot" ? sv("circle", { r }) : sv("rect", { x: -r, y: -r, width: 2 * r, height: 2 * r, rx: 3 });
+  forme.setAttribute("fill", COULEUR_NATURE[n.u.nature]);
+  forme.setAttribute("stroke", LANGUES.get(n.u.langue)?.couleur ?? "#999");
+  forme.setAttribute("stroke-width", "3.5");
+  const t = sv("text", { x: r + 4, y: 4 });
+  t.textContent = affiche(n.u);
+  const titre = sv("title"); titre.textContent = `${affiche(n.u)} — ${NATURES[n.u.nature]}, ${nomLangue(n.u.langue)}`;
+  g.append(titre, forme, t);
+  g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); choisir(n.u.id); } });
+  n.el = g;
+  calqueNoeuds.append(g);
+}
+
+// Disposition par forces, sans bibliothèque : répulsion, ressorts, gravité, refroidissement.
+let chaleur = 1;
+function pas() {
+  const actifs = noeuds.filter((n) => n.visible);
+  for (let i = 0; i < actifs.length; i++) {
+    for (let j = i + 1; j < actifs.length; j++) {
+      const a = actifs[i], b = actifs[j];
+      let dx = b.x - a.x, dy = b.y - a.y;
+      let d2 = dx * dx + dy * dy || 0.01;
+      const f = 2600 / d2;
+      const d = Math.sqrt(d2);
+      dx /= d; dy /= d;
+      a.vx -= dx * f; a.vy -= dy * f; b.vx += dx * f; b.vy += dy * f;
+    }
+  }
+  for (const ar of aretes) {
+    if (!ar.visible) continue;
+    const dx = ar.b.x - ar.a.x, dy = ar.b.y - ar.a.y;
+    const d = Math.hypot(dx, dy) || 0.01;
+    const f = (d - 90) * 0.03;
+    ar.a.vx += (dx / d) * f; ar.a.vy += (dy / d) * f; ar.b.vx -= (dx / d) * f; ar.b.vy -= (dy / d) * f;
+  }
+  for (const n of actifs) {
+    n.vx -= n.x * 0.004; n.vy -= n.y * 0.004;
+    if (!n.fixe) { n.x += Math.max(-30, Math.min(30, n.vx * chaleur)); n.y += Math.max(-30, Math.min(30, n.vy * chaleur)); }
+    n.vx *= 0.55; n.vy *= 0.55;
+  }
+  chaleur = Math.max(0.02, chaleur * 0.985);
+}
+function dessiner() {
+  for (const n of noeuds) n.el.setAttribute("transform", `translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})`);
+  for (const ar of aretes) {
+    const dx = ar.b.x - ar.a.x, dy = ar.b.y - ar.a.y, d = Math.hypot(dx, dy) || 1;
+    const x2 = ar.b.x - (dx / d) * (ar.b.r + 3), y2 = ar.b.y - (dy / d) * (ar.b.r + 3);
+    ar.el.setAttribute("d", `M${ar.a.x.toFixed(1)} ${ar.a.y.toFixed(1)}L${x2.toFixed(1)} ${y2.toFixed(1)}`);
+  }
+}
+function boucle() {
+  if (chaleur > 0.021) { pas(); pas(); dessiner(); }
+  requestAnimationFrame(boucle);
+}
+
+// Zoom, déplacement, épinglage.
+const vue = { x: 0, y: 0, k: 1 };
+function redimensionner() {
+  const { width, height } = conteneur.getBoundingClientRect();
+  if (!vue.init && width) cadrer();
+  scene.setAttribute("transform", `translate(${vue.x} ${vue.y}) scale(${vue.k})`);
+}
+// Cadre tout le graphe visible dans la vue.
+function cadrer() {
+  const { width, height } = conteneur.getBoundingClientRect();
+  const vis = noeuds.filter((n) => n.visible);
+  if (!width || !vis.length) return;
+  const xs = vis.map((n) => n.x), ys = vis.map((n) => n.y);
+  const [x0, x1, y0, y1] = [Math.min(...xs) - 30, Math.max(...xs) + 110, Math.min(...ys) - 30, Math.max(...ys) + 30];
+  vue.k = Math.max(0.2, Math.min(2, Math.min(width / (x1 - x0), height / (y1 - y0))));
+  vue.x = width / 2 - ((x0 + x1) / 2) * vue.k;
+  vue.y = height / 2 - ((y0 + y1) / 2) * vue.k;
+  vue.init = true;
+}
+svg.addEventListener("dblclick", () => { cadrer(); redimensionner(); });
+window.addEventListener("resize", redimensionner);
+svg.addEventListener("wheel", (e) => {
+  e.preventDefault();
+  const r = svg.getBoundingClientRect();
+  const px = e.clientX - r.left, py = e.clientY - r.top;
+  const k = Math.max(0.2, Math.min(4, vue.k * Math.exp(-e.deltaY * 0.0015)));
+  vue.x = px - ((px - vue.x) * k) / vue.k; vue.y = py - ((py - vue.y) * k) / vue.k; vue.k = k;
+  redimensionner();
+}, { passive: false });
+let glisse = null;
+svg.addEventListener("pointerdown", (e) => {
+  const g = e.target.closest(".noeud");
+  const n = g && noeuds.find((x) => x.el === g);
+  glisse = { n, x: e.clientX, y: e.clientY, bouge: false };
+  svg.setPointerCapture(e.pointerId);
+  svg.classList.add("glisse");
+});
+svg.addEventListener("pointermove", (e) => {
+  if (!glisse) return;
+  const dx = e.clientX - glisse.x, dy = e.clientY - glisse.y;
+  if (Math.abs(dx) + Math.abs(dy) > 2) glisse.bouge = true;
+  glisse.x = e.clientX; glisse.y = e.clientY;
+  if (glisse.n) { glisse.n.x += dx / vue.k; glisse.n.y += dy / vue.k; glisse.n.fixe = true; chaleur = Math.max(chaleur, 0.3); dessiner(); }
+  else { vue.x += dx; vue.y += dy; redimensionner(); }
+});
+// La capture du pointeur détourne le « click » vers le <svg> : on choisit donc au relâcher.
+svg.addEventListener("pointerup", () => {
+  svg.classList.remove("glisse");
+  if (glisse && !glisse.bouge) choisir(glisse.n ? glisse.n.u.id : null);
+  glisse = null;
+});
+
+// ------------------------------------------------------------------- fiche
+function badge(fait) {
+  return [fait?.confiance && el("span", { class: `badge ${fait.confiance}` }, fait.confiance), fait?.relecture && el("span", { class: `badge ${fait.relecture}` }, fait.relecture)];
+}
+function lienUnite(id) { const u = UNITES.get(id); return el("a", { onclick: () => choisir(id) }, u ? affiche(u) : id); }
+// Fiche d'un fascicule, ouverte depuis sa jaquette.
+function choisirFascicule(f) {
+  choisir(null);
+  const aside = $("#detail");
+  aside.replaceChildren();
+  const us = f.unites.map((id) => UNITES.get(id)).filter(Boolean);
+  ajoute(aside,
+    el("h2", {}, `Fascicule n° ${f.numero}`),
+    el("div", { class: "meta" }, `${f.parution}${f.test ? " · test, jamais publié" : ""} · `, el("code", {}, f.id)),
+    el("h3", {}, "Jaquette"));
+  const art = silhouette(f.jaquette);
+  ajoute(aside, art ? el("div", { class: "apercu grand" }, art) : el("p", { class: "vide" }, f.jaquette?.probleme ? `${f.jaquette.fichier} : ${f.jaquette.probleme}` : "Aucune jaquette déclarée."));
+  if (f.jaquette?.fichier) ajoute(aside, el("div", { class: "meta" }, `medias/${f.jaquette.fichier}`));
+  const compte = (n) => us.filter((u) => u.nature === n).length;
+  ajoute(aside, el("h3", {}, "Contenu"), el("ul", {},
+    el("li", {}, `${f.unites.length} carte(s) : ${compte("mot")} mot(s), ${compte("prefixe")} préfixe(s), ${compte("suffixe")} suffixe(s)`),
+    el("li", {}, `${us.filter((u) => u.silhouette?.svg).length} silhouette(s) sur ${us.length}`),
+    el("li", {}, `${us.filter((u) => u.fait?.relecture === "brouillon").length} brouillon(s)`)));
+}
+
+function choisir(id) {
+  etat.choisi = id;
+  for (const n of noeuds) n.el.classList.toggle("choisi", n.u.id === id);
+  const aside = $("#detail");
+  aside.replaceChildren();
+  if (!id) { ajoute(aside, el("p", { class: "vide" }, "Cliquez sur une unité pour voir sa fiche.")); return; }
+  const u = UNITES.get(id);
+  ajoute(aside, 
+    el("h2", {}, affiche(u)),
+    u.translitteration ? el("div", { class: "meta" }, u.translitteration) : null,
+    el("div", { class: "meta" }, `${NATURES[u.nature]} · ${nomLangue(u.langue)} · `, el("code", {}, u.id)),
+    el("div", {}, ...badge(u.fait)),
+    u.fait?.note ? el("div", { class: "note" }, u.fait.note) : null,
+  );
+  ajoute(aside, el("h3", {}, "Silhouette"));
+  const art = silhouette(u.silhouette);
+  ajoute(aside, art ? el("div", { class: "apercu" }, art) : el("p", { class: "vide" }, u.silhouette?.probleme ? `${u.silhouette.fichier} : ${u.silhouette.probleme}` : "Aucune."));
+  if (u.silhouette?.fichier) ajoute(aside, el("div", { class: "meta" }, `medias/${u.silhouette.fichier}`));
+  ajoute(aside, el("h3", {}, "Sens"), el("ul", {}, ...u.sens.map((s) => el("li", {}, el("strong", {}, s.glose ?? "—"), s.definition ? ` : ${s.definition}` : ""))));
+  ajoute(aside, el("h3", {}, "Jeu"), el("ul", {},
+    el("li", {}, u.brique ? `brique ${u.brique.id}, ${u.brique.rarete}` : "pas de brique"),
+    u.nature === "mot" ? el("li", {}, u.recettes.length ? `recette(s) : ${u.recettes.join(", ")}` : "pas de recette") : null,
+    el("li", {}, u.fascicules.length ? u.fascicules.map((f) => `fascicule n° ${f.numero} (${f.role})`).join(", ") : "dans aucun fascicule")));
+  const parties = D.liens.filter((l) => l.type === "composition" && l.cible === id).sort((a, b) => (a.id === b.id ? a.rang - b.rang : a.id.localeCompare(b.id)));
+  if (parties.length) {
+    const parCmp = Map.groupBy ? Map.groupBy(parties, (l) => l.id) : parties.reduce((m, l) => m.set(l.id, [...(m.get(l.id) ?? []), l]), new Map());
+    ajoute(aside, el("h3", {}, "Composition"));
+    for (const [cid, ls] of parCmp) ajoute(aside, el("p", {}, ...ls.flatMap((l, i) => [i ? " + " : "", lienUnite(l.source)]), ls[0].sens_litteral ? el("div", { class: "meta" }, `« ${ls[0].sens_litteral} »${ls[0].preferee ? " · préférée" : ""} · ${cid}`) : null));
+  }
+  const emplois = D.liens.filter((l) => l.type === "composition" && l.source === id);
+  if (emplois.length) ajoute(aside, el("h3", {}, "Entre dans"), el("ul", {}, ...[...new Set(emplois.map((l) => l.cible))].map((c) => el("li", {}, lienUnite(c)))));
+  const relations = D.liens.filter((l) => l.type !== "composition" && (l.source === id || l.cible === id));
+  if (relations.length) ajoute(aside, el("h3", {}, "Relations étymologiques"), el("ul", {}, ...relations.map((l) => el("li", {}, lienUnite(l.source), ` → ${l.type.replaceAll("_", " ")} → `, lienUnite(l.cible), " ", ...badge(l.fait)))));
+  appliquer(false);
+}
+
+function appliquer(relancer = true) {
+  const voisins = new Set();
+  if (etat.choisi) {
+    voisins.add(etat.choisi);
+    for (const l of D.liens) { if (l.source === etat.choisi) voisins.add(l.cible); if (l.cible === etat.choisi) voisins.add(l.source); }
+  }
+  for (const n of noeuds) {
+    n.visible = visible(n.u);
+    n.el.style.display = n.visible ? "" : "none";
+    n.el.classList.toggle("estompe", !correspond(n.u) || (etat.choisi && !voisins.has(n.u.id)));
+  }
+  for (const ar of aretes) {
+    ar.visible = ar.a.visible && ar.b.visible && etat.liens.has(ar.l.type);
+    ar.el.style.display = ar.visible ? "" : "none";
+    ar.el.classList.toggle("estompe", Boolean(etat.choisi) && ar.a.u.id !== etat.choisi && ar.b.u.id !== etat.choisi);
+  }
+  if (relancer) chaleur = Math.max(chaleur, 0.5);
+  dessinerCartes();
+}
+
+// -------------------------------------------------------------------- cartes
+function carte(u) {
+  const art = silhouette(u.silhouette);
+  const couleur = u.nature === "mot" ? "#0f1f19" : COULEUR_NATURE[u.nature];
+  const b = el("button", { class: `carte${art ? "" : " sans-art"}`, type: "button", onclick: () => choisir(u.id) },
+    el("div", { class: "bandeau", style: `background:${couleur}` }, el("span", {}, NATURES[u.nature]), el("span", {}, u.brique?.rarete ?? "")),
+    art ? el("div", { class: "art" }, art) : null,
+    el("div", { class: "corps" },
+      el("div", { class: "mot" }, affiche(u)),
+      el("div", { class: "glose" }, u.sens[0]?.glose ?? ""),
+      el("div", { class: "pied" }, `${nomLangue(u.langue)} · ${u.fait?.relecture ?? ""}`)));
+  if (!correspond(u)) b.style.opacity = ".25";
+  return b;
+}
+function dessinerCartes() {
+  const zone = $("#cartes");
+  zone.replaceChildren();
+  for (const f of D.fascicules) {
+    if (etat.fascicule && f.id !== etat.fascicule) continue;
+    const us = f.unites.map((id) => UNITES.get(id)).filter((u) => u && garde(u));
+    const jaquette = f.jaquette?.svg ? "jaquette ✓" : "sans jaquette";
+    zone.append(el("h2", {}, `Fascicule n° ${f.numero}${f.test ? " (test)" : ""}`, el("span", { class: "meta" }, `${f.parution} · ${us.length} carte(s) · ${us.filter((u) => u.silhouette?.svg).length} silhouette(s) · ${jaquette}`)));
+    const art = silhouette(f.jaquette);
+    const tuile = el("button", { class: `jaquette${art ? "" : " absente"}`, type: "button", onclick: () => choisirFascicule(f) },
+      art, art ? el("span", { class: "etiquette" }, "jaquette") : (f.jaquette?.probleme ? `jaquette refusée : ${f.jaquette.probleme}` : "sans jaquette"));
+    zone.append(el("div", { class: "grille" }, tuile, ...us.map(carte)));
+  }
+  const langues = [...LANGUES.values()].filter((l) => etat.langues.has(l.id));
+  if (etat.fascicule !== "__aucun" && !etat.brouillons) zone.append(el("h2", {}, "Langues"), el("div", { class: "grille" }, ...langues.map((l) => {
+    const art = silhouette(l.silhouette);
+    return el("div", { class: `carte${art ? "" : " sans-art"}` },
+      el("div", { class: "bandeau", style: `background:${l.couleur}` }, el("span", {}, "langue"), el("span", {}, l.code)),
+      art ? el("div", { class: "art" }, art) : null,
+      el("div", { class: "corps" }, el("div", { class: "mot" }, l.nom), el("div", { class: "pied" }, l.id)));
+  })));
+  if (!etat.fascicule || etat.fascicule === "__aucun") {
+    const hors = D.unites.filter((u) => u.fascicules.length === 0 && garde(u));
+    if (hors.length) zone.append(el("h2", {}, "Hors fascicule", el("span", { class: "meta" }, "étymons et unités non déclarées")), el("div", { class: "grille" }, ...hors.map(carte)));
+  }
+}
+
+$("#cartes").addEventListener("click", (e) => { if (!e.target.closest(".carte, .jaquette")) choisir(null); });
+
+appliquer();
+for (let i = 0; i < 250; i++) pas();
+dessiner();
+redimensionner();
+boucle();
+</script>
+</body>
+</html>
