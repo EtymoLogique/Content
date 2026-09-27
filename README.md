@@ -12,7 +12,9 @@ Le contenu suit le pipeline de l’[ADR 0005](https://github.com/lunik/EtymoLogi
 | 2. Validation locale : types, références, identifiants, vocabulaires contrôlés | **en place** : `etymo-contenu valider` |
 | 3. Revue linguistique, 4. validation ludique | à venir : état `etat_relecture` déjà porté par chaque fait |
 | 5. Analyse globale : atteignabilité, fermeture, pools de plis | à venir |
-| 6. Compilation en artefact à hash de contenu, 7. publication, 8. migrations | à venir |
+| 6. Compilation en artefact à hash de contenu | **en place** : `etymo-contenu compiler` |
+| 7. Publication | **en partie** : la CI dépose l’artefact dans `staging/` ; la tâche de parution, qui le promeut dans `public/`, est à venir (ADR 0029) |
+| 8. Migrations | à venir |
 
 Le schéma logique est décrit dans le [modèle de données](https://github.com/lunik/EtymoLogique/blob/master/docs/modele-donnees.md) et l’[ADR 0013](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0013-schema-des-briques.md).
 
@@ -34,7 +36,8 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `ludique/fascicules/` | Fascicules : numéro, parution, unités résultat et ingrédient | `fascicule` |
 | `ludique/exclusions/` | Combinaisons attestées volontairement écartées | `exclusion` |
 | `schemas/` | JSON Schema (draft 2020-12) de chaque type d’objet | — |
-| `outils/etymo_contenu/` | Validateur et générateur d’identifiants | — |
+| `outils/etymo_contenu/` | Validateur, compilateur de l’artefact et générateur d’identifiants | — |
+| `artefact/` | Artefact compilé : **ignoré par Git** | — |
 | `tests/` | Un test par règle de validation | — |
 | `imports/` | Imports datés du Wiktionnaire : **ignoré par Git** | — |
 | `rapports/` | Rapports de validation générés : **ignoré par Git** | — |
@@ -61,8 +64,10 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/etymo-contenu valider --publication    # plus les exigences de publication
 .venv/bin/etymo-contenu valider --json           # rapport machine
 .venv/bin/etymo-contenu valider --strict         # les avertissements font échouer
+.venv/bin/etymo-contenu compiler                 # artefact publiable dans artefact/
+.venv/bin/etymo-contenu compiler --essai         # hors-prod : fascicules de test et faits non relus compris
 .venv/bin/etymo-contenu nouvel-id unt -n 3       # trois identifiants d'unité inédits
-.venv/bin/python -m pytest -q                    # tests du validateur
+.venv/bin/python -m pytest -q                    # tests du validateur et du compilateur
 ```
 
 La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance les tests et `valider` à chaque push.
@@ -80,6 +85,32 @@ La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance le
 - **Fascicules** : numéros uniques ; un mot n’est le résultat que d’un fascicule ; un résultat est un mot avec une recette ; un ingrédient a une brique ; autonomie (tout ingrédient est déclaré, et publié dans ce fascicule ou un précédent) ; en avertissement : taille de 20 à 30 mots (ADR 0022), ingrédients inutiles, chronologie.
 - **Exclusions** : aucune ne contredit une recette.
 - **Avec `--publication`**, pour chaque fascicule qui n’est pas de test : tout fait publié est `relu`, cite au moins une source de rôle `reference` (deux pour un fait `discutee`) avec l’entrée consultée, et n’est pas `non_retenue`. Le Wiktionnaire seul ne suffit jamais (ADR 0014). Chaque exclusion est relue.
+
+## Compilation et publication
+
+`etymo-contenu compiler` produit l’artefact de l’[ADR 0027](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0027-catalogue-statique-et-donnees-joueur.md), dans l’arborescence du préfixe `staging/` du bucket ([ADR 0029](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0029-parution-par-promotion-de-prefixe.md)) :
+
+| Fichier | Contenu |
+|---|---|
+| `r/<sha256>.json` | Ressources : carte de chaque unité déclarée, recette, exclusions d’un fascicule. |
+| `f/<sha256>.json` | Manifeste de fascicule : compteurs hors légendaires, briques tirables, chemins des cartes, recettes et exclusions. |
+| `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date, son manifeste et la liste de ses fichiers. La tâche de parution en tire `public/index.json`. |
+
+- **Hash de contenu** : chaque fichier est rangé sous l’empreinte SHA-256 de son JSON canonique (clés triées, UTF-8). Un chemin ne contient ni identifiant ni graphie, et un contenu identique garde le même chemin.
+- **Jamais publiés** : `note_interne`, `etat_relecture` et tout fait `non_retenue`.
+- **Sans `--essai`** (prod) : la compilation exige d’abord `valider --publication`, et écarte les fascicules de test.
+- **Avec `--essai`** (hors-prod seulement) : fascicules de test et faits non relus compris. L’artefact est marqué `"essai": true`, comme chaque manifeste de test.
+- **Pas encore édités** : jaquettes, silhouettes, poids du pli, jalons. Le manifeste les laisse vides.
+
+La CI (`.github/workflows/publication.yml`) suit l’[ADR 0028](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0028-gitflow-des-depots.md) :
+
+| Branche | Environnement | Mode |
+|---|---|---|
+| `develop` | horsprod | `--essai` |
+| `master` | prod | publication |
+| autre | rien | — |
+
+Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord, calendrier en dernier. Enfin, elle vérifie que chaque fichier est présent. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
 
 ## Sources et licences
 

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "etymo-contenu"
 version = "0.1.0"
-description = "Outillage éditorial du catalogue ÉtymoLogique : schémas et validation locale."
+description = "Outillage éditorial du catalogue ÉtymoLogique : schémas, validation locale et compilation de l’artefact."
 license = "AGPL-3.0-or-later"
 license-files = ["LICENSE"]
 requires-python = ">=3.11"

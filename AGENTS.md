@@ -20,9 +20,9 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 | `sources/`, `unites/`, `compositions/`, `relations/` | Couche linguistique : les faits. |
 | `ludique/` | Couche ludique : briques, recettes, fascicules, exclusions. Elle référence la couche linguistique, jamais l’inverse (ADR 0009). |
 | `schemas/` | JSON Schema 2020-12, `communs.schema.json` pour les définitions partagées (`fait`, `libelles`, identifiants). |
-| `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `rapport.py`, `ids.py`, `cli.py`. |
+| `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `compilation.py` (artefact en hash de contenu), `rapport.py`, `ids.py`, `cli.py`. |
 | `tests/` | `conftest.py` copie le dépôt dans un dossier temporaire ; chaque test casse une seule règle. |
-| `imports/`, `rapports/` | Ignorés par Git. |
+| `imports/`, `rapports/`, `artefact/` | Ignorés par Git. |
 
 ## Règles
 
@@ -34,6 +34,9 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 - **La langue n’est jamais une brique**, et un étymon n’a pas de carte propre (ADR 0013).
 - **Vocabulaire du jeu** : « pli » (jamais « pack »), « codex », « exemplaire », « réserve », « brique », « table de fusion », « fascicule ». Langues en toutes lettres dans les libellés (« grec ancien »).
 - **Typographie française** dans les libellés : guillemets « », apostrophe ’, espace avant `: ; ? !`.
+
+- **Branches** (ADR 0028) : `develop` publie en hors-prod, en mode `--essai` ; `master` publie en prod, avec les exigences de publication. Une branche de feature ne publie rien.
+- **L’artefact n’emporte jamais** `note_interne`, `etat_relecture` ni un fait `non_retenue`. Tout nouveau champ privé s’ajoute à `CHAMPS_PRIVES` dans `compilation.py`, avec son test.
 
 ## Modifier le contenu ou l’outillage
 

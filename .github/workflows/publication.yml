@@ -1,0 +1,118 @@
+name: Publish catalogue
+
+# ADR 0028 : develop publie en hors-prod, master en prod. Une branche de
+# feature ne publie rien.
+# ADR 0029 : la CI ne dépose que dans staging/, jamais dans public/ ; seule la
+# tâche de parution promeut un fascicule, à sa date.
+on:
+  push:
+    branches:
+      - develop
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publication-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    name: Publish to ${{ github.ref == 'refs/heads/master' && 'prod' || 'horsprod' }}
+    if: github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: ${{ github.ref == 'refs/heads/master' && 'prod' || 'horsprod' }}
+    env:
+      # La clé de content-ci a pour projet préféré celui de son environnement,
+      # où se trouve le bucket du catalogue.
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_KEY }}
+      AWS_DEFAULT_REGION: ${{ vars.SCW_DEFAULT_REGION }}
+      AWS_ENDPOINT_URL_S3: https://s3.${{ vars.SCW_DEFAULT_REGION }}.scw.cloud
+      # Scaleway n'accepte pas les sommes de contrôle ajoutées par défaut
+      # depuis AWS CLI 2.23.
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+      BUCKET: ${{ vars.ETYMO_BUCKET_CATALOGUE }}
+      # Hors-prod : fascicules de test et faits non relus compris, artefact
+      # marqué « essai ». Prod : exigences de publication complètes.
+      ESSAI: ${{ github.ref == 'refs/heads/master' && 'false' || 'true' }}
+    steps:
+      - name: Check the configuration
+        run: |
+          if [ -z "$AWS_ACCESS_KEY_ID" ] || [ -z "$BUCKET" ]; then
+            echo "::error::Clé ou bucket absents : l’environnement GitHub est posé par le dépôt Infra."
+            exit 1
+          fi
+
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install the tooling
+        run: python -m pip install -e '.[dev]'
+
+      - name: Run the tests
+        run: python -m pytest -q
+
+      - name: Compile the artefact
+        id: compilation
+        run: |
+          options=(--sortie artefact --version "${GITHUB_SHA::12}")
+          if [ "$ESSAI" = true ]; then options+=(--essai); fi
+          etymo-contenu compiler "${options[@]}"
+          fascicules="$(jq '.fascicules | length' artefact/parutions.json)"
+          echo "fascicules=$fascicules" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Artefact ${GITHUB_SHA::12}"
+            echo
+            echo "| Numéro | Parution | Fichiers |"
+            echo "|---|---|---|"
+            jq -r '.fascicules[] | "| \(.numero) | \(.parution) | \(.fichiers | length) |"' artefact/parutions.json
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the artefact
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: artefact-${{ github.sha }}
+          path: artefact
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Skip an empty publication
+        if: steps.compilation.outputs.fascicules == '0'
+        run: echo "::notice title=Rien à publier::Aucun fascicule publiable, staging/ reste inchangé."
+
+      # Les fichiers hachés d'abord, immuables ; le calendrier en dernier, pour
+      # qu'il ne désigne jamais un fichier absent.
+      - name: Upload to staging/
+        if: steps.compilation.outputs.fascicules != '0'
+        run: |
+          aws --version
+          aws s3 sync artefact/ "s3://$BUCKET/staging/" \
+            --exclude parutions.json --size-only --no-progress \
+            --content-type application/json \
+            --cache-control "public, max-age=31536000, immutable"
+          aws s3 cp artefact/parutions.json "s3://$BUCKET/staging/parutions.json" \
+            --no-progress --content-type application/json --cache-control "no-cache"
+
+      - name: Check the upload
+        if: steps.compilation.outputs.fascicules != '0'
+        run: |
+          aws s3 cp "s3://$BUCKET/staging/parutions.json" depose.json --no-progress
+          cmp artefact/parutions.json depose.json
+          manquants=0
+          for chemin in $(jq -r '.fascicules[].fichiers[]' artefact/parutions.json); do
+            aws s3api head-object --bucket "$BUCKET" --key "staging/$chemin" > /dev/null || { echo "::error::Absent : staging/$chemin"; manquants=$((manquants + 1)); }
+          done
+          [ "$manquants" -eq 0 ]
+          echo "Calendrier et $(jq '[.fascicules[].fichiers[]] | length' artefact/parutions.json) fichiers présents dans s3://$BUCKET/staging/." >> "$GITHUB_STEP_SUMMARY"

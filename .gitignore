@@ -4,6 +4,9 @@
 # Rapports de validation générés
 /rapports/
 
+# Artefact compilé : déposé par la CI, jamais versionné (ADR 0026)
+/artefact/
+
 # Python
 .venv/
 __pycache__/
