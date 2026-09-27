@@ -31,6 +31,19 @@
         }
       }
     },
+    "graines": {
+      "description": "Réserve de départ du fascicule (ADR 0030) : briques accordées une fois à chaque joueur, avec leurs exemplaires.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["brique_id", "exemplaires"],
+        "properties": {
+          "brique_id": { "$ref": "communs.schema.json#/$defs/id_brique" },
+          "exemplaires": { "type": "integer", "minimum": 1, "maximum": 5 }
+        }
+      }
+    },
     "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
   },
   "if": { "properties": { "test": { "const": false } } },

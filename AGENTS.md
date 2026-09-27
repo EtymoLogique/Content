@@ -28,6 +28,7 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 
 ## Règles
 
+- **D’abord un logiciel qui marche, ensuite les tests.** Faire fonctionner l’application comme elle a été conçue prime sur l’écriture de tests : livrez d’abord une fonctionnalité qui marche de bout en bout, puis ajoutez les tests qui la protègent.
 - **Identifiants opaques** : `etymo-contenu nouvel-id <préfixe>`. Ne réutilisez jamais un identifiant, n’y mettez jamais de graphie, ne renommez jamais un objet publié : un changement de nature ou une suppression passe par une migration (ADR 0005).
 - **Aucun texte copié** du Wiktionnaire ni d’une référence savante. Rédigez les gloses, définitions et explications. N’inventez ni entrée, ni page, ni édition de source : laissez `localisation` à `null` et décrivez dans `note_interne` ce qu’il reste à vérifier.
 - **Un nouveau fait naît `brouillon`.** Seule une relecture humaine le passe à `relu`.
