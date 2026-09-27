@@ -7,6 +7,7 @@ import unicodedata
 from collections import defaultdict
 from typing import Iterable
 
+from etymo_contenu import medias
 from etymo_contenu.chargement import Catalogue
 from etymo_contenu.rapport import Rapport
 
@@ -99,6 +100,7 @@ class Controleur:
         self.recettes()
         self.fascicules()
         self.exclusions()
+        self.medias()
         if self.publication:
             self.publiable()
 
@@ -461,6 +463,54 @@ class Controleur:
             suite = tuple(exc["combinaison"])
             if suite in suites:
                 self._erreur("exclusion.recette", f"Cette combinaison est aussi la recette {suites[suite]}.", eid)
+
+    # ------------------------------------------------------------------ médias
+
+    def medias(self) -> None:
+        tables = {"unite": self.c.unites, "langue": self.c.langues, "fascicule": self.c.fascicules}
+        libelles = {"unite": "unité", "langue": "langue", "fascicule": "fascicule"}
+        declares: set[str] = set()
+        cibles: dict[tuple[str, str, str], str] = {}
+        for mid, media in sorted(self.c.medias.items()):
+            nature, identifiant = medias.cible(media)
+            self._ref(tables[nature], identifiant, mid, f"{nature}_id", libelles[nature])
+            cle = (media["type"], nature, identifiant)
+            if cle in cibles:
+                self._erreur("media.double", f"{libelles[nature].capitalize()} {identifiant} a déjà une {media['type']} : {cibles[cle]}.", mid)
+            cibles.setdefault(cle, mid)
+
+            declares.add(media["fichier"])
+            fichier = medias.chemin(self.c, media)
+            if not fichier.is_file():
+                self._erreur("media.fichier_absent", f"Fichier {medias.DOSSIER}/{media['fichier']} introuvable.", mid)
+                continue
+            problemes = medias.verifier_svg(fichier.read_bytes(), media["type"])
+            if problemes:
+                suite = f" (et {len(problemes) - 3} autre(s))" if len(problemes) > 3 else ""
+                self._erreur("media.svg_invalide", f"{medias.DOSSIER}/{media['fichier']} : {' ; '.join(problemes[:3])}{suite}.", mid)
+
+        dossier = self.c.racine / medias.DOSSIER
+        if dossier.is_dir():
+            for fichier in sorted(dossier.rglob("*")):
+                relatif = fichier.relative_to(dossier).as_posix()
+                if fichier.is_file() and not fichier.name.startswith(".") and relatif not in declares:
+                    self.r.avertissement("media.orphelin", "Aucun média ne déclare ce fichier.", f"{medias.DOSSIER}/{relatif}")
+
+        # Chaque carte et chaque langue citée a sa silhouette, chaque fascicule sa jaquette (ADR 0016, 0023).
+        signaler = self._erreur if self.publication else self._avert
+        for fid, fsc in sorted(self.c.fascicules.items()):
+            if fsc["test"]:
+                continue
+            uids = [l["unite_id"] for l in fsc["unites"]]
+            manquants = {
+                "carte(s) sans silhouette": [u for u in uids if ("silhouette", "unite", u) not in cibles],
+                "langue(s) sans silhouette": [l for l in medias.langues_citees(self.c, uids) if ("silhouette", "langue", l) not in cibles],
+                "jaquette absente": [] if ("jaquette", "fascicule", fid) in cibles else [fid],
+            }
+            for libelle, ids in manquants.items():
+                if ids:
+                    detail = libelle if libelle == "jaquette absente" else f"{len(ids)} {libelle} : {', '.join(ids)}"
+                    signaler("media.manquant", f"Fascicule {fsc['numero']} : {detail}.", fid)
 
     # ------------------------------------------------------ mode publication
 

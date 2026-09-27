@@ -41,7 +41,7 @@ jobs:
       # marqué « essai ». Prod : exigences de publication complètes.
       ESSAI: ${{ github.ref == 'refs/heads/master' && 'false' || 'true' }}
       # Ressources citées par un manifeste, comme ressources() dans compilation.py.
-      RESSOURCES: '[.jaquette, .exclusions, (.cartes[]? | .carte, .silhouette), (.recettes[]? | .chemin)] | map(select(. != null)) | unique | .[]'
+      RESSOURCES: '[.jaquette, .exclusions, (.cartes[]? | .carte, .silhouette), (.langues[]? | .silhouette), (.recettes[]? | .chemin)] | map(select(. != null)) | unique | .[]'
     steps:
       - name: Check the configuration
         run: |
@@ -104,9 +104,19 @@ jobs:
         run: |
           aws --version
           aws s3 sync artefact/ "s3://$BUCKET/staging/" \
-            --exclude parutions.json --size-only --no-progress \
+            --exclude "*" --include "r/*" --include "f/*" --size-only --no-progress \
             --content-type application/json \
             --cache-control "public, max-age=31536000, immutable"
+          # Médias (ADR 0025) : le type exact, pour que le navigateur ne devine
+          # jamais un autre format qu'un SVG passé par le profil de valider.
+          if [ -d artefact/a ]; then
+            inattendus="$(find artefact/a -type f ! -name '*.svg')"
+            if [ -n "$inattendus" ]; then echo "::error::Média d'un format non prévu : $inattendus"; exit 1; fi
+            aws s3 sync artefact/a/ "s3://$BUCKET/staging/a/" \
+              --size-only --no-progress \
+              --content-type image/svg+xml \
+              --cache-control "public, max-age=31536000, immutable"
+          fi
           aws s3 cp artefact/parutions.json "s3://$BUCKET/staging/parutions.json" \
             --no-progress --content-type application/json --cache-control "no-cache"
 

@@ -7,8 +7,11 @@ import unicodedata
 import pytest
 from conftest import avertissements, erreurs
 
+from etymo_contenu.chargement import charger
 from etymo_contenu.cli import main
 from etymo_contenu.ids import MOTIF, nouvel_id
+from etymo_contenu.medias import langues_citees, verifier_svg
+from etymo_contenu.rapport import Rapport
 
 ID_ABSENT_UNT = "unt_00000000"
 
@@ -439,11 +442,147 @@ def test_exclusion_valide(depot):
     assert erreurs(depot.valider()) == set()
 
 
+# -------------------------------------------------------------------------- médias
+
+
+def test_media_cible_inconnue(depot):
+    depot.modifier(depot.media_de("unite_id", depot.uid("géo")), lambda m: m.update(unite_id=ID_ABSENT_UNT))
+    assert erreurs(depot.valider()) == {"reference.cassee"}
+
+
+def test_media_deux_cibles(depot):
+    depot.modifier(depot.media_de("unite_id", depot.uid("géo")), lambda m: m.update(langue_id="lng_wa90y54n"))
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_media_jaquette_sans_fascicule(depot):
+    depot.modifier(depot.media_de("unite_id", depot.uid("géo")), lambda m: m.update(type="jaquette", fichier="jaquettes/geo.svg"))
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_media_chemin_hors_du_dossier(depot):
+    depot.modifier(depot.media_de("unite_id", depot.uid("géo")), lambda m: m.update(fichier="silhouettes/../../unites/x.svg"))
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_media_fichier_absent(depot):
+    _, media = depot.media_de("unite_id", depot.uid("géo"))
+    (depot.racine / "medias" / media["fichier"]).unlink()
+    assert erreurs(depot.valider()) == {"media.fichier_absent"}
+
+
+def test_media_double(depot):
+    depot.media("silhouette", "unite_id", depot.uid("géo"))
+    assert erreurs(depot.valider()) == {"media.double"}
+
+
+def test_media_orphelin(depot):
+    (depot.racine / "medias" / "silhouettes" / "brouillon.svg").write_text("<svg/>", encoding="utf-8")
+    rapport = depot.valider()
+    assert erreurs(rapport) == set()
+    assert avertissements(rapport) == {"media.orphelin"}
+
+
+def test_media_svg_invalide(depot):
+    depot.media("silhouette", "unite_id", depot.uid("iste"), svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><script>alert(1)</script></svg>')
+    assert erreurs(depot.valider()) == {"media.svg_invalide"}
+
+
+SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">{}</svg>'
+
+
+@pytest.mark.parametrize(
+    "corps",
+    [
+        '<script>alert(1)</script>',
+        '<foreignObject><div xmlns="http://www.w3.org/1999/xhtml">x</div></foreignObject>',
+        '<image href="https://exemple.invalid/x.png"/>',
+        '<use href="#a"/>',
+        '<style>circle{fill:red}</style>',
+        '<circle r="4" onload="alert(1)"/>',
+        '<circle r="4" fill="url(https://exemple.invalid/x.svg#a)"/>',
+        '<circle r="4" style="fill:url(javascript:alert(1))"/>',
+        '<circle r="4" style="behavior:url(#a)"/>',
+        '<a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)"><circle r="4"/></a>',
+        '<text>biologie</text>',
+        '<title>biologie</title>',
+        '<g>biologie</g>',
+        '<!-- biologie -->',
+        '<circle r="4" fill="#c0392b"/>',
+        '<circle r="4" fill="currentColor" opacity="0.5"/>',
+    ],
+)
+def test_profil_svg_refuse(corps):
+    assert verifier_svg(SVG.format(corps).encode(), "silhouette") != []
+
+
+def test_profil_svg_refuse_la_dtd():
+    svg = '<?xml version="1.0"?><!DOCTYPE svg [<!ENTITY x "biologie">]><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"/>'
+    assert verifier_svg(svg.encode(), "silhouette") != []
+
+
+def test_profil_svg_silhouette_au_format_carte():
+    svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><circle r="4" fill="currentColor"/></svg>'
+    assert verifier_svg(svg.encode(), "silhouette") != []
+    assert verifier_svg(svg.encode(), "jaquette") == []
+
+
+def test_profil_svg_jaquette_en_couleur():
+    svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><rect width="600" height="800" fill="#1f5c4a" opacity="0.9"/></svg>'
+    assert verifier_svg(svg.encode(), "jaquette") == []
+
+
+def test_profil_svg_admet_evidement_et_decoupe():
+    corps = (
+        '<defs><clipPath id="c1"><circle cx="1" cy="1" r="1"/></clipPath></defs>'
+        '<g clip-path="url(#c1)" fill="currentColor"><path d="M0 0L1 1"/></g>'
+        '<path d="M0 0L1 1" fill="none" stroke="currentColor" stroke-width="4" style="stroke:var(--art-bg)"/>'
+    )
+    assert verifier_svg(('<?xml version="1.0" encoding="UTF-8"?>\n' + SVG.format(corps)).encode(), "silhouette") == []
+
+
+def test_media_manquant_avertit_hors_publication(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    rapport = depot.valider()
+    assert "media.manquant" in avertissements(rapport)
+    assert "media.manquant" not in erreurs(rapport)
+
+
+def test_media_manquant_bloque_la_publication(depot):
+    _rendre_publiable(depot)
+    chemin, _ = depot.media_de("langue_id", "lng_kmf44d76")
+    chemin.unlink()
+    assert erreurs(depot.valider(publication=True)) == {"media.manquant"}
+
+
+def test_media_manquant_ignore_les_fascicules_de_test(depot):
+    chemin, _ = depot.media_de("unite_id", depot.uid("géo"))
+    chemin.unlink()
+    rapport = depot.valider(publication=True)
+    assert "media.manquant" not in erreurs(rapport) | avertissements(rapport)
+
+
 # --------------------------------------------------------------------- publication
+
+
+def _completer_medias(depot):
+    """Une silhouette pour chaque carte et chaque langue citée, et la jaquette du fascicule."""
+    _, fascicule = depot.fascicule()
+    catalogue = charger(depot.racine, Rapport())
+    illustres = {m.get("unite_id") or m.get("langue_id") for m in catalogue.medias.values()}
+    uids = [l["unite_id"] for l in fascicule["unites"]]
+    for uid in uids:
+        if uid not in illustres:
+            depot.media("silhouette", "unite_id", uid)
+    for lid in langues_citees(catalogue, uids):
+        if lid not in illustres:
+            depot.media("silhouette", "langue_id", lid)
+    depot.media("jaquette", "fascicule_id", fascicule["id"])
 
 
 def _rendre_publiable(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    _completer_medias(depot)
     for dossier in ("unites", "compositions", "relations"):
         for chemin in depot.fichiers(dossier):
             donnees = depot.lire(chemin)

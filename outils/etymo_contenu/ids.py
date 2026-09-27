@@ -24,6 +24,7 @@ PREFIXES = {
     "rct": "recette",
     "fsc": "fascicule",
     "exc": "exclusion",
+    "med": "média",
 }
 
 MOTIF = re.compile(r"^(?P<prefixe>[a-z]{3})_[0-9a-z]{8}$")

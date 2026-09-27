@@ -45,7 +45,7 @@ def test_calendrier_ne_cite_que_les_manifestes(depot, tmp_path):
 def test_chaque_ressource_est_citee_par_un_manifeste(depot, tmp_path):
     parutions = _compiler(depot, tmp_path / "a")
     citees = {c for f in parutions["fascicules"] for c in ressources(_manifeste(tmp_path / "a", f))}
-    ecrites = {f"r/{p.name}" for p in (tmp_path / "a" / "r").iterdir()}
+    ecrites = {f"{d}/{p.name}" for d in ("r", "a") for p in (tmp_path / "a" / d).iterdir()}
     assert citees == ecrites
 
 
@@ -61,8 +61,9 @@ def test_chemins_en_hash_de_contenu(depot, tmp_path):
     fascicule = parutions["fascicules"][0]
     for chemin in [fascicule["manifeste"], *ressources(_manifeste(tmp_path / "a", fascicule))]:
         contenu = (tmp_path / "a" / chemin).read_bytes()
-        assert chemin.split("/")[1] == f"{hashlib.sha256(contenu).hexdigest()}.json"
-        assert not any(i in chemin for i in ("unt_", "brq_", "rct_", "fsc_")), "un chemin ne dit jamais l’identifiant"
+        dossier, nom = chemin.split("/")
+        assert nom == f"{hashlib.sha256(contenu).hexdigest()}{'.svg' if dossier == 'a' else '.json'}"
+        assert not any(i in chemin for i in ("unt_", "brq_", "rct_", "fsc_", "med_", "lng_")), "un chemin ne dit jamais l’identifiant"
 
 
 def test_compilation_deterministe(depot, tmp_path):
@@ -115,3 +116,45 @@ def test_cli_essai(depot, tmp_path, capsys):
     code = main(["compiler", "--essai", "--racine", str(depot.racine), "--sortie", str(tmp_path / "a"), "--version", "v1"])
     assert code == 0
     assert "mode essai" in capsys.readouterr().out
+
+
+def test_silhouettes_des_cartes_et_des_langues(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    manifeste = _manifeste(tmp_path / "a", parutions["fascicules"][0])
+    _, media = depot.media_de("unite_id", depot.uid("biologie"))
+    entree = next(c for c in manifeste["cartes"] if c["id"] == depot.uid("biologie"))
+    assert entree["silhouette"].startswith("a/")
+    assert (tmp_path / "a" / entree["silhouette"]).read_bytes() == (depot.racine / "medias" / media["fichier"]).read_bytes()
+    assert next(c for c in manifeste["cartes"] if c["id"] == depot.uid("mener"))["silhouette"] is None
+    assert [l["id"] for l in manifeste["langues"]] == sorted(l["id"] for l in manifeste["langues"])
+    assert {"lng_wa90y54n", "lng_kmf44d76"} <= {l["id"] for l in manifeste["langues"] if l["silhouette"]}
+    assert manifeste["jaquette"] is None
+
+
+def test_jaquette_et_media_partage(depot, tmp_path):
+    fascicule = depot.fascicule()[1]["id"]
+    depot.media("jaquette", "fascicule_id", fascicule)
+    # Deux cartes au même dessin partagent un seul fichier publié.
+    _, geo = depot.media_de("unite_id", depot.uid("géo"))
+    depot.media("silhouette", "unite_id", depot.uid("iste"), svg=(depot.racine / "medias" / geo["fichier"]).read_text(encoding="utf-8"))
+    parutions = _compiler(depot, tmp_path / "a")
+    manifeste = _manifeste(tmp_path / "a", parutions["fascicules"][0])
+    assert manifeste["jaquette"].startswith("a/")
+    silhouettes = {c["id"]: c["silhouette"] for c in manifeste["cartes"]}
+    assert silhouettes[depot.uid("iste")] == silhouettes[depot.uid("géo")]
+    assert verifier(tmp_path / "a") == []
+
+
+def test_media_ne_fuit_ni_nom_ni_note(depot, tmp_path):
+    _compiler(depot, tmp_path / "a")
+    textes = [f.read_text(encoding="utf-8") for f in (tmp_path / "a").rglob("*") if f.is_file()]
+    for media in (depot.lire(p) for p in depot.fichiers("ludique/medias")):
+        assert not any(media["id"] in t or media["fichier"] in t for t in textes)
+    assert not any("cardArt" in t for t in textes)
+
+
+def test_verifier_signale_un_media_altere(depot, tmp_path):
+    _compiler(depot, tmp_path / "a")
+    fichier = next((tmp_path / "a" / "a").iterdir())
+    fichier.write_bytes(fichier.read_bytes() + b" ")
+    assert verifier(tmp_path / "a") == [f"Empreinte fausse : a/{fichier.name}"]

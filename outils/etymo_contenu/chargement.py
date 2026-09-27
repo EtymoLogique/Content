@@ -26,6 +26,7 @@ DOSSIERS = {
     "ludique/recettes": ("recette", "rct", "recettes"),
     "ludique/fascicules": ("fascicule", "fsc", "fascicules"),
     "ludique/exclusions": ("exclusion", "exc", "exclusions"),
+    "ludique/medias": ("media", "med", "medias"),
 }
 
 VOCABULAIRES = {
@@ -61,6 +62,7 @@ class Catalogue:
     recettes: dict[str, dict] = field(default_factory=dict)
     fascicules: dict[str, dict] = field(default_factory=dict)
     exclusions: dict[str, dict] = field(default_factory=dict)
+    medias: dict[str, dict] = field(default_factory=dict)
     types_relation: dict[str, dict] = field(default_factory=dict)
     types_transformation: dict[str, dict] = field(default_factory=dict)
     # Objets imbriqués : identifiant → (unité, objet)

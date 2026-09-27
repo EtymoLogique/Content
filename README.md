@@ -35,6 +35,8 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `ludique/recettes/` | Recettes : composition jouée, emplacements, briques acceptées | `recette` |
 | `ludique/fascicules/` | Fascicules : numéro, parution, unités résultat et ingrédient | `fascicule` |
 | `ludique/exclusions/` | Combinaisons attestées volontairement écartées | `exclusion` |
+| `ludique/medias/` | Médias : type (silhouette ou jaquette), fichier, unité, langue ou fascicule illustré | `media` |
+| `medias/silhouettes/`, `medias/jaquettes/` | Fichiers SVG bruts, sous des noms de travail lisibles (ADR 0026) | profil SVG |
 | `schemas/` | JSON Schema (draft 2020-12) de chaque type d’objet | — |
 | `outils/etymo_contenu/` | Validateur, compilateur de l’artefact et générateur d’identifiants | — |
 | `artefact/` | Artefact compilé : **ignoré par Git** | — |
@@ -52,6 +54,8 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 - **`cle_normalisee`** est la forme NFC du texte. Le texte édité n’est jamais normalisé en silence (ADR 0006).
 - **Segments** : comptés en points de code, sur la forme NFC du mot résultat, avec la fin exclue. La question des graphèmes reste ouverte (modèle de données).
 - **Fascicule de test** (`"test": true`) : il éprouve le schéma et n’est jamais publié. Seul un fascicule de test peut porter le numéro 0.
+- **Médias** : une silhouette par carte et par langue (ADR 0023), une jaquette par fascicule (ADR 0016). Le fichier SVG vit sous `medias/`, et un objet `ludique/medias/med_….json` le rattache à son unité, sa langue ou son fascicule. La couche linguistique ne cite jamais un média. Le nom de travail n’est jamais publié.
+- **Profil SVG** : liste blanche, parce que la PWA insère le SVG dans la page. Sont admis `svg g defs clipPath mask path circle ellipse rect line polyline polygon`, avec leurs attributs de géométrie et de peinture, et `url(#…)` pour les seules références locales. Sont refusés tout autre élément (`script`, `style`, `image`, `use`, `foreignObject`, `text`, `title`…), les attributs `on*`, les liens externes, les DTD, les entités, les commentaires et tout texte, qui trahirait le mot. Une silhouette est en `viewBox="0 0 300 400"`, en `currentColor` seulement, avec les évidements en `style="fill|stroke:var(--art-bg)"` et sans opacité propre (ADR 0023). Une jaquette admet les couleurs.
 
 ## Commandes
 
@@ -84,6 +88,7 @@ La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance le
 - **Recettes** : les emplacements suivent les parties et acceptent la brique de chaque partie ; aucune suite de briques ne mène à deux recettes ; aucune analyse non retenue ; une définition pour le mot résultat.
 - **Fascicules** : numéros uniques ; un mot n’est le résultat que d’un fascicule ; un résultat est un mot avec une recette ; un ingrédient a une brique ; autonomie (tout ingrédient est déclaré, et publié dans ce fascicule ou un précédent) ; en avertissement : taille de 20 à 30 mots (ADR 0022), ingrédients inutiles, chronologie.
 - **Exclusions** : aucune ne contredit une recette.
+- **Médias** : cible existante ; une seule silhouette par unité ou langue, une seule jaquette par fascicule ; fichier présent et conforme au profil SVG ; en avertissement : fichier de `medias/` que nul média ne déclare. Pour chaque fascicule qui n’est pas de test : chaque carte et chaque langue citée (celle de l’unité ou d’un étymon) a sa silhouette, et le fascicule sa jaquette. C’est un avertissement, et une erreur avec `--publication`.
 - **Avec `--publication`**, pour chaque fascicule qui n’est pas de test : tout fait publié est `relu`, cite au moins une source de rôle `reference` (deux pour un fait `discutee`) avec l’entrée consultée, et n’est pas `non_retenue`. Le Wiktionnaire seul ne suffit jamais (ADR 0014). Chaque exclusion est relue.
 
 ## Compilation et publication
@@ -93,7 +98,8 @@ La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance le
 | Fichier | Contenu |
 |---|---|
 | `r/<sha256>.json` | Ressources : carte de chaque unité déclarée, recette, exclusions d’un fascicule. |
-| `f/<sha256>.json` | Manifeste de fascicule : compteurs hors légendaires, briques tirables, chemins des cartes, recettes et exclusions. |
+| `f/<sha256>.json` | Manifeste de fascicule : compteurs hors légendaires, briques tirables, chemins des cartes et de leurs silhouettes, silhouettes des langues citées (`langues`), jaquette, recettes et exclusions. |
+| `a/<sha256>.svg` | Médias : silhouettes et jaquettes, nommées d’après l’empreinte de leurs octets, jamais d’après le mot ni l’identifiant (ADR 0025). |
 | `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date et son manifeste. La tâche de parution en tire `public/index.json`. |
 
 Le calendrier, comme l’index, ne cite que des manifestes ; seul le manifeste cite ses ressources. `ressources()`, dans `compilation.py`, fixe la liste des champs qui en portent un chemin.
@@ -102,7 +108,8 @@ Le calendrier, comme l’index, ne cite que des manifestes ; seul le manifeste c
 - **Jamais publiés** : `note_interne`, `etat_relecture` et tout fait `non_retenue`.
 - **Sans `--essai`** (prod) : la compilation exige d’abord `valider --publication`, et écarte les fascicules de test.
 - **Avec `--essai`** (hors-prod seulement) : fascicules de test et faits non relus compris. L’artefact est marqué `"essai": true`, comme chaque manifeste de test.
-- **Pas encore édités** : jaquettes, silhouettes, poids du pli, jalons. Le manifeste les laisse vides.
+- **Médias** : une carte, une langue ou un fascicule sans média garde `null` à sa place dans le manifeste. Deux cartes au même dessin partagent un seul fichier.
+- **Pas encore édités** : poids du pli, jalons. Le manifeste les laisse vides.
 
 La CI (`.github/workflows/publication.yml`) suit l’[ADR 0028](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0028-gitflow-des-depots.md) :
 
@@ -112,13 +119,14 @@ La CI (`.github/workflows/publication.yml`) suit l’[ADR 0028](https://github.c
 | `master` | prod | publication |
 | autre | rien | — |
 
-Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord, calendrier en dernier. Enfin, elle vérifie la présence de chaque manifeste du calendrier et de chaque ressource que ces manifestes citent. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
+Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord (JSON en `application/json`, médias en `image/svg+xml`), calendrier en dernier. Enfin, elle vérifie la présence de chaque manifeste du calendrier et de chaque ressource que ces manifestes citent. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
 
 ## Sources et licences
 
 - Le **Wiktionnaire** sert au repérage seulement : **aucun de ses textes n’est copié** (ADR 0014). Ses imports datés restent dans `imports/`, hors de Git.
 - Les **références savantes** (TLFi, Bailly, Gaffiot…) sont citées, jamais recopiées. Les gloses, définitions et explications sont rédigées par l’équipe.
 - Le jeu actuel (fascicule 0) reprend les **exemples travaillés** du modèle de données. Tout y est en `brouillon`, à vérifier avant toute publication.
+- Ses silhouettes (`medias/silhouettes/`) sont exportées des maquettes du codex (`cardArt`, dossier de conception) : elles illustrent le format, sans préfigurer un fascicule réel (ADR 0026).
 
 | Périmètre | Licence |
 |---|---|

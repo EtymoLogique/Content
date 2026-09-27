@@ -3,6 +3,7 @@
 L'artefact reprend l'arborescence du préfixe ``staging/`` du bucket :
 
 - ``r/<sha256>.json`` : ressources (cartes, recettes, exclusions) ;
+- ``a/<sha256>.<ext>`` : médias (silhouettes des cartes et des langues, jaquette) ;
 - ``f/<sha256>.json`` : un manifeste par fascicule ;
 - ``parutions.json`` : calendrier des parutions, seul fichier modifiable. Il
   porte les référentiels et, pour chaque fascicule, sa date et son manifeste.
@@ -25,6 +26,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from etymo_contenu import medias
 from etymo_contenu.chargement import Catalogue
 
 FORMAT = 1
@@ -66,12 +68,19 @@ class Artefact:
         self.fichiers[chemin] = contenu
         return chemin
 
+    def deposer_media(self, contenu: bytes, extension: str) -> str:
+        """Nom tiré des seuls octets : jamais le mot, ni l'identifiant d'une carte (ADR 0025)."""
+        chemin = f"a/{hashlib.sha256(contenu).hexdigest()}{extension}"
+        self.fichiers[chemin] = contenu
+        return chemin
+
 
 def ressources(manifeste: dict) -> list[str]:
     """Chemins des ressources citées par un manifeste, triés et sans doublon."""
     chemins = [manifeste.get("jaquette"), manifeste.get("exclusions")]
     for carte in manifeste.get("cartes", []):
         chemins += [carte.get("carte"), carte.get("silhouette")]
+    chemins += [langue.get("silhouette") for langue in manifeste.get("langues", [])]
     chemins += [recette.get("chemin") for recette in manifeste.get("recettes", [])]
     return sorted({c for c in chemins if c})
 
@@ -83,6 +92,17 @@ class Compilateur:
         self.version = version
         self.artefact = Artefact()
         self.brique_par_unite = {b["unite_id"]: b for b in catalogue.briques.values()}
+        self.medias = medias.par_cible(catalogue)
+
+    # ------------------------------------------------------------------ médias
+    def _media(self, type_media: str, nature: str, identifiant: str) -> str | None:
+        media = self.medias.get((type_media, nature, identifiant))
+        if media is None:
+            return None
+        fichier = medias.chemin(self.c, media)
+        if not fichier.is_file():
+            raise ErreurCompilation(f"Média {media['id']} : fichier {medias.DOSSIER}/{media['fichier']} introuvable.")
+        return self.artefact.deposer_media(fichier.read_bytes(), fichier.suffix)
 
     # ---------------------------------------------------------------- sources
     def _sources_citees(self, objet: Any, trouvees: set[str]) -> set[str]:
@@ -165,7 +185,9 @@ class Compilateur:
         cartes = []
         for entree in fsc["unites"]:
             chemin = self.artefact.deposer("r", self.carte(entree["unite_id"]))
-            cartes.append({"id": entree["unite_id"], "role": entree["role"], "carte": chemin, "silhouette": None})
+            silhouette = self._media("silhouette", "unite", entree["unite_id"])
+            cartes.append({"id": entree["unite_id"], "role": entree["role"], "carte": chemin, "silhouette": silhouette})
+        langues = [{"id": lid, "silhouette": self._media("silhouette", "langue", lid)} for lid in medias.langues_citees(self.c, uids)]
 
         ids_recettes = sorted(
             rid for rid, r in self.c.recettes.items() if self.c.compositions[r["composition_id"]]["mot_id"] in resultats
@@ -201,12 +223,13 @@ class Compilateur:
             "format": FORMAT,
             "numero": fsc["numero"],
             "parution": fsc["parution"],
-            "jaquette": None,
+            "jaquette": self._media("jaquette", "fascicule", fid),
             "compteurs": compteurs,
             # Poids, base d'encre et barèmes ne sont pas encore édités : le pli
             # ne porte pour l'instant que ses briques tirables.
             "pli": {"briques": briques},
             "cartes": cartes,
+            "langues": langues,
             "recettes": recettes,
             "exclusions": chemin_exclusions,
             "jalons": [],
@@ -257,7 +280,7 @@ def verifier(sortie: Path) -> list[str]:
     """Recalcule l'empreinte de chaque fichier haché et contrôle chaque chemin cité,
     du calendrier vers les manifestes, puis des manifestes vers les ressources."""
     problemes = []
-    for fichier in sorted(sortie.glob("[rf]/*.json")):
+    for fichier in sorted([*sortie.glob("[rf]/*.json"), *sortie.glob("a/*")]):
         attendu = fichier.stem
         if hashlib.sha256(fichier.read_bytes()).hexdigest() != attendu:
             problemes.append(f"Empreinte fausse : {fichier.relative_to(sortie)}")

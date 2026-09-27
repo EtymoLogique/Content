@@ -18,9 +18,10 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 |---|---|
 | `referentiels/` | Langues, écritures, conventions de translittération, vocabulaires contrôlés. |
 | `sources/`, `unites/`, `compositions/`, `relations/` | Couche linguistique : les faits. |
-| `ludique/` | Couche ludique : briques, recettes, fascicules, exclusions. Elle référence la couche linguistique, jamais l’inverse (ADR 0009). |
+| `ludique/` | Couche ludique : briques, recettes, fascicules, exclusions, médias. Elle référence la couche linguistique, jamais l’inverse (ADR 0009). |
+| `medias/` | SVG bruts des silhouettes et des jaquettes, sous des noms de travail lisibles, déclarés par `ludique/medias/` (ADR 0026). |
 | `schemas/` | JSON Schema 2020-12, `communs.schema.json` pour les définitions partagées (`fait`, `libelles`, identifiants). |
-| `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `compilation.py` (artefact en hash de contenu), `rapport.py`, `ids.py`, `cli.py`. |
+| `outils/etymo_contenu/` | `chargement.py` (lecture et schémas), `controles.py` (contraintes d’intégrité), `medias.py` (profil SVG, langues citées), `compilation.py` (artefact en hash de contenu), `rapport.py`, `ids.py`, `cli.py`. |
 | `tests/` | `conftest.py` copie le dépôt dans un dossier temporaire ; chaque test casse une seule règle. |
 | `imports/`, `rapports/`, `artefact/` | Ignorés par Git. |
 
@@ -29,6 +30,7 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 - **Identifiants opaques** : `etymo-contenu nouvel-id <préfixe>`. Ne réutilisez jamais un identifiant, n’y mettez jamais de graphie, ne renommez jamais un objet publié : un changement de nature ou une suppression passe par une migration (ADR 0005).
 - **Aucun texte copié** du Wiktionnaire ni d’une référence savante. Rédigez les gloses, définitions et explications. N’inventez ni entrée, ni page, ni édition de source : laissez `localisation` à `null` et décrivez dans `note_interne` ce qu’il reste à vérifier.
 - **Un nouveau fait naît `brouillon`.** Seule une relecture humaine le passe à `relu`.
+- **Médias** : tout SVG passe le profil de `medias.py`, une liste blanche contre le XSS. Pas de texte, de titre ni de commentaire : ils trahiraient le mot. N’élargissez le profil qu’avec un test qui prouve que l’ajout est sûr.
 - **`note_interne`** n’est jamais publiée. N’y mettez ni donnée personnelle ni secret.
 - **Une brique par unité.** Un allomorphe est une forme de la même unité, employée par une transformation `allomorphie`.
 - **La langue n’est jamais une brique**, et un étymon n’a pas de carte propre (ADR 0013).

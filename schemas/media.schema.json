@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/media.schema.json",
+  "title": "Média",
+  "description": "Silhouette d'une carte ou d'une langue (ADR 0023), ou jaquette d'un fascicule (ADR 0016). Le fichier brut vit sous medias/, sous un nom de travail lisible ; la compilation lui donne un nom opaque (ADR 0025, ADR 0026).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "type", "fichier"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_media" },
+    "type": { "enum": ["silhouette", "jaquette"] },
+    "fichier": {
+      "description": "Chemin relatif au dossier medias/ : silhouettes/… ou jaquettes/…, en SVG.",
+      "type": "string",
+      "pattern": "^(silhouettes|jaquettes)/[a-z0-9][a-z0-9_-]*\\.svg$"
+    },
+    "unite_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+    "langue_id": { "$ref": "communs.schema.json#/$defs/id_langue" },
+    "fascicule_id": { "$ref": "communs.schema.json#/$defs/id_fascicule" },
+    "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
+  },
+  "oneOf": [
+    { "required": ["unite_id"], "not": { "anyOf": [{ "required": ["langue_id"] }, { "required": ["fascicule_id"] }] } },
+    { "required": ["langue_id"], "not": { "anyOf": [{ "required": ["unite_id"] }, { "required": ["fascicule_id"] }] } },
+    { "required": ["fascicule_id"], "not": { "anyOf": [{ "required": ["unite_id"] }, { "required": ["langue_id"] }] } }
+  ],
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "silhouette" } } },
+      "then": {
+        "properties": { "fichier": { "pattern": "^silhouettes/" } },
+        "not": { "required": ["fascicule_id"] }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "jaquette" } } },
+      "then": {
+        "properties": { "fichier": { "pattern": "^jaquettes/" } },
+        "required": ["fascicule_id"]
+      }
+    }
+  ]
+}
