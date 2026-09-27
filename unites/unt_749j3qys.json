@@ -1,0 +1,68 @@
+{
+  "id": "unt_749j3qys",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « γραφή » du Bailly, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_abbgr9ef",
+      "texte": "γραφή",
+      "cle_normalisee": "γραφή",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "graphḗ"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « γραφή » du Bailly, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_cfkn5vey",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "écriture"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « γραφή » du Bailly, localisation à renseigner."
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_ps34rdys",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « male » du Gaffiot, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adverbe"
+  },
+  "formes": [
+    {
+      "id": "frm_9hsye38e",
+      "texte": "male",
+      "cle_normalisee": "male",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « male » du Gaffiot, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_a11mdfbs",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "mal"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « male » du Gaffiot, localisation à renseigner."
+      }
+    }
+  ]
+}

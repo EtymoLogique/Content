@@ -1,0 +1,38 @@
+{
+  "id": "cmp_rft2v879",
+  "mot_id": "unt_7z2wswg9",
+  "forme_resultat_id": "frm_s0fem6ah",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « philologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zqhq8c5t",
+      "sens_id": "sns_zfmtf9t0",
+      "forme_id": "frm_h2wghd3e"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "amour de l’étude",
+      "explication_courte": "Du grec philos, « ami », et -logie, « étude » : le goût des lettres."
+    }
+  }
+}

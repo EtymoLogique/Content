@@ -1,0 +1,17 @@
+{
+  "id": "rel_g8jcdyc7",
+  "unite_source_id": "unt_m8j36pwd",
+  "unite_cible_id": "unt_813t4m1s",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ἀρχαῖος » du Bailly, localisation à renseigner."
+  }
+}

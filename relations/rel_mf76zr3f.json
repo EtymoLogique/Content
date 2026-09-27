@@ -1,0 +1,17 @@
+{
+  "id": "rel_mf76zr3f",
+  "unite_source_id": "unt_5483zwmp",
+  "unite_cible_id": "unt_rbddryfp",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « βιβλίον » du Bailly, localisation à renseigner."
+  }
+}

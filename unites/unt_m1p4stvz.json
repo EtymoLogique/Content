@@ -1,0 +1,62 @@
+{
+  "id": "unt_m1p4stvz",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mal » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adverbe"
+  },
+  "formes": [
+    {
+      "id": "frm_84wqnq0t",
+      "texte": "mal",
+      "cle_normalisee": "mal",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « mal » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_xxpqc22q",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "de mauvaise façon"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « mal » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

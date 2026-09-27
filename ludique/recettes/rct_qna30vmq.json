@@ -1,0 +1,19 @@
+{
+  "id": "rct_qna30vmq",
+  "composition_id": "cmp_rft2v879",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_q08tb3nd"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_e99p5xzq"
+      ]
+    }
+  ],
+  "note_interne": null
+}

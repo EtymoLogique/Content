@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ywc1pzmr",
+  "mot_id": "unt_b8d5nvpj",
+  "forme_resultat_id": "frm_84x9ptqr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description de la terre",
+      "explication_courte": "Du grec gê, « terre », et graphê, « écriture » : écrire la terre."
+    }
+  }
+}

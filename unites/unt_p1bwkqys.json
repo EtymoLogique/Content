@@ -1,0 +1,81 @@
+{
+  "id": "unt_p1bwkqys",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « en » du TLFi, localisation à renseigner."
+  },
+  "affixe": {
+    "statut": "affixe"
+  },
+  "formes": [
+    {
+      "id": "frm_fazvyctx",
+      "texte": "en",
+      "cle_normalisee": "en",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « en » du TLFi, localisation à renseigner."
+      }
+    },
+    {
+      "id": "frm_wt758x8d",
+      "texte": "em",
+      "cle_normalisee": "em",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "allomorphe",
+      "contexte": "devant b, m, p",
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « en » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_brg4k96n",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "d’ici, de là"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « en » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

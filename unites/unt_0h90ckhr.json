@@ -1,0 +1,62 @@
+{
+  "id": "unt_0h90ckhr",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliophile » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_57ntqy62",
+      "texte": "bibliophile",
+      "cle_normalisee": "bibliophile",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « bibliophile » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_mx77edgv",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Personne qui aime les livres et les collectionne, surtout s’ils sont rares ou précieux."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « bibliophile » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_81egpykc",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « malmener » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "verbe"
+  },
+  "formes": [
+    {
+      "id": "frm_8asp2738",
+      "texte": "malmener",
+      "cle_normalisee": "malmener",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « malmener » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_ezajsbqc",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Traiter quelqu’un ou quelque chose durement, sans ménagement."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « malmener » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}
