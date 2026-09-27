@@ -22,7 +22,7 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 
 | Chemin | Contenu | Schéma |
 |---|---|---|
-| `referentiels/langues/` | Langues : code interne, filiation, écriture par défaut, noms par locale | `langue` |
+| `referentiels/langues/` | Langues : code interne, filiation, écriture par défaut, glyphe de la carte du codex, noms par locale | `langue` |
 | `referentiels/ecritures/` | Systèmes d’écriture (ISO 15924, direction) | `ecriture` |
 | `referentiels/conventions/` | Conventions de translittération | `convention` |
 | `referentiels/types-relation.json` | Vocabulaire contrôlé des relations étymologiques | `vocabulaire` |

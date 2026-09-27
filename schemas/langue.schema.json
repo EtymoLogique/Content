@@ -20,6 +20,12 @@
     "periode_debut": { "type": ["integer", "null"] },
     "periode_fin": { "type": ["integer", "null"] },
     "systeme_ecriture_defaut_id": { "$ref": "communs.schema.json#/$defs/id_ecriture" },
+    "glyphe": {
+      "description": "Lettre emblème de la carte de langue dans le codex (É, Æ, Ω…) : un seul caractère visible.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2
+    },
     "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" },
     "libelles": {
       "$ref": "communs.schema.json#/$defs/libelles",
