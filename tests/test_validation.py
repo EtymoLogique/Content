@@ -460,6 +460,12 @@ def test_premier_fascicule_sans_graines(depot):
     assert "fascicule.amorcage" in avertissements(depot.valider())
 
 
+def test_recette_de_trois_briques(depot):
+    iste = depot.brique("iste")[1]["id"]
+    depot.modifier(depot.recette("géologie"), lambda r: r["emplacements"].append({"rang": 3, "briques_acceptees": [iste]}))
+    assert "recette.deux_briques" in erreurs(depot.valider())
+
+
 # ---------------------------------------------------------------------- exclusions
 
 

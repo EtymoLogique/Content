@@ -16,6 +16,8 @@ TRAITS_UNION = ("-", "\u2010", "\u2011", "\u2012", "\u2013", "\u2014")
 TAILLE_FASCICULE = (20, 30)  # ADR 0022, paramètre d'équilibrage
 # Règle d'amorçage (game-design) : trois découvertes au moins sans ouvrir de pli.
 MIN_RECETTES_AMORCAGE = 3
+# La table de fusion accepte exactement deux briques : jamais plus de deux éléments à la fois.
+BRIQUES_PAR_FUSION = 2
 
 
 class Controleur:
@@ -357,6 +359,12 @@ class Controleur:
             for emp in recette["emplacements"]:
                 for bid in emp["briques_acceptees"]:
                     self._ref(self.c.briques, bid, rid, f"emplacement {emp['rang']}", "brique")
+            if len(recette["emplacements"]) != BRIQUES_PAR_FUSION:
+                self._erreur(
+                    "recette.deux_briques",
+                    f"Une recette se joue avec exactement {BRIQUES_PAR_FUSION} briques ({len(recette['emplacements'])} emplacements).",
+                    rid,
+                )
             rangs = sorted(e["rang"] for e in recette["emplacements"])
             if rangs != list(range(1, len(rangs) + 1)):
                 self._erreur("recette.rangs", "Les rangs des emplacements sont uniques et continus à partir de 1.", rid)
