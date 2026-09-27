@@ -1,0 +1,62 @@
+{
+  "id": "unt_4ezf5sd4",
+  "nature": "suffixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_9jz0j2e9",
+      "texte": "sophie",
+      "cle_normalisee": "sophie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_svs0e5vw",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "sagesse"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ]
+}

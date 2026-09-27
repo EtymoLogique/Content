@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/langue.schema.json",
+  "title": "Langue",
+  "description": "Langue affichée dans le codex. Contexte d'une unité, jamais une brique (ADR 0013).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "code_interne", "langue_parente_id", "systeme_ecriture_defaut_id", "libelles"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_langue" },
+    "code_interne": {
+      "description": "Code BCP 47, strictement interne, jamais affiché (ADR 0006).",
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$"
+    },
+    "langue_parente_id": {
+      "description": "Filiation des langues, pas des emprunts.",
+      "anyOf": [{ "$ref": "communs.schema.json#/$defs/id_langue" }, { "type": "null" }]
+    },
+    "periode_debut": { "type": ["integer", "null"] },
+    "periode_fin": { "type": ["integer", "null"] },
+    "systeme_ecriture_defaut_id": { "$ref": "communs.schema.json#/$defs/id_ecriture" },
+    "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" },
+    "libelles": {
+      "$ref": "communs.schema.json#/$defs/libelles",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["nom"],
+        "properties": {
+          "nom": { "$ref": "communs.schema.json#/$defs/texte" },
+          "description": { "$ref": "communs.schema.json#/$defs/texte" }
+        }
+      }
+    }
+  }
+}

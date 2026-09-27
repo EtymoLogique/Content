@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/convention.schema.json",
+  "title": "Convention de translittération",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "code", "systeme_ecriture_id", "libelles"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_convention" },
+    "code": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "systeme_ecriture_id": {
+      "description": "Écriture des formes que la convention translittère.",
+      "$ref": "communs.schema.json#/$defs/id_ecriture"
+    },
+    "libelles": {
+      "$ref": "communs.schema.json#/$defs/libelles",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["nom"],
+        "properties": { "nom": { "$ref": "communs.schema.json#/$defs/texte" } }
+      }
+    }
+  }
+}

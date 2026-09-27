@@ -1,0 +1,17 @@
+{
+  "id": "rel_7ws380nn",
+  "unite_source_id": "unt_3018ke75",
+  "unite_cible_id": "unt_87h222t2",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "unt_sp5n9wya",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_0n7y3maj",
+      "texte": "moral",
+      "cle_normalisee": "moral",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_6pctwcf9",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "qui concerne les mœurs",
+          "definition": "Qui concerne les règles de conduite admises dans une société."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ]
+}

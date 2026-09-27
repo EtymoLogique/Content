@@ -1,0 +1,37 @@
+{
+  "id": "cmp_0dr3c7s7",
+  "mot_id": "unt_3018ke75",
+  "forme_resultat_id": "frm_5w2grdxf",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_t01c6vyk",
+      "sens_id": "sns_0a8adktm",
+      "forme_id": "frm_c927k96r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4eq7wcqn",
+      "sens_id": "sns_jcdpzkgc",
+      "forme_id": "frm_0fwdbpkk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du sens vrai"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cmp_r61nrcds",
+  "mot_id": "unt_jff6zcsa",
+  "forme_resultat_id": "frm_3rk469h3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Le joueur recompose le mot en français, mais il a été formé en grec (philosophía), puis emprunté par le latin."
+      }
+    }
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zqhq8c5t",
+      "sens_id": "sns_zfmtf9t0",
+      "forme_id": "frm_h2wghd3e",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4ezf5sd4",
+      "sens_id": "sns_svs0e5vw",
+      "forme_id": "frm_9jz0j2e9",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "amour de la sagesse",
+      "explication_courte": "Le mot est déjà formé en grec, puis passe par le latin."
+    }
+  }
+}

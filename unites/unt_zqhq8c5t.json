@@ -1,0 +1,81 @@
+{
+  "id": "unt_zqhq8c5t",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_h2wghd3e",
+      "texte": "philo",
+      "cle_normalisee": "philo",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    },
+    {
+      "id": "frm_z8sssjf9",
+      "texte": "phil",
+      "cle_normalisee": "phil",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "allomorphe",
+      "contexte": "devant voyelle",
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_zfmtf9t0",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "qui aime"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ]
+}

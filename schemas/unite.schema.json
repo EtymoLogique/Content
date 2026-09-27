@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/unite.schema.json",
+  "title": "Unité lexicale",
+  "description": "Mot, préfixe ou suffixe, avec ses formes et ses sens (ADR 0013, modèle de données § 2).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "nature", "langue_id", "fait", "formes", "sens"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+    "nature": { "enum": ["mot", "prefixe", "suffixe"] },
+    "langue_id": { "$ref": "communs.schema.json#/$defs/id_langue" },
+    "fait": { "$ref": "communs.schema.json#/$defs/fait" },
+    "mot": {
+      "description": "Sous-type mot : présent si et seulement si nature vaut « mot ».",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["categorie"],
+      "properties": {
+        "categorie": {
+          "enum": ["nom", "adjectif", "verbe", "adverbe", "pronom", "preposition", "conjonction", "interjection", "determinant", "locution"]
+        }
+      }
+    },
+    "affixe": {
+      "description": "Sous-type affixe : présent si et seulement si nature vaut « prefixe » ou « suffixe ».",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statut"],
+      "properties": {
+        "statut": { "enum": ["affixe", "element_de_composition"] }
+      }
+    },
+    "formes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/forme" }
+    },
+    "sens": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/sens" }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "nature": { "const": "mot" } }, "required": ["nature"] },
+      "then": { "required": ["mot"], "not": { "required": ["affixe"] } },
+      "else": { "required": ["affixe"], "not": { "required": ["mot"] } }
+    }
+  ],
+  "$defs": {
+    "forme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "texte", "cle_normalisee", "systeme_ecriture_id", "role", "fait"],
+      "properties": {
+        "id": { "$ref": "communs.schema.json#/$defs/id_forme" },
+        "texte": {
+          "description": "Unicode tel qu'édité, sans trait d'union.",
+          "$ref": "communs.schema.json#/$defs/texte"
+        },
+        "cle_normalisee": {
+          "description": "Forme NFC du texte, pour les comparaisons techniques.",
+          "$ref": "communs.schema.json#/$defs/texte"
+        },
+        "systeme_ecriture_id": { "$ref": "communs.schema.json#/$defs/id_ecriture" },
+        "role": { "enum": ["canonique", "allomorphe", "graphie_ancienne"] },
+        "contexte": {
+          "description": "Contexte d'emploi, par exemple « devant voyelle ».",
+          "$ref": "communs.schema.json#/$defs/texte_nullable"
+        },
+        "translitterations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["convention_id", "texte"],
+            "properties": {
+              "convention_id": { "$ref": "communs.schema.json#/$defs/id_convention" },
+              "texte": { "$ref": "communs.schema.json#/$defs/texte" }
+            }
+          }
+        },
+        "fait": { "$ref": "communs.schema.json#/$defs/fait" }
+      }
+    },
+    "sens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "rang", "libelles", "fait"],
+      "properties": {
+        "id": { "$ref": "communs.schema.json#/$defs/id_sens" },
+        "rang": { "type": "integer", "minimum": 1 },
+        "libelles": {
+          "$ref": "communs.schema.json#/$defs/libelles",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "minProperties": 1,
+            "properties": {
+              "glose": {
+                "description": "Glose courte, affichée sur la brique : « terre ».",
+                "$ref": "communs.schema.json#/$defs/texte"
+              },
+              "definition": {
+                "description": "Sens actuel, en une phrase. Obligatoire pour un mot découvrable.",
+                "$ref": "communs.schema.json#/$defs/texte"
+              }
+            }
+          }
+        },
+        "fait": { "$ref": "communs.schema.json#/$defs/fait" }
+      }
+    }
+  }
+}

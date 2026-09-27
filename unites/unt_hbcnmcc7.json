@@ -1,0 +1,63 @@
+{
+  "id": "unt_hbcnmcc7",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_380t4yaz",
+      "texte": "biologie",
+      "cle_normalisee": "biologie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_z6x4nf1x",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "étude du vivant",
+          "definition": "Science qui étudie les êtres vivants et les phénomènes de la vie."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ]
+}

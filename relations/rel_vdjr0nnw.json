@@ -1,0 +1,17 @@
+{
+  "id": "rel_vdjr0nnw",
+  "unite_source_id": "unt_hwe8crt5",
+  "unite_cible_id": "unt_sp5n9wya",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  }
+}

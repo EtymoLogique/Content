@@ -1,0 +1,22 @@
+{
+  "id": "rel_swxmxr5e",
+  "unite_source_id": "unt_4eq7wcqn",
+  "unite_cible_id": "unt_mk61g05z",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Le suffixe est passé par le latin avant d’arriver en français."
+      }
+    }
+  }
+}

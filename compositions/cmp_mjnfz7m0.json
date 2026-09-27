@@ -1,0 +1,37 @@
+{
+  "id": "cmp_mjnfz7m0",
+  "mot_id": "unt_419q73gm",
+  "forme_resultat_id": "frm_xmtj0akq",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnjsjfct",
+      "sens_id": "sns_ryvbma6b",
+      "forme_id": "frm_xqp9c845"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r5sxmdgf",
+      "sens_id": "sns_pg21w0w5",
+      "forme_id": "frm_5vwvceg6"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "amour de la sagesse"
+    }
+  }
+}

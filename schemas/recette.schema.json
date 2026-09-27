@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/recette.schema.json",
+  "title": "Recette",
+  "description": "Couche ludique : une composition jouée comme une suite ordonnée d'emplacements (ADR 0003).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "composition_id", "emplacements"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_recette" },
+    "composition_id": { "$ref": "communs.schema.json#/$defs/id_composition" },
+    "emplacements": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rang", "briques_acceptees"],
+        "properties": {
+          "rang": { "type": "integer", "minimum": 1 },
+          "briques_acceptees": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "$ref": "communs.schema.json#/$defs/id_brique" }
+          }
+        }
+      }
+    },
+    "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
+  }
+}

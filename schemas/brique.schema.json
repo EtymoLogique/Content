@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/brique.schema.json",
+  "title": "Brique",
+  "description": "Couche ludique : une unité lexicale jouée sur la table de fusion (modèle de données § 5).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "unite_id", "forme_affichee_id", "sens_affiche_id", "rarete"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_brique" },
+    "unite_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+    "forme_affichee_id": { "$ref": "communs.schema.json#/$defs/id_forme" },
+    "sens_affiche_id": { "$ref": "communs.schema.json#/$defs/id_sens" },
+    "rarete": { "enum": ["commune", "peu_commune", "rare", "legendaire"] },
+    "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
+  }
+}

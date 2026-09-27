@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/source.schema.json",
+  "title": "Source",
+  "description": "Référence qui atteste un fait, ou outil de repérage (ADR 0014).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "type", "role", "reference", "edition", "licence"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_source" },
+    "type": { "enum": ["dictionnaire", "ouvrage", "article", "base"] },
+    "role": {
+      "description": "« reference » fixe la confiance ; « reperage » ne suffit jamais pour publier.",
+      "enum": ["reference", "reperage"]
+    },
+    "reference": {
+      "description": "Citation bibliographique.",
+      "$ref": "communs.schema.json#/$defs/texte"
+    },
+    "edition": {
+      "description": "Édition utilisée, ou date de l'import.",
+      "$ref": "communs.schema.json#/$defs/texte"
+    },
+    "url": { "type": ["string", "null"], "pattern": "^https://" },
+    "licence": { "$ref": "communs.schema.json#/$defs/texte" },
+    "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
+  }
+}

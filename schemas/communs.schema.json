@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/communs.schema.json",
+  "title": "Définitions communes",
+  "$defs": {
+    "id_langue": { "type": "string", "pattern": "^lng_[0-9a-z]{8}$" },
+    "id_ecriture": { "type": "string", "pattern": "^ecr_[0-9a-z]{8}$" },
+    "id_convention": { "type": "string", "pattern": "^cnv_[0-9a-z]{8}$" },
+    "id_source": { "type": "string", "pattern": "^src_[0-9a-z]{8}$" },
+    "id_unite": { "type": "string", "pattern": "^unt_[0-9a-z]{8}$" },
+    "id_forme": { "type": "string", "pattern": "^frm_[0-9a-z]{8}$" },
+    "id_sens": { "type": "string", "pattern": "^sns_[0-9a-z]{8}$" },
+    "id_composition": { "type": "string", "pattern": "^cmp_[0-9a-z]{8}$" },
+    "id_transformation": { "type": "string", "pattern": "^trf_[0-9a-z]{8}$" },
+    "id_relation": { "type": "string", "pattern": "^rel_[0-9a-z]{8}$" },
+    "id_brique": { "type": "string", "pattern": "^brq_[0-9a-z]{8}$" },
+    "id_recette": { "type": "string", "pattern": "^rct_[0-9a-z]{8}$" },
+    "id_fascicule": { "type": "string", "pattern": "^fsc_[0-9a-z]{8}$" },
+    "id_exclusion": { "type": "string", "pattern": "^exc_[0-9a-z]{8}$" },
+    "code_vocabulaire": { "type": "string", "pattern": "^[a-z][a-z_]*$" },
+    "texte": { "type": "string", "minLength": 1 },
+    "texte_nullable": { "type": ["string", "null"], "minLength": 1 },
+    "note_interne": {
+      "description": "Note de l'équipe éditoriale. Jamais publiée (ADR 0005).",
+      "type": ["string", "null"]
+    },
+    "etat_relecture": { "enum": ["brouillon", "en_relecture", "relu", "rejete"] },
+    "libelles": {
+      "description": "Libellés indexés par locale d'interface. La locale de référence « fr » est obligatoire.",
+      "type": "object",
+      "required": ["fr"],
+      "propertyNames": { "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$" },
+      "minProperties": 1
+    },
+    "fait": {
+      "description": "Socle éditorial de toute affirmation : confiance, relecture, sources (modèle de données § 4).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["confiance", "etat_relecture", "sources"],
+      "properties": {
+        "confiance": { "enum": ["etablie", "probable", "discutee", "non_retenue"] },
+        "etat_relecture": { "$ref": "#/$defs/etat_relecture" },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source_id"],
+            "properties": {
+              "source_id": { "$ref": "#/$defs/id_source" },
+              "localisation": {
+                "description": "Entrée ou page consultée.",
+                "$ref": "#/$defs/texte_nullable"
+              }
+            }
+          }
+        },
+        "note_interne": { "$ref": "#/$defs/note_interne" },
+        "libelles": {
+          "$ref": "#/$defs/libelles",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "note_simplification": {
+                "description": "Explication publiée de la simplification ludique.",
+                "$ref": "#/$defs/texte"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

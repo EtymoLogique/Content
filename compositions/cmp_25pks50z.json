@@ -1,0 +1,55 @@
+{
+  "id": "cmp_25pks50z",
+  "mot_id": "unt_28vwxz4h",
+  "forme_resultat_id": "frm_arfz1nkp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 6,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_xh53ckqh",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le e final de biologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la biologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biologie reçoit -iste."
+    }
+  }
+}

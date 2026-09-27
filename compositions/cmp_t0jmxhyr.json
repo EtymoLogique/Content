@@ -1,0 +1,42 @@
+{
+  "id": "cmp_t0jmxhyr",
+  "mot_id": "unt_f973pjar",
+  "forme_resultat_id": "frm_3srhenqj",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_atvkapxn",
+      "sens_id": "sns_4j8f0s67",
+      "forme_id": "frm_gadmwh7a",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du vrai",
+      "explication_courte": "Du grec étumon, « sens vrai », et -logie, « étude »."
+    }
+  }
+}

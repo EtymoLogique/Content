@@ -1,0 +1,67 @@
+{
+  "id": "unt_r0a4mm23",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Forme du latin tardif, rattachée au latin sans variété (ADR 0013)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "verbe"
+  },
+  "formes": [
+    {
+      "id": "frm_12fn30em",
+      "texte": "minare",
+      "cle_normalisee": "minare",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_2qrkha86",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "pousser devant soi"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ]
+}

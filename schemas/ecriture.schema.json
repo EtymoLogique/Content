@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/ecriture.schema.json",
+  "title": "Système d'écriture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "code_iso15924", "direction", "libelles"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_ecriture" },
+    "code_iso15924": { "type": "string", "pattern": "^[A-Z][a-z]{3}$" },
+    "direction": { "enum": ["ltr", "rtl"] },
+    "libelles": {
+      "$ref": "communs.schema.json#/$defs/libelles",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["nom"],
+        "properties": { "nom": { "$ref": "communs.schema.json#/$defs/texte" } }
+      }
+    }
+  }
+}

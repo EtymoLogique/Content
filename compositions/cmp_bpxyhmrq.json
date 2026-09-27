@@ -1,0 +1,42 @@
+{
+  "id": "cmp_bpxyhmrq",
+  "mot_id": "unt_3kv1xy7r",
+  "forme_resultat_id": "frm_2p048aps",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ep96fc9j",
+      "sens_id": "sns_7h4frg7e",
+      "forme_id": "frm_97tfy6yj",
+      "segment_debut": 0,
+      "segment_fin": 1
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dw98a2g9",
+      "sens_id": "sns_2c892yd2",
+      "forme_id": "frm_84c1tzhx",
+      "segment_debut": 1,
+      "segment_fin": 6
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mener vers",
+      "explication_courte": "Le préfixe a-, venu du latin ad, indique la direction."
+    }
+  }
+}

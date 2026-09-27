@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/relation.schema.json",
+  "title": "Relation étymologique",
+  "description": "Relie une unité source (l'origine) à une unité cible (ce qui en vient).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "unite_source_id", "unite_cible_id", "type_code", "fait"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_relation" },
+    "unite_source_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+    "unite_cible_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+    "type_code": { "$ref": "communs.schema.json#/$defs/code_vocabulaire" },
+    "fait": { "$ref": "communs.schema.json#/$defs/fait" }
+  }
+}

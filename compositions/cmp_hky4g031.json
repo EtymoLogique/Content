@@ -1,0 +1,42 @@
+{
+  "id": "cmp_hky4g031",
+  "mot_id": "unt_3w887cde",
+  "forme_resultat_id": "frm_s9h29nsb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68",
+      "segment_debut": 0,
+      "segment_fin": 1
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sp5n9wya",
+      "sens_id": "sns_6pctwcf9",
+      "forme_id": "frm_0n7y3maj",
+      "segment_debut": 1,
+      "segment_fin": 6
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sans morale",
+      "explication_courte": "Le préfixe a- privatif, venu du grec, nie ce qui suit."
+    }
+  }
+}

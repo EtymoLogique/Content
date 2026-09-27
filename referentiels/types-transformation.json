@@ -1,0 +1,58 @@
+{
+  "types": [
+    {
+      "code": "elision",
+      "libelles": {
+        "fr": {
+          "nom": "élision",
+          "description": "Une voyelle finale tombe devant l’élément suivant."
+        }
+      }
+    },
+    {
+      "code": "voyelle_de_liaison",
+      "libelles": {
+        "fr": {
+          "nom": "voyelle de liaison",
+          "description": "Ajout ou retrait d’une voyelle entre deux éléments."
+        }
+      }
+    },
+    {
+      "code": "allomorphie",
+      "libelles": {
+        "fr": {
+          "nom": "allomorphie",
+          "description": "L’unité prend une autre de ses formes selon le contexte."
+        }
+      }
+    },
+    {
+      "code": "adaptation_graphie",
+      "libelles": {
+        "fr": {
+          "nom": "adaptation de graphie",
+          "description": "La graphie s’adapte aux usages de la langue."
+        }
+      }
+    },
+    {
+      "code": "adaptation_phonetique",
+      "libelles": {
+        "fr": {
+          "nom": "adaptation phonétique",
+          "description": "Changement de prononciation décrit."
+        }
+      }
+    },
+    {
+      "code": "emprunt_intermediaire",
+      "libelles": {
+        "fr": {
+          "nom": "emprunt par une forme intermédiaire",
+          "description": "Le mot passe par une autre langue avant d’arriver."
+        }
+      }
+    }
+  ]
+}

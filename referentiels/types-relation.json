@@ -1,0 +1,70 @@
+{
+  "types": [
+    {
+      "code": "heritage",
+      "orientee": true,
+      "acyclique": true,
+      "libelles": {
+        "fr": {
+          "nom": "héritage",
+          "description": "Transmission continue d’une langue à sa descendante."
+        }
+      }
+    },
+    {
+      "code": "emprunt",
+      "orientee": true,
+      "acyclique": true,
+      "libelles": {
+        "fr": {
+          "nom": "emprunt",
+          "description": "Passage d’une langue à une autre."
+        }
+      }
+    },
+    {
+      "code": "derivation",
+      "orientee": true,
+      "acyclique": true,
+      "libelles": {
+        "fr": {
+          "nom": "dérivation",
+          "description": "Formation à l’intérieur d’une langue."
+        }
+      }
+    },
+    {
+      "code": "forme_de_composition",
+      "orientee": true,
+      "acyclique": true,
+      "libelles": {
+        "fr": {
+          "nom": "forme de composition",
+          "description": "Élément de composition tiré d’un mot."
+        }
+      }
+    },
+    {
+      "code": "adaptation",
+      "orientee": true,
+      "acyclique": true,
+      "libelles": {
+        "fr": {
+          "nom": "adaptation",
+          "description": "Réfection de forme ou de graphie."
+        }
+      }
+    },
+    {
+      "code": "apparentement",
+      "orientee": false,
+      "acyclique": false,
+      "libelles": {
+        "fr": {
+          "nom": "apparentement",
+          "description": "Parenté sans filiation directe connue."
+        }
+      }
+    }
+  ]
+}

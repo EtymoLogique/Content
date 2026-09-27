@@ -1,0 +1,14 @@
+{
+  "id": "lng_wa90y54n",
+  "code_interne": "fr",
+  "langue_parente_id": "lng_c5sy8ve2",
+  "periode_debut": null,
+  "periode_fin": null,
+  "systeme_ecriture_defaut_id": "ecr_ww2jr3g9",
+  "note_interne": "Filiation simplifiée : le français descend du latin parlé (modèle de données, exemples travaillés).",
+  "libelles": {
+    "fr": {
+      "nom": "français"
+    }
+  }
+}

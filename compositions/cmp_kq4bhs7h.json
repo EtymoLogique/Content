@@ -1,0 +1,42 @@
+{
+  "id": "cmp_kq4bhs7h",
+  "mot_id": "unt_dg3f1bfz",
+  "forme_resultat_id": "frm_9kfe8v54",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7",
+      "segment_debut": 3,
+      "segment_fin": 8
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de la terre",
+      "explication_courte": "Du grec gê, « terre », et -logie, « étude »."
+    }
+  }
+}

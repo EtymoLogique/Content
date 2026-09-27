@@ -1,0 +1,17 @@
+{
+  "id": "rel_hjr51nnq",
+  "unite_source_id": "unt_by2g6z8t",
+  "unite_cible_id": "unt_ep96fc9j",
+  "type_code": "heritage",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  }
+}

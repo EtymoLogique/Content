@@ -1,0 +1,19 @@
+{
+  "id": "rct_wqt08121",
+  "composition_id": "cmp_hky4g031",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_tph40b2z"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_8k10s2wm"
+      ]
+    }
+  ],
+  "note_interne": null
+}

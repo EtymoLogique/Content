@@ -1,0 +1,17 @@
+{
+  "id": "rel_rqv6dx2n",
+  "unite_source_id": "unt_pnjsjfct",
+  "unite_cible_id": "unt_zqhq8c5t",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  }
+}

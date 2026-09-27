@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/composition.schema.json",
+  "title": "Composition",
+  "description": "Analyse d'un mot en parties ordonnées (modèle de données § 3).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "mot_id", "forme_resultat_id", "type_analyse", "preferee", "fait", "parties", "libelles"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_composition" },
+    "mot_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+    "forme_resultat_id": { "$ref": "communs.schema.json#/$defs/id_forme" },
+    "type_analyse": { "enum": ["synchronique", "historique"] },
+    "preferee": { "type": "boolean" },
+    "fait": { "$ref": "communs.schema.json#/$defs/fait" },
+    "parties": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rang", "unite_id", "sens_id", "forme_id"],
+        "properties": {
+          "rang": { "type": "integer", "minimum": 1 },
+          "unite_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
+          "sens_id": { "$ref": "communs.schema.json#/$defs/id_sens" },
+          "forme_id": { "$ref": "communs.schema.json#/$defs/id_forme" },
+          "segment_debut": {
+            "description": "Début dans la forme résultat, en points de code NFC.",
+            "type": ["integer", "null"],
+            "minimum": 0
+          },
+          "segment_fin": {
+            "description": "Fin exclue dans la forme résultat, en points de code NFC.",
+            "type": ["integer", "null"],
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "transformations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "rang_partie", "type_code", "ordre", "libelles"],
+        "properties": {
+          "id": { "$ref": "communs.schema.json#/$defs/id_transformation" },
+          "rang_partie": {
+            "description": "Partie visée, ou null pour toute la composition.",
+            "type": ["integer", "null"],
+            "minimum": 1
+          },
+          "type_code": { "$ref": "communs.schema.json#/$defs/code_vocabulaire" },
+          "ordre": { "type": "integer", "minimum": 1 },
+          "libelles": {
+            "$ref": "communs.schema.json#/$defs/libelles",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["texte"],
+              "properties": { "texte": { "$ref": "communs.schema.json#/$defs/texte" } }
+            }
+          }
+        }
+      }
+    },
+    "libelles": {
+      "$ref": "communs.schema.json#/$defs/libelles",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "sens_litteral": { "$ref": "communs.schema.json#/$defs/texte" },
+          "explication_courte": { "$ref": "communs.schema.json#/$defs/texte" },
+          "explication_detaillee": { "$ref": "communs.schema.json#/$defs/texte" }
+        }
+      }
+    }
+  }
+}

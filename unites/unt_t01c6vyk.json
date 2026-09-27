@@ -1,0 +1,68 @@
+{
+  "id": "unt_t01c6vyk",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_c927k96r",
+      "texte": "ἔτυμον",
+      "cle_normalisee": "ἔτυμον",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "étumon"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_0a8adktm",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "sens vrai"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+      }
+    }
+  ]
+}

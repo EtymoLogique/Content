@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/exclusion.schema.json",
+  "title": "Exclusion",
+  "description": "Combinaison attestée volontairement non publiée, avec sa raison (ADR 0014).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "fascicule_id", "combinaison", "raison", "etat_relecture"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_exclusion" },
+    "fascicule_id": { "$ref": "communs.schema.json#/$defs/id_fascicule" },
+    "combinaison": {
+      "description": "Suite ordonnée de briques.",
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "communs.schema.json#/$defs/id_brique" }
+    },
+    "raison": { "enum": ["archaique", "rare", "offensant", "analyse_non_etablie"] },
+    "etat_relecture": { "$ref": "communs.schema.json#/$defs/etat_relecture" },
+    "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
+  }
+}
