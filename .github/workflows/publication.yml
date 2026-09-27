@@ -136,3 +136,16 @@ jobs:
           done
           [ "$manquants" -eq 0 ]
           echo "Calendrier et $(echo "$chemins" | wc -l | tr -d ' ') fichiers présents dans s3://$BUCKET/staging/." >> "$GITHUB_STEP_SUMMARY"
+
+      # Une fois le nouveau calendrier en place et vérifié, on retire de staging/
+      # les fichiers hachés que plus rien ne cite : anciens manifestes, cartes ou
+      # médias dont le contenu a changé. public/ n'est jamais touché.
+      - name: Remove stale files from staging/
+        if: steps.compilation.outputs.fascicules != '0'
+        run: |
+          aws s3 sync artefact/ "s3://$BUCKET/staging/" \
+            --delete --exclude parutions.json --size-only --no-progress --dryrun \
+            | grep '^(dryrun) upload' && { echo "::error::Fichier non déposé avant la purge"; exit 1; } || true
+          supprimes="$(aws s3 sync artefact/ "s3://$BUCKET/staging/" \
+            --delete --exclude parutions.json --size-only --no-progress | grep -c '^delete:' || true)"
+          echo "$supprimes fichier(s) obsolète(s) retiré(s) de staging/." >> "$GITHUB_STEP_SUMMARY"

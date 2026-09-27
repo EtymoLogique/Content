@@ -130,7 +130,7 @@ La CI (`.github/workflows/publication.yml`) suit l’[ADR 0028](https://github.c
 | `master` | prod | publication |
 | autre | rien | — |
 
-Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord (JSON en `application/json`, médias en `image/svg+xml`), calendrier en dernier. Enfin, elle vérifie la présence de chaque manifeste du calendrier et de chaque ressource que ces manifestes citent. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
+Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord (JSON en `application/json`, médias en `image/svg+xml`), calendrier en dernier. Enfin, elle vérifie la présence de chaque manifeste du calendrier et de chaque ressource que ces manifestes citent. Une fois le calendrier vérifié, elle retire de `staging/` les fichiers hachés que l’artefact ne contient plus (`aws s3 sync --delete`) : anciens manifestes, cartes ou médias dont le contenu a changé. Le bucket étant versionné, un fichier retiré reste récupérable. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
 
 ## Sources et licences
 
