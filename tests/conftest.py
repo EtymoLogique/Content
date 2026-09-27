@@ -24,6 +24,7 @@ class Depot:
         return json.loads(chemin.read_text(encoding="utf-8"))
 
     def ecrire(self, chemin: Path, donnees: dict) -> None:
+        chemin.parent.mkdir(parents=True, exist_ok=True)
         chemin.write_text(json.dumps(donnees, ensure_ascii=False, indent=2), encoding="utf-8")
 
     def fichiers(self, dossier: str) -> list[Path]:
