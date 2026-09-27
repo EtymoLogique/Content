@@ -40,6 +40,8 @@ jobs:
       # Hors-prod : fascicules de test et faits non relus compris, artefact
       # marqué « essai ». Prod : exigences de publication complètes.
       ESSAI: ${{ github.ref == 'refs/heads/master' && 'false' || 'true' }}
+      # Ressources citées par un manifeste, comme ressources() dans compilation.py.
+      RESSOURCES: '[.jaquette, .exclusions, (.cartes[]? | .carte, .silhouette), (.recettes[]? | .chemin)] | map(select(. != null)) | unique | .[]'
     steps:
       - name: Check the configuration
         run: |
@@ -75,9 +77,12 @@ jobs:
           {
             echo "### Artefact ${GITHUB_SHA::12}"
             echo
-            echo "| Numéro | Parution | Fichiers |"
+            echo "| Numéro | Parution | Ressources |"
             echo "|---|---|---|"
-            jq -r '.fascicules[] | "| \(.numero) | \(.parution) | \(.fichiers | length) |"' artefact/parutions.json
+            jq -r '.fascicules[] | [.numero, .parution, .manifeste] | @tsv' artefact/parutions.json |
+              while IFS=$'\t' read -r numero parution manifeste; do
+                echo "| $numero | $parution | $(jq "[$RESSOURCES] | length" "artefact/$manifeste") |"
+              done
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Keep the artefact
@@ -110,9 +115,14 @@ jobs:
         run: |
           aws s3 cp "s3://$BUCKET/staging/parutions.json" depose.json --no-progress
           cmp artefact/parutions.json depose.json
+          # Le calendrier cite les manifestes, chaque manifeste cite ses ressources.
+          chemins="$(for manifeste in $(jq -r '.fascicules[].manifeste' artefact/parutions.json); do
+            echo "$manifeste"
+            jq -r "$RESSOURCES" "artefact/$manifeste"
+          done | sort -u)"
           manquants=0
-          for chemin in $(jq -r '.fascicules[].fichiers[]' artefact/parutions.json); do
+          for chemin in $chemins; do
             aws s3api head-object --bucket "$BUCKET" --key "staging/$chemin" > /dev/null || { echo "::error::Absent : staging/$chemin"; manquants=$((manquants + 1)); }
           done
           [ "$manquants" -eq 0 ]
-          echo "Calendrier et $(jq '[.fascicules[].fichiers[]] | length' artefact/parutions.json) fichiers présents dans s3://$BUCKET/staging/." >> "$GITHUB_STEP_SUMMARY"
+          echo "Calendrier et $(echo "$chemins" | wc -l | tr -d ' ') fichiers présents dans s3://$BUCKET/staging/." >> "$GITHUB_STEP_SUMMARY"

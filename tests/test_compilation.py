@@ -8,7 +8,7 @@ from pathlib import Path
 
 from etymo_contenu.chargement import charger
 from etymo_contenu.cli import main
-from etymo_contenu.compilation import compiler, ecrire, verifier
+from etymo_contenu.compilation import compiler, ecrire, ressources, verifier
 from etymo_contenu.rapport import Rapport
 
 
@@ -31,9 +31,35 @@ def test_publication_ecarte_les_fascicules_de_test(depot, tmp_path):
     assert parutions["fascicules"] == []
 
 
+def _manifeste(sortie: Path, fascicule: dict) -> dict:
+    return json.loads((sortie / fascicule["manifeste"]).read_text(encoding="utf-8"))
+
+
+def test_calendrier_ne_cite_que_les_manifestes(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    for fascicule in parutions["fascicules"]:
+        assert set(fascicule) == {"numero", "parution", "manifeste"}
+        assert fascicule["manifeste"].startswith("f/")
+
+
+def test_chaque_ressource_est_citee_par_un_manifeste(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    citees = {c for f in parutions["fascicules"] for c in ressources(_manifeste(tmp_path / "a", f))}
+    ecrites = {f"r/{p.name}" for p in (tmp_path / "a" / "r").iterdir()}
+    assert citees == ecrites
+
+
+def test_verifier_signale_une_ressource_absente(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    chemin = ressources(_manifeste(tmp_path / "a", parutions["fascicules"][0]))[0]
+    (tmp_path / "a" / chemin).unlink()
+    assert verifier(tmp_path / "a") == [f"Ressource absente : {chemin} (fascicule 0)"]
+
+
 def test_chemins_en_hash_de_contenu(depot, tmp_path):
     parutions = _compiler(depot, tmp_path / "a")
-    for chemin in parutions["fascicules"][0]["fichiers"]:
+    fascicule = parutions["fascicules"][0]
+    for chemin in [fascicule["manifeste"], *ressources(_manifeste(tmp_path / "a", fascicule))]:
         contenu = (tmp_path / "a" / chemin).read_bytes()
         assert chemin.split("/")[1] == f"{hashlib.sha256(contenu).hexdigest()}.json"
         assert not any(i in chemin for i in ("unt_", "brq_", "rct_", "fsc_")), "un chemin ne dit jamais l’identifiant"

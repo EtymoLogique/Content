@@ -5,9 +5,12 @@ L'artefact reprend l'arborescence du préfixe ``staging/`` du bucket :
 - ``r/<sha256>.json`` : ressources (cartes, recettes, exclusions) ;
 - ``f/<sha256>.json`` : un manifeste par fascicule ;
 - ``parutions.json`` : calendrier des parutions, seul fichier modifiable. Il
-  porte les référentiels et, pour chaque fascicule, sa date, son manifeste et
-  la liste de ses fichiers, pour que la tâche de parution copie ces fichiers
-  dans ``public/`` et écrive ``public/index.json`` à la date d'effet.
+  porte les référentiels et, pour chaque fascicule, sa date et son manifeste.
+
+Le calendrier et l'index ne citent que des manifestes ; seul le manifeste cite
+ses ressources (voir ``ressources``). À la date d'effet, la tâche de parution
+lit le manifeste dans ``staging/``, copie ses ressources puis le manifeste dans
+``public/``, et écrit ``public/index.json`` en dernier.
 
 Chaque fichier haché est nommé d'après l'empreinte SHA-256 de son contenu :
 un fichier ne change jamais, et un contenu identique garde le même chemin.
@@ -62,6 +65,15 @@ class Artefact:
         chemin = f"{dossier}/{hashlib.sha256(contenu).hexdigest()}.json"
         self.fichiers[chemin] = contenu
         return chemin
+
+
+def ressources(manifeste: dict) -> list[str]:
+    """Chemins des ressources citées par un manifeste, triés et sans doublon."""
+    chemins = [manifeste.get("jaquette"), manifeste.get("exclusions")]
+    for carte in manifeste.get("cartes", []):
+        chemins += [carte.get("carte"), carte.get("silhouette")]
+    chemins += [recette.get("chemin") for recette in manifeste.get("recettes", [])]
+    return sorted({c for c in chemins if c})
 
 
 class Compilateur:
@@ -145,16 +157,14 @@ class Compilateur:
                     return True
         return False
 
-    def fascicule(self, fid: str) -> tuple[dict, list[str]]:
+    def fascicule(self, fid: str) -> dict:
         fsc = self.c.fascicules[fid]
         uids = [u["unite_id"] for u in fsc["unites"]]
         resultats = {u["unite_id"] for u in fsc["unites"] if u["role"] == "resultat"}
-        fichiers: list[str] = []
 
         cartes = []
         for entree in fsc["unites"]:
             chemin = self.artefact.deposer("r", self.carte(entree["unite_id"]))
-            fichiers.append(chemin)
             cartes.append({"id": entree["unite_id"], "role": entree["role"], "carte": chemin, "silhouette": None})
 
         ids_recettes = sorted(
@@ -163,7 +173,6 @@ class Compilateur:
         recettes = []
         for rid in ids_recettes:
             chemin = self.artefact.deposer("r", self.recette(rid))
-            fichiers.append(chemin)
             recettes.append({"id": rid, "chemin": chemin})
 
         exclusions = [
@@ -172,7 +181,6 @@ class Compilateur:
             if exc["fascicule_id"] == fid and (self.essai or exc["etat_relecture"] == "relu")
         ]
         chemin_exclusions = self.artefact.deposer("r", {"exclusions": exclusions})
-        fichiers.append(chemin_exclusions)
 
         # Compteurs hors légendaires et hors mots qui en dépendent (ADR 0015).
         visibles = [u for u in uids if not self._legendaire(u) and not self._depend_de_legendaire(u, ids_recettes)]
@@ -206,8 +214,7 @@ class Compilateur:
         if fsc.get("test"):
             manifeste["test"] = True
         chemin_manifeste = self.artefact.deposer("f", manifeste)
-        fichiers.append(chemin_manifeste)
-        return {"numero": fsc["numero"], "parution": fsc["parution"], "manifeste": chemin_manifeste}, sorted(set(fichiers))
+        return {"numero": fsc["numero"], "parution": fsc["parution"], "manifeste": chemin_manifeste}
 
     # ----------------------------------------------------------------- global
     def referentiels(self) -> dict:
@@ -219,10 +226,8 @@ class Compilateur:
 
     def compiler(self) -> Artefact:
         retenus = [fid for fid, f in self.c.fascicules.items() if self.essai or not f.get("test")]
-        calendrier = []
-        for fid in sorted(retenus, key=lambda i: (self.c.fascicules[i]["parution"], self.c.fascicules[i]["numero"])):
-            entree, fichiers = self.fascicule(fid)
-            calendrier.append({**entree, "fichiers": fichiers})
+        ordre = sorted(retenus, key=lambda i: (self.c.fascicules[i]["parution"], self.c.fascicules[i]["numero"]))
+        calendrier = [self.fascicule(fid) for fid in ordre]
 
         parutions = {
             "format": FORMAT,
@@ -249,7 +254,8 @@ def ecrire(artefact: Artefact, sortie: Path) -> None:
 
 
 def verifier(sortie: Path) -> list[str]:
-    """Recalcule l'empreinte de chaque fichier haché et contrôle chaque chemin cité."""
+    """Recalcule l'empreinte de chaque fichier haché et contrôle chaque chemin cité,
+    du calendrier vers les manifestes, puis des manifestes vers les ressources."""
     problemes = []
     for fichier in sorted(sortie.glob("[rf]/*.json")):
         attendu = fichier.stem
@@ -257,7 +263,11 @@ def verifier(sortie: Path) -> list[str]:
             problemes.append(f"Empreinte fausse : {fichier.relative_to(sortie)}")
     parutions = json.loads((sortie / "parutions.json").read_text(encoding="utf-8"))
     for fsc in parutions["fascicules"]:
-        for chemin in [fsc["manifeste"], *fsc["fichiers"]]:
+        fichier = sortie / fsc["manifeste"]
+        if not fichier.is_file():
+            problemes.append(f"Manifeste absent : {fsc['manifeste']} (fascicule {fsc['numero']})")
+            continue
+        for chemin in ressources(json.loads(fichier.read_text(encoding="utf-8"))):
             if not (sortie / chemin).is_file():
-                problemes.append(f"Fichier absent : {chemin} (fascicule {fsc['numero']})")
+                problemes.append(f"Ressource absente : {chemin} (fascicule {fsc['numero']})")
     return problemes

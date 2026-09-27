@@ -94,7 +94,9 @@ La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance le
 |---|---|
 | `r/<sha256>.json` | Ressources : carte de chaque unité déclarée, recette, exclusions d’un fascicule. |
 | `f/<sha256>.json` | Manifeste de fascicule : compteurs hors légendaires, briques tirables, chemins des cartes, recettes et exclusions. |
-| `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date, son manifeste et la liste de ses fichiers. La tâche de parution en tire `public/index.json`. |
+| `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date et son manifeste. La tâche de parution en tire `public/index.json`. |
+
+Le calendrier, comme l’index, ne cite que des manifestes ; seul le manifeste cite ses ressources. `ressources()`, dans `compilation.py`, fixe la liste des champs qui en portent un chemin.
 
 - **Hash de contenu** : chaque fichier est rangé sous l’empreinte SHA-256 de son JSON canonique (clés triées, UTF-8). Un chemin ne contient ni identifiant ni graphie, et un contenu identique garde le même chemin.
 - **Jamais publiés** : `note_interne`, `etat_relecture` et tout fait `non_retenue`.
@@ -110,7 +112,7 @@ La CI (`.github/workflows/publication.yml`) suit l’[ADR 0028](https://github.c
 | `master` | prod | publication |
 | autre | rien | — |
 
-Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord, calendrier en dernier. Enfin, elle vérifie que chaque fichier est présent. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
+Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord, calendrier en dernier. Enfin, elle vérifie la présence de chaque manifeste du calendrier et de chaque ressource que ces manifestes citent. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
 
 ## Sources et licences
 
