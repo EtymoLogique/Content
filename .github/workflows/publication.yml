@@ -146,6 +146,7 @@ jobs:
           aws s3 sync artefact/ "s3://$BUCKET/staging/" \
             --delete --exclude parutions.json --size-only --no-progress --dryrun \
             | grep '^(dryrun) upload' && { echo "::error::Fichier non déposé avant la purge"; exit 1; } || true
-          supprimes="$(aws s3 sync artefact/ "s3://$BUCKET/staging/" \
-            --delete --exclude parutions.json --size-only --no-progress | grep -c '^delete:' || true)"
+          aws s3 sync artefact/ "s3://$BUCKET/staging/" \
+            --delete --exclude parutions.json --size-only --no-progress | tee purge.log
+          supprimes="$(grep -c '^delete:' purge.log || true)"
           echo "$supprimes fichier(s) obsolète(s) retiré(s) de staging/." >> "$GITHUB_STEP_SUMMARY"
