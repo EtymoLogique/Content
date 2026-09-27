@@ -29,6 +29,7 @@ Références, qui priment sur ce résumé : ADR 0014 (sources et fascicules), 00
 {
   "id": "fsc_…",
   "numero": 1,
+  "nom": "Rosette",
   "parution": "2026-11-01T00:00:00Z",
   "test": false,
   "unites": [

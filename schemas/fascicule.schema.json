@@ -5,10 +5,16 @@
   "description": "Unité de publication du contenu : 20 à 30 mots environ tous les 30 jours (ADR 0014, ADR 0022).",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "numero", "parution", "test", "unites"],
+  "required": ["id", "numero", "nom", "parution", "test", "unites"],
   "properties": {
     "id": { "$ref": "communs.schema.json#/$defs/id_fascicule" },
     "numero": { "type": "integer", "minimum": 0 },
+    "nom": {
+      "description": "Nom du fascicule, celui de sa jaquette (« Rosette », « Argile », ADR 0016) : mis en avant, le numéro en petit.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40
+    },
     "parution": {
       "description": "Date et heure de parution, avec fuseau (ISO 8601).",
       "type": "string",
