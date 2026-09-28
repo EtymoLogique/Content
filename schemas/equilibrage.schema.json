@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schemas.etymologique.invalid/equilibrage.schema.json",
   "title": "Équilibrage des plis",
-  "description": "Paramètres versionnés des plis (ADR 0009, 0011, 0012, 0019, 0020) : poids des raretés, encre, garantie de nouveauté et filet d’utilité. Recopiés dans le manifeste de chaque fascicule.",
+  "description": "Paramètres versionnés des plis (ADR 0009, 0011, 0012, 0019, 0020, 0040) : poids des raretés, encre, garantie de nouveauté et filet d’utilité. Recopiés dans le manifeste de chaque fascicule.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -11,6 +11,7 @@
     "base_encre",
     "encre_doublon",
     "encre_reserve_pleine",
+    "encre_decouverte",
     "garantie_nouveaute",
     "filet_utilite"
   ],
@@ -124,6 +125,39 @@
         }
       },
       "description": "Gouttes en plus quand la réserve de la brique est pleine (ADR 0011)."
+    },
+    "encre_decouverte": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commune",
+        "peu_commune",
+        "rare",
+        "legendaire"
+      ],
+      "properties": {
+        "commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "peu_commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "rare": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "legendaire": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        }
+      },
+      "description": "Gouttes rapportées par la découverte d’un mot, selon sa rareté : la plus haute rareté des briques qu’exige sa recette (ADR 0040)."
     },
     "garantie_nouveaute": {
       "description": "Une brique nouvelle au plus tard à ce pli après la dernière nouveauté (ADR 0011).",
