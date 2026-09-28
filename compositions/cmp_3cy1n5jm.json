@@ -1,0 +1,38 @@
+{
+  "id": "cmp_3cy1n5jm",
+  "mot_id": "unt_kjdm65fg",
+  "forme_resultat_id": "frm_dskzt636",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rbddryfp",
+      "sens_id": "sns_vkxaxd36",
+      "forme_id": "frm_s6j25acv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du livre",
+      "explication_courte": "Du grec biblíon, « livre », et -logie, « étude »."
+    }
+  }
+}
