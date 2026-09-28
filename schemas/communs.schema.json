@@ -18,6 +18,7 @@
     "id_fascicule": { "type": "string", "pattern": "^fsc_[0-9a-z]{8}$" },
     "id_exclusion": { "type": "string", "pattern": "^exc_[0-9a-z]{8}$" },
     "id_media": { "type": "string", "pattern": "^med_[0-9a-z]{8}$" },
+    "id_jalon": { "type": "string", "pattern": "^jal_[0-9a-z]{8}$" },
     "code_vocabulaire": { "type": "string", "pattern": "^[a-z][a-z_]*$" },
     "texte": { "type": "string", "minLength": 1 },
     "texte_nullable": { "type": ["string", "null"], "minLength": 1 },

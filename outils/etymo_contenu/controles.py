@@ -405,6 +405,7 @@ class Controleur:
 
     def fascicules(self) -> None:
         numeros: dict[tuple[bool, int], str] = {}
+        jalons: dict[str, str] = {}
         resultats: dict[tuple[bool, str], str] = {}
         for fid, fsc in self.c.fascicules.items():
             cle = (fsc["test"], fsc["numero"])
@@ -429,6 +430,7 @@ class Controleur:
                 elif unite and self._brique_de(uid) is None:
                     self._erreur("fascicule.ingredient_sans_brique", f"L’ingrédient {uid} n’a pas de brique.", fid)
             self._graines(fid, fsc, vus)
+            self._jalons(fid, fsc, vus, jalons)
 
         for fid, fsc in self.c.fascicules.items():
             declares = {l["unite_id"]: l["role"] for l in fsc["unites"]}
@@ -469,6 +471,27 @@ class Controleur:
         for (n1, d1, _), (n2, d2, f2) in itertools.pairwise(dates):
             if d2 <= d1:
                 self._avert("fascicule.chronologie", f"Le fascicule {n2} paraît avant ou en même temps que le fascicule {n1}.", f2)
+
+    def _jalons(self, fid: str, fsc: dict, declares: set[str], vus: dict[str, str]) -> None:
+        """Jalons (ADR 0038) : identifiants uniques, découvertes strictement croissantes,
+        pli fait des préfixes et suffixes du fascicule."""
+        precedent = 0
+        for jalon in fsc.get("jalons", []):
+            jid = jalon["id"]
+            if jid in vus:
+                self._erreur("fascicule.jalon_duplique", f"Le jalon {jid} est déjà déclaré par {vus[jid]}.", fid)
+            vus[jid] = fid
+            if jalon["decouvertes"] <= precedent:
+                self._erreur("fascicule.jalon_ordre", f"Le jalon {jid} doit demander plus de {precedent} découvertes.", fid)
+            precedent = jalon["decouvertes"]
+            for bid in jalon["pli"]:
+                brique = self._ref(self.c.briques, bid, fid, "jalons", "brique")
+                if not brique:
+                    continue
+                if brique["unite_id"] not in declares:
+                    self._erreur("fascicule.jalon_hors_fascicule", f"La brique {bid} du jalon {jid} n’est pas une brique du fascicule.", fid)
+                elif self.c.unites.get(brique["unite_id"], {}).get("nature") not in ("prefixe", "suffixe"):
+                    self._erreur("fascicule.jalon_mot", f"La brique {bid} du jalon {jid} est un mot : un pli ne donne que des affixes.", fid)
 
     def _graines(self, fid: str, fsc: dict, declares: set[str]) -> None:
         """Réserve de départ (ADR 0030) : briques du fascicule, et au moins trois

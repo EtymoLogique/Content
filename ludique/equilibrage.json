@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-28b",
+  "version": "2026-09-28c",
   "poids_raretes": {
     "commune": 62,
     "peu_commune": 26,
@@ -18,6 +18,12 @@
     "peu_commune": 4,
     "rare": 8,
     "legendaire": 20
+  },
+  "encre_decouverte": {
+    "commune": 2,
+    "peu_commune": 3,
+    "rare": 5,
+    "legendaire": 10
   },
   "garantie_nouveaute": 6,
   "filet_utilite": 5
