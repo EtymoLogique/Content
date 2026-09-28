@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bj40js6d",
+  "mot_id": "unt_k2dys4a9",
+  "forme_resultat_id": "frm_t0gns1hd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « archéographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_813t4m1s",
+      "sens_id": "sns_ab73mzmh",
+      "forme_id": "frm_809pfaa5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description de l’ancien",
+      "explication_courte": "Du grec arkhaîos, « ancien », et graphḗ, « écriture »."
+    }
+  }
+}
