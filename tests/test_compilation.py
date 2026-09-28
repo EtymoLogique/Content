@@ -191,3 +191,11 @@ def test_manifeste_porte_les_graines(depot, tmp_path):
     attendues = sorted(depot.fascicule()[1]["graines"], key=lambda g: g["brique_id"])
     assert manifeste["graines"] == attendues
     assert manifeste["id"] == depot.fascicule()[1]["id"]
+
+
+def test_manifeste_publie_les_jalons(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    jalons = _manifeste(tmp_path / "a", parutions["fascicules"][0])["jalons"]
+    assert [j["decouvertes"] for j in jalons] == [3, 6]
+    assert set(jalons[0]) == {"id", "decouvertes", "pli", "sabliers"}
+    assert jalons[1]["sabliers"] == 2

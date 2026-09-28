@@ -692,3 +692,39 @@ def test_cli_codes_de_retour(depot, capsys):
     depot.modifier(depot.brique("géo"), lambda b: b.update(unite_id=ID_ABSENT_UNT))
     assert main(["valider", "--racine", str(depot.racine), "--json"]) == 1
     assert '"reference.cassee"' in capsys.readouterr().out
+
+
+def test_jalon_ordre(depot):
+    depot.modifier(depot.fascicule(), lambda f: f["jalons"][1].update(decouvertes=3))
+    assert "fascicule.jalon_ordre" in erreurs(depot.valider())
+
+
+def test_jalon_duplique(depot):
+    depot.modifier(depot.fascicule(), lambda f: f["jalons"][1].update(id=f["jalons"][0]["id"]))
+    assert "fascicule.jalon_duplique" in erreurs(depot.valider())
+
+
+def test_jalon_sans_recompense(depot):
+    depot.modifier(depot.fascicule(), lambda f: f["jalons"][1].update(sabliers=0))
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_jalon_brique_mot(depot):
+    def nature(b):
+        return depot.lire(depot.racine / "unites" / f"{b['unite_id']}.json")["nature"]
+
+    declares = {l["unite_id"] for l in depot.fascicule()[1]["unites"]}
+    mot = next(b["id"] for p in depot.fichiers("ludique/briques") if (b := depot.lire(p))["unite_id"] in declares and nature(b) == "mot")
+    depot.modifier(depot.fascicule(), lambda f: f["jalons"][0]["pli"].append(mot))
+    assert "fascicule.jalon_mot" in erreurs(depot.valider())
+
+
+def test_jalon_hors_fascicule(depot):
+    phile = depot.brique("phile")[1]["id"]
+
+    def retirer(f):
+        f["unites"] = [l for l in f["unites"] if l["unite_id"] != depot.uid("phile")]
+        f["jalons"][0]["pli"].append(phile)
+
+    depot.modifier(depot.fascicule(), retirer)
+    assert "fascicule.jalon_hors_fascicule" in erreurs(depot.valider())

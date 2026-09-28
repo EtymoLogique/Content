@@ -50,6 +50,30 @@
         }
       }
     },
+    "jalons": {
+      "description": "Jalons du fascicule (ADR 0038) : atteints à un nombre de découvertes dans le fascicule, ils donnent un pli déterministe et/ou des sabliers.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "decouvertes", "pli", "sabliers"],
+        "properties": {
+          "id": { "$ref": "communs.schema.json#/$defs/id_jalon" },
+          "decouvertes": { "type": "integer", "minimum": 1 },
+          "pli": {
+            "description": "Briques du pli de jalon : un exemplaire de chacune. Préfixes et suffixes du fascicule seulement (ADR 0035).",
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "$ref": "communs.schema.json#/$defs/id_brique" }
+          },
+          "sabliers": { "type": "integer", "minimum": 0, "maximum": 36 }
+        },
+        "anyOf": [
+          { "properties": { "pli": { "minItems": 1 } } },
+          { "properties": { "sabliers": { "minimum": 1 } } }
+        ]
+      }
+    },
     "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
   },
   "if": { "properties": { "test": { "const": false } } },

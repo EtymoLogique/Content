@@ -100,5 +100,22 @@
       "exemplaires": 1
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_nde6rzt4",
+      "decouvertes": 3,
+      "pli": [
+        "brq_q08tb3nd",
+        "brq_r19kf9sq"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_71m60fc2",
+      "decouvertes": 6,
+      "pli": [],
+      "sabliers": 2
+    }
+  ],
   "note_interne": "Fascicule d’essai : exemples travaillés du modèle de données, jamais publié."
 }

@@ -239,7 +239,11 @@ class Compilateur:
             "langues": langues,
             "recettes": recettes,
             "exclusions": chemin_exclusions,
-            "jalons": [],
+            # Jalons, récompenses déterministes affichées à l'avance (ADR 0038).
+            "jalons": [
+                {"id": j["id"], "decouvertes": j["decouvertes"], "pli": sorted(j["pli"]), "sabliers": j["sabliers"]}
+                for j in sorted(fsc.get("jalons", []), key=lambda j: j["decouvertes"])
+            ],
             # Réserve de départ, accordée une fois à chaque joueur (ADR 0030).
             "graines": sorted(fsc.get("graines", []), key=lambda g: g["brique_id"]),
         }
