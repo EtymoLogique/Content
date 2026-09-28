@@ -25,14 +25,14 @@
     {
       "rang": 2,
       "unite_id": "unt_4bdmzv0a",
-      "sens_id": "sns_0g2eqv7m",
+      "sens_id": "sns_y5464rb4",
       "forme_id": "frm_ng53zgpf"
     }
   ],
   "libelles": {
     "fr": {
-      "sens_litteral": "qui aime les lettres",
-      "explication_courte": "Du grec philos, « ami », et lógos, « parole »."
+      "sens_litteral": "qui aime le discours",
+      "explication_courte": "Du grec phílos, « ami », et lógos, « parole »."
     }
   }
 }

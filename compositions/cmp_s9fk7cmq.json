@@ -13,7 +13,12 @@
         "localisation": null
       }
     ],
-    "note_interne": "À vérifier : entrée « géomètre » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « géomètre » du TLFi, localisation à renseigner. Le -mètre de géomètre vient de -μέτρης (agent), pas de μέτρον : analyse diachronique à envisager.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Le joueur assemble géo- et -mètre, mais le mot vient du grec geōmétrēs, « celui qui mesure la terre »."
+      }
+    }
   },
   "parties": [
     {
@@ -32,7 +37,7 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mesure la terre",
-      "explication_courte": "Du grec gê, « terre », et métron, « mesure »."
+      "explication_courte": "Du grec geōmétrēs, de gê, « terre », et metreîn, « mesurer »."
     }
   }
 }
