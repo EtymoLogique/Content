@@ -180,7 +180,9 @@ def test_manifeste_porte_l_equilibrage_du_pli(depot, tmp_path):
     pli = _manifeste(tmp_path / "a", parutions["fascicules"][0])["pli"]
     assert pli["equilibrage"]["poids_raretes"]["commune"] == 62
     assert pli["equilibrage"]["garantie_nouveaute"] == 6
-    assert {b["nature"] for b in pli["briques"]} <= {"prefixe", "suffixe", "mot"}
+    assert "poids_types" not in pli["equilibrage"]
+    # Un mot n'est jamais tiré d'un pli (ADR 0035).
+    assert {b["nature"] for b in pli["briques"]} == {"prefixe", "suffixe"}
 
 
 def test_manifeste_porte_les_graines(depot, tmp_path):

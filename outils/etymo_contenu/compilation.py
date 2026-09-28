@@ -218,7 +218,8 @@ class Compilateur:
             (
                 {"id": b["id"], "unite_id": u, "nature": self.c.unites[u]["nature"], "rarete": b["rarete"]}
                 for u in uids
-                if (b := self.brique_par_unite.get(u))
+                # Seuls les préfixes et les suffixes se tirent, jamais un mot (ADR 0035).
+                if (b := self.brique_par_unite.get(u)) and self.c.unites[u]["nature"] in ("prefixe", "suffixe")
             ),
             key=lambda b: b["id"],
         )
