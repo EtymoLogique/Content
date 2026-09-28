@@ -1,0 +1,17 @@
+{
+  "id": "rel_x5tgj4mm",
+  "unite_source_id": "unt_t75fwyr5",
+  "unite_cible_id": "unt_78vz8xyv",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « φῶς » du Bailly, localisation à renseigner."
+  }
+}

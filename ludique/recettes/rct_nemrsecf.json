@@ -1,0 +1,19 @@
+{
+  "id": "rct_nemrsecf",
+  "composition_id": "cmp_qwt0k5x2",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_b9ymz20k"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_4f15b01r"
+      ]
+    }
+  ],
+  "note_interne": null
+}

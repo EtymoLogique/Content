@@ -1,0 +1,38 @@
+{
+  "id": "cmp_6gjhcbd2",
+  "mot_id": "unt_2afcfj6s",
+  "forme_resultat_id": "frm_ve09d6zm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « théologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3r4j3whs",
+      "sens_id": "sns_9ewdgwcn",
+      "forme_id": "frm_2jrbrxrc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de Dieu",
+      "explication_courte": "Du grec theós, « dieu », et -logie, « étude »."
+    }
+  }
+}

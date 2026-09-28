@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bmj3apcb",
+  "mot_id": "unt_dr3ebj9g",
+  "forme_resultat_id": "frm_5m21qh23",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « téléphone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dmdgbtfy",
+      "sens_id": "sns_rxbbre2h",
+      "forme_id": "frm_npedz42v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "voix au loin",
+      "explication_courte": "Du grec têle, « au loin », et phōnḗ, « voix »."
+    }
+  }
+}

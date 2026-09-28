@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dtxas9pj",
+  "mot_id": "unt_800rtz8j",
+  "forme_resultat_id": "frm_rvfg9gyk",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « astrologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_r0vh9by3",
+      "sens_id": "sns_gzrzrw73",
+      "forme_id": "frm_vyfcnm90"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "discours sur les astres",
+      "explication_courte": "Du grec ástron, « astre », et -logie."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_t2m7mgga",
+  "mot_id": "unt_kv433x7n",
+  "forme_resultat_id": "frm_f9fznx06",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « micrographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yr0z4s28",
+      "sens_id": "sns_xgfakmbp",
+      "forme_id": "frm_66yq3x40"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description du petit",
+      "explication_courte": "Du grec mikrós, « petit », et graphḗ, « écriture »."
+    }
+  }
+}

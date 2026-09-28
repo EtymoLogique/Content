@@ -1,0 +1,38 @@
+{
+  "id": "cmp_g3txdfwg",
+  "mot_id": "unt_4ac0e064",
+  "forme_resultat_id": "frm_qn4389k6",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « xylophone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9gc9fk6a",
+      "sens_id": "sns_mx9d60dk",
+      "forme_id": "frm_g4rjxadx"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "son du bois",
+      "explication_courte": "Du grec xúlon, « bois », et phōnḗ, « son »."
+    }
+  }
+}

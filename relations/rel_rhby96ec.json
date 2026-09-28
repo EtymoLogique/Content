@@ -1,0 +1,17 @@
+{
+  "id": "rel_rhby96ec",
+  "unite_source_id": "unt_tydn01vx",
+  "unite_cible_id": "unt_r0vh9by3",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ἄστρον » du Bailly, localisation à renseigner."
+  }
+}

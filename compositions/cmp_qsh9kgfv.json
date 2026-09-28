@@ -1,0 +1,38 @@
+{
+  "id": "cmp_qsh9kgfv",
+  "mot_id": "unt_20rvaxhh",
+  "forme_resultat_id": "frm_z7p48zdw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « agronomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1cs0nw63",
+      "sens_id": "sns_p1036tyd",
+      "forme_id": "frm_xw9e6d1r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5asf4rdc",
+      "sens_id": "sns_qj46qhhz",
+      "forme_id": "frm_450d3fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "règle des champs",
+      "explication_courte": "Du grec agrós, « champ », et nómos, « loi »."
+    }
+  }
+}

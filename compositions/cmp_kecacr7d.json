@@ -1,0 +1,38 @@
+{
+  "id": "cmp_kecacr7d",
+  "mot_id": "unt_xkxxxfgk",
+  "forme_resultat_id": "frm_19bjdq3h",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « périscope » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_acdstds3",
+      "sens_id": "sns_kjg12hh5",
+      "forme_id": "frm_mexg51v4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe autour",
+      "explication_courte": "Du grec perí, « autour », et skopeîn, « observer »."
+    }
+  }
+}

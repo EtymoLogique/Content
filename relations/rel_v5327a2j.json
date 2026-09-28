@@ -1,0 +1,17 @@
+{
+  "id": "rel_v5327a2j",
+  "unite_source_id": "unt_k0ty1zeb",
+  "unite_cible_id": "unt_dmdgbtfy",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « τῆλε » du Bailly, localisation à renseigner."
+  }
+}

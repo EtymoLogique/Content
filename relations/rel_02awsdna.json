@@ -1,0 +1,17 @@
+{
+  "id": "rel_02awsdna",
+  "unite_source_id": "unt_s8qt2w4f",
+  "unite_cible_id": "unt_5f6v9qv2",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « μέτρον » du Bailly, localisation à renseigner."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jx4exfbb",
+  "mot_id": "unt_3f0st1ty",
+  "forme_resultat_id": "frm_vdy2d8cd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « calligraphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_v0c17tmt",
+      "sens_id": "sns_z1japd45",
+      "forme_id": "frm_qwsq1kf6"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit beau",
+      "explication_courte": "Du grec kállos, « beauté », et gráphein, « écrire »."
+    }
+  }
+}
