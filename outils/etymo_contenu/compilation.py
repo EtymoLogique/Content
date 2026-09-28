@@ -215,7 +215,11 @@ class Compilateur:
         }
 
         briques = sorted(
-            ({"id": b["id"], "unite_id": u, "rarete": b["rarete"]} for u in uids if (b := self.brique_par_unite.get(u))),
+            (
+                {"id": b["id"], "unite_id": u, "nature": self.c.unites[u]["nature"], "rarete": b["rarete"]}
+                for u in uids
+                if (b := self.brique_par_unite.get(u))
+            ),
             key=lambda b: b["id"],
         )
 
@@ -228,9 +232,8 @@ class Compilateur:
             "parution": fsc["parution"],
             "jaquette": self._media("jaquette", "fascicule", fid),
             "compteurs": compteurs,
-            # Poids, base d'encre et barèmes ne sont pas encore édités : le pli
-            # ne porte pour l'instant que ses briques tirables.
-            "pli": {"briques": briques},
+            # Briques tirables et paramètres d'équilibrage du pli (ADR 0009, 0011).
+            "pli": {"briques": briques, "equilibrage": self.c.equilibrage},
             "cartes": cartes,
             "langues": langues,
             "recettes": recettes,

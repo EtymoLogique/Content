@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/equilibrage.schema.json",
+  "title": "Équilibrage des plis",
+  "description": "Paramètres versionnés des plis (ADR 0009, 0011, 0012, 0019, 0020) : poids des raretés et des types, encre, garantie de nouveauté et filet d’utilité. Recopiés dans le manifeste de chaque fascicule.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "poids_raretes",
+    "poids_types",
+    "base_encre",
+    "encre_doublon",
+    "encre_reserve_pleine",
+    "garantie_nouveaute",
+    "filet_utilite"
+  ],
+  "properties": {
+    "version": {
+      "description": "Version des paramètres, inscrite dans l’historique de chaque pli.",
+      "type": "string",
+      "pattern": "^[0-9A-Za-z._-]{1,64}$"
+    },
+    "poids_raretes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commune",
+        "peu_commune",
+        "rare",
+        "legendaire"
+      ],
+      "properties": {
+        "commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "peu_commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "rare": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "legendaire": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        }
+      },
+      "description": "Poids de chaque rareté, répartis entre les briques de même rareté et de même type."
+    },
+    "poids_types": {
+      "description": "Poids de chaque type, en centièmes (les suffixes sortent un peu plus souvent).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "prefixe",
+        "suffixe",
+        "mot"
+      ],
+      "properties": {
+        "prefixe": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "suffixe": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "mot": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        }
+      }
+    },
+    "base_encre": {
+      "description": "Gouttes rapportées par tout pli (ADR 0020).",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "encre_doublon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commune",
+        "peu_commune",
+        "rare",
+        "legendaire"
+      ],
+      "properties": {
+        "commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "peu_commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "rare": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "legendaire": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        }
+      },
+      "description": "Gouttes en plus d’un doublon sous le plafond (ADR 0019)."
+    },
+    "encre_reserve_pleine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commune",
+        "peu_commune",
+        "rare",
+        "legendaire"
+      ],
+      "properties": {
+        "commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "peu_commune": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "rare": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "legendaire": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        }
+      },
+      "description": "Gouttes en plus quand la réserve de la brique est pleine (ADR 0011)."
+    },
+    "garantie_nouveaute": {
+      "description": "Une brique nouvelle au plus tard à ce pli après la dernière nouveauté (ADR 0011).",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+    },
+    "filet_utilite": {
+      "description": "Une brique utile au plus tard à ce pli consécutif sans découverte possible (ADR 0012).",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+    }
+  }
+}

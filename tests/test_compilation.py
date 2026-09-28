@@ -175,6 +175,14 @@ def test_manifeste_porte_le_nom_du_fascicule(depot, tmp_path):
     assert _manifeste(tmp_path / "a", parutions["fascicules"][0])["nom"] == "Bêta"
 
 
+def test_manifeste_porte_l_equilibrage_du_pli(depot, tmp_path):
+    parutions = _compiler(depot, tmp_path / "a")
+    pli = _manifeste(tmp_path / "a", parutions["fascicules"][0])["pli"]
+    assert pli["equilibrage"]["poids_raretes"]["commune"] == 62
+    assert pli["equilibrage"]["garantie_nouveaute"] == 6
+    assert {b["nature"] for b in pli["briques"]} <= {"prefixe", "suffixe", "mot"}
+
+
 def test_manifeste_porte_les_graines(depot, tmp_path):
     parutions = _compiler(depot, tmp_path / "a")
     manifeste = json.loads((tmp_path / "a" / parutions["fascicules"][0]["manifeste"]).read_text())
