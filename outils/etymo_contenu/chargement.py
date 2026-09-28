@@ -29,6 +29,8 @@ DOSSIERS = {
     "ludique/medias": ("media", "med", "medias"),
 }
 
+EQUILIBRAGE = "ludique/equilibrage.json"
+
 VOCABULAIRES = {
     "referentiels/types-relation.json": "types_relation",
     "referentiels/types-transformation.json": "types_transformation",
@@ -65,6 +67,8 @@ class Catalogue:
     medias: dict[str, dict] = field(default_factory=dict)
     types_relation: dict[str, dict] = field(default_factory=dict)
     types_transformation: dict[str, dict] = field(default_factory=dict)
+    # Paramètres des plis (ludique/equilibrage.json), recopiés dans chaque manifeste.
+    equilibrage: dict | None = None
     # Objets imbriqués : identifiant → (unité, objet)
     formes: dict[str, tuple[str, dict]] = field(default_factory=dict)
     sens: dict[str, tuple[str, dict]] = field(default_factory=dict)
@@ -140,6 +144,14 @@ def charger(racine: Path, rapport: Rapport) -> Catalogue:
             if entree["code"] in cible:
                 rapport.erreur("vocabulaire.doublon", f"Code « {entree['code']} » déclaré deux fois.", relatif)
             cible[entree["code"]] = entree
+
+    relatif = EQUILIBRAGE
+    if not (racine / relatif).exists():
+        rapport.erreur("fichier.absent", "Paramètres d’équilibrage des plis absents.", relatif)
+    else:
+        donnees = _lire_json(racine / relatif, relatif, rapport)
+        if donnees is not None and _valider_schema(validateurs["equilibrage"], donnees, relatif, rapport):
+            catalogue.equilibrage = donnees
 
     vus: dict[str, str] = {}
     for dossier, (nom_schema, prefixe_attendu, attribut) in DOSSIERS.items():
