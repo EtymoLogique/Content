@@ -1,0 +1,19 @@
+{
+  "id": "rct_4222s1pe",
+  "composition_id": "cmp_efab0878",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_dv3mbtrj"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_e99p5xzq"
+      ]
+    }
+  ],
+  "note_interne": null
+}

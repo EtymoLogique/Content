@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jhvdhv11",
+  "mot_id": "unt_1tsfw69m",
+  "forme_resultat_id": "frm_6ztn10qr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthroposophie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4ezf5sd4",
+      "sens_id": "sns_svs0e5vw",
+      "forme_id": "frm_9jz0j2e9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sagesse de l’être humain",
+      "explication_courte": "Du grec ánthrōpos, « être humain », et sophía, « sagesse »."
+    }
+  }
+}

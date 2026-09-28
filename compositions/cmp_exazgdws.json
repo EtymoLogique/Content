@@ -1,0 +1,38 @@
+{
+  "id": "cmp_exazgdws",
+  "mot_id": "unt_e7s1n35w",
+  "forme_resultat_id": "frm_mv4t3h2q",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « sociologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_n4cvy6wg",
+      "sens_id": "sns_chzr2q1j",
+      "forme_id": "frm_etpgmwpg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de la société",
+      "explication_courte": "Mot hybride : le latin socius, « compagnon », suivi du grec -logie."
+    }
+  }
+}

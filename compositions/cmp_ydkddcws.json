@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ydkddcws",
+  "mot_id": "unt_y5574xge",
+  "forme_resultat_id": "frm_zjchbtpv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dmdgbtfy",
+      "sens_id": "sns_rxbbre2h",
+      "forme_id": "frm_npedz42v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe au loin",
+      "explication_courte": "Du grec têle, « au loin », et skopeîn, « observer »."
+    }
+  }
+}

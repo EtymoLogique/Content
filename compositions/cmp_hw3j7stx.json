@@ -1,0 +1,38 @@
+{
+  "id": "cmp_hw3j7stx",
+  "mot_id": "unt_gq5hdw6h",
+  "forme_resultat_id": "frm_m532w09z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « philologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zqhq8c5t",
+      "sens_id": "sns_zfmtf9t0",
+      "forme_id": "frm_h2wghd3e"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_y5464rb4",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime le discours",
+      "explication_courte": "Du grec phílos, « ami », et lógos, « parole »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_rz39g02r",
+  "mot_id": "unt_hv7sx3zr",
+  "forme_resultat_id": "frm_1nhnqyxs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « archéologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_813t4m1s",
+      "sens_id": "sns_ab73mzmh",
+      "forme_id": "frm_809pfaa5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de ce qui est ancien",
+      "explication_courte": "Du grec arkhaîos, « ancien », et -logie, « étude »."
+    }
+  }
+}

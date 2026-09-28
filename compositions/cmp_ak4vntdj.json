@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ak4vntdj",
+  "mot_id": "unt_9804vdxg",
+  "forme_resultat_id": "frm_nhwt7rr0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monochrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "d’une seule couleur",
+      "explication_courte": "Du grec mónos, « seul », et khrôma, « couleur »."
+    }
+  }
+}

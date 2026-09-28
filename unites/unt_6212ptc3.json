@@ -1,0 +1,62 @@
+{
+  "id": "unt_6212ptc3",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "verbe"
+  },
+  "formes": [
+    {
+      "id": "frm_hxhbqhpk",
+      "texte": "ramener",
+      "cle_normalisee": "ramener",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_4kf7rsq1",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Amener de nouveau, ou faire revenir quelqu’un ou quelque chose à son point de départ."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

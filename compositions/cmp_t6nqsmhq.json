@@ -1,0 +1,38 @@
+{
+  "id": "cmp_t6nqsmhq",
+  "mot_id": "unt_3x6ft3j2",
+  "forme_resultat_id": "frm_nwa6p4qf",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chronomètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x8r491qt",
+      "sens_id": "sns_tsqxkh8a",
+      "forme_id": "frm_jnjm7syy"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure du temps",
+      "explication_courte": "Du grec khrónos, « temps », et métron, « mesure »."
+    }
+  }
+}

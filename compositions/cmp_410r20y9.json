@@ -1,0 +1,38 @@
+{
+  "id": "cmp_410r20y9",
+  "mot_id": "unt_81egpykc",
+  "forme_resultat_id": "frm_8asp2738",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « malmener » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_m1p4stvz",
+      "sens_id": "sns_xxpqc22q",
+      "forme_id": "frm_84wqnq0t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dw98a2g9",
+      "sens_id": "sns_2c892yd2",
+      "forme_id": "frm_84c1tzhx"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mener mal",
+      "explication_courte": "L’adverbe mal s’accole au verbe pour dire la brutalité."
+    }
+  }
+}

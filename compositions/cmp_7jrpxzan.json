@@ -1,0 +1,38 @@
+{
+  "id": "cmp_7jrpxzan",
+  "mot_id": "unt_7622s1t2",
+  "forme_resultat_id": "frm_q0jr9sqc",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rbddryfp",
+      "sens_id": "sns_vkxaxd36",
+      "forme_id": "frm_s6j25acv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit sur les livres",
+      "explication_courte": "Du grec biblíon, « livre », et gráphein, « écrire »."
+    }
+  }
+}

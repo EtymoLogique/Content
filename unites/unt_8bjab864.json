@@ -1,0 +1,62 @@
+{
+  "id": "unt_8bjab864",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « socius » du Gaffiot, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_y9smbh21",
+      "texte": "socius",
+      "cle_normalisee": "socius",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « socius » du Gaffiot, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_7sr6yj4g",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "compagnon"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « socius » du Gaffiot, localisation à renseigner."
+      }
+    }
+  ]
+}

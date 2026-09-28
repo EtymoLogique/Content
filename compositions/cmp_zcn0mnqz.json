@@ -1,0 +1,38 @@
+{
+  "id": "cmp_zcn0mnqz",
+  "mot_id": "unt_t0ch8gq3",
+  "forme_resultat_id": "frm_92s0vrzs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « astrologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_r0vh9by3",
+      "sens_id": "sns_gzrzrw73",
+      "forme_id": "frm_vyfcnm90"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste des astres",
+      "explication_courte": "Du grec ástron, « astre », et -logue."
+    }
+  }
+}

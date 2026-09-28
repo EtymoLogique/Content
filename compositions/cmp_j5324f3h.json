@@ -1,0 +1,38 @@
+{
+  "id": "cmp_j5324f3h",
+  "mot_id": "unt_gtpfh2pp",
+  "forme_resultat_id": "frm_sev8r0x9",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture d’une vie",
+      "explication_courte": "Du grec bíos, « vie », et graphḗ, « écriture »."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rel_1149zaxz",
+  "unite_source_id": "unt_t7eqtk34",
+  "unite_cible_id": "unt_x7vv70j6",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « νεῦρον » du Bailly, localisation à renseigner."
+  }
+}

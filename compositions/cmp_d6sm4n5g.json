@@ -1,0 +1,38 @@
+{
+  "id": "cmp_d6sm4n5g",
+  "mot_id": "unt_t2kj8sc2",
+  "forme_resultat_id": "frm_d3cztv0j",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui décrit la terre",
+      "explication_courte": "Du grec gê, « terre », et gráphein, « écrire »."
+    }
+  }
+}

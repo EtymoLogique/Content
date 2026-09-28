@@ -1,0 +1,38 @@
+{
+  "id": "cmp_htn2vd6y",
+  "mot_id": "unt_bwmrj0na",
+  "forme_resultat_id": "frm_w6w0fm65",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « polygamie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_7125dvqm",
+      "sens_id": "sns_6bcs3xgv",
+      "forme_id": "frm_03qn4ze4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mariages nombreux",
+      "explication_courte": "Du grec polús, « nombreux », et gámos, « mariage »."
+    }
+  }
+}

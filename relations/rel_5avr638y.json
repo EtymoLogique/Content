@@ -1,0 +1,17 @@
+{
+  "id": "rel_5avr638y",
+  "unite_source_id": "unt_ps34rdys",
+  "unite_cible_id": "unt_m1p4stvz",
+  "type_code": "heritage",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mal » du TLFi, localisation à renseigner."
+  }
+}

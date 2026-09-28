@@ -107,7 +107,12 @@ def test_manifeste_et_carte(depot, tmp_path):
     carte = json.loads((tmp_path / "a" / entree["carte"]).read_text(encoding="utf-8"))
     assert carte["compositions"][0]["mot_id"] == uid
     assert set(carte["sources"]) >= {s["source_id"] for s in carte["fait"]["sources"]}
-    assert len(manifeste["recettes"]) == len(list(depot.fichiers("ludique/recettes")))
+    # Seules les recettes des mots résultats du fascicule y figurent, pas celles des mots orphelins.
+    resultats = {u["unite_id"] for u in depot.fascicule()[1]["unites"] if u["role"] == "resultat"}
+    mots = {c["id"]: c["mot_id"] for c in map(depot.lire, depot.fichiers("compositions"))}
+    recettes = {r["id"]: mots[r["composition_id"]] for r in map(depot.lire, depot.fichiers("ludique/recettes"))}
+    assert {r["id"] for r in manifeste["recettes"]} == {rid for rid, mot in recettes.items() if mot in resultats}
+    assert any(mot not in resultats for mot in recettes.values()), "le jeu d’exemples doit porter un mot orphelin"
 
 
 def test_cli_refuse_la_publication_d_un_depot_invalide(depot, tmp_path, capsys):

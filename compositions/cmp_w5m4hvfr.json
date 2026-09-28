@@ -1,0 +1,38 @@
+{
+  "id": "cmp_w5m4hvfr",
+  "mot_id": "unt_nvp2bfwc",
+  "forme_resultat_id": "frm_9qpny16k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthropographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description de l’être humain",
+      "explication_courte": "Du grec ánthrōpos, « être humain », et graphḗ, « écriture »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_x7n6a8bd",
+  "mot_id": "unt_tkt2mava",
+  "forme_resultat_id": "frm_kp75jmhs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « théosophie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3r4j3whs",
+      "sens_id": "sns_9ewdgwcn",
+      "forme_id": "frm_2jrbrxrc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4ezf5sd4",
+      "sens_id": "sns_svs0e5vw",
+      "forme_id": "frm_9jz0j2e9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sagesse divine",
+      "explication_courte": "Du grec theós, « dieu », et sophía, « sagesse »."
+    }
+  }
+}

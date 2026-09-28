@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ky3266qx",
+  "mot_id": "unt_12zzsstd",
+  "forme_resultat_id": "frm_dz7hs8h9",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « écologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dv9z9b24",
+      "sens_id": "sns_wt104vt4",
+      "forme_id": "frm_htw23ypr"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de la maison",
+      "explication_courte": "Du grec oîkos, « maison », et -logie : le milieu est la maison du vivant."
+    }
+  }
+}

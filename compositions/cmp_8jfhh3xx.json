@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8jfhh3xx",
+  "mot_id": "unt_0h90ckhr",
+  "forme_resultat_id": "frm_57ntqy62",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliophile » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rbddryfp",
+      "sens_id": "sns_vkxaxd36",
+      "forme_id": "frm_s6j25acv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_0epc2py5",
+      "sens_id": "sns_zvfrc7dz",
+      "forme_id": "frm_1g9hqcy2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime les livres",
+      "explication_courte": "Du grec biblíon, « livre », et phílos, « ami »."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_1r0eg16e",
+  "mot_id": "unt_aa9aq43q",
+  "forme_resultat_id": "frm_f5xe644x",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_p1bwkqys",
+      "sens_id": "sns_brg4k96n",
+      "forme_id": "frm_wt758x8d"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dw98a2g9",
+      "sens_id": "sns_2c892yd2",
+      "forme_id": "frm_84c1tzhx"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_13n7w4we",
+      "rang_partie": 1,
+      "type_code": "allomorphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Devant le m de mener, en- prend la forme em-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mener hors d’ici",
+      "explication_courte": "Le préfixe en-, venu du latin inde, « de là », marque le départ."
+    }
+  }
+}

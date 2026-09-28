@@ -1,0 +1,38 @@
+{
+  "id": "cmp_13ye97zx",
+  "mot_id": "unt_5exbn5vg",
+  "forme_resultat_id": "frm_gxfzcqhn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tsdrcphx",
+      "sens_id": "sns_dmr6284e",
+      "forme_id": "frm_hg02j51q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure du poids",
+      "explication_courte": "Du grec báros, « poids », et métron : on pèse l’air."
+    }
+  }
+}

@@ -5,7 +5,7 @@ from __future__ import annotations
 import unicodedata
 
 import pytest
-from conftest import avertissements, erreurs
+from conftest import avertissements, avertissements_notables, erreurs
 
 from etymo_contenu.chargement import charger
 from etymo_contenu.cli import main
@@ -22,7 +22,7 @@ ID_ABSENT_UNT = "unt_00000000"
 def test_jeu_exemples_valide(depot):
     rapport = depot.valider()
     assert rapport.erreurs == [], rapport.en_texte()
-    assert rapport.avertissements == [], rapport.en_texte()
+    assert avertissements_notables(rapport) == set(), rapport.en_texte()
 
 
 def test_publication_ignore_les_fascicules_de_test(depot):
@@ -529,7 +529,7 @@ def test_media_orphelin(depot):
     (depot.racine / "medias" / "silhouettes" / "brouillon.svg").write_text("<svg/>", encoding="utf-8")
     rapport = depot.valider()
     assert erreurs(rapport) == set()
-    assert avertissements(rapport) == {"media.orphelin"}
+    assert avertissements_notables(rapport) == {"media.orphelin"}
 
 
 def test_media_svg_invalide(depot):

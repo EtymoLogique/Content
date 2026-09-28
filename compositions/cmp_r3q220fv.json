@@ -1,0 +1,38 @@
+{
+  "id": "cmp_r3q220fv",
+  "mot_id": "unt_rtqvfkqk",
+  "forme_resultat_id": "frm_3whq0z24",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rbddryfp",
+      "sens_id": "sns_vkxaxd36",
+      "forme_id": "frm_s6j25acv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture des livres",
+      "explication_courte": "Du grec biblíon, « livre », et graphḗ, « écriture » : on recense des livres."
+    }
+  }
+}
