@@ -224,6 +224,17 @@ class Compilateur:
             key=lambda b: b["id"],
         )
 
+        # Mot posable comme brique (résultat ou ingrédient) : elle ne s'use jamais, et la découverte
+        # d'un mot résultat en offre une (il ne sort d'aucun pli).
+        mots_briques = sorted(
+            (
+                {"mot_id": u, "brique_id": b["id"]}
+                for u in uids
+                if self.c.unites[u]["nature"] == "mot" and (b := self.brique_par_unite.get(u))
+            ),
+            key=lambda m: m["mot_id"],
+        )
+
         manifeste = {
             "format": FORMAT,
             # Identifiant opaque : les données du joueur désignent le fascicule par lui.
@@ -246,6 +257,7 @@ class Compilateur:
             ],
             # Réserve de départ, accordée une fois à chaque joueur (ADR 0030).
             "graines": sorted(fsc.get("graines", []), key=lambda g: g["brique_id"]),
+            "mots_briques": mots_briques,
         }
         if fsc.get("test"):
             manifeste["test"] = True
