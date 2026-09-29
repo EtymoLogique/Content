@@ -1,0 +1,38 @@
+{
+  "id": "cmp_4n334mm7",
+  "mot_id": "unt_jmtnywxf",
+  "forme_resultat_id": "frm_edxggwte",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermophile » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_0epc2py5",
+      "sens_id": "sns_zvfrc7dz",
+      "forme_id": "frm_1g9hqcy2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime la chaleur",
+      "explication_courte": "Du grec thermos, « chaud », et philos, « ami »."
+    }
+  }
+}

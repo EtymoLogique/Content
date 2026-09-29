@@ -1,0 +1,38 @@
+{
+  "id": "cmp_apqqe2dm",
+  "mot_id": "unt_mky51d7y",
+  "forme_resultat_id": "frm_fsnsa5rh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit la chaleur",
+      "explication_courte": "Du grec thermos, « chaud », et graphein, « écrire »."
+    }
+  }
+}

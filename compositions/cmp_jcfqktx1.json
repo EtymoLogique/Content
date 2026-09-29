@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jcfqktx1",
+  "mot_id": "unt_qbk0mmy7",
+  "forme_resultat_id": "frm_9147z5mg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « moraliste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_sp5n9wya",
+      "sens_id": "sns_6pctwcf9",
+      "forme_id": "frm_0n7y3maj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la morale",
+      "explication_courte": "De moral et du suffixe -iste, « qui pratique »."
+    }
+  }
+}

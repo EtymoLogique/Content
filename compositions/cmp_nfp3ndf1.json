@@ -1,0 +1,38 @@
+{
+  "id": "cmp_nfp3ndf1",
+  "mot_id": "unt_3b82m32c",
+  "forme_resultat_id": "frm_3qk9qd32",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « polyphone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "aux nombreuses voix",
+      "explication_courte": "Du grec polus, « nombreux », et phônê, « voix »."
+    }
+  }
+}

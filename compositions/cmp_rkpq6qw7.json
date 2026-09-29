@@ -1,0 +1,38 @@
+{
+  "id": "cmp_rkpq6qw7",
+  "mot_id": "unt_aa3q0fbe",
+  "forme_resultat_id": "frm_nzfqfd79",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « polygraphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit beaucoup",
+      "explication_courte": "Du grec polus, « nombreux », et graphein, « écrire »."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_69jzz0ps",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « promener » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "verbe"
+  },
+  "formes": [
+    {
+      "id": "frm_vfhv1vw7",
+      "texte": "promener",
+      "cle_normalisee": "promener",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « promener » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_rak6at74",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Conduire quelqu’un en plein air pour le plaisir de marcher."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « promener » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

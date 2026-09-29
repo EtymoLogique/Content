@@ -1,0 +1,38 @@
+{
+  "id": "cmp_g7b0zpm0",
+  "mot_id": "unt_t9tvqsve",
+  "forme_resultat_id": "frm_w2hwpt7a",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « télémètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dmdgbtfy",
+      "sens_id": "sns_rxbbre2h",
+      "forme_id": "frm_npedz42v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure de loin",
+      "explication_courte": "Du grec têle, « loin », et metron, « mesure »."
+    }
+  }
+}

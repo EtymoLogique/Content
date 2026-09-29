@@ -1,0 +1,38 @@
+{
+  "id": "cmp_m1srpdmb",
+  "mot_id": "unt_hvcgtsrp",
+  "forme_resultat_id": "frm_4ee206at",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « diamètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_g2j29c3e",
+      "sens_id": "sns_59nbgyvj",
+      "forme_id": "frm_2krrn520"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure à travers",
+      "explication_courte": "Du grec dia, « à travers », et metron, « mesure »."
+    }
+  }
+}

@@ -68,7 +68,8 @@ class Depot:
         return self.trouver("relations", lambda r: r["unite_cible_id"] == uid)
 
     def fascicule(self) -> tuple[Path, dict]:
-        return self.trouver("ludique/fascicules", lambda f: True)
+        """Le fascicule Bêta n° 0, base de tous les tests ; Bêta 2 (n° 1) n'y sert pas."""
+        return self.trouver("ludique/fascicules", lambda f: f["id"] == "fsc_qcnkaf5m")
 
     def media(self, type_media: str, cle: str, cible: str, svg: str | None = None) -> dict:
         """Déclare un média et écrit son fichier : par défaut, un SVG minimal conforme au profil."""

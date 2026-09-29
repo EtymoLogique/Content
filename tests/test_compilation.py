@@ -21,7 +21,7 @@ def _compiler(depot, sortie: Path, essai: bool = True, version: str = "test") ->
 def test_essai_publie_le_fascicule_de_test(depot, tmp_path):
     parutions = _compiler(depot, tmp_path / "a")
     assert parutions["essai"] is True
-    assert [f["numero"] for f in parutions["fascicules"]] == [0]
+    assert [f["numero"] for f in parutions["fascicules"]] == [0, 1]
     assert verifier(tmp_path / "a") == []
 
 
@@ -61,7 +61,10 @@ def test_verifier_signale_une_ressource_absente(depot, tmp_path):
     parutions = _compiler(depot, tmp_path / "a")
     chemin = ressources(_manifeste(tmp_path / "a", parutions["fascicules"][0]))[0]
     (tmp_path / "a" / chemin).unlink()
-    assert verifier(tmp_path / "a") == [f"Ressource absente : {chemin} (fascicule 0)"]
+    # Une ressource partagée (silhouette d'un ingrédient) manque dans chaque fascicule qui la porte.
+    erreurs = verifier(tmp_path / "a")
+    assert f"Ressource absente : {chemin} (fascicule 0)" in erreurs
+    assert all(chemin in e for e in erreurs)
 
 
 def test_chemins_en_hash_de_contenu(depot, tmp_path):

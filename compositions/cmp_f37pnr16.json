@@ -1,0 +1,38 @@
+{
+  "id": "cmp_f37pnr16",
+  "mot_id": "unt_69jzz0ps",
+  "forme_resultat_id": "frm_vfhv1vw7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « promener » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ytyw5emb",
+      "sens_id": "sns_74ccry2x",
+      "forme_id": "frm_nytf2yp4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dw98a2g9",
+      "sens_id": "sns_2c892yd2",
+      "forme_id": "frm_84c1tzhx"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "conduire en avant",
+      "explication_courte": "Du préfixe pro-, « en avant », et du verbe mener."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_149zchdt",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zoophile » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_0n9f6zn5",
+      "texte": "zoophile",
+      "cle_normalisee": "zoophile",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « zoophile » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_m1268npn",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Qui aime les animaux."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « zoophile » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

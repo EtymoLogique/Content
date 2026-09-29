@@ -1,0 +1,284 @@
+{
+  "id": "fsc_3vztseeb",
+  "numero": 1,
+  "nom": "Bêta 2",
+  "parution": "2026-10-15T08:00:00+02:00",
+  "test": true,
+  "unites": [
+    {
+      "unite_id": "unt_r4fqprva",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_hvcgtsrp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_t9tvqsve",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_jh579m53",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_37jbbqm0",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vcvd7rvv",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_3b82m32c",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_z6z9rs5v",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_mwr1ewmt",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_69jzz0ps",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_g4ghc0m4",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vxgb4qj2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_149zchdt",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_br3p2h2k",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_ws0h2kng",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_0epc2py5",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_3qa8qenz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5f6v9qv2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_6jtssz1q",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_81tn2txv",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_acdstds3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_c4sh40g2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_d04r62vs",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dmdgbtfy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dw98a2g9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_g10m2yeg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_g2j29c3e",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_k1ktdn0d",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_kh2jf5en",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pbktznfj",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pnj306rh",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_r0a5xapy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x8r491qt",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ytyw5emb",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dr3ebj9g",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xkxxxfgk",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7z2wswg9",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_zqhq8c5t",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_mk61g05z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_y5574xge",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_9hsjvmep",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gmdztdsn",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_r1n63qbq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_pcsyjaxq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_n8y29xv2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_t2kj8sc2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_0hdrenxe",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_k56tgkp8",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xmrrhanp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_0ze9hf7f",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_03se7jnq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_3x6ft3j2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_b8d5nvpj",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vfv8mdza",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_sf5b4gry",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gtpfh2pp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7b6rzg5j",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_ezxrm6ks",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_aa3q0fbe",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_jmtnywxf",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_mky51d7y",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_sp5n9wya",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wqz6cnsr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_qbk0mmy7",
+      "role": "resultat"
+    }
+  ],
+  "graines": [
+    {
+      "brique_id": "brq_d4996b38",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_vccpj2pr",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_q79h2s62",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_dgsqy6tc",
+      "exemplaires": 3
+    }
+  ],
+  "note_interne": "Fascicule d’essai Bêta 2 (jalon 6) : une quinzaine de mots pour tester la parution. Jamais publié en production. Faits en brouillon, localisations à renseigner."
+}
