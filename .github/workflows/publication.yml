@@ -166,8 +166,13 @@ jobs:
           REGION: ${{ vars.SCW_DEFAULT_REGION }}
         run: |
           api="https://api.scaleway.com/serverless-jobs/v1alpha1/regions/$REGION"
-          # --fail-with-body : la réponse de l'API (403, 404…) reste dans le journal.
-          appel() { curl -sS --fail-with-body -H "X-Auth-Token: $SCW_SECRET_KEY" -H "Content-Type: application/json" "$@"; }
+          # En cas d'échec, la réponse de l'API (403, 404…) va sur stderr : sans
+          # cela, $(...) l'avalerait et le journal ne dirait rien.
+          appel() {
+            local corps
+            corps="$(curl -sS --fail-with-body -H "X-Auth-Token: $SCW_SECRET_KEY" -H "Content-Type: application/json" "$@")" || { echo "::error::API Scaleway : $corps" >&2; return 1; }
+            printf '%s\n' "$corps"
+          }
           # Infra nomme la tâche <préfixe>-<env>-parution.
           tache="$(appel "$api/job-definitions?project_id=$PROJET&page_size=100" |
             jq -r '[.job_definitions[] | select(.name | endswith("-parution")) | .id] | if length == 1 then .[0] else empty end')"
