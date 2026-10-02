@@ -150,3 +150,34 @@ jobs:
             --delete --exclude parutions.json --size-only --no-progress | tee purge.log
           supprimes="$(grep -c '^delete:' purge.log || true)"
           echo "$supprimes fichier(s) obsolète(s) retiré(s) de staging/." >> "$GITHUB_STEP_SUMMARY"
+
+      # ADR 0029 : la tâche `parution` promeut staging/ vers public/ à la date
+      # de chaque fascicule. Elle ne part qu'une fois le dépôt vérifié ; son
+      # échec fait échouer le workflow. Hors-prod et prod ont chacun leur
+      # tâche, dans le projet de leur environnement (la clé n'en voit pas d'autre).
+      - name: Run the release job
+        env:
+          SCW_SECRET_KEY: ${{ secrets.SCW_SECRET_KEY }}
+          PROJET: ${{ vars.SCW_DEFAULT_PROJECT_ID }}
+          REGION: ${{ vars.SCW_DEFAULT_REGION }}
+        run: |
+          api="https://api.scaleway.com/serverless-jobs/v1alpha1/regions/$REGION"
+          appel() { curl -fsS -H "X-Auth-Token: $SCW_SECRET_KEY" -H "Content-Type: application/json" "$@"; }
+          # Infra nomme la tâche <préfixe>-<env>-parution.
+          tache="$(appel "$api/job-definitions?project_id=$PROJET&page_size=100" |
+            jq -r '[.job_definitions[] | select(.name | endswith("-parution")) | .id] | if length == 1 then .[0] else empty end')"
+          if [ -z "$tache" ]; then
+            echo "::error::Tâche de parution introuvable (ou ambiguë) dans le projet : est-elle activée dans Infra ?"
+            exit 1
+          fi
+          run="$(appel -X POST -d '{}' "$api/job-definitions/$tache/start" | jq -r '.job_runs[0].id')"
+          echo "Tâche de parution lancée : $run" >> "$GITHUB_STEP_SUMMARY"
+          # ponytail: sondage toutes les 10 s, borné par le timeout-minutes du job.
+          while :; do
+            etat="$(appel "$api/job-runs/$run" | jq -r '.state')"
+            case "$etat" in
+              succeeded) echo "Tâche de parution réussie." >> "$GITHUB_STEP_SUMMARY"; break ;;
+              failed|interrupted|canceled) echo "::error::Tâche de parution : $etat"; exit 1 ;;
+            esac
+            sleep 10
+          done
