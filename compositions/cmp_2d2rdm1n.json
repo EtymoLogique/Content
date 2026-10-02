@@ -1,0 +1,38 @@
+{
+  "id": "cmp_2d2rdm1n",
+  "mot_id": "unt_k54ns289",
+  "forme_resultat_id": "frm_q51nvpax",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « technophile » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gv4a4xz9",
+      "sens_id": "sns_81xrxm2a",
+      "forme_id": "frm_mjqj637c"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_0epc2py5",
+      "sens_id": "sns_zvfrc7dz",
+      "forme_id": "frm_1g9hqcy2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime la technique",
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et phílos, « ami »."
+    }
+  }
+}

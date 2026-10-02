@@ -1,0 +1,38 @@
+{
+  "id": "cmp_11tw5w41",
+  "mot_id": "unt_zgyq6p1h",
+  "forme_resultat_id": "frm_jmhar10d",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthropophage » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3jma5g3z",
+      "sens_id": "sns_6hsybknc",
+      "forme_id": "frm_6drkjf66"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui mange les humains",
+      "explication_courte": "Du grec ánthrōpos, « être humain », et phageîn, « manger »."
+    }
+  }
+}

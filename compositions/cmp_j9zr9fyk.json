@@ -1,0 +1,38 @@
+{
+  "id": "cmp_j9zr9fyk",
+  "mot_id": "unt_spjpxzv3",
+  "forme_resultat_id": "frm_pwt8cy76",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chronogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x8r491qt",
+      "sens_id": "sns_tsqxkh8a",
+      "forme_id": "frm_jnjm7syy"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "tracé du temps",
+      "explication_courte": "Du grec khrónos, « temps », et grámma, « lettre »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_xkzkbscw",
+  "mot_id": "unt_pwa1649v",
+  "forme_resultat_id": "frm_xtxwcnxy",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « agrobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1cs0nw63",
+      "sens_id": "sns_p1036tyd",
+      "forme_id": "frm_xw9e6d1r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie des champs",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : agro- s’ajoute à biologie."
+    }
+  }
+}

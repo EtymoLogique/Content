@@ -1,0 +1,19 @@
+{
+  "id": "rct_zeemarmj",
+  "composition_id": "cmp_edmnscaj",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_x4t0th7e"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_j2503p01"
+      ]
+    }
+  ],
+  "note_interne": null
+}

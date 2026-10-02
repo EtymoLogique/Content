@@ -1,0 +1,38 @@
+{
+  "id": "cmp_mfy88d29",
+  "mot_id": "unt_610nb493",
+  "forme_resultat_id": "frm_tg8jhhpr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « technocratie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gv4a4xz9",
+      "sens_id": "sns_81xrxm2a",
+      "forme_id": "frm_mjqj637c"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_c1rc3mzx",
+      "sens_id": "sns_8bqm5b02",
+      "forme_id": "frm_sc2bjqa9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pouvoir de la technique",
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et krátos, « pouvoir »."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cmp_z8kx937g",
+  "mot_id": "unt_c06gm47p",
+  "forme_resultat_id": "frm_569rx1a3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « calligraphiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_bfbdrfw3",
+      "sens_id": "sns_68tqeng7",
+      "forme_id": "frm_h49ce0r4",
+      "segment_debut": 0,
+      "segment_fin": 10
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 10,
+      "segment_fin": 14
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_y2s3mwvs",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de calligraphie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la calligraphie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : calligraphie reçoit -iste."
+    }
+  }
+}

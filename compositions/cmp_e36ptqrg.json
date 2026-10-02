@@ -1,0 +1,38 @@
+{
+  "id": "cmp_e36ptqrg",
+  "mot_id": "unt_9p9n7m7y",
+  "forme_resultat_id": "frm_jty25rpa",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bionomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5asf4rdc",
+      "sens_id": "sns_qj46qhhz",
+      "forme_id": "frm_450d3fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "règle de la vie",
+      "explication_courte": "Du grec bíos, « vie », et nómos, « loi »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dksdh7ey",
+  "mot_id": "unt_b951zyyr",
+  "forme_resultat_id": "frm_0xm92maq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermophobie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur de la chaleur",
+      "explication_courte": "Du grec thermós, « chaud », et phóbos, « peur »."
+    }
+  }
+}

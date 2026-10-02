@@ -1,0 +1,55 @@
+{
+  "id": "cmp_ffaynhck",
+  "mot_id": "unt_6tgtkgea",
+  "forme_resultat_id": "frm_3849srt5",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « économiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8mwgwsgs",
+      "sens_id": "sns_9ccqaje3",
+      "forme_id": "frm_rtxzaq8x",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 6,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_3jj2h41p",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de économie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’économie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -iste."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_gcsdngga",
+  "mot_id": "unt_fhjbd1yr",
+  "forme_resultat_id": "frm_6y6rqx2z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « démocratie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x1nsrr80",
+      "sens_id": "sns_77ravchf",
+      "forme_id": "frm_6zew13js"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_c1rc3mzx",
+      "sens_id": "sns_8bqm5b02",
+      "forme_id": "frm_sc2bjqa9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pouvoir du peuple",
+      "explication_courte": "Du grec dêmos, « peuple », et krátos, « pouvoir »."
+    }
+  }
+}

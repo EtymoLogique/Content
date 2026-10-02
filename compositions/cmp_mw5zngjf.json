@@ -1,0 +1,55 @@
+{
+  "id": "cmp_mw5zngjf",
+  "mot_id": "unt_gnkb7jqs",
+  "forme_resultat_id": "frm_yr39186j",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthropologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k8mnd5ys",
+      "sens_id": "sns_nhr1rweb",
+      "forme_id": "frm_djjdeypb",
+      "segment_debut": 0,
+      "segment_fin": 11
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 11,
+      "segment_fin": 15
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_c33tatd8",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de anthropologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’anthropologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : anthropologie reçoit -iste."
+    }
+  }
+}

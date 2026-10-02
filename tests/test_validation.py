@@ -412,6 +412,33 @@ def test_taille_du_fascicule(depot):
     assert "fascicule.taille" in avertissements(depot.valider())
 
 
+def test_fascicule_sans_legendaire(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    for chemin in depot.fichiers("ludique/briques"):
+        brique = depot.lire(chemin)
+        if brique["rarete"] == "legendaire":
+            depot.ecrire(chemin, {**brique, "rarete": "rare"})
+    assert "fascicule.legendaire_absente" in avertissements(depot.valider())
+    assert "fascicule.legendaire_absente" in erreurs(depot.valider(publication=True))
+
+
+def test_fascicule_avec_legendaire(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    assert "fascicule.legendaire_absente" not in avertissements(depot.valider())
+
+
+def test_graine_legendaire(depot):
+    brique = depot.brique("étymo")[1]["id"]  # légendaire dans le dépôt d'essai
+    depot.modifier(depot.fascicule(), lambda f: f["graines"].append({"brique_id": brique, "exemplaires": 1}))
+    assert "fascicule.graine_legendaire" in erreurs(depot.valider())
+
+
+def test_jalon_legendaire(depot):
+    brique = depot.brique("étymo")[1]["id"]
+    depot.modifier(depot.fascicule(), lambda f: f["jalons"][1].update(pli=[brique]))
+    assert "fascicule.jalon_legendaire" in erreurs(depot.valider())
+
+
 def test_fascicule_reel_numero_zero(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False))
     assert "schema" in erreurs(depot.valider())
@@ -533,6 +560,7 @@ def test_media_orphelin(depot):
 
 
 def test_media_svg_invalide(depot):
+    depot.media_de("unite_id", depot.uid("phile"))[0].unlink()  # une seule silhouette par unité
     depot.media("silhouette", "unite_id", depot.uid("phile"), svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><script>alert(1)</script></svg>')
     assert erreurs(depot.valider()) == {"media.svg_invalide"}
 

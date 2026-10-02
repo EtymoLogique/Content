@@ -1,0 +1,55 @@
+{
+  "id": "cmp_yg1046pa",
+  "mot_id": "unt_hfsnpj09",
+  "forme_resultat_id": "frm_8565xm0h",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photographiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9034v2xa",
+      "sens_id": "sns_j7ngzwxq",
+      "forme_id": "frm_4j4rtfkg",
+      "segment_debut": 0,
+      "segment_fin": 10
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 10,
+      "segment_fin": 14
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_1hpnff02",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de photographie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la photographie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : photographie reçoit -iste."
+    }
+  }
+}

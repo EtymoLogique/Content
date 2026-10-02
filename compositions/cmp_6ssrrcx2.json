@@ -1,0 +1,38 @@
+{
+  "id": "cmp_6ssrrcx2",
+  "mot_id": "unt_38xts5cj",
+  "forme_resultat_id": "frm_jz5sjpcd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photothérapie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_x195x7vr",
+      "sens_id": "sns_xm8b257g",
+      "forme_id": "frm_9tps24jy"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin par la lumière",
+      "explication_courte": "Du grec phôs, « lumière », et therapeía, « soin »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_kakkz0zb",
+  "mot_id": "unt_mwkjqqws",
+  "forme_resultat_id": "frm_854ts4ga",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « psychobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1ymfedy9",
+      "sens_id": "sns_krkdphb7",
+      "forme_id": "frm_s2kkv06q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie de l’âme",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : psycho- s’ajoute à biologie."
+    }
+  }
+}

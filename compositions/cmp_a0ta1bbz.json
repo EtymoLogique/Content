@@ -1,0 +1,55 @@
+{
+  "id": "cmp_a0ta1bbz",
+  "mot_id": "unt_reyrgkx5",
+  "forme_resultat_id": "frm_gtwy319g",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « psychologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dhf6bsqq",
+      "sens_id": "sns_6cj2nyaw",
+      "forme_id": "frm_dzxef1as",
+      "segment_debut": 0,
+      "segment_fin": 9
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 9,
+      "segment_fin": 13
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_8t1pckke",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de psychologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la psychologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : psychologie reçoit -iste."
+    }
+  }
+}

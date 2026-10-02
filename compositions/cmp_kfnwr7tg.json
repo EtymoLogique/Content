@@ -1,0 +1,38 @@
+{
+  "id": "cmp_kfnwr7tg",
+  "mot_id": "unt_jf5272xq",
+  "forme_resultat_id": "frm_376815gz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthropobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie de l’être humain",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : anthropo- s’ajoute à biologie."
+    }
+  }
+}

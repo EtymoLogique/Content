@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ct64p3vz",
+  "mot_id": "unt_r66xvqpy",
+  "forme_resultat_id": "frm_5xwmh0yv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « démographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x1nsrr80",
+      "sens_id": "sns_77ravchf",
+      "forme_id": "frm_6zew13js"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui décrit le peuple",
+      "explication_courte": "Du grec dêmos, « peuple », et gráphein, « écrire »."
+    }
+  }
+}

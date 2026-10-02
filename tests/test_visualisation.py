@@ -46,6 +46,9 @@ def test_donnees_ne_sortent_jamais_du_script(depot):
 
 def test_silhouette_hors_profil_jamais_embarquee(depot):
     svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><script>alert(1)</script></svg>'
+    for chemin in depot.fichiers("ludique/medias"):  # la silhouette du catalogue cède la place à celle de l'essai
+        if depot.lire(chemin).get("unite_id") == depot.uid("phile"):
+            chemin.unlink()
     depot.media("silhouette", "unite_id", depot.uid("phile"), svg=svg)
     rapport = Rapport()
     iste = next(u for u in donnees(charger(depot.racine, rapport), rapport)["unites"] if u["id"] == depot.uid("phile"))

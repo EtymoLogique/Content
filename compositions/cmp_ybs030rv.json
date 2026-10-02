@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ybs030rv",
+  "mot_id": "unt_q8req23n",
+  "forme_resultat_id": "frm_4xppk03j",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cardiogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c4sh40g2",
+      "sens_id": "sns_2gpmdht5",
+      "forme_id": "frm_t5d13b7s"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "tracé du cœur",
+      "explication_courte": "Du grec kardía, « cœur », et grámma, « lettre »."
+    }
+  }
+}

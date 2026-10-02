@@ -1,0 +1,38 @@
+{
+  "id": "cmp_tk8wmy27",
+  "mot_id": "unt_em9jcjrm",
+  "forme_resultat_id": "frm_3k83m60d",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biogène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui engendre la vie",
+      "explication_courte": "Du grec bíos, « vie », et gennáō, « engendrer »."
+    }
+  }
+}

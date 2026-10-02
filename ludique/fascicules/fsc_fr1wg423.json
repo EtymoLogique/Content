@@ -1,0 +1,328 @@
+{
+  "id": "fsc_fr1wg423",
+  "numero": 3,
+  "nom": "Aleph",
+  "parution": "2026-10-01T00:00:00Z",
+  "test": false,
+  "unites": [
+    {
+      "unite_id": "unt_7622s1t2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_rtqvfkqk",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_kjdm65fg",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_0h90ckhr",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_3f0st1ty",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_bfbdrfw3",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_c06gm47p",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xhqhhv6v",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_spjpxzv3",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7b6rzg5j",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_pcsyjaxq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_5xqf4ha9",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_3x6ft3j2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_n8zkwpp4",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vcvd7rvv",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_w8m9std7",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_kjy5ejqz",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_hvcgtsrp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_spzw8v09",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_tkxe573a",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_33p0wmze",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_kv433x7n",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_3eyrvwk7",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_2jfqy69t",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_qbmwr3bp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_2bd6ttwr",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_c4mhjzy1",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_w3vqxstb",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xqz8bp5a",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_1qesp9hx",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_9034v2xa",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_hfsnpj09",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vdcp1xpv",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_g7smpy18",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_3xy7vx4q",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_6cm0y7q9",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_g5caarxs",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_38xts5cj",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_r4fqprva",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xkxxxfgk",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_y5574xge",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vjb9ck39",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xmrrhanp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gmdztdsn",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_k3cdbdp9",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_t9tvqsve",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_qdj224yt",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_dr3ebj9g",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_f973pjar",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_hv2d676m",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_rbddryfp",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_6jtssz1q",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_r0a5xapy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_mk61g05z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_0epc2py5",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_v0c17tmt",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wqz6cnsr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x8r491qt",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_hbcnmcc7",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ernd6cxe",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5f6v9qv2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5hc0cnmn",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_g10m2yeg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_g2j29c3e",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bdmzv0a",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_yr0z4s28",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_3qa8qenz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_hrtyzzrz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_78vz8xyv",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bca4ym3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x195x7vr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_acdstds3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dmdgbtfy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pxw8gq61",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_atvkapxn",
+      "role": "ingredient"
+    }
+  ],
+  "graines": [
+    {
+      "brique_id": "brq_0nqpv7a4",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_sxg9ngv6",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_x3n7rrqn",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_0vsq5h13",
+      "exemplaires": 3
+    }
+  ],
+  "note_interne": "Mots repris des fascicules d’essai Bêta et Bêta 2 et mots nouveaux, 50 mots. Faits en brouillon, localisations à renseigner. Silhouettes et jaquette à dessiner."
+}

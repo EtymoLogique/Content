@@ -1,0 +1,38 @@
+{
+  "id": "cmp_xwcsb867",
+  "mot_id": "unt_j4gbyahh",
+  "forme_resultat_id": "frm_r9xq9ekj",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydromorphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cacqy935",
+      "sens_id": "sns_ppx9yd71",
+      "forme_id": "frm_2hxsf1ty"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "forme de l’eau",
+      "explication_courte": "Du grec húdōr, « eau », et morphḗ, « forme »."
+    }
+  }
+}

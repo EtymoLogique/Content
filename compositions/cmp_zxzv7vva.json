@@ -1,0 +1,38 @@
+{
+  "id": "cmp_zxzv7vva",
+  "mot_id": "unt_68pn0tyn",
+  "forme_resultat_id": "frm_9cdat4c4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biothérapie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_x195x7vr",
+      "sens_id": "sns_xm8b257g",
+      "forme_id": "frm_9tps24jy"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin par le vivant",
+      "explication_courte": "Du grec bíos, « vie », et therapeía, « soin »."
+    }
+  }
+}

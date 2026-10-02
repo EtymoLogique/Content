@@ -1,0 +1,38 @@
+{
+  "id": "cmp_a0kgcq9n",
+  "mot_id": "unt_k47s38w4",
+  "forme_resultat_id": "frm_rp9v8cra",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydrosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe de l’eau",
+      "explication_courte": "Du grec húdōr, « eau », et sphaîra, « globe »."
+    }
+  }
+}

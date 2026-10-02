@@ -1,0 +1,38 @@
+{
+  "id": "cmp_6xbv8qqp",
+  "mot_id": "unt_2bd6ttwr",
+  "forme_resultat_id": "frm_vnhr6j53",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « paléographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_hrtyzzrz",
+      "sens_id": "sns_5kpndwfk",
+      "forme_id": "frm_bb88a021"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit l’ancien",
+      "explication_courte": "Du grec palaiós, « ancien », et gráphein, « écrire »."
+    }
+  }
+}
