@@ -130,11 +130,13 @@ jobs:
             echo "$manifeste"
             jq -r "$RESSOURCES" "artefact/$manifeste"
           done | sort -u)"
-          manquants=0
-          for chemin in $chemins; do
-            aws s3api head-object --bucket "$BUCKET" --key "staging/$chemin" > /dev/null || { echo "::error::Absent : staging/$chemin"; manquants=$((manquants + 1)); }
-          done
-          [ "$manquants" -eq 0 ]
+          # Une seule liste du préfixe : un head-object par fichier dépassait le timeout du job.
+          aws s3 ls --recursive "s3://$BUCKET/staging/" | awk '{print $4}' | sed 's|^staging/||' | sort -u > deposes.txt
+          manquants="$(echo "$chemins" | comm -23 - deposes.txt)"
+          if [ -n "$manquants" ]; then
+            echo "$manquants" | sed 's|^|::error::Absent : staging/|'
+            exit 1
+          fi
           echo "Calendrier et $(echo "$chemins" | wc -l | tr -d ' ') fichiers présents dans s3://$BUCKET/staging/." >> "$GITHUB_STEP_SUMMARY"
 
       # Une fois le nouveau calendrier en place et vérifié, on retire de staging/
