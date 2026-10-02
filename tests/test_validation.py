@@ -414,7 +414,10 @@ def test_taille_du_fascicule(depot):
 
 def test_fascicule_sans_legendaire(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
-    depot.modifier(depot.brique("étymo"), lambda b: b.update(rarete="rare"))
+    for chemin in depot.fichiers("ludique/briques"):
+        brique = depot.lire(chemin)
+        if brique["rarete"] == "legendaire":
+            depot.ecrire(chemin, {**brique, "rarete": "rare"})
     assert "fascicule.legendaire_absente" in avertissements(depot.valider())
     assert "fascicule.legendaire_absente" in erreurs(depot.valider(publication=True))
 
@@ -557,6 +560,7 @@ def test_media_orphelin(depot):
 
 
 def test_media_svg_invalide(depot):
+    depot.media_de("unite_id", depot.uid("phile"))[0].unlink()  # une seule silhouette par unité
     depot.media("silhouette", "unite_id", depot.uid("phile"), svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><script>alert(1)</script></svg>')
     assert erreurs(depot.valider()) == {"media.svg_invalide"}
 

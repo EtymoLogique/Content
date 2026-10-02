@@ -1,0 +1,7 @@
+{
+  "id": "med_fft1tx4p",
+  "type": "silhouette",
+  "fichier": "silhouettes/microscope.svg",
+  "unite_id": "unt_qbmwr3bp",
+  "note_interne": "Ébauche générée par motif (m:microscope), à reprendre selon la grammaire de la charte (ADR 0023)."
+}
