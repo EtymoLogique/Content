@@ -609,7 +609,23 @@ def test_media_manquant_ignore_les_fascicules_de_test(depot):
     chemin, _ = depot.media_de("unite_id", depot.uid("géo"))
     chemin.unlink()
     rapport = depot.valider(publication=True)
-    assert "media.manquant" not in erreurs(rapport) | avertissements(rapport)
+    assert "media.manquant" not in erreurs(rapport)
+    assert not [d for d in rapport.diagnostics if d.regle == "media.manquant" and d.message.startswith("Fascicule")]
+
+
+def test_carte_sans_visuel_affectee_est_une_erreur_meme_hors_publication(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    depot.media_de("unite_id", depot.uid("géo"))[0].unlink()
+    assert "media.manquant" in erreurs(depot.valider())
+
+
+def test_carte_sans_visuel_en_attente_avertit(depot):
+    _, fascicule = depot.fascicule()
+    affectees = {l["unite_id"] for l in fascicule["unites"]}
+    libre = next(u for u in charger(depot.racine, Rapport()).unites if u not in affectees)
+    rapport = depot.valider()
+    assert any(d.regle == "media.manquant" and d.objet == libre for d in rapport.diagnostics if d.niveau == "avertissement")
+    assert "media.manquant" not in erreurs(rapport)
 
 
 # --------------------------------------------------------------------- publication

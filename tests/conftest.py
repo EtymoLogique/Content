@@ -124,7 +124,7 @@ def avertissements(rapport: Rapport) -> set[str]:
 
 # Un mot saisi avant d’être affecté à un fascicule reste un avertissement du validateur,
 # jamais un échec des tests : le dépôt peut porter des cartes orphelines.
-TOLERES = {"recette.hors_fascicule"}
+TOLERES = {"recette.hors_fascicule", "media.manquant"}  # media.manquant : cartes du jeu d’exemples non affectées
 
 
 def avertissements_notables(rapport: Rapport) -> set[str]:

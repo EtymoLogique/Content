@@ -583,7 +583,14 @@ class Controleur:
             for libelle, ids in manquants.items():
                 if ids:
                     detail = libelle if libelle == "jaquette absente" else f"{len(ids)} {libelle} : {', '.join(ids)}"
-                    signaler("media.manquant", f"Fascicule {fsc['numero']} : {detail}.", fid)
+                    # Une carte affectée à un fascicule doit avoir son visuel, quel que soit le mode.
+                    (self._erreur if libelle.startswith("carte") else signaler)("media.manquant", f"Fascicule {fsc['numero']} : {detail}.", fid)
+
+        # Carte en attente d'affectation : simple avertissement.
+        affectees = {l["unite_id"] for f in self.c.fascicules.values() for l in f["unites"]}
+        for uid in sorted(self.c.unites):
+            if uid not in affectees and ("silhouette", "unite", uid) not in cibles:
+                self._avert("media.manquant", "Carte en attente d’affectation sans silhouette.", uid)
 
     # ------------------------------------------------------ mode publication
 
