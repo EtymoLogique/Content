@@ -13,7 +13,7 @@ Le contenu suit le pipeline de l’[ADR 0005](https://github.com/lunik/EtymoLogi
 | 3. Revue linguistique, 4. validation ludique | à venir : état `etat_relecture` déjà porté par chaque fait |
 | 5. Analyse globale : atteignabilité, fermeture, pools de plis | à venir |
 | 6. Compilation en artefact à hash de contenu | **en place** : `etymo-contenu compiler` |
-| 7. Publication | **en partie** : la CI dépose l’artefact dans `staging/` ; la tâche de parution, qui le promeut dans `public/`, est à venir (ADR 0029) |
+| 7. Publication | **en place** : la CI dépose l’artefact dans `staging/`, puis lance la tâche de parution, qui le promeut dans `public/` (ADR 0029) |
 | 8. Migrations | à venir |
 
 Le schéma logique est décrit dans le [modèle de données](https://github.com/lunik/EtymoLogique/blob/master/docs/modele-donnees.md) et l’[ADR 0013](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0013-schema-des-briques.md).
@@ -133,6 +133,8 @@ La CI (`.github/workflows/publication.yml`) suit l’[ADR 0028](https://github.c
 | autre | rien | — |
 
 Elle teste, compile, garde l’artefact 30 jours dans GitHub, puis le dépose dans `staging/` : fichiers hachés d’abord (JSON en `application/json`, médias en `image/svg+xml`), calendrier en dernier. Enfin, elle vérifie la présence de chaque manifeste du calendrier et de chaque ressource que ces manifestes citent. Une fois le calendrier vérifié, elle retire de `staging/` les fichiers hachés que l’artefact ne contient plus (`aws s3 sync --delete`) : anciens manifestes, cartes ou médias dont le contenu a changé. Le bucket étant versionné, un fichier retiré reste récupérable. Elle n’écrit jamais dans `public/` : la politique du bucket le lui interdit. Un fascicule ne devient lisible qu’une fois promu par la tâche de parution, à sa date.
+
+Pour finir, elle lance la tâche Scaleway `parution` de son environnement (`develop` : hors-prod, `master` : prod) et attend sa fin. Un échec du dépôt ne la lance pas ; un échec de la tâche fait échouer le workflow. La CI retrouve la tâche par son nom (`…-parution`) dans le projet de l’environnement. Le droit de la lancer vient de la clé `content-ci`, dont les droits se posent dans `organisation/` du dépôt Infra.
 
 ## Sources et licences
 
