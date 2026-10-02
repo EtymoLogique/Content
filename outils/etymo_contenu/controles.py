@@ -461,6 +461,11 @@ class Controleur:
             minimum, maximum = TAILLE_FASCICULE
             if not fsc["test"] and not minimum <= nb_mots <= maximum:
                 self._avert("fascicule.taille", f"{nb_mots} mots : un fascicule en publie de {minimum} à {maximum}.", fid)
+            if not fsc["test"]:
+                rarete = {b["unite_id"]: b["rarete"] for b in self.c.briques.values()}
+                if not any(rarete.get(uid) == "legendaire" for uid in declares):
+                    signaler = self._erreur if self.publication else self._avert
+                    signaler("fascicule.legendaire_absente", "Aucune brique légendaire : la chance de légendaire du pli (ADR 0043) n’aurait rien à donner.", fid)
 
         for test in (False, True):
             premiers = sorted((f["numero"], fid) for fid, f in self.c.fascicules.items() if f["test"] is test)
