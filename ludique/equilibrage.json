@@ -1,11 +1,12 @@
 {
-  "version": "2026-09-28c",
+  "version": "2026-10-02a",
   "poids_raretes": {
     "commune": 62,
     "peu_commune": 26,
     "rare": 10,
     "legendaire": 2
   },
+  "chance_legendaire_pour_mille": 12,
   "base_encre": 2,
   "encre_doublon": {
     "commune": 1,

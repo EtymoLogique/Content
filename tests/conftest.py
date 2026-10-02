@@ -114,7 +114,10 @@ def depot(tmp_path: Path) -> Depot:
     # Le fascicule d'essai Bêta n'est plus dans le catalogue : sa copie de test s'ajoute au dépôt jetable.
     shutil.copytree(RACINE / "tests" / "fixtures", tmp_path, dirs_exist_ok=True)
     _retirer_fascicules_publies(tmp_path)
-    return Depot(tmp_path)
+    depot = Depot(tmp_path)
+    # Le fascicule d'essai porte une légendaire, comme l'exige le validateur (ADR 0043).
+    depot.modifier(depot.brique("étymo"), lambda b: b.update(rarete="legendaire"))
+    return depot
 
 
 def _retirer_fascicules_publies(racine: Path) -> None:

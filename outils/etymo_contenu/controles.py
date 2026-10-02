@@ -461,6 +461,11 @@ class Controleur:
             minimum, maximum = TAILLE_FASCICULE
             if not fsc["test"] and not minimum <= nb_mots <= maximum:
                 self._avert("fascicule.taille", f"{nb_mots} mots : un fascicule en publie de {minimum} à {maximum}.", fid)
+            if not fsc["test"]:
+                rarete = {b["unite_id"]: b["rarete"] for b in self.c.briques.values()}
+                if not any(rarete.get(uid) == "legendaire" for uid in declares):
+                    signaler = self._erreur if self.publication else self._avert
+                    signaler("fascicule.legendaire_absente", "Aucune brique légendaire : la chance de légendaire du pli (ADR 0043) n’aurait rien à donner.", fid)
 
         for test in (False, True):
             premiers = sorted((f["numero"], fid) for fid, f in self.c.fascicules.items() if f["test"] is test)
@@ -492,6 +497,8 @@ class Controleur:
                     self._erreur("fascicule.jalon_hors_fascicule", f"La brique {bid} du jalon {jid} n’est pas une brique du fascicule.", fid)
                 elif self.c.unites.get(brique["unite_id"], {}).get("nature") not in ("prefixe", "suffixe"):
                     self._erreur("fascicule.jalon_mot", f"La brique {bid} du jalon {jid} est un mot : un pli ne donne que des affixes.", fid)
+                if brique["rarete"] == "legendaire":
+                    self._erreur("fascicule.jalon_legendaire", f"La brique {bid} du jalon {jid} est légendaire : un pli de jalon n’en donne jamais (ADR 0043).", fid)
 
     def _graines(self, fid: str, fsc: dict, declares: set[str]) -> None:
         """Réserve de départ (ADR 0030) : briques du fascicule, et au moins trois
@@ -505,6 +512,8 @@ class Controleur:
             brique = self._ref(self.c.briques, bid, fid, "graines", "brique")
             if brique and brique["unite_id"] not in declares:
                 self._erreur("fascicule.graine_hors_fascicule", f"La graine {bid} n’est pas une brique du fascicule.", fid)
+            if brique and brique["rarete"] == "legendaire":
+                self._erreur("fascicule.graine_legendaire", f"La graine {bid} est légendaire : la réserve de départ n’en donne jamais (ADR 0043).", fid)
         if not graines:
             return
         besoins: dict[str, int] = {}
