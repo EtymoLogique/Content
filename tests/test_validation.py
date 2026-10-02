@@ -412,6 +412,18 @@ def test_taille_du_fascicule(depot):
     assert "fascicule.taille" in avertissements(depot.valider())
 
 
+def test_fascicule_sans_legendaire(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    depot.modifier(depot.brique("étymo"), lambda b: b.update(rarete="rare"))
+    assert "fascicule.legendaire_absente" in avertissements(depot.valider())
+    assert "fascicule.legendaire_absente" in erreurs(depot.valider(publication=True))
+
+
+def test_fascicule_avec_legendaire(depot):
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    assert "fascicule.legendaire_absente" not in avertissements(depot.valider())
+
+
 def test_fascicule_reel_numero_zero(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False))
     assert "schema" in erreurs(depot.valider())
