@@ -424,6 +424,18 @@ def test_fascicule_avec_legendaire(depot):
     assert "fascicule.legendaire_absente" not in avertissements(depot.valider())
 
 
+def test_graine_legendaire(depot):
+    brique = depot.brique("étymo")[1]["id"]  # légendaire dans le dépôt d'essai
+    depot.modifier(depot.fascicule(), lambda f: f["graines"].append({"brique_id": brique, "exemplaires": 1}))
+    assert "fascicule.graine_legendaire" in erreurs(depot.valider())
+
+
+def test_jalon_legendaire(depot):
+    brique = depot.brique("étymo")[1]["id"]
+    depot.modifier(depot.fascicule(), lambda f: f["jalons"][1].update(pli=[brique]))
+    assert "fascicule.jalon_legendaire" in erreurs(depot.valider())
+
+
 def test_fascicule_reel_numero_zero(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False))
     assert "schema" in erreurs(depot.valider())

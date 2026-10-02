@@ -24,8 +24,8 @@
     },
     "chance_legendaire": {
       "description": "Chance fixe, en pourcentage, qu’un pli donne une légendaire, partagée à parts égales entre les légendaires du fascicule ; les poids de raretés ne s’appliquent qu’au reste (ADR 0043).",
-      "type": "number",
-      "exclusiveMinimum": 0,
+      "type": "integer",
+      "minimum": 1,
       "maximum": 100
     },
     "poids_raretes": {

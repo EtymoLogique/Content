@@ -497,6 +497,8 @@ class Controleur:
                     self._erreur("fascicule.jalon_hors_fascicule", f"La brique {bid} du jalon {jid} n’est pas une brique du fascicule.", fid)
                 elif self.c.unites.get(brique["unite_id"], {}).get("nature") not in ("prefixe", "suffixe"):
                     self._erreur("fascicule.jalon_mot", f"La brique {bid} du jalon {jid} est un mot : un pli ne donne que des affixes.", fid)
+                if brique["rarete"] == "legendaire":
+                    self._erreur("fascicule.jalon_legendaire", f"La brique {bid} du jalon {jid} est légendaire : un pli de jalon n’en donne jamais (ADR 0043).", fid)
 
     def _graines(self, fid: str, fsc: dict, declares: set[str]) -> None:
         """Réserve de départ (ADR 0030) : briques du fascicule, et au moins trois
@@ -510,6 +512,8 @@ class Controleur:
             brique = self._ref(self.c.briques, bid, fid, "graines", "brique")
             if brique and brique["unite_id"] not in declares:
                 self._erreur("fascicule.graine_hors_fascicule", f"La graine {bid} n’est pas une brique du fascicule.", fid)
+            if brique and brique["rarete"] == "legendaire":
+                self._erreur("fascicule.graine_legendaire", f"La graine {bid} est légendaire : la réserve de départ n’en donne jamais (ADR 0043).", fid)
         if not graines:
             return
         besoins: dict[str, int] = {}
