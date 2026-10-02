@@ -111,7 +111,10 @@ class Depot:
 def depot(tmp_path: Path) -> Depot:
     for dossier in A_COPIER:
         shutil.copytree(RACINE / dossier, tmp_path / dossier)
-    return Depot(tmp_path)
+    depot = Depot(tmp_path)
+    # Le fascicule d'essai porte une légendaire, comme l'exige le validateur (ADR 0043).
+    depot.modifier(depot.brique("étymo"), lambda b: b.update(rarete="legendaire"))
+    return depot
 
 
 def erreurs(rapport: Rapport) -> set[str]:
