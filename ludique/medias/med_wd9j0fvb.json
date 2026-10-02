@@ -3,5 +3,5 @@
   "type": "jaquette",
   "fichier": "jaquettes/boustrophedon.svg",
   "fascicule_id": "fsc_s4fs9351",
-  "note_interne": "Jaquette « Boustrophédon » (ADR 0016) : première ébauche à reprendre depuis JACKETS du dépôt de conception. Palette des jaquettes (neutres et Ambre)."
+  "note_interne": "Jaquette « Boustrophédon » (ADR 0016), reprise de JACKETS du dépôt de conception ; texte converti en tracés pour le profil SVG."
 }
