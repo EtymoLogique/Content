@@ -1,0 +1,55 @@
+{
+  "id": "cmp_wgah75j5",
+  "mot_id": "unt_7bfv61qm",
+  "forme_resultat_id": "frm_5ffj5bvz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biographiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gtpfh2pp",
+      "sens_id": "sns_dwdzjqyw",
+      "forme_id": "frm_sev8r0x9",
+      "segment_debut": 0,
+      "segment_fin": 8
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 8,
+      "segment_fin": 12
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_x8h3mhdk",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de biographie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la biographie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biographie reçoit -iste."
+    }
+  }
+}

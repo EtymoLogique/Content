@@ -1,0 +1,19 @@
+{
+  "id": "rct_9dr4mzgx",
+  "composition_id": "cmp_akhee093",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_fw8yxv8a"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_ejb41w2v"
+      ]
+    }
+  ],
+  "note_interne": null
+}

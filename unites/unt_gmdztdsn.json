@@ -43,6 +43,7 @@
       "rang": 1,
       "libelles": {
         "fr": {
+          "glose": "écriture au loin",
           "definition": "Transmission de messages écrits à distance par des signaux."
         }
       },

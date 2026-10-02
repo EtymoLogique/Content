@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jkw3ynb0",
+  "mot_id": "unt_cacwp93k",
+  "forme_resultat_id": "frm_zq8jwqnz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « psychothérapie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1ymfedy9",
+      "sens_id": "sns_krkdphb7",
+      "forme_id": "frm_s2kkv06q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_x195x7vr",
+      "sens_id": "sns_xm8b257g",
+      "forme_id": "frm_9tps24jy"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin de l’âme",
+      "explication_courte": "Du grec psukhḗ, « âme », et therapeía, « soin »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bzy9yrhc",
+  "mot_id": "unt_d89xkaqt",
+  "forme_resultat_id": "frm_ejfd206d",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « technologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gv4a4xz9",
+      "sens_id": "sns_81xrxm2a",
+      "forme_id": "frm_mjqj637c"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de la technique",
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et -logie, « étude »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_tk22bbec",
+  "mot_id": "unt_w3vqxstb",
+  "forme_resultat_id": "frm_erp66t24",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie de la lumière",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : photo- s’ajoute à biologie."
+    }
+  }
+}

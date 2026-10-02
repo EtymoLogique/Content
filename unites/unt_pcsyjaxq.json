@@ -43,6 +43,7 @@
       "rang": 1,
       "libelles": {
         "fr": {
+          "glose": "ordre des dates",
           "definition": "Ordre dans lequel des événements se succèdent dans le temps."
         }
       },

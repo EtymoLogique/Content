@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0h5pte0p",
+  "mot_id": "unt_rd5jf1ym",
+  "forme_resultat_id": "frm_bpp06wqn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « psychogène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1ymfedy9",
+      "sens_id": "sns_krkdphb7",
+      "forme_id": "frm_s2kkv06q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "engendré par l’âme",
+      "explication_courte": "Du grec psukhḗ, « âme », et gennáō, « engendrer »."
+    }
+  }
+}

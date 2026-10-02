@@ -1,0 +1,38 @@
+{
+  "id": "cmp_45e2rpc4",
+  "mot_id": "unt_s149w1tc",
+  "forme_resultat_id": "frm_n2vafqrc",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « théologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3r4j3whs",
+      "sens_id": "sns_9ewdgwcn",
+      "forme_id": "frm_2jrbrxrc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste de Dieu",
+      "explication_courte": "Du grec theós, « dieu », et -logue, « spécialiste »."
+    }
+  }
+}

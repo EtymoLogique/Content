@@ -1,0 +1,38 @@
+{
+  "id": "cmp_6pxpa4q7",
+  "mot_id": "unt_mmc6r088",
+  "forme_resultat_id": "frm_k4rp2pgg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydrobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie de l’eau",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydro- s’ajoute à biologie."
+    }
+  }
+}

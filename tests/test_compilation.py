@@ -21,7 +21,7 @@ def _compiler(depot, sortie: Path, essai: bool = True, version: str = "test") ->
 def test_essai_publie_le_fascicule_de_test(depot, tmp_path):
     parutions = _compiler(depot, tmp_path / "a")
     assert parutions["essai"] is True
-    assert [f["numero"] for f in parutions["fascicules"]] == [0, 1]
+    assert [f["numero"] for f in parutions["fascicules"]] == [0]
     assert verifier(tmp_path / "a") == []
 
 
@@ -95,8 +95,8 @@ def test_fait_non_retenu_jamais_publie(depot, tmp_path):
     def non_retenu(u):
         u["sens"][0]["fait"]["confiance"] = "non_retenue"
 
-    depot.modifier(depot.unite("géologie"), non_retenu)
-    sens_id = depot.unite("géologie")[1]["sens"][0]["id"]
+    depot.modifier(depot.unite("géologue"), non_retenu)
+    sens_id = depot.unite("géologue")[1]["sens"][0]["id"]
     _compiler(depot, tmp_path / "a")
     assert not any(sens_id in f.read_text(encoding="utf-8") for f in (tmp_path / "a" / "r").glob("*.json"))
 

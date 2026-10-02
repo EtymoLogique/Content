@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0eszvc0w",
+  "mot_id": "unt_w90dqmqf",
+  "forme_resultat_id": "frm_zqem6k4x",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « sociobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_n4cvy6wg",
+      "sens_id": "sns_chzr2q1j",
+      "forme_id": "frm_etpgmwpg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie de la société",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : socio- s’ajoute à biologie."
+    }
+  }
+}

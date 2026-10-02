@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fjc2twnh",
+  "mot_id": "unt_3xy7vx4q",
+  "forme_resultat_id": "frm_trmvvhme",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photophile » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_0epc2py5",
+      "sens_id": "sns_zvfrc7dz",
+      "forme_id": "frm_1g9hqcy2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime la lumière",
+      "explication_courte": "Du grec phôs, « lumière », et phílos, « ami »."
+    }
+  }
+}

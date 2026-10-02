@@ -1,0 +1,38 @@
+{
+  "id": "cmp_eserfz61",
+  "mot_id": "unt_2hg055kh",
+  "forme_resultat_id": "frm_6s2fn6th",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie de la chaleur",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : thermo- s’ajoute à biologie."
+    }
+  }
+}

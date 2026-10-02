@@ -1,0 +1,55 @@
+{
+  "id": "cmp_37jdcbgw",
+  "mot_id": "unt_jyrc8qdb",
+  "forme_resultat_id": "frm_rdsx1fa7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « sociologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_e7s1n35w",
+      "sens_id": "sns_sf3etc5j",
+      "forme_id": "frm_mv4t3h2q",
+      "segment_debut": 0,
+      "segment_fin": 8
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 8,
+      "segment_fin": 12
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_3h6442dg",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de sociologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la sociologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : sociologie reçoit -iste."
+    }
+  }
+}

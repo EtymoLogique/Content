@@ -1,0 +1,38 @@
+{
+  "id": "cmp_s9s5yttk",
+  "mot_id": "unt_xgvrj42s",
+  "forme_resultat_id": "frm_y16xhwsb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autonomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5asf4rdc",
+      "sens_id": "sns_qj46qhhz",
+      "forme_id": "frm_450d3fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "règle de soi-même",
+      "explication_courte": "Du grec autós, « soi-même », et nómos, « loi »."
+    }
+  }
+}

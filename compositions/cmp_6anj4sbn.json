@@ -1,0 +1,38 @@
+{
+  "id": "cmp_6anj4sbn",
+  "mot_id": "unt_k33fk79e",
+  "forme_resultat_id": "frm_y4dtydes",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "tracé de la chaleur",
+      "explication_courte": "Du grec thermós, « chaud », et grámma, « lettre »."
+    }
+  }
+}

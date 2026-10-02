@@ -1,0 +1,38 @@
+{
+  "id": "cmp_pb115t10",
+  "mot_id": "unt_gaj4kdmt",
+  "forme_resultat_id": "frm_7114z9b0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe du vivant",
+      "explication_courte": "Du grec bíos, « vie », et sphaîra, « globe »."
+    }
+  }
+}

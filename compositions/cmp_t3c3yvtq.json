@@ -1,0 +1,38 @@
+{
+  "id": "cmp_t3c3yvtq",
+  "mot_id": "unt_npyn6xs7",
+  "forme_resultat_id": "frm_v9fjk83d",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « théocratie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3r4j3whs",
+      "sens_id": "sns_9ewdgwcn",
+      "forme_id": "frm_2jrbrxrc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_c1rc3mzx",
+      "sens_id": "sns_8bqm5b02",
+      "forme_id": "frm_sc2bjqa9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pouvoir de Dieu",
+      "explication_courte": "Du grec theós, « dieu », et krátos, « pouvoir »."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cmp_7y1eekb2",
+  "mot_id": "unt_h3pj77h3",
+  "forme_resultat_id": "frm_jhhfr3mt",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydrologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_sf5b4gry",
+      "sens_id": "sns_2j7esjmf",
+      "forme_id": "frm_5tvkg49r",
+      "segment_debut": 0,
+      "segment_fin": 8
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 8,
+      "segment_fin": 12
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_g87t3ce4",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de hydrologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’hydrologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydrologie reçoit -iste."
+    }
+  }
+}

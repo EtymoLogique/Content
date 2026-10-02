@@ -1,0 +1,38 @@
+{
+  "id": "cmp_s37nq4dj",
+  "mot_id": "unt_pgkr1t12",
+  "forme_resultat_id": "frm_s9wbxnmm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « neuropathie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x7vv70j6",
+      "sens_id": "sns_c92hkwps",
+      "forme_id": "frm_4r129g8v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pxw8gq61",
+      "sens_id": "sns_vn184vz5",
+      "forme_id": "frm_4qbjm9zf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "affection des nerfs",
+      "explication_courte": "Du grec neûron, « nerf », et páthos, « ce qu’on éprouve »."
+    }
+  }
+}

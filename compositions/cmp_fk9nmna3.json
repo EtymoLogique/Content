@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fk9nmna3",
+  "mot_id": "unt_mmwckdjq",
+  "forme_resultat_id": "frm_43dpcfw4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe de la chaleur",
+      "explication_courte": "Du grec thermós, « chaud », et sphaîra, « globe »."
+    }
+  }
+}

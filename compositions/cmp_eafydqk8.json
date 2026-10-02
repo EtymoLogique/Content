@@ -1,0 +1,55 @@
+{
+  "id": "cmp_eafydqk8",
+  "mot_id": "unt_21yht6vm",
+  "forme_resultat_id": "frm_1zwa807n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « écologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_12zzsstd",
+      "sens_id": "sns_7hasb694",
+      "forme_id": "frm_dz7hs8h9",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 6,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_f22hxzd5",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de écologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’écologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -iste."
+    }
+  }
+}

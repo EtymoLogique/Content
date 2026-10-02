@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fdbh8vds",
+  "mot_id": "unt_9xm0jxpe",
+  "forme_resultat_id": "frm_xp6h0m1n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autocratie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_c1rc3mzx",
+      "sens_id": "sns_8bqm5b02",
+      "forme_id": "frm_sc2bjqa9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pouvoir de soi-même",
+      "explication_courte": "Du grec autós, « soi-même », et krátos, « pouvoir »."
+    }
+  }
+}

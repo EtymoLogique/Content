@@ -1,0 +1,38 @@
+{
+  "id": "cmp_5cg219tr",
+  "mot_id": "unt_33p0wmze",
+  "forme_resultat_id": "frm_wc2bp1wk",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « micrographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yr0z4s28",
+      "sens_id": "sns_xgfakmbp",
+      "forme_id": "frm_66yq3x40"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit le petit",
+      "explication_courte": "Du grec mikrós, « petit », et gráphein, « écrire »."
+    }
+  }
+}

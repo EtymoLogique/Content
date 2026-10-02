@@ -1,0 +1,68 @@
+{
+  "id": "unt_njy32v5w",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « γεννάω » du Bailly, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "verbe"
+  },
+  "formes": [
+    {
+      "id": "frm_am8b3y5m",
+      "texte": "γεννάω",
+      "cle_normalisee": "γεννάω",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "gennáō"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « γεννάω » du Bailly, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_3zn4fekp",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "engendrer"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « γεννάω » du Bailly, localisation à renseigner."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_063q58db",
+  "mot_id": "unt_211xf032",
+  "forme_resultat_id": "frm_krdtke1c",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "lettre unique",
+      "explication_courte": "Du grec mónos, « seul », et grámma, « lettre »."
+    }
+  }
+}

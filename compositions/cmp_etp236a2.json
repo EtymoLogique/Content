@@ -1,0 +1,38 @@
+{
+  "id": "cmp_etp236a2",
+  "mot_id": "unt_63h4a81t",
+  "forme_resultat_id": "frm_91fa7ymf",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « astrophobie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_r0vh9by3",
+      "sens_id": "sns_gzrzrw73",
+      "forme_id": "frm_vyfcnm90"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur des astres",
+      "explication_courte": "Du grec ástron, « astre », et phóbos, « peur »."
+    }
+  }
+}

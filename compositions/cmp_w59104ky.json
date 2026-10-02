@@ -1,0 +1,38 @@
+{
+  "id": "cmp_w59104ky",
+  "mot_id": "unt_y1hjmjye",
+  "forme_resultat_id": "frm_x1v03q44",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zoophobie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pbktznfj",
+      "sens_id": "sns_4zh2hx7t",
+      "forme_id": "frm_jscs10sp"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur des animaux",
+      "explication_courte": "Du grec zôion, « animal », et phóbos, « peur »."
+    }
+  }
+}

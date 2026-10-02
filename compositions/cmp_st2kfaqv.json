@@ -1,0 +1,38 @@
+{
+  "id": "cmp_st2kfaqv",
+  "mot_id": "unt_ax6nt306",
+  "forme_resultat_id": "frm_azam8q92",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « technologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gv4a4xz9",
+      "sens_id": "sns_81xrxm2a",
+      "forme_id": "frm_mjqj637c"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste de la technique",
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et -logue, « spécialiste »."
+    }
+  }
+}

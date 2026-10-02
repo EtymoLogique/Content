@@ -1,0 +1,38 @@
+{
+  "id": "cmp_4ph08pxd",
+  "mot_id": "unt_4b10nzkw",
+  "forme_resultat_id": "frm_v78rm635",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydrogène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui engendre l’eau",
+      "explication_courte": "Du grec húdōr, « eau », et gennáō, « engendrer »."
+    }
+  }
+}

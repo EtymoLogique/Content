@@ -1,0 +1,38 @@
+{
+  "id": "cmp_90d6y3z5",
+  "mot_id": "unt_nbchk2d3",
+  "forme_resultat_id": "frm_0f9h8n39",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zoomorphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pbktznfj",
+      "sens_id": "sns_4zh2hx7t",
+      "forme_id": "frm_jscs10sp"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cacqy935",
+      "sens_id": "sns_ppx9yd71",
+      "forme_id": "frm_2hxsf1ty"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "à forme d’animal",
+      "explication_courte": "Du grec zôion, « animal », et morphḗ, « forme »."
+    }
+  }
+}

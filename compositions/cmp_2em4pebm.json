@@ -1,0 +1,55 @@
+{
+  "id": "cmp_2em4pebm",
+  "mot_id": "unt_hv2d676m",
+  "forme_resultat_id": "frm_6b3e460v",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « étymologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_f973pjar",
+      "sens_id": "sns_qkgj7r4w",
+      "forme_id": "frm_3srhenqj",
+      "segment_debut": 0,
+      "segment_fin": 8
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 8,
+      "segment_fin": 12
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_3j49vy83",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de étymologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’étymologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : étymologie reçoit -iste."
+    }
+  }
+}

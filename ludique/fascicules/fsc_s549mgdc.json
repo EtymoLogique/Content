@@ -1,0 +1,320 @@
+{
+  "id": "fsc_s549mgdc",
+  "numero": 1,
+  "nom": "Rosette",
+  "parution": "2026-10-01T00:00:00Z",
+  "test": false,
+  "unites": [
+    {
+      "unite_id": "unt_jf5272xq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_nvp2bfwc",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_k8mnd5ys",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gnkb7jqs",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_xtrjvcnd",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7tha49c2",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_zgyq6p1h",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_bchwz430",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_1tsfw69m",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_0ze9hf7f",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gtpfh2pp",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7bfv61qm",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_em9jcjrm",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_hbcnmcc7",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_28vwxz4h",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_swcdc8hd",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_t1vyr9yx",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_9p9n7m7y",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gaj4kdmt",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_68pn0tyn",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_eggvmpvd",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_72p11d4q",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_aypt1qff",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_5c5rfm1j",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_pgkr1t12",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7z2wswg9",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_gq5hdw6h",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_jff6zcsa",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_mwkjqqws",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_vb7dg79w",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_rd5jf1ym",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_dhf6bsqq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_reyrgkx5",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_bgxjhjpe",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_jfa3p1xa",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_cacwp93k",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_w90dqmqf",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_2fs273nq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_e7s1n35w",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_jyrc8qdb",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_txgjyzqv",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_r403e2ws",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_r1n63qbq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_yb6132hf",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_7ew34wyq",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_nbchk2d3",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_zzjkp5y1",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_149zchdt",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_y1hjmjye",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_yyvd78qh",
+      "role": "resultat"
+    },
+    {
+      "unite_id": "unt_feew0asz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_r0a5xapy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_mk61g05z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wqz6cnsr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bdmzv0a",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_cacqy935",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_3jma5g3z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5hc0cnmn",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4ezf5sd4",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_03se7jnq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_6jtssz1q",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bca4ym3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5asf4rdc",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_sa92ebmw",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x195x7vr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x7vv70j6",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pxw8gq61",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_zqhq8c5t",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_1ymfedy9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_n4cvy6wg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ernd6cxe",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pbktznfj",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_0epc2py5",
+      "role": "ingredient"
+    }
+  ],
+  "graines": [
+    {
+      "brique_id": "brq_gf6ye5j7",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_9v8w7dzj",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_rpa8g1qx",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_e99p5xzq",
+      "exemplaires": 3
+    }
+  ],
+  "note_interne": "Mots repris des fascicules d’essai Bêta et Bêta 2 et mots nouveaux, 50 mots. Faits en brouillon, localisations à renseigner. Silhouettes et jaquette à dessiner."
+}

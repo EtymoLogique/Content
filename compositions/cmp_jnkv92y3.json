@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jnkv92y3",
+  "mot_id": "unt_99v7p646",
+  "forme_resultat_id": "frm_8jjk6bvb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit soi-même",
+      "explication_courte": "Du grec autós, « soi-même », et gráphein, « écrire »."
+    }
+  }
+}

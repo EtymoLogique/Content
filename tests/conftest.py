@@ -111,7 +111,30 @@ class Depot:
 def depot(tmp_path: Path) -> Depot:
     for dossier in A_COPIER:
         shutil.copytree(RACINE / dossier, tmp_path / dossier)
+    # Le fascicule d'essai Bêta n'est plus dans le catalogue : sa copie de test s'ajoute au dépôt jetable.
+    shutil.copytree(RACINE / "tests" / "fixtures", tmp_path, dirs_exist_ok=True)
+    _retirer_fascicules_publies(tmp_path)
     return Depot(tmp_path)
+
+
+def _retirer_fascicules_publies(racine: Path) -> None:
+    """Les tests partent du seul fascicule d'essai : les fascicules publiés, leurs jaquettes et leurs exclusions partent de la copie."""
+    fascicules = racine / "ludique" / "fascicules"
+    publies = set()
+    for chemin in fascicules.glob("*.json"):
+        donnees = json.loads(chemin.read_text(encoding="utf-8"))
+        if not donnees["test"]:
+            publies.add(donnees["id"])
+            chemin.unlink()
+    for chemin in (racine / "ludique" / "medias").glob("*.json"):
+        media = json.loads(chemin.read_text(encoding="utf-8"))
+        if media.get("fascicule_id") in publies:
+            (racine / "medias" / media["fichier"]).unlink()
+            chemin.unlink()
+    for chemin in (racine / "ludique" / "exclusions").glob("*.json"):
+        exclusion = json.loads(chemin.read_text(encoding="utf-8"))
+        if exclusion["fascicule_id"] in publies:
+            chemin.unlink()
 
 
 def erreurs(rapport: Rapport) -> set[str]:

@@ -1,0 +1,55 @@
+{
+  "id": "cmp_zmy74ysq",
+  "mot_id": "unt_tkxe573a",
+  "forme_resultat_id": "frm_qqm51mt3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « microbiologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_spzw8v09",
+      "sens_id": "sns_5nbggq2d",
+      "forme_id": "frm_gktfht7j",
+      "segment_debut": 0,
+      "segment_fin": 11
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 11,
+      "segment_fin": 15
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_7vx7rzdd",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de microbiologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la microbiologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : microbiologie reçoit -iste."
+    }
+  }
+}

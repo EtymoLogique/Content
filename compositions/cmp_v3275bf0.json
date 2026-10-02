@@ -1,0 +1,55 @@
+{
+  "id": "cmp_v3275bf0",
+  "mot_id": "unt_k3cdbdp9",
+  "forme_resultat_id": "frm_6mdxx1mp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « télégraphiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gmdztdsn",
+      "sens_id": "sns_xdy3r42f",
+      "forme_id": "frm_17czhwjs",
+      "segment_debut": 0,
+      "segment_fin": 9
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 9,
+      "segment_fin": 13
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_2a63hqgb",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de télégraphie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la télégraphie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : télégraphie reçoit -iste."
+    }
+  }
+}

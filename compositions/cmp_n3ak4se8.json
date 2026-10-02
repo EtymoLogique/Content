@@ -1,0 +1,55 @@
+{
+  "id": "cmp_n3ak4se8",
+  "mot_id": "unt_75y09ydy",
+  "forme_resultat_id": "frm_h92z391d",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dg3f1bfz",
+      "sens_id": "sns_5jwf144h",
+      "forme_id": "frm_9kfe8v54",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 6,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_gsmbmpsq",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de géologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la géologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : géologie reçoit -iste."
+    }
+  }
+}

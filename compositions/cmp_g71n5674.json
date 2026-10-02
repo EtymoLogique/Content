@@ -1,0 +1,38 @@
+{
+  "id": "cmp_g71n5674",
+  "mot_id": "unt_zxpx14jp",
+  "forme_resultat_id": "frm_mt2np76k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « thermothérapie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnj306rh",
+      "sens_id": "sns_z3hj8gkv",
+      "forme_id": "frm_17yjnxej"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_x195x7vr",
+      "sens_id": "sns_xm8b257g",
+      "forme_id": "frm_9tps24jy"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin par la chaleur",
+      "explication_courte": "Du grec thermós, « chaud », et therapeía, « soin »."
+    }
+  }
+}
