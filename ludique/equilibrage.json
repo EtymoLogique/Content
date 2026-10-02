@@ -6,7 +6,7 @@
     "rare": 10,
     "legendaire": 2
   },
-  "chance_legendaire": 3,
+  "chance_legendaire_pour_mille": 12,
   "base_encre": 2,
   "encre_doublon": {
     "commune": 1,
