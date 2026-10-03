@@ -109,7 +109,7 @@ La page montre les notes internes et les faits non relus. Elle reste locale : `r
 | Fichier | Contenu |
 |---|---|
 | `r/<sha256>.json` | Ressources : carte de chaque unité déclarée, recette, exclusions d’un fascicule. |
-| `f/<sha256>.json` | Manifeste de fascicule : identifiant, compteurs hors légendaires, briques tirables, graines, jalons, chemins des cartes et de leurs silhouettes, silhouettes des langues citées (`langues`), jaquette, recettes et exclusions. |
+| `f/<sha256>.json` | Manifeste de fascicule : identifiant, compteurs hors légendaires, briques tirables, graines, jalons, chemins des cartes et de leurs silhouettes, silhouettes des langues citées (`langues`), jaquette, recettes, exclusions et `ricochets` (sens affiché et classe de sens des briques, classe du sens littéral et coupes des mots, sans aucun texte ; ni légendaire ni mot qui en dépend, [ADR 0044](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0044-ricochets-reviser-et-maitriser-les-cartes.md)). |
 | `a/<sha256>.svg` | Médias : silhouettes et jaquettes, nommées d’après l’empreinte de leurs octets, jamais d’après le mot ni l’identifiant (ADR 0025). |
 | `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date et son manifeste. La tâche de parution en tire `public/index.json`. |
 

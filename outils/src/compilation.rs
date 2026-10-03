@@ -16,6 +16,7 @@
 //! Chaque fichier haché est nommé d'après l'empreinte SHA-256 de son contenu :
 //! un fichier ne change jamais, et un contenu identique garde le même chemin.
 
+use std::cell::OnceCell;
 use std::collections::{BTreeMap, BTreeSet, HashMap};
 use std::fmt::Write as _;
 use std::fs;
@@ -23,6 +24,7 @@ use std::path::Path;
 
 use serde_json::{Map, Value, json};
 use sha2::{Digest, Sha256};
+use unicode_normalization::UnicodeNormalization;
 
 use crate::chargement::{Catalogue, Table};
 use crate::json::{CANONIQUE, a_cle, ecrire, liste, texte, vrai};
@@ -124,6 +126,34 @@ struct Compilateur<'a> {
     artefact: Artefact,
     brique_par_unite: HashMap<&'a str, &'a Value>,
     medias: HashMap<CleMedia, &'a Value>,
+    classes: OnceCell<(HashMap<String, String>, HashMap<String, String>)>,
+}
+
+/// Même texte pour deux cartes : même classe, donc jamais deux réponses justes (ADR 0044).
+// ponytail: `casefold` de Python replié à la main (ß seul) ; un autre repli spécial (ς, ŉ…) demanderait une table.
+fn texte_normalise(texte: &str) -> Option<String> {
+    if texte.trim().is_empty() {
+        return None;
+    }
+    let bas = texte
+        .nfc()
+        .collect::<String>()
+        .to_lowercase()
+        .replace('ß', "ss");
+    Some(bas.split_whitespace().collect::<Vec<_>>().join(" "))
+}
+
+/// Identifiant → classe : le plus petit identifiant parmi les textes égaux (aucun texte publié).
+fn classes(textes: &BTreeMap<&str, &str>) -> HashMap<String, String> {
+    let mut premier: HashMap<String, &str> = HashMap::new();
+    let mut classes = HashMap::new();
+    for (ident, texte) in textes {
+        if let Some(norme) = texte_normalise(texte) {
+            let classe = premier.entry(norme).or_insert(ident);
+            classes.insert((*ident).to_owned(), (*classe).to_owned());
+        }
+    }
+    classes
 }
 
 impl<'a> Compilateur<'a> {
@@ -140,6 +170,7 @@ impl<'a> Compilateur<'a> {
             artefact: Artefact::default(),
             brique_par_unite,
             medias: medias::par_cible(c),
+            classes: OnceCell::new(),
         }
     }
 
@@ -289,6 +320,115 @@ impl<'a> Compilateur<'a> {
         recette
     }
 
+    // --------------------------------------------------------------- ricochets
+    fn composition_preferee(&self, mot_id: &str) -> Option<&'a Value> {
+        let candidates: Vec<&Value> = tries(&self.c.compositions)
+            .into_iter()
+            .map(|(_, c)| c)
+            .filter(|c| c["mot_id"] == mot_id && vrai(&c["preferee"]) && retenu(c))
+            .collect();
+        candidates
+            .iter()
+            .find(|c| c["type_analyse"] == "synchronique")
+            .or(candidates.first())
+            .copied()
+    }
+
+    /// (classe de sens par sens_id de brique, classe de sens littéral par mot), sur tout le catalogue.
+    fn classes_ricochets(&self) -> &(HashMap<String, String>, HashMap<String, String>) {
+        self.classes.get_or_init(|| {
+            let glose: BTreeMap<&str, &str> = self
+                .c
+                .sens
+                .iter()
+                .map(|(sid, (_, s))| (sid.as_str(), texte(&s["libelles"]["fr"]["glose"])))
+                .collect();
+            let litteral: BTreeMap<&str, &str> = self
+                .c
+                .unites
+                .iter()
+                .filter(|(_, u)| u["nature"] == "mot")
+                .map(|(mid, _)| {
+                    let cmp = self.composition_preferee(mid);
+                    (
+                        mid.as_str(),
+                        cmp.map_or("", |c| texte(&c["libelles"]["fr"]["sens_litteral"])),
+                    )
+                })
+                .collect();
+            (classes(&glose), classes(&litteral))
+        })
+    }
+
+    /// Frontières entre les parties, si les segments pavent la forme résultat sans trou ; sinon aucune.
+    fn coupes(&self, composition: &Value) -> Vec<i64> {
+        let Some((_, forme)) = self.c.formes.get(texte(&composition["forme_resultat_id"])) else {
+            return Vec::new();
+        };
+        let longueur = texte(&forme["texte"]).nfc().count();
+        let mut parties: Vec<&Value> = liste(&composition["parties"]).iter().collect();
+        parties.sort_by_key(|p| p["rang"].as_i64());
+        let mut debut = 0;
+        for partie in &parties {
+            match (
+                partie["segment_debut"].as_i64(),
+                partie["segment_fin"].as_i64(),
+            ) {
+                (Some(d), Some(fin)) if d == debut && fin > debut => debut = fin,
+                _ => return Vec::new(),
+            }
+        }
+        if usize::try_from(debut) != Ok(longueur) {
+            return Vec::new();
+        }
+        parties
+            .iter()
+            .take(parties.len().saturating_sub(1))
+            .filter_map(|p| p["segment_fin"].as_i64())
+            .collect()
+    }
+
+    /// De quoi juger un ricochet sans lire un texte (ADR 0044) : sens affiché et classes de sens des
+    /// briques, classe du sens littéral et coupes des mots. Jamais de légendaire ni de mot qui en dépend.
+    fn ricochets(&self, resultats: &BTreeSet<&str>, visibles: &[&String]) -> Value {
+        let (classes_sens, classes_litteral) = self.classes_ricochets();
+        let mut tries_visibles: Vec<&str> = visibles.iter().map(|u| u.as_str()).collect();
+        tries_visibles.sort_unstable();
+        let mut briques = Vec::new();
+        for uid in &tries_visibles {
+            let Some(brique) = self.brique_par_unite.get(uid) else {
+                continue;
+            };
+            let nature = texte(&self.c.unites[*uid]["nature"]);
+            let sens = texte(&brique["sens_affiche_id"]);
+            if matches!(nature, "prefixe" | "suffixe")
+                && let Some(classe) = classes_sens.get(sens)
+            {
+                briques.push(json!({"id": brique["id"], "sens_id": sens, "classe_sens": classe}));
+            }
+        }
+        briques.sort_by(|a, b| texte(&a["id"]).cmp(texte(&b["id"])));
+        let mut mots = Vec::new();
+        for uid in tries_visibles {
+            if !resultats.contains(uid) || self.c.unites[uid]["nature"] != "mot" {
+                continue;
+            }
+            let coupes = self
+                .composition_preferee(uid)
+                .map(|c| self.coupes(c))
+                .unwrap_or_default();
+            let mut mot = json!({"id": uid, "coupes": coupes});
+            let classe = classes_litteral.get(uid);
+            if let Some(classe) = classe {
+                mot["classe_litteral"] = json!(classe);
+            }
+            if classe.is_some() || !mot["coupes"].as_array().is_some_and(Vec::is_empty) {
+                mots.push(mot);
+            }
+        }
+        json!({"briques": briques, "mots": mots})
+    }
+
     // --------------------------------------------------------------- fascicule
     fn legendaire(&self, uid: &str) -> bool {
         self.brique_par_unite
@@ -433,6 +573,8 @@ impl<'a> Compilateur<'a> {
             // Réserve de départ, accordée une fois à chaque joueur (ADR 0030).
             "graines": graines,
             "mots_briques": mots_briques,
+            // Données de jugement des ricochets, sans aucun texte (ADR 0044).
+            "ricochets": self.ricochets(&resultats, &visibles),
         });
         if vrai(&fsc["test"]) {
             manifeste["test"] = Value::Bool(true);
