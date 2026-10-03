@@ -475,3 +475,34 @@ fn manifeste_publie_les_jalons() {
     );
     assert_eq!(jalons[1]["sabliers"], 2);
 }
+
+#[test]
+fn manifeste_porte_les_donnees_de_jugement_des_ricochets() {
+    let (depot, sortie, parutions) = essai();
+    let ricochets = manifeste(sortie.path(), &parutions["fascicules"][0])["ricochets"].clone();
+    let briques = liste(&ricochets["briques"]);
+    assert!(!briques.is_empty() && !liste(&ricochets["mots"]).is_empty());
+    let legendaires: BTreeSet<String> = depot
+        .fichiers("ludique/briques")
+        .iter()
+        .map(|p| depot.lire(p))
+        .filter(|b| b["rarete"] == "legendaire")
+        .map(|b| texte(&b["id"]).to_owned())
+        .collect();
+    assert!(
+        !briques
+            .iter()
+            .any(|b| legendaires.contains(texte(&b["id"])))
+    );
+    // Deux sens affichés de même texte partagent une classe ; une classe est toujours un sns_ existant.
+    assert!(
+        briques
+            .iter()
+            .all(|b| texte(&b["classe_sens"]).starts_with("sns_"))
+    );
+    assert!(
+        liste(&ricochets["mots"])
+            .iter()
+            .all(|m| m["coupes"].is_array())
+    );
+}
