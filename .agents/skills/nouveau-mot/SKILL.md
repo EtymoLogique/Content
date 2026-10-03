@@ -81,6 +81,8 @@ Elle référence la couche linguistique, jamais l'inverse.
 
 Ajoutez au fascicule le mot en `resultat`, et chaque partie en `ingredient` si elle n'y est pas déjà (autonomie). Un mot n'est le résultat que d'un seul fascicule.
 
+Chaque `resultat` porte une `difficulte` (ADR 0047), jamais un `ingredient` : `facile` (sens actuel proche du sens littéral, recette sans transformation), `moyen` (un seul écart : une transformation, ou un sens qui a dérivé), `difficile` (les deux). Visez un tiers de chaque niveau par fascicule, à un mot près, légendaires exclus (avertissement `fascicule.tiers`).
+
 ## 4. Contrôler
 
 ```sh
