@@ -33,8 +33,15 @@
         "required": ["unite_id", "role"],
         "properties": {
           "unite_id": { "$ref": "communs.schema.json#/$defs/id_unite" },
-          "role": { "enum": ["resultat", "ingredient"] }
-        }
+          "role": { "enum": ["resultat", "ingredient"] },
+          "difficulte": {
+            "description": "Difficulté de déduction d'un mot résultat (ADR 0047) : facile, moyen ou difficile. Jamais affichée au joueur, jamais portée par un ingrédient.",
+            "enum": ["facile", "moyen", "difficile"]
+          }
+        },
+        "if": { "properties": { "role": { "const": "resultat" } } },
+        "then": { "required": ["difficulte"] },
+        "else": { "not": { "required": ["difficulte"] } }
       }
     },
     "graines": {

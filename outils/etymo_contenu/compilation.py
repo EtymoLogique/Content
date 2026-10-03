@@ -186,7 +186,10 @@ class Compilateur:
         for entree in fsc["unites"]:
             chemin = self.artefact.deposer("r", self.carte(entree["unite_id"]))
             silhouette = self._media("silhouette", "unite", entree["unite_id"])
-            cartes.append({"id": entree["unite_id"], "role": entree["role"], "carte": chemin, "silhouette": silhouette})
+            carte = {"id": entree["unite_id"], "role": entree["role"], "carte": chemin, "silhouette": silhouette}
+            if "difficulte" in entree:
+                carte["difficulte"] = entree["difficulte"]
+            cartes.append(carte)
         langues = [{"id": lid, "silhouette": self._media("silhouette", "langue", lid)} for lid in medias.langues_citees(self.c, uids)]
 
         ids_recettes = sorted(

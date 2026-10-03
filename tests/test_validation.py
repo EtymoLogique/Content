@@ -344,7 +344,7 @@ def test_ingredient_publie_plus_tard(depot):
 
     def biologie_en_resultat(f):
         ingredients = [u for u in f["unites"] if u["role"] == "ingredient" and u["unite_id"] != biologie]
-        f.update(numero=1, unites=[{"unite_id": biologie, "role": "resultat"}] + ingredients)
+        f.update(numero=1, unites=[{"unite_id": biologie, "role": "resultat", "difficulte": "facile"}] + ingredients)
 
     depot.modifier(depot.fascicule(), biologie_en_ingredient)
     depot.copier_sous(depot.fascicule(), nouvel_id("fsc"), biologie_en_resultat)
@@ -378,6 +378,7 @@ def test_resultat_est_un_mot_avec_recette(depot):
         for u in f["unites"]:
             if u["unite_id"] == moral:
                 u["role"] = "resultat"
+                u["difficulte"] = "facile"
 
     depot.modifier(depot.fascicule(), promouvoir)
     assert "fascicule.resultat_sans_recette" in erreurs(depot.valider())
@@ -390,6 +391,7 @@ def test_resultat_non_mot(depot):
         for u in f["unites"]:
             if u["unite_id"] == geo:
                 u["role"] = "resultat"
+                u["difficulte"] = "facile"
 
     depot.modifier(depot.fascicule(), promouvoir)
     assert "fascicule.resultat_non_mot" in erreurs(depot.valider())
@@ -410,6 +412,26 @@ def test_ingredient_inutile(depot):
 def test_taille_du_fascicule(depot):
     depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
     assert "fascicule.taille" in avertissements(depot.valider())
+
+
+def test_difficulte_obligatoire_pour_un_resultat(depot):
+    depot.modifier(depot.fascicule(), lambda f: f["unites"][0].pop("difficulte"))
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_difficulte_interdite_pour_un_ingredient(depot):
+    def ajouter(f):
+        ingredient = next(u for u in f["unites"] if u["role"] == "ingredient")
+        ingredient["difficulte"] = "facile"
+
+    depot.modifier(depot.fascicule(), ajouter)
+    assert "schema" in erreurs(depot.valider())
+
+
+def test_tiers_de_difficulte(depot):
+    # Le fascicule d'essai ne compte que des mots faciles : écart aux tiers.
+    depot.modifier(depot.fascicule(), lambda f: f.update(test=False, numero=1))
+    assert "fascicule.tiers" in avertissements(depot.valider())
 
 
 def test_fascicule_sans_legendaire(depot):

@@ -13,6 +13,7 @@ from etymo_contenu.rapport import Rapport
 
 LOCALE_REFERENCE = "fr"
 TRAITS_UNION = ("-", "\u2010", "\u2011", "\u2012", "\u2013", "\u2014")
+NIVEAUX_DIFFICULTE = ("facile", "moyen", "difficile")  # ADR 0047
 TAILLE_FASCICULE = (20, 30)  # ADR 0022, paramètre d'équilibrage
 # Règle d'amorçage (game-design) : trois découvertes au moins sans ouvrir de pli.
 MIN_RECETTES_AMORCAGE = 3
@@ -462,6 +463,7 @@ class Controleur:
             if not fsc["test"] and not minimum <= nb_mots <= maximum:
                 self._avert("fascicule.taille", f"{nb_mots} mots : un fascicule en publie de {minimum} à {maximum}.", fid)
             if not fsc["test"]:
+                self._tiers(fid, fsc)
                 rarete = {b["unite_id"]: b["rarete"] for b in self.c.briques.values()}
                 if not any(rarete.get(uid) == "legendaire" for uid in declares):
                     signaler = self._erreur if self.publication else self._avert
@@ -499,6 +501,27 @@ class Controleur:
                     self._erreur("fascicule.jalon_mot", f"La brique {bid} du jalon {jid} est un mot : un pli ne donne que des affixes.", fid)
                 if brique["rarete"] == "legendaire":
                     self._erreur("fascicule.jalon_legendaire", f"La brique {bid} du jalon {jid} est légendaire : un pli de jalon n’en donne jamais (ADR 0043).", fid)
+
+    def _tiers(self, fid: str, fsc: dict) -> None:
+        """Un tiers de mots faciles, moyens et difficiles, à un mot près ; légendaires hors compteurs (ADR 0047)."""
+        legendaires = {b["id"] for b in self.c.briques.values() if b["rarete"] == "legendaire"}
+        compte = {niveau: 0 for niveau in NIVEAUX_DIFFICULTE}
+        for ligne in fsc["unites"]:
+            if ligne["role"] != "resultat" or "difficulte" not in ligne:
+                continue
+            secret = any(
+                b in legendaires
+                for recette in self._recettes_du_mot(ligne["unite_id"])
+                for emplacement in recette["emplacements"]
+                for b in emplacement["briques_acceptees"]
+            )
+            if not secret:
+                compte[ligne["difficulte"]] += 1
+        tiers = sum(compte.values()) / 3
+        ecarts = [f"{n} {niveau}s" for niveau, n in compte.items() if abs(n - tiers) > 1]
+        if ecarts:
+            detail = ", ".join(f"{n} {niveau}s" for niveau, n in compte.items())
+            self._avert("fascicule.tiers", f"{detail} : un tiers de chaque niveau, à un mot près (légendaires exclus).", fid)
 
     def _graines(self, fid: str, fsc: dict, declares: set[str]) -> None:
         """Réserve de départ (ADR 0030) : briques du fascicule, et au moins trois
