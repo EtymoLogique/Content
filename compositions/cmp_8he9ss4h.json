@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8he9ss4h",
+  "mot_id": "unt_aqynyd1k",
+  "forme_resultat_id": "frm_wkgnxem7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « pseudomorphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7djh0ry7",
+      "sens_id": "sns_q117m9xs",
+      "forme_id": "frm_7h5rs32a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cacqy935",
+      "sens_id": "sns_ppx9yd71",
+      "forme_id": "frm_2hxsf1ty"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "de fausse forme",
+      "explication_courte": "Formé de pseudo-, « faux », et de -morphe, « forme »."
+    }
+  }
+}

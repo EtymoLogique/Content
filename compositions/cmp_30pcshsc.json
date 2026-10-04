@@ -1,0 +1,51 @@
+{
+  "id": "cmp_30pcshsc",
+  "mot_id": "unt_pavyxgsv",
+  "forme_resultat_id": "frm_5rgwb172",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_f2v2s2sb",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de auto- s’élide devant -archie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de soi-même",
+      "explication_courte": "Formé de auto-, « soi-même », et de -archie, « commandement »."
+    }
+  }
+}

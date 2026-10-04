@@ -1,0 +1,51 @@
+{
+  "id": "cmp_c7taw036",
+  "mot_id": "unt_fcq1pt7j",
+  "forme_resultat_id": "frm_3260rx3e",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_bfygsy31",
+      "sens_id": "sns_vnhhkhdm",
+      "forme_id": "frm_0nemgxe8"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_ymdtpar9",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de typo- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’empreinte",
+      "explication_courte": "Formé de typo-, « caractère », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_yqajdrck",
+  "mot_id": "unt_mqb8as8s",
+  "forme_resultat_id": "frm_w8t2pjf4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « télétype » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dmdgbtfy",
+      "sens_id": "sns_rxbbre2h",
+      "forme_id": "frm_npedz42v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cx7120nd",
+      "sens_id": "sns_1tyve288",
+      "forme_id": "frm_kgzpbgy1"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "modèle à distance",
+      "explication_courte": "Formé de télé-, « au loin », et de -type, « modèle »."
+    }
+  }
+}

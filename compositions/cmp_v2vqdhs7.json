@@ -1,0 +1,38 @@
+{
+  "id": "cmp_v2vqdhs7",
+  "mot_id": "unt_qz9bshy6",
+  "forme_resultat_id": "frm_cxhr9fgn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithotomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6mh6164x",
+      "sens_id": "sns_c0n9b4ax",
+      "forme_id": "frm_ddq28rv9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "coupure de la pierre",
+      "explication_courte": "Formé de litho-, « pierre », et de -tomie, « coupure »."
+    }
+  }
+}

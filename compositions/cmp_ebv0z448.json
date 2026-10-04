@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ebv0z448",
+  "mot_id": "unt_5j5kka8j",
+  "forme_resultat_id": "frm_16y7xwgq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithothèque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6mh6164x",
+      "sens_id": "sns_c0n9b4ax",
+      "forme_id": "frm_ddq28rv9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg2k1q5r",
+      "sens_id": "sns_e67bsqqj",
+      "forme_id": "frm_hs7escy3"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "collection de pierres",
+      "explication_courte": "Formé de litho-, « pierre », et de -thèque, « armoire, collection »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_4bnzpp48",
+  "mot_id": "unt_qfvzkrv8",
+  "forme_resultat_id": "frm_m60ygt29",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « agamie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_7125dvqm",
+      "sens_id": "sns_6bcs3xgv",
+      "forme_id": "frm_03qn4ze4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "absence de mariage",
+      "explication_courte": "Formé de a-, « sans, privé de », et de -gamie, « mariage »."
+    }
+  }
+}

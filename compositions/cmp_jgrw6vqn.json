@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jgrw6vqn",
+  "mot_id": "unt_7y45wmme",
+  "forme_resultat_id": "frm_k5s2jbzz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « stéréogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ys8y007w",
+      "sens_id": "sns_3k9rxz7g",
+      "forme_id": "frm_0wss1y4w"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "tracé en relief",
+      "explication_courte": "Formé de stéréo-, « solide, en relief », et de -gramme, « écrit, tracé »."
+    }
+  }
+}

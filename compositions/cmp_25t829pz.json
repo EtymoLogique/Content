@@ -1,0 +1,38 @@
+{
+  "id": "cmp_25t829pz",
+  "mot_id": "unt_fr905jmj",
+  "forme_resultat_id": "frm_0bxnh6mg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « trimètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfeshxgc",
+      "sens_id": "sns_j5rx110n",
+      "forme_id": "frm_71xe5wth"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "triple mesure",
+      "explication_courte": "Formé de tri-, « trois », et de -mètre, « mesure »."
+    }
+  }
+}

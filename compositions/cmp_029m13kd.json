@@ -1,0 +1,38 @@
+{
+  "id": "cmp_029m13kd",
+  "mot_id": "unt_gfv83sy0",
+  "forme_resultat_id": "frm_w5r3ez4t",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « homophile » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_f0s3zj1k",
+      "sens_id": "sns_71mvf6yn",
+      "forme_id": "frm_k25v9rz3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_0epc2py5",
+      "sens_id": "sns_zvfrc7dz",
+      "forme_id": "frm_1g9hqcy2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime le même",
+      "explication_courte": "Formé de homo-, « même », et de -phile, « qui aime »."
+    }
+  }
+}

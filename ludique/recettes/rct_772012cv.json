@@ -1,0 +1,19 @@
+{
+  "id": "rct_772012cv",
+  "composition_id": "cmp_fxv7fpab",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_b23jzvgf"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_c0109x2n"
+      ]
+    }
+  ],
+  "note_interne": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8wjmqars",
+  "mot_id": "unt_6kq8aqp4",
+  "forme_resultat_id": "frm_ax810en5",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hétérologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wkxgjecx",
+      "sens_id": "sns_vf7m5yas",
+      "forme_id": "frm_wsbrq5jg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "d’un autre",
+      "explication_courte": "Formé de hétéro-, « autre », et de -logue, « spécialiste »."
+    }
+  }
+}

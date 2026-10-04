@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ef4hcyhv",
+  "mot_id": "unt_3qh90pkk",
+  "forme_resultat_id": "frm_jbzrp93h",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithophage » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6mh6164x",
+      "sens_id": "sns_c0n9b4ax",
+      "forme_id": "frm_ddq28rv9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3jma5g3z",
+      "sens_id": "sns_6hsybknc",
+      "forme_id": "frm_6drkjf66"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui mange la pierre",
+      "explication_courte": "Formé de litho-, « pierre », et de -phage, « qui mange »."
+    }
+  }
+}

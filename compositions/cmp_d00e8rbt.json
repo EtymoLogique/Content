@@ -1,0 +1,38 @@
+{
+  "id": "cmp_d00e8rbt",
+  "mot_id": "unt_hjm891k4",
+  "forme_resultat_id": "frm_pzacygzf",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phonolithe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cf67sm62",
+      "sens_id": "sns_7sqh7w99",
+      "forme_id": "frm_3f0sdf8e"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pierre du son",
+      "explication_courte": "Formé de phono-, « son, voix », et de -lithe, « pierre »."
+    }
+  }
+}

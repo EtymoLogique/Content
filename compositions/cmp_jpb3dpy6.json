@@ -1,0 +1,51 @@
+{
+  "id": "cmp_jpb3dpy6",
+  "mot_id": "unt_vsqbsd6h",
+  "forme_resultat_id": "frm_kwxx5rt6",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydrique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_nzdj5y11",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de hydro- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’eau",
+      "explication_courte": "Formé de hydro-, « eau », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

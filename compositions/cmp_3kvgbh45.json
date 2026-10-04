@@ -1,0 +1,38 @@
+{
+  "id": "cmp_3kvgbh45",
+  "mot_id": "unt_mm8dknx7",
+  "forme_resultat_id": "frm_66gq9h30",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monomètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "seule mesure",
+      "explication_courte": "Formé de mono-, « seul, unique », et de -mètre, « mesure »."
+    }
+  }
+}

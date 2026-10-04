@@ -1,0 +1,51 @@
+{
+  "id": "cmp_bbxzjzbz",
+  "mot_id": "unt_rfy547tm",
+  "forme_resultat_id": "frm_9n87t2t7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6mh6164x",
+      "sens_id": "sns_c0n9b4ax",
+      "forme_id": "frm_ddq28rv9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_y1bzjfna",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de litho- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la pierre",
+      "explication_courte": "Formé de litho-, « pierre », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

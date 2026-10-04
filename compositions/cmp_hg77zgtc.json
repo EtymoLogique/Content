@@ -1,0 +1,38 @@
+{
+  "id": "cmp_hg77zgtc",
+  "mot_id": "unt_wfkaxvr2",
+  "forme_resultat_id": "frm_37g1qvcv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hétérophonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wkxgjecx",
+      "sens_id": "sns_vf7m5yas",
+      "forme_id": "frm_wsbrq5jg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "autre sonorité",
+      "explication_courte": "Formé de hétéro-, « autre », et de -phonie, « sonorité »."
+    }
+  }
+}

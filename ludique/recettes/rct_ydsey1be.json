@@ -1,0 +1,19 @@
+{
+  "id": "rct_ydsey1be",
+  "composition_id": "cmp_aw5q58kf",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_9bwtmpwp"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_fstdzp93"
+      ]
+    }
+  ],
+  "note_interne": null
+}

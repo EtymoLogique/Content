@@ -1,0 +1,51 @@
+{
+  "id": "cmp_2e5ah7jc",
+  "mot_id": "unt_4je141nz",
+  "forme_resultat_id": "frm_d8swndp3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithographiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_f3dwzk0w",
+      "sens_id": "sns_wbz9az0b",
+      "forme_id": "frm_j1570hnk"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_mqhw9syc",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de lithographie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la lithographie",
+      "explication_courte": "Formé de lithographie, « impression sur pierre », et de -iste, « qui pratique »."
+    }
+  }
+}

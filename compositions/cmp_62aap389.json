@@ -1,0 +1,51 @@
+{
+  "id": "cmp_62aap389",
+  "mot_id": "unt_hgqb1zdq",
+  "forme_resultat_id": "frm_qzrwjybr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnonyme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_324c5axf",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de ethno- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom du peuple",
+      "explication_courte": "Formé de ethno-, « peuple », et de -onyme, « nom »."
+    }
+  }
+}

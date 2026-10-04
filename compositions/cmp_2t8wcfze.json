@@ -1,0 +1,38 @@
+{
+  "id": "cmp_2t8wcfze",
+  "mot_id": "unt_a5v0ehvb",
+  "forme_resultat_id": "frm_eb26tmj3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hiérogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pm9m2x2h",
+      "sens_id": "sns_s6ve4fst",
+      "forme_id": "frm_dwskfc10"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écrit sacré",
+      "explication_courte": "Formé de hiéro-, « sacré », et de -gramme, « écrit, tracé »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_b3dt8k6p",
+  "mot_id": "unt_b8eth0n0",
+  "forme_resultat_id": "frm_9sa2t6an",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « polyarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de plusieurs",
+      "explication_courte": "Formé de poly-, « nombreux », et de -archie, « commandement »."
+    }
+  }
+}

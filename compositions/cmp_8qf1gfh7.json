@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8qf1gfh7",
+  "mot_id": "unt_3a73a8wg",
+  "forme_resultat_id": "frm_m2gkrgy0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthropomancie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_thep0hgb",
+      "sens_id": "sns_84v8ta9x",
+      "forme_id": "frm_wm9n3s05"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "divination par l’être humain",
+      "explication_courte": "Formé de anthropo-, « être humain », et de -mancie, « divination »."
+    }
+  }
+}

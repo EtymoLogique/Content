@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bp00dz84",
+  "mot_id": "unt_zke69ea1",
+  "forme_resultat_id": "frm_w5rchj16",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phonographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture du son",
+      "explication_courte": "Formé de phono-, « son, voix », et de -graphie, « écriture »."
+    }
+  }
+}

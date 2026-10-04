@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8dzgww8x",
+  "mot_id": "unt_b25dmyzw",
+  "forme_resultat_id": "frm_qnj0wnjm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « alogie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "absence de discours",
+      "explication_courte": "Formé de a-, « sans, privé de », et de -logie, « étude »."
+    }
+  }
+}

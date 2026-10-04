@@ -1,0 +1,51 @@
+{
+  "id": "cmp_g68newms",
+  "mot_id": "unt_576ev431",
+  "forme_resultat_id": "frm_h6c7cgdr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « technique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gv4a4xz9",
+      "sens_id": "sns_81xrxm2a",
+      "forme_id": "frm_mjqj637c"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_p91a4f7h",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de techno- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’art, au métier",
+      "explication_courte": "Formé de techno-, « technique », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

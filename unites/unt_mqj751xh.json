@@ -1,0 +1,62 @@
+{
+  "id": "unt_mqj751xh",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zoomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_q9hxryqg",
+      "texte": "zoomètre",
+      "cle_normalisee": "zoomètre",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « zoomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_19p2y97g",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Instrument qui mesure les proportions des animaux."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « zoomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+      }
+    }
+  ]
+}

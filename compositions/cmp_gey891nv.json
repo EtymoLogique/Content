@@ -1,0 +1,51 @@
+{
+  "id": "cmp_gey891nv",
+  "mot_id": "unt_bmezj6sa",
+  "forme_resultat_id": "frm_jzxp2vd7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chromique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qhbmrwpr",
+      "sens_id": "sns_kgvwfse8",
+      "forme_id": "frm_6g4fkdm4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_wq0ke6x4",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de chromo- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la couleur",
+      "explication_courte": "Formé de chromo-, « couleur », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

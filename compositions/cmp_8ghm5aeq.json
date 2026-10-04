@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8ghm5aeq",
+  "mot_id": "unt_edqf61cx",
+  "forme_resultat_id": "frm_tx0aevvq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « orthochrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c2rsvxch",
+      "sens_id": "sns_0r6p90gv",
+      "forme_id": "frm_w6krj4xz"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "couleur correcte",
+      "explication_courte": "Formé de ortho-, « droit, correct », et de -chrome, « couleur »."
+    }
+  }
+}

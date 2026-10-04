@@ -1,0 +1,51 @@
+{
+  "id": "cmp_nr9sw6cv",
+  "mot_id": "unt_mw8yf0m4",
+  "forme_resultat_id": "frm_jhkw6k5y",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « théarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3r4j3whs",
+      "sens_id": "sns_9ewdgwcn",
+      "forme_id": "frm_2jrbrxrc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_5b0f22ds",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de théo- s’élide devant -archie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de dieu",
+      "explication_courte": "Formé de théo-, « dieu », et de -archie, « commandement »."
+    }
+  }
+}

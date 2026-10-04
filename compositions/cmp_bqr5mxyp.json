@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bqr5mxyp",
+  "mot_id": "unt_9y1m78zt",
+  "forme_resultat_id": "frm_wp7yx328",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliomancie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rbddryfp",
+      "sens_id": "sns_vkxaxd36",
+      "forme_id": "frm_s6j25acv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_thep0hgb",
+      "sens_id": "sns_84v8ta9x",
+      "forme_id": "frm_wm9n3s05"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "divination par le livre",
+      "explication_courte": "Formé de biblio-, « livre », et de -mancie, « divination »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_676wrvv9",
+  "mot_id": "unt_2e7dkffd",
+  "forme_resultat_id": "frm_m5b0zym4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « diaphone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_g2j29c3e",
+      "sens_id": "sns_59nbgyvj",
+      "forme_id": "frm_2krrn520"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "son qui passe à travers",
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -phone, « voix, son »."
+    }
+  }
+}

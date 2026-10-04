@@ -1,0 +1,38 @@
+{
+  "id": "cmp_cgctk22j",
+  "mot_id": "unt_5c58ptp4",
+  "forme_resultat_id": "frm_7k0q18vy",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « atmomètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yp89bfw5",
+      "sens_id": "sns_49zbhew4",
+      "forme_id": "frm_m0dhksrx"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure de la vapeur",
+      "explication_courte": "Formé de atmo-, « vapeur », et de -mètre, « mesure »."
+    }
+  }
+}

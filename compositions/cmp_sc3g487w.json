@@ -1,0 +1,38 @@
+{
+  "id": "cmp_sc3g487w",
+  "mot_id": "unt_prbrewef",
+  "forme_resultat_id": "frm_7dd44013",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « épiscope » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zhgpk4fs",
+      "sens_id": "sns_rbma3jrg",
+      "forme_id": "frm_v7r235v3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe par-dessus",
+      "explication_courte": "Formé de épi-, « sur », et de -scope, « qui observe »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ntbahsg9",
+  "mot_id": "unt_zmm4dxvw",
+  "forme_resultat_id": "frm_hcr0k27g",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « trichrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfeshxgc",
+      "sens_id": "sns_j5rx110n",
+      "forme_id": "frm_71xe5wth"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "à trois couleurs",
+      "explication_courte": "Formé de tri-, « trois », et de -chrome, « couleur »."
+    }
+  }
+}

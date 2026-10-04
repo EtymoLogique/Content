@@ -1,0 +1,38 @@
+{
+  "id": "cmp_gjfc1jj1",
+  "mot_id": "unt_xq899mdc",
+  "forme_resultat_id": "frm_kwg74qtz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géophile » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_0epc2py5",
+      "sens_id": "sns_zvfrc7dz",
+      "forme_id": "frm_1g9hqcy2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime la terre",
+      "explication_courte": "Formé de géo-, « terre », et de -phile, « qui aime »."
+    }
+  }
+}

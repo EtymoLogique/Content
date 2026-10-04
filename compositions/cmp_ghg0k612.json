@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ghg0k612",
+  "mot_id": "unt_z9gyw1sd",
+  "forme_resultat_id": "frm_macgyvem",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tétragramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q997byd1",
+      "sens_id": "sns_j2b3cdsr",
+      "forme_id": "frm_gsz4e6me"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écrit de quatre lettres",
+      "explication_courte": "Formé de tétra-, « quatre », et de -gramme, « écrit, tracé »."
+    }
+  }
+}

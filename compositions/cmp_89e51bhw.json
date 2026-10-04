@@ -1,0 +1,38 @@
+{
+  "id": "cmp_89e51bhw",
+  "mot_id": "unt_mf48f5gk",
+  "forme_resultat_id": "frm_6nnd8wrn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmosophie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2g0vq4n0",
+      "sens_id": "sns_vykqff0h",
+      "forme_id": "frm_q3pppnq1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4ezf5sd4",
+      "sens_id": "sns_svs0e5vw",
+      "forme_id": "frm_9jz0j2e9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sagesse du monde",
+      "explication_courte": "Formé de cosmo-, « monde, univers », et de -sophie, « sagesse »."
+    }
+  }
+}

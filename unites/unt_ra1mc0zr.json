@@ -1,0 +1,62 @@
+{
+  "id": "unt_ra1mc0zr",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zooscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_0ga470xg",
+      "texte": "zooscope",
+      "cle_normalisee": "zooscope",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « zooscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_dvspan8c",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Appareil d’observation des animaux."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « zooscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_483y4sth",
+  "mot_id": "unt_h743t4j0",
+  "forme_resultat_id": "frm_spd641rg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du vivant chez les peuples",
+      "explication_courte": "Formé de ethno-, « peuple », et de biologie, « étude du vivant »."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_w1yrydyy",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_2e4t6mm3",
+      "texte": "géoscope",
+      "cle_normalisee": "géoscope",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « géoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_sewqx0a3",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Instrument d’observation du sol ou du globe terrestre."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « géoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+      }
+    }
+  ]
+}

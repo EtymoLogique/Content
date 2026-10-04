@@ -1,0 +1,38 @@
+{
+  "id": "cmp_w5mk05ks",
+  "mot_id": "unt_zcp0qggw",
+  "forme_resultat_id": "frm_0cgkbx5g",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autophonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sonorité de soi-même",
+      "explication_courte": "Formé de auto-, « soi-même », et de -phonie, « sonorité »."
+    }
+  }
+}

@@ -15,7 +15,7 @@
       "minItems": 2,
       "items": { "$ref": "communs.schema.json#/$defs/id_brique" }
     },
-    "raison": { "enum": ["archaique", "rare", "offensant", "analyse_non_etablie"] },
+    "raison": { "enum": ["archaique", "offensant"] },
     "etat_relecture": { "$ref": "communs.schema.json#/$defs/etat_relecture" },
     "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
   }

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fxv7fpab",
+  "mot_id": "unt_yttratcz",
+  "forme_resultat_id": "frm_cjgpxjrk",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « diphone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2xrqv000",
+      "sens_id": "sns_8pxy44p3",
+      "forme_id": "frm_p07fp3z3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "deux sons",
+      "explication_courte": "Formé de di-, « deux », et de -phone, « voix, son »."
+    }
+  }
+}

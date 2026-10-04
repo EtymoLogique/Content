@@ -1,0 +1,38 @@
+{
+  "id": "cmp_aj3108h8",
+  "mot_id": "unt_mw1kvz5s",
+  "forme_resultat_id": "frm_mwenpgdf",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tétramètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q997byd1",
+      "sens_id": "sns_j2b3cdsr",
+      "forme_id": "frm_gsz4e6me"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "quadruple mesure",
+      "explication_courte": "Formé de tétra-, « quatre », et de -mètre, « mesure »."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_hmd0x2td",
+  "mot_id": "unt_4ep749b5",
+  "forme_resultat_id": "frm_6wewzn11",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_djt5c1tg",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de photo- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la lumière",
+      "explication_courte": "Formé de photo-, « lumière », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

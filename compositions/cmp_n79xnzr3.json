@@ -1,0 +1,38 @@
+{
+  "id": "cmp_n79xnzr3",
+  "mot_id": "unt_81qkt7n7",
+  "forme_resultat_id": "frm_m8mvjjav",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « orthoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c2rsvxch",
+      "sens_id": "sns_0r6p90gv",
+      "forme_id": "frm_w6krj4xz"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe droit",
+      "explication_courte": "Formé de ortho-, « droit, correct », et de -scope, « qui observe »."
+    }
+  }
+}

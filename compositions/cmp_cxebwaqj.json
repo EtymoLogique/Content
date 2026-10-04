@@ -1,0 +1,38 @@
+{
+  "id": "cmp_cxebwaqj",
+  "mot_id": "unt_w1yrydyy",
+  "forme_resultat_id": "frm_2e4t6mm3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe la terre",
+      "explication_courte": "Formé de géo-, « terre », et de -scope, « qui observe »."
+    }
+  }
+}

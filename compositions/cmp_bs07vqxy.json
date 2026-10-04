@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bs07vqxy",
+  "mot_id": "unt_4ttzqqhq",
+  "forme_resultat_id": "frm_hrfk0cyc",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « antilogie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_j9efe2gf",
+      "sens_id": "sns_bkm03yf0",
+      "forme_id": "frm_9ne7yzeq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "discours contraire",
+      "explication_courte": "Formé de anti-, « contre », et de -logie, « étude »."
+    }
+  }
+}

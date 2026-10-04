@@ -1,0 +1,38 @@
+{
+  "id": "cmp_aw5q58kf",
+  "mot_id": "unt_ana22nmv",
+  "forme_resultat_id": "frm_bd059fdm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mégascope » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k9gx5qcj",
+      "sens_id": "sns_c225g2cc",
+      "forme_id": "frm_tfe2hb16"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe en grand",
+      "explication_courte": "Formé de méga-, « grand », et de -scope, « qui observe »."
+    }
+  }
+}

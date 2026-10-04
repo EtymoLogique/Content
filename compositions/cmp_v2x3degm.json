@@ -1,0 +1,38 @@
+{
+  "id": "cmp_v2x3degm",
+  "mot_id": "unt_tqtm9ky4",
+  "forme_resultat_id": "frm_pb4gdn1y",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « achrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sans couleur",
+      "explication_courte": "Formé de a-, « sans, privé de », et de -chrome, « couleur »."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rct_cdgym65w",
+  "composition_id": "cmp_kny33jds",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_1a3kjjyn"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_gxz06b3e"
+      ]
+    }
+  ],
+  "note_interne": null
+}

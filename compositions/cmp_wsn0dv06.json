@@ -1,0 +1,38 @@
+{
+  "id": "cmp_wsn0dv06",
+  "mot_id": "unt_ra1mc0zr",
+  "forme_resultat_id": "frm_0ga470xg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zooscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pbktznfj",
+      "sens_id": "sns_4zh2hx7t",
+      "forme_id": "frm_jscs10sp"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe les animaux",
+      "explication_courte": "Formé de zoo-, « animal », et de -scope, « qui observe »."
+    }
+  }
+}

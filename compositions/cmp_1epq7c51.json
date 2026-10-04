@@ -1,0 +1,51 @@
+{
+  "id": "cmp_1epq7c51",
+  "mot_id": "unt_pjkbrr6g",
+  "forme_resultat_id": "frm_6q3s90ss",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chronique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x8r491qt",
+      "sens_id": "sns_tsqxkh8a",
+      "forme_id": "frm_jnjm7syy"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_z1tzxenn",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de chrono- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte au temps",
+      "explication_courte": "Formé de chrono-, « temps », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

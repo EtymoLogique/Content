@@ -1,0 +1,38 @@
+{
+  "id": "cmp_65bnkwva",
+  "mot_id": "unt_0wda7bhe",
+  "forme_resultat_id": "frm_8m3wbd7q",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cartogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ej6g8x84",
+      "sens_id": "sns_peas7nvd",
+      "forme_id": "frm_5zpwwwcv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "tracé sur une carte",
+      "explication_courte": "Formé de carto-, « carte », et de -gramme, « écrit, tracé »."
+    }
+  }
+}

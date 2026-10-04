@@ -1,0 +1,38 @@
+{
+  "id": "cmp_js7h07ym",
+  "mot_id": "unt_szzaw6jk",
+  "forme_resultat_id": "frm_tqzs6dze",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chromogène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qhbmrwpr",
+      "sens_id": "sns_kgvwfse8",
+      "forme_id": "frm_6g4fkdm4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui engendre la couleur",
+      "explication_courte": "Formé de chromo-, « couleur », et de -gène, « qui engendre »."
+    }
+  }
+}

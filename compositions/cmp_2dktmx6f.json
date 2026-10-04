@@ -1,0 +1,38 @@
+{
+  "id": "cmp_2dktmx6f",
+  "mot_id": "unt_bvtq3dsc",
+  "forme_resultat_id": "frm_p1w2v92q",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « microtomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yr0z4s28",
+      "sens_id": "sns_xgfakmbp",
+      "forme_id": "frm_66yq3x40"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "petite coupure",
+      "explication_courte": "Formé de micro-, « petit », et de -tomie, « coupure »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_64gme072",
+  "mot_id": "unt_5gw128p3",
+  "forme_resultat_id": "frm_qjyk3rms",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photochrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "couleur par la lumière",
+      "explication_courte": "Formé de photo-, « lumière », et de -chrome, « couleur »."
+    }
+  }
+}
