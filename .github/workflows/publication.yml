@@ -37,10 +37,11 @@ jobs:
       AWS_REQUEST_CHECKSUM_CALCULATION: when_required
       AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
       BUCKET: ${{ vars.ETYMO_BUCKET_CATALOGUE }}
+      RUST_VERSION: "1.98"
       # Hors-prod : fascicules de test et faits non relus compris, artefact
       # marqué « essai ». Prod : exigences de publication complètes.
       ESSAI: ${{ github.ref == 'refs/heads/master' && 'false' || 'true' }}
-      # Ressources citées par un manifeste, comme ressources() dans compilation.py.
+      # Ressources citées par un manifeste, comme ressources() dans outils/src/compilation.rs.
       RESSOURCES: '[.jaquette, .exclusions, (.cartes[]? | .carte, .silhouette), (.langues[]? | .silhouette), (.recettes[]? | .chemin)] | map(select(. != null)) | unique | .[]'
     steps:
       - name: Check the configuration
@@ -55,23 +56,28 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
-        with:
-          python-version: "3.12"
+      - name: Set up Rust
+        run: |
+          rustup toolchain install "$RUST_VERSION" --profile minimal --component clippy,rustfmt
+          rustup default "$RUST_VERSION"
 
-      - name: Install the tooling
-        run: python -m pip install -e '.[dev]'
+      - name: Cache the build
+        uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+        with:
+          workspaces: outils
 
       - name: Run the tests
-        run: python -m pytest -q
+        run: cargo test --manifest-path outils/Cargo.toml --locked
+
+      - name: Build the tooling
+        run: cargo build --manifest-path outils/Cargo.toml --release --locked
 
       - name: Compile the artefact
         id: compilation
         run: |
           options=(--sortie artefact --version "${GITHUB_SHA::12}")
           if [ "$ESSAI" = true ]; then options+=(--essai); fi
-          etymo-contenu compiler "${options[@]}"
+          outils/target/release/etymo-contenu compiler "${options[@]}"
           fascicules="$(jq '.fascicules | length' artefact/parutions.json)"
           echo "fascicules=$fascicules" >> "$GITHUB_OUTPUT"
           {

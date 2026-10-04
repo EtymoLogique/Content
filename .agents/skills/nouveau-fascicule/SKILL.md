@@ -10,8 +10,8 @@ Références, qui priment sur ce résumé : ADR 0014 (sources et fascicules), 00
 ## 1. Faire l'état des lieux
 
 ```sh
-.venv/bin/etymo-contenu valider
-.venv/bin/etymo-contenu visualiser     # rapports/catalogue.html, filtre par fascicule
+cargo run -q --manifest-path outils/Cargo.toml -- valider
+cargo run -q --manifest-path outils/Cargo.toml -- visualiser     # rapports/catalogue.html, filtre par fascicule
 ```
 
 - Relevez les fascicules existants (`ludique/fascicules/*.json`) : numéros, dates, `test`.
@@ -20,7 +20,7 @@ Références, qui priment sur ce résumé : ADR 0014 (sources et fascicules), 00
 
 ## 2. Créer le fichier
 
-1. Identifiant : `.venv/bin/etymo-contenu nouvel-id fsc`. Fichier : `ludique/fascicules/<id>.json`.
+1. Identifiant : `cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id fsc`. Fichier : `ludique/fascicules/<id>.json`.
 2. Numéro : le plus grand numéro des fascicules **non test**, plus 1 (1 s'il n'y en a pas).
 3. `parution` : date provisoire, au format UTC `AAAA-MM-JJT00:00:00Z`. Règle par défaut : le 1ᵉʳ du mois qui suit la parution précédente, au moins 28 jours après (voir le skill `preparer-publication`, qui la calcule). La date définitive se fixe au moment de préparer la publication.
 4. `test: false`, et `note_interne` : ce qui reste à faire, en rappelant que la date est provisoire. Aucune donnée personnelle.
@@ -64,8 +64,8 @@ Pour chaque mot du plan, lancez le skill `nouveau-mot`. Il saisit la chaîne com
 ## 5. Contrôler
 
 ```sh
-.venv/bin/python -m pytest -q
-.venv/bin/etymo-contenu valider
+cargo test --manifest-path outils/Cargo.toml
+cargo run -q --manifest-path outils/Cargo.toml -- valider
 ```
 
 - Aucune erreur n'est acceptable.

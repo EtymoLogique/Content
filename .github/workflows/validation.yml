@@ -8,6 +8,9 @@ on:
 permissions:
   contents: read
 
+env:
+  RUST_VERSION: "1.98"
+
 concurrency:
   group: validation-${{ github.ref }}
   cancel-in-progress: true
@@ -21,16 +24,24 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
-        with:
-          python-version: "3.12"
+      - name: Set up Rust
+        run: |
+          rustup toolchain install "$RUST_VERSION" --profile minimal --component clippy,rustfmt
+          rustup default "$RUST_VERSION"
 
-      - name: Install the tooling
-        run: python -m pip install -e '.[dev]'
+      - name: Cache the build
+        uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+        with:
+          workspaces: outils
+
+      - name: Check the formatting
+        run: cargo fmt --manifest-path outils/Cargo.toml --check
+
+      - name: Lint
+        run: cargo clippy --manifest-path outils/Cargo.toml --all-targets --locked -- -D warnings
 
       - name: Run the tests
-        run: python -m pytest -q
+        run: cargo test --manifest-path outils/Cargo.toml --locked
 
       - name: Validate the catalogue
-        run: etymo-contenu valider
+        run: cargo run --manifest-path outils/Cargo.toml --locked -q -- valider

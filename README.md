@@ -38,9 +38,9 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `ludique/medias/` | Médias : type (silhouette ou jaquette), fichier, unité, langue ou fascicule illustré | `media` |
 | `medias/silhouettes/`, `medias/jaquettes/` | Fichiers SVG bruts, sous des noms de travail lisibles (ADR 0026) | profil SVG |
 | `schemas/` | JSON Schema (draft 2020-12) de chaque type d’objet | — |
-| `outils/etymo_contenu/` | Validateur, compilateur de l’artefact, visualisation locale et générateur d’identifiants | — |
+| `outils/` | Outil Rust `etymo-contenu` : validateur, compilateur de l’artefact, visualisation locale, pré-publication et générateur d’identifiants | — |
 | `artefact/` | Artefact compilé : **ignoré par Git** | — |
-| `tests/` | Un test par règle de validation | — |
+| `outils/src/tests/` | Un test par règle de validation | — |
 | `.agents/skills/` | Skills des agents : nouveau fascicule, nouveau mot, silhouette, jaquette, préparation de la publication (`.github/skills` y renvoie) | — |
 | `imports/` | Imports datés du Wiktionnaire : **ignoré par Git** | — |
 | `rapports/` | Rapports de validation et visualisation générés : **ignoré par Git** | — |
@@ -60,21 +60,19 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 
 ## Commandes
 
-Il faut Python 3.11 ou plus récent.
+Il faut Rust 1.90 ou plus récent ; la première commande compile l’outil, les suivantes le réutilisent.
 
 ```sh
-python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
-
-.venv/bin/etymo-contenu valider                  # schémas et contraintes d'intégrité
-.venv/bin/etymo-contenu valider --publication    # plus les exigences de publication
-.venv/bin/etymo-contenu valider --json           # rapport machine
-.venv/bin/etymo-contenu valider --strict         # les avertissements font échouer
-.venv/bin/etymo-contenu compiler                 # artefact publiable dans artefact/
-.venv/bin/etymo-contenu compiler --essai         # hors-prod : fascicules de test et faits non relus compris
-.venv/bin/etymo-contenu visualiser               # page locale rapports/catalogue.html : graphe, cartes, silhouettes
-.venv/bin/etymo-contenu nouvel-id unt -n 3       # trois identifiants d'unité inédits
-.venv/bin/python -m pytest -q                    # tests du validateur et du compilateur
-.venv/bin/python .agents/skills/preparer-publication/pre_publication.py 1   # rapport de pré-publication du fascicule 1
+cargo run -q --manifest-path outils/Cargo.toml -- valider                  # schémas et contraintes d'intégrité
+cargo run -q --manifest-path outils/Cargo.toml -- valider --publication    # plus les exigences de publication
+cargo run -q --manifest-path outils/Cargo.toml -- valider --json           # rapport machine
+cargo run -q --manifest-path outils/Cargo.toml -- valider --strict         # les avertissements font échouer
+cargo run -q --manifest-path outils/Cargo.toml -- compiler                 # artefact publiable dans artefact/
+cargo run -q --manifest-path outils/Cargo.toml -- compiler --essai         # hors-prod : fascicules de test et faits non relus compris
+cargo run -q --manifest-path outils/Cargo.toml -- visualiser               # page locale rapports/catalogue.html : graphe, cartes, silhouettes
+cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id unt -n 3       # trois identifiants d'unité inédits
+cargo test --manifest-path outils/Cargo.toml                    # tests du validateur et du compilateur
+cargo run -q --manifest-path outils/Cargo.toml -- pre-publication 1   # rapport de pré-publication du fascicule 1
 ```
 
 La validation échoue (code 1) dès qu’une erreur est trouvée. La CI lance les tests et `valider` à chaque push.
@@ -115,7 +113,7 @@ La page montre les notes internes et les faits non relus. Elle reste locale : `r
 | `a/<sha256>.svg` | Médias : silhouettes et jaquettes, nommées d’après l’empreinte de leurs octets, jamais d’après le mot ni l’identifiant (ADR 0025). |
 | `parutions.json` | Calendrier des parutions, seul fichier modifiable : version, référentiels, et pour chaque fascicule sa date et son manifeste. La tâche de parution en tire `public/index.json`. |
 
-Le calendrier, comme l’index, ne cite que des manifestes ; seul le manifeste cite ses ressources. `ressources()`, dans `compilation.py`, fixe la liste des champs qui en portent un chemin.
+Le calendrier, comme l’index, ne cite que des manifestes ; seul le manifeste cite ses ressources. `ressources()`, dans `outils/src/compilation.rs`, fixe la liste des champs qui en portent un chemin.
 
 - **Hash de contenu** : chaque fichier est rangé sous l’empreinte SHA-256 de son JSON canonique (clés triées, UTF-8). Un chemin ne contient ni identifiant ni graphie, et un contenu identique garde le même chemin.
 - **Jamais publiés** : `note_interne`, `etat_relecture` et tout fait `non_retenue`.

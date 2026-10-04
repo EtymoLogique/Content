@@ -5,12 +5,12 @@ description: Dessiner, corriger ou revoir la silhouette SVG d'une carte (mot, pr
 
 # Skill silhouette
 
-Références, qui priment sur ce résumé : ADR 0023 (textures des cartes), 0025 et 0026 (médias), la **grammaire de dessin** de la charte (`docs/identite.html#textures-grammaire` du dépôt de conception), le profil de `outils/etymo_contenu/medias.py` et le rendu réel des cartes (`.card-art` dans `app/web/src/codex.css`).
+Références, qui priment sur ce résumé : ADR 0023 (textures des cartes), 0025 et 0026 (médias), la **grammaire de dessin** de la charte (`docs/identite.html#textures-grammaire` du dépôt de conception), le profil de `outils/src/medias.rs` et le rendu réel des cartes (`.card-art` dans `app/web/src/codex.css`).
 
 ## 1. Trouver ce qui manque
 
 ```sh
-.venv/bin/etymo-contenu valider      # « media.manquant » : cartes et langues sans silhouette, par fascicule
+cargo run -q --manifest-path outils/Cargo.toml -- valider      # « media.manquant » : cartes et langues sans silhouette, par fascicule
 ```
 
 L'onglet « Cartes » de `rapports/catalogue.html` (`etymo-contenu visualiser`) montre en pointillé les cartes sans silhouette.
@@ -77,7 +77,7 @@ Format exigé par le profil (vérifié par `valider`) :
 ## 4. Déclarer
 
 1. Fichier : `medias/silhouettes/<nom-de-travail>.svg`, un nom lisible en minuscules (`geologie.svg`, `langue-latin.svg`, `graphe-suffixe.svg`, `re-prefixe.svg`). Il n'est jamais publié : l'artefact renomme le fichier d'après l'empreinte de ses octets (ADR 0025).
-2. Objet : `.venv/bin/etymo-contenu nouvel-id med`, puis `ludique/medias/<id>.json` :
+2. Objet : `cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id med`, puis `ludique/medias/<id>.json` :
 
 ```json
 {
@@ -113,12 +113,11 @@ Ne déclarez jamais un dessin bon sans l'avoir **vu rendu**. Lire le code SVG ne
 3. **Validation** du profil et du catalogue, une fois les planches propres :
 
    ```sh
-   .venv/bin/python -c "import sys; from etymo_contenu.medias import verifier_svg; [print(f, verifier_svg(open(f,'rb').read(), 'silhouette') or 'conforme') for f in sys.argv[1:]]" medias/silhouettes/<nom>.svg
-   .venv/bin/etymo-contenu valider      # profil SVG (media.svg_invalide), doublon (media.double), fichier absent ou orphelin
+   cargo run -q --manifest-path outils/Cargo.toml -- valider      # profil SVG (media.svg_invalide), doublon (media.double), fichier absent ou orphelin
    ```
 
-4. **Rendu en contexte**, facultatif : `.venv/bin/etymo-contenu visualiser`, onglet Cartes de `rapports/catalogue.html`, ou l'app en grille mobile.
+4. **Rendu en contexte**, facultatif : `cargo run -q --manifest-path outils/Cargo.toml -- visualiser`, onglet Cartes de `rapports/catalogue.html`, ou l'app en grille mobile.
 
 5. **Compte rendu** : pour chaque carte, le sujet en une ligne et ce qui a changé. Dites franchement ce qui reste faible et ce qui n'a pas été vérifié (planche non refaite après la dernière retouche, `valider` non lancé).
 
-N'élargissez jamais le profil de `medias.py` pour faire passer un dessin. Un ajout au profil demande un test qui prouve qu'il est sûr.
+N'élargissez jamais le profil de `outils/src/medias.rs` pour faire passer un dessin. Un ajout au profil demande un test qui prouve qu'il est sûr.

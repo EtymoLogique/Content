@@ -1,0 +1,45 @@
+[package]
+name = "etymo-contenu"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90"
+description = "Outillage éditorial du catalogue ÉtymoLogique : schémas, validation locale et compilation de l’artefact."
+license = "AGPL-3.0-or-later"
+publish = false
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+doc_markdown = "allow"
+# Portage fidèle des fonctions Python : leur longueur suit l’original.
+too_many_lines = "allow"
+
+[dependencies]
+chrono = { version = "0.4.45", default-features = false, features = ["clock", "std"] }
+clap = { version = "4.6.7", features = ["derive"] }
+getrandom = "0.3.4"
+indexmap = "2.14.2"
+jsonschema = { version = "0.58.5", default-features = false }
+regex = "1.12.3"
+roxmltree = "0.21"
+serde = "1.0.229"
+serde_json = { version = "1.0.151", features = ["preserve_order"] }
+sha2 = "0.11.0"
+unicode-normalization = "0.1.25"
+
+[dev-dependencies]
+tempfile = "3.27.0"
+
+# Dépendances optimisées même en debug : la validation par schéma domine la durée des tests.
+[profile.dev.package."*"]
+opt-level = 2
+
+# Le crate lui-même aussi en test : chaque test copie et valide un dépôt entier.
+[profile.test]
+opt-level = 1

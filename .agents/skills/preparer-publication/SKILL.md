@@ -14,9 +14,9 @@ Ce skill **ne publie rien**. La CI dépose l'artefact dans `staging/` au merge s
 Depuis la racine du dépôt, sur `develop` à jour :
 
 ```sh
-.venv/bin/python .agents/skills/preparer-publication/pre_publication.py <numéro | fsc_…>
-.venv/bin/python .agents/skills/preparer-publication/pre_publication.py <numéro> --complet   # tous les points
-.venv/bin/python .agents/skills/preparer-publication/pre_publication.py <numéro> --json      # rapport machine
+cargo run -q --manifest-path outils/Cargo.toml -- pre-publication <numéro | fsc_…>
+cargo run -q --manifest-path outils/Cargo.toml -- pre-publication <numéro> --complet   # tous les points
+cargo run -q --manifest-path outils/Cargo.toml -- pre-publication <numéro> --json      # rapport machine
 ```
 
 Le script lance `valider --publication`, range les diagnostics par rubrique et contrôle le calendrier. Il sort en 1 s'il reste un point bloquant, en 2 si l'appel est invalide.
@@ -40,7 +40,7 @@ La chronologie est recalculée sur des dates analysées. La règle `fascicule.ch
 - **Relecture** : ne passez **jamais** vous-même un fait à `relu`. C'est une relecture humaine. Listez à l'utilisateur les faits à relire, regroupés par fichier.
 - **Sources** : ne remplissez une `localisation` qu'avec une entrée ou une page réellement consultée. Sinon, laissez `null` et listez ce qu'il reste à vérifier. Le Wiktionnaire seul ne suffit jamais.
 - **Médias** : skills `silhouette` et `jaquette`.
-- **Intégrité et contenu** : corrigez (skill `nouveau-mot`) ou demandez à l'utilisateur. N'affaiblissez jamais une règle de `controles.py` pour passer.
+- **Intégrité et contenu** : corrigez (skill `nouveau-mot`) ou demandez à l'utilisateur. N'affaiblissez jamais une règle de `outils/src/controles.rs` pour passer.
 - **Taille hors 20–30** : avertissement seulement, paramètre d'équilibrage (ADR 0022). Faites-le trancher par l'utilisateur.
 - **Reste du dépôt** : un autre fascicule non test qui ne passe pas bloque aussi la compilation prod. Signalez-le.
 
@@ -51,10 +51,10 @@ Relancez le script après chaque correction.
 Règle par défaut, calculée par le script (« Date proposée ») : **le 1ᵉʳ du mois à 00:00 UTC**, au moins 28 jours après la parution du fascicule précédent, et dans le futur. Le rythme visé est d'un fascicule environ tous les 30 jours (ADR 0014, 0022). Les 28 jours laissent passer février.
 
 1. Évaluez la date proposée ou celle voulue :
-   `.venv/bin/python .agents/skills/preparer-publication/pre_publication.py <numéro> --date 2026-12-01T00:00:00Z`
+   `cargo run -q --manifest-path outils/Cargo.toml -- pre-publication <numéro> --date 2026-12-01T00:00:00Z`
 2. **Faites confirmer la date par l'utilisateur** avec `ask_user`, en proposant d'abord la date calculée, puis les options utiles (1ᵉʳ du mois suivant, date libre). N'écrivez rien sans confirmation.
 3. Écrivez-la, au format UTC `AAAA-MM-JJTHH:MM:SSZ` :
-   `.venv/bin/python .agents/skills/preparer-publication/pre_publication.py <numéro> --date <date confirmée> --ecrire`
+   `cargo run -q --manifest-path outils/Cargo.toml -- pre-publication <numéro> --date <date confirmée> --ecrire`
    Le script écrit `parution` dans le fichier du fascicule, puis refait le rapport.
 4. Mettez à jour la `note_interne` du fascicule si elle parlait d'une date provisoire.
 
@@ -63,9 +63,9 @@ Reporter un fascicule, c'est changer sa date avant le merge. Après le merge, c'
 ## 4. Vérifier la compilation prod
 
 ```sh
-.venv/bin/python -m pytest -q
-.venv/bin/etymo-contenu valider --publication
-.venv/bin/etymo-contenu compiler          # sans --essai : refuse si valider --publication échoue
+cargo test --manifest-path outils/Cargo.toml
+cargo run -q --manifest-path outils/Cargo.toml -- valider --publication
+cargo run -q --manifest-path outils/Cargo.toml -- compiler          # sans --essai : refuse si valider --publication échoue
 ```
 
 `compiler` écrit dans `artefact/`, ignoré par Git. Vérifiez dans `artefact/parutions.json` que le fascicule figure avec sa date et son manifeste. Aucun fascicule de test ne doit y figurer.

@@ -34,7 +34,7 @@ Avant de saisir, vérifiez que le mot n'existe pas déjà : `grep -rl '"texte": 
 
 ## 3. Saisir la chaîne
 
-Générez les identifiants d'un coup : `.venv/bin/etymo-contenu nouvel-id unt -n 3`, puis `frm`, `sns`, `cmp`, `trf`, `rel`, `brq`, `rct` selon le besoin. Ne mettez jamais de graphie dans un identifiant, n'en réutilisez jamais un. Chaque affirmation porte un bloc `fait` à l'état **`brouillon`** : seule une relecture humaine le passe à `relu`.
+Générez les identifiants d'un coup : `cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id unt -n 3`, puis `frm`, `sns`, `cmp`, `trf`, `rel`, `brq`, `rct` selon le besoin. Ne mettez jamais de graphie dans un identifiant, n'en réutilisez jamais un. Chaque affirmation porte un bloc `fait` à l'état **`brouillon`** : seule une relecture humaine le passe à `relu`.
 
 Bloc `fait` type :
 
@@ -86,9 +86,9 @@ Chaque `resultat` porte une `difficulte` (ADR 0047), jamais un `ingredient` : `f
 ## 4. Contrôler
 
 ```sh
-.venv/bin/etymo-contenu valider
-.venv/bin/etymo-contenu visualiser        # relire la fiche du mot dans rapports/catalogue.html
-.venv/bin/python -m pytest -q
+cargo run -q --manifest-path outils/Cargo.toml -- valider
+cargo run -q --manifest-path outils/Cargo.toml -- visualiser        # relire la fiche du mot dans rapports/catalogue.html
+cargo test --manifest-path outils/Cargo.toml
 ```
 
 - Aucune erreur n'est acceptable. Corrigez sans élargir une règle.

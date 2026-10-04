@@ -5,7 +5,7 @@ description: Dessiner la jaquette SVG d'un fascicule d'ÉtymoLogique selon l'ADR
 
 # Skill jaquette
 
-Références, qui priment sur ce résumé : ADR 0016 (plis et jaquettes par fascicule), 0025 et 0026 (médias), la section « Jaquettes » de `docs/plis.html`, les jetons de `docs/assets/etymo.css` et les jaquettes des maquettes (`JACKETS` dans `docs/assets/etymo.js`), tous dans le dépôt de conception. Le profil SVG de `outils/etymo_contenu/medias.py` fait foi.
+Références, qui priment sur ce résumé : ADR 0016 (plis et jaquettes par fascicule), 0025 et 0026 (médias), la section « Jaquettes » de `docs/plis.html`, les jetons de `docs/assets/etymo.css` et les jaquettes des maquettes (`JACKETS` dans `docs/assets/etymo.js`), tous dans le dépôt de conception. Le profil SVG de `outils/src/medias.rs` fait foi.
 
 ## 1. Choisir le motif
 
@@ -45,7 +45,7 @@ Profil SVG (vérifié par `valider`) : les couleurs sont admises, le reste est i
 ## 3. Déclarer
 
 1. Fichier : `medias/jaquettes/<nom>.svg`, du nom de la jaquette en minuscules sans accent (`rosette.svg`, `routes-des-mots.svg`).
-2. Objet : `.venv/bin/etymo-contenu nouvel-id med`, puis `ludique/medias/<id>.json` :
+2. Objet : `cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id med`, puis `ludique/medias/<id>.json` :
 
 ```json
 {
@@ -62,11 +62,11 @@ Une seule jaquette par fascicule.
 ## 4. Contrôler
 
 ```sh
-.venv/bin/etymo-contenu valider      # media.svg_invalide, media.double, media.manquant
-.venv/bin/etymo-contenu visualiser   # onglet Cartes : la jaquette en tête de son fascicule
+cargo run -q --manifest-path outils/Cargo.toml -- valider      # media.svg_invalide, media.double, media.manquant
+cargo run -q --manifest-path outils/Cargo.toml -- visualiser   # onglet Cartes : la jaquette en tête de son fascicule
 ```
 
 - Fichier seul :
-  `.venv/bin/python -c "import sys; from etymo_contenu.medias import verifier_svg; print(verifier_svg(open(sys.argv[1],'rb').read(), 'jaquette') or 'conforme')" medias/jaquettes/<nom>.svg`
+  déclarez le média, puis `cargo run -q --manifest-path outils/Cargo.toml -- valider` (règle `media.svg_invalide`)
 - Palette : vérifiez que chaque couleur du fichier figure dans le tableau ci-dessus (`grep -o '#[0-9a-fA-F]\{6\}' medias/jaquettes/<nom>.svg | sort -u`). Pour une revue complète de l'identité, le skill `visual-identity-check` du dépôt de conception s'applique aux couleurs.
 - Revue visuelle dans `rapports/catalogue.html` : lisible en petit, sceau dégagé, rien qui évoque une brique ou une langue.
