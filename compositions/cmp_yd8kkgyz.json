@@ -1,0 +1,51 @@
+{
+  "id": "cmp_yd8kkgyz",
+  "mot_id": "unt_vrpjkcmb",
+  "forme_resultat_id": "frm_kx7s5qvh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gastralgie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_5c6c6ayh",
+      "sens_id": "sns_c2wkt69s",
+      "forme_id": "frm_x9pjwb5t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_qf5ycqaq",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de gastro- s’élide devant -algie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur de l’estomac",
+      "explication_courte": "Du grec gastḗr, « ventre », et álgos, « douleur »."
+    }
+  }
+}

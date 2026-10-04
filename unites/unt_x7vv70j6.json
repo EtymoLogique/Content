@@ -35,6 +35,25 @@
         ],
         "note_interne": "À vérifier : entrée « neuro » du TLFi, localisation à renseigner."
       }
+    },
+    {
+      "id": "frm_khg2pd91",
+      "texte": "névr",
+      "cle_normalisee": "névr",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "allomorphe",
+      "contexte": "devant une voyelle",
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « neuro » du TLFi, localisation à renseigner."
+      }
     }
   ],
   "sens": [

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_7de5s61z",
+  "mot_id": "unt_7hbytcy5",
+  "forme_resultat_id": "frm_0ftan4hw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ostéotomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8gf8fnn5",
+      "sens_id": "sns_vvc1n6ye",
+      "forme_id": "frm_a4cr6wdt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "coupure de l’os",
+      "explication_courte": "Du grec ostéon, « os », et tomḗ, « coupure »."
+    }
+  }
+}

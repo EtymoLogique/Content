@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8w65s0aq",
+  "mot_id": "unt_y9x2q02r",
+  "forme_resultat_id": "frm_42thbz0d",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « endogène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_vq28zv88",
+      "sens_id": "sns_2bjbzsme",
+      "forme_id": "frm_0z81eztb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui naît dedans",
+      "explication_courte": "Du grec éndon, « dedans », et -genḗs, « qui naît »."
+    }
+  }
+}

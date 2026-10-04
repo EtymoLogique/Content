@@ -1,0 +1,19 @@
+{
+  "id": "rct_2887kasg",
+  "composition_id": "cmp_e40pcwmb",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_eb8py1gp"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_tgb98ghm"
+      ]
+    }
+  ],
+  "note_interne": null
+}

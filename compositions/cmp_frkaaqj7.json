@@ -1,0 +1,38 @@
+{
+  "id": "cmp_frkaaqj7",
+  "mot_id": "unt_xxdpqabh",
+  "forme_resultat_id": "frm_55rvpdcs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « otologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wpgvw6zs",
+      "sens_id": "sns_b1n3vngq",
+      "forme_id": "frm_sge3fyc6"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de l’oreille",
+      "explication_courte": "Du grec oûs, « oreille », et lógos, « discours »."
+    }
+  }
+}

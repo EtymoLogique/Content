@@ -1,0 +1,51 @@
+{
+  "id": "cmp_hbtvrnax",
+  "mot_id": "unt_sksh4sj3",
+  "forme_resultat_id": "frm_hy8zgn19",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « otalgie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wpgvw6zs",
+      "sens_id": "sns_b1n3vngq",
+      "forme_id": "frm_sge3fyc6"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_rhxn19wx",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de oto- s’élide devant -algie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur d’oreille",
+      "explication_courte": "Du grec oûs, « oreille », et álgos, « douleur »."
+    }
+  }
+}

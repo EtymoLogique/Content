@@ -1,0 +1,51 @@
+{
+  "id": "cmp_8sth5gtc",
+  "mot_id": "unt_em4fjz44",
+  "forme_resultat_id": "frm_4ah2gd7h",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « névralgie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x7vv70j6",
+      "sens_id": "sns_c92hkwps",
+      "forme_id": "frm_khg2pd91"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_ehz7maew",
+      "rang_partie": 1,
+      "type_code": "allomorphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Devant la voyelle de -algie, neuro- prend la forme névr-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur du nerf",
+      "explication_courte": "Du grec neûron, « nerf », et álgos, « douleur »."
+    }
+  }
+}

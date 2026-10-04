@@ -1,0 +1,19 @@
+{
+  "id": "rct_jdbs7044",
+  "composition_id": "cmp_q5wy61nf",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_71br28gx"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_4f15b01r"
+      ]
+    }
+  ],
+  "note_interne": null
+}

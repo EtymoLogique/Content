@@ -1,0 +1,38 @@
+{
+  "id": "cmp_e5cryxyj",
+  "mot_id": "unt_jn99q821",
+  "forme_resultat_id": "frm_m4267050",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ophtalmologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gnkt4dge",
+      "sens_id": "sns_5kjg23bk",
+      "forme_id": "frm_m3j7kry5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de l’œil",
+      "explication_courte": "Du grec ophthalmós, « œil », et lógos, « discours »."
+    }
+  }
+}

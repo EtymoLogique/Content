@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ayxat3c4",
+  "mot_id": "unt_6qhe4c06",
+  "forme_resultat_id": "frm_jz0f8fcz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « stéréoscopie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ys8y007w",
+      "sens_id": "sns_3k9rxz7g",
+      "forme_id": "frm_0wss1y4w"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_58txf6bd",
+      "sens_id": "sns_50t0cv73",
+      "forme_id": "frm_prwycnqq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "examen en relief",
+      "explication_courte": "Du grec stereós, « solide », et skopeîn, « observer »."
+    }
+  }
+}

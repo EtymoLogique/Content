@@ -1,0 +1,17 @@
+{
+  "id": "rel_q8vf8a4a",
+  "unite_source_id": "unt_rdrvfrnb",
+  "unite_cible_id": "unt_wpgvw6zs",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « οὖς » du Bailly, localisation à renseigner."
+  }
+}

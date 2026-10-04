@@ -1,0 +1,51 @@
+{
+  "id": "cmp_wpsh869f",
+  "mot_id": "unt_1qakfqbh",
+  "forme_resultat_id": "frm_m5dwpv9n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « psychiatrie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1ymfedy9",
+      "sens_id": "sns_krkdphb7",
+      "forme_id": "frm_s2kkv06q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_8a7h4myr",
+      "sens_id": "sns_bmhdna9y",
+      "forme_id": "frm_35xsrabr"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_fz4gtk53",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de psycho- s’élide devant -iatrie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin de l’âme",
+      "explication_courte": "Du grec psukhḗ, « âme », et iatreía, « traitement »."
+    }
+  }
+}

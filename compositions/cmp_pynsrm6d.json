@@ -1,0 +1,38 @@
+{
+  "id": "cmp_pynsrm6d",
+  "mot_id": "unt_144rvdj7",
+  "forme_resultat_id": "frm_6zy5hy6y",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « nostalgie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_68960b9s",
+      "sens_id": "sns_nx5wvj4x",
+      "forme_id": "frm_f4dqwzbk"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur du retour",
+      "explication_courte": "Forgé en 1688 par le médecin Johannes Hofer, du grec nóstos, « retour », et álgos, « douleur »."
+    }
+  }
+}

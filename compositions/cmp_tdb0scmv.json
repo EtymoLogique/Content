@@ -1,0 +1,38 @@
+{
+  "id": "cmp_tdb0scmv",
+  "mot_id": "unt_s063smzs",
+  "forme_resultat_id": "frm_6r7cdw5e",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « dermatoglyphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4j0wbv7r",
+      "sens_id": "sns_01gzs9z3",
+      "forme_id": "frm_mya546a4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_szmkw333",
+      "sens_id": "sns_ykras3qr",
+      "forme_id": "frm_z9pj8fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "gravure de la peau",
+      "explication_courte": "Du grec dérma, « peau », et glúphein, « graver »."
+    }
+  }
+}

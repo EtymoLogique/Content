@@ -1,0 +1,38 @@
+{
+  "id": "cmp_wp7kr7fj",
+  "mot_id": "unt_m5qthjve",
+  "forme_resultat_id": "frm_7xwjb2z8",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « dermatologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4j0wbv7r",
+      "sens_id": "sns_01gzs9z3",
+      "forme_id": "frm_mya546a4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste de la peau",
+      "explication_courte": "Du grec dérma, « peau », et lógos, « discours »."
+    }
+  }
+}

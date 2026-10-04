@@ -1,0 +1,38 @@
+{
+  "id": "cmp_efwtabmz",
+  "mot_id": "unt_8b7bw15k",
+  "forme_resultat_id": "frm_fz0zqdc2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hématologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_28bp0g2p",
+      "sens_id": "sns_3e4cgh2w",
+      "forme_id": "frm_t6f4wac2"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste du sang",
+      "explication_courte": "Du grec haîma, « sang », et lógos, « discours »."
+    }
+  }
+}

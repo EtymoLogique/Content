@@ -1,0 +1,38 @@
+{
+  "id": "cmp_a87zcqha",
+  "mot_id": "unt_5c0dmses",
+  "forme_resultat_id": "frm_hpkv9z26",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « pathologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y4zd933t",
+      "sens_id": "sns_9f6mst49",
+      "forme_id": "frm_w1t73gkf"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des souffrances",
+      "explication_courte": "Du grec páthos, « souffrance », et lógos, « discours »."
+    }
+  }
+}

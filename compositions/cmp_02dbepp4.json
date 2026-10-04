@@ -1,0 +1,38 @@
+{
+  "id": "cmp_02dbepp4",
+  "mot_id": "unt_5d1jeft3",
+  "forme_resultat_id": "frm_eyvevwra",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gastropathie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_5c6c6ayh",
+      "sens_id": "sns_c2wkt69s",
+      "forme_id": "frm_x9pjwb5t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pxw8gq61",
+      "sens_id": "sns_vn184vz5",
+      "forme_id": "frm_4qbjm9zf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "affection de l’estomac",
+      "explication_courte": "Du grec gastḗr, « ventre », et páthos, « souffrance »."
+    }
+  }
+}

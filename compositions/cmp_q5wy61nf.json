@@ -1,0 +1,38 @@
+{
+  "id": "cmp_q5wy61nf",
+  "mot_id": "unt_cyqek0jc",
+  "forme_resultat_id": "frm_3n83nbd9",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gastronomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_5c6c6ayh",
+      "sens_id": "sns_c2wkt69s",
+      "forme_id": "frm_x9pjwb5t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5asf4rdc",
+      "sens_id": "sns_qj46qhhz",
+      "forme_id": "frm_450d3fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "règle de l’estomac",
+      "explication_courte": "Du grec gastronomía, titre d’un poème sur l’art de la table."
+    }
+  }
+}
