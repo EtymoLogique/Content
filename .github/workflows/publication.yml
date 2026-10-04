@@ -65,6 +65,7 @@ jobs:
         uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
         with:
           workspaces: outils
+          shared-key: outillage
 
       - name: Run the tests
         run: cargo test --manifest-path outils/Cargo.toml --locked
