@@ -1,0 +1,17 @@
+{
+  "id": "rel_e4pe7h9g",
+  "unite_source_id": "unt_1r4vxggz",
+  "unite_cible_id": "unt_m6c8rjvy",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « σύν » du Bailly, localisation à renseigner."
+  }
+}

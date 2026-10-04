@@ -1,0 +1,51 @@
+{
+  "id": "cmp_ecf6gp9g",
+  "mot_id": "unt_0vqq6v4v",
+  "forme_resultat_id": "frm_xdjk5v2t",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « écologique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_12zzsstd",
+      "sens_id": "sns_7hasb694",
+      "forme_id": "frm_dz7hs8h9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_g18wd3v8",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de écologie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’écologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -ique."
+    }
+  }
+}

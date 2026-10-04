@@ -1,0 +1,38 @@
+{
+  "id": "cmp_2x4mty33",
+  "mot_id": "unt_118eh36q",
+  "forme_resultat_id": "frm_d99gh3jy",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « topologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7a7vdys9",
+      "sens_id": "sns_0bwg0c1q",
+      "forme_id": "frm_441w7bk7"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des lieux",
+      "explication_courte": "Du grec tópos, « lieu », et lógos, « discours »."
+    }
+  }
+}

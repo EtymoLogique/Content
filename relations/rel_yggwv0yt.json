@@ -1,0 +1,17 @@
+{
+  "id": "rel_yggwv0yt",
+  "unite_source_id": "unt_d9ks7nvr",
+  "unite_cible_id": "unt_7djh0ry7",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ψευδής » du Bailly, localisation à renseigner."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_2a6dfprs",
+  "mot_id": "unt_6smetv15",
+  "forme_resultat_id": "frm_6rrrmhzt",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthroponymie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_ktrr2rtx",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de anthropo- s’élide devant -onymie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "noms des êtres humains",
+      "explication_courte": "Du grec ánthrōpos, « être humain », et ónoma, « nom »."
+    }
+  }
+}

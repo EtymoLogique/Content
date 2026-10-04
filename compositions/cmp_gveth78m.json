@@ -1,0 +1,38 @@
+{
+  "id": "cmp_gveth78m",
+  "mot_id": "unt_mqjcmwgv",
+  "forme_resultat_id": "frm_6vbzbqaf",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « synonymie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_m6c8rjvy",
+      "sens_id": "sns_zq165rwy",
+      "forme_id": "frm_v2npfppd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "noms qui vont ensemble",
+      "explication_courte": "Du grec sún, « avec », et ónoma, « nom »."
+    }
+  }
+}

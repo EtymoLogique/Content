@@ -1,0 +1,38 @@
+{
+  "id": "cmp_k649qw0w",
+  "mot_id": "unt_cqyn33a4",
+  "forme_resultat_id": "frm_zwk1tm8k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « topographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7a7vdys9",
+      "sens_id": "sns_0bwg0c1q",
+      "forme_id": "frm_441w7bk7"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture des lieux",
+      "explication_courte": "Du grec topographía, « description d’un lieu »."
+    }
+  }
+}

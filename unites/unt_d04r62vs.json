@@ -35,6 +35,25 @@
         ],
         "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
       }
+    },
+    {
+      "id": "frm_3fmdctz2",
+      "texte": "an",
+      "cle_normalisee": "an",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "allomorphe",
+      "contexte": "devant une voyelle",
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « a » du TLFi, localisation à renseigner."
+      }
     }
   ],
   "sens": [

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ya6kw176",
+  "mot_id": "unt_4j7cggg0",
+  "forme_resultat_id": "frm_wp1xfzst",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « antipathie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_j9efe2gf",
+      "sens_id": "sns_bkm03yf0",
+      "forme_id": "frm_9ne7yzeq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pxw8gq61",
+      "sens_id": "sns_vn184vz5",
+      "forme_id": "frm_4qbjm9zf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "affection contraire",
+      "explication_courte": "Du grec antipátheia, « sentiment contraire »."
+    }
+  }
+}

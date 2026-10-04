@@ -1,0 +1,51 @@
+{
+  "id": "cmp_yx97tz0s",
+  "mot_id": "unt_hvsc9kqz",
+  "forme_resultat_id": "frm_h38pcbm0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anonyme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_3fmdctz2"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_g6yajjzp",
+      "rang_partie": 1,
+      "type_code": "allomorphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Devant la voyelle de -onyme, a- prend la forme an-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sans nom",
+      "explication_courte": "Du grec anṓnumos : le a- privatif devient an- devant voyelle, et ónoma, « nom »."
+    }
+  }
+}
