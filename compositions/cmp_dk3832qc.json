@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dk3832qc",
+  "mot_id": "unt_800xj4jv",
+  "forme_resultat_id": "frm_brqsn2tv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mythomanie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2d3s6154",
+      "sens_id": "sns_emx9d0pb",
+      "forme_id": "frm_wnmser7n"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cwjcezp8",
+      "sens_id": "sns_rfkfp2jj",
+      "forme_id": "frm_df5hp0zq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "folie des récits",
+      "explication_courte": "Du grec mûthos, « récit », et manía, « folie »."
+    }
+  }
+}

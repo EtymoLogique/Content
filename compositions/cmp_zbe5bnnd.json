@@ -1,0 +1,38 @@
+{
+  "id": "cmp_zbe5bnnd",
+  "mot_id": "unt_g9bg0qtn",
+  "forme_resultat_id": "frm_6z8gpc0n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autodrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_fas1c7rz",
+      "sens_id": "sns_z0dwkpbw",
+      "forme_id": "frm_z9cb6xdb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "course de soi-même",
+      "explication_courte": "Formé sur auto(mobile) et le grec drómos, « course »."
+    }
+  }
+}

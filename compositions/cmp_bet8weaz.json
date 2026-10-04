@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bet8weaz",
+  "mot_id": "unt_kdbhz5yy",
+  "forme_resultat_id": "frm_xrk8ad4e",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « syndrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_m6c8rjvy",
+      "sens_id": "sns_zq165rwy",
+      "forme_id": "frm_v2npfppd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_fas1c7rz",
+      "sens_id": "sns_z0dwkpbw",
+      "forme_id": "frm_z9cb6xdb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "course ensemble",
+      "explication_courte": "Du grec sundromḗ, « concours, rencontre »."
+    }
+  }
+}

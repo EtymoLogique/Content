@@ -1,0 +1,38 @@
+{
+  "id": "cmp_eb6tfq0t",
+  "mot_id": "unt_wgmt1cjn",
+  "forme_resultat_id": "frm_y7fzca2k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « néophobie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_e4m28qp2",
+      "sens_id": "sns_5c9yzeg9",
+      "forme_id": "frm_rthb14ta"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur du nouveau",
+      "explication_courte": "Du grec néos, « nouveau », et phóbos, « peur »."
+    }
+  }
+}

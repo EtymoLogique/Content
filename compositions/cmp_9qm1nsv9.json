@@ -1,0 +1,38 @@
+{
+  "id": "cmp_9qm1nsv9",
+  "mot_id": "unt_tzkth90e",
+  "forme_resultat_id": "frm_n12p5fe1",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monomanie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cwjcezp8",
+      "sens_id": "sns_rfkfp2jj",
+      "forme_id": "frm_df5hp0zq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "folie d’une seule chose",
+      "explication_courte": "Du grec mónos, « seul », et manía, « folie »."
+    }
+  }
+}

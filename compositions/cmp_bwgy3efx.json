@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bwgy3efx",
+  "mot_id": "unt_49zrcbwm",
+  "forme_resultat_id": "frm_k0a0yq2n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « génocide » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y88h4z4e",
+      "sens_id": "sns_1bhj9z5d",
+      "forme_id": "frm_r2ag3me3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_gtsdxjgw",
+      "sens_id": "sns_jr1q6vj4",
+      "forme_id": "frm_zez6v42d"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "meurtre d’une race",
+      "explication_courte": "Forgé en 1944 par Raphael Lemkin, du grec génos, « race », et du latin caedere, « tuer »."
+    }
+  }
+}

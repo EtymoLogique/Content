@@ -1,0 +1,38 @@
+{
+  "id": "cmp_pmawf1fy",
+  "mot_id": "unt_e08943pa",
+  "forme_resultat_id": "frm_1g6a1p3k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biocide » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_gtsdxjgw",
+      "sens_id": "sns_jr1q6vj4",
+      "forme_id": "frm_zez6v42d"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui tue la vie",
+      "explication_courte": "Du grec bíos, « vie », et du latin caedere, « tuer »."
+    }
+  }
+}

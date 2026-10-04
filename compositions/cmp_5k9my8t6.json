@@ -1,0 +1,38 @@
+{
+  "id": "cmp_5k9my8t6",
+  "mot_id": "unt_bsv2pjry",
+  "forme_resultat_id": "frm_e9rkf2c6",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « moralisme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_sp5n9wya",
+      "sens_id": "sns_6pctwcf9",
+      "forme_id": "frm_0n7y3maj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_vytqjb98",
+      "sens_id": "sns_770ct01j",
+      "forme_id": "frm_fsmc83tp"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "doctrine morale",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : moral reçoit -isme."
+    }
+  }
+}

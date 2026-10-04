@@ -1,0 +1,38 @@
+{
+  "id": "cmp_q13128jn",
+  "mot_id": "unt_bkcqw2t2",
+  "forme_resultat_id": "frm_8whzm2ab",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « aérolithe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wdz7x013",
+      "sens_id": "sns_158e3w55",
+      "forme_id": "frm_ad6r0k0a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cf67sm62",
+      "sens_id": "sns_7sqh7w99",
+      "forme_id": "frm_3f0sdf8e"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pierre de l’air",
+      "explication_courte": "Du grec aḗr, « air », et líthos, « pierre »."
+    }
+  }
+}

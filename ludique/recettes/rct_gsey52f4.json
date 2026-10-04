@@ -1,0 +1,19 @@
+{
+  "id": "rct_gsey52f4",
+  "composition_id": "cmp_w4c5vs4k",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_fvn7x60t"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_tvy1wspt"
+      ]
+    }
+  ],
+  "note_interne": null
+}

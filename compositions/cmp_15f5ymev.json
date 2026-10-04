@@ -1,0 +1,38 @@
+{
+  "id": "cmp_15f5ymev",
+  "mot_id": "unt_xgbwws4w",
+  "forme_resultat_id": "frm_b81qs68r",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnocide » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_gtsdxjgw",
+      "sens_id": "sns_jr1q6vj4",
+      "forme_id": "frm_zez6v42d"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "meurtre d’un peuple",
+      "explication_courte": "Du grec éthnos, « peuple », et du latin caedere, « tuer »."
+    }
+  }
+}

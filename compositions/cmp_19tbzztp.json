@@ -1,0 +1,38 @@
+{
+  "id": "cmp_19tbzztp",
+  "mot_id": "unt_yvjw3p2j",
+  "forme_resultat_id": "frm_ccca2gkm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « aérophagie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wdz7x013",
+      "sens_id": "sns_158e3w55",
+      "forme_id": "frm_ad6r0k0a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6t7fkn6e",
+      "sens_id": "sns_7jh3jyk6",
+      "forme_id": "frm_2h439csq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fait de manger l’air",
+      "explication_courte": "Du grec aḗr, « air », et phageîn, « manger »."
+    }
+  }
+}

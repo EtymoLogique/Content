@@ -1,0 +1,17 @@
+{
+  "id": "rel_swbg52cx",
+  "unite_source_id": "unt_nmrgfe4s",
+  "unite_cible_id": "unt_vytqjb98",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ismus » du Gaffiot, localisation à renseigner."
+  }
+}

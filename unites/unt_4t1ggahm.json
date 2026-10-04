@@ -1,0 +1,68 @@
+{
+  "id": "unt_4t1ggahm",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « πάλιν » du Bailly, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adverbe"
+  },
+  "formes": [
+    {
+      "id": "frm_pydwgmes",
+      "texte": "πάλιν",
+      "cle_normalisee": "πάλιν",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "pálin"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « πάλιν » du Bailly, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_zgaq1p1d",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "en arrière, de nouveau"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « πάλιν » du Bailly, localisation à renseigner."
+      }
+    }
+  ]
+}

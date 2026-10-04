@@ -1,0 +1,51 @@
+{
+  "id": "cmp_vn973yxw",
+  "mot_id": "unt_fh91n4d8",
+  "forme_resultat_id": "frm_3e2ey90n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hyponyme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_xk6sz9vg",
+      "sens_id": "sns_f5wrfgqf",
+      "forme_id": "frm_v92431jc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_4c0mc7d5",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de hypo- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom au-dessous",
+      "explication_courte": "Du grec hupó, « sous », et ónoma, « nom »."
+    }
+  }
+}

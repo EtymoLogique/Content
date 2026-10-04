@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8dqe397z",
+  "mot_id": "unt_8b0xn49s",
+  "forme_resultat_id": "frm_rebcsedj",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hippodrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wj9ynyj3",
+      "sens_id": "sns_ngf2422m",
+      "forme_id": "frm_gvypv966"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_fas1c7rz",
+      "sens_id": "sns_z0dwkpbw",
+      "forme_id": "frm_z9cb6xdb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "course de chevaux",
+      "explication_courte": "Du grec híppos, « cheval », et drómos, « course »."
+    }
+  }
+}

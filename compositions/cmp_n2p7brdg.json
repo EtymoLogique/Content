@@ -1,0 +1,38 @@
+{
+  "id": "cmp_n2p7brdg",
+  "mot_id": "unt_85kkf6f7",
+  "forme_resultat_id": "frm_7hfm0kd9",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anthropophagie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_feew0asz",
+      "sens_id": "sns_xmnme5fm",
+      "forme_id": "frm_rvvr1ycj"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6t7fkn6e",
+      "sens_id": "sns_7jh3jyk6",
+      "forme_id": "frm_2h439csq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fait de manger l’humain",
+      "explication_courte": "Du grec ánthrōpos, « être humain », et phageîn, « manger »."
+    }
+  }
+}

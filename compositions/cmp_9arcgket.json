@@ -1,0 +1,38 @@
+{
+  "id": "cmp_9arcgket",
+  "mot_id": "unt_1vrbz4c1",
+  "forme_resultat_id": "frm_9y4rn8w4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géothermie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mn8v63h8",
+      "sens_id": "sns_7g1mdhfa",
+      "forme_id": "frm_gd1nh5xe"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chaleur de la terre",
+      "explication_courte": "Du grec gê, « terre », et thérmē, « chaleur »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_h679nm1e",
+  "mot_id": "unt_zy6qr7nk",
+  "forme_resultat_id": "frm_0q394qnh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « panthéisme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ny8zhzf7",
+      "sens_id": "sns_xgnmvq73",
+      "forme_id": "frm_wesjtxkb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4194a3jn",
+      "sens_id": "sns_7rtce0td",
+      "forme_id": "frm_1pdfqm0n"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "croyance que tout est dieu",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : pan- s’ajoute à théisme."
+    }
+  }
+}

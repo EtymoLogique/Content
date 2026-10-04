@@ -1,0 +1,38 @@
+{
+  "id": "cmp_tnynhmvg",
+  "mot_id": "unt_5wjh1pbs",
+  "forme_resultat_id": "frm_zr6w7jr4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géophagie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6t7fkn6e",
+      "sens_id": "sns_7jh3jyk6",
+      "forme_id": "frm_2h439csq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fait de manger la terre",
+      "explication_courte": "Du grec gê, « terre », et phageîn, « manger »."
+    }
+  }
+}

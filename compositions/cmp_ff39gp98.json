@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ff39gp98",
+  "mot_id": "unt_4ftpe0qz",
+  "forme_resultat_id": "frm_e601mx14",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « graphomanie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cp8xdmmv",
+      "sens_id": "sns_5kzgrg66",
+      "forme_id": "frm_ckjksfws"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cwjcezp8",
+      "sens_id": "sns_rfkfp2jj",
+      "forme_id": "frm_df5hp0zq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "folie de l’écriture",
+      "explication_courte": "Du grec gráphein, « écrire », et manía, « folie »."
+    }
+  }
+}

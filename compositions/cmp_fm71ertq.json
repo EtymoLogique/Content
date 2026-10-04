@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fm71ertq",
+  "mot_id": "unt_pkppk34w",
+  "forme_resultat_id": "frm_e1hgfc83",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « apathie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pxw8gq61",
+      "sens_id": "sns_vn184vz5",
+      "forme_id": "frm_4qbjm9zf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sans affection",
+      "explication_courte": "Du grec apátheia, « insensibilité »."
+    }
+  }
+}

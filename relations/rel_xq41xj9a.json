@@ -1,0 +1,17 @@
+{
+  "id": "rel_xq41xj9a",
+  "unite_source_id": "unt_nbh34hv2",
+  "unite_cible_id": "unt_gtsdxjgw",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_hzgs8kdq",
+  "mot_id": "unt_s09snvhc",
+  "forme_resultat_id": "frm_q1nhb0zn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « psychisme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1ymfedy9",
+      "sens_id": "sns_krkdphb7",
+      "forme_id": "frm_s2kkv06q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_vytqjb98",
+      "sens_id": "sns_770ct01j",
+      "forme_id": "frm_fsmc83tp"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_bha5hr5h",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de psycho- s’élide devant -isme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "ce qui tient de l’âme",
+      "explication_courte": "Du grec psukhḗ, « âme », et du suffixe -isme."
+    }
+  }
+}
