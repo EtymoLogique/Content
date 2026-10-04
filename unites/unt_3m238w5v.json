@@ -1,0 +1,62 @@
+{
+  "id": "unt_3m238w5v",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « crypto » du TLFi, localisation à renseigner."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_x83k06s3",
+      "texte": "crypto",
+      "cle_normalisee": "crypto",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « crypto » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_av3m737v",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "caché"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « crypto » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

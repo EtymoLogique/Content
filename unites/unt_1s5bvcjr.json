@@ -1,0 +1,62 @@
+{
+  "id": "unt_1s5bvcjr",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnique » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_nfdy9fz4",
+      "texte": "ethnique",
+      "cle_normalisee": "ethnique",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ethnique » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_3bb8neyj",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Relatif à un peuple, à une ethnie."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ethnique » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

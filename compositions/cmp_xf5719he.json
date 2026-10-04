@@ -1,0 +1,38 @@
+{
+  "id": "cmp_xf5719he",
+  "mot_id": "unt_9kzf0ah7",
+  "forme_resultat_id": "frm_w3ztzfsz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des peuples",
+      "explication_courte": "Du grec éthnos, « peuple », et lógos, « discours »."
+    }
+  }
+}

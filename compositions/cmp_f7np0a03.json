@@ -1,0 +1,38 @@
+{
+  "id": "cmp_f7np0a03",
+  "mot_id": "unt_hhs04z81",
+  "forme_resultat_id": "frm_vppw2dxh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mythologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2d3s6154",
+      "sens_id": "sns_emx9d0pb",
+      "forme_id": "frm_wnmser7n"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "discours sur les mythes",
+      "explication_courte": "Du grec muthología, « récit de légendes »."
+    }
+  }
+}

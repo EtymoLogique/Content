@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0vt0yz9m",
+  "mot_id": "unt_94zk9bp9",
+  "forme_resultat_id": "frm_ksexznk4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2g0vq4n0",
+      "sens_id": "sns_vykqff0h",
+      "forme_id": "frm_q3pppnq1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui décrit le monde",
+      "explication_courte": "Du grec kósmos, « monde », et gráphein, « écrire »."
+    }
+  }
+}

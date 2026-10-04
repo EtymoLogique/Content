@@ -1,0 +1,51 @@
+{
+  "id": "cmp_ynb080a9",
+  "mot_id": "unt_1s5bvcjr",
+  "forme_resultat_id": "frm_nfdy9fz4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_62n3ka19",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de ethno- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte au peuple",
+      "explication_courte": "Du grec ethnikós, de éthnos, « peuple »."
+    }
+  }
+}

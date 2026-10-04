@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8jesqfth",
+  "mot_id": "unt_4dard8qk",
+  "forme_resultat_id": "frm_6bnj7z1x",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « idéologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q8v7py1y",
+      "sens_id": "sns_wm0d5a90",
+      "forme_id": "frm_p50g1txb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des idées",
+      "explication_courte": "Forgé en 1796 par Destutt de Tracy pour la « science des idées » ; le sens a glissé."
+    }
+  }
+}

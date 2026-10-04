@@ -1,0 +1,38 @@
+{
+  "id": "cmp_m26tmcgn",
+  "mot_id": "unt_p443eer4",
+  "forme_resultat_id": "frm_4b9q3zdz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « aphonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "absence de son",
+      "explication_courte": "Du grec aphōnía, « absence de voix »."
+    }
+  }
+}

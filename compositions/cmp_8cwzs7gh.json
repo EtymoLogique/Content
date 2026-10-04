@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8cwzs7gh",
+  "mot_id": "unt_2v3d4hqa",
+  "forme_resultat_id": "frm_y2c1tvs3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « polyphonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "plusieurs sons",
+      "explication_courte": "Du grec poluphōnía, « multiplicité de voix »."
+    }
+  }
+}

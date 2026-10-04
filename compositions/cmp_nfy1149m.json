@@ -1,0 +1,51 @@
+{
+  "id": "cmp_nfy1149m",
+  "mot_id": "unt_r80bqrwv",
+  "forme_resultat_id": "frm_jqv7b5zn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « symphonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_m6c8rjvy",
+      "sens_id": "sns_zq165rwy",
+      "forme_id": "frm_2cg9hpbn"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_w4rdfzte",
+      "rang_partie": 1,
+      "type_code": "allomorphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Devant le ph de -phonie, syn- prend la forme sym-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sons ensemble",
+      "explication_courte": "Du grec sumphōnía, « accord de sons » : sún, « avec », devient sum- devant ph."
+    }
+  }
+}

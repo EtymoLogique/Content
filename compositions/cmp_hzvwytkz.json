@@ -1,0 +1,38 @@
+{
+  "id": "cmp_hzvwytkz",
+  "mot_id": "unt_56rz23ff",
+  "forme_resultat_id": "frm_s8a6j4my",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « technocrate » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gv4a4xz9",
+      "sens_id": "sns_81xrxm2a",
+      "forme_id": "frm_mjqj637c"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ag4vyhpq",
+      "sens_id": "sns_0vbznr86",
+      "forme_id": "frm_kraap84m"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui gouverne par la technique",
+      "explication_courte": "Du grec tékhnē, « art, technique », et krátos, « pouvoir »."
+    }
+  }
+}

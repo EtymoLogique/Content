@@ -1,0 +1,62 @@
+{
+  "id": "unt_5cbv25bm",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phonique » du TLFi, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_wghzqtn7",
+      "texte": "phonique",
+      "cle_normalisee": "phonique",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « phonique » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_zext2tt4",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "definition": "Relatif aux sons de la voix."
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « phonique » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

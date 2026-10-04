@@ -1,0 +1,62 @@
+{
+  "id": "unt_9zwmade7",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethno » du TLFi, localisation à renseigner."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_a619xeyd",
+      "texte": "ethno",
+      "cle_normalisee": "ethno",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ethno » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_am5pgaem",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "peuple"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ethno » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

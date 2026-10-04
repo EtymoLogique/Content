@@ -1,0 +1,38 @@
+{
+  "id": "cmp_y1vhnxs8",
+  "mot_id": "unt_4kfzyw41",
+  "forme_resultat_id": "frm_6q2edeys",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2g0vq4n0",
+      "sens_id": "sns_vykqff0h",
+      "forme_id": "frm_q3pppnq1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du monde",
+      "explication_courte": "Du grec kósmos, « monde », et lógos, « discours »."
+    }
+  }
+}

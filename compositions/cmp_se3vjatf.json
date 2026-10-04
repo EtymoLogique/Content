@@ -1,0 +1,38 @@
+{
+  "id": "cmp_se3vjatf",
+  "mot_id": "unt_3pdh7m44",
+  "forme_resultat_id": "frm_hwk6p2pv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « autocrate » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ag4vyhpq",
+      "sens_id": "sns_0vbznr86",
+      "forme_id": "frm_kraap84m"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui gouverne par soi-même",
+      "explication_courte": "Du grec autokratḗs, « qui gouverne seul »."
+    }
+  }
+}
