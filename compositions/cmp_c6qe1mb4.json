@@ -1,0 +1,38 @@
+{
+  "id": "cmp_c6qe1mb4",
+  "mot_id": "unt_3jpastk2",
+  "forme_resultat_id": "frm_hqmpctdv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phonothèque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg2k1q5r",
+      "sens_id": "sns_e67bsqqj",
+      "forme_id": "frm_hs7escy3"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "armoire à sons",
+      "explication_courte": "Du grec phōnḗ, « son », et thḗkē, « coffre »."
+    }
+  }
+}

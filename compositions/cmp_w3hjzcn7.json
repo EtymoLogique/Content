@@ -1,0 +1,38 @@
+{
+  "id": "cmp_w3hjzcn7",
+  "mot_id": "unt_cqcvyekd",
+  "forme_resultat_id": "frm_5zm33mhx",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cristallographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2sp5bhnt",
+      "sens_id": "sns_n3xf805p",
+      "forme_id": "frm_d29reys1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description des cristaux",
+      "explication_courte": "Du grec krústallos, « cristal », et gráphein, « écrire »."
+    }
+  }
+}

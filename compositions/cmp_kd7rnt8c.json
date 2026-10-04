@@ -1,0 +1,38 @@
+{
+  "id": "cmp_kd7rnt8c",
+  "mot_id": "unt_t92t1vpk",
+  "forme_resultat_id": "frm_g2vag9gh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monolithe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cf67sm62",
+      "sens_id": "sns_7sqh7w99",
+      "forme_id": "frm_3f0sdf8e"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "une seule pierre",
+      "explication_courte": "Du grec monólithos, « d’une seule pierre »."
+    }
+  }
+}

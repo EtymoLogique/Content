@@ -1,0 +1,38 @@
+{
+  "id": "cmp_s6sapkx7",
+  "mot_id": "unt_679wezyf",
+  "forme_resultat_id": "frm_k43dhdwd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cartomancie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ej6g8x84",
+      "sens_id": "sns_peas7nvd",
+      "forme_id": "frm_5zpwwwcv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_thep0hgb",
+      "sens_id": "sns_84v8ta9x",
+      "forme_id": "frm_wm9n3s05"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "divination par les cartes",
+      "explication_courte": "Du latin charta, « papier », et du grec manteía, « divination »."
+    }
+  }
+}

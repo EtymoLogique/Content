@@ -1,0 +1,17 @@
+{
+  "id": "rel_pf96wne4",
+  "unite_source_id": "unt_0sq20ysd",
+  "unite_cible_id": "unt_k9gx5qcj",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « μέγας » du Bailly, localisation à renseigner."
+  }
+}

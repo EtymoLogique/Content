@@ -1,0 +1,19 @@
+{
+  "id": "rct_2ac055vs",
+  "composition_id": "cmp_1magvna5",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_h1kw46x9"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_r19kf9sq"
+      ]
+    }
+  ],
+  "note_interne": null
+}

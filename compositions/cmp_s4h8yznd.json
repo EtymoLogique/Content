@@ -1,0 +1,38 @@
+{
+  "id": "cmp_s4h8yznd",
+  "mot_id": "unt_7n74g4vd",
+  "forme_resultat_id": "frm_y904feqm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « atmosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yp89bfw5",
+      "sens_id": "sns_49zbhew4",
+      "forme_id": "frm_m0dhksrx"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe de vapeur",
+      "explication_courte": "Du grec atmós, « vapeur », et sphaîra, « globe »."
+    }
+  }
+}

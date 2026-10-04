@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dmwz10vh",
+  "mot_id": "unt_36h623xr",
+  "forme_resultat_id": "frm_tamxg9hg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « microlithe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yr0z4s28",
+      "sens_id": "sns_xgfakmbp",
+      "forme_id": "frm_66yq3x40"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cf67sm62",
+      "sens_id": "sns_7sqh7w99",
+      "forme_id": "frm_3f0sdf8e"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "petite pierre",
+      "explication_courte": "Du grec mikrós, « petit », et líthos, « pierre »."
+    }
+  }
+}

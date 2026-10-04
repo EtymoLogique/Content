@@ -1,0 +1,38 @@
+{
+  "id": "cmp_cyec0932",
+  "mot_id": "unt_x366jj30",
+  "forme_resultat_id": "frm_rf5g2j4j",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « épilogue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zhgpk4fs",
+      "sens_id": "sns_rbma3jrg",
+      "forme_id": "frm_v7r235v3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "discours ajouté",
+      "explication_courte": "Du grec epílogos, « péroraison »."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_n8wt1c0d",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « charta » du Gaffiot, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_g0tve6hf",
+      "texte": "charta",
+      "cle_normalisee": "charta",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « charta » du Gaffiot, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_vh86bvr9",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "feuille de papyrus"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_sytyp4pd",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « charta » du Gaffiot, localisation à renseigner."
+      }
+    }
+  ]
+}

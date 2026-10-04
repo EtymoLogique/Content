@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bnp9a4ad",
+  "mot_id": "unt_2qtmdac8",
+  "forme_resultat_id": "frm_7tkrvxjb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « épitaphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zhgpk4fs",
+      "sens_id": "sns_rbma3jrg",
+      "forme_id": "frm_v7r235v3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k0efbt2b",
+      "sens_id": "sns_rh82q04h",
+      "forme_id": "frm_xpv5vx5h"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sur le tombeau",
+      "explication_courte": "Du grec epitáphios, « funèbre »."
+    }
+  }
+}

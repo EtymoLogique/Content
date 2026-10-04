@@ -1,0 +1,19 @@
+{
+  "id": "rct_tdvxarpa",
+  "composition_id": "cmp_cyec0932",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_39b613me"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_yhxxnrds"
+      ]
+    }
+  ],
+  "note_interne": null
+}

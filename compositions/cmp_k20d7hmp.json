@@ -1,0 +1,51 @@
+{
+  "id": "cmp_k20d7hmp",
+  "mot_id": "unt_h73s2hbw",
+  "forme_resultat_id": "frm_8g93w42p",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hiérarchique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rba1hc4r",
+      "sens_id": "sns_j473mrwd",
+      "forme_id": "frm_bdqhrr7z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_h6d9nb6g",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de hiérarchie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la hiérarchie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hiérarchie reçoit -ique."
+    }
+  }
+}

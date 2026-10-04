@@ -1,0 +1,38 @@
+{
+  "id": "cmp_px0mbjnj",
+  "mot_id": "unt_e8zdwhhc",
+  "forme_resultat_id": "frm_csteh83j",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6mh6164x",
+      "sens_id": "sns_c0n9b4ax",
+      "forme_id": "frm_ddq28rv9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe de pierre",
+      "explication_courte": "Du grec líthos, « pierre », et sphaîra, « globe »."
+    }
+  }
+}

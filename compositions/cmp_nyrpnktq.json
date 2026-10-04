@@ -1,0 +1,51 @@
+{
+  "id": "cmp_nyrpnktq",
+  "mot_id": "unt_fp5jwkbm",
+  "forme_resultat_id": "frm_vpzr8fx2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « oligarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_23dczzc3",
+      "sens_id": "sns_dz5n5hkg",
+      "forme_id": "frm_dzczjvn5"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_5b7v2cm2",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de oligo- s’élide devant -archie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de peu",
+      "explication_courte": "Du grec oligarkhía, « gouvernement de quelques-uns »."
+    }
+  }
+}

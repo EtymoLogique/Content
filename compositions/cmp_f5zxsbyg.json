@@ -1,0 +1,38 @@
+{
+  "id": "cmp_f5zxsbyg",
+  "mot_id": "unt_a9k24v1g",
+  "forme_resultat_id": "frm_jh1my0hw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « analogie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7np98nyh",
+      "sens_id": "sns_710q0zyt",
+      "forme_id": "frm_m5tn9n2b"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "selon la raison",
+      "explication_courte": "Du grec analogía, « proportion »."
+    }
+  }
+}

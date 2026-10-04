@@ -1,0 +1,38 @@
+{
+  "id": "cmp_66rtvz6x",
+  "mot_id": "unt_jpm5vj06",
+  "forme_resultat_id": "frm_10mt950j",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « analogue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7np98nyh",
+      "sens_id": "sns_710q0zyt",
+      "forme_id": "frm_m5tn9n2b"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "selon le rapport",
+      "explication_courte": "Du grec análogos, « proportionné »."
+    }
+  }
+}

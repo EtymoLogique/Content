@@ -1,0 +1,51 @@
+{
+  "id": "cmp_9b25amdb",
+  "mot_id": "unt_1vrf348c",
+  "forme_resultat_id": "frm_ekwd4rxh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_3fmdctz2"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_7nz4dt23",
+      "rang_partie": 1,
+      "type_code": "allomorphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Devant la voyelle de -archie, a- prend la forme an-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sans commandement",
+      "explication_courte": "Du grec anarkhía : a- privatif, devenu an- devant voyelle, et arkhḗ, « commandement »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_qw6k32w5",
+  "mot_id": "unt_1g58gy46",
+  "forme_resultat_id": "frm_jfa6rwfd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anagramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7np98nyh",
+      "sens_id": "sns_710q0zyt",
+      "forme_id": "frm_m5tn9n2b"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "lettres remontées",
+      "explication_courte": "Du grec anagrammatismós, « transposition de lettres »."
+    }
+  }
+}
