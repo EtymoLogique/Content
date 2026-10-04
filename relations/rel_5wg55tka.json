@@ -1,0 +1,17 @@
+{
+  "id": "rel_5wg55tka",
+  "unite_source_id": "unt_4et2ebbk",
+  "unite_cible_id": "unt_wfeshxgc",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « τρεῖς » du Bailly, localisation à renseigner."
+  }
+}

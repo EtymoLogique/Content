@@ -1,0 +1,38 @@
+{
+  "id": "cmp_5x1d1ev1",
+  "mot_id": "unt_b1n3a7gc",
+  "forme_resultat_id": "frm_f7cjw10q",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tétralogie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q997byd1",
+      "sens_id": "sns_j2b3cdsr",
+      "forme_id": "frm_gsz4e6me"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "quatre discours",
+      "explication_courte": "Du grec tetralogía, « suite de quatre pièces »."
+    }
+  }
+}

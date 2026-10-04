@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0dtyhr13",
+  "mot_id": "unt_yrtj8ap1",
+  "forme_resultat_id": "frm_t7s8gx52",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « décilitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_te1rew0t",
+      "sens_id": "sns_m4bzgevp",
+      "forme_id": "frm_fd32mpkg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "un dixième de litre",
+      "explication_courte": "Du latin decimus, « dixième », et litre."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fegz3bep",
+  "mot_id": "unt_7089f9ax",
+  "forme_resultat_id": "frm_ewmhsjm4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « décalitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_r2j4ctew",
+      "sens_id": "sns_27sprc9j",
+      "forme_id": "frm_aet6hpnz"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "dix litres",
+      "explication_courte": "Du grec déka, « dix », et litre."
+    }
+  }
+}

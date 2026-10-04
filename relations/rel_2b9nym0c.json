@@ -1,0 +1,17 @@
+{
+  "id": "rel_2b9nym0c",
+  "unite_source_id": "unt_xgjw8fnv",
+  "unite_cible_id": "unt_ejh7jgzn",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ταχύς » du Bailly, localisation à renseigner."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cmp_a9158p4c",
+  "mot_id": "unt_fyzm7ecx",
+  "forme_resultat_id": "frm_5jyb7c4n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « centimétrique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y42y9y4t",
+      "sens_id": "sns_r7j2v8zb",
+      "forme_id": "frm_nhnt3raa"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_y6asv4eh",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le e final de centimètre tombe devant -ique."
+        }
+      }
+    },
+    {
+      "id": "trf_syf8f9pp",
+      "rang_partie": 1,
+      "type_code": "adaptation_graphie",
+      "ordre": 2,
+      "libelles": {
+        "fr": {
+          "texte": "L’accent grave de centimètre devient aigu : centimétr-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte au centimètre",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : centimètre reçoit -ique."
+    }
+  }
+}

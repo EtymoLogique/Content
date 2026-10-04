@@ -1,0 +1,38 @@
+{
+  "id": "cmp_nytrdmdm",
+  "mot_id": "unt_zzf5t486",
+  "forme_resultat_id": "frm_fm7f5y2r",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « typologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_bfygsy31",
+      "sens_id": "sns_vnhhkhdm",
+      "forme_id": "frm_0nemgxe8"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des modèles",
+      "explication_courte": "Du grec túpos, « modèle », et lógos, « discours »."
+    }
+  }
+}

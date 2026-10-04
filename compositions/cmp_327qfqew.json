@@ -1,0 +1,38 @@
+{
+  "id": "cmp_327qfqew",
+  "mot_id": "unt_a8g9j3b4",
+  "forme_resultat_id": "frm_yty11nks",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monotype » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cx7120nd",
+      "sens_id": "sns_1tyve288",
+      "forme_id": "frm_kgzpbgy1"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "modèle unique",
+      "explication_courte": "Du grec mónos, « seul », et túpos, « empreinte »."
+    }
+  }
+}

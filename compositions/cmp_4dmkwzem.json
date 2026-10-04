@@ -1,0 +1,51 @@
+{
+  "id": "cmp_4dmkwzem",
+  "mot_id": "unt_f4ph1txv",
+  "forme_resultat_id": "frm_wjs68eas",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tétrarque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q997byd1",
+      "sens_id": "sns_j2b3cdsr",
+      "forme_id": "frm_gsz4e6me"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5cfw2nca",
+      "sens_id": "sns_czj7f27r",
+      "forme_id": "frm_dk6dtjga"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_eej8rwt5",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le a final de tétra- s’élide devant -arque."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chef d’un quart",
+      "explication_courte": "Du grec tetrárkhēs, « chef d’un quart de pays »."
+    }
+  }
+}

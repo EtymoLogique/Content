@@ -1,0 +1,68 @@
+{
+  "id": "unt_r5dgbh1g",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « δέκα » du Bailly, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_ej2hrbsa",
+      "texte": "δέκα",
+      "cle_normalisee": "δέκα",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "déka"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « δέκα » du Bailly, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_v6d2g2es",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "dix"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « δέκα » du Bailly, localisation à renseigner."
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "unt_0dy75587",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « λίτρα » du Bailly, localisation à renseigner."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_9bqzd2rq",
+      "texte": "λίτρα",
+      "cle_normalisee": "λίτρα",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "lítra"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « λίτρα » du Bailly, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_wtrwec3v",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "livre, unité de poids"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_1g2et8hj",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « λίτρα » du Bailly, localisation à renseigner."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_0b5nx362",
+  "mot_id": "unt_0bgfm4zz",
+  "forme_resultat_id": "frm_0he8k299",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tétrarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q997byd1",
+      "sens_id": "sns_j2b3cdsr",
+      "forme_id": "frm_gsz4e6me"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_yaagde80",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le a final de tétra- s’élide devant -archie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de quatre",
+      "explication_courte": "Du grec tetrarkhía, « gouvernement de quatre »."
+    }
+  }
+}

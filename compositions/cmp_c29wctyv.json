@@ -1,0 +1,38 @@
+{
+  "id": "cmp_c29wctyv",
+  "mot_id": "unt_1y73rpez",
+  "forme_resultat_id": "frm_hr5htec2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « décalogue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_r2j4ctew",
+      "sens_id": "sns_27sprc9j",
+      "forme_id": "frm_aet6hpnz"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "dix paroles",
+      "explication_courte": "Du grec dekálogos, « dix paroles »."
+    }
+  }
+}

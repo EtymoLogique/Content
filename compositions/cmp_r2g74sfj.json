@@ -1,0 +1,38 @@
+{
+  "id": "cmp_r2g74sfj",
+  "mot_id": "unt_5fyjk095",
+  "forme_resultat_id": "frm_9e7bdvcf",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bradycardie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1p6hqgkh",
+      "sens_id": "sns_2g1e1rmz",
+      "forme_id": "frm_s06723rw"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_fztn9d2m",
+      "sens_id": "sns_bm6yw23b",
+      "forme_id": "frm_a7q4ez25"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "cœur lent",
+      "explication_courte": "Du grec bradús, « lent », et kardía, « cœur »."
+    }
+  }
+}

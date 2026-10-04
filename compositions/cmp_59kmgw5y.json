@@ -1,0 +1,38 @@
+{
+  "id": "cmp_59kmgw5y",
+  "mot_id": "unt_3yvzz1n2",
+  "forme_resultat_id": "frm_hybnfxxs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chromosome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qhbmrwpr",
+      "sens_id": "sns_kgvwfse8",
+      "forme_id": "frm_6g4fkdm4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ej6ca611",
+      "sens_id": "sns_cgc5gxmk",
+      "forme_id": "frm_4rz0a4fq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "corps coloré",
+      "explication_courte": "Du grec khrôma, « couleur », et sôma, « corps » : il se colore bien au microscope."
+    }
+  }
+}

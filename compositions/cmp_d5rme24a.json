@@ -1,0 +1,38 @@
+{
+  "id": "cmp_d5rme24a",
+  "mot_id": "unt_5hch4nwt",
+  "forme_resultat_id": "frm_0zqqs0gn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « stéréotypie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ys8y007w",
+      "sens_id": "sns_3k9rxz7g",
+      "forme_id": "frm_0wss1y4w"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_bdvbgmge",
+      "sens_id": "sns_w98j3yq7",
+      "forme_id": "frm_1g3h7srf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "impression solide",
+      "explication_courte": "Du grec stereós, « solide », et túpos, « caractère »."
+    }
+  }
+}
