@@ -1,0 +1,38 @@
+{
+  "id": "cmp_77m2s1yy",
+  "mot_id": "unt_kbwjxtyq",
+  "forme_resultat_id": "frm_fy8khy9x",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hectolitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_csr6qvhp",
+      "sens_id": "sns_pm6sfemf",
+      "forme_id": "frm_ka72ype4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "cent litres",
+      "explication_courte": "Du grec hekatón, « cent », et litre."
+    }
+  }
+}

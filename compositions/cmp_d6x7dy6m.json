@@ -1,0 +1,51 @@
+{
+  "id": "cmp_d6x7dy6m",
+  "mot_id": "unt_amf6ndb2",
+  "forme_resultat_id": "frm_fw0q2y7t",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cardialgie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c4sh40g2",
+      "sens_id": "sns_2gpmdht5",
+      "forme_id": "frm_t5d13b7s"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_7w4gfsbt",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de cardio- s’élide devant -algie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur du cœur",
+      "explication_courte": "Du grec kardía, « cœur », et álgos, « douleur »."
+    }
+  }
+}

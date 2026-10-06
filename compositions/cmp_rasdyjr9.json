@@ -1,0 +1,38 @@
+{
+  "id": "cmp_rasdyjr9",
+  "mot_id": "unt_m6f6pebk",
+  "forme_resultat_id": "frm_3vbzr44f",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « exosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7w5qh08v",
+      "sens_id": "sns_qtcm633q",
+      "forme_id": "frm_43wkbf9r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe du dehors",
+      "explication_courte": "Du grec éxō, « dehors », et sphaîra, « globe »."
+    }
+  }
+}

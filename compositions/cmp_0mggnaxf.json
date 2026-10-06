@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0mggnaxf",
+  "mot_id": "unt_h89c0c5a",
+  "forme_resultat_id": "frm_gjb2wcn3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cartographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ej6g8x84",
+      "sens_id": "sns_peas7nvd",
+      "forme_id": "frm_5zpwwwcv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit les cartes",
+      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire »."
+    }
+  }
+}

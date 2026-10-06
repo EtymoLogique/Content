@@ -1,0 +1,38 @@
+{
+  "id": "cmp_84ayy6x7",
+  "mot_id": "unt_h8kwnn6t",
+  "forme_resultat_id": "frm_zsxra9xs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hématophagie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_28bp0g2p",
+      "sens_id": "sns_3e4cgh2w",
+      "forme_id": "frm_t6f4wac2"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6t7fkn6e",
+      "sens_id": "sns_7jh3jyk6",
+      "forme_id": "frm_2h439csq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fait de manger le sang",
+      "explication_courte": "Du grec haîma, « sang », et phageîn, « manger »."
+    }
+  }
+}

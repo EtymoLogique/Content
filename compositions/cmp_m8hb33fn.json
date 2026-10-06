@@ -1,0 +1,38 @@
+{
+  "id": "cmp_m8hb33fn",
+  "mot_id": "unt_m7hm1m17",
+  "forme_resultat_id": "frm_brp1rw94",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cartothèque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ej6g8x84",
+      "sens_id": "sns_peas7nvd",
+      "forme_id": "frm_5zpwwwcv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg2k1q5r",
+      "sens_id": "sns_e67bsqqj",
+      "forme_id": "frm_hs7escy3"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "armoire à cartes",
+      "explication_courte": "Du latin charta, « papier », et du grec thḗkē, « coffre »."
+    }
+  }
+}

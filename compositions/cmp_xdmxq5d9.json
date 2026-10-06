@@ -1,0 +1,38 @@
+{
+  "id": "cmp_xdmxq5d9",
+  "mot_id": "unt_ang3zt7n",
+  "forme_resultat_id": "frm_8dq7rd4q",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmodrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2g0vq4n0",
+      "sens_id": "sns_vykqff0h",
+      "forme_id": "frm_q3pppnq1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_fas1c7rz",
+      "sens_id": "sns_z0dwkpbw",
+      "forme_id": "frm_z9cb6xdb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "course du monde",
+      "explication_courte": "Du grec kósmos, « monde », et drómos, « course »."
+    }
+  }
+}

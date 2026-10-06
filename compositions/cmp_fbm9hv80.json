@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fbm9hv80",
+  "mot_id": "unt_pjndmdzg",
+  "forme_resultat_id": "frm_ed9xzm04",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « pangramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ny8zhzf7",
+      "sens_id": "sns_xgnmvq73",
+      "forme_id": "frm_wesjtxkb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "toutes les lettres",
+      "explication_courte": "Du grec pâs, « tout », et grámma, « lettre »."
+    }
+  }
+}

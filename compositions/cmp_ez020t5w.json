@@ -1,0 +1,51 @@
+{
+  "id": "cmp_ez020t5w",
+  "mot_id": "unt_98zssk9d",
+  "forme_resultat_id": "frm_2b43ypm4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydronymie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_d6da433f",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de hydro- s’élide devant -onymie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "noms des eaux",
+      "explication_courte": "Du grec húdōr, « eau », et ónoma, « nom »."
+    }
+  }
+}

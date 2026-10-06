@@ -1,0 +1,38 @@
+{
+  "id": "cmp_7krz904c",
+  "mot_id": "unt_hx1e8nay",
+  "forme_resultat_id": "frm_vyxfn4rb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phonomètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure du son",
+      "explication_courte": "Formé de phono-, « son, voix », et de -mètre, « mesure »."
+    }
+  }
+}

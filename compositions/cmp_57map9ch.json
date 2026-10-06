@@ -1,0 +1,38 @@
+{
+  "id": "cmp_57map9ch",
+  "mot_id": "unt_1aa3wx3k",
+  "forme_resultat_id": "frm_p8651yar",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phonographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit le son",
+      "explication_courte": "Mot forgé en anglais par Edison en 1877, du grec phōnḗ, « son », et gráphein, « écrire »."
+    }
+  }
+}

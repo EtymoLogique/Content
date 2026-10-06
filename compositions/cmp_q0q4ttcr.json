@@ -1,0 +1,38 @@
+{
+  "id": "cmp_q0q4ttcr",
+  "mot_id": "unt_sajaycc8",
+  "forme_resultat_id": "frm_3bsgte4x",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2g0vq4n0",
+      "sens_id": "sns_vykqff0h",
+      "forme_id": "frm_q3pppnq1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste de l’univers",
+      "explication_courte": "Formé de cosmo-, « monde, univers », et de -logue, « spécialiste »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_a0seapyp",
+  "mot_id": "unt_2t7r9p2b",
+  "forme_resultat_id": "frm_3csj38af",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description des peuples",
+      "explication_courte": "Du grec éthnos, « peuple », et gráphein, « écrire »."
+    }
+  }
+}

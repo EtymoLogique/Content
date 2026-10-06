@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dbzgs9nz",
+  "mot_id": "unt_v0wp6jse",
+  "forme_resultat_id": "frm_rbt1t56z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « idéophone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q8v7py1y",
+      "sens_id": "sns_wm0d5a90",
+      "forme_id": "frm_p50g1txb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "son de l’idée",
+      "explication_courte": "Formé de idéo-, « idée », et de -phone, « voix, son »."
+    }
+  }
+}

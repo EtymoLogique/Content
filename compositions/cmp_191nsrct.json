@@ -1,0 +1,38 @@
+{
+  "id": "cmp_191nsrct",
+  "mot_id": "unt_b819ztsa",
+  "forme_resultat_id": "frm_snxby481",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « diarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2xrqv000",
+      "sens_id": "sns_8pxy44p3",
+      "forme_id": "frm_p07fp3z3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de deux",
+      "explication_courte": "Formé de di-, « deux », et de -archie, « commandement »."
+    }
+  }
+}

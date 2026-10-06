@@ -1,0 +1,51 @@
+{
+  "id": "cmp_1hbnr14t",
+  "mot_id": "unt_8y3acctb",
+  "forme_resultat_id": "frm_sm7yqbaq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hématologique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qq6ebrz1",
+      "sens_id": "sns_ce3b0b0g",
+      "forme_id": "frm_rgrv4gfr"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_d1a40673",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de hématologie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’hématologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hématologie reçoit -ique."
+    }
+  }
+}

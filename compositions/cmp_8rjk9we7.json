@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8rjk9we7",
+  "mot_id": "unt_vb9vfwjf",
+  "forme_resultat_id": "frm_48dctdzs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « astronaute » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_r0vh9by3",
+      "sens_id": "sns_gzrzrw73",
+      "forme_id": "frm_vyfcnm90"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_94xw47dw",
+      "sens_id": "sns_cs689jrp",
+      "forme_id": "frm_q68weayf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "navigateur des astres",
+      "explication_courte": "Du grec astḗr, « astre », et naútēs, « marin »."
+    }
+  }
+}

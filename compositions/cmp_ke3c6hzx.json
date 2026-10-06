@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ke3c6hzx",
+  "mot_id": "unt_3cqg4jw8",
+  "forme_resultat_id": "frm_h26v8wfp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « idéographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q8v7py1y",
+      "sens_id": "sns_wm0d5a90",
+      "forme_id": "frm_p50g1txb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture des idées",
+      "explication_courte": "Du grec idéa, « idée », et gráphein, « écrire »."
+    }
+  }
+}

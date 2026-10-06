@@ -1,0 +1,38 @@
+{
+  "id": "cmp_7rwcfrvq",
+  "mot_id": "unt_n9f3y4c2",
+  "forme_resultat_id": "frm_s35g4n7t",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « nanolitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfe1p05a",
+      "sens_id": "sns_jwz73cvg",
+      "forme_id": "frm_3g0ds9a4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "milliardième de litre",
+      "explication_courte": "Formé de nano-, « milliardième », et de litre, « unité de volume »."
+    }
+  }
+}

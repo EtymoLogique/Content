@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dxted83n",
+  "mot_id": "unt_he3b0dbm",
+  "forme_resultat_id": "frm_gt43e85m",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ethnopsychologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9zwmade7",
+      "sens_id": "sns_am5pgaem",
+      "forme_id": "frm_a619xeyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dhf6bsqq",
+      "sens_id": "sns_6cj2nyaw",
+      "forme_id": "frm_dzxef1as"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de l’esprit des peuples",
+      "explication_courte": "Formé de ethno-, « peuple », et de psychologie, « étude de l’esprit »."
+    }
+  }
+}

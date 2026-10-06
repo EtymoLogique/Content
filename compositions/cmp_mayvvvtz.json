@@ -1,0 +1,38 @@
+{
+  "id": "cmp_mayvvvtz",
+  "mot_id": "unt_3fe1j8gf",
+  "forme_resultat_id": "frm_efm8r9z0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « microscopie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yr0z4s28",
+      "sens_id": "sns_xgfakmbp",
+      "forme_id": "frm_66yq3x40"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_58txf6bd",
+      "sens_id": "sns_50t0cv73",
+      "forme_id": "frm_prwycnqq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "examen du petit",
+      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_rsgz9v9a",
+  "mot_id": "unt_5p4qh0k5",
+  "forme_resultat_id": "frm_324ppdn7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « aérographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wdz7x013",
+      "sens_id": "sns_158e3w55",
+      "forme_id": "frm_ad6r0k0a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit par l’air",
+      "explication_courte": "Du grec aḗr, « air », et gráphein, « écrire »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_hvnmt15w",
+  "mot_id": "unt_4d84wkbz",
+  "forme_resultat_id": "frm_qs2zxvhd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « diascope » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_g2j29c3e",
+      "sens_id": "sns_59nbgyvj",
+      "forme_id": "frm_2krrn520"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe à travers",
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -scope, « qui observe »."
+    }
+  }
+}

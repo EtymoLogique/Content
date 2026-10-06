@@ -1,0 +1,38 @@
+{
+  "id": "cmp_de7a95j5",
+  "mot_id": "unt_yy2gd87p",
+  "forme_resultat_id": "frm_7dfj5dz2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « topographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7a7vdys9",
+      "sens_id": "sns_0bwg0c1q",
+      "forme_id": "frm_441w7bk7"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui décrit les lieux",
+      "explication_courte": "Du grec tópos, « lieu », et gráphein, « écrire »."
+    }
+  }
+}

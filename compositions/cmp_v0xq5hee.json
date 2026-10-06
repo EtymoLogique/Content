@@ -1,0 +1,62 @@
+{
+  "id": "cmp_v0xq5hee",
+  "mot_id": "unt_c08nrf87",
+  "forme_resultat_id": "frm_npxrtky4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « kilométrique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zbyv5s6q",
+      "sens_id": "sns_kn690j70",
+      "forme_id": "frm_673n51b0"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_318mqbgt",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le e final de kilomètre tombe devant -ique."
+        }
+      }
+    },
+    {
+      "id": "trf_cjcm0f1c",
+      "rang_partie": 1,
+      "type_code": "adaptation_graphie",
+      "ordre": 2,
+      "libelles": {
+        "fr": {
+          "texte": "L’accent grave de kilomètre devient aigu : kilométr-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte au kilomètre",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : kilomètre reçoit -ique."
+    }
+  }
+}

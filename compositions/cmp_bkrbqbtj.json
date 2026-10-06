@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bkrbqbtj",
+  "mot_id": "unt_hjnxy7sx",
+  "forme_resultat_id": "frm_9xpzexy8",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tachycardie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ejh7jgzn",
+      "sens_id": "sns_mgx9hge6",
+      "forme_id": "frm_cn00d6w1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_fztn9d2m",
+      "sens_id": "sns_bm6yw23b",
+      "forme_id": "frm_a7q4ez25"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "cœur rapide",
+      "explication_courte": "Du grec takhús, « rapide », et kardía, « cœur »."
+    }
+  }
+}

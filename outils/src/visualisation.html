@@ -164,20 +164,34 @@ const diag = $("#diagnostics");
 diag.append(D.diagnostics.length ? el("ul", {}, ...D.diagnostics.map((d) => el("li", { class: d.niveau }, `[${d.regle}] `, d.fichier ? `${d.fichier} — ` : "", d.message))) : el("p", { class: "vide" }, "Aucun diagnostic : valider passe."));
 diagBtn.addEventListener("click", () => (diag.hidden = !diag.hidden));
 
+// Onglet et filtres survivent au rechargement (localStorage, best effort).
+const CLE = "etymo-catalogue";
+const lire = () => { try { return JSON.parse(localStorage.getItem(CLE)) ?? {}; } catch { return {}; } };
+const memoire = (patch) => { try { localStorage.setItem(CLE, JSON.stringify({ ...lire(), ...patch })); } catch {} };
 for (const b of document.querySelectorAll(".onglets button")) {
   b.addEventListener("click", () => {
     for (const x of document.querySelectorAll(".onglets button")) x.setAttribute("aria-selected", String(x === b));
     for (const v of document.querySelectorAll(".vue")) v.hidden = v.id !== b.dataset.vue;
     if (b.dataset.vue === "graphe") redimensionner();
+    memoire({ onglet: b.dataset.vue });
   });
 }
 
 // ------------------------------------------------------------------ filtres
 const etat = { recherche: "", fascicule: "", brouillons: false, natures: new Set(Object.keys(NATURES)), langues: new Set(LANGUES.keys()), liens: new Set(TYPES_LIEN), choisi: null };
+const sauve = lire();
+const restaure = (ensemble, valeurs) => { if (Array.isArray(valeurs)) { ensemble.clear(); for (const v of valeurs) ensemble.add(v); } };
+if (typeof sauve.recherche === "string") etat.recherche = sauve.recherche;
+if (typeof sauve.fascicule === "string" && (sauve.fascicule.startsWith("__") || D.fascicules.some((f) => f.id === sauve.fascicule))) etat.fascicule = sauve.fascicule;
+etat.brouillons = sauve.brouillons === true;
+restaure(etat.natures, sauve.natures?.filter((v) => v in NATURES));
+restaure(etat.langues, sauve.langues?.filter((v) => LANGUES.has(v)));
+restaure(etat.liens, sauve.liens?.filter((v) => TYPES_LIEN.includes(v)));
 for (const f of D.fascicules) $("#fascicule").append(el("option", { value: f.id }, `n° ${f.numero}${f.test ? " (test)" : ""}`));
 function cases(conteneur, valeurs, ensemble, libelle, couleur) {
   for (const v of valeurs) {
-    const c = el("input", { type: "checkbox", checked: "" });
+    const c = el("input", { type: "checkbox" });
+    c.checked = ensemble.has(v);
     c.addEventListener("change", () => { c.checked ? ensemble.add(v) : ensemble.delete(v); appliquer(); });
     conteneur.append(el("label", {}, c, " ", couleur ? el("span", { class: "pastille", style: `background:${couleur(v)}` }) : null, " ", libelle(v)));
   }
@@ -188,6 +202,9 @@ cases($("#f-liens"), TYPES_LIEN, etat.liens, (v) => v.replaceAll("_", " "), (v) 
 $("#recherche").addEventListener("input", (e) => { etat.recherche = e.target.value.trim().toLowerCase(); appliquer(); });
 $("#fascicule").addEventListener("change", (e) => { etat.fascicule = e.target.value; appliquer(); });
 $("#brouillons").addEventListener("change", (e) => { etat.brouillons = e.target.checked; appliquer(); });
+$("#recherche").value = etat.recherche;
+$("#fascicule").value = etat.fascicule;
+$("#brouillons").checked = etat.brouillons;
 // Échap ou clic sur le fond : on désélectionne (et on ferme les diagnostics).
 document.addEventListener("keydown", (e) => {
   if (e.key !== "Escape") return;
@@ -197,7 +214,7 @@ document.addEventListener("keydown", (e) => {
 
 const texteRecherche = (u) => [u.texte, u.translitteration, ...u.sens.flatMap((s) => [s.glose, s.definition])].filter(Boolean).join(" ").toLowerCase();
 // Filtres communs au graphe et aux cartes.
-const garde = (u) => etat.natures.has(u.nature) && etat.langues.has(u.langue) && (!etat.brouillons || u.fait?.relecture === "brouillon");
+const garde = (u) => etat.natures.has(u.nature) && etat.langues.has(u.langue) && (!etat.brouillons || u.fait?.relecture === "brouillon") && correspond(u);
 function visible(u) {
   if (!garde(u)) return false;
   if (etat.fascicule === "__aucun") return u.fascicules.length === 0;
@@ -425,9 +442,9 @@ function appliquer(relancer = true) {
     for (const l of D.liens) { if (l.source === etat.choisi) voisins.add(l.cible); if (l.cible === etat.choisi) voisins.add(l.source); }
   }
   for (const n of noeuds) {
-    n.visible = visible(n.u);
+    n.visible = visible(n.u) && correspond(n.u);
     n.el.style.display = n.visible ? "" : "none";
-    n.el.classList.toggle("estompe", !correspond(n.u) || (etat.choisi && !voisins.has(n.u.id)));
+    n.el.classList.toggle("estompe", Boolean(etat.choisi) && !voisins.has(n.u.id));
   }
   for (const ar of aretes) {
     ar.visible = ar.a.visible && ar.b.visible && etat.liens.has(ar.l.type);
@@ -435,6 +452,7 @@ function appliquer(relancer = true) {
     ar.el.classList.toggle("estompe", Boolean(etat.choisi) && ar.a.u.id !== etat.choisi && ar.b.u.id !== etat.choisi);
   }
   if (relancer) chaleur = Math.max(chaleur, 0.5);
+  memoire({ recherche: etat.recherche, fascicule: etat.fascicule, brouillons: etat.brouillons, natures: [...etat.natures], langues: [...etat.langues], liens: [...etat.liens] });
   dessinerCartes();
 }
 
@@ -449,7 +467,6 @@ function carte(u) {
       el("div", { class: "mot" }, affiche(u)),
       el("div", { class: "glose" }, u.sens[0]?.glose ?? ""),
       el("div", { class: "pied" }, `${nomLangue(u.langue)} · ${u.fait?.relecture ?? ""}`)));
-  if (!correspond(u)) b.style.opacity = ".25";
   return b;
 }
 function dessinerCartes() {
@@ -458,6 +475,7 @@ function dessinerCartes() {
   for (const f of D.fascicules) {
     if (etat.fascicule && f.id !== etat.fascicule) continue;
     const us = f.unites.map((id) => UNITES.get(id)).filter((u) => u && garde(u));
+    if (!us.length && (etat.recherche || etat.brouillons)) continue;
     const jaquette = f.jaquette?.svg ? "jaquette ✓" : "sans jaquette";
     zone.append(el("h2", {}, `Fascicule n° ${f.numero}${f.test ? " (test)" : ""}`, el("span", { class: "meta" }, `${f.parution} · ${us.length} carte(s) · ${us.filter((u) => u.silhouette?.svg).length} silhouette(s) · ${jaquette}`)));
     const art = silhouette(f.jaquette);
@@ -465,8 +483,8 @@ function dessinerCartes() {
       art, art ? el("span", { class: "etiquette" }, "jaquette") : (f.jaquette?.probleme ? `jaquette refusée : ${f.jaquette.probleme}` : "sans jaquette"));
     zone.append(el("div", { class: "grille" }, tuile, ...us.map(carte)));
   }
-  const langues = [...LANGUES.values()].filter((l) => etat.langues.has(l.id));
-  if (etat.fascicule !== "__aucun" && !etat.brouillons) zone.append(el("h2", {}, "Langues"), el("div", { class: "grille" }, ...langues.map((l) => {
+  const langues = [...LANGUES.values()].filter((l) => etat.langues.has(l.id) && (!etat.recherche || `${l.nom} ${l.code}`.toLowerCase().includes(etat.recherche)));
+  if (langues.length && etat.fascicule !== "__aucun" && !etat.brouillons) zone.append(el("h2", {}, "Langues"), el("div", { class: "grille" }, ...langues.map((l) => {
     const art = silhouette(l.silhouette);
     return el("div", { class: `carte${art ? "" : " sans-art"}` },
       el("div", { class: "bandeau", style: `background:${l.couleur}` }, el("span", {}, "langue"), el("span", {}, l.code)),
@@ -486,6 +504,7 @@ for (let i = 0; i < 250; i++) pas();
 dessiner();
 redimensionner();
 boucle();
+document.querySelector(`.onglets button[data-vue="${lire().onglet}"]`)?.click();
 </script>
 </body>
 </html>

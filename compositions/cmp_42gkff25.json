@@ -1,0 +1,38 @@
+{
+  "id": "cmp_42gkff25",
+  "mot_id": "unt_fqwthtj5",
+  "forme_resultat_id": "frm_vhxzyy2f",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « xylothèque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9gc9fk6a",
+      "sens_id": "sns_mx9d60dk",
+      "forme_id": "frm_g4rjxadx"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg2k1q5r",
+      "sens_id": "sns_e67bsqqj",
+      "forme_id": "frm_hs7escy3"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "collection de bois",
+      "explication_courte": "Formé de xylo-, « bois », et de -thèque, « armoire, collection »."
+    }
+  }
+}

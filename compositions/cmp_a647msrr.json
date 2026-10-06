@@ -1,0 +1,38 @@
+{
+  "id": "cmp_a647msrr",
+  "mot_id": "unt_qq6ebrz1",
+  "forme_resultat_id": "frm_rgrv4gfr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hématologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_28bp0g2p",
+      "sens_id": "sns_3e4cgh2w",
+      "forme_id": "frm_t6f4wac2"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du sang",
+      "explication_courte": "Du grec haîma, « sang », et lógos, « discours »."
+    }
+  }
+}

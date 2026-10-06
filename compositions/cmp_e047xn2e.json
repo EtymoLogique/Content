@@ -1,0 +1,38 @@
+{
+  "id": "cmp_e047xn2e",
+  "mot_id": "unt_7rfh1ecd",
+  "forme_resultat_id": "frm_1js389b3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « orthophonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c2rsvxch",
+      "sens_id": "sns_0r6p90gv",
+      "forme_id": "frm_w6krj4xz"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "son correct",
+      "explication_courte": "Du grec orthós, « droit », et phōnḗ, « voix »."
+    }
+  }
+}

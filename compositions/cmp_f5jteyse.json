@@ -1,0 +1,38 @@
+{
+  "id": "cmp_f5jteyse",
+  "mot_id": "unt_vgwj00kf",
+  "forme_resultat_id": "frm_6c2qtfpx",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « néologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_e4m28qp2",
+      "sens_id": "sns_5c9yzeg9",
+      "forme_id": "frm_rthb14ta"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "parole nouvelle",
+      "explication_courte": "Du grec néos, « nouveau », et lógos, « parole »."
+    }
+  }
+}

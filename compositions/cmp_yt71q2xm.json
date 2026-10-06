@@ -1,0 +1,38 @@
+{
+  "id": "cmp_yt71q2xm",
+  "mot_id": "unt_eq30r294",
+  "forme_resultat_id": "frm_39s9mtfw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hétérochrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wkxgjecx",
+      "sens_id": "sns_vf7m5yas",
+      "forme_id": "frm_wsbrq5jg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "d’une autre couleur",
+      "explication_courte": "Formé de hétéro-, « autre », et de -chrome, « couleur »."
+    }
+  }
+}

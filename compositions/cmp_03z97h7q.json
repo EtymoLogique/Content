@@ -1,0 +1,38 @@
+{
+  "id": "cmp_03z97h7q",
+  "mot_id": "unt_z8n1pmpn",
+  "forme_resultat_id": "frm_bx682wtg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anaglyphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7np98nyh",
+      "sens_id": "sns_710q0zyt",
+      "forme_id": "frm_m5tn9n2b"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_szmkw333",
+      "sens_id": "sns_ykras3qr",
+      "forme_id": "frm_z9pj8fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "gravure en relief",
+      "explication_courte": "Formé de ana-, « en remontant », et de -glyphe, « gravure »."
+    }
+  }
+}

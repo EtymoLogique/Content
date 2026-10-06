@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8pkk1j6s",
+  "mot_id": "unt_zb0mt8zk",
+  "forme_resultat_id": "frm_b4k4dt79",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « tachymètre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ejh7jgzn",
+      "sens_id": "sns_mgx9hge6",
+      "forme_id": "frm_cn00d6w1"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure de la vitesse",
+      "explication_courte": "Du grec takhús, « rapide », et métron, « mesure »."
+    }
+  }
+}

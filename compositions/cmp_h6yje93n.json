@@ -1,0 +1,38 @@
+{
+  "id": "cmp_h6yje93n",
+  "mot_id": "unt_9gx99gsw",
+  "forme_resultat_id": "frm_6dywx7v2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « xylographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_9gc9fk6a",
+      "sens_id": "sns_mx9d60dk",
+      "forme_id": "frm_g4rjxadx"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture sur le bois",
+      "explication_courte": "Formé de xylo-, « bois », et de -graphie, « écriture »."
+    }
+  }
+}

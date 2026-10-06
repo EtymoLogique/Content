@@ -1,0 +1,38 @@
+{
+  "id": "cmp_45afydd1",
+  "mot_id": "unt_wf49k4cw",
+  "forme_resultat_id": "frm_d15frq0z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chromothérapie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qhbmrwpr",
+      "sens_id": "sns_kgvwfse8",
+      "forme_id": "frm_6g4fkdm4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_x195x7vr",
+      "sens_id": "sns_xm8b257g",
+      "forme_id": "frm_9tps24jy"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin par la couleur",
+      "explication_courte": "Formé de chromo-, « couleur », et de -thérapie, « soin »."
+    }
+  }
+}

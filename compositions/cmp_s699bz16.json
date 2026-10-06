@@ -1,0 +1,38 @@
+{
+  "id": "cmp_s699bz16",
+  "mot_id": "unt_hkp6h1k3",
+  "forme_resultat_id": "frm_dmx5jch5",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithotypie » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6mh6164x",
+      "sens_id": "sns_c0n9b4ax",
+      "forme_id": "frm_ddq28rv9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_bdvbgmge",
+      "sens_id": "sns_w98j3yq7",
+      "forme_id": "frm_1g3h7srf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "impression par la pierre",
+      "explication_courte": "Formé de litho-, « pierre », et de -typie, « impression »."
+    }
+  }
+}

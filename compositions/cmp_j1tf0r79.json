@@ -1,0 +1,38 @@
+{
+  "id": "cmp_j1tf0r79",
+  "mot_id": "unt_kf50t1ja",
+  "forme_resultat_id": "frm_vqqc2xpb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « chromotypie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qhbmrwpr",
+      "sens_id": "sns_kgvwfse8",
+      "forme_id": "frm_6g4fkdm4"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_bdvbgmge",
+      "sens_id": "sns_w98j3yq7",
+      "forme_id": "frm_1g3h7srf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "impression en couleur",
+      "explication_courte": "Formé de chromo-, « couleur », et de -typie, « impression »."
+    }
+  }
+}

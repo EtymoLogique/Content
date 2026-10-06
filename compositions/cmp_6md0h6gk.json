@@ -1,0 +1,38 @@
+{
+  "id": "cmp_6md0h6gk",
+  "mot_id": "unt_9bknmj05",
+  "forme_resultat_id": "frm_jrhapwx5",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « endoscopie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_vq28zv88",
+      "sens_id": "sns_2bjbzsme",
+      "forme_id": "frm_0z81eztb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_58txf6bd",
+      "sens_id": "sns_50t0cv73",
+      "forme_id": "frm_prwycnqq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "examen du dedans",
+      "explication_courte": "Du grec éndon, « dedans », et skopeîn, « observer »."
+    }
+  }
+}

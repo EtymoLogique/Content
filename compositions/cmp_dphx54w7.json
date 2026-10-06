@@ -1,0 +1,51 @@
+{
+  "id": "cmp_dphx54w7",
+  "mot_id": "unt_3y8hra3f",
+  "forme_resultat_id": "frm_1j4er51t",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hématologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_qq6ebrz1",
+      "sens_id": "sns_ce3b0b0g",
+      "forme_id": "frm_rgrv4gfr"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_w82c8ayk",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de hématologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’hématologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hématologie reçoit -iste."
+    }
+  }
+}

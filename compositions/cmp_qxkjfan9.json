@@ -1,0 +1,38 @@
+{
+  "id": "cmp_qxkjfan9",
+  "mot_id": "unt_j63zmg01",
+  "forme_resultat_id": "frm_nemyavch",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « prototype » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c9gmh4zq",
+      "sens_id": "sns_rse3vb8j",
+      "forme_id": "frm_xkmhz0jh"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cx7120nd",
+      "sens_id": "sns_1tyve288",
+      "forme_id": "frm_kgzpbgy1"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "premier modèle",
+      "explication_courte": "Du grec prōtótupos, « original »."
+    }
+  }
+}

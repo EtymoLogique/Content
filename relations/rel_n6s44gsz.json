@@ -1,0 +1,17 @@
+{
+  "id": "rel_n6s44gsz",
+  "unite_source_id": "unt_r2t906qx",
+  "unite_cible_id": "unt_8gf8fnn5",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ὀστέον » du Bailly, localisation à renseigner."
+  }
+}

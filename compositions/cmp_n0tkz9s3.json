@@ -1,0 +1,38 @@
+{
+  "id": "cmp_n0tkz9s3",
+  "mot_id": "unt_6ys6wmde",
+  "forme_resultat_id": "frm_mdffe6xw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « microlitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_yr0z4s28",
+      "sens_id": "sns_xgfakmbp",
+      "forme_id": "frm_66yq3x40"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "petit litre",
+      "explication_courte": "Du grec mikrós, « petit », et litre."
+    }
+  }
+}

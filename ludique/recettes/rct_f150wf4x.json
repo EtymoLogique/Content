@@ -1,0 +1,19 @@
+{
+  "id": "rct_f150wf4x",
+  "composition_id": "cmp_cmk2z70m",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_79zkdkd3"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_0vsq5h13"
+      ]
+    }
+  ],
+  "note_interne": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rct_8sdx6654",
+  "composition_id": "cmp_md47te15",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_tvrjdynp"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_t74e17ba"
+      ]
+    }
+  ],
+  "note_interne": null
+}

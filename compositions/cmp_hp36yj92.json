@@ -1,0 +1,38 @@
+{
+  "id": "cmp_hp36yj92",
+  "mot_id": "unt_fqpb8mbj",
+  "forme_resultat_id": "frm_xrq29w8m",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hyperthermie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4tx8033j",
+      "sens_id": "sns_vdzmf7ps",
+      "forme_id": "frm_y87hna9r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mn8v63h8",
+      "sens_id": "sns_7g1mdhfa",
+      "forme_id": "frm_gd1nh5xe"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chaleur au-dessus",
+      "explication_courte": "Du grec hupér, « au-dessus », et thérmē, « chaleur »."
+    }
+  }
+}

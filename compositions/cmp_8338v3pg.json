@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8338v3pg",
+  "mot_id": "unt_zhw608qz",
+  "forme_resultat_id": "frm_0bzdhjem",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « centilitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4cde6asb",
+      "sens_id": "sns_ws7ghbm0",
+      "forme_id": "frm_ajf5ht1t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "un centième de litre",
+      "explication_courte": "Du latin centum, « cent », et litre."
+    }
+  }
+}

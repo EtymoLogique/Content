@@ -1,0 +1,38 @@
+{
+  "id": "cmp_p2zh31ty",
+  "mot_id": "unt_zpppz6v3",
+  "forme_resultat_id": "frm_9v8hf8ss",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « homophonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_f0s3zj1k",
+      "sens_id": "sns_71mvf6yn",
+      "forme_id": "frm_k25v9rz3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "même son",
+      "explication_courte": "Du grec homós, « même », et phōnḗ, « son »."
+    }
+  }
+}

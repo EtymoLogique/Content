@@ -1,0 +1,19 @@
+{
+  "id": "rct_2smz7649",
+  "composition_id": "cmp_gey891nv",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_mrvydn2d"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_fg6sx6xx"
+      ]
+    }
+  ],
+  "note_interne": null
+}

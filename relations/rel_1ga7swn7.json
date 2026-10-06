@@ -1,0 +1,17 @@
+{
+  "id": "rel_1ga7swn7",
+  "unite_source_id": "unt_mqkhk5xt",
+  "unite_cible_id": "unt_k7kbn7rj",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « τομή » du Bailly, localisation à renseigner."
+  }
+}

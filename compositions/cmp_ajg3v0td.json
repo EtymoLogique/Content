@@ -1,0 +1,51 @@
+{
+  "id": "cmp_ajg3v0td",
+  "mot_id": "unt_ednyt5eh",
+  "forme_resultat_id": "frm_vhrwr7hs",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « anatomiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_n71gmace",
+      "sens_id": "sns_jkxw3hww",
+      "forme_id": "frm_05eaayh3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_7z5sxe0e",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de anatomie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’anatomie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : anatomie reçoit -iste."
+    }
+  }
+}

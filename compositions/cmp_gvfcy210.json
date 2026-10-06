@@ -1,0 +1,38 @@
+{
+  "id": "cmp_gvfcy210",
+  "mot_id": "unt_ya12cak1",
+  "forme_resultat_id": "frm_vgpmvy48",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mythologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2d3s6154",
+      "sens_id": "sns_emx9d0pb",
+      "forme_id": "frm_wnmser7n"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui étudie les mythes",
+      "explication_courte": "Du grec mûthos, « récit », et lógos, « discours »."
+    }
+  }
+}

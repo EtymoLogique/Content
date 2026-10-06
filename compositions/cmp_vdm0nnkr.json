@@ -1,0 +1,38 @@
+{
+  "id": "cmp_vdm0nnkr",
+  "mot_id": "unt_8v1amevr",
+  "forme_resultat_id": "frm_m3rqzm7e",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « barographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tsdrcphx",
+      "sens_id": "sns_dmr6284e",
+      "forme_id": "frm_hg02j51q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit le poids",
+      "explication_courte": "Formé de baro-, « poids », et de -graphe, « qui écrit »."
+    }
+  }
+}

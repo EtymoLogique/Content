@@ -1,0 +1,38 @@
+{
+  "id": "cmp_95kgydab",
+  "mot_id": "unt_5ywg6t54",
+  "forme_resultat_id": "frm_zhdacn4z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « millilitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rymebc5n",
+      "sens_id": "sns_9qmkahby",
+      "forme_id": "frm_arsfe1wr"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "un millième de litre",
+      "explication_courte": "Du latin mille, « mille », et litre."
+    }
+  }
+}

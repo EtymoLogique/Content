@@ -1,0 +1,51 @@
+{
+  "id": "cmp_gqqr8e5b",
+  "mot_id": "unt_9m3r5w34",
+  "forme_resultat_id": "frm_d0ffcm6k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « topique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7a7vdys9",
+      "sens_id": "sns_0bwg0c1q",
+      "forme_id": "frm_441w7bk7"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_v67qgy05",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de topo- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à un lieu",
+      "explication_courte": "Formé de topo-, « lieu », et de -ique, « qui se rapporte à »."
+    }
+  }
+}

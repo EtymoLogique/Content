@@ -1,0 +1,51 @@
+{
+  "id": "cmp_mhej511t",
+  "mot_id": "unt_by6f1qjw",
+  "forme_resultat_id": "frm_1nj03ptg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « télégraphique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gmdztdsn",
+      "sens_id": "sns_xdy3r42f",
+      "forme_id": "frm_17czhwjs"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_s5s6zw4g",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de télégraphie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la télégraphie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : télégraphie reçoit -ique."
+    }
+  }
+}

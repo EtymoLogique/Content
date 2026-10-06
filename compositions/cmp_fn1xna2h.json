@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fn1xna2h",
+  "mot_id": "unt_qrmcw3we",
+  "forme_resultat_id": "frm_fmvj6z3e",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hypothermie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_xk6sz9vg",
+      "sens_id": "sns_f5wrfgqf",
+      "forme_id": "frm_v92431jc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mn8v63h8",
+      "sens_id": "sns_7g1mdhfa",
+      "forme_id": "frm_gd1nh5xe"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chaleur au-dessous",
+      "explication_courte": "Du grec hupó, « sous », et thérmē, « chaleur »."
+    }
+  }
+}

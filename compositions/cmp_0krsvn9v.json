@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0krsvn9v",
+  "mot_id": "unt_mvmakb65",
+  "forme_resultat_id": "frm_xsjx2gxh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « graphologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cp8xdmmv",
+      "sens_id": "sns_5kzgrg66",
+      "forme_id": "frm_ckjksfws"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui étudie l’écriture",
+      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours »."
+    }
+  }
+}

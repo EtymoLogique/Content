@@ -1,0 +1,814 @@
+{
+  "id": "fsc_bgjg6y6r",
+  "numero": 5,
+  "nom": "Routes des mots",
+  "parution": "2026-10-08T00:00:00Z",
+  "test": false,
+  "unites": [
+    {
+      "unite_id": "unt_9hd0ty0w",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_hvsc9kqz",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_v788k5z6",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_xkdj8vc2",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_6smetv15",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_9v7fzcf3",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_4j7cggg0",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_3d6qkpzw",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_j9qz3wbx",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_t2ccs9vw",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_hb2e58wz",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_qmwn3wma",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_hps39ktt",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_zkcnxwvm",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_8aajqk9f",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_pnt4bxbc",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_hrgp61cv",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_0vad5yr4",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_8dp8ktpa",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_c317tn35",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_ztvwqtce",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_jckdvkkb",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_ya9bpbg5",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_sqbb714g",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_7dbbkwmz",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_98zssk9d",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_1w91ccv1",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_5cfvby0x",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_7mpzjv2s",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_305p4d9h",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_xjjv5wjt",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_q1y8fea6",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_caxr7dvj",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_92w4n0xk",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_eytx6dq5",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_ngnmkhqs",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_aesemm9h",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_p1eg9xvv",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_mqjcmwgv",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_kb3p5wj2",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_yy2gd87p",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_cqyn33a4",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_118eh36q",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_5m3yqv41",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_jx8b3w01",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_by6f1qjw",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_5d9ndbvp",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_0vqq6v4v",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_6k2jzch9",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_4xmw1aw8",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_d04r62vs",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ak4fdsk0",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_f0s3zj1k",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_m6c8rjvy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_j9efe2gf",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_7djh0ry7",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_7a7vdys9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_feew0asz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_kh2jf5en",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_n7h1qr6w",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bdmzv0a",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bca4ym3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_3qa8qenz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_6jtssz1q",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5hc0cnmn",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_7125dvqm",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_mk61g05z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pxw8gq61",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_r0a5xapy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wkxgjecx",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_cacqy935",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5asf4rdc",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pnj306rh",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_w18b9t8b",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_1ymfedy9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_gmdztdsn",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_sf5b4gry",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pcsyjaxq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_spzw8v09",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_r1n63qbq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_12zzsstd",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_e7s1n35w",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_k8mnd5ys",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_hbcnmcc7",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_8mwgwsgs",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dhf6bsqq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_bfbdrfw3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_f973pjar",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_72p11d4q",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_9034v2xa",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dg3f1bfz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_gtpfh2pp",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_sa92ebmw",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_1tr3pngv",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_3r4j3whs",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_na5hy3qr",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_78vz8xyv",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4ep749b5",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_x8r491qt",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pjkbrr6g",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_6kq8aqp4",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_gv4a4xz9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_576ev431",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_vsqbsd6h",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_x1nsrr80",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ryr1awcx",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_y051tbbp",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_g78b1vz9",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_98jb34tb",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_pgpmfd6h",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_xypzcmcc",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_4ttzqqhq",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_eq30r294",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_v2cr2m8w",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_0epc2py5",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_gfv83sy0",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_yqz76br2",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_fweddtvt",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_aqynyd1k",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_9m3r5w34",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_8nk3jrff",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_tfmsj5vn",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_xvc4nwrn",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_bshsjjbk",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_xffcf8r6",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_gxckc798",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_0ewsm1g0",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_534pv5jh",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_yzh1f0p2",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_2fcfzq7s",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_w1yrydyy",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_agp7mmja",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_mqj751xh",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_xq899mdc",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_ra1mc0zr",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_ttrsngyp",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_8v1amevr",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_9gx99gsw",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_61ndde4b",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_rdgx3399",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_mz1bpgp8",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_hvphsbfv",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_2e7dkffd",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_g7c9mq7y",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_4d84wkbz",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_zfrt928y",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_1mdz90wg",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_mm8dknx7",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_tqtm9ky4",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_5gw128p3",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_r8s56h9f",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_fa08802y",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_akpc0150",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_qfvzkrv8",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_pztenkq2",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_3eb4nt1m",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_b25dmyzw",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_g2j29c3e",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_g10m2yeg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_03se7jnq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5f6v9qv2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pbktznfj",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_k1ktdn0d",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_c4sh40g2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5g9dnpfg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dw98a2g9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_9gc9fk6a",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_8vpkshzf",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_tsdrcphx",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_81tn2txv",
+      "role": "ingredient"
+    }
+  ],
+  "graines": [
+    {
+      "brique_id": "brq_g0kdys5j",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_esyqjr7x",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_wwrp37pw",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_stm5qm5w",
+      "exemplaires": 3
+    }
+  ],
+  "note_interne": "50 mots nouveaux autour des noms (-onyme, -onymie) et du suffixe -ique. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
+}

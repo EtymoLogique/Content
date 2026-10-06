@@ -1,0 +1,38 @@
+{
+  "id": "cmp_gefgyyy7",
+  "mot_id": "unt_zfrt928y",
+  "forme_resultat_id": "frm_tjnny672",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cardiophone » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c4sh40g2",
+      "sens_id": "sns_2gpmdht5",
+      "forme_id": "frm_t5d13b7s"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "son du cœur",
+      "explication_courte": "Formé de cardio-, « cœur », et de -phone, « voix, son »."
+    }
+  }
+}

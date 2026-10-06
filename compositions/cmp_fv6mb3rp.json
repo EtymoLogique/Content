@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fv6mb3rp",
+  "mot_id": "unt_xr05svdw",
+  "forme_resultat_id": "frm_dayzhagp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « aérophobie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wdz7x013",
+      "sens_id": "sns_158e3w55",
+      "forme_id": "frm_ad6r0k0a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur de l’air",
+      "explication_courte": "Du grec aḗr, « air », et phóbos, « peur »."
+    }
+  }
+}

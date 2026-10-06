@@ -1,0 +1,51 @@
+{
+  "id": "cmp_qkgavywj",
+  "mot_id": "unt_kyzrfn5r",
+  "forme_resultat_id": "frm_2f3z417f",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmologique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4kfzyw41",
+      "sens_id": "sns_95zb952s",
+      "forme_id": "frm_6q2edeys"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_5cc7ej3v",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de cosmologie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la cosmologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : cosmologie reçoit -ique."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_v2nb69aw",
+  "mot_id": "unt_ts6qkfav",
+  "forme_resultat_id": "frm_66bwdedv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mégalithe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k9gx5qcj",
+      "sens_id": "sns_c225g2cc",
+      "forme_id": "frm_tfe2hb16"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cf67sm62",
+      "sens_id": "sns_7sqh7w99",
+      "forme_id": "frm_3f0sdf8e"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "grande pierre",
+      "explication_courte": "Du grec mégas, « grand », et líthos, « pierre »."
+    }
+  }
+}

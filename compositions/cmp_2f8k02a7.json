@@ -1,0 +1,38 @@
+{
+  "id": "cmp_2f8k02a7",
+  "mot_id": "unt_kdrkvt36",
+  "forme_resultat_id": "frm_c44wad86",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gynécologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6ne44q5r",
+      "sens_id": "sns_b25jahba",
+      "forme_id": "frm_bjnvm93v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste de la femme",
+      "explication_courte": "Du grec gunḗ, « femme », et lógos, « discours »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_82pcnsb0",
+  "mot_id": "unt_dg5kpdc9",
+  "forme_resultat_id": "frm_snkkpg5t",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hypergamie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4tx8033j",
+      "sens_id": "sns_vdzmf7ps",
+      "forme_id": "frm_y87hna9r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_7125dvqm",
+      "sens_id": "sns_6bcs3xgv",
+      "forme_id": "frm_03qn4ze4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mariage au-dessus",
+      "explication_courte": "Du grec hupér, « au-dessus », et gámos, « mariage »."
+    }
+  }
+}

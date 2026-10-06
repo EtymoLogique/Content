@@ -1,0 +1,51 @@
+{
+  "id": "cmp_m9vvnbd3",
+  "mot_id": "unt_yqz76br2",
+  "forme_resultat_id": "frm_g1s13v5n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « pseudonymie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7djh0ry7",
+      "sens_id": "sns_q117m9xs",
+      "forme_id": "frm_7h5rs32a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_he4xcxpr",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de pseudo- s’élide devant -onymie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "usage de faux noms",
+      "explication_courte": "Formé de pseudo-, « faux », et de -onymie, « ensemble des noms »."
+    }
+  }
+}

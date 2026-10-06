@@ -1,0 +1,38 @@
+{
+  "id": "cmp_7g52393c",
+  "mot_id": "unt_9hd0ty0w",
+  "forme_resultat_id": "frm_yvqz9psq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « amorphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_d04r62vs",
+      "sens_id": "sns_zcvr4j12",
+      "forme_id": "frm_pch0vm68"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cacqy935",
+      "sens_id": "sns_ppx9yd71",
+      "forme_id": "frm_2hxsf1ty"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sans forme",
+      "explication_courte": "Du grec ámorphos, « informe »."
+    }
+  }
+}

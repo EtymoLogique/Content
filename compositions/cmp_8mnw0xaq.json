@@ -1,0 +1,38 @@
+{
+  "id": "cmp_8mnw0xaq",
+  "mot_id": "unt_b0vdqrhc",
+  "forme_resultat_id": "frm_qger3n9e",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « sténographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_18a75xz4",
+      "sens_id": "sns_9pnep1b0",
+      "forme_id": "frm_y4d1k38h"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit serré",
+      "explication_courte": "Du grec stenós, « étroit », et gráphein, « écrire »."
+    }
+  }
+}

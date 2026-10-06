@@ -1,0 +1,38 @@
+{
+  "id": "cmp_cmk2z70m",
+  "mot_id": "unt_eaawzvyk",
+  "forme_resultat_id": "frm_wnkmamck",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « typographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_bfygsy31",
+      "sens_id": "sns_vnhhkhdm",
+      "forme_id": "frm_0nemgxe8"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit en caractères",
+      "explication_courte": "Du grec túpos, « caractère », et gráphein, « écrire »."
+    }
+  }
+}

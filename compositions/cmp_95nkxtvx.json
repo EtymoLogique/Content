@@ -1,0 +1,51 @@
+{
+  "id": "cmp_95nkxtvx",
+  "mot_id": "unt_ps0fp3h4",
+  "forme_resultat_id": "frm_qxhg7jw1",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lithographique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_f3dwzk0w",
+      "sens_id": "sns_wbz9az0b",
+      "forme_id": "frm_j1570hnk"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_n3e1fgna",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de lithographie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la lithographie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : lithographie reçoit -ique."
+    }
+  }
+}

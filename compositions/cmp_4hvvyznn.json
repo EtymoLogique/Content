@@ -1,0 +1,38 @@
+{
+  "id": "cmp_4hvvyznn",
+  "mot_id": "unt_nk4z3e9e",
+  "forme_resultat_id": "frm_8brvdpzr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « stratosphère » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_jkv8kd8x",
+      "sens_id": "sns_dx2enrn5",
+      "forme_id": "frm_3jg1s5dv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_sa92ebmw",
+      "sens_id": "sns_v47p9gn5",
+      "forme_id": "frm_wj4ant95"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "globe en couches",
+      "explication_courte": "Du latin stratus, « étendu », et du grec sphaîra, « globe »."
+    }
+  }
+}

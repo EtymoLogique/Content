@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ke8m5q5p",
+  "mot_id": "unt_h7c26xrf",
+  "forme_resultat_id": "frm_kctsg8s2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hypogamie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_xk6sz9vg",
+      "sens_id": "sns_f5wrfgqf",
+      "forme_id": "frm_v92431jc"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_7125dvqm",
+      "sens_id": "sns_6bcs3xgv",
+      "forme_id": "frm_03qn4ze4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mariage au-dessous",
+      "explication_courte": "Du grec hupó, « sous », et gámos, « mariage »."
+    }
+  }
+}

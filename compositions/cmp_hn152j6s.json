@@ -1,0 +1,51 @@
+{
+  "id": "cmp_hn152j6s",
+  "mot_id": "unt_15wte27k",
+  "forme_resultat_id": "frm_q76fqrrm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cosmologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4kfzyw41",
+      "sens_id": "sns_95zb952s",
+      "forme_id": "frm_6q2edeys"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_aakjagds",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le -ie final de cosmologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique la cosmologie",
+      "explication_courte": "Formé de cosmologie, « étude de l’univers », et de -iste, « qui pratique »."
+    }
+  }
+}

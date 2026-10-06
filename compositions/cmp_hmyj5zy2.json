@@ -1,0 +1,38 @@
+{
+  "id": "cmp_hmyj5zy2",
+  "mot_id": "unt_k392ep7j",
+  "forme_resultat_id": "frm_w83gtecq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « graphologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cp8xdmmv",
+      "sens_id": "sns_5kzgrg66",
+      "forme_id": "frm_ckjksfws"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de l’écriture",
+      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours »."
+    }
+  }
+}

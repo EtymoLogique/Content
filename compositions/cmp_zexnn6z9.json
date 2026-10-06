@@ -1,0 +1,38 @@
+{
+  "id": "cmp_zexnn6z9",
+  "mot_id": "unt_yrmms76m",
+  "forme_resultat_id": "frm_7frzvf9g",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hyperphagie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4tx8033j",
+      "sens_id": "sns_vdzmf7ps",
+      "forme_id": "frm_y87hna9r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6t7fkn6e",
+      "sens_id": "sns_7jh3jyk6",
+      "forme_id": "frm_2h439csq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fait de manger au-delà",
+      "explication_courte": "Du grec hupér, « au-dessus », et phageîn, « manger »."
+    }
+  }
+}

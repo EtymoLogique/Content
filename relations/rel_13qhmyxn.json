@@ -1,0 +1,17 @@
+{
+  "id": "rel_13qhmyxn",
+  "unite_source_id": "unt_k05s1jhr",
+  "unite_cible_id": "unt_w18b9t8b",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « icus » du Gaffiot, localisation à renseigner."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_1w4v716d",
+  "mot_id": "unt_9v7fzcf3",
+  "forme_resultat_id": "frm_b06415a8",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « antigène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_j9efe2gf",
+      "sens_id": "sns_bkm03yf0",
+      "forme_id": "frm_9ne7yzeq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui engendre contre",
+      "explication_courte": "Formé au XXᵉ siècle sur anti(corps) et -gène, « qui engendre »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_3d63vsx6",
+  "mot_id": "unt_5njrhtgk",
+  "forme_resultat_id": "frm_gey87abk",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « bibliomane » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rbddryfp",
+      "sens_id": "sns_vkxaxd36",
+      "forme_id": "frm_s6j25acv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_t7qdb2f7",
+      "sens_id": "sns_wqnw6amm",
+      "forme_id": "frm_3578z368"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fou de livres",
+      "explication_courte": "Du grec biblíon, « livre », et manía, « folie »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_jxk4xhsd",
+  "mot_id": "unt_e2t4e927",
+  "forme_resultat_id": "frm_1mzrqpht",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « antiphonie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_j9efe2gf",
+      "sens_id": "sns_bkm03yf0",
+      "forme_id": "frm_9ne7yzeq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hwtkem8c",
+      "sens_id": "sns_4zpmh5ab",
+      "forme_id": "frm_maz669v7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "sonorité qui répond",
+      "explication_courte": "Formé de anti-, « contre », et de -phonie, « sonorité »."
+    }
+  }
+}

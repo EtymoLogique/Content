@@ -1,0 +1,38 @@
+{
+  "id": "cmp_wpday04q",
+  "mot_id": "unt_7mpzjv2s",
+  "forme_resultat_id": "frm_a9cbf59h",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hétéronomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wkxgjecx",
+      "sens_id": "sns_vf7m5yas",
+      "forme_id": "frm_wsbrq5jg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5asf4rdc",
+      "sens_id": "sns_qj46qhhz",
+      "forme_id": "frm_450d3fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "loi d’un autre",
+      "explication_courte": "Du grec héteros, « autre », et nómos, « loi »."
+    }
+  }
+}

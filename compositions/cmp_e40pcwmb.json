@@ -1,0 +1,38 @@
+{
+  "id": "cmp_e40pcwmb",
+  "mot_id": "unt_ba53z3c2",
+  "forme_resultat_id": "frm_amehexba",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « otoscopie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wpgvw6zs",
+      "sens_id": "sns_b1n3vngq",
+      "forme_id": "frm_sge3fyc6"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_58txf6bd",
+      "sens_id": "sns_50t0cv73",
+      "forme_id": "frm_prwycnqq"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "examen de l’oreille",
+      "explication_courte": "Du grec oûs, « oreille », et skopeîn, « observer »."
+    }
+  }
+}

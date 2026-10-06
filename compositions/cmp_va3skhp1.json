@@ -1,0 +1,38 @@
+{
+  "id": "cmp_va3skhp1",
+  "mot_id": "unt_nmdfht35",
+  "forme_resultat_id": "frm_agsa6meq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « aéronaute » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wdz7x013",
+      "sens_id": "sns_158e3w55",
+      "forme_id": "frm_ad6r0k0a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_94xw47dw",
+      "sens_id": "sns_cs689jrp",
+      "forme_id": "frm_q68weayf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "navigateur de l’air",
+      "explication_courte": "Du grec aḗr, « air », et naútēs, « marin »."
+    }
+  }
+}

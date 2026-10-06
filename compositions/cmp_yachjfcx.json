@@ -1,0 +1,51 @@
+{
+  "id": "cmp_yachjfcx",
+  "mot_id": "unt_t2ccs9vw",
+  "forme_resultat_id": "frm_drr7tnm2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « biographique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_gtpfh2pp",
+      "sens_id": "sns_dwdzjqyw",
+      "forme_id": "frm_sev8r0x9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_f5k84xe4",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de biographie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la biographie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biographie reçoit -ique."
+    }
+  }
+}

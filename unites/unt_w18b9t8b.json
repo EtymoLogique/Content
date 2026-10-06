@@ -1,0 +1,62 @@
+{
+  "id": "unt_w18b9t8b",
+  "nature": "suffixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ique » du TLFi, localisation à renseigner."
+  },
+  "affixe": {
+    "statut": "affixe"
+  },
+  "formes": [
+    {
+      "id": "frm_mkeqny60",
+      "texte": "ique",
+      "cle_normalisee": "ique",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ique » du TLFi, localisation à renseigner."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_hj48bcne",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "qui se rapporte à"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": null
+          }
+        ],
+        "note_interne": "À vérifier : entrée « ique » du TLFi, localisation à renseigner."
+      }
+    }
+  ]
+}

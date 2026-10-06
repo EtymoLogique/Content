@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ssg1e7nx",
+  "mot_id": "unt_07snvbjv",
+  "forme_resultat_id": "frm_5jv2jqnj",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « trilogie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfeshxgc",
+      "sens_id": "sns_j5rx110n",
+      "forme_id": "frm_71xe5wth"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "trois discours",
+      "explication_courte": "Du grec trilogía, « suite de trois tragédies »."
+    }
+  }
+}

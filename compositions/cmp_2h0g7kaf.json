@@ -1,0 +1,51 @@
+{
+  "id": "cmp_2h0g7kaf",
+  "mot_id": "unt_52jt9a7s",
+  "forme_resultat_id": "frm_ap2kef1z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monarque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5cfw2nca",
+      "sens_id": "sns_czj7f27r",
+      "forme_id": "frm_dk6dtjga"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_dkjbf6v8",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de mono- s’élide devant -arque."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chef unique",
+      "explication_courte": "Du grec monárkhēs, « qui commande seul »."
+    }
+  }
+}

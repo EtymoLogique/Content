@@ -1,0 +1,38 @@
+{
+  "id": "cmp_2snrtkrj",
+  "mot_id": "unt_5f253fnp",
+  "forme_resultat_id": "frm_dwh0q00f",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monotypie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_bdvbgmge",
+      "sens_id": "sns_w98j3yq7",
+      "forme_id": "frm_1g3h7srf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "impression unique",
+      "explication_courte": "Formé de mono-, « seul, unique », et de -typie, « impression »."
+    }
+  }
+}

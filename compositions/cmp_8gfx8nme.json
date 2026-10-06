@@ -1,0 +1,51 @@
+{
+  "id": "cmp_8gfx8nme",
+  "mot_id": "unt_m1jq4vj5",
+  "forme_resultat_id": "frm_f19krxcv",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phoniatre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_s3qy9egm",
+      "sens_id": "sns_a9d2z7yd",
+      "forme_id": "frm_b17bs6es"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_7t3f1wk0",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de phono- s’élide devant -iatre."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "médecin de la voix",
+      "explication_courte": "Du grec phōnḗ, « voix », et iatrós, « médecin »."
+    }
+  }
+}

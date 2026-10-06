@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0j1kdv62",
+  "mot_id": "unt_30tajnax",
+  "forme_resultat_id": "frm_c9axf32q",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « odontologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_0kft1vzf",
+      "sens_id": "sns_h2a75byj",
+      "forme_id": "frm_nwjsb42a"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des dents",
+      "explication_courte": "Du grec odoús, « dent », et lógos, « discours »."
+    }
+  }
+}

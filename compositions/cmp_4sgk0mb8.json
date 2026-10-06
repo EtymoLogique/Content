@@ -1,0 +1,38 @@
+{
+  "id": "cmp_4sgk0mb8",
+  "mot_id": "unt_rradv3ge",
+  "forme_resultat_id": "frm_3mzxrxdm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « lexicographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_mzg58zsy",
+      "sens_id": "sns_ma19v0wx",
+      "forme_id": "frm_d552dq6r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture des mots",
+      "explication_courte": "Du grec léxis, « mot », et gráphein, « écrire »."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rel_cjk8y4r1",
+  "unite_source_id": "unt_0dy75587",
+  "unite_cible_id": "unt_jrp2c56e",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « λίτρα » du Bailly, localisation à renseigner."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_cwtwb6f8",
+  "mot_id": "unt_s2ktnkf1",
+  "forme_resultat_id": "frm_qq2tt1jr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mythographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2d3s6154",
+      "sens_id": "sns_emx9d0pb",
+      "forme_id": "frm_wnmser7n"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit les mythes",
+      "explication_courte": "Du grec muthográphos, « qui écrit des légendes »."
+    }
+  }
+}

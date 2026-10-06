@@ -1,0 +1,38 @@
+{
+  "id": "cmp_h5x8wazd",
+  "mot_id": "unt_tx91cfh6",
+  "forme_resultat_id": "frm_sv0dyw0s",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « kilolitre » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_15cbkbs3",
+      "sens_id": "sns_q47qc7j2",
+      "forme_id": "frm_7h77amnp"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_jrp2c56e",
+      "sens_id": "sns_cz46jecj",
+      "forme_id": "frm_q2rnjcjw"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mille litres",
+      "explication_courte": "Formé de kilo-, « mille », et de litre, « unité de volume »."
+    }
+  }
+}

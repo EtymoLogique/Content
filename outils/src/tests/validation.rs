@@ -892,7 +892,7 @@ fn exclusion(depot: &Depot, combinaison: [&str; 2], note: Option<&str>) {
     let identifiant = id("exc");
     let mut donnees = json!({
         "id": identifiant, "fascicule_id": depot.fascicule().1["id"], "combinaison": combinaison,
-        "raison": "rare", "etat_relecture": "brouillon",
+        "raison": "archaique", "etat_relecture": "brouillon",
     });
     if let Some(note) = note {
         donnees["note_interne"] = json!(note);

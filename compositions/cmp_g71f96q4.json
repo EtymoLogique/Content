@@ -1,0 +1,51 @@
+{
+  "id": "cmp_g71f96q4",
+  "mot_id": "unt_6k2jzch9",
+  "forme_resultat_id": "frm_7v6nk20y",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « économique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8mwgwsgs",
+      "sens_id": "sns_9ccqaje3",
+      "forme_id": "frm_rtxzaq8x"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_yyyxkk0w",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de économie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’économie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -ique."
+    }
+  }
+}

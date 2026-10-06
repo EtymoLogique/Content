@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fr7jk0hg",
+  "mot_id": "unt_aj7eh8jk",
+  "forme_resultat_id": "frm_rbjkfe7s",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « zootomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pbktznfj",
+      "sens_id": "sns_4zh2hx7t",
+      "forme_id": "frm_jscs10sp"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "coupure des animaux",
+      "explication_courte": "Formé de zoo-, « animal », et de -tomie, « coupure »."
+    }
+  }
+}

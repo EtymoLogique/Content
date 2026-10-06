@@ -1,0 +1,51 @@
+{
+  "id": "cmp_1g9ywgg2",
+  "mot_id": "unt_305p4d9h",
+  "forme_resultat_id": "frm_9x880nfj",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « microbiologique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_spzw8v09",
+      "sens_id": "sns_5nbggq2d",
+      "forme_id": "frm_gktfht7j"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_dmjxvs7k",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de microbiologie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la microbiologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : microbiologie reçoit -ique."
+    }
+  }
+}

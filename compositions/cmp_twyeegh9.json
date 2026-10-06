@@ -1,0 +1,38 @@
+{
+  "id": "cmp_twyeegh9",
+  "mot_id": "unt_0mjdd7yw",
+  "forme_resultat_id": "frm_vhnc0bmp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cryptologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3m238w5v",
+      "sens_id": "sns_av3m737v",
+      "forme_id": "frm_x83k06s3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste du caché",
+      "explication_courte": "Formé de crypto-, « caché », et de -logue, « spécialiste »."
+    }
+  }
+}

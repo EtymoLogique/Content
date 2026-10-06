@@ -1,0 +1,38 @@
+{
+  "id": "cmp_eg609t2b",
+  "mot_id": "unt_jkcesfcp",
+  "forme_resultat_id": "frm_enfdzh48",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « photothèque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg2k1q5r",
+      "sens_id": "sns_e67bsqqj",
+      "forme_id": "frm_hs7escy3"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "armoire à lumière",
+      "explication_courte": "Formé sur photo(graphie) et le grec thḗkē, « coffre »."
+    }
+  }
+}

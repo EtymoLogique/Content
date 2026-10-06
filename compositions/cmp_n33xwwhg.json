@@ -1,0 +1,51 @@
+{
+  "id": "cmp_n33xwwhg",
+  "mot_id": "unt_aesemm9h",
+  "forme_resultat_id": "frm_5zhrw010",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « sympathie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_m6c8rjvy",
+      "sens_id": "sns_zq165rwy",
+      "forme_id": "frm_2cg9hpbn"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pxw8gq61",
+      "sens_id": "sns_vn184vz5",
+      "forme_id": "frm_4qbjm9zf"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_fjxhr9nj",
+      "rang_partie": 1,
+      "type_code": "allomorphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Devant le p de -pathie, syn- prend la forme sym-."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "affection partagée",
+      "explication_courte": "Du grec sumpátheia : sún, « avec », devenu sum- devant p, et páthos, « ce qu’on éprouve »."
+    }
+  }
+}

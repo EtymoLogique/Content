@@ -1,0 +1,38 @@
+{
+  "id": "cmp_j21s1etr",
+  "mot_id": "unt_8fe0bkgt",
+  "forme_resultat_id": "frm_wg2e64cy",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « génotype » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y88h4z4e",
+      "sens_id": "sns_1bhj9z5d",
+      "forme_id": "frm_r2ag3me3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cx7120nd",
+      "sens_id": "sns_1tyve288",
+      "forme_id": "frm_kgzpbgy1"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "modèle de la race",
+      "explication_courte": "Du grec génos, « race », et túpos, « modèle »."
+    }
+  }
+}

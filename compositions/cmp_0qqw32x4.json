@@ -1,0 +1,38 @@
+{
+  "id": "cmp_0qqw32x4",
+  "mot_id": "unt_bshsjjbk",
+  "forme_resultat_id": "frm_crbqhrbc",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hétérogamie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wkxgjecx",
+      "sens_id": "sns_vf7m5yas",
+      "forme_id": "frm_wsbrq5jg"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_7125dvqm",
+      "sens_id": "sns_6bcs3xgv",
+      "forme_id": "frm_03qn4ze4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "autre mariage",
+      "explication_courte": "Formé de hétéro-, « autre », et de -gamie, « mariage »."
+    }
+  }
+}

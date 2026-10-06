@@ -1,0 +1,38 @@
+{
+  "id": "cmp_pqs9ajn5",
+  "mot_id": "unt_7s3zdpft",
+  "forme_resultat_id": "frm_af166dpg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « exogamie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7w5qh08v",
+      "sens_id": "sns_qtcm633q",
+      "forme_id": "frm_43wkbf9r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_7125dvqm",
+      "sens_id": "sns_6bcs3xgv",
+      "forme_id": "frm_03qn4ze4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mariage dehors",
+      "explication_courte": "Du grec éxō, « dehors », et gámos, « mariage »."
+    }
+  }
+}

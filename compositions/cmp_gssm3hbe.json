@@ -1,0 +1,38 @@
+{
+  "id": "cmp_gssm3hbe",
+  "mot_id": "unt_vvm4ndv2",
+  "forme_resultat_id": "frm_hbdnh59n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « sténotypie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_18a75xz4",
+      "sens_id": "sns_9pnep1b0",
+      "forme_id": "frm_y4d1k38h"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_bdvbgmge",
+      "sens_id": "sns_w98j3yq7",
+      "forme_id": "frm_1g3h7srf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "impression abrégée",
+      "explication_courte": "Du grec stenós, « étroit », et túpos, « caractère »."
+    }
+  }
+}

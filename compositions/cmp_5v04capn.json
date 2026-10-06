@@ -1,0 +1,51 @@
+{
+  "id": "cmp_5v04capn",
+  "mot_id": "unt_efayj8wt",
+  "forme_resultat_id": "frm_et9hxnkt",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « phoniatrie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_z3v1k3xs",
+      "sens_id": "sns_xg2p21fd",
+      "forme_id": "frm_3yd0pvt9"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_8a7h4myr",
+      "sens_id": "sns_bmhdna9y",
+      "forme_id": "frm_35xsrabr"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_g34q4tap",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de phono- s’élide devant -iatrie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin de la voix",
+      "explication_courte": "Du grec phōnḗ, « voix », et iatreía, « traitement »."
+    }
+  }
+}

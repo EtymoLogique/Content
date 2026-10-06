@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ynh7rdfj",
+  "mot_id": "unt_naz7gbk8",
+  "forme_resultat_id": "frm_nwkzerzn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géoglyphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k1ktdn0d",
+      "sens_id": "sns_b9rwd12b",
+      "forme_id": "frm_p4s3snyd"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_szmkw333",
+      "sens_id": "sns_ykras3qr",
+      "forme_id": "frm_z9pj8fbv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "gravure de la terre",
+      "explication_courte": "Formé de géo-, « terre », et de -glyphe, « gravure »."
+    }
+  }
+}

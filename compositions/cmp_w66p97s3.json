@@ -1,0 +1,51 @@
+{
+  "id": "cmp_w66p97s3",
+  "mot_id": "unt_r7cx1awj",
+  "forme_resultat_id": "frm_kywaejzr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « monisme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_vytqjb98",
+      "sens_id": "sns_770ct01j",
+      "forme_id": "frm_fsmc83tp"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_z8r00da4",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de mono- s’élide devant -isme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "doctrine de l’unique",
+      "explication_courte": "Du grec mónos, « seul », et du suffixe -isme."
+    }
+  }
+}

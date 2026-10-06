@@ -1,0 +1,51 @@
+{
+  "id": "cmp_m8dpcm6c",
+  "mot_id": "unt_q04na6e5",
+  "forme_resultat_id": "frm_2f7mdfxx",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « orthonyme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_c2rsvxch",
+      "sens_id": "sns_0r6p90gv",
+      "forme_id": "frm_w6krj4xz"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_f8gj0y5y",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de ortho- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom correct",
+      "explication_courte": "Formé de ortho-, « droit, correct », et de -onyme, « nom »."
+    }
+  }
+}

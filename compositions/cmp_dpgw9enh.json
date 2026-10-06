@@ -1,0 +1,38 @@
+{
+  "id": "cmp_dpgw9enh",
+  "mot_id": "unt_gqdbb160",
+  "forme_resultat_id": "frm_e9vgcmw5",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mythographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2d3s6154",
+      "sens_id": "sns_emx9d0pb",
+      "forme_id": "frm_wnmser7n"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture des mythes",
+      "explication_courte": "Formé de mytho-, « récit, mythe », et de -graphie, « écriture »."
+    }
+  }
+}

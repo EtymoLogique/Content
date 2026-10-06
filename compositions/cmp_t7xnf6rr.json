@@ -1,0 +1,51 @@
+{
+  "id": "cmp_t7xnf6rr",
+  "mot_id": "unt_zkcnxwvm",
+  "forme_resultat_id": "frm_wbfg1q9n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « géologique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dg3f1bfz",
+      "sens_id": "sns_5jwf144h",
+      "forme_id": "frm_9kfe8v54"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_d7sg9676",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de géologie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la géologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : géologie reçoit -ique."
+    }
+  }
+}

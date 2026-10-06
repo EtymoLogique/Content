@@ -1,0 +1,38 @@
+{
+  "id": "cmp_ed0gcfca",
+  "mot_id": "unt_pdwta8j2",
+  "forme_resultat_id": "frm_j9rqqgw4",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gynécocratie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6ne44q5r",
+      "sens_id": "sns_b25jahba",
+      "forme_id": "frm_bjnvm93v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_c1rc3mzx",
+      "sens_id": "sns_8bqm5b02",
+      "forme_id": "frm_sc2bjqa9"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pouvoir des femmes",
+      "explication_courte": "Du grec gunḗ, « femme », et krátos, « pouvoir »."
+    }
+  }
+}

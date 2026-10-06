@@ -1,0 +1,38 @@
+{
+  "id": "cmp_9qavsqx3",
+  "mot_id": "unt_k4zrcvp1",
+  "forme_resultat_id": "frm_p6shhvcc",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « idéologue » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q8v7py1y",
+      "sens_id": "sns_wm0d5a90",
+      "forme_id": "frm_p50g1txb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui étudie les idées",
+      "explication_courte": "Du grec idéa, « idée », et lógos, « discours »."
+    }
+  }
+}

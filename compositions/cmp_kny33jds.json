@@ -1,0 +1,51 @@
+{
+  "id": "cmp_kny33jds",
+  "mot_id": "unt_hjpqzgn5",
+  "forme_resultat_id": "frm_wmer40ep",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hiérarque » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pm9m2x2h",
+      "sens_id": "sns_s6ve4fst",
+      "forme_id": "frm_dwskfc10"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5cfw2nca",
+      "sens_id": "sns_czj7f27r",
+      "forme_id": "frm_dk6dtjga"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_6n5xt1pd",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de hiéro- s’élide devant -arque."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chef sacré",
+      "explication_courte": "Formé de hiéro-, « sacré », et de -arque, « chef »."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rel_vm8881je",
+  "unite_source_id": "unt_xsmtkvcg",
+  "unite_cible_id": "unt_y88h4z4e",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_1g2et8hj",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « γένος » du Bailly, localisation à renseigner."
+  }
+}

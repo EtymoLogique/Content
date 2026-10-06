@@ -1,0 +1,38 @@
+{
+  "id": "cmp_np9bj1b1",
+  "mot_id": "unt_t9bvdhej",
+  "forme_resultat_id": "frm_4yqhakgr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « myologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a3e215zn",
+      "sens_id": "sns_e6481xvb",
+      "forme_id": "frm_c9axt919"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des muscles",
+      "explication_courte": "Du grec mûs, « muscle », et lógos, « discours »."
+    }
+  }
+}

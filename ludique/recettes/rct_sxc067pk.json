@@ -1,0 +1,19 @@
+{
+  "id": "rct_sxc067pk",
+  "composition_id": "cmp_77m2s1yy",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_m5wjmaw8"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_19g1hsyz"
+      ]
+    }
+  ],
+  "note_interne": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_5he0a02k",
+  "mot_id": "unt_7cw0k6jh",
+  "forme_resultat_id": "frm_855pq8nw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « myalgie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a3e215zn",
+      "sens_id": "sns_e6481xvb",
+      "forme_id": "frm_c9axt919"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_3k7csgwm",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de myo- s’élide devant -algie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur du muscle",
+      "explication_courte": "Du grec mûs, « muscle », et álgos, « douleur »."
+    }
+  }
+}

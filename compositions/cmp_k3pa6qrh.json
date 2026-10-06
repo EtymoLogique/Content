@@ -1,0 +1,38 @@
+{
+  "id": "cmp_k3pa6qrh",
+  "mot_id": "unt_rfqzteqj",
+  "forme_resultat_id": "frm_y9bs05fz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « pathogène » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y4zd933t",
+      "sens_id": "sns_9f6mst49",
+      "forme_id": "frm_w1t73gkf"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bca4ym3",
+      "sens_id": "sns_6yv0q6pv",
+      "forme_id": "frm_7tbkv7y2"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui engendre la maladie",
+      "explication_courte": "Du grec páthos, « souffrance », et -genḗs, « qui engendre »."
+    }
+  }
+}

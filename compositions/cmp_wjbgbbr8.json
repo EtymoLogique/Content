@@ -1,0 +1,51 @@
+{
+  "id": "cmp_wjbgbbr8",
+  "mot_id": "unt_qnjeqxmq",
+  "forme_resultat_id": "frm_5m7jac84",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cartographique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_mmq9dhtk",
+      "sens_id": "sns_vfc8dwmc",
+      "forme_id": "frm_prq284k7"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_aa8tvpg0",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de cartographie tombe devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à la cartographie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : cartographie reçoit -ique."
+    }
+  }
+}

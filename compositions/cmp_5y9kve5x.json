@@ -1,0 +1,38 @@
+{
+  "id": "cmp_5y9kve5x",
+  "mot_id": "unt_ywtm18ps",
+  "forme_resultat_id": "frm_3gdd63gn",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cryptologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3m238w5v",
+      "sens_id": "sns_av3m737v",
+      "forme_id": "frm_x83k06s3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude du caché",
+      "explication_courte": "Du grec kruptós, « caché », et lógos, « discours »."
+    }
+  }
+}

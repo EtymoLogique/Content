@@ -1,0 +1,38 @@
+{
+  "id": "cmp_56krq7et",
+  "mot_id": "unt_7sjcj2ad",
+  "forme_resultat_id": "frm_3g9x7rrx",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « neurotomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x7vv70j6",
+      "sens_id": "sns_c92hkwps",
+      "forme_id": "frm_4r129g8v"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "coupure du nerf",
+      "explication_courte": "Formé de neuro-, « nerf », et de -tomie, « coupure »."
+    }
+  }
+}

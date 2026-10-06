@@ -1,0 +1,38 @@
+{
+  "id": "cmp_g2jgcsxg",
+  "mot_id": "unt_xypzcmcc",
+  "forme_resultat_id": "frm_4y7twevw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « homochrome » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_f0s3zj1k",
+      "sens_id": "sns_71mvf6yn",
+      "forme_id": "frm_k25v9rz3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_pgpmfd6h",
+      "sens_id": "sns_byabqred",
+      "forme_id": "frm_fcbrrgxb"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "de même couleur",
+      "explication_courte": "Formé de homo-, « même », et de -chrome, « couleur »."
+    }
+  }
+}

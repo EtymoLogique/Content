@@ -1,0 +1,38 @@
+{
+  "id": "cmp_06pdrjwk",
+  "mot_id": "unt_w6c8eagn",
+  "forme_resultat_id": "frm_gs4nzaj0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « triarchie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfeshxgc",
+      "sens_id": "sns_j5rx110n",
+      "forme_id": "frm_71xe5wth"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement de trois",
+      "explication_courte": "Formé de tri-, « trois », et de -archie, « commandement »."
+    }
+  }
+}

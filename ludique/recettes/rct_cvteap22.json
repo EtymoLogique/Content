@@ -1,0 +1,19 @@
+{
+  "id": "rct_cvteap22",
+  "composition_id": "cmp_k3pa6qrh",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_h8d3tpcd"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_j2503p01"
+      ]
+    }
+  ],
+  "note_interne": null
+}

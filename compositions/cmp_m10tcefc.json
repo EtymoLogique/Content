@@ -1,0 +1,38 @@
+{
+  "id": "cmp_m10tcefc",
+  "mot_id": "unt_s4ty69m6",
+  "forme_resultat_id": "frm_ab5nnq9f",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mégaphone » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k9gx5qcj",
+      "sens_id": "sns_c225g2cc",
+      "forme_id": "frm_tfe2hb16"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3qa8qenz",
+      "sens_id": "sns_5j2ng941",
+      "forme_id": "frm_48j9bjyc"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "grande voix",
+      "explication_courte": "Du grec mégas, « grand », et phōnḗ, « voix »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_tgc6f3pj",
+  "mot_id": "unt_hbzreek1",
+  "forme_resultat_id": "frm_qeppx47k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gastrotomie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_5c6c6ayh",
+      "sens_id": "sns_c2wkt69s",
+      "forme_id": "frm_x9pjwb5t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "coupure de l’estomac",
+      "explication_courte": "Du grec gastḗr, « ventre », et tomḗ, « coupure »."
+    }
+  }
+}

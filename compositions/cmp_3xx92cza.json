@@ -1,0 +1,38 @@
+{
+  "id": "cmp_3xx92cza",
+  "mot_id": "unt_dmxqqt3c",
+  "forme_resultat_id": "frm_4bd6t1d0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hippophage » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wj9ynyj3",
+      "sens_id": "sns_ngf2422m",
+      "forme_id": "frm_gvypv966"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3jma5g3z",
+      "sens_id": "sns_6hsybknc",
+      "forme_id": "frm_6drkjf66"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui mange le cheval",
+      "explication_courte": "Du grec híppos, « cheval », et phageîn, « manger »."
+    }
+  }
+}

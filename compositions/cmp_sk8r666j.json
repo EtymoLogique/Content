@@ -1,0 +1,51 @@
+{
+  "id": "cmp_sk8r666j",
+  "mot_id": "unt_81jmqnd2",
+  "forme_resultat_id": "frm_sdnzh8ga",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « ophtalmologiste » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_jn99q821",
+      "sens_id": "sns_56etfn4z",
+      "forme_id": "frm_m4267050"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_zrct36pj",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de ophtalmologie tombe devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’ophtalmologie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : ophtalmologie reçoit -iste."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_t0jjycwn",
+  "mot_id": "unt_wv4y3z2f",
+  "forme_resultat_id": "frm_p732hzwh",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « trimorphe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfeshxgc",
+      "sens_id": "sns_j5rx110n",
+      "forme_id": "frm_71xe5wth"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cacqy935",
+      "sens_id": "sns_ppx9yd71",
+      "forme_id": "frm_2hxsf1ty"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "à trois formes",
+      "explication_courte": "Formé de tri-, « trois », et de -morphe, « forme »."
+    }
+  }
+}

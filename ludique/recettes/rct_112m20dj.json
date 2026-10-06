@@ -1,0 +1,19 @@
+{
+  "id": "rct_112m20dj",
+  "composition_id": "cmp_5v04capn",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_g61wx52f"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_fqnqnefh"
+      ]
+    }
+  ],
+  "note_interne": null
+}

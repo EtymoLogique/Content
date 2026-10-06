@@ -1,0 +1,38 @@
+{
+  "id": "cmp_4s4pf6y3",
+  "mot_id": "unt_hghpmcw8",
+  "forme_resultat_id": "frm_dmzd6wh8",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « idéogramme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_q8v7py1y",
+      "sens_id": "sns_wm0d5a90",
+      "forme_id": "frm_p50g1txb"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "trace d’une idée",
+      "explication_courte": "Du grec idéa, « idée », et grámma, « lettre, trait »."
+    }
+  }
+}

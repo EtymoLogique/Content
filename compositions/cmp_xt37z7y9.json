@@ -1,0 +1,38 @@
+{
+  "id": "cmp_xt37z7y9",
+  "mot_id": "unt_yzh1f0p2",
+  "forme_resultat_id": "frm_bjs0bkmk",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « baroscope » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tsdrcphx",
+      "sens_id": "sns_dmr6284e",
+      "forme_id": "frm_hg02j51q"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_g10m2yeg",
+      "sens_id": "sns_19cdy8tv",
+      "forme_id": "frm_cc2e3r1v"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe le poids",
+      "explication_courte": "Formé de baro-, « poids », et de -scope, « qui observe »."
+    }
+  }
+}

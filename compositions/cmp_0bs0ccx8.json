@@ -1,0 +1,51 @@
+{
+  "id": "cmp_0bs0ccx8",
+  "mot_id": "unt_cnwtsezm",
+  "forme_resultat_id": "frm_tqg5xvna",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « gastrique » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_5c6c6ayh",
+      "sens_id": "sns_c2wkt69s",
+      "forme_id": "frm_x9pjwb5t"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_0jm5tm42",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de gastro- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’estomac",
+      "explication_courte": "Du grec gastḗr, « ventre », et du suffixe -ique."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_y8v00kvw",
+  "mot_id": "unt_0hgy84mm",
+  "forme_resultat_id": "frm_es6e01tk",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « stéréographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ys8y007w",
+      "sens_id": "sns_3k9rxz7g",
+      "forme_id": "frm_0wss1y4w"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture du relief",
+      "explication_courte": "Formé de stéréo-, « solide, en relief », et de -graphie, « écriture »."
+    }
+  }
+}

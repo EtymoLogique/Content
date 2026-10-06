@@ -1,0 +1,51 @@
+{
+  "id": "cmp_2ev00vy5",
+  "mot_id": "unt_x6gf0p9k",
+  "forme_resultat_id": "frm_zp1sc06a",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « économisme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8mwgwsgs",
+      "sens_id": "sns_9ccqaje3",
+      "forme_id": "frm_rtxzaq8x"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_vytqjb98",
+      "sens_id": "sns_770ct01j",
+      "forme_id": "frm_fsmc83tp"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_m0e4gtww",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "La finale -ie de économie tombe devant -isme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "doctrine de l’économie",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -isme."
+    }
+  }
+}

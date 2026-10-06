@@ -1,0 +1,51 @@
+{
+  "id": "cmp_49rqacqf",
+  "mot_id": "unt_d8p191jv",
+  "forme_resultat_id": "frm_j6fvcn8p",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hippiatrie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wj9ynyj3",
+      "sens_id": "sns_ngf2422m",
+      "forme_id": "frm_gvypv966"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_8a7h4myr",
+      "sens_id": "sns_bmhdna9y",
+      "forme_id": "frm_35xsrabr"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_5zj1gkm4",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de hippo- s’élide devant -iatrie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "soin du cheval",
+      "explication_courte": "Du grec híppos, « cheval », et iatreía, « traitement »."
+    }
+  }
+}

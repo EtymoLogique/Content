@@ -1,0 +1,17 @@
+{
+  "id": "rel_jasdpacy",
+  "unite_source_id": "unt_h026v52k",
+  "unite_cible_id": "unt_rymebc5n",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_sytyp4pd",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « mille » du Gaffiot, localisation à renseigner."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_vnrckhqt",
+  "mot_id": "unt_t7df8vw0",
+  "forme_resultat_id": "frm_th0x52zt",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « polythéisme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4194a3jn",
+      "sens_id": "sns_7rtce0td",
+      "forme_id": "frm_1pdfqm0n"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "croyance en plusieurs dieux",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : poly- s’ajoute à théisme."
+    }
+  }
+}

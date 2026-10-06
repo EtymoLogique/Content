@@ -1,0 +1,38 @@
+{
+  "id": "cmp_5gt8tmn9",
+  "mot_id": "unt_vd37kqq9",
+  "forme_resultat_id": "frm_jrqfm8bp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « exobiologie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7w5qh08v",
+      "sens_id": "sns_qtcm633q",
+      "forme_id": "frm_43wkbf9r"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie du dehors",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : exo- s’ajoute à biologie."
+    }
+  }
+}

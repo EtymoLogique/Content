@@ -1,0 +1,51 @@
+{
+  "id": "cmp_1a1jf49b",
+  "mot_id": "unt_3d6qkpzw",
+  "forme_resultat_id": "frm_q5vxrx97",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « antonyme » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_j9efe2gf",
+      "sens_id": "sns_bkm03yf0",
+      "forme_id": "frm_9ne7yzeq"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_ybhsb7a6",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le i final de anti- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom contraire",
+      "explication_courte": "Du grec antí, « contre », et ónoma, « nom »."
+    }
+  }
+}

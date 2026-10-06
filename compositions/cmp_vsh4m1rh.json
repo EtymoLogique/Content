@@ -1,0 +1,38 @@
+{
+  "id": "cmp_vsh4m1rh",
+  "mot_id": "unt_kd95jre4",
+  "forme_resultat_id": "frm_evntyr75",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « hydromancie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kh2jf5en",
+      "sens_id": "sns_7gtcjrfg",
+      "forme_id": "frm_f663egwt"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_thep0hgb",
+      "sens_id": "sns_84v8ta9x",
+      "forme_id": "frm_wm9n3s05"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "divination par l’eau",
+      "explication_courte": "Du grec húdōr, « eau », et manteía, « divination »."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_wdak4qt0",
+  "mot_id": "unt_2mk59ym6",
+  "forme_resultat_id": "frm_s1aax6mq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « pétrographie » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_amveapx6",
+      "sens_id": "sns_z7pakad9",
+      "forme_id": "frm_2zcsh7qk"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "description des roches",
+      "explication_courte": "Du grec pétra, « roche », et gráphein, « écrire »."
+    }
+  }
+}

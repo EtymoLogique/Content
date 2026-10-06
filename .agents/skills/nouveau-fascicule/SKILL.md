@@ -49,7 +49,7 @@ Avant de saisir quoi que ce soit, proposez un plan à l'utilisateur et faites-le
 - **Taille** : 20 à 30 mots résultat, mots croisés compris (ADR 0022). Les ingrédients ne comptent pas.
 - **Affixes** : choisis selon ce qu'ils ouvrent. Un nouvel affixe crée des **mots croisés** avec toutes les briques déjà publiées : listez-les d'abord (skill `nouveau-mot`, § Repérer). Un affixe très productif (*-able*, *-ment*, *dé-*, *in-*) ne s'introduit que si peu de mots publiés peuvent le recevoir.
 - **Tiers** (ADR 0047) : un tiers de mots faciles, moyens et difficiles, à un mot près ; prévoyez assez de mots à transformation (élision, allomorphie) et à sens dérivé pour remplir les deux derniers tiers. Les légendaires et les mots qui en dépendent n'entrent pas dans le compte.
-- **Fermeture** (ADR 0014) : pour toute suite de briques publiées, si une source de référence atteste le mot, il est publié avec sa recette, ou écarté par une **exclusion** motivée (`archaique`, `rare`, `offensant`, `analyse_non_etablie`).
+- **Fermeture** (ADR 0014) : pour toute suite de briques publiées, si une source de référence atteste le mot, il est publié avec sa recette, ou écarté par une **exclusion** motivée (`archaique`, `offensant`).
 - **Autonomie** : tout ingrédient est déclaré dans le fascicule, et publié par lui ou par un fascicule précédent.
 - **Unicité** : un mot n'est le résultat que d'un seul fascicule. Un mot déjà publié peut revenir comme ingrédient (*biologie* + *-iste*), jamais comme résultat.
 - **Langues** : elles découlent des unités et de leurs étymons, et chacune demande sa silhouette (ADR 0023). La langue n'est jamais une brique.

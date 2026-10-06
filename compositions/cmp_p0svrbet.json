@@ -1,0 +1,38 @@
+{
+  "id": "cmp_p0svrbet",
+  "mot_id": "unt_7006a28b",
+  "forme_resultat_id": "frm_kj003hzx",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": null
+      }
+    ],
+    "note_interne": "À vérifier : entrée « cryptographe » du TLFi, localisation à renseigner."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_3m238w5v",
+      "sens_id": "sns_av3m737v",
+      "forme_id": "frm_x83k06s3"
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6jtssz1q",
+      "sens_id": "sns_ws8dq9zy",
+      "forme_id": "frm_rzpfjxff"
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit caché",
+      "explication_courte": "Du grec kruptós, « caché », et gráphein, « écrire »."
+    }
+  }
+}
