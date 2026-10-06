@@ -12,3 +12,6 @@
 
 # Systèmes
 .DS_Store
+
+# Worktrees locales de Claude Code : jamais versionnées
+/.claude/worktrees/
