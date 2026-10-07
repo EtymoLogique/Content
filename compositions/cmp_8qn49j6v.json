@@ -20,13 +20,17 @@
       "rang": 1,
       "unite_id": "unt_28sa9d85",
       "sens_id": "sns_xseh2azz",
-      "forme_id": "frm_3tvsyahf"
+      "forme_id": "frm_3tvsyahf",
+      "segment_debut": 0,
+      "segment_fin": 7
     },
     {
       "rang": 2,
       "unite_id": "unt_wqz6cnsr",
       "sens_id": "sns_eschctms",
-      "forme_id": "frm_vj4gj4zb"
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 7,
+      "segment_fin": 11
     }
   ],
   "transformations": [

@@ -717,6 +717,37 @@ impl<'a> Controleur<'a> {
                         );
                     }
                 }
+                // Les segments pavent le mot : c’est d’eux que viennent les coupes du ricochet « Découper » (ADR 0044).
+                if segments.len() == parties.len() {
+                    let mut position = 0;
+                    for &(debut, fin, rang) in &segments {
+                        if debut > position {
+                            self.erreur(
+                                "composition.pavage",
+                                format!("Un trou précède la partie {rang} : les lettres [{position}, {debut}) n’appartiennent à aucune partie."),
+                                cid,
+                                None,
+                            );
+                        }
+                        position = position.max(fin);
+                    }
+                    if position < longueur {
+                        self.erreur(
+                            "composition.pavage",
+                            format!("Les lettres [{position}, {longueur}) du mot n’appartiennent à aucune partie."),
+                            cid,
+                            None,
+                        );
+                    }
+                }
+            }
+            if segments.len() < parties.len() {
+                self.erreur(
+                    "composition.segments_manquants",
+                    "Chaque partie porte son segment (segment_debut et segment_fin) : sans eux, le ricochet « Découper » ne peut pas couper le mot.",
+                    cid,
+                    None,
+                );
             }
 
             let mut ordres: Vec<&Value> = Vec::new();

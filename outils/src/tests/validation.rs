@@ -317,6 +317,46 @@ fn segment_incomplet() {
 }
 
 #[test]
+fn segments_manquants() {
+    let depot = Depot::new();
+    depot.modifier(depot.composition("géologie"), |c| {
+        for i in 0..2 {
+            c["parties"][i]["segment_debut"] = Value::Null;
+            c["parties"][i]["segment_fin"] = Value::Null;
+        }
+    });
+    assert!(a_erreur(&depot, "composition.segments_manquants"));
+}
+
+#[test]
+fn segments_absents() {
+    let depot = Depot::new();
+    depot.modifier(depot.composition("géologie"), |c| {
+        retirer(&mut c["parties"][1], "segment_debut");
+        retirer(&mut c["parties"][1], "segment_fin");
+    });
+    assert!(a_erreur(&depot, "composition.segments_manquants"));
+}
+
+#[test]
+fn segments_avec_un_trou() {
+    let depot = Depot::new();
+    depot.modifier(depot.composition("géologie"), |c| {
+        c["parties"][1]["segment_debut"] = json!(4);
+    });
+    assert!(a_erreur(&depot, "composition.pavage"));
+}
+
+#[test]
+fn segments_qui_ne_vont_pas_au_bout() {
+    let depot = Depot::new();
+    depot.modifier(depot.composition("géologie"), |c| {
+        c["parties"][1]["segment_fin"] = json!(7);
+    });
+    assert!(a_erreur(&depot, "composition.pavage"));
+}
+
+#[test]
 fn une_seule_composition_preferee() {
     let depot = Depot::new();
     depot.copier_sous(depot.composition("géologie"), &id("cmp"), |c| {

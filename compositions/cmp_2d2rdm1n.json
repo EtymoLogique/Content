@@ -20,13 +20,17 @@
       "rang": 1,
       "unite_id": "unt_gv4a4xz9",
       "sens_id": "sns_81xrxm2a",
-      "forme_id": "frm_mjqj637c"
+      "forme_id": "frm_mjqj637c",
+      "segment_debut": 0,
+      "segment_fin": 6
     },
     {
       "rang": 2,
       "unite_id": "unt_0epc2py5",
       "sens_id": "sns_zvfrc7dz",
-      "forme_id": "frm_1g9hqcy2"
+      "forme_id": "frm_1g9hqcy2",
+      "segment_debut": 6,
+      "segment_fin": 11
     }
   ],
   "libelles": {

@@ -60,7 +60,7 @@ D'abord les parties et les étymons qui manquent, puis le mot.
 
 - `mot_id`, `forme_resultat_id` (forme canonique du mot), `type_analyse` (`synchronique` ou `historique`), `preferee` (une seule analyse préférée par mot).
 - `parties` : au moins deux, `rang` continus à partir de 1, avec `unite_id`, `forme_id` et `sens_id` **de cette unité**. Pas de préfixe en dernier, pas de suffixe en premier.
-- Segments facultatifs : `segment_debut` / `segment_fin`, en points de code sur la forme NFC du mot, fin exclue, sans chevauchement.
+- Segments obligatoires : `segment_debut` / `segment_fin` sur chaque partie, en points de code sur la forme NFC du mot, fin exclue, sans chevauchement ni trou, de la première à la dernière lettre. La partie finale garde sa forme entière et la partie précédente perd la lettre élidée (`biolog · iste`, `top · onyme`). Sans eux, `valider` échoue et le ricochet « Découper » n’a pas de coupe.
 - `transformations` : `type_code` dans `referentiels/types-transformation.json` (`elision`, `voyelle_de_liaison`, `allomorphie`, `adaptation_graphie`, `adaptation_phonetique`, `emprunt_intermediaire`), `rang_partie` (ou `null`), `ordre`, et `libelles.fr.texte` rédigé.
 - `libelles.fr` : `sens_litteral` (« étude de la vie ») et `explication_courte`, rédigés. Le schéma ne les exige pas, mais une carte sans eux n'explique rien au joueur.
 
