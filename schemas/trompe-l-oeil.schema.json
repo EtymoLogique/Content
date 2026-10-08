@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/trompe-l-oeil.schema.json",
+  "title": "Trompe-l’œil",
+  "description": "Paire ordonnée de briques qui s’écrit comme un mot sans en venir, avec son explication (ADR 0052). La clé est la paire d’identifiants de briques, jamais une forme.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "fascicule_id", "combinaison", "motif", "explication_courte", "explication", "fait"],
+  "properties": {
+    "id": { "$ref": "communs.schema.json#/$defs/id_trompe_l_oeil" },
+    "fascicule_id": { "$ref": "communs.schema.json#/$defs/id_fascicule" },
+    "combinaison": {
+      "description": "Exactement deux briques, ordonnées (ADR 0032).",
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "$ref": "communs.schema.json#/$defs/id_brique" }
+    },
+    "mot_id": {
+      "description": "Le mot que les lettres épellent, quand il est dans le catalogue. Facultatif.",
+      "$ref": "communs.schema.json#/$defs/id_unite"
+    },
+    "motif": { "enum": ["autre_origine", "mot_simple", "autre_decoupage"] },
+    "explication_courte": {
+      "description": "Une phrase de 140 caractères au plus, qui ne nomme jamais le mot : lisible tout de suite.",
+      "$ref": "communs.schema.json#/$defs/libelles",
+      "additionalProperties": { "type": "string", "minLength": 1, "maxLength": 140 }
+    },
+    "explication": {
+      "description": "Le mot et sa vraie origine, rédigés : lisibles une fois le mot au codex.",
+      "$ref": "communs.schema.json#/$defs/libelles",
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "fait": { "$ref": "communs.schema.json#/$defs/fait" }
+  }
+}

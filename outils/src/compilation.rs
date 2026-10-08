@@ -2,7 +2,7 @@
 //!
 //! L'artefact reprend l'arborescence du préfixe `staging/` du bucket :
 //!
-//! - `r/<sha256>.json` : ressources (cartes, recettes, exclusions) ;
+//! - `r/<sha256>.json` : ressources (cartes, recettes, exclusions, trompe-l'œil) ;
 //! - `a/<sha256>.<ext>` : médias (silhouettes des cartes et des langues, jaquette) ;
 //! - `f/<sha256>.json` : un manifeste par fascicule ;
 //! - `parutions.json` : calendrier des parutions, seul fichier modifiable. Il
@@ -27,6 +27,7 @@ use sha2::{Digest, Sha256};
 use unicode_normalization::UnicodeNormalization;
 
 use crate::chargement::{Catalogue, Table};
+use crate::homographes;
 use crate::json::{CANONIQUE, a_cle, ecrire, liste, texte, vrai};
 use crate::medias::{self, CleMedia};
 
@@ -100,7 +101,11 @@ impl Artefact {
 /// Chemins des ressources citées par un manifeste, triés et sans doublon.
 #[must_use]
 pub fn ressources(manifeste: &Value) -> Vec<String> {
-    let mut chemins = vec![&manifeste["jaquette"], &manifeste["exclusions"]];
+    let mut chemins = vec![
+        &manifeste["jaquette"],
+        &manifeste["exclusions"],
+        &manifeste["trompes_l_oeil"],
+    ];
     for carte in liste(&manifeste["cartes"]) {
         chemins.extend([&carte["carte"], &carte["silhouette"]]);
     }
@@ -451,6 +456,75 @@ impl<'a> Compilateur<'a> {
             })
     }
 
+    /// Unités déclarées par ce fascicule et par ceux qui le précèdent (parution, puis numéro).
+    fn unites_jusqua(&self, fid: &str) -> BTreeSet<&'a str> {
+        let c = self.c;
+        let cle = |f: &Value| (texte(&f["parution"]).to_owned(), f["numero"].as_i64());
+        let borne = cle(&c.fascicules[fid]);
+        c.fascicules
+            .values()
+            .filter(|f| (self.essai || !vrai(&f["test"])) && cle(f) <= borne)
+            .flat_map(|f| liste(&f["unites"]).iter().map(|u| texte(&u["unite_id"])))
+            .collect()
+    }
+
+    /// Fausses fusions du fascicule (ADR 0052), sans fait ni note : seulement ce que le joueur lit.
+    /// Une brique légendaire n'y figure jamais : un trompe-l'œil trahirait son existence.
+    fn trompes_l_oeil(&self, fid: &str) -> Vec<Value> {
+        tries(&self.c.trompes_l_oeil)
+            .into_iter()
+            .filter(|(_, t)| {
+                t["fascicule_id"] == fid
+                    && retenu(t)
+                    && (self.essai || t["fait"]["etat_relecture"] == "relu")
+                    && !liste(&t["combinaison"]).iter().any(|b| {
+                        self.c
+                            .briques
+                            .get(texte(b))
+                            .is_some_and(|b| b["rarete"] == "legendaire")
+                    })
+            })
+            .map(|(tid, t)| {
+                let mut publie = json!({
+                    "id": tid,
+                    "combinaison": t["combinaison"],
+                    "motif": t["motif"],
+                    "explication_courte": t["explication_courte"],
+                    "explication": t["explication"],
+                });
+                if a_cle(t, "mot_id") {
+                    publie["mot_id"] = t["mot_id"].clone();
+                }
+                publie
+            })
+            .collect()
+    }
+
+    /// Groupes de briques de même forme que ce fascicule fait connaître (ADR 0052) : tous les membres
+    /// déjà publiés, hors légendaires, pour qu'au moins l'un d'eux soit nouveau.
+    fn homographes(&self, fid: &str) -> Vec<Vec<String>> {
+        let c = self.c;
+        let connues = self.unites_jusqua(fid);
+        let nouvelles: BTreeSet<&str> = liste(&c.fascicules[fid]["unites"])
+            .iter()
+            .map(|u| texte(&u["unite_id"]))
+            .collect();
+        let publiee = |bid: &String| {
+            c.briques.get(bid).is_some_and(|b| {
+                b["rarete"] != "legendaire" && connues.contains(texte(&b["unite_id"]))
+            })
+        };
+        homographes::groupes(c)
+            .into_iter()
+            .map(|g| g.into_iter().filter(|b| publiee(b)).collect::<Vec<_>>())
+            .filter(|g| {
+                g.len() > 1
+                    && g.iter()
+                        .any(|b| nouvelles.contains(texte(&c.briques[b]["unite_id"])))
+            })
+            .collect()
+    }
+
     fn fascicule(&mut self, fid: &str) -> Result<Value, String> {
         let c = self.c;
         let fsc = &c.fascicules[fid];
@@ -503,6 +577,9 @@ impl<'a> Compilateur<'a> {
         let chemin_exclusions = self
             .artefact
             .deposer("r", &json!({"exclusions": exclusions}));
+
+        let trompes_l_oeil = self.trompes_l_oeil(fid);
+        let homographes = self.homographes(fid);
 
         // Compteurs hors légendaires et hors mots qui en dépendent (ADR 0015).
         let visibles: Vec<&String> = uids
@@ -576,6 +653,16 @@ impl<'a> Compilateur<'a> {
             // Données de jugement des ricochets, sans aucun texte (ADR 0044).
             "ricochets": self.ricochets(&resultats, &visibles),
         });
+        // Absents quand ils sont vides : un fascicule sans fausse piste garde son empreinte.
+        if !trompes_l_oeil.is_empty() {
+            manifeste["trompes_l_oeil"] = json!(
+                self.artefact
+                    .deposer("r", &json!({"trompes_l_oeil": trompes_l_oeil}))
+            );
+        }
+        if !homographes.is_empty() {
+            manifeste["homographes"] = json!(homographes);
+        }
         if vrai(&fsc["test"]) {
             manifeste["test"] = Value::Bool(true);
         }

@@ -9,6 +9,7 @@ use serde_json::Value;
 use unicode_normalization::UnicodeNormalization;
 
 use crate::chargement::{Catalogue, Table};
+use crate::homographes;
 use crate::json::{a_cle, entier, liste, texte, vrai};
 use crate::medias;
 use crate::rapport::Rapport;
@@ -236,6 +237,7 @@ impl<'a> Controleur<'a> {
         self.recettes();
         self.fascicules();
         self.exclusions();
+        self.trompes_l_oeil();
         self.medias();
         if self.publication {
             self.publiable();
@@ -360,6 +362,9 @@ impl<'a> Controleur<'a> {
         }
         for (rid, relation) in &c.relations {
             faits.push((rid.as_str(), rid.as_str(), &relation["fait"]));
+        }
+        for (tid, trompe) in &c.trompes_l_oeil {
+            faits.push((tid.as_str(), tid.as_str(), &trompe["fait"]));
         }
         faits
     }
@@ -972,7 +977,7 @@ impl<'a> Controleur<'a> {
     }
 
     /// Suites de briques jouables par une recette, dans l'ordre des emplacements.
-    fn suites(emplacements: &[Value]) -> BTreeSet<Vec<String>> {
+    pub(crate) fn suites(emplacements: &[Value]) -> BTreeSet<Vec<String>> {
         let mut ordonnes: Vec<&Value> = emplacements.iter().collect();
         ordonnes.sort_by_key(|e| entier(&e["rang"]));
         let mut suites: Vec<Vec<String>> = vec![Vec::new()];
@@ -1569,6 +1574,199 @@ impl<'a> Controleur<'a> {
         }
     }
 
+    // ------------------------------------------------------------ trompe-l'œil
+
+    /// Unités déclarées par un fascicule et tous ceux qui le précèdent (ordre de parution, puis numéro).
+    fn unites_jusqua(&self, fascicule: &Value) -> HashSet<&'a str> {
+        let borne = (texte(&fascicule["parution"]), entier(&fascicule["numero"]));
+        self.c
+            .fascicules
+            .values()
+            .filter(|f| (texte(&f["parution"]), entier(&f["numero"])) <= borne)
+            .flat_map(|f| liste(&f["unites"]).iter().map(|u| texte(&u["unite_id"])))
+            .collect()
+    }
+
+    /// Trompe-l'œil (ADR 0052) : une paire de briques qui s'écrit comme un mot sans en venir.
+    /// La clé est la paire d'identifiants de briques, jamais une forme : le mauvais homographe
+    /// se calcule, il ne se saisit pas.
+    #[allow(clippy::too_many_lines)]
+    fn trompes_l_oeil(&mut self) {
+        let c = self.c;
+        let autres = homographes::par_brique(&homographes::groupes(c));
+        let mut deja: HashMap<Vec<String>, &str> = HashMap::new();
+        let mut tries: Vec<(&String, &Value)> = c.trompes_l_oeil.iter().collect();
+        tries.sort_by(|a, b| a.0.cmp(b.0));
+        for (tid, trompe) in tries {
+            let fascicule = self.reference(
+                &c.fascicules,
+                trompe["fascicule_id"].as_str(),
+                tid,
+                "fascicule_id",
+                "fascicule",
+                None,
+            );
+            let suite: Vec<String> = liste(&trompe["combinaison"])
+                .iter()
+                .map(|b| texte(b).to_owned())
+                .collect();
+            let briques: Vec<Option<&Value>> = suite
+                .iter()
+                .map(|b| self.reference(&c.briques, Some(b), tid, "combinaison", "brique", None))
+                .collect();
+            if briques.iter().all(Option::is_some)
+                && let Some(fascicule) = fascicule
+            {
+                let declarees = self.unites_jusqua(fascicule);
+                for brique in briques.iter().flatten() {
+                    if !declarees.contains(texte(&brique["unite_id"])) {
+                        self.erreur(
+                            "trompe_l_oeil.paire",
+                            format!(
+                                "La brique {} n'est publiée ni dans ce fascicule ni dans un précédent.",
+                                texte(&brique["id"])
+                            ),
+                            tid,
+                            None,
+                        );
+                    }
+                    if brique["rarete"] == "legendaire" {
+                        self.erreur(
+                            "trompe_l_oeil.legendaire",
+                            format!(
+                                "La brique {} est légendaire : un trompe-l'œil trahirait son existence (ADR 0015).",
+                                texte(&brique["id"])
+                            ),
+                            tid,
+                            None,
+                        );
+                    }
+                }
+            }
+            if let Some(autre) = deja.insert(suite.clone(), tid) {
+                self.erreur(
+                    "trompe_l_oeil.doublon",
+                    format!("Cette paire a déjà le trompe-l'œil {autre}."),
+                    tid,
+                    None,
+                );
+            }
+            let inverse: Vec<String> = suite.iter().rev().cloned().collect();
+            for (suite_testee, lien) in [(&suite, "La paire"), (&inverse, "L'inverse de la paire")]
+            {
+                if let Some(recette) = self.suites_connues.get(suite_testee) {
+                    let message =
+                        format!("{lien} est la recette {recette} : ce n'est pas une fausse piste.");
+                    self.erreur("trompe_l_oeil.recette", message, tid, None);
+                }
+            }
+            if c.exclusions.values().any(|e| {
+                liste(&e["combinaison"])
+                    .iter()
+                    .map(texte)
+                    .eq(suite.iter().map(String::as_str))
+            }) {
+                self.erreur(
+                    "trompe_l_oeil.recette",
+                    "Cette paire est une exclusion : un mot attesté, pas une fausse piste.",
+                    tid,
+                    None,
+                );
+            }
+            for (rang, brique) in suite.iter().enumerate() {
+                for autre in autres.get(brique).into_iter().flatten() {
+                    let mut essai = suite.clone();
+                    essai[rang].clone_from(autre);
+                    if let Some(recette) = self.suites_connues.get(&essai) {
+                        self.erreur(
+                            "trompe_l_oeil.homographe_jouable",
+                            format!(
+                                "Remplacer la brique {rang_humain} par {autre} donne la recette {recette} : le serveur le dit déjà (« bonne forme, autre brique »).",
+                                rang_humain = rang + 1
+                            ),
+                            tid,
+                            None,
+                        );
+                    }
+                }
+            }
+            if let Some(mot_id) = trompe["mot_id"].as_str() {
+                self.trompe_l_oeil_du_mot(tid, trompe, mot_id, &briques);
+            }
+            if liste(&trompe["fait"]["sources"]).is_empty() {
+                self.erreur(
+                    "trompe_l_oeil.sources",
+                    "Un trompe-l'œil affirme que le mot ne vient pas de ces briques : il cite au moins une source.",
+                    tid,
+                    None,
+                );
+            }
+        }
+    }
+
+    /// Contrôles d'un trompe-l'œil qui vise un mot du catalogue : le mot existe, il n'est pas
+    /// composé de ces deux unités, et l'explication courte ne le nomme pas.
+    fn trompe_l_oeil_du_mot(
+        &mut self,
+        tid: &str,
+        trompe: &Value,
+        mot_id: &str,
+        briques: &[Option<&Value>],
+    ) {
+        let c = self.c;
+        let Some(mot) = self.reference(&c.unites, Some(mot_id), tid, "mot_id", "unité", None)
+        else {
+            return;
+        };
+        let unites: Vec<&str> = briques
+            .iter()
+            .flatten()
+            .map(|b| texte(&b["unite_id"]))
+            .collect();
+        let compose_des_deux = c.compositions.values().any(|cmp| {
+            cmp["mot_id"] == mot_id
+                && unites.iter().all(|u| {
+                    liste(&cmp["parties"])
+                        .iter()
+                        .any(|p| texte(&p["unite_id"]) == *u)
+                })
+        });
+        if unites.len() == BRIQUES_PAR_FUSION && compose_des_deux {
+            self.erreur(
+                "trompe_l_oeil.origine",
+                "La composition du mot mobilise bien ces deux unités : c'est une recette, pas une fausse piste.",
+                tid,
+                None,
+            );
+        }
+        let formes: Vec<String> = liste(&mot["formes"])
+            .iter()
+            .flat_map(|f| mots_sans_accents(texte(&f["texte"])))
+            .filter(|f| f.chars().count() >= 3)
+            .collect();
+        if let Some(courtes) = trompe["explication_courte"].as_object() {
+            for (locale, phrase) in courtes {
+                let mots = mots_sans_accents(texte(phrase));
+                // Le mot lui-même ou son pluriel, jamais un simple fragment d'un autre mot.
+                let nomme = mots.iter().any(|m| {
+                    formes.iter().any(|f| {
+                        m == f
+                            || (m.starts_with(f.as_str())
+                                && m.chars().count() <= f.chars().count() + 1)
+                    })
+                });
+                if nomme {
+                    self.erreur(
+                        "trompe_l_oeil.divulgation",
+                        format!("L'explication courte (locale {locale}) nomme le mot : elle se lit avant sa découverte."),
+                        tid,
+                        None,
+                    );
+                }
+            }
+        }
+    }
+
     // ------------------------------------------------------------------ médias
 
     #[allow(clippy::too_many_lines)]
@@ -1865,6 +2063,18 @@ impl<'a> Controleur<'a> {
                 }
                 self.exiger_publiable(fid, fichier_de, fait, &numero);
             }
+            for (tid, trompe) in &c.trompes_l_oeil {
+                if trompe["fascicule_id"] == fsc_id.as_str()
+                    && trompe["fait"]["etat_relecture"] != "relu"
+                {
+                    self.erreur(
+                        "publication.trompe_l_oeil",
+                        format!("Trompe-l'œil de {numero} sans relecture."),
+                        tid,
+                        None,
+                    );
+                }
+            }
             for (eid, exc) in &c.exclusions {
                 if exc["fascicule_id"] == fsc_id.as_str() && exc["etat_relecture"] != "relu" {
                     self.erreur(
@@ -1877,6 +2087,17 @@ impl<'a> Controleur<'a> {
             }
         }
     }
+}
+
+/// Mots d'une phrase en minuscules sans accent : de quoi y retrouver un mot du catalogue.
+pub(crate) fn mots_sans_accents(texte: &str) -> Vec<String> {
+    let nettoye: String = texte
+        .nfd()
+        .filter(|c| !unicode_normalization::char::is_combining_mark(*c))
+        .map(|c| if c.is_alphanumeric() { c } else { ' ' })
+        .flat_map(char::to_lowercase)
+        .collect();
+    nettoye.split_whitespace().map(str::to_owned).collect()
 }
 
 /// Fichiers d'un dossier, récursivement, en chemins découpés : l'ordre de tri est celui de pathlib.

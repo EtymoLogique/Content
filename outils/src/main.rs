@@ -8,9 +8,11 @@ use std::process::ExitCode;
 use clap::builder::PossibleValuesParser;
 use clap::{Parser, Subcommand};
 
+mod candidats;
 mod chargement;
 mod compilation;
 mod controles;
+mod homographes;
 mod ids;
 mod json;
 mod medias;
@@ -74,6 +76,12 @@ enum Commande {
         /// Fichier écrit (par défaut : rapports/catalogue.html, ignoré par Git).
         #[arg(long, default_value = "rapports/catalogue.html")]
         sortie: PathBuf,
+    },
+    /// Lister les paires de briques qui s’écrivent comme un mot du catalogue sans en venir : pièges probables (ADR 0052).
+    TrompeLOeilCandidats {
+        /// Racine du dépôt (par défaut : dossier courant).
+        #[arg(long, default_value = ".")]
+        racine: PathBuf,
     },
     /// Générer des identifiants opaques inédits.
     NouvelId {
@@ -180,6 +188,22 @@ fn executer(commande: Commande) -> Result<u8, String> {
                 json::texte(&parutions["version"]),
                 if essai { "essai" } else { "publication" },
                 sortie.display()
+            );
+            Ok(0)
+        }
+        Commande::TrompeLOeilCandidats { racine } => {
+            let mut rapport = Rapport::default();
+            let catalogue = charger(&racine, &mut rapport)?;
+            let candidats = candidats::chercher(&catalogue);
+            for c in &candidats {
+                println!(
+                    "{} + {} s’écrit « {} » : unité {}",
+                    c.premiere, c.seconde, c.forme, c.mot_id
+                );
+            }
+            eprintln!(
+                "{} paire(s) à examiner (aucune recette, exclusion ni trompe-l’œil ne la couvre).",
+                candidats.len()
             );
             Ok(0)
         }

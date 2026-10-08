@@ -27,12 +27,13 @@ static MOTIF_DATE: LazyLock<Regex> = LazyLock::new(|| {
         .expect("motif valide")
 });
 
-pub const RUBRIQUES: [(&str, &str); 7] = [
+pub const RUBRIQUES: [(&str, &str); 8] = [
     ("integrite", "Intégrité du fascicule"),
     ("relecture", "Relecture et sources"),
     ("medias", "Médias"),
     ("fascicule", "Contenu du fascicule"),
     ("exclusions", "Exclusions"),
+    ("trompes_l_oeil", "Trompe-l’œil"),
     ("calendrier", "Calendrier"),
     (
         "depot",
@@ -366,6 +367,11 @@ pub fn perimetre(catalogue: &Catalogue, fid: &str) -> HashSet<String> {
         .iter()
         .filter(|(_, e)| e["fascicule_id"] == fid)
         .map(|(i, _)| i.clone());
+    let trompes_l_oeil = c
+        .trompes_l_oeil
+        .iter()
+        .filter(|(_, t)| t["fascicule_id"] == fid)
+        .map(|(i, _)| i.clone());
     let mut ids: HashSet<String> = [fid.to_owned()].into();
     ids.extend(unites);
     ids.extend(etymons);
@@ -375,12 +381,15 @@ pub fn perimetre(catalogue: &Catalogue, fid: &str) -> HashSet<String> {
     ids.extend(recettes);
     ids.extend(medias_ids);
     ids.extend(exclusions);
+    ids.extend(trompes_l_oeil);
     ids
 }
 
 fn rubrique(regle: &str) -> &'static str {
     if regle == "publication.exclusion" || regle.starts_with("exclusion.") {
         "exclusions"
+    } else if regle == "publication.trompe_l_oeil" || regle.starts_with("trompe_l_oeil.") {
+        "trompes_l_oeil"
     } else if regle.starts_with("publication.") {
         "relecture"
     } else if regle.starts_with("media.") {

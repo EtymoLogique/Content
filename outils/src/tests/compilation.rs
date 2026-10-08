@@ -8,7 +8,8 @@ use serde_json::{Value, json};
 use tempfile::TempDir;
 
 use super::Depot;
-use super::validation::cli;
+use super::id;
+use super::validation::{cli, trompe_l_oeil};
 use crate::chargement::charger;
 use crate::compilation::{compiler, ecrire_artefact, empreinte, ressources, verifier};
 use crate::json::{liste, texte};
@@ -505,4 +506,108 @@ fn manifeste_porte_les_donnees_de_jugement_des_ricochets() {
             .iter()
             .all(|m| m["coupes"].is_array())
     );
+}
+
+// ------------------------------------------------------------------ trompe-l'œil (ADR 0052)
+
+/// Compile l'essai après avoir préparé le dépôt ; renvoie le manifeste du fascicule d'essai.
+fn manifeste_apres(preparer: impl FnOnce(&Depot)) -> (Value, TempDir) {
+    let depot = Depot::new();
+    preparer(&depot);
+    let sortie = TempDir::new().unwrap();
+    let parutions = compiler_vers(&depot, sortie.path(), true);
+    let fascicule = &liste(&parutions["fascicules"])[0];
+    (manifeste(sortie.path(), fascicule), sortie)
+}
+
+#[test]
+fn sans_fausse_piste_le_manifeste_n_a_pas_de_trompe_l_oeil() {
+    let (manifeste, _) = manifeste_apres(|_| {});
+    assert!(manifeste.get("trompes_l_oeil").is_none());
+    // Les deux briques « a- » du jeu d'exemples sont un groupe d'homographes.
+    assert_eq!(liste(&manifeste["homographes"]).len(), 1);
+}
+
+#[test]
+fn le_trompe_l_oeil_est_publie_sans_fait_ni_note() {
+    let (manifeste, sortie) = manifeste_apres(|depot| {
+        trompe_l_oeil(
+            depot,
+            [&depot.id_brique("géo"), &depot.id_brique("iste")],
+            |t| t["fait"]["note_interne"] = json!("Secret éditorial."),
+        );
+    });
+    let chemin = texte(&manifeste["trompes_l_oeil"]);
+    assert!(ressources(&manifeste).contains(&chemin.to_owned()));
+    let ressource = lire(&sortie.path().join(chemin));
+    let liste_publiee = liste(&ressource["trompes_l_oeil"]);
+    assert_eq!(liste_publiee.len(), 1);
+    let publie = &liste_publiee[0];
+    for cle in [
+        "id",
+        "combinaison",
+        "motif",
+        "explication_courte",
+        "explication",
+    ] {
+        assert!(publie.get(cle).is_some(), "{cle}");
+    }
+    let brut = fs::read_to_string(sortie.path().join(chemin)).unwrap();
+    for interdit in ["fait", "note_interne", "etat_relecture", "Secret éditorial"] {
+        assert!(!brut.contains(interdit), "{interdit} publié");
+    }
+    assert!(verifier(sortie.path()).is_empty());
+}
+
+#[test]
+fn un_fait_non_retenu_n_est_jamais_publie() {
+    let (manifeste, _) = manifeste_apres(|depot| {
+        trompe_l_oeil(
+            depot,
+            [&depot.id_brique("géo"), &depot.id_brique("iste")],
+            |t| t["fait"]["confiance"] = json!("non_retenue"),
+        );
+    });
+    assert!(manifeste.get("trompes_l_oeil").is_none());
+}
+
+#[test]
+fn un_trompe_l_oeil_sur_une_legendaire_n_est_jamais_publie() {
+    let (manifeste, _) = manifeste_apres(|depot| {
+        trompe_l_oeil(
+            depot,
+            [&depot.id_brique("géo"), &depot.id_brique("étymo")],
+            |_| {},
+        );
+    });
+    assert!(manifeste.get("trompes_l_oeil").is_none());
+}
+
+#[test]
+fn les_homographes_sont_publies_par_groupes_sans_legendaire() {
+    let mut nouvelles = (String::new(), String::new());
+    let (manifeste, _) = manifeste_apres(|depot| {
+        let (unite, brique) = (depot.unite("géo"), depot.brique("géo"));
+        let ancienne = texte(&brique.1["id"]).to_owned();
+        let (nouvelle_unite, nouvelle_brique) = (id("unt"), id("brq"));
+        depot.copier_sous(unite, &nouvelle_unite, |u| {
+            u["formes"][0]["id"] = json!(id("frm"));
+            u["sens"][0]["id"] = json!(id("sns"));
+        });
+        depot.copier_sous(brique, &nouvelle_brique, |b| {
+            b["unite_id"] = json!(nouvelle_unite);
+        });
+        depot.modifier(depot.fascicule(), |f| {
+            f["unites"]
+                .as_array_mut()
+                .unwrap()
+                .push(json!({"unite_id": nouvelle_unite, "role": "ingredient"}));
+        });
+        nouvelles = (ancienne, nouvelle_brique);
+    });
+    let mut attendu = vec![nouvelles.0, nouvelles.1];
+    attendu.sort();
+    let groupes = liste(&manifeste["homographes"]);
+    assert_eq!(groupes.len(), 2, "les « a- » et la seconde « géo »");
+    assert!(groupes.contains(&json!(attendu)));
 }
