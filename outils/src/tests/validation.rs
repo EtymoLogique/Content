@@ -968,6 +968,252 @@ fn exclusion_valide() {
     assert!(erreurs(&depot.valider()).is_empty());
 }
 
+// ----------------------------------------------------------------------- trompe-l'œil
+
+pub fn source_quelconque(depot: &Depot) -> String {
+    texte(&depot.lire(&depot.fichiers("sources")[0])["id"]).to_owned()
+}
+
+/// Écrit un trompe-l'œil valide sur la paire donnée, après l'avoir laissé se modifier.
+pub fn trompe_l_oeil(
+    depot: &Depot,
+    combinaison: [&str; 2],
+    modifier: impl FnOnce(&mut Value),
+) -> String {
+    let identifiant = id("tpl");
+    let mut donnees = json!({
+        "id": identifiant, "fascicule_id": depot.fascicule().1["id"], "combinaison": combinaison,
+        "motif": "autre_origine",
+        "explication_courte": {"fr": "Les lettres se suivent, mais le mot n’en vient pas."},
+        "explication": {"fr": "Le mot a une autre histoire que ces deux briques."},
+        "fait": {
+            "confiance": "etablie", "etat_relecture": "brouillon",
+            "sources": [{"source_id": source_quelconque(depot), "localisation": null}],
+            "note_interne": "Cas de test."
+        },
+    });
+    modifier(&mut donnees);
+    depot.ecrire(
+        &depot
+            .racine
+            .join("ludique/trompe-l-oeil")
+            .join(format!("{identifiant}.json")),
+        &donnees,
+    );
+    identifiant
+}
+
+fn paire_libre(depot: &Depot) -> [String; 2] {
+    [depot.id_brique("géo"), depot.id_brique("iste")]
+}
+
+#[test]
+fn trompe_l_oeil_valide() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &b], |_| {});
+    assert!(erreurs(&depot.valider()).is_empty());
+}
+
+#[test]
+fn trompe_l_oeil_exige_deux_briques() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &b], |t| {
+        t["combinaison"] = json!([a, b, a]);
+    });
+    assert!(!erreurs(&depot.valider()).is_empty());
+}
+
+#[test]
+fn trompe_l_oeil_doublon() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &b], |_| {});
+    trompe_l_oeil(&depot, [&a, &b], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.doublon"));
+}
+
+#[test]
+fn trompe_l_oeil_ne_contredit_pas_une_recette_ni_son_inverse() {
+    let depot = Depot::new();
+    let (geo, logie) = (depot.id_brique("géo"), depot.id_brique("logie"));
+    trompe_l_oeil(&depot, [&geo, &logie], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.recette"));
+    let depot = Depot::new();
+    trompe_l_oeil(&depot, [&logie, &geo], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.recette"));
+}
+
+#[test]
+fn trompe_l_oeil_n_est_pas_une_exclusion() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    exclusion(&depot, [&a, &b], None);
+    trompe_l_oeil(&depot, [&a, &b], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.recette"));
+}
+
+#[test]
+fn trompe_l_oeil_brique_inconnue() {
+    let depot = Depot::new();
+    let [a, _] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, "brq_zzzzzzzz"], |_| {});
+    assert!(a_erreur(&depot, "reference.cassee"));
+}
+
+#[test]
+fn trompe_l_oeil_brique_non_publiee_dans_le_fascicule() {
+    let depot = Depot::new();
+    let declarees: Vec<String> = liste(&depot.fascicule().1["unites"])
+        .iter()
+        .map(|u| texte(&u["unite_id"]).to_owned())
+        .collect();
+    let hors = depot
+        .fichiers("ludique/briques")
+        .iter()
+        .map(|p| depot.lire(p))
+        .find(|b| !declarees.contains(&texte(&b["unite_id"]).to_owned()))
+        .expect("une brique d'une unité non déclarée par le fascicule d'essai");
+    let [a, _] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, texte(&hors["id"])], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.paire"));
+}
+
+#[test]
+fn trompe_l_oeil_ne_vise_pas_une_legendaire() {
+    let depot = Depot::new();
+    let [a, _] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &depot.id_brique("étymo")], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.legendaire"));
+}
+
+#[test]
+fn trompe_l_oeil_deja_couvert_par_un_homographe() {
+    // Une seconde brique « géo » : poser celle-là avec « logie » est un mauvais homographe, que le
+    // serveur calcule déjà ; le saisir à la main ferait deux mécanismes pour un seul cas.
+    let depot = Depot::new();
+    let logie = depot.id_brique("logie");
+    let (unite, brique) = (depot.unite("géo"), depot.brique("géo"));
+    let nouvelle_unite = id("unt");
+    depot.copier_sous(unite, &nouvelle_unite, |u| {
+        u["formes"][0]["id"] = json!(id("frm"));
+        u["sens"][0]["id"] = json!(id("sns"));
+    });
+    let nouvelle_brique = id("brq");
+    depot.copier_sous(brique, &nouvelle_brique, |b| {
+        b["unite_id"] = json!(nouvelle_unite);
+    });
+    trompe_l_oeil(&depot, [&nouvelle_brique, &logie], |_| {});
+    assert!(a_erreur(&depot, "trompe_l_oeil.homographe_jouable"));
+}
+
+#[test]
+fn trompe_l_oeil_du_mot_composé_de_ces_deux_unites_est_une_recette() {
+    let depot = Depot::new();
+    let (geo, logie) = (depot.id_brique("géo"), depot.id_brique("logie"));
+    let mot = depot.uid("géologie");
+    trompe_l_oeil(&depot, [&geo, &logie], |t| {
+        t["mot_id"] = json!(mot);
+    });
+    assert!(a_erreur(&depot, "trompe_l_oeil.origine"));
+}
+
+#[test]
+fn trompe_l_oeil_mot_inconnu() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &b], |t| {
+        t["mot_id"] = json!("unt_zzzzzzzz");
+    });
+    assert!(a_erreur(&depot, "reference.cassee"));
+}
+
+#[test]
+fn trompe_l_oeil_ne_nomme_pas_le_mot_dans_l_explication_courte() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    let mot = depot.uid("géologie");
+    trompe_l_oeil(&depot, [&a, &b], |t| {
+        t["mot_id"] = json!(mot);
+        t["explication_courte"] = json!({"fr": "La Géologie n’en vient pas."});
+    });
+    assert!(a_erreur(&depot, "trompe_l_oeil.divulgation"));
+    // Un fragment d'un autre mot n'est pas une divulgation.
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    let mot = depot.uid("géologie");
+    trompe_l_oeil(&depot, [&a, &b], |t| {
+        t["mot_id"] = json!(mot);
+        t["explication_courte"] = json!({"fr": "Les lettres se suivent, mais l’histoire diffère."});
+    });
+    assert!(!a_erreur(&depot, "trompe_l_oeil.divulgation"));
+}
+
+#[test]
+fn trompe_l_oeil_cite_une_source() {
+    let depot = Depot::new();
+    let [a, b] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &b], |t| {
+        t["fait"]["sources"] = json!([]);
+    });
+    assert!(a_erreur(&depot, "trompe_l_oeil.sources"));
+}
+
+#[test]
+fn trompe_l_oeil_non_relu_bloque_la_publication() {
+    let depot = Depot::new();
+    depot.modifier(depot.fascicule(), publier_numero_1);
+    let [a, b] = paire_libre(&depot);
+    trompe_l_oeil(&depot, [&a, &b], |_| {});
+    assert!(erreurs(&depot.valider_publication()).contains("publication.trompe_l_oeil"));
+    // Relu, il ne bloque plus.
+    let depot = Depot::new();
+    depot.modifier(depot.fascicule(), publier_numero_1);
+    trompe_l_oeil(&depot, [&a, &b], |t| {
+        t["fait"]["etat_relecture"] = json!("relu");
+    });
+    assert!(!erreurs(&depot.valider_publication()).contains("publication.trompe_l_oeil"));
+}
+
+#[test]
+fn candidats_listent_les_paires_dont_la_concatenation_est_un_mot() {
+    use crate::candidats::chercher;
+    use crate::chargement::charger;
+    use crate::rapport::Rapport;
+
+    let depot = Depot::new();
+    let (geo, iste, logie) = (
+        depot.id_brique("géo"),
+        depot.id_brique("iste"),
+        depot.id_brique("logie"),
+    );
+    // Un mot « géoiste » : géo + iste s'écrivent comme lui, sans recette.
+    let nouveau = id("unt");
+    depot.copier_sous(depot.unite("géologie"), &nouveau, |u| {
+        u["formes"][0]["id"] = json!(id("frm"));
+        u["formes"][0]["texte"] = json!("géoiste");
+        u["formes"][0]["cle_normalisee"] = json!("geoiste");
+        u["sens"][0]["id"] = json!(id("sns"));
+    });
+    let catalogue = charger(&depot.racine, &mut Rapport::default()).unwrap();
+    let paires: Vec<(String, String)> = chercher(&catalogue)
+        .into_iter()
+        .map(|c| (c.premiere, c.seconde))
+        .collect();
+    assert!(paires.contains(&(geo.clone(), iste.clone())));
+    // Une recette n'est jamais un candidat.
+    assert!(!paires.contains(&(geo.clone(), logie.clone())));
+    // Une fois déclarée, la fausse piste sort de la liste.
+    trompe_l_oeil(&depot, [&geo, &iste], |_| {});
+    let catalogue = charger(&depot.racine, &mut Rapport::default()).unwrap();
+    assert!(
+        !chercher(&catalogue)
+            .into_iter()
+            .any(|c| c.premiere == geo && c.seconde == iste)
+    );
+}
+
 // -------------------------------------------------------------------------- médias
 
 #[test]

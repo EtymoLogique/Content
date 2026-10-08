@@ -18,10 +18,10 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 |---|---|
 | `referentiels/` | Langues, écritures, conventions de translittération, vocabulaires contrôlés. |
 | `sources/`, `unites/`, `compositions/`, `relations/` | Couche linguistique : les faits. |
-| `ludique/` | Couche ludique : briques, recettes, fascicules, exclusions, médias. Elle référence la couche linguistique, jamais l’inverse (ADR 0009). |
+| `ludique/` | Couche ludique : briques, recettes, fascicules, exclusions, trompe-l’œil (ADR 0052), médias. Elle référence la couche linguistique, jamais l’inverse (ADR 0009). |
 | `medias/` | SVG bruts des silhouettes et des jaquettes, sous des noms de travail lisibles, déclarés par `ludique/medias/` (ADR 0026). |
 | `schemas/` | JSON Schema 2020-12, `communs.schema.json` pour les définitions partagées (`fait`, `libelles`, identifiants). |
-| `outils/` | Binaire Rust `etymo-contenu`. `src/` : `chargement.rs` (lecture et schémas), `controles.rs` (contraintes d’intégrité), `medias.rs` (profil SVG, langues citées), `compilation.rs` (artefact en hash de contenu), `visualisation.rs` et `visualisation.html` (page locale du catalogue, jamais publiée), `prepublication.rs` (rapport du skill `preparer-publication`), `rapport.rs`, `ids.rs`, `json.rs`, `main.rs`. |
+| `outils/` | Binaire Rust `etymo-contenu`. `src/` : `chargement.rs` (lecture et schémas), `controles.rs` (contraintes d’intégrité), `medias.rs` (profil SVG, langues citées), `compilation.rs` (artefact en hash de contenu), `homographes.rs` (briques de même forme) et `candidats.rs` (pièges probables, rapport non bloquant), `visualisation.rs` et `visualisation.html` (page locale du catalogue, jamais publiée), `prepublication.rs` (rapport du skill `preparer-publication`), `rapport.rs`, `ids.rs`, `json.rs`, `main.rs`. |
 | `outils/src/tests/` | `mod.rs` copie le dépôt dans un dossier temporaire ; chaque test casse une seule règle. Le fascicule d’essai Bêta est dans `outils/tests/fixtures/`. |
 | `.agents/skills/` | Skills des agents (`.github/skills` est un lien symbolique vers ce dossier). |
 | `imports/`, `rapports/`, `artefact/` | Ignorés par Git. |
@@ -34,6 +34,7 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 - **Un nouveau fait naît `brouillon`.** Seule une relecture humaine le passe à `relu`.
 - **Médias** : tout SVG passe le profil de `outils/src/medias.rs`, une liste blanche contre le XSS. Pas de texte, de titre ni de commentaire : ils trahiraient le mot. N’élargissez le profil qu’avec un test qui prouve que l’ajout est sûr.
 - **`note_interne`** n’est jamais publiée. N’y mettez ni donnée personnelle ni secret.
+- **Trompe-l’œil** (ADR 0052) : une fausse fusion se saisit dans `ludique/trompe-l-oeil/`, avec une explication courte qui ne nomme jamais le mot et une explication complète rédigée, jamais copiée, et au moins une source vérifiée ; n’inventez ni cas ni source. La clé est la paire d’identifiants de briques, jamais une forme. Le mauvais homographe (*a-* « sans » posé là où il fallait *a-* « vers ») se calcule : ne le saisissez pas. `etymo-contenu trompe-l-oeil-candidats` liste les paires à examiner.
 - **Une brique par unité.** Un allomorphe est une forme de la même unité, employée par une transformation `allomorphie`.
 - **La langue n’est jamais une brique**, et un étymon n’a pas de carte propre (ADR 0013).
 - **Vocabulaire du jeu** : « pli » (jamais « pack »), « codex », « exemplaire », « réserve », « brique », « table de fusion », « fascicule ». Langues en toutes lettres dans les libellés (« grec ancien »).

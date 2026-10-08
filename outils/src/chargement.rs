@@ -17,7 +17,7 @@ use crate::rapport::Rapport;
 pub type Table = IndexMap<String, Value>;
 
 /// Dossier → (nom du schéma, préfixe attendu).
-pub const DOSSIERS: [(&str, &str, &str); 12] = [
+pub const DOSSIERS: [(&str, &str, &str); 13] = [
     ("referentiels/langues", "langue", "lng"),
     ("referentiels/ecritures", "ecriture", "ecr"),
     ("referentiels/conventions", "convention", "cnv"),
@@ -29,6 +29,7 @@ pub const DOSSIERS: [(&str, &str, &str); 12] = [
     ("ludique/recettes", "recette", "rct"),
     ("ludique/fascicules", "fascicule", "fsc"),
     ("ludique/exclusions", "exclusion", "exc"),
+    ("ludique/trompe-l-oeil", "trompe-l-oeil", "tpl"),
     ("ludique/medias", "media", "med"),
 ];
 
@@ -53,6 +54,7 @@ pub struct Catalogue {
     pub recettes: Table,
     pub fascicules: Table,
     pub exclusions: Table,
+    pub trompes_l_oeil: Table,
     pub medias: Table,
     pub types_relation: Table,
     pub types_transformation: Table,
@@ -89,6 +91,7 @@ impl Catalogue {
             "recette" => &mut self.recettes,
             "fascicule" => &mut self.fascicules,
             "exclusion" => &mut self.exclusions,
+            "trompe-l-oeil" => &mut self.trompes_l_oeil,
             "media" => &mut self.medias,
             "types-relation" => &mut self.types_relation,
             _ => &mut self.types_transformation,
