@@ -13,7 +13,7 @@
         "localisation": "entrée « théologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « théologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « théologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de Dieu",
-      "explication_courte": "Du grec theós, « dieu », et -logie, « étude »."
+      "explication_courte": "Du grec theós, « dieu », et -logie, « étude ».",
+      "explication_detaillee": "Le grec theós signifie « dieu ». La théologie est le discours sur Dieu. Chez Platon et Aristote, le mot désignait déjà la réflexion sur les dieux, avant d’être repris par la pensée chrétienne."
     }
   }
 }

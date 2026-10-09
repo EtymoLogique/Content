@@ -13,7 +13,7 @@
         "localisation": "entrée « bionomie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « bionomie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « bionomie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "règle de la vie",
-      "explication_courte": "Du grec bíos, « vie », et nómos, « loi »."
+      "explication_courte": "Du grec bíos, « vie », et nómos, « loi ».",
+      "explication_detaillee": "Le grec nómos signifie « usage, règle, loi ». La bionomie est donc l’ensemble des lois qui gouvernent la vie. Le mot est rare et plutôt ancien. Il illustre le même élément nómos que dans agronomie ou astronomie."
     }
   }
 }

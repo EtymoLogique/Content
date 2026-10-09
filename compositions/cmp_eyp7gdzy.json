@@ -13,7 +13,7 @@
         "localisation": "entrée « géosphère »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géosphère » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géosphère » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe de la terre",
-      "explication_courte": "Du grec gê, « terre », et sphaîra, « globe »."
+      "explication_courte": "Du grec gê, « terre », et sphaîra, « globe ».",
+      "explication_detaillee": "Le grec sphaîra désigne un globe. La géosphère est l’ensemble des enveloppes de la Terre qui ne sont pas vivantes. Le terme sert surtout aux sciences de la Terre."
     }
   }
 }

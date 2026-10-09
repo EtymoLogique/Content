@@ -13,7 +13,7 @@
         "localisation": "entrée « sociopathie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « sociopathie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « sociopathie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection de la société",
-      "explication_courte": "Le latin socius, « compagnon », suivi du grec páthos, « ce qu’on éprouve »."
+      "explication_courte": "Le latin socius, « compagnon », suivi du grec páthos, « ce qu’on éprouve ».",
+      "explication_detaillee": "Le latin socius, « compagnon », se joint au grec páthos, « ce qu’on éprouve ». La sociopathie désigne un trouble du comportement qui se manifeste par un rejet des règles de la société. Le mot suit le modèle de psychopathie."
     }
   }
 }

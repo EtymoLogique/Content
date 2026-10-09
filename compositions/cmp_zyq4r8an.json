@@ -13,7 +13,7 @@
         "localisation": "entrée « chronologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « chronologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « chronologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la chronologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : chronologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : chronologie reçoit -iste.",
+      "explication_detaillee": "La chronologie reçoit le suffixe -iste. Le chronologiste est celui qui s’occupe de dater et d’ordonner les événements. Le mot est rare, et plutôt ancien."
     }
   }
 }

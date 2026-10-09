@@ -13,7 +13,7 @@
         "localisation": "entrée « micromètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « micromètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « micromètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure du petit",
-      "explication_courte": "Du grec mikrós, « petit », et métron, « mesure »."
+      "explication_courte": "Du grec mikrós, « petit », et métron, « mesure ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit » et métron « mesure ». Le micromètre est un instrument qui mesure de très petites longueurs. Le mot désigne aussi l’unité qui vaut un millionième de mètre."
     }
   }
 }

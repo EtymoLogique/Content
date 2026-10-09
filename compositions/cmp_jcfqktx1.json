@@ -13,7 +13,7 @@
         "localisation": "entrée « moraliste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « moraliste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « moraliste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la morale",
-      "explication_courte": "De moral et du suffixe -iste, « qui pratique »."
+      "explication_courte": "De moral et du suffixe -iste, « qui pratique ».",
+      "explication_detaillee": "Le mot moral vient du latin moralis, dérivé de mos, « manière d’agir, coutume ». Le suffixe -iste désigne celui qui pratique. Le moraliste est l’auteur qui observe et décrit les mœurs des humains. La Rochefoucauld ou La Bruyère en sont des exemples classiques."
     }
   }
 }

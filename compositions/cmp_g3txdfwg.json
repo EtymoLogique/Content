@@ -13,7 +13,7 @@
         "localisation": "entrée « xylophone »"
       }
     ],
-    "note_interne": "À vérifier : entrée « xylophone » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « xylophone » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son du bois",
-      "explication_courte": "Du grec xúlon, « bois », et phōnḗ, « son »."
+      "explication_courte": "Du grec xúlon, « bois », et phōnḗ, « son ».",
+      "explication_detaillee": "Le grec xúlon signifie « bois » et phōnḗ « voix, son ». Le xylophone est un instrument à lames de bois qu’on frappe. Le mot est du XIXe siècle et décrit son matériau : il fait chanter le bois."
     }
   }
 }

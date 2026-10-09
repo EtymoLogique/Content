@@ -13,7 +13,7 @@
         "localisation": "entrée « astronomie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « astronomie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « astronomie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "règle des astres",
-      "explication_courte": "Du grec ástron, « astre », et nómos, « loi »."
+      "explication_courte": "Du grec ástron, « astre », et nómos, « loi ».",
+      "explication_detaillee": "Le grec nómos signifie « règle, loi ». L’astronomie est donc la règle des astres : l’étude de leurs mouvements. La différence avec l’astrologie, qui interprète, est nette depuis le XVIIe siècle."
     }
   }
 }

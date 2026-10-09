@@ -13,7 +13,7 @@
         "localisation": "entrée « bibliologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « bibliologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « bibliologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du livre",
-      "explication_courte": "Du grec biblíon, « livre », et -logie, « étude »."
+      "explication_courte": "Du grec biblíon, « livre », et -logie, « étude ».",
+      "explication_detaillee": "Le grec biblíon désigne le livre. La bibliologie est l’étude du livre sous tous ses aspects : fabrication, histoire, circulation. Le mot est rare, mais le domaine existe sous d’autres noms."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « thermoscope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermoscope » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermoscope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe la chaleur",
-      "explication_courte": "Du grec thermos, « chaud », et skopein, « observer »."
+      "explication_courte": "Du grec thermos, « chaud », et skopein, « observer ».",
+      "explication_detaillee": "Le grec skopein signifie « observer, examiner ». Le thermoscope est un instrument qui révèle les variations de la chaleur sans la mesurer avec une échelle. Il est l’ancêtre du thermomètre."
     }
   }
 }

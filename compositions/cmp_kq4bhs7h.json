@@ -13,7 +13,7 @@
         "localisation": "entrée « géologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de la terre",
-      "explication_courte": "Du grec gê, « terre », et -logie, « étude »."
+      "explication_courte": "Du grec gê, « terre », et -logie, « étude ».",
+      "explication_detaillee": "Le grec gê désigne la terre. La géologie est l’étude de la Terre, de sa structure et de son histoire. Le mot est un latin savant du Moyen Âge, repris au XVIIIe siècle pour la science moderne."
     }
   }
 }

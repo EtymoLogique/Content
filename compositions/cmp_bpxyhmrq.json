@@ -13,7 +13,7 @@
         "localisation": "entrée « amener »"
       }
     ],
-    "note_interne": "À vérifier : entrée « amener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « amener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mener vers",
-      "explication_courte": "Le préfixe a-, venu du latin ad, indique la direction."
+      "explication_courte": "Le préfixe a-, venu du latin ad, indique la direction.",
+      "explication_detaillee": "Le préfixe a-, venu du latin ad, « vers », marque la direction. Le verbe mener vient du latin minare, qui voulait dire « pousser devant soi » un troupeau. Amener, c’est donc mener quelqu’un ou quelque chose vers soi ou vers un lieu."
     }
   }
 }

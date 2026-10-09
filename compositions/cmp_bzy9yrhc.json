@@ -13,7 +13,7 @@
         "localisation": "entrée « technologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « technologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « technologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de la technique",
-      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et -logie, « étude »."
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et -logie, « étude ».",
+      "explication_detaillee": "Le grec tékhnē signifie « art, savoir-faire ». La technologie est l’étude des techniques. Le mot désignait d’abord un discours sur un art. Il désigne aujourd’hui l’ensemble des techniques d’un domaine."
     }
   }
 }

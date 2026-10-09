@@ -13,7 +13,7 @@
         "localisation": "entrée « neurobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « neurobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « neurobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie des nerfs",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : neuro- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : neuro- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe neuro-, du grec neûron, s’ajoute à un mot que vous connaissez : biologie. La neurobiologie étudie le vivant sous l’angle du système nerveux. Le mot est construit à l’époque moderne."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « théosophie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « théosophie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « théosophie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sagesse divine",
-      "explication_courte": "Du grec theós, « dieu », et sophía, « sagesse »."
+      "explication_courte": "Du grec theós, « dieu », et sophía, « sagesse ».",
+      "explication_detaillee": "Le grec theós signifie « dieu » et sophía « sagesse ». La théosophie est une sagesse divine, un savoir sur Dieu atteint par la contemplation. Le mot est surtout connu comme le nom du mouvement fondé à New York en 1875 par Helena Blavatsky."
     }
   }
 }

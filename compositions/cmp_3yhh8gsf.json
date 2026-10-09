@@ -13,7 +13,7 @@
         "localisation": "entrée « calligraphie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « calligraphie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « calligraphie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "belle écriture",
-      "explication_courte": "Du grec kállos, « beauté », et graphḗ, « écriture »."
+      "explication_courte": "Du grec kállos, « beauté », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec kállos signifie « beauté » et graphḗ « écriture ». La calligraphie est l’art de la belle écriture. Le mot a pris en français le sens d’une pratique artistique, bien au-delà de la simple écriture à la main."
     }
   }
 }

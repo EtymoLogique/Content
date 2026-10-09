@@ -13,7 +13,7 @@
         "localisation": "entrée « diamètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « diamètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « diamètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure à travers",
-      "explication_courte": "Du grec dia, « à travers », et metron, « mesure »."
+      "explication_courte": "Du grec dia, « à travers », et metron, « mesure ».",
+      "explication_detaillee": "Le préfixe diá signifie « à travers » et le grec métron « mesure ». Le diamètre est la mesure qui traverse un cercle en passant par son centre. En grec, diámetros désignait cette ligne."
     }
   }
 }

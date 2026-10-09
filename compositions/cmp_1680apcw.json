@@ -13,7 +13,7 @@
         "localisation": "entrée « zoophile »"
       }
     ],
-    "note_interne": "À vérifier : entrée « zoophile » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « zoophile » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui aime les animaux",
-      "explication_courte": "Du grec zôon, « animal », et philos, « ami »."
+      "explication_courte": "Du grec zôon, « animal », et philos, « ami ».",
+      "explication_detaillee": "Le grec phílos signifie « ami ». Est zoophile celui qui aime les animaux. Le mot a un sens plus large que celui que l’usage lui donne aujourd’hui, mais il désigne bien, à l’origine, l’amour des bêtes."
     }
   }
 }

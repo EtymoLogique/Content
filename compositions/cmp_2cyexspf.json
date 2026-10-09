@@ -13,7 +13,7 @@
         "localisation": "entrée « chronographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « chronographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « chronographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit le temps",
-      "explication_courte": "Du grec khrónos, « temps », et gráphein, « écrire »."
+      "explication_courte": "Du grec khrónos, « temps », et gráphein, « écrire ».",
+      "explication_detaillee": "Le suffixe -graphe, du verbe gráphein, « écrire », désigne la personne ou l’appareil. Le chronographe est un instrument qui enregistre le temps, ou une montre de précision capable de le mesurer par intervalles. Il écrit donc le temps."
     }
   }
 }

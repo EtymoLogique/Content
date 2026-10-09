@@ -13,7 +13,7 @@
         "localisation": "entrée « chronomètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « chronomètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « chronomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure du temps",
-      "explication_courte": "Du grec khrónos, « temps », et métron, « mesure »."
+      "explication_courte": "Du grec khrónos, « temps », et métron, « mesure ».",
+      "explication_detaillee": "Le grec khrónos signifie « temps » et métron « mesure ». Le chronomètre mesure le temps avec précision. Le mot s’est répandu à la fin du XVIIIe siècle, avec les horloges de marine qui permettent de calculer la longitude en mer."
     }
   }
 }

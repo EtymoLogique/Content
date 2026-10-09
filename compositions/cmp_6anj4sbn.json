@@ -13,7 +13,7 @@
         "localisation": "entrée « thermogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé de la chaleur",
-      "explication_courte": "Du grec thermós, « chaud », et grámma, « lettre »."
+      "explication_courte": "Du grec thermós, « chaud », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec thermós signifie « chaud » et grámma « tracé ». Un thermogramme est l’image ou la courbe qui montre la répartition de la chaleur. Il peut être obtenu par thermographie."
     }
   }
 }

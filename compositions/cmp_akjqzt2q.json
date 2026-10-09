@@ -13,7 +13,7 @@
         "localisation": "entrée « télégraphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « télégraphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « télégraphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit au loin",
-      "explication_courte": "Du grec têle, « au loin », et gráphein, « écrire »."
+      "explication_courte": "Du grec têle, « au loin », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec têle signifie « au loin » et gráphein « écrire ». Le télégraphe écrit au loin. L’inventeur Claude Chappe a mis au point un télégraphe optique à signaux, dans les années 1790."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « téléphone »"
       }
     ],
-    "note_interne": "À vérifier : entrée « téléphone » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « téléphone » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "voix au loin",
-      "explication_courte": "Du grec têle, « au loin », et phōnḗ, « voix »."
+      "explication_courte": "Du grec têle, « au loin », et phōnḗ, « voix ».",
+      "explication_detaillee": "Le grec têle signifie « au loin » et phōnḗ « voix ». Le téléphone transmet la voix au loin. Le mot a d’abord nommé d’autres appareils sonores, avant de désigner l’invention d’Alexander Graham Bell en 1876."
     }
   }
 }

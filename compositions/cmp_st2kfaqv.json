@@ -13,7 +13,7 @@
         "localisation": "entrée « technologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « technologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « technologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la technique",
-      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et -logue, « spécialiste »."
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et -logue, « spécialiste ».",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. Le technologue est celui qui étudie les techniques. Le mot est moins courant que technicien, qui désigne celui qui les applique."
     }
   }
 }

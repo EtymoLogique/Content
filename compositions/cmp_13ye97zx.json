@@ -13,7 +13,7 @@
         "localisation": "entrée « baromètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure du poids",
-      "explication_courte": "Du grec báros, « poids », et métron : on pèse l’air."
+      "explication_courte": "Du grec báros, « poids », et métron : on pèse l’air.",
+      "explication_detaillee": "Le grec báros désigne le poids, et métron « mesure ». Le baromètre mesure le poids de l’air, c’est-à-dire la pression atmosphérique. Il tient son nom de cet usage : l’instrument pèse l’atmosphère."
     }
   }
 }

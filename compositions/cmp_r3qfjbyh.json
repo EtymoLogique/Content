@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrothérapie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrothérapie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrothérapie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin par l’eau",
-      "explication_courte": "Du grec húdōr, « eau », et therapeía, « soin »."
+      "explication_courte": "Du grec húdōr, « eau », et therapeía, « soin ».",
+      "explication_detaillee": "Le grec therapeía désigne le soin. L’hydrothérapie soigne par l’eau : bains, douches, cures thermales. La méthode existe depuis l’Antiquité, et le mot est du XIXe siècle."
     }
   }
 }

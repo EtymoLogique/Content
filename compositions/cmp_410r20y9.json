@@ -13,7 +13,7 @@
         "localisation": "entrée « malmener »"
       }
     ],
-    "note_interne": "À vérifier : entrée « malmener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « malmener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mener mal",
-      "explication_courte": "L’adverbe mal s’accole au verbe pour dire la brutalité."
+      "explication_courte": "L’adverbe mal s’accole au verbe pour dire la brutalité.",
+      "explication_detaillee": "L’adverbe mal s’accole au verbe mener. Malmener, c’est mener mal, donc traiter durement, brutaliser. Le sens a glissé de l’idée de conduite vers celle de violence, que le mot garde aujourd’hui."
     }
   }
 }

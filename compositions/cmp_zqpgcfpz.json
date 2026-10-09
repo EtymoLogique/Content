@@ -13,7 +13,7 @@
         "localisation": "entrée « anthropomorphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthropomorphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « anthropomorphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "à forme humaine",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et morphḗ, « forme »."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et morphḗ, « forme ».",
+      "explication_detaillee": "Le grec morphḗ signifie « forme, apparence ». Est anthropomorphe ce qui prend la forme humaine, comme une statue de divinité ou un animal auquel on prête des traits d’homme. Le procédé qui consiste à attribuer des traits humains à ce qui n’en a pas s’appelle l’anthropomorphisme."
     }
   }
 }

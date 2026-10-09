@@ -13,7 +13,7 @@
         "localisation": "entrée « sociogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « sociogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « sociogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé de la société",
-      "explication_courte": "Le latin socius, « compagnon », suivi du grec grámma, « lettre »."
+      "explication_courte": "Le latin socius, « compagnon », suivi du grec grámma, « lettre ».",
+      "explication_detaillee": "Le mot est hybride : le latin socius, « compagnon », se joint au grec grámma, « lettre, tracé ». Un sociogramme est un schéma qui représente les liens entre les membres d’un groupe. Il a été introduit par le psychosociologue Jacob Moreno."
     }
   }
 }

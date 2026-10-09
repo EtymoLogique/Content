@@ -13,7 +13,7 @@
         "localisation": "entrée « thermobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie de la chaleur",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : thermo- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : thermo- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe thermo-, du grec thermós, « chaud », s’ajoute à biologie. La thermobiologie étudie les effets de la température sur les êtres vivants. Le mot est construit à l’époque moderne."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « zoophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « zoophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « zoophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur des animaux",
-      "explication_courte": "Du grec zôion, « animal », et phóbos, « peur »."
+      "explication_courte": "Du grec zôion, « animal », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifie « crainte ». La zoophobie est la peur excessive des animaux. Elle prend des formes plus précises, comme l’arachnophobie pour les araignées."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « microscope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « microscope » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « microscope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe le petit",
-      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer »."
+      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec skopeîn signifie « observer ». Le microscope permet d’observer ce qui est trop petit pour l’œil nu. Le mot est créé au XVIIe siècle sur le modèle de télescope, apparu peu avant."
     }
   }
 }

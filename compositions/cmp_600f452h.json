@@ -13,7 +13,7 @@
         "localisation": "entrée « photomètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photomètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et métron, « mesure »."
+      "explication_courte": "Du grec phôs, « lumière », et métron, « mesure ».",
+      "explication_detaillee": "Le grec phôs signifie « lumière » et métron « mesure ». Le photomètre est un instrument qui mesure l’intensité de la lumière. Le mot est du XVIIIe siècle."
     }
   }
 }

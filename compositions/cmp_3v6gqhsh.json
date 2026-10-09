@@ -13,7 +13,7 @@
         "localisation": "entrée « neurologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « neurologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « neurologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des nerfs",
-      "explication_courte": "Du grec neûron, « nerf », et -logie."
+      "explication_courte": "Du grec neûron, « nerf », et -logie.",
+      "explication_detaillee": "Le grec neûron désignait à l’origine un nerf, mais aussi un tendon ou une corde. La neurologie est l’étude du système nerveux. C’est aussi la spécialité médicale qui soigne ses maladies."
     }
   }
 }

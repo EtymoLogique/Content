@@ -13,7 +13,7 @@
         "localisation": "entrée « autographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « autographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « autographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit soi-même",
-      "explication_courte": "Du grec autós, « soi-même », et gráphein, « écrire »."
+      "explication_courte": "Du grec autós, « soi-même », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même » et gráphein « écrire ». Un autographe est un texte écrit de la main même de son auteur. Le mot désigne aussi la signature qu’une personne célèbre donne à ses admirateurs."
     }
   }
 }

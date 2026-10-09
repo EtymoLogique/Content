@@ -13,7 +13,7 @@
         "localisation": "entrée « télégraphie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « télégraphie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « télégraphie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture au loin",
-      "explication_courte": "Du grec têle, « au loin », et graphḗ, « écriture »."
+      "explication_courte": "Du grec têle, « au loin », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec têle signifie « au loin » et graphḗ « écriture ». La télégraphie est l’art de transmettre des messages à distance. Elle a d’abord reposé sur des signaux visuels, puis sur l’électricité."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « polychrome »"
       }
     ],
-    "note_interne": "À vérifier : entrée « polychrome » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « polychrome » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de nombreuses couleurs",
-      "explication_courte": "Du grec polús, « nombreux », et khrôma, « couleur »."
+      "explication_courte": "Du grec polús, « nombreux », et khrôma, « couleur ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux » et khrôma « couleur ». Est polychrome ce qui est de plusieurs couleurs. Les statues grecques antiques étaient peintes : elles étaient polychromes, même si le marbre nous les montre blanches."
     }
   }
 }

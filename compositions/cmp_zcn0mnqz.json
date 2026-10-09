@@ -13,7 +13,7 @@
         "localisation": "entrée « astrologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « astrologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « astrologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste des astres",
-      "explication_courte": "Du grec ástron, « astre », et -logue."
+      "explication_courte": "Du grec ástron, « astre », et -logue.",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. L’astrologue est celui qui lit dans la position des astres. Le mot a servi aussi à nommer les savants qui étudiaient le ciel, avant que le mot astronome ne s’impose."
     }
   }
 }
