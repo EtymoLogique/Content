@@ -1571,6 +1571,9 @@ pub(super) fn rendre_publiable(depot: &Depot) {
         for chemin in depot.fichiers(dossier) {
             let mut donnees = depot.lire(&chemin);
             relire(&mut donnees["fait"]);
+            if let Some(attestation) = donnees.get_mut("attestation") {
+                relire(&mut attestation["fait"]);
+            }
             for cle in ["formes", "sens"] {
                 for x in donnees
                     .get_mut(cle)
