@@ -802,8 +802,19 @@ fn difficulte_interdite_pour_un_ingredient() {
 fn tiers_de_difficulte() {
     // Le fascicule d'essai ne compte que des mots faciles : écart aux tiers.
     let depot = Depot::new();
-    depot.modifier(depot.fascicule(), publier_numero_1);
+    depot.modifier(depot.fascicule(), |f| {
+        f["test"] = json!(false);
+        f["numero"] = json!(11);
+    });
     assert!(a_avertissement(&depot, "fascicule.tiers"));
+}
+
+#[test]
+fn tiers_libres_pour_un_fascicule_de_lancement() {
+    // ADR 0059 : les dix premiers fascicules ne sont pas tenus aux tiers.
+    let depot = Depot::new();
+    depot.modifier(depot.fascicule(), publier_numero_1);
+    assert!(!a_avertissement(&depot, "fascicule.tiers"));
 }
 
 #[test]

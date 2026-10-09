@@ -23,7 +23,8 @@ const TRAITS_UNION: [char; 6] = [
 ];
 pub const NIVEAUX_DIFFICULTE: [&str; 3] = ["facile", "moyen", "difficile"]; // ADR 0047
 pub const TAILLE_FASCICULE: (usize, usize) = (20, 30); // ADR 0022, paramètre d'équilibrage
-/// ADR 0054 : les dix premiers fascicules publient plus de 30 mots, chaque semaine, les quatre premiers ensemble.
+/// ADR 0054 : les dix premiers fascicules publient plus de 30 mots, chaque semaine, les quatre premiers ensemble ;
+/// ADR 0059 : ils ne sont pas tenus à la règle des tiers.
 pub const FASCICULES_DE_LANCEMENT: i64 = 10;
 /// Règle d'amorçage (game-design) : trois découvertes au moins sans ouvrir de pli.
 pub const MIN_RECETTES_AMORCAGE: usize = 3;
@@ -1329,7 +1330,10 @@ impl<'a> Controleur<'a> {
                 );
             }
             if !test {
-                self.tiers(fid, fsc);
+                // ADR 0059 : la règle des tiers vaut à partir du onzième fascicule.
+                if entier(&fsc["numero"]) > FASCICULES_DE_LANCEMENT {
+                    self.tiers(fid, fsc);
+                }
                 let rarete: HashMap<&str, &str> = c
                     .briques
                     .values()
