@@ -1,0 +1,17 @@
+{
+  "id": "rel_yb2gx0f7",
+  "unite_source_id": "unt_es5qyvwq",
+  "unite_cible_id": "unt_w8m9std7",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « diagramme »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « diagramme » du TLFi, le 9 octobre 2026."
+  }
+}

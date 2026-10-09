@@ -1,0 +1,17 @@
+{
+  "id": "rel_75mt7q8e",
+  "unite_source_id": "unt_qajymh66",
+  "unite_cible_id": "unt_t2kj8sc2",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « géographe »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « géographe » du TLFi, le 9 octobre 2026."
+  }
+}

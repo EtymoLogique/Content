@@ -1,0 +1,17 @@
+{
+  "id": "rel_5bc7s2aj",
+  "unite_source_id": "unt_v6p3x225",
+  "unite_cible_id": "unt_b1f9hrgt",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « philologue »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « philologue » du TLFi, le 9 octobre 2026."
+  }
+}

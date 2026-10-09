@@ -1,0 +1,62 @@
+{
+  "id": "unt_162rhzj7",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « économie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « économie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_hk86p15j",
+      "texte": "oeconomia",
+      "cle_normalisee": "oeconomia",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « économie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « économie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_gm0ytb69",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "organisation, administration"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « économie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « économie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

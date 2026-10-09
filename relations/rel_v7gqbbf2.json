@@ -1,0 +1,17 @@
+{
+  "id": "rel_v7gqbbf2",
+  "unite_source_id": "unt_sw3a0nhw",
+  "unite_cible_id": "unt_fnwcsmnq",
+  "type_code": "derivation",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « diagramme »"
+      }
+    ],
+    "note_interne": "Le TLFi, entrée « diagramme », dit le grec διάγραμμα dérivé de διαγράφειν (consulté le 9 octobre 2026)."
+  }
+}

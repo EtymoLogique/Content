@@ -1,0 +1,17 @@
+{
+  "id": "rel_kj9xbx9m",
+  "unite_source_id": "unt_n83eyc25",
+  "unite_cible_id": "unt_bfbdrfw3",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « calligraphie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « calligraphie » du TLFi, le 9 octobre 2026."
+  }
+}

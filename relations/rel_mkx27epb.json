@@ -1,0 +1,17 @@
+{
+  "id": "rel_mkx27epb",
+  "unite_source_id": "unt_d2a6tz2m",
+  "unite_cible_id": "unt_fhjbd1yr",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « démocratie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « démocratie » du TLFi, le 9 octobre 2026. Le TLFi cite aussi le bas latin democratia, sans trancher l’ordre : chaîne directe depuis le grec."
+  }
+}

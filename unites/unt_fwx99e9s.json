@@ -1,0 +1,68 @@
+{
+  "id": "unt_fwx99e9s",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « polymorphe »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « polymorphe », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_1kghz32n",
+      "texte": "πολύμορφος",
+      "cle_normalisee": "πολύμορφος",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "polúmorphos"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « polymorphe »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « polymorphe », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_atzfm9qz",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "aux formes multiples"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « polymorphe »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « polymorphe », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

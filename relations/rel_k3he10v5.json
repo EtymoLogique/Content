@@ -1,0 +1,17 @@
+{
+  "id": "rel_k3he10v5",
+  "unite_source_id": "unt_cx4ksgs0",
+  "unite_cible_id": "unt_f1vpw9j5",
+  "type_code": "derivation",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « technologie »"
+      }
+    ],
+    "note_interne": "Le TLFi, entrée « technologie », dit le grec τεχνολογία dérivé de τεχνολόγος (consulté le 9 octobre 2026)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rel_9ds5j40g",
+  "unite_source_id": "unt_tb3z5wz4",
+  "unite_cible_id": "unt_efzggmnh",
+  "type_code": "derivation",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « polygamie »"
+      }
+    ],
+    "note_interne": "Le TLFi, entrée « polygamie », dit le grec πολυγαμία dérivé de πολύγαμος (consulté le 9 octobre 2026)."
+  }
+}

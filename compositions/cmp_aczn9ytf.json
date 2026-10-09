@@ -1,0 +1,41 @@
+{
+  "id": "cmp_aczn9ytf",
+  "mot_id": "unt_dvt2qt36",
+  "forme_resultat_id": "frm_rnf33d82",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « monogramme »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « monogramme », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_nxckppp2",
+      "sens_id": "sns_30dxae3e",
+      "forme_id": "frm_yfgcgw58",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n4pyceek",
+      "sens_id": "sns_1h4mywt4",
+      "forme_id": "frm_sef06vfb",
+      "segment_debut": 4,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "lettre unique"
+    }
+  }
+}

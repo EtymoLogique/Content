@@ -1,0 +1,17 @@
+{
+  "id": "rel_y14pcvan",
+  "unite_source_id": "unt_tra5q3q9",
+  "unite_cible_id": "unt_c4mhjzy1",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « paléographie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « paléographie » du TLFi, le 9 octobre 2026."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cmp_ds0ahxr9",
+  "mot_id": "unt_tv7ecwq4",
+  "forme_resultat_id": "frm_vrv2mh7g",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « prologue »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « prologue », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_367aqdg4",
+      "sens_id": "sns_ps88hfbx",
+      "forme_id": "frm_ej5vw3zj",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_nj2qhsme",
+      "sens_id": "sns_34090m5q",
+      "forme_id": "frm_qbzgst5k",
+      "segment_debut": 3,
+      "segment_fin": 8
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "discours d’avant"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "unt_5c7jv9px",
+  "nature": "mot",
+  "langue_id": "lng_8qktr7vk",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « baromètre »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « baromètre », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_6hsk2t5y",
+      "texte": "barometer",
+      "cle_normalisee": "barometer",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « baromètre »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « baromètre », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_bn9sta62",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "instrument qui mesure la pression de l’air"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « baromètre »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « baromètre », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

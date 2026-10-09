@@ -1,0 +1,17 @@
+{
+  "id": "rel_091730da",
+  "unite_source_id": "unt_0e8ewy2e",
+  "unite_cible_id": "unt_gtpfh2pp",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « biographie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « biographie » du TLFi, le 9 octobre 2026."
+  }
+}

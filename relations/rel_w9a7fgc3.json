@@ -1,0 +1,17 @@
+{
+  "id": "rel_w9a7fgc3",
+  "unite_source_id": "unt_018w5crm",
+  "unite_cible_id": "unt_pyw5rdf3",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « astronomie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « astronomie » du TLFi, le 9 octobre 2026."
+  }
+}

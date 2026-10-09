@@ -1,0 +1,17 @@
+{
+  "id": "rel_gey2qnrz",
+  "unite_source_id": "unt_7s51rp9s",
+  "unite_cible_id": "unt_9xm0jxpe",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « autocratie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « autocratie » du TLFi, le 9 octobre 2026. Le TLFi hésite : dérivé de « autocrate », ou emprunt au grec αὐτοκράτεια. Confiance « probable »."
+  }
+}

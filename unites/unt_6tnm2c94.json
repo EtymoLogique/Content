@@ -1,0 +1,68 @@
+{
+  "id": "unt_6tnm2c94",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « anthropologiste, anthropologue »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « anthropologiste, anthropologue », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_ekb9p5h3",
+      "texte": "ἀνθρωπολόγος",
+      "cle_normalisee": "ἀνθρωπολόγος",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "anthrōpológos"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « anthropologiste, anthropologue »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « anthropologiste, anthropologue », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_w21jr0vv",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "qui discourt sur l’être humain"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « anthropologiste, anthropologue »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « anthropologiste, anthropologue », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

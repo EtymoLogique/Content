@@ -1,0 +1,67 @@
+{
+  "id": "unt_b57zsmm4",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « xylophage »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « xylophage », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Latin scientifique, rattaché au latin sans variété (ADR 0013)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_zkd908ks",
+      "texte": "xylophagus",
+      "cle_normalisee": "xylophagus",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « xylophage »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « xylophage », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_tadgk3vw",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "qui ronge le bois"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « xylophage »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « xylophage », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

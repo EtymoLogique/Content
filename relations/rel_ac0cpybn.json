@@ -1,0 +1,17 @@
+{
+  "id": "rel_ac0cpybn",
+  "unite_source_id": "unt_2pr6gqta",
+  "unite_cible_id": "unt_7tha49c2",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « anthropomorphe »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « anthropomorphe » du TLFi, le 9 octobre 2026."
+  }
+}

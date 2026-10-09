@@ -1,0 +1,41 @@
+{
+  "id": "cmp_1dhzwxtf",
+  "mot_id": "unt_znaj5h4m",
+  "forme_resultat_id": "frm_4060bew6",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « polychrome »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « polychrome », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cqp6m0z1",
+      "sens_id": "sns_b9ww0ysm",
+      "forme_id": "frm_hfd26mqm",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_gdesrtxf",
+      "sens_id": "sns_ptt20jzd",
+      "forme_id": "frm_81cyqf98",
+      "segment_debut": 4,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "aux nombreuses couleurs"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "unt_xb17hx12",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « aphone »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « aphone », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_38p5ht06",
+      "texte": "ἄφωνος",
+      "cle_normalisee": "ἄφωνος",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "áphōnos"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « aphone »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « aphone », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_e8n4hrdg",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "sans voix"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « aphone »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « aphone », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}
