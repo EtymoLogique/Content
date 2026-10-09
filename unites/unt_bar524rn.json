@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « monophonie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_nes2rx5a",
+    "annee": 1952,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monophonie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monophonie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

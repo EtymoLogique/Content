@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « homonyme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_ynqb5zc9",
+    "annee": 1534,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « homonyme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « homonyme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

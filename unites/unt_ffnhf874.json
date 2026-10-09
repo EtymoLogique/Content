@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « hippologie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_zs9335fc",
+    "annee": 1858,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « hippologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « hippologie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

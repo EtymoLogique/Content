@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « lithographique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xdka1bv9",
+    "annee": 1816,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « lithographique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « lithographique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

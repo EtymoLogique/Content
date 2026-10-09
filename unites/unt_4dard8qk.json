@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « idéologie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xvbgxepz",
+    "annee": 1796,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « idéologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « idéologie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

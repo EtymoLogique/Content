@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « biographique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xxfr5mwz",
+    "annee": 1800,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « biographique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « biographique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,22 @@
         "note_interne": "À vérifier : entrée « technique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_96ckdckb",
+    "annee": 1684,
+    "precision": "intervalle",
+    "annee_fin": 1687,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « technique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « technique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

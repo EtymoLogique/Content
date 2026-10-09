@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « gastrotomie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_zvwyr8yc",
+    "annee": 1611,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « gastrotomie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « gastrotomie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

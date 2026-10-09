@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « millimètre » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_kcj94z7x",
+    "annee": 1792,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « millimètre »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « millimètre » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

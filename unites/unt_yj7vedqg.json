@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « tachygraphie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_spc4dtg7",
+    "annee": 1681,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « tachygraphie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « tachygraphie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « monarchiste » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_sy01m24z",
+    "annee": 1550,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monarchiste »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monarchiste » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

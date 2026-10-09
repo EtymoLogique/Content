@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « décalitre » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xy4w9p9a",
+    "annee": 1795,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « décalitre »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « décalitre » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

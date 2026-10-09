@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « palindrome » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_wz5fw3w8",
+    "annee": 1765,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « palindrome »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « palindrome » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

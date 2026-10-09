@@ -58,5 +58,22 @@
         "note_interne": "À vérifier : entrée « monarque » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_ae8nfdhk",
+    "annee": 1370,
+    "precision": "intervalle",
+    "annee_fin": 1372,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monarque »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monarque » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }
