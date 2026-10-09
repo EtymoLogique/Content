@@ -6,14 +6,14 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
         "localisation": "entrée « télépathie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « télépathie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "note_interne": "À vérifier : entrée « télépathie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -pathie pointe désormais le sens « ce qu’on ressent » ; à relire."
   },
   "parties": [
     {
@@ -27,7 +27,7 @@
     {
       "rang": 2,
       "unite_id": "unt_pxw8gq61",
-      "sens_id": "sns_vn184vz5",
+      "sens_id": "sns_30qrfh1m",
       "forme_id": "frm_4qbjm9zf",
       "segment_debut": 4,
       "segment_fin": 10
