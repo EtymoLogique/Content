@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_vq9pc1pn",
+    "annee": 1846,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « phonologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « phonologie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « paléographe » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_akb5vxhk",
+    "annee": 1760,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « paléographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « paléographe » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « palaiographe » en 1760, « paléographe » en 1827."
+    }
+  }
 }

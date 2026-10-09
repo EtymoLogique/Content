@@ -1,0 +1,17 @@
+{
+  "id": "rel_3wpcpqwr",
+  "unite_source_id": "unt_g2cvjf6s",
+  "unite_cible_id": "unt_tkt2mava",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « théosophie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « théosophie » du TLFi, le 9 octobre 2026."
+  }
+}

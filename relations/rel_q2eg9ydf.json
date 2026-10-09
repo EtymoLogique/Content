@@ -1,0 +1,17 @@
+{
+  "id": "rel_q2eg9ydf",
+  "unite_source_id": "unt_v52bhdsr",
+  "unite_cible_id": "unt_12zzsstd",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « écologie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « écologie » du TLFi, le 9 octobre 2026. Le TLFi ajoute que l’emprunt à l’allemand s’est « peut-être » fait par l’anglais œcology."
+  }
+}

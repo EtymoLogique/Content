@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « chromolithographie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_tekamvx3",
+    "annee": 1837,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « chromolithographie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « chromolithographie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

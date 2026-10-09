@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « calligraphique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_sp12k8k4",
+    "annee": 1823,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « calligraphique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « calligraphique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

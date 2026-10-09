@@ -1,0 +1,62 @@
+{
+  "id": "unt_060f9et1",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « anthropophage »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « anthropophage », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_n1vnqwde",
+      "texte": "anthropophagus",
+      "cle_normalisee": "anthropophagus",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « anthropophage »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « anthropophage », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_a0q32g9v",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "mangeur d’hommes"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « anthropophage »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « anthropophage », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « bibliographe » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_sd9nxgmj",
+    "annee": 1665,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « bibliographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « bibliographe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

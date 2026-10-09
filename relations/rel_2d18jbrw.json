@@ -1,0 +1,17 @@
+{
+  "id": "rel_2d18jbrw",
+  "unite_source_id": "unt_sran7zzk",
+  "unite_cible_id": "unt_bwmrj0na",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « polygamie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « polygamie » du TLFi, le 9 octobre 2026."
+  }
+}

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « antonyme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_h3jswr5c",
+    "annee": 1866,
+    "precision": "avant",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « antonyme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « antonyme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

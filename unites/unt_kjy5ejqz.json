@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « dialogue » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_bd0h76ny",
+    "annee": 1200,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « dialogue »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « dialogue » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « dialoge » vers 1200."
+    }
+  }
 }

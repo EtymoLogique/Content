@@ -1,0 +1,67 @@
+{
+  "id": "unt_h86tp5c9",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « psychologie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « psychologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Latin humaniste du xvie siècle, rattaché au latin sans variété (ADR 0013)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_btnx8x5q",
+      "texte": "psychologia",
+      "cle_normalisee": "psychologia",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « psychologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « psychologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_cw414xm2",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "science de l’âme"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « psychologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « psychologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

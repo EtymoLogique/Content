@@ -1,0 +1,62 @@
+{
+  "id": "unt_v52bhdsr",
+  "nature": "mot",
+  "langue_id": "lng_x62stdq7",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « écologie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « écologie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_qc0wt4qc",
+      "texte": "Ökologie",
+      "cle_normalisee": "Ökologie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « écologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « écologie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_yjp1p0w0",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "science du milieu"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « écologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « écologie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

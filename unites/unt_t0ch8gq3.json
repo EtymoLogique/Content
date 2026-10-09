@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « astrologue » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_4b9wyhvn",
+    "annee": 1511,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « astrologue »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « astrologue » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi met entre crochets une attestation du xive s. (J. Corbichon) ; première date sûre : 1511."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « polychrome » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_d56nphtt",
+    "annee": 1788,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « polychrome »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « polychrome » du TLFi (cnrtl.fr), le 9 octobre 2026. Attestation isolée en 1788, puis 1834."
+    }
+  }
 }

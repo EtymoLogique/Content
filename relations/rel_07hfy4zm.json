@@ -1,0 +1,17 @@
+{
+  "id": "rel_07hfy4zm",
+  "unite_source_id": "unt_ee1n10g8",
+  "unite_cible_id": "unt_za5nh829",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « hydrophobie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « hydrophobie » du TLFi, le 9 octobre 2026."
+  }
+}

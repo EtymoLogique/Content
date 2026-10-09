@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « anthropologie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_g4bng3jb",
+    "annee": 1516,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « anthropologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « anthropologie » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « entropologie » en 1516, « anthropologie » en 1534."
+    }
+  }
 }

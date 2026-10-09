@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « diamètre » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_qysbxk31",
+    "annee": 1251,
+    "precision": "siecle",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « diamètre »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « diamètre » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi date du 3e quart du xiiie s. ; précision ramenée au siècle (ADR 0056)."
+    }
+  }
 }

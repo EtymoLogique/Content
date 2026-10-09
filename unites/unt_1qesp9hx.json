@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « photographe » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_2h9nnbxt",
+    "annee": 1836,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « photographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « photographe » du TLFi (cnrtl.fr), le 9 octobre 2026. Attesté une première fois en 1836 au sens d’« auteur qui écrit sur la lumière », puis en 1842."
+    }
+  }
 }

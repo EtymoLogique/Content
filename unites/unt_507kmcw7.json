@@ -1,0 +1,62 @@
+{
+  "id": "unt_507kmcw7",
+  "nature": "mot",
+  "langue_id": "lng_dtj32axw",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « télescope »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « télescope », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_hh1j83fv",
+      "texte": "telescopio",
+      "cle_normalisee": "telescopio",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « télescope »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « télescope », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_sarxk22f",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "lunette d’approche"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « télescope »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « télescope », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

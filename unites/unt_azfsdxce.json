@@ -1,0 +1,62 @@
+{
+  "id": "unt_azfsdxce",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « géomètre »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « géomètre », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_swjx284j",
+      "texte": "geometres",
+      "cle_normalisee": "geometres",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « géomètre »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « géomètre », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_2de1jw0p",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "arpenteur, géomètre"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « géomètre »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « géomètre », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

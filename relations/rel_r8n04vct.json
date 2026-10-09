@@ -1,0 +1,17 @@
+{
+  "id": "rel_r8n04vct",
+  "unite_source_id": "unt_yncg4mrn",
+  "unite_cible_id": "unt_npyn6xs7",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « théocratie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « théocratie » du TLFi, le 9 octobre 2026."
+  }
+}

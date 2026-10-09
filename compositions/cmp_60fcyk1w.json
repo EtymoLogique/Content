@@ -1,0 +1,41 @@
+{
+  "id": "cmp_60fcyk1w",
+  "mot_id": "unt_v6p3x225",
+  "forme_resultat_id": "frm_das5cpxb",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « philologue »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « philologue », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pnjsjfct",
+      "sens_id": "sns_ryvbma6b",
+      "forme_id": "frm_xqp9c845",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_nj2qhsme",
+      "sens_id": "sns_34090m5q",
+      "forme_id": "frm_qbzgst5k",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui aime la parole"
+    }
+  }
+}

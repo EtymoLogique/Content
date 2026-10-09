@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « astronomie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_bk9tpsrt",
+    "annee": 1155,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « astronomie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « astronomie » du TLFi (cnrtl.fr), le 9 octobre 2026. Vers 1155, l’Astronomie personnifiée ; 1160 chez Wace."
+    }
+  }
 }

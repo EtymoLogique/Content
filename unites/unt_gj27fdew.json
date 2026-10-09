@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « cosmonaute » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_re3jj0k0",
+    "annee": 1934,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « cosmonaute »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « cosmonaute » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

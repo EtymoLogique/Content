@@ -1,0 +1,62 @@
+{
+  "id": "unt_ap2dqkyy",
+  "nature": "mot",
+  "langue_id": "lng_x62stdq7",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « biologie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « biologie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_4jaxpvmh",
+      "texte": "Biologie",
+      "cle_normalisee": "Biologie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « biologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « biologie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_2gaby8n3",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "science du vivant"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « biologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « biologie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

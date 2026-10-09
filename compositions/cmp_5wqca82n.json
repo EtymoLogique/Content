@@ -1,0 +1,41 @@
+{
+  "id": "cmp_5wqca82n",
+  "mot_id": "unt_5c7jv9px",
+  "forme_resultat_id": "frm_6hsk2t5y",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « baromètre »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « baromètre », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_6thqnyr2",
+      "sens_id": "sns_a79ky1kb",
+      "forme_id": "frm_rc5v4cf8",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_s8qt2w4f",
+      "sens_id": "sns_21jk8vp7",
+      "forme_id": "frm_tavjthjg",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure de la pesanteur"
+    }
+  }
+}

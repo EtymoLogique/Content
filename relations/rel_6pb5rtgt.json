@@ -1,0 +1,17 @@
+{
+  "id": "rel_6pb5rtgt",
+  "unite_source_id": "unt_n6dq5zex",
+  "unite_cible_id": "unt_9ztm7fh6",
+  "type_code": "derivation",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « -nome, -nomie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+  }
+}

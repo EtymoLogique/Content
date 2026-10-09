@@ -6,21 +6,21 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
         "localisation": "entrée « ramener »"
       }
     ],
-    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie re- emploie l’allomorphe r- (allomorphie) au lieu d’une élision ; à relire."
   },
   "parties": [
     {
       "rang": 1,
       "unite_id": "unt_5g9dnpfg",
       "sens_id": "sns_nxjb2gwh",
-      "forme_id": "frm_rrpe8gmv",
+      "forme_id": "frm_mq203z0t",
       "segment_debut": 0,
       "segment_fin": 1
     },
@@ -35,13 +35,13 @@
   ],
   "transformations": [
     {
-      "id": "trf_46f1pt0n",
+      "id": "trf_g3pmejxv",
       "rang_partie": 1,
-      "type_code": "elision",
+      "type_code": "allomorphie",
       "ordre": 1,
       "libelles": {
         "fr": {
-          "texte": "Le e de re- s’élide devant la voyelle initiale d’amener."
+          "texte": "Devant la voyelle de amener, re- prend sa forme r-."
         }
       }
     }

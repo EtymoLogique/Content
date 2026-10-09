@@ -1,0 +1,17 @@
+{
+  "id": "rel_sdh0fy5r",
+  "unite_source_id": "unt_9akebdzz",
+  "unite_cible_id": "unt_hv7sx3zr",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « archéologie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « archéologie » du TLFi, le 9 octobre 2026."
+  }
+}

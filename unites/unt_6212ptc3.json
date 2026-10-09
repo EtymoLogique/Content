@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_t97x86w3",
+    "annee": 1101,
+    "precision": "siecle",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « ramener »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « ramener » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi date de la 1re moitié du xiie s. ; précision ramenée au siècle (ADR 0056)."
+    }
+  }
 }

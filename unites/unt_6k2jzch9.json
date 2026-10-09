@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « économique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_1h7t3wct",
+    "annee": 1265,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « économique² »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « économique² » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi date vers 1265 l’emploi substantif « partie de la philosophie qui regarde le gouvernement d’une famille »."
+    }
+  }
 }

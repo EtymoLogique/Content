@@ -58,5 +58,22 @@
         "note_interne": "À vérifier : entrée « monarchique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_2gm2aey9",
+    "annee": 1372,
+    "precision": "intervalle",
+    "annee_fin": 1374,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monarchique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monarchique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

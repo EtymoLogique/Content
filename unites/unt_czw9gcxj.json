@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « anarchisme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_f37phk81",
+    "annee": 1840,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « anarchisme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « anarchisme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « monisme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_5ar4fv6e",
+    "annee": 1875,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monisme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monisme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

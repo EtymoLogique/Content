@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « lithophage » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_q67fzsff",
+    "annee": 1694,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « lithophage »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « lithophage » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

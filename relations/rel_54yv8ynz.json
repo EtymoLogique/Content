@@ -1,0 +1,17 @@
+{
+  "id": "rel_54yv8ynz",
+  "unite_source_id": "unt_e50a5vf0",
+  "unite_cible_id": "unt_xgvrj42s",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « autonomie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « autonomie » du TLFi, le 9 octobre 2026."
+  }
+}

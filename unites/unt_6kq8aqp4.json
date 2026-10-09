@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « hétérologue » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_jd2mgemg",
+    "annee": 1853,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « hétérologue »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « hétérologue » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « trimètre » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_cyzqmzz5",
+    "annee": 1556,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « trimètre »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « trimètre » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

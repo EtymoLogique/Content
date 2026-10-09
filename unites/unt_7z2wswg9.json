@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « philologie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_bz0wqrge",
+    "annee": 1486,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « philologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « philologie » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « philozogie » en 1486, « philologie » en 1516."
+    }
+  }
 }

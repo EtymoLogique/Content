@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « mythologue » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_fpr7f9yb",
+    "annee": 1546,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « mythologue »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « mythologue » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

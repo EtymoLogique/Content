@@ -57,6 +57,26 @@
         ],
         "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer."
       }
+    },
+    {
+      "id": "sns_r03cf9rf",
+      "rang": 2,
+      "libelles": {
+        "fr": {
+          "glose": "description"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « -graphe, -graphie, -graphique »"
+          }
+        ],
+        "note_interne": "Sens relevé dans l’entrée « -graphe, -graphie, -graphique » du TLFi (cnrtl.fr), consultée le 9 octobre 2026. Glose rédigée. Le TLFi range géographie et démographie parmi les sciences « ayant pour objet la description de faits »."
+      }
     }
   ]
 }

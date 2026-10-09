@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « lexicographe » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_ymht36j2",
+    "annee": 1578,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « lexicographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « lexicographe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

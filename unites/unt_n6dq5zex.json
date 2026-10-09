@@ -1,0 +1,68 @@
+{
+  "id": "unt_n6dq5zex",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « -nome, -nomie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+  },
+  "mot": {
+    "categorie": "verbe"
+  },
+  "formes": [
+    {
+      "id": "frm_xvaqteda",
+      "texte": "νέμειν",
+      "cle_normalisee": "νέμειν",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "némein"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « -nome, -nomie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_h69vs4dv",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "partager, administrer"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « -nome, -nomie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+      }
+    }
+  ]
+}

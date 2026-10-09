@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_9fg4ph03",
+    "annee": 1380,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « cosmique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « cosmique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

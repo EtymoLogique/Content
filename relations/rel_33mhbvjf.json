@@ -1,0 +1,17 @@
+{
+  "id": "rel_33mhbvjf",
+  "unite_source_id": "unt_h86tp5c9",
+  "unite_cible_id": "unt_dhf6bsqq",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « psychologie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « psychologie » du TLFi, le 9 octobre 2026."
+  }
+}

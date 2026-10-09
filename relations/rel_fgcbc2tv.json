@@ -1,0 +1,17 @@
+{
+  "id": "rel_fgcbc2tv",
+  "unite_source_id": "unt_8tbbm4hc",
+  "unite_cible_id": "unt_610nb493",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « technocratie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « technocratie » du TLFi, le 9 octobre 2026. Le TLFi dit « prob. par l’intermédiaire de l’anglo-amér. technocracy » : confiance « probable »."
+  }
+}
