@@ -691,8 +691,19 @@ fn ingredient_inutile() {
 #[test]
 fn taille_du_fascicule() {
     let depot = Depot::new();
-    depot.modifier(depot.fascicule(), publier_numero_1);
+    depot.modifier(depot.fascicule(), |f| {
+        f["test"] = json!(false);
+        f["numero"] = json!(11);
+    });
     assert!(a_avertissement(&depot, "fascicule.taille"));
+}
+
+#[test]
+fn taille_libre_pour_un_fascicule_de_lancement() {
+    // ADR 0054 : les dix premiers fascicules publient plus de 30 mots.
+    let depot = Depot::new();
+    depot.modifier(depot.fascicule(), publier_numero_1);
+    assert!(!a_avertissement(&depot, "fascicule.taille"));
 }
 
 #[test]

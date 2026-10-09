@@ -20,6 +20,8 @@ const TRAITS_UNION: [char; 6] = [
 ];
 pub const NIVEAUX_DIFFICULTE: [&str; 3] = ["facile", "moyen", "difficile"]; // ADR 0047
 pub const TAILLE_FASCICULE: (usize, usize) = (20, 30); // ADR 0022, paramètre d'équilibrage
+/// ADR 0054 : les dix premiers fascicules publient plus de 30 mots, chaque semaine, les quatre premiers ensemble.
+pub const FASCICULES_DE_LANCEMENT: i64 = 10;
 /// Règle d'amorçage (game-design) : trois découvertes au moins sans ouvrir de pli.
 pub const MIN_RECETTES_AMORCAGE: usize = 3;
 /// La table de fusion accepte exactement deux briques : jamais plus de deux éléments à la fois.
@@ -1264,7 +1266,10 @@ impl<'a> Controleur<'a> {
                 }
             }
             let (minimum, maximum) = TAILLE_FASCICULE;
-            if !test && !(minimum..=maximum).contains(&nb_mots) {
+            if !test
+                && entier(&fsc["numero"]) > FASCICULES_DE_LANCEMENT
+                && !(minimum..=maximum).contains(&nb_mots)
+            {
                 self.avert(
                     "fascicule.taille",
                     format!("{nb_mots} mots : un fascicule en publie de {minimum} à {maximum}."),
@@ -1321,7 +1326,8 @@ impl<'a> Controleur<'a> {
         dates.sort_unstable();
         for paire in dates.windows(2) {
             let ((n1, d1, _), (n2, d2, f2)) = (paire[0], paire[1]);
-            if d2 <= d1 {
+            // Deux fascicules de lancement peuvent paraître le même jour (ADR 0054).
+            if d2 < d1 || (d2 == d1 && n2 > FASCICULES_DE_LANCEMENT) {
                 self.avert(
                     "fascicule.chronologie",
                     format!(
