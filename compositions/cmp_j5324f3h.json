@@ -13,7 +13,7 @@
         "localisation": "entrée « biographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture d’une vie",
-      "explication_courte": "Du grec bíos, « vie », et graphḗ, « écriture »."
+      "explication_courte": "Du grec bíos, « vie », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec bíos désigne la vie telle qu’on la mène, une existence, alors que zōḗ désigne le fait d’être vivant. C’est pourquoi bíos convient à la biographie : le récit d’une vie particulière. Le mot est ancien en grec, puis repris par les savants modernes."
     }
   }
 }

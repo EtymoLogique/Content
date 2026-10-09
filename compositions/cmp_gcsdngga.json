@@ -13,7 +13,7 @@
         "localisation": "entrée « démocratie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « démocratie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « démocratie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pouvoir du peuple",
-      "explication_courte": "Du grec dêmos, « peuple », et krátos, « pouvoir »."
+      "explication_courte": "Du grec dêmos, « peuple », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec dêmos signifie « peuple » et krátos « pouvoir ». La démocratie est le pouvoir du peuple. Le mot naît à Athènes, au Ve siècle avant notre ère, pour nommer le régime où les citoyens décident ensemble."
     }
   }
 }

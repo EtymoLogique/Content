@@ -13,7 +13,7 @@
         "localisation": "entrée « thermomètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermomètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la chaleur",
-      "explication_courte": "Du grec thermós, « chaud », et métron, « mesure »."
+      "explication_courte": "Du grec thermós, « chaud », et métron, « mesure ».",
+      "explication_detaillee": "Le grec thermós signifie « chaud » et métron « mesure ». Le thermomètre mesure la chaleur. Le mot est formé au XVIIe siècle, au moment où les premiers instruments de ce genre se répandent en Europe."
     }
   }
 }

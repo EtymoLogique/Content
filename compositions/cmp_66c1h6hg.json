@@ -13,7 +13,7 @@
         "localisation": "entrée « chronoscope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « chronoscope » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « chronoscope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe le temps",
-      "explication_courte": "Du grec khronos, « temps », et skopein, « observer »."
+      "explication_courte": "Du grec khronos, « temps », et skopein, « observer ».",
+      "explication_detaillee": "Le grec skopein signifie « observer ». Le chronoscope est un appareil qui permet de mesurer de très courts intervalles de temps. Il a servi en psychologie expérimentale pour mesurer des temps de réaction."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « géologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la terre",
-      "explication_courte": "Du grec gê, « terre », et -logue, « spécialiste »."
+      "explication_courte": "Du grec gê, « terre », et -logue, « spécialiste ».",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. Le géologue est celui qui étudie les roches, les sols et l’histoire de la Terre. Il est le nom de personne qui correspond à géologie."
     }
   }
 }

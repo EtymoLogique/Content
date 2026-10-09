@@ -13,7 +13,7 @@
         "localisation": "entrée « photogène »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photogène » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photogène » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et gennáō, « engendrer »."
+      "explication_courte": "Du grec phôs, « lumière », et gennáō, « engendrer ».",
+      "explication_detaillee": "Le grec gennáō signifie « engendrer ». Est photogène ce qui produit de la lumière, ou ce qui rend bien en photo. Le second sens s’emploie par exemple pour un visage photogénique."
     }
   }
 }

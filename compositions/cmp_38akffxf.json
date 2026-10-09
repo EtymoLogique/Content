@@ -13,7 +13,7 @@
         "localisation": "entrée « biologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la vie",
-      "explication_courte": "Du grec bíos, « vie », et -logue, « spécialiste »."
+      "explication_courte": "Du grec bíos, « vie », et -logue, « spécialiste ».",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste d’un domaine : ici, celui de la vie. Biologue et biologiste sont presque synonymes. Le premier suit le modèle de géologue ou de psychologue."
     }
   }
 }

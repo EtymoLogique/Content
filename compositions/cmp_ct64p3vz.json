@@ -13,7 +13,7 @@
         "localisation": "entrée « démographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « démographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « démographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit le peuple",
-      "explication_courte": "Du grec dêmos, « peuple », et gráphein, « écrire »."
+      "explication_courte": "Du grec dêmos, « peuple », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec dêmos signifie « peuple » et gráphein « écrire ». Le démographe est le spécialiste qui étudie les populations : leur nombre, leur âge, leurs naissances et leurs décès."
     }
   }
 }

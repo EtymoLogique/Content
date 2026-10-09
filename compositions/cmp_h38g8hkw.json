@@ -13,7 +13,7 @@
         "localisation": "entrée « biomorphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biomorphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biomorphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "à forme du vivant",
-      "explication_courte": "Du grec bíos, « vie », et morphḗ, « forme »."
+      "explication_courte": "Du grec bíos, « vie », et morphḗ, « forme ».",
+      "explication_detaillee": "Le grec morphḗ, « forme », est le second élément. Est biomorphe ce qui imite des formes vivantes, par exemple dans l’art ou le dessin. Le mot appartient surtout au vocabulaire de l’esthétique."
     }
   }
 }

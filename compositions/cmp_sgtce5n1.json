@@ -13,7 +13,7 @@
         "localisation": "entrée « anthropologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthropologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « anthropologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de l’être humain",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et -logie, « étude »."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et -logie, « étude ».",
+      "explication_detaillee": "Le mot associe ánthrōpos, « être humain », à -logie, qui vient du grec lógos, « parole, discours ». Vous retrouvez ce second élément dans des dizaines de noms de sciences. L’anthropologie est l’étude de l’être humain, de son corps comme de ses sociétés."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « géophone »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géophone » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géophone » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "voix de la terre",
-      "explication_courte": "Du grec gê, « terre », et phônê, « voix »."
+      "explication_courte": "Du grec gê, « terre », et phônê, « voix ».",
+      "explication_detaillee": "Le grec phônê signifie « voix, son ». Le géophone capte les vibrations du sol. Il sert à détecter des mouvements souterrains, par exemple en sismologie ou à la guerre."
     }
   }
 }

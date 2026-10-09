@@ -13,7 +13,7 @@
         "localisation": "entrée « astrophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « astrophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « astrophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur des astres",
-      "explication_courte": "Du grec ástron, « astre », et phóbos, « peur »."
+      "explication_courte": "Du grec ástron, « astre », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos désigne la peur. L’astrophobie est la peur des astres et du ciel nocturne. Le mot est rare et appartient au vocabulaire savant. Il ne faut pas le confondre avec l’astraphobie, la peur de l’orage."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « cardiographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « cardiographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « cardiographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture du cœur",
-      "explication_courte": "Du grec kardia, « cœur », et graphein, « écrire »."
+      "explication_courte": "Du grec kardia, « cœur », et graphein, « écrire ».",
+      "explication_detaillee": "Le grec kardía signifie « cœur » et graphḗ « écriture ». La cardiographie est la technique qui enregistre l’activité du cœur. Le mot s’applique à plusieurs méthodes, dont l’électrocardiographie."
     }
   }
 }

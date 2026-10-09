@@ -13,7 +13,7 @@
         "localisation": "entrée « économiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « économiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « économiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’économie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -iste.",
+      "explication_detaillee": "L’économie reçoit le suffixe -iste, « qui pratique ». L’économiste est le spécialiste qui étudie la production, l’échange et la consommation. Le mot est plus ancien que le sens actuel de la discipline."
     }
   }
 }

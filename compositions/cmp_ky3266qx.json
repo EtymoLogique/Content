@@ -13,7 +13,7 @@
         "localisation": "entrée « écologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « écologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « écologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de la maison",
-      "explication_courte": "Du grec oîkos, « maison », et -logie : le milieu est la maison du vivant."
+      "explication_courte": "Du grec oîkos, « maison », et -logie : le milieu est la maison du vivant.",
+      "explication_detaillee": "Le grec oîkos signifie « maison, habitat ». L’écologie est l’étude de la maison du vivant : le milieu où vivent les êtres. Le mot est créé en 1866 par le biologiste allemand Ernst Haeckel."
     }
   }
 }

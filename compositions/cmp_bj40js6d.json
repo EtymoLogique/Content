@@ -13,7 +13,7 @@
         "localisation": "entrée « archéographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « archéographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « archéographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "description de l’ancien",
-      "explication_courte": "Du grec arkhaîos, « ancien », et graphḗ, « écriture »."
+      "explication_courte": "Du grec arkhaîos, « ancien », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec arkhaîos signifie « ancien, primitif », et graphḗ « écriture, description ». L’archéographie est la description des choses anciennes. Le mot est rare et ne désigne pas la même chose que l’archéologie, qui est l’étude des vestiges."
     }
   }
 }

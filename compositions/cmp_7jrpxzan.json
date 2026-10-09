@@ -13,7 +13,7 @@
         "localisation": "entrée « bibliographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « bibliographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « bibliographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit sur les livres",
-      "explication_courte": "Du grec biblíon, « livre », et gráphein, « écrire »."
+      "explication_courte": "Du grec biblíon, « livre », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec biblíon désigne un petit rouleau de papyrus, puis un livre. Le bibliographe est celui qui décrit et recense les livres. Le métier consiste à établir des listes de références complètes et exactes."
     }
   }
 }

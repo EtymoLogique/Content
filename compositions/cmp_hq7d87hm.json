@@ -13,7 +13,7 @@
         "localisation": "entrée « photophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur de la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et phóbos, « peur »."
+      "explication_courte": "Du grec phôs, « lumière », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifie « crainte ». La photophobie est une gêne excessive devant la lumière. C’est un symptôme médical fréquent, par exemple lors d’une migraine."
     }
   }
 }

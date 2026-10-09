@@ -13,7 +13,7 @@
         "localisation": "entrée « autonomie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « autonomie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « autonomie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "règle de soi-même",
-      "explication_courte": "Du grec autós, « soi-même », et nómos, « loi »."
+      "explication_courte": "Du grec autós, « soi-même », et nómos, « loi ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même » et nómos « loi ». L’autonomie est donc le fait de se donner sa propre loi. Le mot est resté un terme de philosophie et de politique, avant d’entrer dans le langage courant."
     }
   }
 }

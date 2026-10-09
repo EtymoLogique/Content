@@ -13,7 +13,7 @@
         "localisation": "entrée « polyphone »"
       }
     ],
-    "note_interne": "À vérifier : entrée « polyphone » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « polyphone » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "aux nombreuses voix",
-      "explication_courte": "Du grec polus, « nombreux », et phônê, « voix »."
+      "explication_courte": "Du grec polus, « nombreux », et phônê, « voix ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux » et phônê « voix ». Est polyphone une musique à plusieurs voix qui chantent ensemble. La polyphonie est un trait majeur de la musique européenne depuis le Moyen Âge."
     }
   }
 }

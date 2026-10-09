@@ -13,7 +13,7 @@
         "localisation": "entrée « thermographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit la chaleur",
-      "explication_courte": "Du grec thermos, « chaud », et graphein, « écrire »."
+      "explication_courte": "Du grec thermos, « chaud », et graphein, « écrire ».",
+      "explication_detaillee": "Le suffixe -graphe, du verbe gráphein, « écrire », désigne l’appareil ou la personne. Le thermographe est un instrument qui enregistre la température au cours du temps. Il écrit la chaleur sur un papier."
     }
   }
 }

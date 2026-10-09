@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie de l’eau",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydro- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydro- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe hydro-, du grec húdōr, « eau », s’ajoute à biologie. L’hydrobiologie étudie les êtres vivants des eaux, douces ou marines. Le mot est construit à l’époque moderne."
     }
   }
 }

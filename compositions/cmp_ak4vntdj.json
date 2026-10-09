@@ -13,7 +13,7 @@
         "localisation": "entrée « monochrome »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monochrome » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monochrome » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "d’une seule couleur",
-      "explication_courte": "Du grec mónos, « seul », et khrôma, « couleur »."
+      "explication_courte": "Du grec mónos, « seul », et khrôma, « couleur ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et khrôma « couleur ». Est monochrome ce qui est d’une seule couleur. Le mot s’emploie en peinture, en photographie et pour les écrans."
     }
   }
 }

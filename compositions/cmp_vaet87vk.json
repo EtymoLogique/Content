@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur de l’eau",
-      "explication_courte": "Du grec húdōr, « eau », et phóbos, « peur »."
+      "explication_courte": "Du grec húdōr, « eau », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifie « crainte ». L’hydrophobie a désigné pendant longtemps la rage, parce que les malades éprouvent une répulsion devant l’eau. Elle désigne aussi, plus rarement, la peur de l’eau."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « photogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé de la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et grámma, « lettre »."
+      "explication_courte": "Du grec phôs, « lumière », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec phôs signifie « lumière » et grámma « tracé ». Un photogramme est l’image obtenue en plaçant un objet sur du papier sensible, sans appareil. Le mot désigne aussi une image isolée d’un film."
     }
   }
 }

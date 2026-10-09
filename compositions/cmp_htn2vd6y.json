@@ -13,7 +13,7 @@
         "localisation": "entrée « polygamie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « polygamie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « polygamie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mariages nombreux",
-      "explication_courte": "Du grec polús, « nombreux », et gámos, « mariage »."
+      "explication_courte": "Du grec polús, « nombreux », et gámos, « mariage ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux » et gámos « mariage ». La polygamie est la situation où une personne a plusieurs conjoints en même temps. Le mot s’oppose à monogamie."
     }
   }
 }

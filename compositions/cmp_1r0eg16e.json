@@ -13,7 +13,7 @@
         "localisation": "entrée « emmener »"
       }
     ],
-    "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mener hors d’ici",
-      "explication_courte": "Le préfixe en-, venu du latin inde, « de là », marque le départ."
+      "explication_courte": "Le préfixe en-, venu du latin inde, « de là », marque le départ.",
+      "explication_detaillee": "Le préfixe en- vient du latin inde, « de là ». Il marque l’éloignement. Emmener, c’est mener quelqu’un hors du lieu où il se trouve. Il s’oppose à amener, qui conduit vers le locuteur."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « chronophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « chronophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « chronophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur du temps",
-      "explication_courte": "Du grec khrónos, « temps », et phóbos, « peur »."
+      "explication_courte": "Du grec khrónos, « temps », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifie « crainte ». La chronophobie est la peur du temps qui passe ou de l’avenir. Le mot est rare et appartient au vocabulaire médical."
     }
   }
 }

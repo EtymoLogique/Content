@@ -13,7 +13,7 @@
         "localisation": "entrée « monographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit sur un seul sujet",
-      "explication_courte": "Du grec mónos, « seul », et graphḗ, « écriture »."
+      "explication_courte": "Du grec mónos, « seul », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et graphḗ « écriture ». Une monographie est un ouvrage consacré à un seul sujet, traité à fond. Elle s’oppose à un ouvrage de synthèse."
     }
   }
 }

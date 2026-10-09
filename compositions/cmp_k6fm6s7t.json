@@ -13,7 +13,7 @@
         "localisation": "entrée « neurologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « neurologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « neurologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la neurologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : neurologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : neurologie reçoit -iste.",
+      "explication_detaillee": "La neurologie reçoit ici le suffixe -iste, « qui pratique ». Le neurologiste est celui qui exerce la neurologie. Le mot est plus rare que neurologue, qui est son synonyme courant."
     }
   }
 }

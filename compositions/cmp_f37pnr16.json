@@ -13,7 +13,7 @@
         "localisation": "entrée « promener »"
       }
     ],
-    "note_interne": "À vérifier : entrée « promener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « promener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "conduire en avant",
-      "explication_courte": "Du préfixe pro-, « en avant », et du verbe mener."
+      "explication_courte": "Du préfixe pro-, « en avant », et du verbe mener.",
+      "explication_detaillee": "Le préfixe pro- signifie « en avant » et le verbe mener vient du latin minare, « pousser devant soi ». Promener, c’est donc conduire en avant. Le sens est passé de la conduite d’un animal à celui de faire marcher quelqu’un pour son plaisir."
     }
   }
 }

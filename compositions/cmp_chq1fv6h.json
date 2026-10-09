@@ -13,7 +13,7 @@
         "localisation": "entrée « monogamie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monogamie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monogamie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mariage unique",
-      "explication_courte": "Du grec mónos, « seul », et gámos, « mariage »."
+      "explication_courte": "Du grec mónos, « seul », et gámos, « mariage ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et gámos « mariage ». La monogamie est l’union avec une seule personne à la fois. Elle s’oppose à la polygamie, qui admet plusieurs conjoints."
     }
   }
 }

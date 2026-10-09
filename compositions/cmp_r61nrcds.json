@@ -13,7 +13,7 @@
         "localisation": "entrée « philosophie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « philosophie » du TLFi, localisation à confirmer.",
+    "note_interne": "À vérifier : entrée « philosophie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises).",
     "libelles": {
       "fr": {
         "note_simplification": "Le joueur recompose le mot en français, mais il a été formé en grec (philosophía), puis emprunté par le latin."
@@ -41,7 +41,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "amour de la sagesse",
-      "explication_courte": "Le mot est déjà formé en grec, puis passe par le latin."
+      "explication_courte": "Le mot est déjà formé en grec, puis passe par le latin.",
+      "explication_detaillee": "Le mot existe déjà en grec : philosophía, de phílos, « ami », et sophía, « sagesse ». Il passe ensuite par le latin avant d’arriver en français. Selon une tradition antique, le mot aurait été employé pour la première fois par Pythagore, qui refusait d’être appelé « sage » et se disait seulement ami de la sagesse."
     }
   }
 }

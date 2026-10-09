@@ -13,7 +13,7 @@
         "localisation": "entrée « sociobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « sociobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « sociobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie de la société",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : socio- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : socio- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe socio- tient du latin socius, « compagnon ». Il s’ajoute à biologie, un mot que vous connaissez. La sociobiologie étudie les bases biologiques des comportements sociaux. Le terme a été popularisé par Edward O. Wilson en 1975."
     }
   }
 }

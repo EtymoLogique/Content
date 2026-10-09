@@ -13,7 +13,7 @@
         "localisation": "entrée « zoomorphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « zoomorphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « zoomorphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "à forme d’animal",
-      "explication_courte": "Du grec zôion, « animal », et morphḗ, « forme »."
+      "explication_courte": "Du grec zôion, « animal », et morphḗ, « forme ».",
+      "explication_detaillee": "Le grec morphḗ signifie « forme ». Est zoomorphe ce qui a la forme d’un animal, comme certaines divinités de l’Égypte ancienne. Le mot sert aussi en art, pour parler d’ornements qui reprennent des figures animales."
     }
   }
 }

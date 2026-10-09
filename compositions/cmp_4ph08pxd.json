@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrogène »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrogène » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrogène » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre l’eau",
-      "explication_courte": "Du grec húdōr, « eau », et gennáō, « engendrer »."
+      "explication_courte": "Du grec húdōr, « eau », et gennáō, « engendrer ».",
+      "explication_detaillee": "Le grec húdōr signifie « eau » et gennáō « engendrer ». L’hydrogène est le gaz qui engendre l’eau. Le nom est donné par Lavoisier en 1787 : on avait montré que la combustion de ce gaz produit de l’eau."
     }
   }
 }

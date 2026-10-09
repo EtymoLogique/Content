@@ -13,7 +13,7 @@
         "localisation": "entrée « économie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « économie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « économie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gestion de la maison",
-      "explication_courte": "Du grec oîkos, « maison », et nómos, « règle »."
+      "explication_courte": "Du grec oîkos, « maison », et nómos, « règle ».",
+      "explication_detaillee": "Le grec oîkos signifie « maison » et nómos « règle ». L’économie est donc la règle de la maison, c’est-à-dire sa bonne gestion. Chez Xénophon, au IVe siècle avant notre ère, le traité Oikonomikos porte déjà sur la gestion d’un domaine."
     }
   }
 }

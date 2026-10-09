@@ -13,7 +13,7 @@
         "localisation": "entrée « géographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit la terre",
-      "explication_courte": "Du grec gê, « terre », et gráphein, « écrire »."
+      "explication_courte": "Du grec gê, « terre », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec gê désigne la terre, et gráphein « écrire ». Le géographe est celui qui décrit la Terre. Chez les Grecs anciens, comme Ératosthène, le mot désignait déjà un savant qui représentait le monde connu."
     }
   }
 }

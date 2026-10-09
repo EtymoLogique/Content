@@ -13,7 +13,7 @@
         "localisation": "entrée « barogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « barogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « barogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé du poids",
-      "explication_courte": "Du grec báros, « poids », et grámma, « lettre »."
+      "explication_courte": "Du grec báros, « poids », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec báros signifie « poids, pesanteur ». Un barogramme est le tracé continu que dessine un baromètre enregistreur. Il garde donc une trace écrite de la pression de l’air."
     }
   }
 }

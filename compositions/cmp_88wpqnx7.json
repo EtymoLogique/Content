@@ -13,7 +13,7 @@
         "localisation": "entrée « technophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « technophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « technophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur de la technique",
-      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et phóbos, « peur »."
+      "explication_courte": "Du grec tékhnē, « art, savoir-faire », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifie « crainte ». La technophobie est la peur ou la méfiance envers les techniques. Le mot est récent et s’emploie souvent au sujet des outils numériques."
     }
   }
 }

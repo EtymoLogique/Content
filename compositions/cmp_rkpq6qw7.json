@@ -13,7 +13,7 @@
         "localisation": "entrée « polygraphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « polygraphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « polygraphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit beaucoup",
-      "explication_courte": "Du grec polus, « nombreux », et graphein, « écrire »."
+      "explication_courte": "Du grec polus, « nombreux », et graphein, « écrire ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux » et gráphein « écrire ». Le polygraphe est un auteur qui écrit sur beaucoup de sujets. Le mot désigne aussi un appareil, appelé détecteur de mensonges, qui enregistre plusieurs mesures du corps."
     }
   }
 }

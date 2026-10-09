@@ -13,7 +13,7 @@
         "localisation": "entrée « thermophile »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermophile » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermophile » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui aime la chaleur",
-      "explication_courte": "Du grec thermos, « chaud », et philos, « ami »."
+      "explication_courte": "Du grec thermos, « chaud », et philos, « ami ».",
+      "explication_detaillee": "Le grec phílos signifie « ami ». Est thermophile un organisme qui aime la chaleur, c’est-à-dire qui vit et se multiplie à haute température. Certaines bactéries thermophiles vivent dans des sources très chaudes."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « télescope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe au loin",
-      "explication_courte": "Du grec têle, « au loin », et skopeîn, « observer »."
+      "explication_courte": "Du grec têle, « au loin », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec têle signifie « au loin » et skopeîn « observer ». Le télescope permet d’observer au loin. Le mot naît en 1611, quand un savant, Giovanni Demisiani, nomme ainsi l’instrument de Galilée."
     }
   }
 }

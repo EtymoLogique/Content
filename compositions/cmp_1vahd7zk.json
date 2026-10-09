@@ -13,7 +13,7 @@
         "localisation": "entrée « biographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit une vie",
-      "explication_courte": "Du grec bíos, « vie », et gráphein, « écrire »."
+      "explication_courte": "Du grec bíos, « vie », et gráphein, « écrire ».",
+      "explication_detaillee": "Le biographe est celui qui écrit une vie. Le verbe grec gráphein, « écrire », donne le suffixe -graphe, qui désigne la personne. Il s’oppose au suffixe -graphie, tiré du nom graphḗ, qui désigne l’activité ou son résultat."
     }
   }
 }

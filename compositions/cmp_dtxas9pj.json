@@ -13,7 +13,7 @@
         "localisation": "entrée « astrologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « astrologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « astrologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours sur les astres",
-      "explication_courte": "Du grec ástron, « astre », et -logie."
+      "explication_courte": "Du grec ástron, « astre », et -logie.",
+      "explication_detaillee": "Le grec ástron désigne un astre, une étoile. À l’origine, astrologie et astronomie sont presque synonymes : on les distingue peu avant l’époque moderne. Aujourd’hui, l’astrologie désigne l’art de prédire à partir des astres."
     }
   }
 }

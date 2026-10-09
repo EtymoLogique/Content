@@ -13,7 +13,7 @@
         "localisation": "entrée « sociologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « sociologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « sociologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la sociologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : sociologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : sociologie reçoit -iste.",
+      "explication_detaillee": "La sociologie reçoit le suffixe -iste. Le sociologiste est celui qui pratique la sociologie. Le mot est rare : on dit presque toujours sociologue."
     }
   }
 }

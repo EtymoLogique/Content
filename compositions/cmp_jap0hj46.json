@@ -13,7 +13,7 @@
         "localisation": "entrée « périmètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « périmètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « périmètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure du tour",
-      "explication_courte": "Du grec peri, « autour », et metron, « mesure »."
+      "explication_courte": "Du grec peri, « autour », et metron, « mesure ».",
+      "explication_detaillee": "Le préfixe perí signifie « autour » et le grec métron « mesure ». Le périmètre est la mesure du tour d’une figure. Le mot grec perímetros désignait déjà le contour."
     }
   }
 }

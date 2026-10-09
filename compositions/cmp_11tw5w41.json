@@ -13,7 +13,7 @@
         "localisation": "entrée « anthropophage »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthropophage » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « anthropophage » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mange les humains",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et phageîn, « manger »."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et phageîn, « manger ».",
+      "explication_detaillee": "Le second élément vient du verbe grec phageîn, « manger ». L’anthropophage est celui qui mange de la chair humaine, ce que le langage courant appelle un cannibale. Le mot appartient au vocabulaire savant et littéraire."
     }
   }
 }

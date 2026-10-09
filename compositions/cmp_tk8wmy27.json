@@ -13,7 +13,7 @@
         "localisation": "entrée « biogène »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biogène » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biogène » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre la vie",
-      "explication_courte": "Du grec bíos, « vie », et gennáō, « engendrer »."
+      "explication_courte": "Du grec bíos, « vie », et gennáō, « engendrer ».",
+      "explication_detaillee": "Le verbe grec gennáō signifie « engendrer, faire naître ». Le suffixe -gène sert à former des adjectifs qui disent ce qui produit quelque chose. Est biogène ce qui engendre la vie ou ce qui est produit par les êtres vivants."
     }
   }
 }

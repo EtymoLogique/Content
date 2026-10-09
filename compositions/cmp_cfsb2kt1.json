@@ -13,7 +13,7 @@
         "localisation": "entrée « astrobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « astrobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « astrobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie des astres",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : astro- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : astro- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe astro-, du grec ástron, « astre », s’ajoute à biologie. L’astrobiologie cherche à comprendre l’origine, la présence et l’avenir de la vie dans l’Univers. Le mot est construit à l’époque moderne."
     }
   }
 }

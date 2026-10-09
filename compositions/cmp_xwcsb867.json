@@ -13,7 +13,7 @@
         "localisation": "entrée « hydromorphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydromorphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydromorphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "forme de l’eau",
-      "explication_courte": "Du grec húdōr, « eau », et morphḗ, « forme »."
+      "explication_courte": "Du grec húdōr, « eau », et morphḗ, « forme ».",
+      "explication_detaillee": "Le grec morphḗ signifie « forme ». Est hydromorphe un sol saturé d’eau, dont les caractères se forment sous l’action de l’eau. Le mot est surtout un terme de pédologie, la science des sols."
     }
   }
 }

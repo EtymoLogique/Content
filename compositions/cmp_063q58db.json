@@ -13,7 +13,7 @@
         "localisation": "entrée « monogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "lettre unique",
-      "explication_courte": "Du grec mónos, « seul », et grámma, « lettre »."
+      "explication_courte": "Du grec mónos, « seul », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et grámma « lettre ». Un monogramme est un signe formé de la ou des lettres d’un nom, entrelacées en un seul dessin. Les artistes et les souverains en ont longtemps fait leur signature."
     }
   }
 }

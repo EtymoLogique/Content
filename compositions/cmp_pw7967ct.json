@@ -13,7 +13,7 @@
         "localisation": "entrée « cardiopathie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « cardiopathie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « cardiopathie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection du cœur",
-      "explication_courte": "Du grec kardía, « cœur », et páthos, « ce qu’on éprouve »."
+      "explication_courte": "Du grec kardía, « cœur », et páthos, « ce qu’on éprouve ».",
+      "explication_detaillee": "Le grec kardía signifie « cœur » et páthos « ce qu’on éprouve, une maladie ». La cardiopathie est une maladie du cœur. Le mot est général et recouvre des atteintes très variées."
     }
   }
 }

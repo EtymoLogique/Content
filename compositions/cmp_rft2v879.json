@@ -13,7 +13,7 @@
         "localisation": "entrée « philologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « philologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « philologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "amour de l’étude",
-      "explication_courte": "Du grec phílos, « ami », et -logie, « étude » : le goût des lettres."
+      "explication_courte": "Du grec phílos, « ami », et -logie, « étude » : le goût des lettres.",
+      "explication_detaillee": "Le mot associe phílos, « ami », et lógos, « parole ». Le philologue aime donc les mots et les textes. Avec le temps, le mot en est venu à désigner l’étude des textes anciens : leur établissement, leur langue, leur interprétation."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « paléographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « paléographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « paléographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit l’ancien",
-      "explication_courte": "Du grec palaiós, « ancien », et gráphein, « écrire »."
+      "explication_courte": "Du grec palaiós, « ancien », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec palaiós signifie « ancien ». Le paléographe est celui qui sait lire et dater les écritures anciennes. Il s’intéresse aux manuscrits : à leurs lettres, leurs abréviations et leur support."
     }
   }
 }

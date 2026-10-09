@@ -13,7 +13,7 @@
         "localisation": "entrée « écologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « écologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « écologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’écologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -iste.",
+      "explication_detaillee": "L’écologie reçoit le suffixe -iste, « qui pratique ». L’écologiste a désigné le spécialiste, puis le militant qui défend l’environnement. Le sens militant est devenu le plus courant."
     }
   }
 }

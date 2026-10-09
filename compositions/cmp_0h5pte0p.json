@@ -13,7 +13,7 @@
         "localisation": "entrée « psychogène »"
       }
     ],
-    "note_interne": "À vérifier : entrée « psychogène » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « psychogène » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "engendré par l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et gennáō, « engendrer »."
+      "explication_courte": "Du grec psukhḗ, « âme », et gennáō, « engendrer ».",
+      "explication_detaillee": "Le suffixe -gène, du grec gennáō, « engendrer », nomme ce qui produit quelque chose. Est psychogène ce qui est engendré par l’esprit. On parle ainsi d’un trouble psychogène pour un trouble d’origine psychique."
     }
   }
 }

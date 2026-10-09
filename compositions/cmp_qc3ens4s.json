@@ -13,7 +13,7 @@
         "localisation": "entrée « zoonomie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « zoonomie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « zoonomie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "règle des animaux",
-      "explication_courte": "Du grec zôion, « animal », et nómos, « loi »."
+      "explication_courte": "Du grec zôion, « animal », et nómos, « loi ».",
+      "explication_detaillee": "Le grec nómos signifie « loi, règle ». La zoonomie est l’ensemble des lois qui gouvernent la vie animale. Le mot est rare, et il est surtout daté de l’époque des naturalistes du XVIIIe siècle."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « photothérapie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photothérapie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photothérapie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin par la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et therapeía, « soin »."
+      "explication_courte": "Du grec phôs, « lumière », et therapeía, « soin ».",
+      "explication_detaillee": "Le grec therapeía désigne le soin. La photothérapie soigne par la lumière : lampes contre certaines maladies de peau, ou contre la dépression saisonnière. Le mot est moderne."
     }
   }
 }

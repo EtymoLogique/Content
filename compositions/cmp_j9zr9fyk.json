@@ -13,7 +13,7 @@
         "localisation": "entrée « chronogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « chronogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « chronogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé du temps",
-      "explication_courte": "Du grec khrónos, « temps », et grámma, « lettre »."
+      "explication_courte": "Du grec khrónos, « temps », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec khrónos signifie « temps » et grámma « tracé, lettre ». Un chronogramme est un graphique qui fait apparaître des événements dans le temps. Le mot a aussi un sens ancien : une inscription dont certaines lettres donnent une date."
     }
   }
 }

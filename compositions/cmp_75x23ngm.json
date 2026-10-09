@@ -13,7 +13,7 @@
         "localisation": "entrée « zoologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « zoologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « zoologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la zoologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : zoologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : zoologie reçoit -iste.",
+      "explication_detaillee": "La zoologie reçoit le suffixe -iste, « qui pratique ». Le zoologiste est celui qui s’adonne à la zoologie. Le mot est plus rare que zoologue, mais on le trouve encore."
     }
   }
 }

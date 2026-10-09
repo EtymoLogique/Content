@@ -13,7 +13,7 @@
         "localisation": "entrée « aphone »"
       }
     ],
-    "note_interne": "À vérifier : entrée « aphone » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « aphone » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sans voix",
-      "explication_courte": "Du grec a-, « sans », et phônê, « voix »."
+      "explication_courte": "Du grec a-, « sans », et phônê, « voix ».",
+      "explication_detaillee": "Le préfixe a-, du grec, est privatif. Le grec phônê signifie « voix ». Est aphone celui qui n’a plus de voix, par exemple après une extinction de voix."
     }
   }
 }

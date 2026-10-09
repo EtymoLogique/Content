@@ -13,7 +13,7 @@
         "localisation": "entrée « monocratie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monocratie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monocratie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pouvoir d’un seul",
-      "explication_courte": "Du grec mónos, « seul », et krátos, « pouvoir »."
+      "explication_courte": "Du grec mónos, « seul », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et krátos « pouvoir ». La monocratie est un régime où le pouvoir appartient à un seul. Le mot est rare, et il est souvent remplacé par monarchie ou autocratie."
     }
   }
 }

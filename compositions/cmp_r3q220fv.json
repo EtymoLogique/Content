@@ -13,7 +13,7 @@
         "localisation": "entrée « bibliographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « bibliographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « bibliographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture des livres",
-      "explication_courte": "Du grec biblíon, « livre », et graphḗ, « écriture » : on recense des livres."
+      "explication_courte": "Du grec biblíon, « livre », et graphḗ, « écriture » : on recense des livres.",
+      "explication_detaillee": "En grec, bibliographía désignait l’action de copier des livres. Le sens a glissé : la bibliographie est devenue la liste des livres sur un sujet, puis la science qui les décrit. Le mot est employé au sens moderne depuis le XVIIe siècle."
     }
   }
 }

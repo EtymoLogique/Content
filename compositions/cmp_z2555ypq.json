@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé de l’eau",
-      "explication_courte": "Du grec húdōr, « eau », et grámma, « lettre »."
+      "explication_courte": "Du grec húdōr, « eau », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec húdōr signifie « eau », et grámma « lettre, tracé ». Un hydrogramme est un graphique qui montre comment le débit d’un cours d’eau évolue dans le temps. C’est donc un tracé de l’eau."
     }
   }
 }

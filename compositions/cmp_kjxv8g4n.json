@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrophile »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrophile » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrophile » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui aime l’eau",
-      "explication_courte": "Du grec hudôr, « eau », et philos, « ami »."
+      "explication_courte": "Du grec hudôr, « eau », et philos, « ami ».",
+      "explication_detaillee": "Le grec phílos signifie « ami ». Est hydrophile ce qui absorbe l’eau ou s’y mélange facilement, comme le coton. Il s’oppose à hydrophobe, qui repousse l’eau."
     }
   }
 }

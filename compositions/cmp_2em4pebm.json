@@ -13,7 +13,7 @@
         "localisation": "entrée « étymologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « étymologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « étymologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’étymologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : étymologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : étymologie reçoit -iste.",
+      "explication_detaillee": "L’étymologie reçoit le suffixe -iste, « qui pratique ». L’étymologiste est celui qui recherche l’origine des mots. Le mot est plus rare qu’étymologue."
     }
   }
 }

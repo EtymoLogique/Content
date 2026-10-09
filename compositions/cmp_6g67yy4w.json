@@ -13,7 +13,7 @@
         "localisation": "entrée « psychographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « psychographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « psychographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture de l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et graphḗ, « écriture »."
+      "explication_courte": "Du grec psukhḗ, « âme », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec psukhḗ signifiait d’abord « souffle, haleine », puis « âme ». C’est ce mot qui a donné les nombreux termes en psycho-. La psychographie est une description de l’âme par l’écrit. Le mot est rare."
     }
   }
 }

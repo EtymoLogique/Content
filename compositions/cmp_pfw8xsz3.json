@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit l’eau",
-      "explication_courte": "Du grec hudôr, « eau », et graphein, « écrire »."
+      "explication_courte": "Du grec hudôr, « eau », et graphein, « écrire ».",
+      "explication_detaillee": "Le suffixe -graphe, du verbe gráphein, « écrire », désigne la personne. L’hydrographe est le spécialiste qui décrit les eaux, souvent pour dresser des cartes marines. Il correspond à hydrographie."
     }
   }
 }

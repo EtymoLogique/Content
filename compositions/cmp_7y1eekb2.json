@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’hydrologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydrologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydrologie reçoit -iste.",
+      "explication_detaillee": "L’hydrologie reçoit le suffixe -iste, « qui pratique ». L’hydrologiste est donc celui qui exerce cette science. Le mot est plus rare que hydrologue."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « thermosphère »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermosphère » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermosphère » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe de la chaleur",
-      "explication_courte": "Du grec thermós, « chaud », et sphaîra, « globe »."
+      "explication_courte": "Du grec thermós, « chaud », et sphaîra, « globe ».",
+      "explication_detaillee": "Le grec sphaîra signifie « globe, sphère ». La thermosphère est une couche de l’atmosphère terrestre où les températures sont très élevées. Elle se situe au-dessus de la mésosphère."
     }
   }
 }

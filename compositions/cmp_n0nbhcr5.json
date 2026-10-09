@@ -13,7 +13,7 @@
         "localisation": "entrée « photographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit avec la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et gráphein, « écrire »."
+      "explication_courte": "Du grec phôs, « lumière », et gráphein, « écrire ».",
+      "explication_detaillee": "Le suffixe -graphe, du verbe gráphein, « écrire », désigne la personne. Le photographe est celui qui écrit avec la lumière. Le mot est apparu en même temps que la photographie, au XIXe siècle."
     }
   }
 }

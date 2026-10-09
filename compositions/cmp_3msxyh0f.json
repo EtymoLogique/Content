@@ -13,7 +13,7 @@
         "localisation": "entrée « diagramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « diagramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « diagramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé à travers",
-      "explication_courte": "Du grec diá, « à travers », et grámma, « lettre »."
+      "explication_courte": "Du grec diá, « à travers », et grámma, « lettre ».",
+      "explication_detaillee": "Le préfixe grec diá signifie « à travers ». Le diagramme est donc un tracé fait à travers : une figure faite de lignes qui met en relation des éléments. En grec, diágramma désignait d’abord une figure géométrique."
     }
   }
 }

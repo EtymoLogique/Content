@@ -13,7 +13,7 @@
         "localisation": "entrée « périscope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « périscope » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « périscope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe autour",
-      "explication_courte": "Du grec perí, « autour », et skopeîn, « observer »."
+      "explication_courte": "Du grec perí, « autour », et skopeîn, « observer ».",
+      "explication_detaillee": "Le préfixe perí signifie « autour » et skopeîn « observer ». Le périscope permet d’observer tout autour, notamment depuis un sous-marin immergé. Le mot est du XIXe siècle."
     }
   }
 }

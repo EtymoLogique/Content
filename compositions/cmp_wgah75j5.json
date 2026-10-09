@@ -13,7 +13,7 @@
         "localisation": "entrée « biographiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biographiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biographiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la biographie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : biographie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biographie reçoit -iste.",
+      "explication_detaillee": "Un mot déjà découvert, la biographie, reçoit le suffixe -iste, qui désigne celui qui pratique. Le biographiste est donc celui qui s’adonne à la biographie. Le mot est rare : on lui préfère biographe."
     }
   }
 }

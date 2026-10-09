@@ -13,7 +13,7 @@
         "localisation": "entrée « polygraphie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « polygraphie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « polygraphie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture abondante",
-      "explication_courte": "Du grec polús, « nombreux », et graphḗ, « écriture »."
+      "explication_courte": "Du grec polús, « nombreux », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux » et graphḗ « écriture ». La polygraphie est l’activité d’un auteur qui écrit sur des sujets variés. Le mot désigne aussi, plus anciennement, un art d’écrire en chiffres."
     }
   }
 }

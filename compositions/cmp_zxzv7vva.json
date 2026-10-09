@@ -13,7 +13,7 @@
         "localisation": "entrée « biothérapie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biothérapie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biothérapie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin par le vivant",
-      "explication_courte": "Du grec bíos, « vie », et therapeía, « soin »."
+      "explication_courte": "Du grec bíos, « vie », et therapeía, « soin ».",
+      "explication_detaillee": "Le grec therapeía désignait d’abord le service rendu à quelqu’un, puis le soin donné à un malade. La biothérapie est un soin qui s’appuie sur le vivant, par exemple sur des organismes ou des substances d’origine biologique. Le mot est d’usage médical."
     }
   }
 }

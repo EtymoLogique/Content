@@ -13,7 +13,7 @@
         "localisation": "entrée « xylophage »"
       }
     ],
-    "note_interne": "À vérifier : entrée « xylophage » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « xylophage » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mange le bois",
-      "explication_courte": "Du grec xúlon, « bois », et phageîn, « manger »."
+      "explication_courte": "Du grec xúlon, « bois », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec xúlon signifie « bois ». Le xylophage est un animal qui mange le bois, comme les termites ou certaines larves. Le mot s’emploie aussi pour les champignons qui le dégradent."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « cardiogramme »"
       }
     ],
-    "note_interne": "À vérifier : entrée « cardiogramme » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « cardiogramme » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé du cœur",
-      "explication_courte": "Du grec kardía, « cœur », et grámma, « lettre »."
+      "explication_courte": "Du grec kardía, « cœur », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec kardía signifie « cœur » et grámma « tracé ». Un cardiogramme est le tracé de l’activité du cœur. On l’obtient avec un appareil appelé cardiographe."
     }
   }
 }

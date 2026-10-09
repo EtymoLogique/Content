@@ -13,7 +13,7 @@
         "localisation": "entrée « thermogène »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermogène » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermogène » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre la chaleur",
-      "explication_courte": "Du grec thermós, « chaud », et gennáō, « engendrer »."
+      "explication_courte": "Du grec thermós, « chaud », et gennáō, « engendrer ».",
+      "explication_detaillee": "Le grec gennáō signifie « engendrer ». Est thermogène ce qui produit de la chaleur. Le mot sert pour des vêtements, des produits ou des organes qui réchauffent le corps."
     }
   }
 }

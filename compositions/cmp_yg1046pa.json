@@ -13,7 +13,7 @@
         "localisation": "entrée « photographiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photographiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photographiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la photographie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : photographie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : photographie reçoit -iste.",
+      "explication_detaillee": "La photographie reçoit le suffixe -iste, « qui pratique ». Le photographiste est celui qui exerce un métier lié à la photographie. Le mot est rare, et le plus souvent remplacé par photographe."
     }
   }
 }

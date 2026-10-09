@@ -13,7 +13,7 @@
         "localisation": "entrée « télémètre »"
       }
     ],
-    "note_interne": "À vérifier : entrée « télémètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « télémètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de loin",
-      "explication_courte": "Du grec têle, « loin », et metron, « mesure »."
+      "explication_courte": "Du grec têle, « loin », et metron, « mesure ».",
+      "explication_detaillee": "Le grec têle signifie « au loin » et métron « mesure ». Le télémètre mesure la distance d’un objet éloigné. On le trouve en topographie, en photographie et dans l’artillerie."
     }
   }
 }

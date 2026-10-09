@@ -13,7 +13,7 @@
         "localisation": "entrée « calligraphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « calligraphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « calligraphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit beau",
-      "explication_courte": "Du grec kállos, « beauté », et gráphein, « écrire »."
+      "explication_courte": "Du grec kállos, « beauté », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec kállos signifie « beauté ». Le calligraphe est celui qui écrit avec art, en soignant la forme des lettres. Le mot s’applique à des traditions très différentes : latines, arabes, chinoises ou japonaises."
     }
   }
 }

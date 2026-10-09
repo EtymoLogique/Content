@@ -13,7 +13,7 @@
         "localisation": "entrée « micrographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « micrographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « micrographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit le petit",
-      "explication_courte": "Du grec mikrós, « petit », et gráphein, « écrire »."
+      "explication_courte": "Du grec mikrós, « petit », et gráphein, « écrire ».",
+      "explication_detaillee": "Le suffixe -graphe, du verbe gráphein, « écrire », désigne la personne ou l’outil. Le micrographe a désigné l’observateur qui dessine ce qu’il voit au microscope. Le mot s’applique aussi à des outils pour écrire en tout petit."
     }
   }
 }

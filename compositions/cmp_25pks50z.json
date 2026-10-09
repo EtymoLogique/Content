@@ -13,7 +13,7 @@
         "localisation": "entrée « biologiste »"
       }
     ],
-    "note_interne": "À vérifier : entrée « biologiste » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biologiste » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la biologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : biologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biologie reçoit -iste.",
+      "explication_detaillee": "Le mot est formé à partir de biologie, auquel s’ajoute le suffixe -iste, « qui pratique ». Le biologiste est celui qui exerce la biologie. Le mot biologue dit à peu près la même chose."
     }
   }
 }
