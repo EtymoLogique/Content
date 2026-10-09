@@ -8,10 +8,10 @@
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "localisation": "entrée « scope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « scope » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « scope » du TLFi, localisation à confirmer."
   },
   "affixe": {
     "statut": "element_de_composition"
@@ -30,10 +30,10 @@
         "sources": [
           {
             "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "localisation": "entrée « scope »"
           }
         ],
-        "note_interne": "À vérifier : entrée « scope » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « scope » du TLFi, localisation à confirmer."
       }
     }
   ],
@@ -52,10 +52,10 @@
         "sources": [
           {
             "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "localisation": "entrée « scope »"
           }
         ],
-        "note_interne": "À vérifier : entrée « scope » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « scope » du TLFi, localisation à confirmer."
       }
     }
   ]
