@@ -5,14 +5,14 @@
   "type_code": "emprunt",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "localisation": "entrée « logie »"
       }
     ],
-    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner.",
+    "note_interne": "À vérifier : entrée « logie » du TLFi, localisation à confirmer.",
     "libelles": {
       "fr": {
         "note_simplification": "Le suffixe est passé par le latin avant d’arriver en français."

@@ -5,13 +5,13 @@
   "type_code": "forme_de_composition",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_1g2et8hj",
-        "localisation": null
+        "localisation": "entrée « μόνος »"
       }
     ],
-    "note_interne": "À vérifier : entrée « μόνος » du Bailly, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « μόνος » du Bailly, localisation à confirmer."
   }
 }

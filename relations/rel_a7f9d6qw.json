@@ -5,13 +5,13 @@
   "type_code": "heritage",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "localisation": "entrée « en »"
       }
     ],
-    "note_interne": "À vérifier : entrée « en » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « en » du TLFi, localisation à confirmer."
   }
 }

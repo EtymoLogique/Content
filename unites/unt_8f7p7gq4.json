@@ -4,14 +4,14 @@
   "langue_id": "lng_c5sy8ve2",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_sytyp4pd",
-        "localisation": null
+        "localisation": "entrée « philosophia »"
       }
     ],
-    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « philosophia » du Gaffiot, localisation à confirmer."
   },
   "mot": {
     "categorie": "nom"
@@ -26,14 +26,14 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [
           {
             "source_id": "src_sytyp4pd",
-            "localisation": null
+            "localisation": "entrée « philosophia »"
           }
         ],
-        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « philosophia » du Gaffiot, localisation à confirmer."
       }
     }
   ],
@@ -48,14 +48,14 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [
           {
             "source_id": "src_sytyp4pd",
-            "localisation": null
+            "localisation": "entrée « philosophia »"
           }
         ],
-        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « philosophia » du Gaffiot, localisation à confirmer."
       }
     }
   ]

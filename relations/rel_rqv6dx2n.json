@@ -5,13 +5,13 @@
   "type_code": "forme_de_composition",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "localisation": "entrée « philo »"
       }
     ],
-    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer."
   }
 }

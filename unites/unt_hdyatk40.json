@@ -4,14 +4,14 @@
   "langue_id": "lng_kmf44d76",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_1g2et8hj",
-        "localisation": null
+        "localisation": "entrée « ἀ »"
       }
     ],
-    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner.",
+    "note_interne": "À vérifier : entrée « ἀ » du Bailly, localisation à confirmer.",
     "libelles": {
       "fr": {
         "note_simplification": "Le grec a- privatif prend la forme an- devant voyelle."
@@ -37,14 +37,14 @@
       ],
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [
           {
             "source_id": "src_1g2et8hj",
-            "localisation": null
+            "localisation": "entrée « ἀ »"
           }
         ],
-        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « ἀ » du Bailly, localisation à confirmer."
       }
     }
   ],
@@ -59,14 +59,14 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [
           {
             "source_id": "src_1g2et8hj",
-            "localisation": null
+            "localisation": "entrée « ἀ »"
           }
         ],
-        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « ἀ » du Bailly, localisation à confirmer."
       }
     }
   ]
