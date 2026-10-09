@@ -1,0 +1,67 @@
+{
+  "id": "unt_ee1n10g8",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « hydrophobie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « hydrophobie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Bas latin, rattaché au latin sans variété (ADR 0013)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_z3jqmmmb",
+      "texte": "hydrophobia",
+      "cle_normalisee": "hydrophobia",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « hydrophobie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « hydrophobie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_wx1z2rzj",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "horreur de l’eau"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « hydrophobie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « hydrophobie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

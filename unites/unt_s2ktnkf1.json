@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « mythographe » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_16j61s2t",
+    "annee": 1838,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « mythographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « mythographe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

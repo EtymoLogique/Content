@@ -1,0 +1,67 @@
+{
+  "id": "unt_8tbbm4hc",
+  "nature": "mot",
+  "langue_id": "lng_8qktr7vk",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « technocratie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « technocratie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Anglais d’Amérique, rattaché à l’anglais sans variété (ADR 0058)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_pvqpvm26",
+      "texte": "technocracy",
+      "cle_normalisee": "technocracy",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « technocratie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « technocratie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_xrgabr49",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "gouvernement des techniciens"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « technocratie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « technocratie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

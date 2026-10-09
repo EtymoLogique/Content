@@ -217,6 +217,35 @@ fn fait_non_retenu_jamais_publie() {
 }
 
 #[test]
+fn attestation_publiee_sur_la_carte() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = super::validation::attestation(1751, "vers");
+    });
+    let uid = depot.uid("géologie");
+    let carte = |depot: &Depot| {
+        let sortie = TempDir::new().unwrap();
+        let parutions = compiler_vers(depot, sortie.path(), true);
+        let index = manifeste(sortie.path(), &parutions["fascicules"][0]);
+        let entree = liste(&index["cartes"])
+            .iter()
+            .find(|c| c["id"] == uid.as_str())
+            .unwrap()
+            .clone();
+        lire(&sortie.path().join(texte(&entree["carte"])))
+    };
+    let publiee = carte(&depot);
+    assert_eq!(publiee["attestation"]["annee"], 1751);
+    assert_eq!(publiee["attestation"]["precision"], "vers");
+    assert!(publiee["attestation"]["fait"].get("note_interne").is_none());
+
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"]["fait"]["confiance"] = json!("non_retenue");
+    });
+    assert!(carte(&depot).get("attestation").is_none());
+}
+
+#[test]
 fn manifeste_et_carte() {
     let (depot, sortie, parutions) = essai();
     let manifeste = manifeste(sortie.path(), &parutions["fascicules"][0]);

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « cardiographie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_fnn9asbw",
+    "annee": 1793,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « cardiographie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « cardiographie » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « cardiagraphie » en 1793."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « géographie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_500wqev7",
+    "annee": 1513,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « géographie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « géographie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

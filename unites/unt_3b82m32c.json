@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « polyphone » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_wk3a5x91",
+    "annee": 1823,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « polyphone »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « polyphone » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

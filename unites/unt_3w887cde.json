@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « amoral » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_baz53db9",
+    "annee": 1885,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « amoral »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « amoral » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

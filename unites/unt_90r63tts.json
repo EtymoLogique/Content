@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « anomie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_pgzwnsv8",
+    "annee": 1884,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « anomie² »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « anomie² » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi a deux entrées : la première (1762) est un homonyme de zoologie ; le sens sociologique date de 1884."
+    }
+  }
 }

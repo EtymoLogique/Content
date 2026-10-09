@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « cardiogramme » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_3mvtzeb5",
+    "annee": 1922,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « cardiogramme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « cardiogramme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

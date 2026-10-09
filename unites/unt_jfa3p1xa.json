@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « psychopathie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_cnaw1apb",
+    "annee": 1877,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « psychopathie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « psychopathie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

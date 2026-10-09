@@ -28,7 +28,7 @@ Le script lance `valider --publication`, range les diagnostics par rubrique et c
 | Médias | Silhouette de chaque carte et de chaque langue citée, jaquette, profil SVG | erreur |
 | Contenu du fascicule | Autonomie, unicité, fascicule de test ; en « à voir » : taille hors 20–30, ingrédient inutile | erreur |
 | Exclusions | Exclusions non relues | toujours |
-| Calendrier | Date passée, avant le fascicule précédent ou après le suivant ; en « à voir » : hors UTC, écart hors 28–45 jours | voir colonne |
+| Calendrier | Date passée, avant le fascicule précédent ou après le suivant (deux fascicules de lancement peuvent paraître le même jour, ADR 0054) ; en « à voir » : hors UTC, écart hors 28–45 jours (sauf fascicules de lancement, hebdomadaires) | voir colonne |
 | Reste du dépôt | Erreurs hors du fascicule : elles font aussi échouer `compiler` en prod | toujours |
 
 Un fascicule de test est contrôlé comme s'il était publié, pour répéter, puis signalé comme bloquant.

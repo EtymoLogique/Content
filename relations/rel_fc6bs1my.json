@@ -1,0 +1,17 @@
+{
+  "id": "rel_fc6bs1my",
+  "unite_source_id": "unt_f1vpw9j5",
+  "unite_cible_id": "unt_d89xkaqt",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « technologie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « technologie » du TLFi, le 9 octobre 2026."
+  }
+}

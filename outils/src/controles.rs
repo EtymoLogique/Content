@@ -4,6 +4,7 @@ use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 use std::fs;
 use std::path::Path;
 
+use chrono::{Datelike, Utc};
 use indexmap::IndexMap;
 use serde_json::Value;
 use unicode_normalization::UnicodeNormalization;
@@ -15,11 +16,16 @@ use crate::medias;
 use crate::rapport::Rapport;
 
 pub const LOCALE_REFERENCE: &str = "fr";
+/// Préfixe d’URL de la seule source de vérité (ADR 0060).
+const SOURCE_WIKIDATA: &str = "https://www.wikidata.org/";
 const TRAITS_UNION: [char; 6] = [
     '-', '\u{2010}', '\u{2011}', '\u{2012}', '\u{2013}', '\u{2014}',
 ];
 pub const NIVEAUX_DIFFICULTE: [&str; 3] = ["facile", "moyen", "difficile"]; // ADR 0047
 pub const TAILLE_FASCICULE: (usize, usize) = (20, 30); // ADR 0022, paramètre d'équilibrage
+/// ADR 0054 : les dix premiers fascicules publient plus de 30 mots, chaque semaine, les quatre premiers ensemble ;
+/// ADR 0059 : ils ne sont pas tenus à la règle des tiers.
+pub const FASCICULES_DE_LANCEMENT: i64 = 10;
 /// Règle d'amorçage (game-design) : trois découvertes au moins sans ouvrir de pli.
 pub const MIN_RECETTES_AMORCAGE: usize = 3;
 /// La table de fusion accepte exactement deux briques : jamais plus de deux éléments à la fois.
@@ -356,6 +362,13 @@ impl<'a> Controleur<'a> {
             for sens in liste(&unite["sens"]) {
                 faits.push((texte(&sens["id"]), uid.as_str(), &sens["fait"]));
             }
+            if let Some(attestation) = unite.get("attestation") {
+                faits.push((
+                    texte(&attestation["id"]),
+                    uid.as_str(),
+                    &attestation["fait"],
+                ));
+            }
         }
         for (cid, composition) in &c.compositions {
             faits.push((cid.as_str(), cid.as_str(), &composition["fait"]));
@@ -490,6 +503,9 @@ impl<'a> Controleur<'a> {
                     }
                 }
             }
+            if let Some(attestation) = unite.get("attestation") {
+                self.attestation(uid, unite, langue, attestation);
+            }
             let rangs: Vec<String> = liste(&unite["sens"])
                 .iter()
                 .map(|s| s["rang"].to_string())
@@ -502,6 +518,44 @@ impl<'a> Controleur<'a> {
                     None,
                 );
             }
+        }
+    }
+
+    /// ADR 0056 : la première attestation d'un mot français, jamais dans le futur.
+    fn attestation(
+        &mut self,
+        uid: &str,
+        unite: &Value,
+        langue: Option<&Value>,
+        attestation: &Value,
+    ) {
+        let aid = texte(&attestation["id"]);
+        if unite["nature"] != "mot" || langue.is_some_and(|l| l["code_interne"] != "fr") {
+            self.erreur(
+                "attestation.mot_francais",
+                "Seul un mot français porte une première attestation (ADR 0056).",
+                aid,
+                Some(uid),
+            );
+        }
+        let annee = attestation["annee"].as_i64().unwrap_or_default();
+        if annee > i64::from(Utc::now().year()) {
+            self.erreur(
+                "attestation.future",
+                format!("{annee} : une attestation n’est jamais dans le futur."),
+                aid,
+                Some(uid),
+            );
+        }
+        if let Some(fin) = attestation["annee_fin"].as_i64()
+            && fin <= annee
+        {
+            self.erreur(
+                "attestation.intervalle",
+                format!("L’intervalle {annee}-{fin} doit finir après son début."),
+                aid,
+                Some(uid),
+            );
         }
     }
 
@@ -1264,7 +1318,10 @@ impl<'a> Controleur<'a> {
                 }
             }
             let (minimum, maximum) = TAILLE_FASCICULE;
-            if !test && !(minimum..=maximum).contains(&nb_mots) {
+            if !test
+                && entier(&fsc["numero"]) > FASCICULES_DE_LANCEMENT
+                && !(minimum..=maximum).contains(&nb_mots)
+            {
                 self.avert(
                     "fascicule.taille",
                     format!("{nb_mots} mots : un fascicule en publie de {minimum} à {maximum}."),
@@ -1273,7 +1330,10 @@ impl<'a> Controleur<'a> {
                 );
             }
             if !test {
-                self.tiers(fid, fsc);
+                // ADR 0059 : la règle des tiers vaut à partir du onzième fascicule.
+                if entier(&fsc["numero"]) > FASCICULES_DE_LANCEMENT {
+                    self.tiers(fid, fsc);
+                }
                 let rarete: HashMap<&str, &str> = c
                     .briques
                     .values()
@@ -1321,7 +1381,8 @@ impl<'a> Controleur<'a> {
         dates.sort_unstable();
         for paire in dates.windows(2) {
             let ((n1, d1, _), (n2, d2, f2)) = (paire[0], paire[1]);
-            if d2 <= d1 {
+            // Deux fascicules de lancement peuvent paraître le même jour (ADR 0054).
+            if d2 < d1 || (d2 == d1 && n2 > FASCICULES_DE_LANCEMENT) {
                 self.avert(
                     "fascicule.chronologie",
                     format!(
@@ -1914,17 +1975,26 @@ impl<'a> Controleur<'a> {
             }
         }
 
-        // Carte en attente d'affectation : simple avertissement.
+        // Carte en attente d'affectation : simple avertissement. Seule une brique ou le résultat
+        // d'une recette a une carte ; un étymon n'en a pas (ADR 0013).
         let affectees: HashSet<&str> = c
             .fascicules
             .values()
             .flat_map(|f| liste(&f["unites"]))
             .map(|l| texte(&l["unite_id"]))
             .collect();
+        let mut avec_carte: HashSet<&str> =
+            c.briques.values().map(|b| texte(&b["unite_id"])).collect();
+        avec_carte.extend(c.recettes.values().filter_map(|r| {
+            c.compositions
+                .get(texte(&r["composition_id"]))
+                .map(|cmp| texte(&cmp["mot_id"]))
+        }));
         let mut uids: Vec<&String> = c.unites.keys().collect();
         uids.sort();
         for uid in uids {
-            if !affectees.contains(uid.as_str())
+            if avec_carte.contains(uid.as_str())
+                && !affectees.contains(uid.as_str())
                 && !cibles.contains_key(&("silhouette", "unite", uid.as_str()))
             {
                 self.avert(
@@ -1946,7 +2016,7 @@ impl<'a> Controleur<'a> {
                 self.c
                     .sources
                     .get(texte(&s["source_id"]))
-                    .is_some_and(|s| s["role"] == "reference")
+                    .is_some_and(|s| texte(&s["url"]).starts_with(SOURCE_WIKIDATA))
             })
             .count()
     }
@@ -1977,7 +2047,7 @@ impl<'a> Controleur<'a> {
         if self.references(fait) < minimum {
             self.erreur(
                 "publication.source_reference",
-                format!("Fait publié par {fascicule} : il faut au moins {minimum} source(s) de référence ; le repérage ne suffit jamais."),
+                format!("Fait publié par {fascicule} : il faut au moins {minimum} source(s) Wikidata ; Wikidata est la seule source de vérité (ADR 0060)."),
                 fid,
                 Some(fichier_de),
             );

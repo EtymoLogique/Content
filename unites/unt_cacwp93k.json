@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « psychothérapie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_2ggm6ggh",
+    "annee": 1888,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « psychothérapie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « psychothérapie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

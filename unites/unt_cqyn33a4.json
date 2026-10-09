@@ -58,5 +58,22 @@
         "note_interne": "À vérifier : entrée « topographie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_0fn6nedc",
+    "annee": 1489,
+    "precision": "intervalle",
+    "annee_fin": 1494,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « topographie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « topographie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

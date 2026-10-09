@@ -1,0 +1,17 @@
+{
+  "id": "rel_tazehpyh",
+  "unite_source_id": "unt_znaj5h4m",
+  "unite_cible_id": "unt_mt19vv8k",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « polychrome »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « polychrome » du TLFi, le 9 octobre 2026."
+  }
+}

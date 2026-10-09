@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « psychologie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_vmw35wtw",
+    "annee": 1588,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « psychologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « psychologie » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « Psichologie » en 1588."
+    }
+  }
 }

@@ -28,9 +28,13 @@ fn rapport(depot: &Depot, designation: &str) -> RapportPrePublication {
 }
 
 fn publier(depot: &Depot, parution: &str) -> Value {
+    publier_numero(depot, 1, parution)
+}
+
+fn publier_numero(depot: &Depot, numero: i64, parution: &str) -> Value {
     depot.modifier(depot.fascicule(), |f| {
         f["test"] = json!(false);
-        f["numero"] = json!(1);
+        f["numero"] = json!(numero);
         f["parution"] = json!(parution);
     })
 }
@@ -144,9 +148,9 @@ fn chronologie_sur_dates_analysees() {
     // 01:00 à Paris le 1ᵉʳ décembre, c'est 23:00 UTC le 30 novembre : le fascicule 2 paraît bien après.
     // Une comparaison de chaînes conclurait l'inverse.
     let depot = Depot::new();
-    publier(&depot, "2026-12-01T01:00:00+02:00");
-    second_fascicule(&depot, 2, "2026-12-01T00:00:00Z");
-    let regles = regles(&rapport(&depot, "2"), "calendrier");
+    publier_numero(&depot, 11, "2026-12-01T01:00:00+02:00");
+    second_fascicule(&depot, 12, "2026-12-01T00:00:00Z");
+    let regles = regles(&rapport(&depot, "12"), "calendrier");
     assert!(!regles.contains("calendrier.chronologie"));
     assert!(regles.contains("calendrier.rythme"));
 }
@@ -154,9 +158,9 @@ fn chronologie_sur_dates_analysees() {
 #[test]
 fn chronologie_avant_le_precedent() {
     let depot = Depot::new();
-    publier(&depot, "2026-12-01T00:00:00Z");
-    second_fascicule(&depot, 2, "2026-11-01T00:00:00Z");
-    let rapport = rapport(&depot, "2");
+    publier_numero(&depot, 11, "2026-12-01T00:00:00Z");
+    second_fascicule(&depot, 12, "2026-11-01T00:00:00Z");
+    let rapport = rapport(&depot, "12");
     assert!(regles(&rapport, "calendrier").contains("calendrier.chronologie"));
     assert_eq!(rapport.date_proposee, "2027-01-01T00:00:00Z");
 }
@@ -164,9 +168,31 @@ fn chronologie_avant_le_precedent() {
 #[test]
 fn chronologie_apres_le_suivant() {
     let depot = Depot::new();
-    publier(&depot, "2027-01-01T00:00:00Z");
+    publier_numero(&depot, 11, "2027-01-01T00:00:00Z");
+    second_fascicule(&depot, 12, "2026-12-01T00:00:00Z");
+    assert!(regles(&rapport(&depot, "11"), "calendrier").contains("calendrier.chronologie"));
+}
+
+#[test]
+fn fascicules_de_lancement_le_meme_jour() {
+    // ADR 0054 : les quatre premiers fascicules paraissent ensemble, les suivants chaque semaine.
+    let depot = Depot::new();
+    publier(&depot, "2026-12-01T00:00:00Z");
     second_fascicule(&depot, 2, "2026-12-01T00:00:00Z");
-    assert!(regles(&rapport(&depot, "1"), "calendrier").contains("calendrier.chronologie"));
+    for numero in ["1", "2"] {
+        let regles = regles(&rapport(&depot, numero), "calendrier");
+        assert!(!regles.contains("calendrier.chronologie"), "{numero}");
+        assert!(!regles.contains("calendrier.rythme"), "{numero}");
+    }
+}
+
+#[test]
+fn fascicule_ordinaire_pas_le_meme_jour_que_le_dernier_de_lancement() {
+    let depot = Depot::new();
+    publier_numero(&depot, 10, "2026-12-01T00:00:00Z");
+    second_fascicule(&depot, 11, "2026-12-01T00:00:00Z");
+    assert!(regles(&rapport(&depot, "11"), "calendrier").contains("calendrier.chronologie"));
+    assert!(regles(&rapport(&depot, "10"), "calendrier").contains("calendrier.chronologie"));
 }
 
 #[test]

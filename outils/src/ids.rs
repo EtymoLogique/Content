@@ -9,7 +9,7 @@ use regex::Regex;
 pub const ALPHABET: &[u8; 32] = b"0123456789abcdefghjkmnpqrstvwxyz";
 pub const LONGUEUR: usize = 8;
 
-pub const PREFIXES: [(&str, &str); 17] = [
+pub const PREFIXES: [(&str, &str); 18] = [
     ("lng", "langue"),
     ("ecr", "système d’écriture"),
     ("cnv", "convention de translittération"),
@@ -17,6 +17,7 @@ pub const PREFIXES: [(&str, &str); 17] = [
     ("unt", "unité lexicale"),
     ("frm", "forme"),
     ("sns", "sens"),
+    ("att", "attestation"),
     ("cmp", "composition"),
     ("trf", "transformation"),
     ("rel", "relation étymologique"),

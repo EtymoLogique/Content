@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « hydrophile » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_c0z9gddt",
+    "annee": 1902,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « hydrophile »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « hydrophile » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

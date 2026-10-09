@@ -1,0 +1,62 @@
+{
+  "id": "unt_1cpzje9f",
+  "nature": "mot",
+  "langue_id": "lng_8qktr7vk",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « télépathie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « télépathie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_t0a9txyt",
+      "texte": "telepathy",
+      "cle_normalisee": "telepathy",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « télépathie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « télépathie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_z5ktqhc2",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "perception à distance"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « télépathie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « télépathie », consultée le 9 octobre 2026. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

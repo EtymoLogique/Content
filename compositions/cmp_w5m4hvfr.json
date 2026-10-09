@@ -6,14 +6,14 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
         "localisation": "entrée « anthropographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthropographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "note_interne": "À vérifier : entrée « anthropographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -graphie pointe désormais le sens « description », déjà dit par le sens littéral ; à relire."
   },
   "parties": [
     {
@@ -27,7 +27,7 @@
     {
       "rang": 2,
       "unite_id": "unt_r0a5xapy",
-      "sens_id": "sns_x5fh6je5",
+      "sens_id": "sns_r03cf9rf",
       "forme_id": "frm_wrstf9rk",
       "segment_debut": 8,
       "segment_fin": 15

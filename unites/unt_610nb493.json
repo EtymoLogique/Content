@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « technocratie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_g581sq3y",
+    "annee": 1934,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « technocratie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « technocratie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

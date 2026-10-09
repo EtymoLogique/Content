@@ -14,7 +14,7 @@ use regex::Regex;
 use serde_json::{Map, Value, json};
 
 use crate::chargement::{Catalogue, charger};
-use crate::controles::controler;
+use crate::controles::{FASCICULES_DE_LANCEMENT, controler};
 use crate::json::{LISIBLE, ecrire, liste, texte, vrai};
 use crate::medias;
 use crate::rapport::{ERREUR, Rapport};
@@ -531,8 +531,10 @@ pub fn preparer(
         );
     }
     let numero_texte = |n: Option<i64>| n.map_or_else(|| "None".to_owned(), |n| n.to_string());
+    // ADR 0054 : les fascicules de lancement paraissent chaque semaine, les quatre premiers le même jour.
+    let lancement = |n: Option<i64>| n.is_some_and(|n| n <= FASCICULES_DE_LANCEMENT);
     if let Some((d_prec, n_prec)) = precedent {
-        if evaluee <= *d_prec {
+        if evaluee < *d_prec || (evaluee == *d_prec && !lancement(numero)) {
             rapport.ajouter(
                 "calendrier",
                 Point::new(
@@ -549,7 +551,7 @@ pub fn preparer(
             );
         } else {
             let ecart = evaluee - *d_prec;
-            if !(ECART_MINIMUM..=ECART_MAXIMUM).contains(&ecart) {
+            if !lancement(numero) && !(ECART_MINIMUM..=ECART_MAXIMUM).contains(&ecart) {
                 rapport.ajouter(
                     "calendrier",
                     Point::new(
@@ -567,7 +569,7 @@ pub fn preparer(
         }
     }
     if let Some((d_suiv, n_suiv)) = suivant
-        && evaluee >= *d_suiv
+        && (evaluee > *d_suiv || (evaluee == *d_suiv && !lancement(*n_suiv)))
     {
         rapport.ajouter(
             "calendrier",

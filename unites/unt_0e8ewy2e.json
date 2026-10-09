@@ -1,0 +1,73 @@
+{
+  "id": "unt_0e8ewy2e",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « biographie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « biographie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Grec tardif, rattaché au grec ancien sans variété (ADR 0013)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_pqr775dz",
+      "texte": "βιογραφία",
+      "cle_normalisee": "βιογραφία",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "biographía"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « biographie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « biographie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_pec7nt49",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "récit d’une vie"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « biographie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « biographie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « téléphonie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_tq75wwwx",
+    "annee": 1836,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « téléphonie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « téléphonie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

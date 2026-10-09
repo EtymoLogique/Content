@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « biographe » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_2cy3c11p",
+    "annee": 1693,
+    "precision": "avant",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « biographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « biographe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

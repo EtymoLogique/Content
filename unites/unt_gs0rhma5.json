@@ -1,0 +1,62 @@
+{
+  "id": "unt_gs0rhma5",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « théologie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « théologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_gzpa79af",
+      "texte": "theologia",
+      "cle_normalisee": "theologia",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « théologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « théologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_ncc49nqq",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "science des choses divines"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « théologie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « théologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

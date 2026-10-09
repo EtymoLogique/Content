@@ -1,0 +1,17 @@
+{
+  "id": "rel_0dngbna1",
+  "unite_source_id": "unt_ajv2xc1t",
+  "unite_cible_id": "unt_aa3q0fbe",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « polygraphe »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « polygraphe » du TLFi, le 9 octobre 2026."
+  }
+}

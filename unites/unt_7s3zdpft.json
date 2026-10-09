@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « exogamie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_g8ys3at9",
+    "annee": 1874,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « exogamie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « exogamie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

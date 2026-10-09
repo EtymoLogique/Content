@@ -1,0 +1,41 @@
+{
+  "id": "cmp_dp379k9n",
+  "mot_id": "unt_h86tp5c9",
+  "forme_resultat_id": "frm_btnx8x5q",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « psychologie »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « psychologie », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_rd3v0t47",
+      "sens_id": "sns_tpxxbk73",
+      "forme_id": "frm_bm2658s7",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_nj2qhsme",
+      "sens_id": "sns_34090m5q",
+      "forme_id": "frm_qbzgst5k",
+      "segment_debut": 6,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de l’âme"
+    }
+  }
+}

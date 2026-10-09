@@ -102,6 +102,7 @@ fn gabarit() -> &'static Path {
                 _dossier: TempDir::new().unwrap(),
             };
             depot.retirer_fascicules_publies();
+            depot.remettre_en_brouillon();
             // Le fascicule d'essai porte une légendaire, comme l'exige le validateur (ADR 0043).
             depot.modifier(depot.brique("étymo"), |b| {
                 b["rarete"] = json!("legendaire");
@@ -149,6 +150,36 @@ impl Depot {
         for chemin in self.fichiers("ludique/exclusions") {
             if publies.contains(texte(&self.lire(&chemin)["fascicule_id"])) {
                 fs::remove_file(chemin).unwrap();
+            }
+        }
+    }
+
+    /// Les tests partent de faits non relus ni localisés, quel que soit l'état du catalogue.
+    fn remettre_en_brouillon(&self) {
+        let brouillon = |fait: &mut Value| {
+            fait["etat_relecture"] = json!("brouillon");
+            for lien in fait["sources"].as_array_mut().unwrap() {
+                lien["localisation"] = Value::Null;
+            }
+        };
+        for dossier in ["unites", "compositions", "relations"] {
+            for chemin in self.fichiers(dossier) {
+                let mut donnees = self.lire(&chemin);
+                brouillon(&mut donnees["fait"]);
+                if let Some(attestation) = donnees.get_mut("attestation") {
+                    brouillon(&mut attestation["fait"]);
+                }
+                for cle in ["formes", "sens"] {
+                    for x in donnees
+                        .get_mut(cle)
+                        .and_then(Value::as_array_mut)
+                        .into_iter()
+                        .flatten()
+                    {
+                        brouillon(&mut x["fait"]);
+                    }
+                }
+                self.ecrire(&chemin, &donnees);
             }
         }
     }

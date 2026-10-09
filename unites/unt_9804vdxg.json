@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « monochrome » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_eknmy5r9",
+    "annee": 1803,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monochrome »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monochrome » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

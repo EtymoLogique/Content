@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « théologie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_h4ah9mea",
+    "annee": 1240,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « théologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « théologie » du TLFi (cnrtl.fr), le 9 octobre 2026. Vers 1240 d’après le FEW, cité par le TLFi ; 1261 dans un document daté."
+    }
+  }
 }

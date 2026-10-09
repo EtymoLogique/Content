@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « diagramme » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_3evajrqr",
+    "annee": 1584,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « diagramme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « diagramme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

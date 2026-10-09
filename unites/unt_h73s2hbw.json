@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « hiérarchique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_dr7nbybe",
+    "annee": 1401,
+    "precision": "siecle",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « hiérarchique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « hiérarchique » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi met entre crochets une attestation du xive s. sans référence."
+    }
+  }
 }

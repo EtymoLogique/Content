@@ -1,0 +1,67 @@
+{
+  "id": "unt_tra5q3q9",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « paléographie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « paléographie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source.",
+    "libelles": {
+      "fr": {
+        "note_simplification": "Latin savant du début du xviiie siècle, rattaché au latin sans variété (ADR 0013)."
+      }
+    }
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_yt7x97hb",
+      "texte": "palaeographia",
+      "cle_normalisee": "palaeographia",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « paléographie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « paléographie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_y9kj5hg4",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "étude des écritures anciennes"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « paléographie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « paléographie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}
