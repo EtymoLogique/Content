@@ -10,6 +10,7 @@
     "id_unite": { "type": "string", "pattern": "^unt_[0-9a-z]{8}$" },
     "id_forme": { "type": "string", "pattern": "^frm_[0-9a-z]{8}$" },
     "id_sens": { "type": "string", "pattern": "^sns_[0-9a-z]{8}$" },
+    "id_attestation": { "type": "string", "pattern": "^att_[0-9a-z]{8}$" },
     "id_composition": { "type": "string", "pattern": "^cmp_[0-9a-z]{8}$" },
     "id_transformation": { "type": "string", "pattern": "^trf_[0-9a-z]{8}$" },
     "id_relation": { "type": "string", "pattern": "^rel_[0-9a-z]{8}$" },

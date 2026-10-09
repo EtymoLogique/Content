@@ -55,6 +55,7 @@ D'abord les parties et les étymons qui manquent, puis le mot.
 - `formes` : **exactement une** `canonique`, dans l'écriture par défaut de la langue. Pas de trait d'union (`géo`, pas `géo-`). `cle_normalisee` = forme NFC du texte (`unicodedata.normalize("NFC", texte)`), sans autre transformation. Translittération dans une convention de `referentiels/conventions/` de la bonne écriture pour le grec. Un allomorphe (`role: allomorphe`, avec `contexte`) est une forme de la même unité, jamais une autre unité.
 - `sens` : `rang` à partir de 1. `libelles.fr.glose` courte, affichée sur la brique (« terre »). Pour un mot résultat d'une recette, `libelles.fr.definition` en une phrase est obligatoire (`recette.definition`). **Rédigez** gloses et définitions vous-même.
 - Homographes : deux unités de même forme doivent différer par la glose **et** par l'étymon.
+- `attestation` (mot français seulement, ADR 0056) : première attestation du mot, quel que soit son sens, lue dans la rubrique « Étymologie et histoire » du TLFi. `id` en `att_…`, `annee`, `precision` (`annee` « 1557 », `vers` « ca 1175 », `avant` « av. 1350 », `intervalle` « 1225-50 » avec `annee_fin`, `siecle` « xiiie s. » avec une année du siècle), et son propre bloc `fait`. Gardez la précision de la source, jamais plus fine. Pas de date sûre, pas d'attestation.
 
 ### 3.2 Composition (`compositions/cmp_….json`)
 

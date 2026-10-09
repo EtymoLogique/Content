@@ -295,6 +295,9 @@ impl<'a> Compilateur<'a> {
             })
             .collect();
         carte.insert("relations".into(), relations);
+        if !unite.get("attestation").is_some_and(retenu) {
+            carte.remove("attestation");
+        }
         if unite["nature"] == "mot" {
             let compositions = tries(&self.c.compositions)
                 .into_iter()

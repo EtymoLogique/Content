@@ -4,6 +4,7 @@ use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 use std::fs;
 use std::path::Path;
 
+use chrono::{Datelike, Utc};
 use indexmap::IndexMap;
 use serde_json::Value;
 use unicode_normalization::UnicodeNormalization;
@@ -358,6 +359,13 @@ impl<'a> Controleur<'a> {
             for sens in liste(&unite["sens"]) {
                 faits.push((texte(&sens["id"]), uid.as_str(), &sens["fait"]));
             }
+            if let Some(attestation) = unite.get("attestation") {
+                faits.push((
+                    texte(&attestation["id"]),
+                    uid.as_str(),
+                    &attestation["fait"],
+                ));
+            }
         }
         for (cid, composition) in &c.compositions {
             faits.push((cid.as_str(), cid.as_str(), &composition["fait"]));
@@ -492,6 +500,9 @@ impl<'a> Controleur<'a> {
                     }
                 }
             }
+            if let Some(attestation) = unite.get("attestation") {
+                self.attestation(uid, unite, langue, attestation);
+            }
             let rangs: Vec<String> = liste(&unite["sens"])
                 .iter()
                 .map(|s| s["rang"].to_string())
@@ -504,6 +515,44 @@ impl<'a> Controleur<'a> {
                     None,
                 );
             }
+        }
+    }
+
+    /// ADR 0056 : la première attestation d'un mot français, jamais dans le futur.
+    fn attestation(
+        &mut self,
+        uid: &str,
+        unite: &Value,
+        langue: Option<&Value>,
+        attestation: &Value,
+    ) {
+        let aid = texte(&attestation["id"]);
+        if unite["nature"] != "mot" || langue.is_some_and(|l| l["code_interne"] != "fr") {
+            self.erreur(
+                "attestation.mot_francais",
+                "Seul un mot français porte une première attestation (ADR 0056).",
+                aid,
+                Some(uid),
+            );
+        }
+        let annee = attestation["annee"].as_i64().unwrap_or_default();
+        if annee > i64::from(Utc::now().year()) {
+            self.erreur(
+                "attestation.future",
+                format!("{annee} : une attestation n’est jamais dans le futur."),
+                aid,
+                Some(uid),
+            );
+        }
+        if let Some(fin) = attestation["annee_fin"].as_i64()
+            && fin <= annee
+        {
+            self.erreur(
+                "attestation.intervalle",
+                format!("L’intervalle {annee}-{fin} doit finir après son début."),
+                aid,
+                Some(uid),
+            );
         }
     }
 

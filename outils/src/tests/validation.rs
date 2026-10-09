@@ -186,6 +186,74 @@ fn forme_sans_trait_union() {
     assert!(a_erreur(&depot, "forme.trait_union"));
 }
 
+// ------------------------------------------------------------- attestation (ADR 0056)
+
+pub(super) fn attestation(annee: i64, precision: &str) -> Value {
+    json!({
+        "id": "att_0000000a",
+        "annee": annee,
+        "precision": precision,
+        "fait": {
+            "confiance": "etablie",
+            "etat_relecture": "brouillon",
+            "sources": [{"source_id": "src_6zfwd3mp", "localisation": null}],
+            "note_interne": "Essai."
+        }
+    })
+}
+
+#[test]
+fn attestation_valide() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1751, "annee");
+    });
+    let rapport = depot.valider();
+    assert!(erreurs(&rapport).is_empty(), "{}", rapport.en_texte());
+}
+
+#[test]
+fn attestation_d_un_mot_francais_seulement() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géo"), |u| {
+        u["attestation"] = attestation(1751, "annee");
+    });
+    assert!(a_erreur(&depot, "attestation.mot_francais"));
+}
+
+#[test]
+fn attestation_jamais_dans_le_futur() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(3000, "annee");
+    });
+    assert!(a_erreur(&depot, "attestation.future"));
+}
+
+#[test]
+fn attestation_intervalle_ordonne() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1250, "intervalle");
+        u["attestation"]["annee_fin"] = json!(1225);
+    });
+    assert!(a_erreur(&depot, "attestation.intervalle"));
+}
+
+#[test]
+fn attestation_fin_d_intervalle_seulement() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1225, "intervalle");
+    });
+    assert!(a_erreur(&depot, "schema"));
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1225, "vers");
+        u["attestation"]["annee_fin"] = json!(1250);
+    });
+    assert!(a_erreur(&depot, "schema"));
+}
+
 #[test]
 fn cle_normalisee_nfc() {
     let depot = Depot::new();
@@ -1511,6 +1579,17 @@ fn publication_complete() {
     rendre_publiable(&depot);
     let rapport = depot.valider_publication();
     assert!(erreurs(&rapport).is_empty(), "{}", rapport.en_texte());
+}
+
+#[test]
+fn publication_exige_la_relecture_de_l_attestation() {
+    let depot = Depot::new();
+    rendre_publiable(&depot);
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1751, "annee");
+    });
+    let regles = erreurs(&depot.valider_publication());
+    assert!(ensemble(&["publication.relecture", "publication.localisation"]).is_subset(&regles));
 }
 
 #[test]

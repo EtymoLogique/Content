@@ -40,6 +40,10 @@
       "type": "array",
       "minItems": 1,
       "items": { "$ref": "#/$defs/sens" }
+    },
+    "attestation": {
+      "description": "Première attestation d’un mot français (ADR 0056) : au plus une, avec la précision de sa source.",
+      "$ref": "#/$defs/attestation"
     }
   },
   "allOf": [
@@ -50,6 +54,27 @@
     }
   ],
   "$defs": {
+    "attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "annee", "precision", "fait"],
+      "properties": {
+        "id": { "$ref": "communs.schema.json#/$defs/id_attestation" },
+        "annee": {
+          "description": "Année attestée ; pour un siècle, une année de ce siècle ; pour un intervalle, sa première année.",
+          "type": "integer"
+        },
+        "precision": { "enum": ["annee", "vers", "avant", "intervalle", "siecle"] },
+        "annee_fin": {
+          "description": "Dernière année d’un intervalle, et seulement d’un intervalle.",
+          "type": "integer"
+        },
+        "fait": { "$ref": "communs.schema.json#/$defs/fait" }
+      },
+      "if": { "properties": { "precision": { "const": "intervalle" } } },
+      "then": { "required": ["annee_fin"] },
+      "else": { "not": { "required": ["annee_fin"] } }
+    },
     "forme": {
       "type": "object",
       "additionalProperties": false,
