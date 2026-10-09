@@ -1,11 +1,11 @@
 ---
 name: nouveau-mot
-description: Repérer un mot candidat pour un fascicule d'ÉtymoLogique (fermeture, mots croisés, import du Wiktionnaire), le vérifier dans une source de référence, puis saisir toute sa chaîne dans le dépôt de contenu, dans l'ordre unités → composition → relations → briques → recette → fascicule. À utiliser pour ajouter un mot, un préfixe ou un suffixe au catalogue.
+description: Repérer un mot candidat pour un fascicule d'ÉtymoLogique (fermeture, mots croisés), le vérifier dans Wikidata (seule source de vérité), puis saisir toute sa chaîne dans le dépôt de contenu, dans l'ordre unités → composition → relations → briques → recette → fascicule. À utiliser pour ajouter un mot, un préfixe ou un suffixe au catalogue.
 ---
 
 # Skill nouveau-mot
 
-Références, qui priment sur ce résumé : ADR 0002, 0003 (recettes), 0006 (multilingue, NFC), 0009 (couches linguistique et ludique), 0013 (briques), 0014 (sources, fermeture), `docs/modele-donnees.md` du dépôt de conception, `AGENTS.md` et le README (« Conventions d'édition », « Ce que vérifie `valider` »). Les schémas de `schemas/` font foi pour la structure.
+Références, qui priment sur ce résumé : ADR 0002, 0003 (recettes), 0006 (multilingue, NFC), 0009 (couches linguistique et ludique), 0013 (briques), 0014 (fermeture) et 0060 (sources), `docs/modele-donnees.md` du dépôt de conception, `AGENTS.md` et le README (« Conventions d'édition », « Ce que vérifie `valider` »). Les schémas de `schemas/` font foi pour la structure.
 
 ## 1. Repérer un candidat
 
@@ -13,24 +13,37 @@ Partez du plan du fascicule (skill `nouveau-fascicule`) ou d'une demande précis
 
 - **Mots croisés** : pour chaque nouvel affixe, parcourez les briques déjà publiées (`ludique/briques/`, fascicules précédents) et cherchez les mots attestés qu'il forme avec elles, dans les deux sens et avec les mots déjà publiés comme ingrédients (*biologie* + *-iste*).
 - **Fermeture** : toute suite de briques publiées qui forme un mot attesté doit être publiée avec sa recette, ou écartée par une exclusion.
-- **Import du Wiktionnaire** : s'il existe un import daté dans `imports/` (ignoré par Git), servez-vous-en pour **repérer** seulement. N'en copiez aucun texte, ni glose, ni définition, ni étymologie.
+- **Wikidata** : repérez les lexèmes qui combinent des briques publiées par SPARQL (§ 2). Il n'y a plus d'import du Wiktionnaire.
 
 Une simple ressemblance de chaînes ne prouve jamais une composition (ADR 0003). Présentez les candidats à l'utilisateur, avec pour chacun l'analyse proposée et ce qu'il reste à vérifier, et laissez-le choisir.
 
 Avant de saisir, vérifiez que le mot n'existe pas déjà : `grep -rl '"texte": "<forme>"' unites/`, ou la recherche de `rapports/catalogue.html` (`etymo-contenu visualiser`).
 
-## 2. Vérifier dans une source de référence
+## 2. Vérifier dans Wikidata (MCP `wikidata`)
 
-| Langue | Sources de référence (ADR 0014) |
+**Wikidata est la seule source de vérité** (ADR 0060, qui remplace en partie l'ADR 0014). Le TLFi, l'Académie, Littré, le Gaffiot, Ernout-Meillet, le Bailly, le LSJ, Chantraine et le Wiktionnaire ne sont plus des sources : ne les consultez pas pour établir un fait et ne les citez pas. Il n'y a plus de rôle `reference` ou `reperage`.
+
+Le serveur MCP `wikidata` est déclaré dans `.mcp.json` (`https://wd-mcp.wmcloud.org/mcp/`). Lui seul est utilisé, et seulement par l'agent qui génère de nouveaux mots. Ordre imposé par le serveur : découvrir, vérifier la structure, puis interroger.
+
+1. **Découvrir** : `search_items` (`lang: "fr"`) et `search_properties`. Ne tapez jamais un QID, un PID ou un LID de mémoire : le serveur les a brouillés. La recherche d'items est bruyante (un mot courant renvoie surtout des articles et des catégories) ; pour un mot, passez directement au SPARQL sur les lexèmes.
+2. **Vérifier** : `get_statements` sur l'entité retenue (`include_external_ids: true` pour les codes ISO, Glottolog), `get_instance_and_subclass_hierarchy` pour la classe. Ne supposez aucun modèle.
+3. **Interroger** : `execute_sparql` (`K` = nombre de lignes max, 10 par défaut). Les préfixes `wikibase:`, `ontolex:`, `dct:` sont déjà déclarés. Si le serveur répond « currently unavailable », réessayez plus tard.
+
+| Il faut établir | Comment |
 |---|---|
-| Français | TLFi, Dictionnaire de l'Académie (9ᵉ édition), Littré |
-| Latin | Gaffiot, Ernout-Meillet |
-| Grec ancien | Bailly, LSJ, Chantraine |
+| Une langue (`referentiels/langues/`) : filiation, code, écriture | `search_items` puis `get_statements` : instance de, sous-classe de (filiation), codes ISO 639 et Glottolog, système d'écriture. Comparez à `langue_parente_id` et à `systeme_ecriture_defaut_id`. |
+| La forme d'un mot ou d'un étymon | SPARQL sur les lexèmes : `?l a ontolex:LexicalEntry; wikibase:lemma ?lemma; dct:language wd:<QID de la langue>. FILTER(STR(?lemma)="γῆ")`. Comparez le lemme à la forme canonique de l'unité (NFC, écriture par défaut). |
+| La chaîne étymologique | Sur le lexème, `get_statements` : « dérivé du lexème » et « combine les lexèmes » (PID à trouver avec `search_properties`). Comparez à la composition et aux relations saisies. |
+| La première attestation d'un mot français | Déclaration « first attested from » du lexème (PID à trouver avec `search_properties`). Gardez la précision de Wikidata, jamais plus fine. |
+| Les homographes | Propriété « lexème homographe ». |
 
-- Réutilisez une source de `sources/` si elle existe. Sinon, créez-la (`nouvel-id src`), avec `role: reference` ou `reperage`, l'édition et la licence (« Consultation seulement : cité, jamais copié »).
-- **Le Wiktionnaire seul ne suffit jamais.** Chaque fait doit citer au moins une source `reference`, deux si la confiance est `discutee`.
-- `localisation` : l'entrée ou la page **réellement consultée**. Si vous ne l'avez pas consultée vous-même, laissez `null` et écrivez dans `note_interne` ce qu'il reste à vérifier. N'inventez jamais d'entrée, de page ni d'édition.
-- `confiance` : `etablie` (une référence l'affirme), `probable` (hypothèse d'une référence), `discutee` (deux références en désaccord : enregistrez chaque analyse), `non_retenue` (jamais publiée comme solution).
+Règles :
+
+- **Pas de déclaration Wikidata, pas de fait publié.** Un lexème ou une déclaration absente ne prouve rien contre le fait, mais le fait reste `brouillon`, avec dans `note_interne` ce qu'il manque dans Wikidata. N'inventez jamais une entrée, un QID ou un LID.
+- **Pas de résultat vide pris pour un « non ».** Résultat vide ou incohérent : reprenez les étapes 1 et 2, affinez, relancez ; n'en déduisez rien.
+- **Rien n'est copié.** Rédigez gloses, définitions et explications vous-même, même si Wikidata en donne.
+- `confiance` : `etablie` (déclaration Wikidata qui porte elle-même une référence), `probable` (déclaration sans référence), `discutee` (Wikidata porte deux analyses en désaccord : enregistrez chacune), `non_retenue` (jamais publiée comme solution).
+- **Source** : réutilisez la source `src_…` de l'entité si elle existe dans `sources/`, sinon créez-la (`nouvel-id src`) avec `type: base`, `url` de l'entité, `licence` « CC0 », `edition` = date de la consultation. `localisation` = l'identifiant consulté (QID, LID ou énoncé), jamais un identifiant non consulté.
 
 ## 3. Saisir la chaîne
 
@@ -43,7 +56,7 @@ Bloc `fait` type :
   "confiance": "etablie",
   "etat_relecture": "brouillon",
   "sources": [{ "source_id": "src_…", "localisation": null }],
-  "note_interne": "À vérifier : entrée du TLFi à préciser."
+  "note_interne": "À vérifier : déclaration Wikidata à confirmer."
 }
 ```
 
@@ -55,7 +68,7 @@ D'abord les parties et les étymons qui manquent, puis le mot.
 - `formes` : **exactement une** `canonique`, dans l'écriture par défaut de la langue. Pas de trait d'union (`géo`, pas `géo-`). `cle_normalisee` = forme NFC du texte (`unicodedata.normalize("NFC", texte)`), sans autre transformation. Translittération dans une convention de `referentiels/conventions/` de la bonne écriture pour le grec. Un allomorphe (`role: allomorphe`, avec `contexte`) est une forme de la même unité, jamais une autre unité.
 - `sens` : `rang` à partir de 1. `libelles.fr.glose` courte, affichée sur la brique (« terre »). Pour un mot résultat d'une recette, `libelles.fr.definition` en une phrase est obligatoire (`recette.definition`). **Rédigez** gloses et définitions vous-même.
 - Homographes : deux unités de même forme doivent différer par la glose **et** par l'étymon.
-- `attestation` (mot français seulement, ADR 0056) : première attestation du mot, quel que soit son sens, lue dans la rubrique « Étymologie et histoire » du TLFi. `id` en `att_…`, `annee`, `precision` (`annee` « 1557 », `vers` « ca 1175 », `avant` « av. 1350 », `intervalle` « 1225-50 » avec `annee_fin`, `siecle` « xiiie s. » avec une année du siècle), et son propre bloc `fait`. Gardez la précision de la source, jamais plus fine. Pas de date sûre, pas d'attestation.
+- `attestation` (mot français seulement, ADR 0056) : première attestation du mot, quel que soit son sens, lue dans la déclaration « first attested from » du lexème Wikidata. `id` en `att_…`, `annee`, `precision` (`annee` « 1557 », `vers` « ca 1175 », `avant` « av. 1350 », `intervalle` « 1225-50 » avec `annee_fin`, `siecle` « xiiie s. » avec une année du siècle), et son propre bloc `fait`. Gardez la précision de la source, jamais plus fine. Pas de date sûre, pas d'attestation.
 
 ### 3.2 Composition (`compositions/cmp_….json`)
 

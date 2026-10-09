@@ -1,10 +1,9 @@
 {
   "id": "src_1g2et8hj",
   "type": "dictionnaire",
-  "role": "reference",
   "reference": "Anatole Bailly, Dictionnaire grec-français",
   "edition": "Hachette, 1935",
   "url": null,
   "licence": "Consultation seulement : cité, jamais copié",
-  "note_interne": null
+  "note_interne": "Source héritée, avant l’ADR 0060 : à retirer quand ses faits sont recoupés avec Wikidata."
 }

@@ -6,7 +6,7 @@ Tout le contenu est **en français**. Rédigez en français la documentation, le
 
 ## Sources de vérité
 
-1. **ADR acceptés** du dépôt de conception (`docs/adr/`), en particulier 0002, 0003, 0005, 0006, 0009, 0013, 0014, 0017, 0022 et 0024.
+1. **ADR acceptés** du dépôt de conception (`docs/adr/`), en particulier 0002, 0003, 0005, 0006, 0009, 0013, 0014, 0017, 0022, 0024 et 0060.
 2. **Modèle de données** (`docs/modele-donnees.md`) : tables, cardinalités et « Contraintes d’intégrité ». Les schémas et `outils/src/controles.rs` en sont la traduction exécutable.
 3. **`docs/game-design.md`** : vocabulaire et règles de jeu.
 
@@ -24,13 +24,14 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 | `outils/` | Binaire Rust `etymo-contenu`. `src/` : `chargement.rs` (lecture et schémas), `controles.rs` (contraintes d’intégrité), `medias.rs` (profil SVG, langues citées), `compilation.rs` (artefact en hash de contenu), `homographes.rs` (briques de même forme) et `candidats.rs` (pièges probables, rapport non bloquant), `visualisation.rs` et `visualisation.html` (page locale du catalogue, jamais publiée), `prepublication.rs` (rapport du skill `preparer-publication`), `rapport.rs`, `ids.rs`, `json.rs`, `main.rs`. |
 | `outils/src/tests/` | `mod.rs` copie le dépôt dans un dossier temporaire ; chaque test casse une seule règle. Le fascicule d’essai Bêta est dans `outils/tests/fixtures/`. |
 | `.agents/skills/` | Skills des agents (`.github/skills` est un lien symbolique vers ce dossier). |
-| `imports/`, `rapports/`, `artefact/` | Ignorés par Git. |
+| `rapports/`, `artefact/` | Ignorés par Git. |
 
 ## Règles
 
 - **D’abord un logiciel qui marche, ensuite les tests.** Faire fonctionner l’application comme elle a été conçue prime sur l’écriture de tests : livrez d’abord une fonctionnalité qui marche de bout en bout, puis ajoutez les tests qui la protègent.
 - **Identifiants opaques** : `cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id <préfixe>`. Ne réutilisez jamais un identifiant, n’y mettez jamais de graphie, ne renommez jamais un objet publié : un changement de nature ou une suppression passe par une migration (ADR 0005).
-- **Aucun texte copié** du Wiktionnaire ni d’une référence savante. Rédigez les gloses, définitions et explications. N’inventez ni entrée, ni page, ni édition de source : laissez `localisation` à `null` et décrivez dans `note_interne` ce qu’il reste à vérifier.
+- **Wikidata est la seule source de vérité** (ADR 0060). Le TLFi, les dictionnaires de référence et le Wiktionnaire ne sont plus des sources. **Aucun texte copié** : rédigez les gloses, définitions et explications. N’inventez ni entité, ni identifiant : un fait que Wikidata ne porte pas reste `brouillon`, et `note_interne` dit ce qu’il manque.
+- **MCP `wikidata` (`.mcp.json`)** : réservé à l’agent qui génère de nouveaux mots (skill `nouveau-mot`, § 2) ; aucun outil ni contrôle du dépôt n’en dépend.
 - **Un nouveau fait naît `brouillon`.** Seule une relecture humaine le passe à `relu`.
 - **Médias** : tout SVG passe le profil de `outils/src/medias.rs`, une liste blanche contre le XSS. Pas de texte, de titre ni de commentaire : ils trahiraient le mot. N’élargissez le profil qu’avec un test qui prouve que l’ajout est sûr.
 - **`note_interne`** n’est jamais publiée. N’y mettez ni donnée personnelle ni secret.
@@ -48,7 +49,7 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 | Skill | Quand l'utiliser |
 |---|---|
 | [`nouveau-fascicule`](.agents/skills/nouveau-fascicule/SKILL.md) | Ouvrir un fascicule : numéro, date provisoire, plan de 20 à 30 mots, déclaration des unités. |
-| [`nouveau-mot`](.agents/skills/nouveau-mot/SKILL.md) | Repérer un mot, le vérifier dans une source de référence, puis saisir sa chaîne jusqu'au fascicule. |
+| [`nouveau-mot`](.agents/skills/nouveau-mot/SKILL.md) | Repérer un mot, le vérifier dans Wikidata, puis saisir sa chaîne jusqu'au fascicule. |
 | [`silhouette`](.agents/skills/silhouette/SKILL.md) | Dessiner et déclarer la silhouette d'une carte ou d'une langue. |
 | [`jaquette`](.agents/skills/jaquette/SKILL.md) | Dessiner et déclarer la jaquette d'un fascicule. |
 | [`preparer-publication`](.agents/skills/preparer-publication/SKILL.md) | Lancer tous les contrôles d'un fascicule, planifier sa date de parution, vérifier la compilation prod. |

@@ -1566,7 +1566,8 @@ pub(super) fn rendre_publiable(depot: &Depot) {
     let relire = |fait: &mut Value| {
         fait["etat_relecture"] = json!("relu");
         for lien in fait["sources"].as_array_mut().unwrap() {
-            lien["localisation"] = json!("entrée consultée");
+            lien["source_id"] = json!("src_tyvnmjjn");
+            lien["localisation"] = json!("entité consultée");
         }
     };
     for dossier in ["unites", "compositions", "relations"] {
@@ -1619,12 +1620,11 @@ fn publication_exige_la_relecture_de_l_attestation() {
 }
 
 #[test]
-fn publication_refuse_le_reperage_seul() {
+fn publication_refuse_une_source_hors_wikidata() {
     let depot = Depot::new();
     rendre_publiable(&depot);
-    let wiktionnaire = depot.trouver("sources", |s| s["role"] == "reperage").1["id"].clone();
     depot.modifier(depot.unite("géo"), |u| {
-        u["fait"]["sources"] = json!([{"source_id": wiktionnaire, "localisation": "géo-"}]);
+        u["fait"]["sources"] = json!([{"source_id": "src_6zfwd3mp", "localisation": "géo-"}]);
     });
     assert!(erreurs(&depot.valider_publication()).contains("publication.source_reference"));
 }

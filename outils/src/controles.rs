@@ -16,6 +16,8 @@ use crate::medias;
 use crate::rapport::Rapport;
 
 pub const LOCALE_REFERENCE: &str = "fr";
+/// Préfixe d’URL de la seule source de vérité (ADR 0060).
+const SOURCE_WIKIDATA: &str = "https://www.wikidata.org/";
 const TRAITS_UNION: [char; 6] = [
     '-', '\u{2010}', '\u{2011}', '\u{2012}', '\u{2013}', '\u{2014}',
 ];
@@ -2010,7 +2012,7 @@ impl<'a> Controleur<'a> {
                 self.c
                     .sources
                     .get(texte(&s["source_id"]))
-                    .is_some_and(|s| s["role"] == "reference")
+                    .is_some_and(|s| texte(&s["url"]).starts_with(SOURCE_WIKIDATA))
             })
             .count()
     }
@@ -2041,7 +2043,7 @@ impl<'a> Controleur<'a> {
         if self.references(fait) < minimum {
             self.erreur(
                 "publication.source_reference",
-                format!("Fait publié par {fascicule} : il faut au moins {minimum} source(s) de référence ; le repérage ne suffit jamais."),
+                format!("Fait publié par {fascicule} : il faut au moins {minimum} source(s) Wikidata ; Wikidata est la seule source de vérité (ADR 0060)."),
                 fid,
                 Some(fichier_de),
             );

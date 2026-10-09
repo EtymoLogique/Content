@@ -27,7 +27,7 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `referentiels/conventions/` | Conventions de translittération | `convention` |
 | `referentiels/types-relation.json` | Vocabulaire contrôlé des relations étymologiques | `vocabulaire` |
 | `referentiels/types-transformation.json` | Vocabulaire contrôlé des transformations | `vocabulaire` |
-| `sources/` | Sources de référence et de repérage (ADR 0014) | `source` |
+| `sources/` | Sources : Wikidata, seule source de vérité (ADR 0060) ; les sources héritées attendent leur recoupement | `source` |
 | `unites/` | Mots, préfixes et suffixes, avec leurs formes, translittérations, sens et première attestation (ADR 0056) | `unite` |
 | `compositions/` | Analyses d’un mot en parties ordonnées, transformations, sens littéral | `composition` |
 | `relations/` | Relations étymologiques entre unités | `relation` |
@@ -43,7 +43,6 @@ Le schéma logique est décrit dans le [modèle de données](https://github.com/
 | `artefact/` | Artefact compilé : **ignoré par Git** | — |
 | `outils/src/tests/` | Un test par règle de validation | — |
 | `.agents/skills/` | Skills des agents : nouveau fascicule, nouveau mot, silhouette, jaquette, préparation de la publication (`.github/skills` y renvoie) | — |
-| `imports/` | Imports datés du Wiktionnaire : **ignoré par Git** | — |
 | `rapports/` | Rapports de validation et visualisation générés : **ignoré par Git** | — |
 
 ### Conventions d’édition
@@ -103,7 +102,7 @@ La page montre les notes internes et les faits non relus. Elle reste locale : `r
 - **Exclusions** : aucune ne contredit une recette.
 - **Trompe-l’œil** ([ADR 0052](https://github.com/lunik/EtymoLogique/blob/master/docs/adr/0052-fusions-trompeuses-expliquees.md)) : les deux briques existent et sont publiées dans ce fascicule ou un précédent, aucune n’est légendaire (`trompe_l_oeil.paire`, `trompe_l_oeil.legendaire`) ; au plus un par paire ordonnée (`trompe_l_oeil.doublon`) ; ni la paire ni son inverse n’est une recette, et la paire n’est pas une exclusion (`trompe_l_oeil.recette`) ; aucun remplacement d’une brique par un homographe ne donne une recette, car le serveur le calcule déjà (`trompe_l_oeil.homographe_jouable`) ; si `mot_id` est renseigné, sa composition ne mobilise pas à la fois les deux unités (`trompe_l_oeil.origine`) et l’explication courte ne le nomme pas (`trompe_l_oeil.divulgation`) ; au moins une source (`trompe_l_oeil.sources`). Avec `--publication`, chaque trompe-l’œil du fascicule est relu (`publication.trompe_l_oeil`).
 - **Médias** : cible existante ; une seule silhouette par unité ou langue, une seule jaquette par fascicule ; fichier présent et conforme au profil SVG ; en avertissement : fichier de `medias/` que nul média ne déclare. Pour chaque fascicule qui n’est pas de test : chaque carte et chaque langue citée (celle de l’unité ou d’un étymon) a sa silhouette, et le fascicule sa jaquette. C’est un avertissement, et une erreur avec `--publication`. Une carte hors fascicule (brique ou résultat d’une recette) sans silhouette est signalée en avertissement ; un étymon n’a pas de carte, donc rien à signaler (ADR 0013).
-- **Avec `--publication`**, pour chaque fascicule qui n’est pas de test : tout fait publié est `relu`, cite au moins une source de rôle `reference` (deux pour un fait `discutee`) avec l’entrée consultée, et n’est pas `non_retenue`. Le Wiktionnaire seul ne suffit jamais (ADR 0014). Chaque exclusion est relue.
+- **Avec `--publication`**, pour chaque fascicule qui n’est pas de test : tout fait publié est `relu`, cite au moins une source Wikidata (deux pour un fait `discutee`) avec l’identifiant consulté, et n’est pas `non_retenue`. Wikidata est la seule source de vérité (ADR 0060) ; une source héritée (TLFi, Bailly, Gaffiot) ne suffit plus. Chaque exclusion est relue.
 
 ## Compilation et publication
 
@@ -139,8 +138,7 @@ Pour finir, elle lance la tâche Scaleway `parution` de son environnement (`deve
 
 ## Sources et licences
 
-- Le **Wiktionnaire** sert au repérage seulement : **aucun de ses textes n’est copié** (ADR 0014). Ses imports datés restent dans `imports/`, hors de Git.
-- Les **références savantes** (TLFi, Bailly, Gaffiot…) sont citées, jamais recopiées. Les gloses, définitions et explications sont rédigées par l’équipe.
+- **Wikidata** est la seule source de vérité (ADR 0060), interrogée par le MCP `wikidata` par l’agent qui génère de nouveaux mots. Le Wiktionnaire et les références savantes ne sont plus des sources. **Aucun texte n’est copié** : les gloses, définitions et explications sont rédigées par l’équipe.
 - Le jeu actuel (fascicule 0) reprend les **exemples travaillés** du modèle de données. Tout y est en `brouillon`, à vérifier avant toute publication.
 - Ses silhouettes (`medias/silhouettes/`) sont exportées des maquettes du codex (`cardArt`, dossier de conception) ou dessinées selon la même grammaire, et sa jaquette « BETA » (`medias/jaquettes/beta.svg`) suit la palette des jaquettes. Elles illustrent le format, sans préfigurer un fascicule réel (ADR 0026).
 
