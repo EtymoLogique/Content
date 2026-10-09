@@ -13,7 +13,7 @@
         "localisation": "entrée « anthropophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthropophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « anthropophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur des humains",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et phóbos, « peur »."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifiait d’abord « fuite, panique », puis « crainte ». Il sert de second élément à toute une famille de mots qui nomment des peurs. L’anthropophobie désigne l’aversion pour la compagnie des autres humains."
     }
   }
 }

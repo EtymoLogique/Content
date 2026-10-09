@@ -13,7 +13,7 @@
         "localisation": "entrée « autocratie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « autocratie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « autocratie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pouvoir de soi-même",
-      "explication_courte": "Du grec autós, « soi-même », et krátos, « pouvoir »."
+      "explication_courte": "Du grec autós, « soi-même », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même » et krátos « pouvoir, force ». L’autocratie est un régime où un seul détient tout le pouvoir, sans limite ni contrôle. Le mot s’emploie en particulier pour les tsars de Russie."
     }
   }
 }

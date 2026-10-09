@@ -13,7 +13,7 @@
         "localisation": "entrée « autochrome »"
       }
     ],
-    "note_interne": "À vérifier : entrée « autochrome » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « autochrome » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "couleur de soi-même",
-      "explication_courte": "Du grec autós, « soi-même », et khrôma, « couleur »."
+      "explication_courte": "Du grec autós, « soi-même », et khrôma, « couleur ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même » et khrôma « couleur ». L’autochrome est un procédé de photographie en couleurs mis au point par les frères Lumière, breveté en 1903 et commercialisé en 1907. Les couleurs apparaissent sans ajout de teinte extérieure."
     }
   }
 }

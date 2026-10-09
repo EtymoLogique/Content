@@ -13,7 +13,7 @@
         "localisation": "entrée « polymorphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « polymorphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « polymorphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "aux formes nombreuses",
-      "explication_courte": "Du grec polús, « nombreux », et morphḗ, « forme »."
+      "explication_courte": "Du grec polús, « nombreux », et morphḗ, « forme ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux » et morphḗ « forme ». Est polymorphe ce qui peut prendre plusieurs formes. Le mot s’emploie en biologie, en chimie et en programmation."
     }
   }
 }

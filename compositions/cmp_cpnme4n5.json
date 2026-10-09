@@ -13,7 +13,7 @@
         "localisation": "entrée « prologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours d’avant",
-      "explication_courte": "Du grec pró, « avant », et lógos, « discours »."
+      "explication_courte": "Du grec pró, « avant », et lógos, « discours ».",
+      "explication_detaillee": "Le grec pró signifie « avant » et lógos « discours ». Le prologue est le discours qui vient avant l’œuvre. Au théâtre grec, c’était la première partie, avant l’entrée du chœur."
     }
   }
 }

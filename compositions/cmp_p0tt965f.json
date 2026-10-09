@@ -13,7 +13,7 @@
         "localisation": "entrée « cardiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « cardiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « cardiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du cœur",
-      "explication_courte": "Du grec kardía, « cœur », et -logie."
+      "explication_courte": "Du grec kardía, « cœur », et -logie.",
+      "explication_detaillee": "Le grec kardía signifie « cœur ». La cardiologie est l’étude du cœur et des vaisseaux. C’est aussi la spécialité médicale qui soigne leurs maladies."
     }
   }
 }

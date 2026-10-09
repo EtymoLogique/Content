@@ -13,7 +13,7 @@
         "localisation": "entrée « agrobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « agrobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « agrobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie des champs",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : agro- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : agro- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe agro-, du grec agrós, « champ », s’ajoute à un mot que vous connaissez déjà : biologie. L’agrobiologie étudie le vivant dans le cadre de l’agriculture, c’est-à-dire des sols et des cultures. Le mot est construit à l’époque moderne."
     }
   }
 }

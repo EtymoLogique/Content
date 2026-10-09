@@ -13,7 +13,7 @@
         "localisation": "entrée « neurologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « neurologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « neurologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste des nerfs",
-      "explication_courte": "Du grec neûron, « nerf », et -logue."
+      "explication_courte": "Du grec neûron, « nerf », et -logue.",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. Le neurologue est le médecin qui se consacre aux nerfs et au cerveau. Il suit le modèle de cardiologue ou de dermatologue."
     }
   }
 }

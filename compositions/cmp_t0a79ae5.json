@@ -13,7 +13,7 @@
         "localisation": "entrée « psychopathie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « psychopathie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « psychopathie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection de l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et páthos, « ce qu’on éprouve »."
+      "explication_courte": "Du grec psukhḗ, « âme », et páthos, « ce qu’on éprouve ».",
+      "explication_detaillee": "Le grec páthos signifie ce qu’on éprouve, souvent une souffrance. Le suffixe -pathie nomme une affection. La psychopathie est un trouble de la personnalité. Le mot a longtemps désigné des troubles mentaux de façon plus large."
     }
   }
 }

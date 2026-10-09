@@ -13,7 +13,7 @@
         "localisation": "entrée « géophage »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géophage » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géophage » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mange la terre",
-      "explication_courte": "Du grec gê, « terre », et phageîn, « manger »."
+      "explication_courte": "Du grec gê, « terre », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec phageîn signifie « manger ». Le géophage est celui qui mange de la terre. Le mot désigne un comportement connu chez l’être humain comme chez certains animaux, la géophagie."
     }
   }
 }

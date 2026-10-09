@@ -13,7 +13,7 @@
         "localisation": "entrée « thermophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur de la chaleur",
-      "explication_courte": "Du grec thermós, « chaud », et phóbos, « peur »."
+      "explication_courte": "Du grec thermós, « chaud », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec phóbos signifie « crainte ». La thermophobie est la peur ou l’aversion pour la chaleur. Le mot est rare et appartient au vocabulaire médical et savant."
     }
   }
 }

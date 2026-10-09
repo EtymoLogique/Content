@@ -13,7 +13,7 @@
         "localisation": "entrée « amoral »"
       }
     ],
-    "note_interne": "À vérifier : entrée « amoral » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « amoral » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sans morale",
-      "explication_courte": "Le préfixe a- privatif, venu du grec, nie ce qui suit."
+      "explication_courte": "Le préfixe a- privatif, venu du grec, nie ce qui suit.",
+      "explication_detaillee": "Le préfixe a-, d’origine grecque, est privatif : il nie ce qui suit. Est amoral ce qui est étranger à la morale, ni bon ni mauvais selon ses règles. Il ne signifie pas immoral : l’immoral viole la morale, l’amoral l’ignore."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « psychologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « psychologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « psychologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et -logue, « spécialiste »."
+      "explication_courte": "Du grec psukhḗ, « âme », et -logue, « spécialiste ».",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. Le psychologue est celui qui étudie le psychisme et le comportement. Vous le rapprochez de psychologie, dont il est le nom de personne."
     }
   }
 }

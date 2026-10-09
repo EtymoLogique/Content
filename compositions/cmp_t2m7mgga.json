@@ -13,7 +13,7 @@
         "localisation": "entrée « micrographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « micrographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « micrographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "description du petit",
-      "explication_courte": "Du grec mikrós, « petit », et graphḗ, « écriture »."
+      "explication_courte": "Du grec mikrós, « petit », et graphḗ, « écriture ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit ». La micrographie est la description ou la représentation d’objets très petits, observés au microscope. Le titre célèbre Micrographia de Robert Hooke, en 1665, a montré ces images au public."
     }
   }
 }

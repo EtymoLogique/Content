@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de l’eau",
-      "explication_courte": "Du grec húdōr, « eau », et -logue, « spécialiste »."
+      "explication_courte": "Du grec húdōr, « eau », et -logue, « spécialiste ».",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. L’hydrologue étudie le cycle de l’eau et la circulation des cours d’eau. Il est lié au mot hydrologie par la même racine húdōr."
     }
   }
 }

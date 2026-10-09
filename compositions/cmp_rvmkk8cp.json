@@ -13,7 +13,7 @@
         "localisation": "entrée « sociologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « sociologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « sociologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la société",
-      "explication_courte": "Le latin socius, « compagnon », suivi du grec -logue."
+      "explication_courte": "Le latin socius, « compagnon », suivi du grec -logue.",
+      "explication_detaillee": "Le mot garde l’hybride de sociologie : socius, latin, et -logue, grec. Le sociologue est le spécialiste qui étudie les sociétés et les groupes humains. Il est plus courant que sociologiste."
     }
   }
 }

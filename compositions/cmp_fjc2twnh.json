@@ -13,7 +13,7 @@
         "localisation": "entrée « photophile »"
       }
     ],
-    "note_interne": "À vérifier : entrée « photophile » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « photophile » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui aime la lumière",
-      "explication_courte": "Du grec phôs, « lumière », et phílos, « ami »."
+      "explication_courte": "Du grec phôs, « lumière », et phílos, « ami ».",
+      "explication_detaillee": "Le grec phílos signifie « ami ». Est photophile ce qui aime la lumière, par exemple une plante qui pousse bien au soleil. Il s’oppose à sciaphile, qui préfère l’ombre."
     }
   }
 }

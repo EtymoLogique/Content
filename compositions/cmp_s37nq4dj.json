@@ -13,7 +13,7 @@
         "localisation": "entrée « neuropathie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « neuropathie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « neuropathie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection des nerfs",
-      "explication_courte": "Du grec neûron, « nerf », et páthos, « ce qu’on éprouve »."
+      "explication_courte": "Du grec neûron, « nerf », et páthos, « ce qu’on éprouve ».",
+      "explication_detaillee": "Le grec páthos désigne ce qu’on subit : une émotion, une souffrance, une maladie. Le second élément -pathie est devenu une terminaison courante pour nommer une affection. La neuropathie est une atteinte des nerfs."
     }
   }
 }

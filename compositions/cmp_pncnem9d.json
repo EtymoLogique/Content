@@ -13,7 +13,7 @@
         "localisation": "entrée « cardiographe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « cardiographe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « cardiographe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit le cœur",
-      "explication_courte": "Du grec kardia, « cœur », et graphein, « écrire »."
+      "explication_courte": "Du grec kardia, « cœur », et graphein, « écrire ».",
+      "explication_detaillee": "Le suffixe -graphe, du verbe gráphein, « écrire », désigne la personne ou l’appareil. Le cardiographe est l’instrument qui enregistre les battements du cœur. Le tracé qu’il produit s’appelle un cardiogramme."
     }
   }
 }

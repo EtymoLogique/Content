@@ -13,7 +13,7 @@
         "localisation": "entrée « théologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « théologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « théologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de Dieu",
-      "explication_courte": "Du grec theós, « dieu », et -logue, « spécialiste »."
+      "explication_courte": "Du grec theós, « dieu », et -logue, « spécialiste ».",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. Le théologue est celui qui pratique la théologie. Il est le nom de personne qui correspond à théologie."
     }
   }
 }

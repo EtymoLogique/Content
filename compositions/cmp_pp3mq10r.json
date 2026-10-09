@@ -13,7 +13,7 @@
         "localisation": "entrée « ramener »"
       }
     ],
-    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -49,7 +49,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "amener de nouveau",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : re- s’ajoute à amener."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : re- s’ajoute à amener.",
+      "explication_detaillee": "Le préfixe re- marque ici le retour. Le verbe amener, vu plus haut, conduit vers soi. Ramener, c’est amener de nouveau, ou conduire de retour au point de départ."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « anthropologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthropologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « anthropologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de l’être humain",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et -logue."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et -logue.",
+      "explication_detaillee": "Le suffixe -logue vient du grec lógos, comme -logie, mais il désigne la personne plutôt que la discipline. L’anthropologue est le spécialiste de l’être humain. Vous retrouverez ce couple -logie / -logue dans beaucoup d’autres mots."
     }
   }
 }

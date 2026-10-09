@@ -13,7 +13,7 @@
         "localisation": "entrée « archéologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « archéologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « archéologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de l’ancien",
-      "explication_courte": "Du grec arkhaîos, « ancien », et -logue."
+      "explication_courte": "Du grec arkhaîos, « ancien », et -logue.",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. L’archéologue est celui qui étudie les sociétés anciennes à partir de leurs vestiges, par exemple lors de fouilles. Il vient de archéologie, avec le même élément arkhaîos, « ancien »."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « thermographie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « thermographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « thermographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture de la chaleur",
-      "explication_courte": "Du grec thermos, « chaud », et graphein, « écrire »."
+      "explication_courte": "Du grec thermos, « chaud », et graphein, « écrire ».",
+      "explication_detaillee": "Le grec thermós signifie « chaud ». La thermographie est une technique qui représente la chaleur par une image, comme les images infrarouges. Elle s’emploie en médecine, en bâtiment et en industrie."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « géobiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « géobiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « géobiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie de la terre",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : géo- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : géo- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe géo-, du grec gê, « terre », s’ajoute à biologie. La géobiologie étudie les liens entre la Terre et la vie. Le mot recouvre aussi des pratiques non scientifiques qui prétendent mesurer l’effet des lieux sur la santé."
     }
   }
 }

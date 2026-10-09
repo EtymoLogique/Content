@@ -13,7 +13,7 @@
         "localisation": "entrée « bibliophile »"
       }
     ],
-    "note_interne": "À vérifier : entrée « bibliophile » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « bibliophile » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui aime les livres",
-      "explication_courte": "Du grec biblíon, « livre », et phílos, « ami »."
+      "explication_courte": "Du grec biblíon, « livre », et phílos, « ami ».",
+      "explication_detaillee": "Le grec phílos signifie « ami ». Le bibliophile est un amateur de livres, qui les aime pour leur contenu comme pour leur aspect : reliure, papier, rareté. Le mot est attesté en français depuis le XVIIIe siècle."
     }
   }
 }

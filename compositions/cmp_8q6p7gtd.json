@@ -13,7 +13,7 @@
         "localisation": "entrée « monomorphe »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monomorphe » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monomorphe » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "d’une seule forme",
-      "explication_courte": "Du grec mónos, « seul », et morphḗ, « forme »."
+      "explication_courte": "Du grec mónos, « seul », et morphḗ, « forme ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et morphḗ « forme ». Est monomorphe ce qui n’existe que sous une seule forme. Il s’oppose à polymorphe."
     }
   }
 }

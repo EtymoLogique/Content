@@ -13,7 +13,7 @@
         "localisation": "entrée « hydrophone »"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrophone » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrophone » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "voix de l’eau",
-      "explication_courte": "Du grec hudôr, « eau », et phônê, « voix »."
+      "explication_courte": "Du grec hudôr, « eau », et phônê, « voix ».",
+      "explication_detaillee": "Le grec phônê signifie « voix, son ». L’hydrophone est un microphone conçu pour capter les sons dans l’eau. Il sert à écouter la mer, par exemple pour repérer des sous-marins ou suivre des baleines."
     }
   }
 }

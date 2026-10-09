@@ -13,7 +13,7 @@
         "localisation": "entrée « microbiologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « microbiologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « microbiologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie du petit",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : micro- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : micro- s’ajoute à biologie.",
+      "explication_detaillee": "Le préfixe micro-, du grec mikrós, « petit », s’ajoute à biologie. La microbiologie étudie les organismes de très petite taille, comme les bactéries et les virus. Le mot s’est imposé avec les travaux de Pasteur."
     }
   }
 }

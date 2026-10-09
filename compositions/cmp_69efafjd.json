@@ -13,7 +13,7 @@
         "localisation": "entrée « dialogue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « dialogue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « dialogue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours entre",
-      "explication_courte": "Du grec diá, « à travers, entre », et lógos, « discours »."
+      "explication_courte": "Du grec diá, « à travers, entre », et lógos, « discours ».",
+      "explication_detaillee": "Le préfixe diá signifie « à travers, entre », non pas « deux », comme on le croit souvent. Le dialogue est donc un discours qui passe entre des personnes, et pas seulement entre deux. Le mot est ancien en grec, et célèbre grâce aux textes de Platon."
     }
   }
 }

@@ -13,7 +13,7 @@
         "localisation": "entrée « écologue »"
       }
     ],
-    "note_interne": "À vérifier : entrée « écologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « écologue » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la maison",
-      "explication_courte": "Du grec oîkos, « maison », et -logue, « spécialiste » : le milieu est la maison du vivant."
+      "explication_courte": "Du grec oîkos, « maison », et -logue, « spécialiste » : le milieu est la maison du vivant.",
+      "explication_detaillee": "Le suffixe -logue désigne le spécialiste. L’écologue est le scientifique qui étudie les relations entre les êtres vivants et leur milieu. Le mot permet de le distinguer de l’écologiste, qui est un militant."
     }
   }
 }

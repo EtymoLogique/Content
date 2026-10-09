@@ -13,7 +13,7 @@
         "localisation": "entrée « monophobie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « monophobie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « monophobie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur d’être seul",
-      "explication_courte": "Du grec mónos, « seul », et phóbos, « peur »."
+      "explication_courte": "Du grec mónos, « seul », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec mónos signifie « seul » et phóbos « crainte ». La monophobie est la peur d’être seul. Le mot est rare et appartient au vocabulaire médical."
     }
   }
 }

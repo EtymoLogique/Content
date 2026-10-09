@@ -13,7 +13,7 @@
         "localisation": "entrée « anthroposophie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « anthroposophie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « anthroposophie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
   },
   "parties": [
     {
@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sagesse de l’être humain",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et sophía, « sagesse »."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et sophía, « sagesse ».",
+      "explication_detaillee": "Le grec sophía, « sagesse », est aussi le second élément de philosophie. L’anthroposophie est une « sagesse de l’être humain ». Le mot est surtout connu comme le nom de la doctrine fondée au début du XXe siècle par Rudolf Steiner."
     }
   }
 }
