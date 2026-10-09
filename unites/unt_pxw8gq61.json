@@ -57,6 +57,26 @@
         ],
         "note_interne": "À vérifier : entrée « pathie » du TLFi, localisation à confirmer."
       }
+    },
+    {
+      "id": "sns_30qrfh1m",
+      "rang": 2,
+      "libelles": {
+        "fr": {
+          "glose": "ce qu’on ressent"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « -pathie, -pathique, -pathe »"
+          }
+        ],
+        "note_interne": "Sens relevé dans l’entrée « -pathie, -pathique, -pathe » du TLFi (cnrtl.fr), consultée le 9 octobre 2026. Glose rédigée. Le TLFi : « une manière d’être affecté, de sentir, de ressentir »."
+      }
     }
   ]
 }

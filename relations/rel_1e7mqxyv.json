@@ -1,0 +1,17 @@
+{
+  "id": "rel_1e7mqxyv",
+  "unite_source_id": "unt_nh6y80g6",
+  "unite_cible_id": "unt_wgqkrg0r",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « dialogue »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « dialogue » du TLFi, le 9 octobre 2026."
+  }
+}

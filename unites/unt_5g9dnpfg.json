@@ -35,6 +35,44 @@
         ],
         "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer."
       }
+    },
+    {
+      "id": "frm_exnc0vhb",
+      "texte": "ré",
+      "cle_normalisee": "ré",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "allomorphe",
+      "contexte": "devant voyelle",
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « re-, ré-, r- »"
+          }
+        ],
+        "note_interne": "Forme relevée dans l’entrée « re-, ré-, r- » du TLFi, consultée le 9 octobre 2026 : ré- ou r- devant une base à initiale vocalique."
+      }
+    },
+    {
+      "id": "frm_mq203z0t",
+      "texte": "r",
+      "cle_normalisee": "r",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "allomorphe",
+      "contexte": "devant voyelle",
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « re-, ré-, r- »"
+          }
+        ],
+        "note_interne": "Forme relevée dans l’entrée « re-, ré-, r- » du TLFi, consultée le 9 octobre 2026 : ré- ou r- devant une base à initiale vocalique."
+      }
     }
   ],
   "sens": [

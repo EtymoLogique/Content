@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « sociologie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_t158xwz9",
+    "annee": 1839,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « sociologie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « sociologie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « micrographe » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_cepkykd5",
+    "annee": 1771,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « micrographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « micrographe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

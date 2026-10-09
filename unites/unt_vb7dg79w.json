@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « psychographie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_2mqrnc50",
+    "annee": 1834,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « psychographie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « psychographie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

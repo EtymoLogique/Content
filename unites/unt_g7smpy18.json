@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « photomètre » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_qa78ed3t",
+    "annee": 1792,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « photomètre »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « photomètre » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « phonique » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_c8232y6t",
+    "annee": 1751,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « phonique »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « phonique » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

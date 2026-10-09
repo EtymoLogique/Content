@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « panthéisme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_cxq3b5bq",
+    "annee": 1712,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « panthéisme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « panthéisme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

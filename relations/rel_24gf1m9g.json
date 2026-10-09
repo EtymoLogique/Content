@@ -1,0 +1,17 @@
+{
+  "id": "rel_24gf1m9g",
+  "unite_source_id": "unt_162rhzj7",
+  "unite_cible_id": "unt_8mwgwsgs",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « économie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « économie » du TLFi, le 9 octobre 2026."
+  }
+}

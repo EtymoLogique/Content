@@ -1,0 +1,41 @@
+{
+  "id": "cmp_cqmf0f95",
+  "mot_id": "unt_5c7jre4w",
+  "forme_resultat_id": "frm_p02atye2",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « calligraphe »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « calligraphe », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tg3hh0gv",
+      "sens_id": "sns_wtmyn9qb",
+      "forme_id": "frm_4j497nqx",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4gha011y",
+      "sens_id": "sns_86gzfwbh",
+      "forme_id": "frm_9nz2x121",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui écrit avec beauté"
+    }
+  }
+}

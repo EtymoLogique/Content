@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « télégramme » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xsp0pqbh",
+    "annee": 1863,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « télégramme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « télégramme » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi met entre crochets une attestation de 1859."
+    }
+  }
 }

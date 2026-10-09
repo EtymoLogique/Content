@@ -57,6 +57,26 @@
         ],
         "note_interne": "À vérifier : entrée « logie » du TLFi, localisation à confirmer."
       }
+    },
+    {
+      "id": "sns_mccm9tsm",
+      "rang": 2,
+      "libelles": {
+        "fr": {
+          "glose": "discours"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « -logie »"
+          }
+        ],
+        "note_interne": "Sens relevé dans l’entrée « -logie » du TLFi (cnrtl.fr), consultée le 9 octobre 2026. Glose rédigée. Le TLFi range d’abord sous -logie les mots qui « désignent une forme de discours »."
+      }
     }
   ]
 }

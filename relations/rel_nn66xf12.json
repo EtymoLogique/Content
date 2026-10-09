@@ -1,0 +1,17 @@
+{
+  "id": "rel_nn66xf12",
+  "unite_source_id": "unt_060f9et1",
+  "unite_cible_id": "unt_zgyq6p1h",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « anthropophage »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « anthropophage » du TLFi, le 9 octobre 2026."
+  }
+}

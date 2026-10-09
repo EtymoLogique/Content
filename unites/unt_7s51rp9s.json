@@ -1,0 +1,68 @@
+{
+  "id": "unt_7s51rp9s",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « autocratie »"
+      }
+    ],
+    "note_interne": "Étymon cité par le TLFi, entrée « autocratie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_m0j9yaae",
+      "texte": "αὐτοκράτεια",
+      "cle_normalisee": "αὐτοκράτεια",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "autokráteia"
+        }
+      ],
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « autocratie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « autocratie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_p6s2qddz",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "pouvoir absolu"
+        }
+      },
+      "fait": {
+        "confiance": "etablie",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_6zfwd3mp",
+            "localisation": "entrée « autocratie »"
+          }
+        ],
+        "note_interne": "Étymon cité par le TLFi, entrée « autocratie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+      }
+    }
+  ]
+}

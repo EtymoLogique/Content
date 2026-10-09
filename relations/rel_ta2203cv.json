@@ -1,0 +1,17 @@
+{
+  "id": "rel_ta2203cv",
+  "unite_source_id": "unt_1cpzje9f",
+  "unite_cible_id": "unt_qdj224yt",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « télépathie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « télépathie » du TLFi, le 9 octobre 2026."
+  }
+}

@@ -166,6 +166,9 @@ impl Depot {
             for chemin in self.fichiers(dossier) {
                 let mut donnees = self.lire(&chemin);
                 brouillon(&mut donnees["fait"]);
+                if let Some(attestation) = donnees.get_mut("attestation") {
+                    brouillon(&mut attestation["fait"]);
+                }
                 for cle in ["formes", "sens"] {
                     for x in donnees
                         .get_mut(cle)

@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « monarchisme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_j72bj878",
+    "annee": 1738,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « monarchisme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monarchisme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "rel_vvj5bb36",
+  "unite_source_id": "unt_fy7ct6cd",
+  "unite_cible_id": "unt_9804vdxg",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « monochrome »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « monochrome » du TLFi, le 9 octobre 2026."
+  }
+}

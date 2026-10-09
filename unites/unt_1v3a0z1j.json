@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « phototype » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_7ywv6bkj",
+    "annee": 1895,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « phototype »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « phototype » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

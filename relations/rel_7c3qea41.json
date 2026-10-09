@@ -1,0 +1,17 @@
+{
+  "id": "rel_7c3qea41",
+  "unite_source_id": "unt_v6p3x225",
+  "unite_cible_id": "unt_hws0kj5q",
+  "type_code": "derivation",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « philologie »"
+      }
+    ],
+    "note_interne": "Le TLFi, entrée « philologie », dit le grec φιλολογία dérivé de φιλόλογος (consulté le 9 octobre 2026)."
+  }
+}

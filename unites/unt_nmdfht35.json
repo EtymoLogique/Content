@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « aéronaute » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_v2q2vsqp",
+    "annee": 1784,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « aéronaute »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « aéronaute » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

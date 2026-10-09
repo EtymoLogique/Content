@@ -1,0 +1,41 @@
+{
+  "id": "cmp_6d71g3fg",
+  "mot_id": "unt_tra5q3q9",
+  "forme_resultat_id": "frm_yt7x97hb",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « paléographie »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « paléographie », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_kqzd67r6",
+      "sens_id": "sns_pg4egzpy",
+      "forme_id": "frm_hn52g1tn",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4gha011y",
+      "sens_id": "sns_86gzfwbh",
+      "forme_id": "frm_9nz2x121",
+      "segment_debut": 6,
+      "segment_fin": 13
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture ancienne"
+    }
+  }
+}

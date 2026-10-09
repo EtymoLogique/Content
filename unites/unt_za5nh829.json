@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « hydrophobie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_jwqas4e9",
+    "annee": 1314,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « hydrophobie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « hydrophobie » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « ydroforbie » en 1314, « hydrophobie » en 1575."
+    }
+  }
 }

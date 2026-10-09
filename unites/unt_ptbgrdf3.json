@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « orthographe » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_mbps448a",
+    "annee": 1529,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « orthographe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « orthographe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

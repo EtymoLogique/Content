@@ -1,0 +1,17 @@
+{
+  "id": "rel_xxe10t7e",
+  "unite_source_id": "unt_h4f1sbhf",
+  "unite_cible_id": "unt_nzgc8vv6",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « géographie »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « géographie » du TLFi, le 9 octobre 2026."
+  }
+}

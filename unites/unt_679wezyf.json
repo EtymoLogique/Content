@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « cartomancie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_ssp6d451",
+    "annee": 1803,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « cartomancie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « cartomancie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

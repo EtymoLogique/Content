@@ -1,0 +1,41 @@
+{
+  "id": "cmp_eb8j3t2f",
+  "mot_id": "unt_v52bhdsr",
+  "forme_resultat_id": "frm_qc0wt4qc",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « écologie »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « écologie », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_sm7fxsba",
+      "sens_id": "sns_b4vmn3d7",
+      "forme_id": "frm_3kjzvpag",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_nj2qhsme",
+      "sens_id": "sns_34090m5q",
+      "forme_id": "frm_qbzgst5k",
+      "segment_debut": 3,
+      "segment_fin": 8
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de la maison"
+    }
+  }
+}

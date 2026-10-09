@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « périmètre » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_4bdcznw3",
+    "annee": 1538,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « périmètre »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « périmètre » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -6,14 +6,14 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
         "localisation": "entrée « télescope »"
       }
     ],
-    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : transformations ajoutées (adaptation de graphie, emprunt par l’italien), relues dans le TLFi ; à relire."
   },
   "parties": [
     {
@@ -31,6 +31,30 @@
       "forme_id": "frm_cc2e3r1v",
       "segment_debut": 4,
       "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_p448pphr",
+      "rang_partie": 1,
+      "type_code": "adaptation_graphie",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le é final de télé- perd son accent : on écrit télescope."
+        }
+      }
+    },
+    {
+      "id": "trf_7syqng9a",
+      "rang_partie": null,
+      "type_code": "emprunt_intermediaire",
+      "ordre": 2,
+      "libelles": {
+        "fr": {
+          "texte": "Le mot vient du latin savant telescopium, sans doute par l’italien telescopio de Galilée."
+        }
+      }
     }
   ],
   "libelles": {

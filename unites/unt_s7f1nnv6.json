@@ -58,5 +58,22 @@
         "note_interne": "À vérifier : entrée « triglyphe » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_afaqwp45",
+    "annee": 1526,
+    "precision": "intervalle",
+    "annee_fin": 1537,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « triglyphe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « triglyphe » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -59,5 +59,21 @@
         "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_z2gw9w9w",
+    "annee": 1755,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « biographie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « biographie » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi met entre crochets une attestation de 1721 qui « semble provenir d’une confusion avec biographe »."
+    }
+  }
 }

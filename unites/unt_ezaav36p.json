@@ -58,5 +58,22 @@
         "note_interne": "À vérifier : entrée « endogamie » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_a49qsxar",
+    "annee": 1890,
+    "precision": "intervalle",
+    "annee_fin": 1902,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « endogamie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « endogamie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

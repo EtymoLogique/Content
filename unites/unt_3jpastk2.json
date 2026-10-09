@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « phonothèque » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_5pc8y45s",
+    "annee": 1929,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « phonothèque »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « phonothèque » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

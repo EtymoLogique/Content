@@ -1,0 +1,41 @@
+{
+  "id": "cmp_b9tk1yes",
+  "mot_id": "unt_42pe1h8r",
+  "forme_resultat_id": "frm_jd3zfyxx",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « télescope »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « télescope », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_k0ty1zeb",
+      "sens_id": "sns_fmgkgz9p",
+      "forme_id": "frm_avyfxd6w",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_2ngx42wz",
+      "sens_id": "sns_a9312tw1",
+      "forme_id": "frm_yrtfg0ap",
+      "segment_debut": 4,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui observe au loin"
+    }
+  }
+}

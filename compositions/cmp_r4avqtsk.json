@@ -1,0 +1,41 @@
+{
+  "id": "cmp_r4avqtsk",
+  "mot_id": "unt_edeg1n8g",
+  "forme_resultat_id": "frm_qakwx04s",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « périmètre »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « périmètre », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_00tjscpz",
+      "sens_id": "sns_k0ke4fv5",
+      "forme_id": "frm_geytfvms",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_s8qt2w4f",
+      "sens_id": "sns_21jk8vp7",
+      "forme_id": "frm_tavjthjg",
+      "segment_debut": 4,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure du tour"
+    }
+  }
+}

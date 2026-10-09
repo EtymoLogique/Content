@@ -230,6 +230,7 @@ fn ids_imbriques(donnees: &Value) -> Vec<String> {
     ["formes", "sens", "transformations"]
         .iter()
         .flat_map(|cle| liste(&donnees[*cle]))
+        .chain(donnees.get("attestation"))
         .filter_map(|o| o["id"].as_str().map(str::to_owned))
         .collect()
 }

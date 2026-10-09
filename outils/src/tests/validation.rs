@@ -186,6 +186,74 @@ fn forme_sans_trait_union() {
     assert!(a_erreur(&depot, "forme.trait_union"));
 }
 
+// ------------------------------------------------------------- attestation (ADR 0056)
+
+pub(super) fn attestation(annee: i64, precision: &str) -> Value {
+    json!({
+        "id": "att_0000000a",
+        "annee": annee,
+        "precision": precision,
+        "fait": {
+            "confiance": "etablie",
+            "etat_relecture": "brouillon",
+            "sources": [{"source_id": "src_6zfwd3mp", "localisation": null}],
+            "note_interne": "Essai."
+        }
+    })
+}
+
+#[test]
+fn attestation_valide() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1751, "annee");
+    });
+    let rapport = depot.valider();
+    assert!(erreurs(&rapport).is_empty(), "{}", rapport.en_texte());
+}
+
+#[test]
+fn attestation_d_un_mot_francais_seulement() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géo"), |u| {
+        u["attestation"] = attestation(1751, "annee");
+    });
+    assert!(a_erreur(&depot, "attestation.mot_francais"));
+}
+
+#[test]
+fn attestation_jamais_dans_le_futur() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(3000, "annee");
+    });
+    assert!(a_erreur(&depot, "attestation.future"));
+}
+
+#[test]
+fn attestation_intervalle_ordonne() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1250, "intervalle");
+        u["attestation"]["annee_fin"] = json!(1225);
+    });
+    assert!(a_erreur(&depot, "attestation.intervalle"));
+}
+
+#[test]
+fn attestation_fin_d_intervalle_seulement() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1225, "intervalle");
+    });
+    assert!(a_erreur(&depot, "schema"));
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1225, "vers");
+        u["attestation"]["annee_fin"] = json!(1250);
+    });
+    assert!(a_erreur(&depot, "schema"));
+}
+
 #[test]
 fn cle_normalisee_nfc() {
     let depot = Depot::new();
@@ -1206,6 +1274,8 @@ fn candidats_listent_les_paires_dont_la_concatenation_est_un_mot() {
         u["formes"][0]["texte"] = json!("géoiste");
         u["formes"][0]["cle_normalisee"] = json!("geoiste");
         u["sens"][0]["id"] = json!(id("sns"));
+        // L'attestation garde son identifiant : la copie n'en porte pas, sinon il serait en double.
+        u.as_object_mut().unwrap().remove("attestation");
     });
     let catalogue = charger(&depot.racine, &mut Rapport::default()).unwrap();
     let paires: Vec<(String, String)> = chercher(&catalogue)
@@ -1426,16 +1496,37 @@ fn carte_sans_visuel_en_attente_avertit() {
         .map(|l| l["unite_id"].clone())
         .collect();
     let catalogue = charger(&depot.racine, &mut Rapport::default()).unwrap();
+    // Une brique hors fascicule a une carte : sans silhouette, elle est signalée.
     let libre = catalogue
-        .unites
-        .keys()
+        .briques
+        .values()
+        .map(|b| texte(&b["unite_id"]).to_owned())
         .find(|u| !affectees.contains(&json!(u)))
         .unwrap();
+    for chemin in depot.fichiers("ludique/medias") {
+        if depot.lire(&chemin)["unite_id"] == libre.as_str() {
+            fs::remove_file(chemin).unwrap();
+        }
+    }
     let rapport = depot.valider();
     assert!(rapport.diagnostics.iter().any(|d| d.niveau == AVERTISSEMENT
         && d.regle == "media.manquant"
         && d.objet.as_deref() == Some(libre.as_str())));
     assert!(!erreurs(&rapport).contains("media.manquant"));
+}
+
+#[test]
+fn etymon_sans_carte_ni_silhouette() {
+    // ADR 0013 : un étymon, ni brique ni résultat, n'a pas de carte, donc pas de silhouette à réclamer.
+    let depot = Depot::new();
+    let etymon = depot.uid("μέτρον");
+    let rapport = depot.valider();
+    assert!(
+        !rapport
+            .diagnostics
+            .iter()
+            .any(|d| d.regle == "media.manquant" && d.objet.as_deref() == Some(etymon.as_str()))
+    );
 }
 
 // --------------------------------------------------------------------- publication
@@ -1475,13 +1566,17 @@ pub(super) fn rendre_publiable(depot: &Depot) {
     let relire = |fait: &mut Value| {
         fait["etat_relecture"] = json!("relu");
         for lien in fait["sources"].as_array_mut().unwrap() {
-            lien["localisation"] = json!("entrée consultée");
+            lien["source_id"] = json!("src_tyvnmjjn");
+            lien["localisation"] = json!("entité consultée");
         }
     };
     for dossier in ["unites", "compositions", "relations"] {
         for chemin in depot.fichiers(dossier) {
             let mut donnees = depot.lire(&chemin);
             relire(&mut donnees["fait"]);
+            if let Some(attestation) = donnees.get_mut("attestation") {
+                relire(&mut attestation["fait"]);
+            }
             for cle in ["formes", "sens"] {
                 for x in donnees
                     .get_mut(cle)
@@ -1514,12 +1609,22 @@ fn publication_complete() {
 }
 
 #[test]
-fn publication_refuse_le_reperage_seul() {
+fn publication_exige_la_relecture_de_l_attestation() {
     let depot = Depot::new();
     rendre_publiable(&depot);
-    let wiktionnaire = depot.trouver("sources", |s| s["role"] == "reperage").1["id"].clone();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["attestation"] = attestation(1751, "annee");
+    });
+    let regles = erreurs(&depot.valider_publication());
+    assert!(ensemble(&["publication.relecture", "publication.localisation"]).is_subset(&regles));
+}
+
+#[test]
+fn publication_refuse_une_source_hors_wikidata() {
+    let depot = Depot::new();
+    rendre_publiable(&depot);
     depot.modifier(depot.unite("géo"), |u| {
-        u["fait"]["sources"] = json!([{"source_id": wiktionnaire, "localisation": "géo-"}]);
+        u["fait"]["sources"] = json!([{"source_id": "src_6zfwd3mp", "localisation": "géo-"}]);
     });
     assert!(erreurs(&depot.valider_publication()).contains("publication.source_reference"));
 }

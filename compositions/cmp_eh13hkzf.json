@@ -1,0 +1,41 @@
+{
+  "id": "cmp_eh13hkzf",
+  "mot_id": "unt_ap2dqkyy",
+  "forme_resultat_id": "frm_4jaxpvmh",
+  "type_analyse": "historique",
+  "preferee": true,
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « biologie »"
+      }
+    ],
+    "note_interne": "Formation donnée par le TLFi, entrée « biologie », consultée le 9 octobre 2026. Sens littéral rédigé."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wcgbsrds",
+      "sens_id": "sns_62vzrtzk",
+      "forme_id": "frm_zxdhxvr5",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_nj2qhsme",
+      "sens_id": "sns_34090m5q",
+      "forme_id": "frm_qbzgst5k",
+      "segment_debut": 3,
+      "segment_fin": 8
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude de la vie"
+    }
+  }
+}

@@ -6,14 +6,14 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [
       {
         "source_id": "src_6zfwd3mp",
         "localisation": "entrée « astrologie »"
       }
     ],
-    "note_interne": "À vérifier : entrée « astrologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "note_interne": "À vérifier : entrée « astrologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -logie pointe désormais le sens « discours », déjà dit par le sens littéral ; à relire."
   },
   "parties": [
     {
@@ -27,7 +27,7 @@
     {
       "rang": 2,
       "unite_id": "unt_mk61g05z",
-      "sens_id": "sns_t9ng9amb",
+      "sens_id": "sns_mccm9tsm",
       "forme_id": "frm_3qgy37m7",
       "segment_debut": 5,
       "segment_fin": 10

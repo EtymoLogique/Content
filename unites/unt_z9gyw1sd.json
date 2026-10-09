@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « tétragramme » du TLFi, localisation à renseigner."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_1jjd7zhv",
+    "annee": 1549,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « tétragramme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « tétragramme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "rel_xfyvcwv6",
+  "unite_source_id": "unt_474w41xr",
+  "unite_cible_id": "unt_hvcgtsrp",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_6zfwd3mp",
+        "localisation": "entrée « diamètre »"
+      }
+    ],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « diamètre » du TLFi, le 9 octobre 2026."
+  }
+}
