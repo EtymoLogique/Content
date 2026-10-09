@@ -1274,6 +1274,8 @@ fn candidats_listent_les_paires_dont_la_concatenation_est_un_mot() {
         u["formes"][0]["texte"] = json!("géoiste");
         u["formes"][0]["cle_normalisee"] = json!("geoiste");
         u["sens"][0]["id"] = json!(id("sns"));
+        // L'attestation garde son identifiant : la copie n'en porte pas, sinon il serait en double.
+        u.as_object_mut().unwrap().remove("attestation");
     });
     let catalogue = charger(&depot.racine, &mut Rapport::default()).unwrap();
     let paires: Vec<(String, String)> = chercher(&catalogue)
