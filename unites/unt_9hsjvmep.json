@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « polygraphie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_5pd3zx5m",
+    "annee": 1553,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « polygraphie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « polygraphie » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

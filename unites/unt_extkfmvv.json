@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « xylophage » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xk1hd4q0",
+    "annee": 1803,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « xylophage »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « xylophage » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

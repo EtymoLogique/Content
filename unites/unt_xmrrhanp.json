@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « télégraphe » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_xp3m3v8y",
+    "annee": 1794,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « télégraphe »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « télégraphe » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi met entre crochets les attestations de 1792 (Chappe)."
+    }
+  }
 }

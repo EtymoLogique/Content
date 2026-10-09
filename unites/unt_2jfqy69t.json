@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « microphone » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_g7d6y0ac",
+    "annee": 1721,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « microphone »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « microphone » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

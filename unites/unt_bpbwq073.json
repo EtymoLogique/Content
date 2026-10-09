@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_jmhbtz12",
+    "annee": 1175,
+    "precision": "vers",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « prologue »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « prologue » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « prologe » vers 1175 ; le TLFi met entre crochets une attestation possible de la 1re moitié du xiie s."
+    }
+  }
 }

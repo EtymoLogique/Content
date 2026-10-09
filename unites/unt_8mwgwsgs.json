@@ -59,5 +59,22 @@
         "note_interne": "À vérifier : entrée « économie » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_14yjc7ca",
+    "annee": 1370,
+    "precision": "intervalle",
+    "annee_fin": 1372,
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « économie »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « économie » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « yconomie » en 1370-72."
+    }
+  }
 }

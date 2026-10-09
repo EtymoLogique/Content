@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « anthropologue » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_zna26eya",
+    "annee": 1865,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « anthropologiste, anthropologue »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « anthropologiste, anthropologue » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }

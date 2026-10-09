@@ -58,5 +58,21 @@
         "note_interne": "À vérifier : entrée « chronogramme » du TLFi, localisation à confirmer."
       }
     }
-  ]
+  ],
+  "attestation": {
+    "id": "att_h30bbd8g",
+    "annee": 1752,
+    "precision": "annee",
+    "fait": {
+      "confiance": "etablie",
+      "etat_relecture": "brouillon",
+      "sources": [
+        {
+          "source_id": "src_6zfwd3mp",
+          "localisation": "entrée « chronogramme »"
+        }
+      ],
+      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « chronogramme » du TLFi (cnrtl.fr), le 9 octobre 2026."
+    }
+  }
 }
