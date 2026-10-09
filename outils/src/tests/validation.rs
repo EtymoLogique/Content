@@ -1494,16 +1494,37 @@ fn carte_sans_visuel_en_attente_avertit() {
         .map(|l| l["unite_id"].clone())
         .collect();
     let catalogue = charger(&depot.racine, &mut Rapport::default()).unwrap();
+    // Une brique hors fascicule a une carte : sans silhouette, elle est signalée.
     let libre = catalogue
-        .unites
-        .keys()
+        .briques
+        .values()
+        .map(|b| texte(&b["unite_id"]).to_owned())
         .find(|u| !affectees.contains(&json!(u)))
         .unwrap();
+    for chemin in depot.fichiers("ludique/medias") {
+        if depot.lire(&chemin)["unite_id"] == libre.as_str() {
+            fs::remove_file(chemin).unwrap();
+        }
+    }
     let rapport = depot.valider();
     assert!(rapport.diagnostics.iter().any(|d| d.niveau == AVERTISSEMENT
         && d.regle == "media.manquant"
         && d.objet.as_deref() == Some(libre.as_str())));
     assert!(!erreurs(&rapport).contains("media.manquant"));
+}
+
+#[test]
+fn etymon_sans_carte_ni_silhouette() {
+    // ADR 0013 : un étymon, ni brique ni résultat, n'a pas de carte, donc pas de silhouette à réclamer.
+    let depot = Depot::new();
+    let etymon = depot.uid("μέτρον");
+    let rapport = depot.valider();
+    assert!(
+        !rapport
+            .diagnostics
+            .iter()
+            .any(|d| d.regle == "media.manquant" && d.objet.as_deref() == Some(etymon.as_str()))
+    );
 }
 
 // --------------------------------------------------------------------- publication

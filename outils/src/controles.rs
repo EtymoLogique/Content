@@ -1969,17 +1969,26 @@ impl<'a> Controleur<'a> {
             }
         }
 
-        // Carte en attente d'affectation : simple avertissement.
+        // Carte en attente d'affectation : simple avertissement. Seule une brique ou le résultat
+        // d'une recette a une carte ; un étymon n'en a pas (ADR 0013).
         let affectees: HashSet<&str> = c
             .fascicules
             .values()
             .flat_map(|f| liste(&f["unites"]))
             .map(|l| texte(&l["unite_id"]))
             .collect();
+        let mut avec_carte: HashSet<&str> =
+            c.briques.values().map(|b| texte(&b["unite_id"])).collect();
+        avec_carte.extend(c.recettes.values().filter_map(|r| {
+            c.compositions
+                .get(texte(&r["composition_id"]))
+                .map(|cmp| texte(&cmp["mot_id"]))
+        }));
         let mut uids: Vec<&String> = c.unites.keys().collect();
         uids.sort();
         for uid in uids {
-            if !affectees.contains(uid.as_str())
+            if avec_carte.contains(uid.as_str())
+                && !affectees.contains(uid.as_str())
                 && !cibles.contains_key(&("silhouette", "unite", uid.as_str()))
             {
                 self.avert(
