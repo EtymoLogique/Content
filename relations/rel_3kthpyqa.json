@@ -1,0 +1,17 @@
+{
+  "id": "rel_3kthpyqa",
+  "unite_source_id": "unt_qxp76d4a",
+  "unite_cible_id": "unt_bwmv5srt",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L18790, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Relation déclarée par Wikidata (« dérivé du lexème », P5191). Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Déclaration sans référence. Le type « emprunt » suit les autres étymons latins des noms français ; Wikidata ne le précise pas."
+  }
+}

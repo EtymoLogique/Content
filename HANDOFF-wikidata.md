@@ -1,12 +1,12 @@
 # Handoff — ressources non vérifiées dans Wikidata (ADR 0060)
 
-État au 10 octobre 2026, branche `feature/recoupement-wikidata` (PR #31), après traitement du handoff précédent sur les 10 fascicules. Requêtes faites par le MCP `wikidata` seulement. Tout fait listé ici est `brouillon`, avec `sources: []` (ou un désaccord noté) et une `note_interne` qui dit ce qui manque. Rien de cette liste n’est publiable en prod tant que Wikidata ne le porte pas. Il ne liste que ce qui reste après ce traitement.
+État au 10 octobre 2026, branche `feature/recoupement-wikidata` (PR #31), après traitement du handoff précédent sur les 10 fascicules. Requêtes faites par le MCP `wikidata` seulement. Tout fait listé ici est `brouillon`, avec `sources: []` (ou un désaccord noté) et une `note_interne` qui dit ce qui manque. Rien de cette liste n’est publiable en prod tant que Wikidata ne le porte pas, et l’équipe n’y contribue pas (ADR 0061). Il ne liste que ce qui reste après ce traitement.
 
 Méthode de recherche, rejouée le 10 octobre 2026 avant de conclure à une absence : lemme exact par langue ; affixes français avec et sans trait d’union, y compris le trait d’union insécable U+2011 (*bio‑*, L1569090, était manqué ainsi) et en vérifiant la catégorie lexicale (préfixe, suffixe) ; grec ancien sans tenir compte des accents ni des esprits (expression régulière sur le squelette consonantique) ; latin avec ou sans macrons ; forme de citation de Wikidata pour les verbes ; homographes départagés par catégorie, formes et sens. **Un « absent » veut dire « non trouvé par cette méthode »**, pas « inexistant ».
 
 ## Ce qui a été traité
 
-- **Désaccords** : *tri-* et *nano-* reçoivent leur étymon latin déclaré par Wikidata (tres, nanus) ; *télescope* reçoit l’emprunt direct à *tēlescopium* ; *toponyme* reçoit la dérivation de *toponymie*. Les relations grecques ou italiennes que Wikidata ne cite pas sont gardées en confiance `discutee` (§ 1).
+- **Désaccords** : *tri-* et *nano-* reçoivent leur étymon latin déclaré par Wikidata (tres, nanus) ; *télescope* reçoit l’emprunt direct à *tēlescopium* ; *toponyme* reçoit la dérivation de *toponymie*. Les relations grecques ou italiennes que Wikidata contredit sont passées en `non_retenue`, ainsi que la composition historique d’*Ökologie* ; les explications de *nanomètre*, *trigramme* et *télescope* citent désormais l’étymon de Wikidata (§ 1, ADR 0061).
 - **Homographes** : un seul lexème retenu pour caedere (L261461), inde (L276077), mille (L278705), τάφος (L1102328), avec la raison dans la note ; *minare* est confirmé (forme du lexème *mino*, L278739).
 - **Allomorphes** : *ré* et *r* sont des formes déclarées du lexème L10464 (F6, F4).
 - **Sens** : les 490 gloses rattachées à un lexème ont été comparées au sens Wikidata : 324 concordantes, 12 partielles, 8 discordantes (source Wikidata retirée, § 4), 154 sur des lexèmes sans sens, 1 sur un sens sans glose. La localisation cite désormais le sens retenu, et non plus le texte de la définition (défaut de 47 localisations du type `L313914-S1=terrain ou aménagé…`).
@@ -22,27 +22,31 @@ Méthode de recherche, rejouée le 10 octobre 2026 avant de conclure à une abse
 | Allomorphes non vérifiés | 5 |
 | Sens discordants ou partiels | 8 + 12 |
 | Sens sur un lexème sans sens | 154 |
-| Relations sans déclaration P5191 | 228 (dont 3 discutées) |
-| Compositions sans déclaration P5238 | 707 (dont 6 désaccords) |
+| Relations sans déclaration P5191 | 225 (3 autres non retenues, § 1) |
+| Compositions sans déclaration P5238 | 700 (les six mesures en *-mètre* sont réalignées, Ökologie non retenue, § 1) |
 | Attestations retirées (aucun P6684) | 466 |
 | Langues sans période | 5 |
 
-## 1. Désaccords avec Wikidata (à trancher en premier)
+## 1. Désaccords avec Wikidata
 
-- Relation `forme_de_composition` τρεῖς → tri- (`relations/rel_5wg55tka.json`, confiance `discutee`) : Wikidata dérive « tri- » (L620229, déclaration référencée) du latin tres, relation saisie à part ; il ne cite pas le grec τρεῖς : à trancher en relecture.
-- Relation `forme_de_composition` νᾶνος → nano- (`relations/rel_bcpepxgt.json`, confiance `discutee`) : Wikidata dérive « nano- » (L20367, déclaration référencée) du latin nanus, relation saisie à part ; il ne cite pas le grec νᾶνος : à trancher en relecture.
-- Relation `emprunt` telescopio → télescope (`relations/rel_f4zjf60q.json`, confiance `discutee`) : Wikidata dérive « télescope » (L1460339, déclaration référencée) du latin tēlescopium, relation saisie à part ; il ne cite pas l’italien telescopio : à trancher en relecture.
-- Composition mégamètre = méga- + -mètre (`compositions/cmp_350t2c9a.json`) : Wikidata compose « mégamètre » de L18790 + méga-, le catalogue de méga + mètre : à trancher en relecture.
-- Composition millimètre = milli- + -mètre (`compositions/cmp_aww7r1kk.json`) : Wikidata compose « millimètre » de milli- + L18790, le catalogue de milli + mètre : à trancher en relecture.
-- Composition décimètre = déci- + -mètre (`compositions/cmp_c6kngvyk.json`) : Wikidata compose « décimètre » de déci- + L18790, le catalogue de déci + mètre : à trancher en relecture.
-- Composition kilomètre = kilo- + -mètre (`compositions/cmp_dsnpzz1h.json`) : Wikidata compose « kilomètre » de L18790 + kilo-, le catalogue de kilo + mètre : à trancher en relecture.
-- Composition nanomètre = nano- + -mètre (`compositions/cmp_km6m6pcq.json`) : Wikidata compose « nanomètre » de nano- + L18790, le catalogue de nano + mètre : à trancher en relecture.
-- Composition centimètre = centi- + -mètre (`compositions/cmp_q4jcnyh5.json`) : Wikidata compose « centimètre » de centi- + L18790, le catalogue de centi + mètre : à trancher en relecture.
-- Les six mesures en *-mètre* ne sont pas réalignées : Wikidata les compose avec le nom *mètre* (L18790), le catalogue avec le suffixe *-mètre*, qui porte une brique. Changer la partie changerait les recettes : décision de game design.
-- Composition synchronique toponyme = topo- + -onyme : Wikidata (L1469114) dérive le mot de *toponymie* ; la dérivation est désormais saisie, l’analyse en briques reste à confirmer.
-- Composition historique Ökologie = οἶκος + λόγος : Wikidata (L499774) la compose de *öko-* + *-logie* (allemand), absents du catalogue.
+Décision du 10 octobre 2026 (issue Content #32, ADR 0061) : **Wikidata fait référence, et l’équipe n’y contribue pas** (ni création, ni modification, ni signalement). Une analyse du catalogue que Wikidata contredit passe en `non_retenue` ; un fait que Wikidata ne porte pas reste `brouillon`.
+
+### Tranchés
+
+- Relation `forme_de_composition` τρεῖς → tri- (`relations/rel_5wg55tka.json`) : `non_retenue`. Wikidata dérive « tri- » (L620229) du latin tres, relation déjà saisie.
+- Relation `forme_de_composition` νᾶνος → nano- (`relations/rel_bcpepxgt.json`) : `non_retenue`. Wikidata dérive « nano- » (L20367) du latin nanus, relation déjà saisie.
+- Relation `emprunt` telescopio → télescope (`relations/rel_f4zjf60q.json`) : `non_retenue`. Wikidata dérive « télescope » (L1460339) du latin tēlescopium, relation déjà saisie. La relation telescopium → telescopio et l’unité telescopio restent, sans appui (§ 5).
+- Composition historique Ökologie = οἶκος + λόγος (`compositions/cmp_eb8j3t2f.json`) : `non_retenue`. Wikidata (L499774) la compose de *öko-* (L492312) + *-logie* (L616422) (P5238) ; ces éléments allemands ne sont pas au catalogue et n’y sont pas ajoutés.
+
+### Restent `brouillon`
+
+- Composition synchronique toponyme = topo- + -onyme : Wikidata (L1469114) dérive le mot de *toponymie*, dérivation saisie ; il ne contredit pas l’analyse en briques, il ne la porte pas.
 - Unité φαγεῖν : rattachée à ἐσθίω (L1109170), dont c’est l’aoriste supplétif ; Wikidata ne liste pas la forme.
-- Sens de caedere : le lexème retenu (L261461) n’a qu’un sens « keikogi », sans rapport avec le verbe : erreur probable dans Wikidata, à signaler sur Wikidata.
+- Sens de caedere : le lexème retenu (L261461) n’a qu’un sens « keikogi », sans rapport avec le verbe : erreur probable dans Wikidata, notée dans le fait et non signalée sur Wikidata (ADR 0061). La recherche d’un autre lexème *caedo* n’a pas pu être rejouée le 10 octobre 2026 (service SPARQL indisponible).
+
+### Réalignés sur Wikidata
+
+- Mesures mégamètre, kilomètre, centimètre, millimètre, décimètre, nanomètre : Wikidata les compose avec le nom *mètre* (L18790, P5238 sans référence). La seconde partie de leur composition passe du suffixe *-mètre* (`unt_5f6v9qv2`, sans lexème, gardé pour les autres mots) à la nouvelle unité *mètre*, nom (`unt_bwmv5srt`), confiance `probable`. Nouvelle brique `brq_xbxjw8m5` (rareté provisoire), silhouette `metre-nom.svg` (mètre pliant), ingrédient des fascicules 7 et 8 ; les six recettes l’utilisent. Étymon latin *metrum* (`unt_qxp76d4a`, L278677, sans sens dans Wikidata) relié par `emprunt` (P5191 de L18790, sans référence).
 
 ## 2. Unités sans lexème Wikidata
 
@@ -1028,7 +1032,6 @@ Wikidata ne porte « combine les lexèmes » (P5238) que sur 7 mots du catalogue
 | — | palaeographia | παλαιός + γράφειν | historique | `cmp_6d71g3fg.json` |
 | — | psychologia | ψυχή + λόγος | historique | `cmp_dp379k9n.json` |
 | — | telescopium | τῆλε + σκοπεῖν | historique | `cmp_b9tk1yes.json` |
-| — | Ökologie | οἶκος + λόγος | historique | `cmp_eb8j3t2f.json` |
 | — | καλλιγράφος | κάλλος + γράφειν | historique | `cmp_cqmf0f95.json` |
 | — | περίμετρος | περί + μέτρον | historique | `cmp_r4avqtsk.json` |
 | — | πολύχρωμος | πολύς + χρῶμα | historique | `cmp_1dhzwxtf.json` |
@@ -1062,4 +1065,4 @@ Règle appliquée le 10 octobre 2026 : une date, un siècle, un lieu d’origine
 - Gloses, définitions, sens littéraux, explications : rédigés, jamais sourcés (par conception).
 - Silhouettes des langues anglais, allemand, italien : à relire sur planche (#15).
 - Compilateur : ne publie que le premier maillon des chaînes et aucune analyse historique (#29).
-- Contribuer à Wikidata (créer les lexèmes, déclarer P5191, P5238, P6684) est la seule voie pour publier ce qui reste : à décider, rien n’a été écrit dans Wikidata.
+- Contribuer à Wikidata : écarté (ADR 0061). Ce qui reste n’est publiable que si Wikidata le porte de lui-même ; rien n’a été écrit dans Wikidata.

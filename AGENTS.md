@@ -6,7 +6,7 @@ Tout le contenu est **en français**. Rédigez en français la documentation, le
 
 ## Sources de vérité
 
-1. **ADR acceptés** du dépôt de conception (`docs/adr/`), en particulier 0002, 0003, 0005, 0006, 0009, 0013, 0014, 0017, 0022, 0024 et 0060.
+1. **ADR acceptés** du dépôt de conception (`docs/adr/`), en particulier 0002, 0003, 0005, 0006, 0009, 0013, 0014, 0017, 0022, 0024, 0060 et 0061.
 2. **Modèle de données** (`docs/modele-donnees.md`) : tables, cardinalités et « Contraintes d’intégrité ». Les schémas et `outils/src/controles.rs` en sont la traduction exécutable.
 3. **`docs/game-design.md`** : vocabulaire et règles de jeu.
 
@@ -30,7 +30,7 @@ Si le dépôt s’écarte du modèle de données, ou si deux sources se contredi
 
 - **D’abord un logiciel qui marche, ensuite les tests.** Faire fonctionner l’application comme elle a été conçue prime sur l’écriture de tests : livrez d’abord une fonctionnalité qui marche de bout en bout, puis ajoutez les tests qui la protègent.
 - **Identifiants opaques** : `cargo run -q --manifest-path outils/Cargo.toml -- nouvel-id <préfixe>`. Ne réutilisez jamais un identifiant, n’y mettez jamais de graphie, ne renommez jamais un objet publié : un changement de nature ou une suppression passe par une migration (ADR 0005).
-- **Wikidata est la seule source de vérité** (ADR 0060). Le TLFi, les dictionnaires de référence et le Wiktionnaire ne sont plus des sources. **Aucun texte copié** : rédigez les gloses, définitions et explications. N’inventez ni entité, ni identifiant : un fait que Wikidata ne porte pas reste `brouillon`, et `note_interne` dit ce qu’il manque.
+- **Wikidata est la seule source de vérité** (ADR 0060). Le TLFi, les dictionnaires de référence et le Wiktionnaire ne sont plus des sources. **Aucun texte copié** : rédigez les gloses, définitions et explications. N’inventez ni entité, ni identifiant : un fait que Wikidata ne porte pas reste `brouillon`, et `note_interne` dit ce qu’il manque. **Ne contribuez jamais à Wikidata** (ADR 0061) : ni création, ni modification, ni signalement. En cas de désaccord, l’analyse de Wikidata l’emporte et celle du catalogue passe en `non_retenue`.
 - **MCP `wikidata` (`.mcp.json`)** : réservé à l’agent qui génère de nouveaux mots (skill `nouveau-mot`, § 2) ; aucun outil ni contrôle du dépôt n’en dépend.
 - **Un nouveau fait naît `brouillon`.** Seule une relecture humaine le passe à `relu`.
 - **Médias** : tout SVG passe le profil de `outils/src/medias.rs`, une liste blanche contre le XSS. Pas de texte, de titre ni de commentaire : ils trahiraient le mot. N’élargissez le profil qu’avec un test qui prouve que l’ajout est sûr.
