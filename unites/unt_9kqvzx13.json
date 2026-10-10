@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_c5sy8ve2",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « chronologie »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L263706, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "Étymon cité par le TLFi, entrée « chronologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source.",
+    "note_interne": "Étymon cité par le TLFi, entrée « chronologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060).",
     "libelles": {
       "fr": {
         "note_simplification": "Latin du xvie siècle, rattaché au latin sans variété (ADR 0013)."
@@ -30,15 +30,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « chronologie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L263706, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Étymon cité par le TLFi, entrée « chronologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+        "note_interne": "Étymon cité par le TLFi, entrée « chronologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
       }
     }
   ],
@@ -52,15 +52,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « chronologie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L263706, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Étymon cité par le TLFi, entrée « chronologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source."
+        "note_interne": "Étymon cité par le TLFi, entrée « chronologie », consultée le 9 octobre 2026. À confirmer dans le Gaffiot. Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
       }
     }
   ]

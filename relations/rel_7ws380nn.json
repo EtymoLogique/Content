@@ -4,14 +4,14 @@
   "unite_cible_id": "unt_87h222t2",
   "type_code": "emprunt",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_sytyp4pd",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L273145, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   }
 }

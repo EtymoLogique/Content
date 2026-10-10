@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_1g2et8hj",
-        "localisation": null
-      }
-    ],
-    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner."
+    "sources": [],
+    "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ἐτυμολογία » (L1000132). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {

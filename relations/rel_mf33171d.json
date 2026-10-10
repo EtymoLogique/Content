@@ -6,12 +6,7 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_1g2et8hj",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « κρύσταλλος » du Bailly, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « κρύσταλλος » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « cristallo » (sans lexème) et « κρύσταλλος » (L1102297). Non publiable tant que Wikidata ne le porte pas."
   }
 }

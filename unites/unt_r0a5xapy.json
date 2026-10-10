@@ -4,14 +4,9 @@
   "langue_id": "lng_wa90y54n",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « graphie »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « graphie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "affixe": {
     "statut": "element_de_composition"
@@ -26,14 +21,9 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « graphie »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « graphie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -48,14 +38,9 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « graphie »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « graphie » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « graphie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     },
     {
@@ -69,13 +54,8 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « -graphe, -graphie, -graphique »"
-          }
-        ],
-        "note_interne": "Sens relevé dans l’entrée « -graphe, -graphie, -graphique » du TLFi (cnrtl.fr), consultée le 9 octobre 2026. Glose rédigée. Le TLFi range géographie et démographie parmi les sciences « ayant pour objet la description de faits »."
+        "sources": [],
+        "note_interne": "Sens relevé dans l’entrée « -graphe, -graphie, -graphique » du TLFi (cnrtl.fr), consultée le 9 octobre 2026. Glose rédigée. Le TLFi range géographie et démographie parmi les sciences « ayant pour objet la description de faits ». Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « graphie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
     }
   ]

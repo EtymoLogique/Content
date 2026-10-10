@@ -5,15 +5,15 @@
   "type_analyse": "synchronique",
   "preferee": true,
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1450853, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « décalitre » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « décalitre » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "parties": [
     {

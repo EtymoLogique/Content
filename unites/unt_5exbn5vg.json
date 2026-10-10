@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « baromètre »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L27716, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "nom"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « baromètre »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L27716, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -47,32 +47,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « baromètre »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L27716-S1=instrument ou de ou mesure ou de ou pression ou atmosphérique, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « baromètre » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_8g89hhc9",
-    "annee": 1666,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « baromètre »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « baromètre » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

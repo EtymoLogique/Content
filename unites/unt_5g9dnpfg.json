@@ -3,15 +3,15 @@
   "nature": "prefixe",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « re »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L10464, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "affixe": {
     "statut": "affixe"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « re »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L10464, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     },
     {
@@ -46,13 +46,8 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « re-, ré-, r- »"
-          }
-        ],
-        "note_interne": "Forme relevée dans l’entrée « re-, ré-, r- » du TLFi, consultée le 9 octobre 2026 : ré- ou r- devant une base à initiale vocalique."
+        "sources": [],
+        "note_interne": "Forme relevée dans l’entrée « re-, ré-, r- » du TLFi, consultée le 9 octobre 2026 : ré- ou r- devant une base à initiale vocalique. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : allomorphe « ré » non vérifié parmi les formes du lexème L10464. Non publiable tant que Wikidata ne le porte pas."
       }
     },
     {
@@ -65,13 +60,8 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « re-, ré-, r- »"
-          }
-        ],
-        "note_interne": "Forme relevée dans l’entrée « re-, ré-, r- » du TLFi, consultée le 9 octobre 2026 : ré- ou r- devant une base à initiale vocalique."
+        "sources": [],
+        "note_interne": "Forme relevée dans l’entrée « re-, ré-, r- » du TLFi, consultée le 9 octobre 2026 : ré- ou r- devant une base à initiale vocalique. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : allomorphe « r » non vérifié parmi les formes du lexème L10464. Non publiable tant que Wikidata ne le porte pas."
       }
     }
   ],
@@ -85,15 +75,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « re »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L10464-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

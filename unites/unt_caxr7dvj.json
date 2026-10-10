@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L15342, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « pseudonyme » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « pseudonyme » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "mot": {
     "categorie": "nom"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L15342, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « pseudonyme » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « pseudonyme » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
       }
     }
   ],
@@ -47,32 +47,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L15342-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « pseudonyme » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « pseudonyme » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_zn56cq31",
-    "annee": 1690,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « pseudonyme »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « pseudonyme » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

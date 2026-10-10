@@ -4,14 +4,9 @@
   "langue_id": "lng_wa90y54n",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « philo »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « philo » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "affixe": {
     "statut": "element_de_composition"
@@ -26,14 +21,9 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « philo »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « philo » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     },
     {
@@ -45,14 +35,9 @@
       "contexte": "devant voyelle",
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « phil »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « phil » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « phil » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : allomorphe « phil » non vérifié parmi les formes du lexème (aucun lexème). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -67,14 +52,9 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « philo »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « philo » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « philo » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

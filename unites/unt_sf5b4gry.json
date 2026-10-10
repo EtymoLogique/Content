@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « hydrologie »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L26868, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « hydrologie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « hydrologie » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "nom"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « hydrologie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L26868, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « hydrologie » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « hydrologie » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -48,32 +48,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « hydrologie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L26868-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « hydrologie » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « hydrologie » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_n14b3cwa",
-    "annee": 1614,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « hydrologie »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « hydrologie » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

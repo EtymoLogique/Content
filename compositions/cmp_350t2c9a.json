@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « mégamètre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « mégamètre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata compose « mégamètre » de L18790 + méga-, le catalogue de méga + mètre : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {

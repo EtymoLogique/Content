@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1582990, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "mot": {
     "categorie": "nom"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1582990, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
       }
     }
   ],
@@ -48,32 +48,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1582990-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « phonologie » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_vq9pc1pn",
-    "annee": 1846,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « phonologie »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « phonologie » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

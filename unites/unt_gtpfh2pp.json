@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « biographie »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L19853, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "nom"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « biographie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L19853, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -48,32 +48,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « biographie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L19853-S1=, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « biographie » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_z2gw9w9w",
-    "annee": 1755,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « biographie »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « biographie » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi met entre crochets une attestation de 1721 qui « semble provenir d’une confusion avec biographe »."
-    }
-  }
+  ]
 }

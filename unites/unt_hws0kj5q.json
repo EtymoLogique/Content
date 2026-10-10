@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_kmf44d76",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « philologie »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1103799, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "Étymon cité par le TLFi, entrée « philologie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+    "note_interne": "Étymon cité par le TLFi, entrée « philologie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "mot": {
     "categorie": "nom"
@@ -31,15 +31,15 @@
         }
       ],
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « philologie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1103799, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Étymon cité par le TLFi, entrée « philologie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+        "note_interne": "Étymon cité par le TLFi, entrée « philologie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
       }
     }
   ],
@@ -53,15 +53,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « philologie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1103799, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Étymon cité par le TLFi, entrée « philologie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source."
+        "note_interne": "Étymon cité par le TLFi, entrée « philologie », consultée le 9 octobre 2026. À confirmer dans le Bailly. Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
       }
     }
   ]

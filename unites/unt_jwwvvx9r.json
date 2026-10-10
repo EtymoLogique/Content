@@ -5,13 +5,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « cosmique » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
   },
   "mot": {
     "categorie": "adjectif"
@@ -27,13 +22,8 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
-          }
-        ],
-        "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « cosmique » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
     }
   ],
@@ -49,30 +39,9 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
-          }
-        ],
-        "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « cosmique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « cosmique » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_9fg4ph03",
-    "annee": 1380,
-    "precision": "vers",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « cosmique »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « cosmique » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

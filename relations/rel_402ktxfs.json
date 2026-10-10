@@ -4,14 +4,14 @@
   "unite_cible_id": "unt_es5qyvwq",
   "type_code": "emprunt",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « diagramme »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1049133, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « diagramme » du TLFi, le 9 octobre 2026."
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « diagramme » du TLFi, le 9 octobre 2026. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   }
 }

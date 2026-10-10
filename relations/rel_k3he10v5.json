@@ -6,12 +6,7 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « technologie »"
-      }
-    ],
-    "note_interne": "Le TLFi, entrée « technologie », dit le grec τεχνολογία dérivé de τεχνολόγος (consulté le 9 octobre 2026)."
+    "sources": [],
+    "note_interne": "Le TLFi, entrée « technologie », dit le grec τεχνολογία dérivé de τεχνολόγος (consulté le 9 octobre 2026). Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « τεχνολογία » (L1103406) et « τεχνολόγος » (L1103727). Non publiable tant que Wikidata ne le porte pas."
   }
 }

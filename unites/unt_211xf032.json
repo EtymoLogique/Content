@@ -4,14 +4,9 @@
   "langue_id": "lng_wa90y54n",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « monogramme »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « monogramme » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "nom"
@@ -26,14 +21,9 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « monogramme »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « monogramme » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -48,31 +38,10 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « monogramme »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « monogramme » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « monogramme » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_pe792khj",
-    "annee": 1578,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « monogramme »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « monogramme » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }
