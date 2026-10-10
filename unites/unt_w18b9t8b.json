@@ -52,10 +52,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L709304-S2 ou L709304-S1, consulté le 10 octobre 2026"
+            "localisation": "L709304-S2, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « ique » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture."
+        "note_interne": "À vérifier : entrée « ique » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordance partielle, le sens Wikidata le plus proche est « qui a, qui comprend », la glose « qui se rapporte à » est plus large."
       }
     }
   ]

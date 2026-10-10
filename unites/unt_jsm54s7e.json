@@ -1,0 +1,62 @@
+{
+  "id": "unt_jsm54s7e",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L279140, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_c034fahd",
+      "texte": "nanus",
+      "cle_normalisee": "nanus",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L279140, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_rhnndtwk",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "nain"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L279140, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
+      }
+    }
+  ]
+}

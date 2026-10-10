@@ -49,13 +49,8 @@
       "fait": {
         "confiance": "probable",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_tyvnmjjn",
-            "localisation": "L1506060-S1, consulté le 10 octobre 2026"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « micromètre » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « micromètre » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L1506060-S1) : le seul sens Wikidata est l’unité de longueur (micromètre), pas l’instrument de mesure. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

@@ -4,9 +4,9 @@
   "unite_cible_id": "unt_y5574xge",
   "type_code": "emprunt",
   "fait": {
-    "confiance": "probable",
+    "confiance": "discutee",
     "etat_relecture": "brouillon",
     "sources": [],
-    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « télescope » du TLFi, le 9 octobre 2026. Le TLFi dit « prob. par l’intermédiaire de l’ital. telescopio » : maillon italien en confiance « probable ». Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata dérive « télescope » (L1460339) de tēlescopium, pas de « telescopio » : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « télescope » du TLFi, le 9 octobre 2026. Le TLFi dit « prob. par l’intermédiaire de l’ital. telescopio » : maillon italien en confiance « probable ». Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata dérive « télescope » (L1460339, déclaration référencée) du latin tēlescopium, relation saisie à part ; il ne cite pas l’italien telescopio : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
   }
 }

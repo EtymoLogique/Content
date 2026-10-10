@@ -8,10 +8,10 @@
     "sources": [
       {
         "source_id": "src_tyvnmjjn",
-        "localisation": "L278705 ou L278704, consulté le 10 octobre 2026"
+        "localisation": "L278705, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « mille » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+    "note_interne": "À vérifier : entrée « mille » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lexème retenu : L278705, le numéral (L278704 est le nom « mille pas »)."
   },
   "mot": {
     "categorie": "adjectif"
@@ -30,10 +30,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L278705 ou L278704, consulté le 10 octobre 2026"
+            "localisation": "L278705, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « mille » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+        "note_interne": "À vérifier : entrée « mille » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lexème retenu : L278705, le numéral (L278704 est le nom « mille pas »)."
       }
     }
   ],
@@ -52,7 +52,7 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L278705 ou L278704, consulté le 10 octobre 2026"
+            "localisation": "L278705, consulté le 10 octobre 2026"
           }
         ],
         "note_interne": "À vérifier : entrée « mille » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."

@@ -49,13 +49,8 @@
       "fait": {
         "confiance": "probable",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_tyvnmjjn",
-            "localisation": "L25537-S1 ou L25537-S2, consulté le 10 octobre 2026"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « polygraphe » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « polygraphe » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L25537-S1 ou L25537-S2) : Wikidata ne donne que « auteur qui écrit sur des sujets variés » et un métier de l’imprimerie, pas le détecteur de mensonge. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

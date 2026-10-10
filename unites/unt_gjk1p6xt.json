@@ -11,7 +11,7 @@
         "localisation": "L1109170, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
+    "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Rattaché à ἐσθίω (L1109170), dont φαγεῖν est l’aoriste supplétif ; Wikidata ne liste pas cette forme parmi celles du lexème : rattachement à confirmer en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "verbe"
@@ -39,7 +39,7 @@
             "localisation": "L1109170, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). lemme Wikidata « ἐσθίω », forme du catalogue « φαγεῖν » (forme de citation différente). Repassé en brouillon : la relecture humaine doit rejouer la requête."
+        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Rattaché à ἐσθίω (L1109170), dont φαγεῖν est l’aoriste supplétif ; Wikidata ne liste pas cette forme parmi celles du lexème : rattachement à confirmer en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -58,10 +58,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L1109170, consulté le 10 octobre 2026"
+            "localisation": "L1109170-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
+        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

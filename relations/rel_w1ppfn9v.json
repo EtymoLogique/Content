@@ -1,0 +1,17 @@
+{
+  "id": "rel_w1ppfn9v",
+  "unite_source_id": "unt_qyz9hq0e",
+  "unite_cible_id": "unt_p1eg9xvv",
+  "type_code": "emprunt",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L24108, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Relation déclarée par Wikidata (« dérivé du lexème », P5191). Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Déclaration référencée."
+  }
+}

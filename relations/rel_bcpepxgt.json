@@ -4,9 +4,9 @@
   "unite_cible_id": "unt_wfe1p05a",
   "type_code": "forme_de_composition",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "discutee",
     "etat_relecture": "brouillon",
     "sources": [],
-    "note_interne": "À vérifier : entrée « νᾶνος » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata dérive « nano » (L20367) de nanus (latin), pas de « νᾶνος » : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
+    "note_interne": "À vérifier : entrée « νᾶνος » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata dérive « nano- » (L20367, déclaration référencée) du latin nanus, relation saisie à part ; il ne cite pas le grec νᾶνος : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
   }
 }

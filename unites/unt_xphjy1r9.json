@@ -52,10 +52,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L770-S8=institution ou qui ou a ou pour ou mission ou de ou conserver ou des ou livres ou | ou L770-S9=meuble ou de ou rangement ou pour ou les ou livres ou | ou L770-S10=bibliothèque ou logicielle, consulté le 10 octobre 2026"
+            "localisation": "L770-S8 ou L770-S9, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « bibliothèque » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose rédigée : sa correspondance avec le sens Wikidata reste à vérifier en relecture."
+        "note_interne": "À vérifier : entrée « bibliothèque » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante."
       }
     }
   ]

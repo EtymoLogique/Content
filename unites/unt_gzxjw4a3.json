@@ -8,10 +8,10 @@
     "sources": [
       {
         "source_id": "src_tyvnmjjn",
-        "localisation": "L1102328 ou L1102329, consulté le 10 octobre 2026"
+        "localisation": "L1102328, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « τάφος » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+    "note_interne": "À vérifier : entrée « τάφος » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lexème retenu : L1102328, « tombeau » (L1102329 signifie « stupeur »)."
   },
   "mot": {
     "categorie": "nom"
@@ -36,10 +36,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L1102328 ou L1102329, consulté le 10 octobre 2026"
+            "localisation": "L1102328, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « τάφος » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+        "note_interne": "À vérifier : entrée « τάφος » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lexème retenu : L1102328, « tombeau » (L1102329 signifie « stupeur »)."
       }
     }
   ],
@@ -58,10 +58,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L1102328 ou L1102329, consulté le 10 octobre 2026"
+            "localisation": "L1102328-S2, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « τάφος » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
+        "note_interne": "À vérifier : entrée « τάφος » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante."
       }
     }
   ]

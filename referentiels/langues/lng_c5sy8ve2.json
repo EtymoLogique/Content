@@ -2,11 +2,11 @@
   "id": "lng_c5sy8ve2",
   "code_interne": "la",
   "langue_parente_id": null,
-  "periode_debut": null,
+  "periode_debut": -800,
   "periode_fin": null,
   "systeme_ecriture_defaut_id": "ecr_ww2jr3g9",
   "glyphe": "Æ",
-  "note_interne": null,
+  "note_interne": "Début de période : « date de début » (P580) de Q397 dans Wikidata, −800, consulté le 10 octobre 2026 (ADR 0060). Fin non déclarée.",
   "libelles": {
     "fr": {
       "nom": "latin"

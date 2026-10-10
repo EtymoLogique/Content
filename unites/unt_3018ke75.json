@@ -58,10 +58,10 @@
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
-            "localisation": "L1000132, consulté le 10 octobre 2026"
+            "localisation": "L1000132-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
+        "note_interne": "Exemple du modèle de données : à vérifier dans la source de référence, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante."
       }
     }
   ]
