@@ -40,6 +40,8 @@ Le serveur MCP `wikidata` est déclaré dans `.mcp.json` (`https://wd-mcp.wmclou
 Règles :
 
 - **Pas de déclaration Wikidata, pas de fait publié.** Un lexème ou une déclaration absente ne prouve rien contre le fait, mais le fait reste `brouillon`, avec dans `note_interne` ce qu'il manque dans Wikidata. N'inventez jamais une entrée, un QID ou un LID.
+- **Ne contribuez jamais à Wikidata** (ADR 0061) : ne créez ni ne modifiez aucune entité, déclaration ni sens, et n'y signalez rien. Une erreur probable de Wikidata se note dans `note_interne`, et le fait reste `brouillon`.
+- **Wikidata fait référence** (ADR 0061) : si Wikidata déclare une autre analyse que celle du catalogue, saisissez la sienne, et passez celle du catalogue en `non_retenue` avec la déclaration qui la contredit. Un sens Wikidata plus étroit que la glose n'est pas une contradiction : ne réécrivez pas la glose.
 - **Pas de résultat vide pris pour un « non ».** Résultat vide ou incohérent : reprenez les étapes 1 et 2, affinez, relancez ; n'en déduisez rien.
 - **Rien n'est copié.** Rédigez gloses, définitions et explications vous-même, même si Wikidata en donne.
 - `confiance` : `etablie` (déclaration Wikidata qui porte elle-même une référence), `probable` (déclaration sans référence), `discutee` (Wikidata porte deux analyses en désaccord : enregistrez chacune), `non_retenue` (jamais publiée comme solution).
