@@ -4,14 +4,9 @@
   "unite_cible_id": "unt_wfeshxgc",
   "type_code": "forme_de_composition",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "discutee",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_1g2et8hj",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « τρεῖς » du Bailly, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « τρεῖς » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata dérive « tri- » (L620229, déclaration référencée) du latin tres, relation saisie à part ; il ne cite pas le grec τρεῖς : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
   }
 }

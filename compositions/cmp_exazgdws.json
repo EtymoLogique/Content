@@ -6,14 +6,9 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « sociologie »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « sociologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « sociologie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « sociologie » (L1581989). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "étude de la société",
       "explication_courte": "Mot hybride : le latin socius, « compagnon », suivi du grec -logie.",
-      "explication_detaillee": "Le mot est un hybride : sa première partie est latine, socius, « compagnon », et la seconde grecque, -logie. Cet assemblage est inhabituel, et on l’a parfois critiqué. Auguste Comte l’a lancé vers 1838 pour nommer l’étude des sociétés humaines."
+      "explication_detaillee": "Le mot est un hybride : sa première partie est latine, socius, « compagnon », et la seconde grecque, -logie. Cet assemblage est inhabituel, et on l’a parfois critiqué. Le mot nomme l’étude des sociétés humaines."
     }
   }
 }

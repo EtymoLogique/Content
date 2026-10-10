@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « lithosphère » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « lithosphère » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « lithosphère » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe de pierre",
-      "explication_courte": "Du grec líthos, « pierre », et sphaîra, « globe »."
+      "explication_courte": "Du grec líthos, « pierre », et sphaîra, « globe ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et sphaîra le globe. La lithosphère est l’enveloppe de pierre de la Terre : la couche rigide et rocheuse qui forme sa surface."
     }
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cartomancie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cartomancie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « cartomancie » (L1583428). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "divination par les cartes",
-      "explication_courte": "Du latin charta, « papier », et du grec manteía, « divination »."
+      "explication_courte": "Du latin charta, « papier », et du grec manteía, « divination ».",
+      "explication_detaillee": "Le préfixe carto- vient du latin charta, « feuille, carte », et le grec manteía désigne la divination. La cartomancie prétend prédire l’avenir à l’aide de cartes à jouer ou de tarots."
     }
   }
 }

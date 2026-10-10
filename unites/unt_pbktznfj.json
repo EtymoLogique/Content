@@ -4,14 +4,9 @@
   "langue_id": "lng_wa90y54n",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « zoo »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « zoo » du TLFi, localisation à confirmer."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « zoo » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « zoo » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "affixe": {
     "statut": "element_de_composition"
@@ -26,14 +21,9 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « zoo »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « zoo » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « zoo » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « zoo » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -48,14 +38,9 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « zoo »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « zoo » du TLFi, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « zoo » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « zoo » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

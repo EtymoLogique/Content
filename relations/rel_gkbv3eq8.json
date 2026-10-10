@@ -1,0 +1,17 @@
+{
+  "id": "rel_gkbv3eq8",
+  "unite_source_id": "unt_jx8b3w01",
+  "unite_cible_id": "unt_5m3yqv41",
+  "type_code": "derivation",
+  "fait": {
+    "confiance": "etablie",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1469114, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Relation déclarée par Wikidata (« dérivé du lexème », P5191). Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Déclaration référencée."
+  }
+}

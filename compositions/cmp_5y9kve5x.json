@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cryptologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cryptologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « cryptologie » (L1583558). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du caché",
-      "explication_courte": "Du grec kruptós, « caché », et lógos, « discours »."
+      "explication_courte": "Du grec kruptós, « caché », et lógos, « discours ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et logía « étude ». La cryptologie est la science des écritures secrètes : elle apprend à chiffrer les messages et à les déchiffrer."
     }
   }
 }

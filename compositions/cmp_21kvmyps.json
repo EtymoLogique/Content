@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « écologisme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « écologisme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « écologisme » (L1582912). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine de l’écologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -isme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -isme.",
+      "explication_detaillee": "Le suffixe -isme désigne une doctrine ; il s’ajoute à écologie, l’étude du milieu vivant. L’écologisme fait de la protection de la nature une priorité."
     }
   }
 }

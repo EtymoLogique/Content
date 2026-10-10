@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « mythologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « mythologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « mythologie » (L19833). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours sur les mythes",
-      "explication_courte": "Du grec muthología, « récit de légendes »."
+      "explication_courte": "Du grec muthología, « récit de légendes ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, la légende, et logía l’étude. La mythologie est l’ensemble des mythes d’un peuple, et aussi leur étude."
     }
   }
 }

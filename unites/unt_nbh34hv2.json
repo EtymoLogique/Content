@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_c5sy8ve2",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_sytyp4pd",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L261461, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lexème retenu : L261461, le seul des deux homographes caedo dont les formes comprennent l’infinitif caedere (L261460 n’a aucune forme)."
   },
   "mot": {
     "categorie": "verbe"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_sytyp4pd",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L261461, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lexème retenu : L261461, le seul des deux homographes caedo dont les formes comprennent l’infinitif caedere (L261460 n’a aucune forme)."
       }
     }
   ],
@@ -47,15 +47,10 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_sytyp4pd",
-            "localisation": null
-          }
-        ],
-        "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L261461-S1) : le lexème retenu (L261461) n’a qu’un sens « keikogi », sans rapport avec « abattre, tuer » : erreur probable dans Wikidata. Non publiable tant que Wikidata ne le porte pas."
       }
     }
   ]

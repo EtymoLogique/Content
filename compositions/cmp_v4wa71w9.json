@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « synonyme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « synonyme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « synonyme » (L24108). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom qui va avec",
-      "explication_courte": "Du grec sún, « avec », et ónoma, « nom »."
+      "explication_courte": "Du grec sún, « avec », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec sún signifie « avec », et ónoma « nom ». Des synonymes sont des mots qui vont ensemble parce qu’ils ont un sens identique ou très voisin, comme commencer et débuter."
     }
   }
 }

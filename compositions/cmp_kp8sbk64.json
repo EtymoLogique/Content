@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « anthropologique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « anthropologique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « anthropologique » (L26547). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’anthropologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : anthropologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : anthropologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, du latin icus, « qui se rapporte à », forme des adjectifs à partir de noms. Ici, il s’ajoute à anthropologie, un mot que vous connaissez. Est anthropologique ce qui relève de l’étude de l’être humain."
     }
   }
 }

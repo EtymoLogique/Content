@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « antonymie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « antonymie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « antonymie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "noms contraires",
-      "explication_courte": "Du grec antí, « contre », et ónoma, « nom »."
+      "explication_courte": "Du grec antí, « contre », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec antí signifie « contre », et ónoma « nom ». L’antonymie est la relation qui unit deux mots de sens opposé, comme jour et nuit. Elle fait pendant à la synonymie."
     }
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « économique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « économique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « économique » (L12392). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’économie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à économie, la gestion des richesses. Est économique ce qui concerne l’économie, ou ce qui permet de dépenser peu."
     }
   }
 }

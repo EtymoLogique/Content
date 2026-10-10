@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « emmener »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L27380, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "verbe"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « emmener »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L27380, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -47,32 +47,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « emmener »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L27380-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « emmener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_5hfyf6z3",
-    "annee": 1100,
-    "precision": "vers",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « emmener »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « emmener » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « em meinet » vers 1100."
-    }
-  }
+  ]
 }

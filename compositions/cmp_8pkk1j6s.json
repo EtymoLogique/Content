@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « tachymètre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « tachymètre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « tachymètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la vitesse",
-      "explication_courte": "Du grec takhús, « rapide », et métron, « mesure »."
+      "explication_courte": "Du grec takhús, « rapide », et métron, « mesure ».",
+      "explication_detaillee": "Le grec takhús signifie « rapide », et métron « mesure ». Le tachymètre mesure une vitesse de rotation, par exemple celle d’un moteur."
     }
   }
 }

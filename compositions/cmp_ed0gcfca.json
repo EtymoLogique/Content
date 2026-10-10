@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « gynécocratie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « gynécocratie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « gynécocratie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pouvoir des femmes",
-      "explication_courte": "Du grec gunḗ, « femme », et krátos, « pouvoir »."
+      "explication_courte": "Du grec gunḗ, « femme », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec gunḗ désigne la femme, et krátos le pouvoir. La gynécocratie est un gouvernement exercé par des femmes."
     }
   }
 }

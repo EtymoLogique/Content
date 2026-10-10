@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « sympathie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « sympathie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « sympathie » (L21610). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection partagée",
-      "explication_courte": "Du grec sumpátheia : sún, « avec », devenu sum- devant p, et páthos, « ce qu’on éprouve »."
+      "explication_courte": "Du grec sumpátheia : sún, « avec », devenu sum- devant p, et páthos, « ce qu’on éprouve ».",
+      "explication_detaillee": "Le grec sún signifie « avec », et páthos « ce qu’on éprouve ». La sympathie, c’est éprouver avec l’autre, se sentir proche de lui. Devant le p, syn- devient sym- : c’est une allomorphie."
     }
   }
 }

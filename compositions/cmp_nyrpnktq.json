@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « oligarchie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « oligarchie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « oligarchie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement de peu",
-      "explication_courte": "Du grec oligarkhía, « gouvernement de quelques-uns »."
+      "explication_courte": "Du grec oligarkhía, « gouvernement de quelques-uns ».",
+      "explication_detaillee": "Le grec olígos signifie « peu nombreux », et arkhḗ « commandement ». L’oligarchie est le régime où le pouvoir appartient à un petit groupe. Le o d’oligo- s’efface devant la voyelle d’-archie."
     }
   }
 }

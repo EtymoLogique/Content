@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « diaphone » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « diaphone » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « diaphone » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son qui passe à travers",
-      "explication_courte": "Formé de dia-, « à travers, entre », et de -phone, « voix, son »."
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec diá signifie « à travers », et phōnḗ « voix, son ». Le diaphone est un signal sonore de brume, dont le son porte loin à travers le brouillard."
     }
   }
 }

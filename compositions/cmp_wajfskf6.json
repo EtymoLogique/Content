@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « xylophagie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « xylophagie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « xylophagie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fait de manger le bois",
-      "explication_courte": "Du grec xúlon, « bois », et phageîn, « manger »."
+      "explication_courte": "Du grec xúlon, « bois », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec xúlon désigne le bois, et phageîn signifie « manger ». La xylophagie est le fait de se nourrir de bois, comme le font les termites."
     }
   }
 }

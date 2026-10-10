@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « ophtalmologue » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « ophtalmologue » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ophtalmologue » (L621699). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de l’œil",
-      "explication_courte": "Du grec ophthalmós, « œil », et lógos, « discours »."
+      "explication_courte": "Du grec ophthalmós, « œil », et lógos, « discours ».",
+      "explication_detaillee": "Le grec ophthalmós désigne l’œil, et le suffixe -logue désigne le spécialiste. L’ophtalmologue est le médecin des yeux."
     }
   }
 }

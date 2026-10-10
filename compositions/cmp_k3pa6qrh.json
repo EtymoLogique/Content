@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « pathogène » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « pathogène » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « pathogène » (L26786). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre la maladie",
-      "explication_courte": "Du grec páthos, « souffrance », et -genḗs, « qui engendre »."
+      "explication_courte": "Du grec páthos, « souffrance », et -genḗs, « qui engendre ».",
+      "explication_detaillee": "Le grec páthos désigne la souffrance, d’où la maladie, et gennáō signifie « engendrer ». Est pathogène ce qui peut engendrer une maladie, comme un microbe."
     }
   }
 }

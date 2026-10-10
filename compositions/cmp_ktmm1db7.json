@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « monomane » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « monomane » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « monomane » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fou d’une seule chose",
-      "explication_courte": "Du grec mónos, « seul », et manía, « folie »."
+      "explication_courte": "Du grec mónos, « seul », et manía, « folie ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et manía « folie ». Le monomane est obsédé par une seule idée."
     }
   }
 }

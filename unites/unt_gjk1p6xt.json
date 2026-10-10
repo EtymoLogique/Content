@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_kmf44d76",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_1g2et8hj",
-        "localisation": "entrée « φαγεῖν »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1109170, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Rattaché à ἐσθίω (L1109170), dont φαγεῖν est l’aoriste supplétif ; Wikidata ne liste pas cette forme parmi celles du lexème : rattachement à confirmer en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "verbe"
@@ -31,15 +31,15 @@
         }
       ],
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_1g2et8hj",
-            "localisation": "entrée « φαγεῖν »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1109170, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Rattaché à ἐσθίω (L1109170), dont φαγεῖν est l’aoriste supplétif ; Wikidata ne liste pas cette forme parmi celles du lexème : rattachement à confirmer en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -53,15 +53,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_1g2et8hj",
-            "localisation": "entrée « φαγεῖν »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1109170-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « φαγεῖν » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

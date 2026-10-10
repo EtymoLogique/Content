@@ -4,14 +4,9 @@
   "langue_id": "lng_kmf44d76",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_1g2et8hj",
-        "localisation": "entrée « λογία »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « λογία » du Bailly, localisation à confirmer."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « λογία » du Bailly, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « λογία » (Q35497) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "affixe": {
     "statut": "element_de_composition"
@@ -32,14 +27,9 @@
       ],
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_1g2et8hj",
-            "localisation": "entrée « λογία »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « λογία » du Bailly, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « λογία » du Bailly, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « λογία » (Q35497) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -54,14 +44,9 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_1g2et8hj",
-            "localisation": "entrée « λογία »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « λογία » du Bailly, localisation à confirmer."
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « λογία » du Bailly, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « λογία » (Q35497) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

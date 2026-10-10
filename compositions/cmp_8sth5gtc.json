@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « névralgie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « névralgie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « névralgie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur du nerf",
-      "explication_courte": "Du grec neûron, « nerf », et álgos, « douleur »."
+      "explication_courte": "Du grec neûron, « nerf », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec neûron désigne le nerf, et álgos la douleur. La névralgie est une douleur vive le long d’un nerf. Ici, neuro- prend la forme névr- : c’est une allomorphie."
     }
   }
 }

@@ -6,14 +6,9 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « chronomètre »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « chronomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « chronomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « chronomètre » (L691495). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "mesure du temps",
       "explication_courte": "Du grec khrónos, « temps », et métron, « mesure ».",
-      "explication_detaillee": "Le grec khrónos signifie « temps » et métron « mesure ». Le chronomètre mesure le temps avec précision. Le mot s’est répandu à la fin du XVIIIe siècle, avec les horloges de marine qui permettent de calculer la longitude en mer."
+      "explication_detaillee": "Le grec khrónos signifie « temps » et métron « mesure ». Le chronomètre mesure le temps avec précision."
     }
   }
 }

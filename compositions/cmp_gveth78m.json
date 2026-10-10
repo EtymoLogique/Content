@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « synonymie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « synonymie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « synonymie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "noms qui vont ensemble",
-      "explication_courte": "Du grec sún, « avec », et ónoma, « nom »."
+      "explication_courte": "Du grec sún, « avec », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec sún signifie « avec », et ónoma « nom ». La synonymie est la relation entre des mots de sens identique ou voisin. Elle fait pendant à l’antonymie, la relation des contraires."
     }
   }
 }

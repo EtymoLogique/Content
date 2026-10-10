@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cosmogonie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cosmogonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « cosmogonie » (L1584026). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "naissance du monde",
-      "explication_courte": "Du grec kosmogonía, « création du monde »."
+      "explication_courte": "Du grec kosmogonía, « création du monde ».",
+      "explication_detaillee": "Le grec kósmos désigne le monde, et gonḗ la naissance. Une cosmogonie raconte ou explique la naissance de l’univers, qu’il s’agisse d’un mythe ou d’une théorie savante."
     }
   }
 }

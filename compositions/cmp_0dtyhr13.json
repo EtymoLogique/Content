@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « décilitre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « décilitre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « décilitre » (L1550482). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un dixième de litre",
-      "explication_courte": "Du latin decimus, « dixième », et litre."
+      "explication_courte": "Du latin decimus, « dixième », et litre.",
+      "explication_detaillee": "Le préfixe déci-, du latin decimus, « dixième », divise l’unité par dix. Un décilitre vaut un dixième de litre."
     }
   }
 }

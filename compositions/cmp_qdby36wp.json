@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « pseudologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « pseudologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « pseudologie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "faux discours",
-      "explication_courte": "Formé de pseudo-, « faux », et de -logie, « étude »."
+      "explication_courte": "Formé de pseudo-, « faux », et de -logie, « étude ».",
+      "explication_detaillee": "Le grec pseudḗs signifie « faux, menteur », et logía « discours ». La pseudologie est une tendance maladive à mentir : un discours faux, tenu sans nécessité."
     }
   }
 }

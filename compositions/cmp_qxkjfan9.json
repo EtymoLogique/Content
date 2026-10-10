@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « prototype » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « prototype » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « prototype » (L18824). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "premier modèle",
-      "explication_courte": "Du grec prōtótupos, « original »."
+      "explication_courte": "Du grec prōtótupos, « original ».",
+      "explication_detaillee": "Le grec prôtos signifie « premier », et túpos « modèle ». Le prototype est le premier exemplaire d’un modèle, construit pour l’essayer avant de le fabriquer en série."
     }
   }
 }

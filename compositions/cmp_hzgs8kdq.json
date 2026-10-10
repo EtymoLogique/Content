@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « psychisme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « psychisme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « psychisme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "ce qui tient de l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et du suffixe -isme."
+      "explication_courte": "Du grec psukhḗ, « âme », et du suffixe -isme.",
+      "explication_detaillee": "Le grec psukhḗ désigne l’âme, l’esprit, et le suffixe -isme forme ici un nom d’ensemble. Le psychisme est l’ensemble des phénomènes de la vie mentale."
     }
   }
 }

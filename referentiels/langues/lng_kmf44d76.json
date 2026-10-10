@@ -6,7 +6,7 @@
   "periode_fin": null,
   "systeme_ecriture_defaut_id": "ecr_m63cytfk",
   "glyphe": "Ω",
-  "note_interne": null,
+  "note_interne": "Période laissée vide : Wikidata (Q35497, consulté le 10 octobre 2026) déclare −1500 à −300, ce qui contredit sa propre description (« jusqu’au VIe siècle ») : à trancher en relecture.",
   "libelles": {
     "fr": {
       "nom": "grec ancien"

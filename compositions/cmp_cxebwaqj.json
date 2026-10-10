@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « géoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « géoscope » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « géoscope » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe la terre",
-      "explication_courte": "Formé de géo-, « terre », et de -scope, « qui observe »."
+      "explication_courte": "Formé de géo-, « terre », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec gê désigne la terre, et skopeîn signifie « observer ». Le géoscope est un instrument qui sert à observer le sol ou le globe terrestre."
     }
   }
 }

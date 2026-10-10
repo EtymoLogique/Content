@@ -6,14 +6,9 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « périscope »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « périscope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « périscope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « périscope » (L25626). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "qui observe autour",
       "explication_courte": "Du grec perí, « autour », et skopeîn, « observer ».",
-      "explication_detaillee": "Le préfixe perí signifie « autour » et skopeîn « observer ». Le périscope permet d’observer tout autour, notamment depuis un sous-marin immergé. Le mot est du XIXe siècle."
+      "explication_detaillee": "Le préfixe perí signifie « autour » et skopeîn « observer ». Le périscope permet d’observer tout autour, notamment depuis un sous-marin immergé."
     }
   }
 }

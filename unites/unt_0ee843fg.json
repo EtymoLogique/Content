@@ -1,0 +1,62 @@
+{
+  "id": "unt_0ee843fg",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L630942, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_9rbbnnnw",
+      "texte": "antonymum",
+      "cle_normalisee": "antonymum",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L630942, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_0va23fay",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "antonyme"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L630942-S1, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante."
+      }
+    }
+  ]
+}

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « toponyme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « toponyme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « toponyme » (L1469114). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom de lieu",
-      "explication_courte": "Du grec tópos, « lieu », et ónoma, « nom »."
+      "explication_courte": "Du grec tópos, « lieu », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec tópos désigne le lieu, et ónoma le nom. Un toponyme est un nom de lieu : ville, montagne, rivière ou lieu-dit. Le o de topo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hyperthermie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hyperthermie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hyperthermie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur au-dessus",
-      "explication_courte": "Du grec hupér, « au-dessus », et thérmē, « chaleur »."
+      "explication_courte": "Du grec hupér, « au-dessus », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec hupér signifie « au-dessus », et thérmē « chaleur ». L’hyperthermie est une élévation de la température du corps au-dessus de la normale."
     }
   }
 }

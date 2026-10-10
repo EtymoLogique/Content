@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hétéronyme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hétéronyme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hétéronyme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "autre nom",
-      "explication_courte": "Formé de hétéro-, « autre », et de -onyme, « nom »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et ónoma « nom ». Un hétéronyme est un autre nom sous lequel un auteur publie, mais qui a sa propre personnalité, son style, parfois sa biographie inventée."
     }
   }
 }

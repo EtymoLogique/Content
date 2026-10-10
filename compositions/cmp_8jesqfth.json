@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « idéologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « idéologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « idéologie » (L713606). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des idées",
-      "explication_courte": "Forgé en 1796 par Destutt de Tracy pour la « science des idées » ; le sens a glissé."
+      "explication_courte": "Forgé en 1796 par Destutt de Tracy pour la « science des idées » ; le sens a glissé.",
+      "explication_detaillee": "Le grec idéa désigne l’idée, et logía le discours. Une idéologie est un ensemble d’idées et de croyances qui guide un groupe ou une époque."
     }
   }
 }

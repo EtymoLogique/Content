@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « ramener »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L16496, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "verbe"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « ramener »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L16496, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -47,32 +47,11 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « ramener »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer."
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « ramener » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L16496-S1) : le seul sens Wikidata est « donner une courbure convexe à une lentille », pas « amener de nouveau ». Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_t97x86w3",
-    "annee": 1101,
-    "precision": "siecle",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « ramener »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « ramener » du TLFi (cnrtl.fr), le 9 octobre 2026. Le TLFi date de la 1re moitié du xiie s. ; précision ramenée au siècle (ADR 0056)."
-    }
-  }
+  ]
 }

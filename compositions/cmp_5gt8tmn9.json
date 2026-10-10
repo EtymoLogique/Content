@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « exobiologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « exobiologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « exobiologie » (L692322). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie du dehors",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : exo- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : exo- s’ajoute à biologie.",
+      "explication_detaillee": "Le grec éxō signifie « dehors » ; il s’ajoute à biologie, un mot que vous connaissez. L’exobiologie étudie les formes de vie possibles hors de la Terre."
     }
   }
 }

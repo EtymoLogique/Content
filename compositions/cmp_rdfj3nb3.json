@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « anthroponyme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « anthroponyme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « anthroponyme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom d’être humain",
-      "explication_courte": "Du grec ánthrōpos, « être humain », et ónoma, « nom »."
+      "explication_courte": "Du grec ánthrōpos, « être humain », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec ánthrōpos désigne l’être humain, et ónoma le nom. Un anthroponyme est un nom de personne : prénom, nom de famille ou surnom. Le o final d’anthropo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

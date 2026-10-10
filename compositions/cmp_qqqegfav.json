@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hydroscope » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hydroscope » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hydroscope » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe l’eau",
-      "explication_courte": "Formé de hydro-, « eau », et de -scope, « qui observe »."
+      "explication_courte": "Formé de hydro-, « eau », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec húdōr désigne l’eau, et skopeîn signifie « observer ». L’hydroscope est un appareil qui permet de voir sous l’eau."
     }
   }
 }

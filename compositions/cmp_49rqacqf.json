@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hippiatrie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hippiatrie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hippiatrie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin du cheval",
-      "explication_courte": "Du grec híppos, « cheval », et iatreía, « traitement »."
+      "explication_courte": "Du grec híppos, « cheval », et iatreía, « traitement ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et iatreía le traitement. L’hippiatrie est la médecine des chevaux. Le o d’hippo- s’efface devant la voyelle d’-iatrie."
     }
   }
 }

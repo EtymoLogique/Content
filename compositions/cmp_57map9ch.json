@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « phonographe » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « phonographe » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « phonographe » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit le son",
-      "explication_courte": "Mot forgé en anglais par Edison en 1877, du grec phōnḗ, « son », et gráphein, « écrire »."
+      "explication_courte": "Mot forgé en anglais par Edison en 1877, du grec phōnḗ, « son », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et gráphein signifie « écrire ». Le phonographe « écrit le son » : cet ancien appareil gravait les sons sur un support, puis les restituait."
     }
   }
 }

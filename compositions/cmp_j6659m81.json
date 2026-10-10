@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « monothéisme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « monothéisme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « monothéisme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "croyance en un seul dieu",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : mono- s’ajoute à théisme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : mono- s’ajoute à théisme.",
+      "explication_detaillee": "Le grec mónos signifie « seul » ; il s’ajoute à théisme, la croyance en un dieu. Le monothéisme est la croyance en un dieu unique."
     }
   }
 }

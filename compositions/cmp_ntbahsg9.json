@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « trichrome » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « trichrome » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « trichrome » (L28251). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "à trois couleurs",
-      "explication_courte": "Formé de tri-, « trois », et de -chrome, « couleur »."
+      "explication_courte": "Formé de tri-, « trois », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le préfixe tri- signifie « trois », et le grec khrôma « couleur ». Est trichrome ce qui est à trois couleurs."
     }
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « zoomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « zoomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « zoomètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure des animaux",
-      "explication_courte": "Formé de zoo-, « animal », et de -mètre, « mesure »."
+      "explication_courte": "Formé de zoo-, « animal », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec zôion désigne l’animal, et métron la mesure. Le zoomètre est un instrument qui mesure les proportions des animaux."
     }
   }
 }

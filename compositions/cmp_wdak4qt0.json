@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « pétrographie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « pétrographie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « pétrographie » (L1582236). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "description des roches",
-      "explication_courte": "Du grec pétra, « roche », et gráphein, « écrire »."
+      "explication_courte": "Du grec pétra, « roche », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec pétra désigne la roche, et graphḗ l’écriture, la description. La pétrographie décrit et classe les roches."
     }
   }
 }

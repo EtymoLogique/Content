@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « graphologue » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « graphologue » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « graphologue » (L1577031). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui étudie l’écriture",
-      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours »."
+      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours ».",
+      "explication_detaillee": "Le grec gráphein signifie « écrire », et le suffixe -logue désigne le spécialiste. Le graphologue analyse les écritures manuscrites."
     }
   }
 }

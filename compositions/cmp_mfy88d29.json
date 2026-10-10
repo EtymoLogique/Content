@@ -6,14 +6,9 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « technocratie »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « technocratie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « technocratie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « technocratie » (sans lexème). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "pouvoir de la technique",
       "explication_courte": "Du grec tékhnē, « art, savoir-faire », et krátos, « pouvoir ».",
-      "explication_detaillee": "Le grec tékhnē signifie « art, savoir-faire » et krátos « pouvoir ». La technocratie est le pouvoir de ceux qui maîtrisent la technique. Le mot naît au XXe siècle, aux États-Unis, dans un mouvement qui voulait confier l’économie aux ingénieurs."
+      "explication_detaillee": "Le grec tékhnē signifie « art, savoir-faire » et krátos « pouvoir ». La technocratie est le pouvoir de ceux qui maîtrisent la technique."
     }
   }
 }

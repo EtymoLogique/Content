@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « myalgie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « myalgie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « myalgie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur du muscle",
-      "explication_courte": "Du grec mûs, « muscle », et álgos, « douleur »."
+      "explication_courte": "Du grec mûs, « muscle », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec mûs désigne le muscle, et álgos la douleur. La myalgie est une douleur musculaire. Le o de myo- s’efface devant la voyelle d’-algie."
     }
   }
 }

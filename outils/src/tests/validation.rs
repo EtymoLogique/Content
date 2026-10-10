@@ -196,7 +196,7 @@ pub(super) fn attestation(annee: i64, precision: &str) -> Value {
         "fait": {
             "confiance": "etablie",
             "etat_relecture": "brouillon",
-            "sources": [{"source_id": "src_6zfwd3mp", "localisation": null}],
+            "sources": [{"source_id": "src_tyvnmjjn", "localisation": null}],
             "note_interne": "Essai."
         }
     })
@@ -1576,10 +1576,9 @@ pub(super) fn rendre_publiable(depot: &Depot) {
     completer_medias(depot);
     let relire = |fait: &mut Value| {
         fait["etat_relecture"] = json!("relu");
-        for lien in fait["sources"].as_array_mut().unwrap() {
-            lien["source_id"] = json!("src_tyvnmjjn");
-            lien["localisation"] = json!("entité consultée");
-        }
+        // Un fait que Wikidata ne porte pas encore a ses sources vides : on lui en donne une.
+        fait["sources"] =
+            json!([{"source_id": "src_tyvnmjjn", "localisation": "entité consultée"}]);
     };
     for dossier in ["unites", "compositions", "relations"] {
         for chemin in depot.fichiers(dossier) {
@@ -1634,8 +1633,20 @@ fn publication_exige_la_relecture_de_l_attestation() {
 fn publication_refuse_une_source_hors_wikidata() {
     let depot = Depot::new();
     rendre_publiable(&depot);
+    depot.ecrire(
+        &depot.racine.join("sources/src_0000000t.json"),
+        &json!({
+            "id": "src_0000000t",
+            "type": "dictionnaire",
+            "reference": "Dictionnaire hors Wikidata",
+            "edition": "essai",
+            "url": "https://dictionnaire.invalid/",
+            "licence": "essai",
+            "note_interne": null
+        }),
+    );
     depot.modifier(depot.unite("géo"), |u| {
-        u["fait"]["sources"] = json!([{"source_id": "src_6zfwd3mp", "localisation": "géo-"}]);
+        u["fait"]["sources"] = json!([{"source_id": "src_0000000t", "localisation": "géo-"}]);
     });
     assert!(erreurs(&depot.valider_publication()).contains("publication.source_reference"));
 }

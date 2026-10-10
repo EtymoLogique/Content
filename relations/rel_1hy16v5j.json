@@ -6,12 +6,7 @@
   "fait": {
     "confiance": "probable",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « télescope »"
-      }
-    ],
-    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « télescope » du TLFi, le 9 octobre 2026. Le TLFi dit « prob. par l’intermédiaire de l’ital. telescopio » : maillon italien en confiance « probable »."
+    "sources": [],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « télescope » du TLFi, le 9 octobre 2026. Le TLFi dit « prob. par l’intermédiaire de l’ital. telescopio » : maillon italien en confiance « probable ». Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « telescopio » (L1179565) et « telescopium » (L579312). Non publiable tant que Wikidata ne le porte pas."
   }
 }

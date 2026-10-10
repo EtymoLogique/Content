@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « ostéopathie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « ostéopathie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ostéopathie » (L1583970). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection des os",
-      "explication_courte": "Du grec ostéon, « os », et páthos, « souffrance »."
+      "explication_courte": "Du grec ostéon, « os », et páthos, « souffrance ».",
+      "explication_detaillee": "Le grec ostéon désigne l’os, et páthos ce qu’on éprouve, la souffrance. L’ostéopathie est une méthode de soin qui manipule les os et les articulations."
     }
   }
 }

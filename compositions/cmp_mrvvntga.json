@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « ophtalmique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « ophtalmique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ophtalmique » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’œil",
-      "explication_courte": "Du grec ophthalmikós, de ophthalmós, « œil »."
+      "explication_courte": "Du grec ophthalmikós, de ophthalmós, « œil ».",
+      "explication_detaillee": "Le grec ophthalmós désigne l’œil. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est ophtalmique ce qui concerne l’œil."
     }
   }
 }

@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_kmf44d76",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_1g2et8hj",
-        "localisation": "entrée « κράτος »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1102056, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « κράτος » du Bailly, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « κράτος » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "nom"
@@ -31,15 +31,15 @@
         }
       ],
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_1g2et8hj",
-            "localisation": "entrée « κράτος »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1102056, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « κράτος » du Bailly, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « κράτος » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -53,15 +53,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_1g2et8hj",
-            "localisation": "entrée « κράτος »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1102056, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « κράτος » du Bailly, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « κράτος » du Bailly, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

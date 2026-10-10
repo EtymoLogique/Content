@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « photique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « photique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « photique » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la lumière",
-      "explication_courte": "Formé de photo-, « lumière », et de -ique, « qui se rapporte à »."
+      "explication_courte": "Formé de photo-, « lumière », et de -ique, « qui se rapporte à ».",
+      "explication_detaillee": "Le grec phôs désigne la lumière. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est photique ce qui concerne la lumière. La zone photique des océans est celle où la lumière du jour pénètre."
     }
   }
 }

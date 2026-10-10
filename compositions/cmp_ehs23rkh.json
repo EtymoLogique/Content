@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « démographie »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « démographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -graphie pointe désormais le sens « description », déjà dit par le sens littéral ; à relire."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « démographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -graphie pointe désormais le sens « description », déjà dit par le sens littéral ; à relire. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « démographie » (L19810). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "description du peuple",
       "explication_courte": "Du grec dêmos, « peuple », et graphḗ, « écriture ».",
-      "explication_detaillee": "Le grec dêmos signifie « peuple » et graphḗ « description ». La démographie est l’étude statistique des populations. Le mot est forgé au XIXe siècle par le Français Achille Guillard."
+      "explication_detaillee": "Le grec dêmos signifie « peuple » et graphḗ « description ». La démographie est l’étude statistique des populations."
     }
   }
 }

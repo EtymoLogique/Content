@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « monisme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « monisme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « monisme » (L1405303). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine de l’unique",
-      "explication_courte": "Du grec mónos, « seul », et du suffixe -isme."
+      "explication_courte": "Du grec mónos, « seul », et du suffixe -isme.",
+      "explication_detaillee": "Le grec mónos signifie « seul », et le suffixe -isme désigne une doctrine. Le monisme ramène toute la réalité à un seul principe. Le mot est emprunté à l’allemand Monismus."
     }
   }
 }

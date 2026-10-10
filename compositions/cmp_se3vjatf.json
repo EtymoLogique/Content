@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « autocrate » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « autocrate » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « autocrate » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui gouverne par soi-même",
-      "explication_courte": "Du grec autokratḗs, « qui gouverne seul »."
+      "explication_courte": "Du grec autokratḗs, « qui gouverne seul ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et krátos « pouvoir ». L’autocrate gouverne par lui-même, seul : il détient un pouvoir absolu, sans partage ni contrôle."
     }
   }
 }

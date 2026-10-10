@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « biomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « biomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « biomètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la vie",
-      "explication_courte": "Formé de bio-, « vie », et de -mètre, « mesure »."
+      "explication_courte": "Formé de bio-, « vie », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec bíos désigne la vie, et métron la mesure. Le biomètre est un instrument de mesure biologique ; il mesure en particulier les dimensions de l’œil."
     }
   }
 }

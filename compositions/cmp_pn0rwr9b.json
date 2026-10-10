@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « décamètre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « décamètre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « décamètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "dix mètres",
-      "explication_courte": "Du grec déka, « dix », et mètre, unité du système métrique."
+      "explication_courte": "Du grec déka, « dix », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le grec déka signifie « dix », et métron « mesure ». Le préfixe déca- multiplie l’unité par dix : un décamètre vaut dix mètres."
     }
   }
 }

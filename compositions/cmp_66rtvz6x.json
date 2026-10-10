@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « analogue » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « analogue » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « analogue » (L17169). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "selon le rapport",
-      "explication_courte": "Du grec análogos, « proportionné »."
+      "explication_courte": "Du grec análogos, « proportionné ».",
+      "explication_detaillee": "Le grec aná signifie « selon », et lógos « rapport, proportion ». Est analogue ce qui ressemble à autre chose, ce qui est dans un rapport semblable."
     }
   }
 }

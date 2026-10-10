@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « ophtalmoscopie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « ophtalmoscopie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ophtalmoscopie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "examen de l’œil",
-      "explication_courte": "Du grec ophthalmós, « œil », et skopeîn, « observer »."
+      "explication_courte": "Du grec ophthalmós, « œil », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec ophthalmós désigne l’œil, et skopeîn signifie « observer ». L’ophtalmoscopie est l’examen du fond de l’œil."
     }
   }
 }

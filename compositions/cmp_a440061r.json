@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « diathermie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « diathermie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « diathermie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur à travers",
-      "explication_courte": "Du grec diá, « à travers », et thérmē, « chaleur »."
+      "explication_courte": "Du grec diá, « à travers », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec diá signifie « à travers », et thérmē « chaleur ». La diathermie chauffe les tissus du corps en y faisant passer un courant électrique."
     }
   }
 }

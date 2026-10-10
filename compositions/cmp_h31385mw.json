@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « diaphonie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « diaphonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « diaphonie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sonorité à travers",
-      "explication_courte": "Formé de dia-, « à travers, entre », et de -phonie, « sonorité »."
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -phonie, « sonorité ».",
+      "explication_detaillee": "Le grec diá signifie « à travers, entre », et phōnḗ « voix, son ». La diaphonie est le mélange parasite de deux signaux qui passent l’un dans l’autre sur une ligne. En musique ancienne, elle désignait un chant à deux voix."
     }
   }
 }

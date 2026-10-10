@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « antigène » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « antigène » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « antigène » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre contre",
-      "explication_courte": "Formé au XXᵉ siècle sur anti(corps) et -gène, « qui engendre »."
+      "explication_courte": "Formé au XXᵉ siècle sur anti(corps) et -gène, « qui engendre ».",
+      "explication_detaillee": "Le grec antí signifie « contre », et gennáō « engendrer ». Un antigène est une substance que l’organisme reconnaît comme étrangère : il engendre en réponse des anticorps, chargés de lutter contre elle."
     }
   }
 }

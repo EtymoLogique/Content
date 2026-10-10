@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « anthropogonie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « anthropogonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « anthropogonie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "naissance de l’être humain",
-      "explication_courte": "Formé de anthropo-, « être humain », et de -gonie, « naissance »."
+      "explication_courte": "Formé de anthropo-, « être humain », et de -gonie, « naissance ».",
+      "explication_detaillee": "Le grec ánthrōpos désigne l’être humain, et gonḗ la naissance. Une anthropogonie raconte ou explique l’origine de l’humanité."
     }
   }
 }

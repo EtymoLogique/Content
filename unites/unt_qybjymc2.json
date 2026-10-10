@@ -5,13 +5,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « stéréophonie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « stéréophonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « stéréophonie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
   },
   "mot": {
     "categorie": "nom"
@@ -27,13 +22,8 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
-          }
-        ],
-        "note_interne": "À vérifier : entrée « stéréophonie » du TLFi, localisation à renseigner."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « stéréophonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « stéréophonie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
     }
   ],
@@ -50,30 +40,9 @@
       "fait": {
         "confiance": "etablie",
         "etat_relecture": "brouillon",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
-          }
-        ],
-        "note_interne": "À vérifier : entrée « stéréophonie » du TLFi, localisation à renseigner."
+        "sources": [],
+        "note_interne": "À vérifier : entrée « stéréophonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « stéréophonie » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_32pah8xm",
-    "annee": 1944,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « stéréophonie, stéréo »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « stéréophonie, stéréo » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

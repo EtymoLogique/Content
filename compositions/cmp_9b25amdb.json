@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « anarchie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « anarchie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « anarchie » (L346554). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sans commandement",
-      "explication_courte": "Du grec anarkhía : a- privatif, devenu an- devant voyelle, et arkhḗ, « commandement »."
+      "explication_courte": "Du grec anarkhía : a- privatif, devenu an- devant voyelle, et arkhḗ, « commandement ».",
+      "explication_detaillee": "Le préfixe privatif a- devient an- devant la voyelle d’-archie, du grec arkhḗ, « commandement ». L’anarchie est l’absence de commandement, de gouvernement ; le mot désigne aussi le désordre qui peut en résulter."
     }
   }
 }

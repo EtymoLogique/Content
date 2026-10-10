@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « ethnarque » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « ethnarque » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ethnarque » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chef du peuple",
-      "explication_courte": "Formé de ethno-, « peuple », et de -arque, « chef »."
+      "explication_courte": "Formé de ethno-, « peuple », et de -arque, « chef ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et árkhein signifie « commander ». L’ethnarque commandait un peuple ou une province, dans l’Antiquité."
     }
   }
 }

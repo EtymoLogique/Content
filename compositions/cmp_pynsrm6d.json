@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « nostalgie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « nostalgie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « nostalgie » (L25540). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur du retour",
-      "explication_courte": "Forgé en 1688 par le médecin Johannes Hofer, du grec nóstos, « retour », et álgos, « douleur »."
+      "explication_courte": "Forgé en 1688 par le médecin Johannes Hofer, du grec nóstos, « retour », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec nóstos désigne le retour au pays, et álgos la douleur. La nostalgie est la douleur du retour impossible : le regret mélancolique du pays natal ou d’un temps passé."
     }
   }
 }

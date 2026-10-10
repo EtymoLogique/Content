@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « mégalithe » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « mégalithe » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « mégalithe » (L18665). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "grande pierre",
-      "explication_courte": "Du grec mégas, « grand », et líthos, « pierre »."
+      "explication_courte": "Du grec mégas, « grand », et líthos, « pierre ».",
+      "explication_detaillee": "Le grec mégas signifie « grand », et líthos « pierre ». Un mégalithe est un monument préhistorique fait de grandes pierres, comme un menhir ou un dolmen."
     }
   }
 }

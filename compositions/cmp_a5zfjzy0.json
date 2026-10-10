@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « myopathie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « myopathie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « myopathie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection du muscle",
-      "explication_courte": "Du grec mûs, « muscle », et páthos, « souffrance »."
+      "explication_courte": "Du grec mûs, « muscle », et páthos, « souffrance ».",
+      "explication_detaillee": "Le grec mûs désigne le muscle, et páthos la souffrance. La myopathie est une maladie des muscles."
     }
   }
 }

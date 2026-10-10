@@ -4,14 +4,14 @@
   "unite_cible_id": "unt_5g9dnpfg",
   "type_code": "heritage",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « re »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L10464, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « re » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « anaglyphe » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « anaglyphe » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « anaglyphe » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gravure en relief",
-      "explication_courte": "Formé de ana-, « en remontant », et de -glyphe, « gravure »."
+      "explication_courte": "Formé de ana-, « en remontant », et de -glyphe, « gravure ».",
+      "explication_detaillee": "Le grec aná signifie « de bas en haut », et glúphein « graver ». L’anaglyphe était d’abord un ornement sculpté en relief. Le mot désigne une image en deux couleurs qui, vue avec des lunettes adaptées, donne l’illusion du relief."
     }
   }
 }

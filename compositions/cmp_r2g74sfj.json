@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « bradycardie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « bradycardie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « bradycardie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "cœur lent",
-      "explication_courte": "Du grec bradús, « lent », et kardía, « cœur »."
+      "explication_courte": "Du grec bradús, « lent », et kardía, « cœur ».",
+      "explication_detaillee": "Le grec bradús signifie « lent », et kardía « cœur ». La bradycardie est un ralentissement du rythme du cœur."
     }
   }
 }

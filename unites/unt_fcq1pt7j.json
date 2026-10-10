@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L20310, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "mot": {
     "categorie": "adjectif"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L20310, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
       }
     }
   ],
@@ -47,32 +47,16 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L20310-S1, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « typique » du TLFi, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_g6kkt77g",
-    "annee": 1495,
-    "precision": "annee",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « typique »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « typique » du TLFi (cnrtl.fr), le 9 octobre 2026."
-    }
-  }
+  ]
 }

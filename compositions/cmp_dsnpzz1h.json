@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « kilomètre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « kilomètre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata compose « kilomètre » de L18790 + kilo-, le catalogue de kilo + mètre : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mille mètres",
-      "explication_courte": "Du grec khílioi, « mille », et mètre, unité du système métrique."
+      "explication_courte": "Du grec khílioi, « mille », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le grec khílioi signifie « mille », et métron « mesure ». Le préfixe kilo- multiplie l’unité par mille : un kilomètre vaut mille mètres."
     }
   }
 }

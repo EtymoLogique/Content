@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cartographe » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cartographe » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « cartographe » (L1576824). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit les cartes",
-      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire »."
+      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire ».",
+      "explication_detaillee": "Le préfixe carto- vient du latin charta, « feuille de papyrus », puis « papier, carte » ; gráphein signifie « écrire, dessiner ». Le cartographe dresse les cartes."
     }
   }
 }

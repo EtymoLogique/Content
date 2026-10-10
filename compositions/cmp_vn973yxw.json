@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hyponyme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hyponyme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hyponyme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom au-dessous",
-      "explication_courte": "Du grec hupó, « sous », et ónoma, « nom »."
+      "explication_courte": "Du grec hupó, « sous », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec hupó signifie « sous », et ónoma « nom ». L’hyponyme est le mot du dessous, dont le sens est inclus dans celui d’un autre : rose est un hyponyme de fleur. Le o d’hypo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

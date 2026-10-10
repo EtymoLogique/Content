@@ -6,12 +6,7 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « monogamie »"
-      }
-    ],
-    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « monogamie » du TLFi, le 9 octobre 2026."
+    "sources": [],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « monogamie » du TLFi, le 9 octobre 2026. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « monogamia » (L1058044) et « μονογαμία » (L1130348). Non publiable tant que Wikidata ne le porte pas."
   }
 }

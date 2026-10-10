@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « homonymie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « homonymie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « homonymie » (L16337). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "noms semblables",
-      "explication_courte": "Du grec homós, « même », et ónoma, « nom »."
+      "explication_courte": "Du grec homós, « même », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec homós signifie « même », et ónoma « nom ». L’homonymie est la relation entre des mots qui se prononcent ou s’écrivent de même sans avoir le même sens. Elle est la source de bien des jeux de mots."
     }
   }
 }

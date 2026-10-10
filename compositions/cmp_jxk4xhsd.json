@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « antiphonie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « antiphonie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « antiphonie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sonorité qui répond",
-      "explication_courte": "Formé de anti-, « contre », et de -phonie, « sonorité »."
+      "explication_courte": "Formé de anti-, « contre », et de -phonie, « sonorité ».",
+      "explication_detaillee": "Le grec antí signifie « en face », et phōnḗ « voix ». L’antiphonie est un chant alterné entre deux chœurs placés face à face, qui se répondent."
     }
   }
 }

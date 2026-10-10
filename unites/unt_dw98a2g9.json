@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « mener »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L9287, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « mener » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « mener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "verbe"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « mener »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L9287, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « mener » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « mener » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -48,15 +48,10 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « mener »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « mener » du TLFi, localisation à confirmer."
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « mener » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L9287-S1) : le seul sens Wikidata est « être en tête (d’une course) », pas « conduire, guider ». Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

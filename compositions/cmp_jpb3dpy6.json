@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hydrique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hydrique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hydrique » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’eau",
-      "explication_courte": "Formé de hydro-, « eau », et de -ique, « qui se rapporte à »."
+      "explication_courte": "Formé de hydro-, « eau », et de -ique, « qui se rapporte à ».",
+      "explication_detaillee": "Le grec húdōr désigne l’eau. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est hydrique ce qui concerne l’eau. Le stress hydrique d’une plante est un manque d’eau."
     }
   }
 }

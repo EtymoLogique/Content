@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « géothermie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « géothermie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « géothermie » (L20727). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur de la terre",
-      "explication_courte": "Du grec gê, « terre », et thérmē, « chaleur »."
+      "explication_courte": "Du grec gê, « terre », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec gê désigne la terre, et thérmē la chaleur. La géothermie est la chaleur interne de la Terre ; le mot désigne aussi son exploitation pour produire de l’énergie."
     }
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hippologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hippologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hippologie » (L1583624). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du cheval",
-      "explication_courte": "Du grec híppos, « cheval », et lógos, « discours »."
+      "explication_courte": "Du grec híppos, « cheval », et lógos, « discours ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et logía l’étude. L’hippologie est l’étude du cheval."
     }
   }
 }

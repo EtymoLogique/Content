@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_kmf44d76",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_1g2et8hj",
-        "localisation": null
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1102623, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « μανία » du Bailly, localisation à renseigner."
+    "note_interne": "À vérifier : entrée « μανία » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "mot": {
     "categorie": "nom"
@@ -31,15 +31,15 @@
         }
       ],
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_1g2et8hj",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1102623, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « μανία » du Bailly, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « μανία » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
       }
     }
   ],
@@ -53,15 +53,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_1g2et8hj",
-            "localisation": null
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1102623, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « μανία » du Bailly, localisation à renseigner."
+        "note_interne": "À vérifier : entrée « μανία » du Bailly, localisation à renseigner. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
       }
     }
   ]

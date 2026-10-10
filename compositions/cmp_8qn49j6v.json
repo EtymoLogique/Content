@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « monarchiste » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « monarchiste » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « monarchiste » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la monarchie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : monarchie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : monarchie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui défend une idée ; il s’ajoute à monarchie. Le monarchiste est partisan de la monarchie."
     }
   }
 }

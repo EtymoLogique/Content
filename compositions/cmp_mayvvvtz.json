@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « microscopie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « microscopie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « microscopie » (L27800). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "examen du petit",
-      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer »."
+      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit », et skopeîn « observer ». La microscopie est l’examen au microscope de ce qui est trop petit pour l’œil nu."
     }
   }
 }

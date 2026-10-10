@@ -1,0 +1,68 @@
+{
+  "id": "unt_b5t8q9kk",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1111002, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_vsqkacak",
+      "texte": "συνώνυμος",
+      "cle_normalisee": "συνώνυμος",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1111002, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+      },
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "sunṓnumos"
+        }
+      ]
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_ztx7j1ea",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "de même nom"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1111002, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
+      }
+    }
+  ]
+}

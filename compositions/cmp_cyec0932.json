@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « épilogue » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « épilogue » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « épilogue » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours ajouté",
-      "explication_courte": "Du grec epílogos, « péroraison »."
+      "explication_courte": "Du grec epílogos, « péroraison ».",
+      "explication_detaillee": "Le grec epí signifie « sur, après », et lógos « parole, discours ». L’épilogue est le discours qui vient après, à la fin d’un ouvrage. Au figuré, c’est le dénouement d’une affaire."
     }
   }
 }

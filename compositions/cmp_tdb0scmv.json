@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « dermatoglyphe » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « dermatoglyphe » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « dermatoglyphe » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gravure de la peau",
-      "explication_courte": "Du grec dérma, « peau », et glúphein, « graver »."
+      "explication_courte": "Du grec dérma, « peau », et glúphein, « graver ».",
+      "explication_detaillee": "Le grec dérma désigne la peau, et glúphein signifie « graver ». Un dermatoglyphe est un dessin comme gravé dans la peau : les crêtes qui forment les empreintes digitales."
     }
   }
 }

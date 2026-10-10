@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « géographie »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « géographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -graphie pointe désormais le sens « description », déjà dit par le sens littéral ; à relire."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « géographie » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : la partie -graphie pointe désormais le sens « description », déjà dit par le sens littéral ; à relire. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « géographie » (L16438). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "description de la terre",
       "explication_courte": "Du grec gê, « terre », et graphḗ, « écriture » : écrire la terre.",
-      "explication_detaillee": "Le mot est grec : geōgraphía, « description de la Terre ». On le doit à Ératosthène, savant grec du IIIe siècle avant notre ère, qui mesura aussi la circonférence de la Terre. Le mot a pris le sens de science des paysages et des sociétés."
+      "explication_detaillee": "Le mot est grec : geōgraphía, « description de la Terre ». Le savant grec Ératosthène compte parmi les géographes de l’Antiquité. Le mot a pris le sens de science des paysages et des sociétés."
     }
   }
 }

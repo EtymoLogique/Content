@@ -5,14 +5,9 @@
   "type_code": "emprunt",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « logie »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « logie » du TLFi, localisation à confirmer.",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « logie » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « logie » (sans lexème) et « λογία » (sans lexème). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête.",
     "libelles": {
       "fr": {
         "note_simplification": "Le suffixe est passé par le latin avant d’arriver en français."

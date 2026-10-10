@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « photochrome » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « photochrome » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « photochrome » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "couleur par la lumière",
-      "explication_courte": "Formé de photo-, « lumière », et de -chrome, « couleur »."
+      "explication_courte": "Formé de photo-, « lumière », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le grec phôs désigne la lumière, et khrôma la couleur. Un verre photochrome change de couleur sous l’effet de la lumière : il fonce au soleil."
     }
   }
 }

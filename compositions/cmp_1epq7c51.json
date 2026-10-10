@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « chronique » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « chronique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « chronique » (L26536). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte au temps",
-      "explication_courte": "Formé de chrono-, « temps », et de -ique, « qui se rapporte à »."
+      "explication_courte": "Formé de chrono-, « temps », et de -ique, « qui se rapporte à ».",
+      "explication_detaillee": "Le grec khrónos désigne le temps. Le suffixe -ique, « qui se rapporte à », en fait un adjectif. Est chronique ce qui dure dans le temps ou revient régulièrement, comme une maladie chronique."
     }
   }
 }

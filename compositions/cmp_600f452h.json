@@ -6,14 +6,9 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « photomètre »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « photomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises)."
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "À vérifier : entrée « photomètre » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « photomètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "parties": [
     {
@@ -37,7 +32,7 @@
     "fr": {
       "sens_litteral": "mesure de la lumière",
       "explication_courte": "Du grec phôs, « lumière », et métron, « mesure ».",
-      "explication_detaillee": "Le grec phôs signifie « lumière » et métron « mesure ». Le photomètre est un instrument qui mesure l’intensité de la lumière. Le mot est du XVIIIe siècle."
+      "explication_detaillee": "Le grec phôs signifie « lumière » et métron « mesure ». Le photomètre est un instrument qui mesure l’intensité de la lumière."
     }
   }
 }

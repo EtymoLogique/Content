@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « lexicologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « lexicologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « lexicologie » (L1582928). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des mots",
-      "explication_courte": "Du grec léxis, « mot », et lógos, « discours »."
+      "explication_courte": "Du grec léxis, « mot », et lógos, « discours ».",
+      "explication_detaillee": "Le grec léxis désigne le mot, et logía l’étude. La lexicologie étudie le vocabulaire d’une langue : la forme des mots, leur sens et leurs relations."
     }
   }
 }

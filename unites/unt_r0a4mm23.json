@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_c5sy8ve2",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_sytyp4pd",
-        "localisation": "entrée « minare »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L278739, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « minare » du Gaffiot, localisation à confirmer.",
+    "note_interne": "À vérifier : entrée « minare » du Gaffiot, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lemme Wikidata « mino », forme du catalogue « minare » : « minare » figure parmi les formes du lexème. Repassé en brouillon : la relecture humaine doit rejouer la requête.",
     "libelles": {
       "fr": {
         "note_simplification": "Forme du latin tardif, rattachée au latin sans variété (ADR 0013)."
@@ -30,15 +30,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_sytyp4pd",
-            "localisation": "entrée « minare »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L278739, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « minare » du Gaffiot, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « minare » du Gaffiot, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Lemme Wikidata « mino », forme du catalogue « minare » : « minare » figure parmi les formes du lexème. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -52,15 +52,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_sytyp4pd",
-            "localisation": "entrée « minare »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L278739, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « minare » du Gaffiot, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « minare » du Gaffiot, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ]

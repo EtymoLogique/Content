@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hiérarque » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hiérarque » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hiérarque » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chef sacré",
-      "explication_courte": "Formé de hiéro-, « sacré », et de -arque, « chef »."
+      "explication_courte": "Formé de hiéro-, « sacré », et de -arque, « chef ».",
+      "explication_detaillee": "Le grec hierós signifie « sacré », et árkhein « commander ». Le hiérarque est un haut dignitaire, en particulier dans une hiérarchie religieuse."
     }
   }
 }

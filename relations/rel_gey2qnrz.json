@@ -6,12 +6,7 @@
   "fait": {
     "confiance": "probable",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « autocratie »"
-      }
-    ],
-    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « autocratie » du TLFi, le 9 octobre 2026. Le TLFi hésite : dérivé de « autocrate », ou emprunt au grec αὐτοκράτεια. Confiance « probable »."
+    "sources": [],
+    "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « autocratie » du TLFi, le 9 octobre 2026. Le TLFi hésite : dérivé de « autocrate », ou emprunt au grec αὐτοκράτεια. Confiance « probable ». Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « autocratie » (L1234531) et « αὐτοκράτεια » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   }
 }

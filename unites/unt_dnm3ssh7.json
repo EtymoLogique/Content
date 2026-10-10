@@ -1,0 +1,62 @@
+{
+  "id": "unt_dnm3ssh7",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L286709, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_rpn9hchr",
+      "texte": "tres",
+      "cle_normalisee": "tres",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L286709, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_jv0jrk3p",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "trois"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L286709-S1, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Glose comparée au sens Wikidata le 10 octobre 2026 : concordante."
+      }
+    }
+  ]
+}

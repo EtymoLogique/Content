@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cryptonyme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cryptonyme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « cryptonyme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -49,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom caché",
-      "explication_courte": "Formé de crypto-, « caché », et de -onyme, « nom »."
+      "explication_courte": "Formé de crypto-, « caché », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et ónoma « nom ». Un cryptonyme est un nom caché, sous lequel une personne dissimule son identité. Le o de crypto- s’efface devant la voyelle d’-onyme."
     }
   }
 }

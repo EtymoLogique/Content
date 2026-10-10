@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « ostéotomie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « ostéotomie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ostéotomie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure de l’os",
-      "explication_courte": "Du grec ostéon, « os », et tomḗ, « coupure »."
+      "explication_courte": "Du grec ostéon, « os », et tomḗ, « coupure ».",
+      "explication_detaillee": "Le grec ostéon désigne l’os, et tomḗ la coupure. L’ostéotomie est la section chirurgicale d’un os."
     }
   }
 }

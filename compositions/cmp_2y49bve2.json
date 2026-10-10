@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « homogène » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « homogène » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « homogène » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de même origine",
-      "explication_courte": "Du grec homogenḗs, « de même race »."
+      "explication_courte": "Du grec homogenḗs, « de même race ».",
+      "explication_detaillee": "Le grec homós signifie « même », et gennáō « engendrer ». Est homogène ce qui est fait d’éléments de même nature, comme s’ils avaient la même origine. Une pâte homogène n’a pas de grumeaux."
     }
   }
 }

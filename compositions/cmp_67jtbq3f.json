@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « cardioscope » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « cardioscope » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « cardioscope » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe le cœur",
-      "explication_courte": "Formé de cardio-, « cœur », et de -scope, « qui observe »."
+      "explication_courte": "Formé de cardio-, « cœur », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec kardía désigne le cœur, et skopeîn signifie « observer ». Le cardioscope affiche sur un écran l’activité électrique du cœur, pour qu’on puisse l’observer en continu."
     }
   }
 }

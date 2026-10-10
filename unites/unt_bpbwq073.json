@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_wa90y54n",
   "fait": {
-    "confiance": "etablie",
-    "etat_relecture": "relu",
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « prologue »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L28728, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer."
+    "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
   "mot": {
     "categorie": "nom"
@@ -25,15 +25,15 @@
       "role": "canonique",
       "contexte": null,
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « prologue »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L28728, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer."
+        "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
   ],
@@ -47,32 +47,11 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
-        "etat_relecture": "relu",
-        "sources": [
-          {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « prologue »"
-          }
-        ],
-        "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer."
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "À vérifier : entrée « prologue » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L28728-S1) : le seul sens Wikidata est l’étape de cyclisme, pas le texte qui ouvre une œuvre. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
     }
-  ],
-  "attestation": {
-    "id": "att_jmhbtz12",
-    "annee": 1175,
-    "precision": "vers",
-    "fait": {
-      "confiance": "etablie",
-      "etat_relecture": "brouillon",
-      "sources": [
-        {
-          "source_id": "src_6zfwd3mp",
-          "localisation": "entrée « prologue »"
-        }
-      ],
-      "note_interne": "Date relue dans la rubrique « Étymologie et histoire » de l’entrée « prologue » du TLFi (cnrtl.fr), le 9 octobre 2026. Graphie « prologe » vers 1175 ; le TLFi met entre crochets une attestation possible de la 1re moitié du xiie s."
-    }
-  }
+  ]
 }

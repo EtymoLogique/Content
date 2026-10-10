@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « tétragramme » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « tétragramme » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « tétragramme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit de quatre lettres",
-      "explication_courte": "Formé de tétra-, « quatre », et de -gramme, « écrit, tracé »."
+      "explication_courte": "Formé de tétra-, « quatre », et de -gramme, « écrit, tracé ».",
+      "explication_detaillee": "Le grec téttares signifie « quatre », et grámma « lettre ». Le tétragramme est le nom de Dieu en hébreu, écrit en quatre lettres."
     }
   }
 }

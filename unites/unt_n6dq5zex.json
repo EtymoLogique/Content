@@ -3,15 +3,15 @@
   "nature": "mot",
   "langue_id": "lng_kmf44d76",
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
     "sources": [
       {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « -nome, -nomie »"
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1110170, consulté le 10 octobre 2026"
       }
     ],
-    "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+    "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "mot": {
     "categorie": "verbe"
@@ -31,15 +31,15 @@
         }
       ],
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « -nome, -nomie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1110170, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+        "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). lemme Wikidata « νέμω », forme du catalogue « νέμειν » (forme de citation différente)."
       }
     }
   ],
@@ -53,15 +53,15 @@
         }
       },
       "fait": {
-        "confiance": "etablie",
+        "confiance": "probable",
         "etat_relecture": "brouillon",
         "sources": [
           {
-            "source_id": "src_6zfwd3mp",
-            "localisation": "entrée « -nome, -nomie »"
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1110170, consulté le 10 octobre 2026"
           }
         ],
-        "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée."
+        "note_interne": "Étymon cité par le TLFi, entrée « -nome, -nomie », consultée le 9 octobre 2026 : νόμος en est « issu ». À confirmer dans le Bailly. Glose rédigée. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème ne détaille pas ses sens : glose à vérifier en relecture."
       }
     }
   ]

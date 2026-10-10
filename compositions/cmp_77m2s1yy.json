@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « hectolitre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « hectolitre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « hectolitre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "cent litres",
-      "explication_courte": "Du grec hekatón, « cent », et litre."
+      "explication_courte": "Du grec hekatón, « cent », et litre.",
+      "explication_detaillee": "Le grec hekatón signifie « cent ». Le préfixe hecto- multiplie l’unité par cent : un hectolitre vaut cent litres."
     }
   }
 }

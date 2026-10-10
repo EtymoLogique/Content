@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « trimètre » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « trimètre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « trimètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "triple mesure",
-      "explication_courte": "Formé de tri-, « trois », et de -mètre, « mesure »."
+      "explication_courte": "Formé de tri-, « trois », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le préfixe tri- signifie « trois », et le grec métron « mesure ». En poésie, le mètre est l’unité de mesure du vers : un trimètre en compte trois."
     }
   }
 }

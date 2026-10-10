@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « thermologie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « thermologie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « thermologie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de la chaleur",
-      "explication_courte": "Formé de thermo-, « chaleur », et de -logie, « étude »."
+      "explication_courte": "Formé de thermo-, « chaleur », et de -logie, « étude ».",
+      "explication_detaillee": "Le grec thermós signifie « chaud », et logía « étude ». La thermologie est l’étude de la chaleur ; en médecine, elle mesure la température du corps."
     }
   }
 }

@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": "entrée « télescope »"
-      }
-    ],
-    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : transformations ajoutées (adaptation de graphie, emprunt par l’italien), relues dans le TLFi ; à relire."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : transformations ajoutées (adaptation de graphie, emprunt par l’italien), relues dans le TLFi ; à relire. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « télescope » (L1460339). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -61,7 +56,7 @@
     "fr": {
       "sens_litteral": "qui observe au loin",
       "explication_courte": "Du grec têle, « au loin », et skopeîn, « observer ».",
-      "explication_detaillee": "Le grec têle signifie « au loin » et skopeîn « observer ». Le télescope permet d’observer au loin. Le mot naît en 1611, quand un savant, Giovanni Demisiani, nomme ainsi l’instrument de Galilée."
+      "explication_detaillee": "Le grec têle signifie « au loin » et skopeîn « observer ». Le télescope permet d’observer au loin. L’instrument apparaît vers 1607 ; on en attribue l’invention à Hans Lippershey, Zacharias Janssen et Jacob Metius."
     }
   }
 }

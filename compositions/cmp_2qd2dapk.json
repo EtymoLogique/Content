@@ -7,13 +7,8 @@
   "fait": {
     "confiance": "etablie",
     "etat_relecture": "brouillon",
-    "sources": [
-      {
-        "source_id": "src_6zfwd3mp",
-        "localisation": null
-      }
-    ],
-    "note_interne": "À vérifier : entrée « homophobie » du TLFi, localisation à renseigner."
+    "sources": [],
+    "note_interne": "À vérifier : entrée « homophobie » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « homophobie » (L578558). Non publiable tant que Wikidata ne le porte pas."
   },
   "parties": [
     {
@@ -36,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur du même",
-      "explication_courte": "Formé au XXᵉ siècle sur homo(sexuel) et -phobie, « peur »."
+      "explication_courte": "Formé au XXᵉ siècle sur homo(sexuel) et -phobie, « peur ».",
+      "explication_detaillee": "Le grec homós signifie « même », et phóbos « crainte ». Le premier élément renvoie ici à homosexuel : l’homophobie est l’hostilité envers les personnes homosexuelles. Le mot est construit comme beaucoup de noms de peurs en -phobie."
     }
   }
 }
