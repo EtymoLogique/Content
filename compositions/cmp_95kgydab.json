@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un millième de litre",
-      "explication_courte": "Du latin mille, « mille », et litre."
+      "explication_courte": "Du latin mille, « mille », et litre.",
+      "explication_detaillee": "Le préfixe milli-, du latin mille, divise l’unité par mille. Un millilitre vaut un millième de litre."
     }
   }
 }

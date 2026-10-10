@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours sur les mythes",
-      "explication_courte": "Du grec muthología, « récit de légendes »."
+      "explication_courte": "Du grec muthología, « récit de légendes ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, la légende, et logía l’étude. La mythologie est l’ensemble des mythes d’un peuple, et aussi leur étude."
     }
   }
 }

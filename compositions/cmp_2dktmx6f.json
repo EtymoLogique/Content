@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "petite coupure",
-      "explication_courte": "Formé de micro-, « petit », et de -tomie, « coupure »."
+      "explication_courte": "Formé de micro-, « petit », et de -tomie, « coupure ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit », et tomḗ « coupure ». La microtomie découpe un échantillon en tranches très fines, pour l’observer au microscope."
     }
   }
 }

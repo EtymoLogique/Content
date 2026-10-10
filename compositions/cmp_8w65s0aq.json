@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui naît dedans",
-      "explication_courte": "Du grec éndon, « dedans », et -genḗs, « qui naît »."
+      "explication_courte": "Du grec éndon, « dedans », et -genḗs, « qui naît ».",
+      "explication_detaillee": "Le grec éndon signifie « dedans », et gennáō « engendrer ». Est endogène ce qui naît à l’intérieur d’un organisme ou d’un système. Son contraire est exogène."
     }
   }
 }

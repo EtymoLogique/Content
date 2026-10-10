@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom de dieu",
-      "explication_courte": "Formé de théo-, « dieu », et de -onyme, « nom »."
+      "explication_courte": "Formé de théo-, « dieu », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec theós désigne le dieu, et ónoma le nom. Un théonyme est le nom d’une divinité. Le o de théo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

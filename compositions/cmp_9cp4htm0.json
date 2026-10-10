@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "armoire à livres",
-      "explication_courte": "Du grec bibliothḗkē, « dépôt de livres »."
+      "explication_courte": "Du grec bibliothḗkē, « dépôt de livres ».",
+      "explication_detaillee": "Le grec biblíon désigne le livre, et thḗkē le coffre, le réceptacle. La bibliothèque est un lieu où l’on range les livres ; le mot désigne aussi le meuble qui les contient."
     }
   }
 }

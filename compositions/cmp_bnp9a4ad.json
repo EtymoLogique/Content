@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sur le tombeau",
-      "explication_courte": "Du grec epitáphios, « funèbre »."
+      "explication_courte": "Du grec epitáphios, « funèbre ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et táphos « tombeau ». L’épitaphe est l’inscription gravée sur un tombeau."
     }
   }
 }

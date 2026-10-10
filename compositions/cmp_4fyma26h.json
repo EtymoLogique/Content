@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "autre commandement",
-      "explication_courte": "Formé de hétéro-, « autre », et de -archie, « commandement »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -archie, « commandement ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et arkhḗ « commandement ». Dans une hétérarchie, le pouvoir est réparti entre plusieurs centres, sans ordre unique du haut vers le bas."
     }
   }
 }

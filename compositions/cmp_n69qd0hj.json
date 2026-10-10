@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom du peuple",
-      "explication_courte": "Formé de démo-, « peuple », et de -onyme, « nom »."
+      "explication_courte": "Formé de démo-, « peuple », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec dêmos signifie « peuple », et ónoma « nom ». Un démonyme est le nom donné aux habitants d’un lieu : Parisiens, Marseillais, Bretons. Le o de démo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

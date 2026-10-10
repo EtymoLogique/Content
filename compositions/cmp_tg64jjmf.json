@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "caractère abrégé",
-      "explication_courte": "Du grec stenós, « étroit », et túpos, « caractère »."
+      "explication_courte": "Du grec stenós, « étroit », et túpos, « caractère ».",
+      "explication_detaillee": "Le grec stenós signifie « serré, abrégé », et túpos « empreinte, caractère ». La sténotype est une machine à clavier qui imprime une écriture abrégée, à la vitesse de la parole."
     }
   }
 }

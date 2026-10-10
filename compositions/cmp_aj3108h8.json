@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "quadruple mesure",
-      "explication_courte": "Formé de tétra-, « quatre », et de -mètre, « mesure »."
+      "explication_courte": "Formé de tétra-, « quatre », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec téttares signifie « quatre », et métron « mesure ». En poésie, le mètre est l’unité de mesure du vers : un tétramètre en compte quatre."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours ajouté",
-      "explication_courte": "Du grec epílogos, « péroraison »."
+      "explication_courte": "Du grec epílogos, « péroraison ».",
+      "explication_detaillee": "Le grec epí signifie « sur, après », et lógos « parole, discours ». L’épilogue est le discours qui vient après, à la fin d’un ouvrage. Au figuré, c’est le dénouement d’une affaire."
     }
   }
 }

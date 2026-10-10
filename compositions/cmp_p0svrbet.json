@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit caché",
-      "explication_courte": "Du grec kruptós, « caché », et gráphein, « écrire »."
+      "explication_courte": "Du grec kruptós, « caché », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et gráphein « écrire ». Le cryptographe sait écrire de façon cachée : il chiffre les messages pour les rendre secrets."
     }
   }
 }

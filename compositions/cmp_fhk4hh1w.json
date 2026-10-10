@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "caractère solide",
-      "explication_courte": "Du grec stereós, « solide », et túpos, « caractère »."
+      "explication_courte": "Du grec stereós, « solide », et túpos, « caractère ».",
+      "explication_detaillee": "Le grec stereós signifie « solide », et túpos « empreinte, caractère ». Le stéréotype était d’abord un cliché d’imprimerie coulé d’une seule pièce, qui reproduisait toujours la même page. Au figuré, c’est une opinion toute faite, un cliché."
     }
   }
 }

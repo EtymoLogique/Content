@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gravure de la terre",
-      "explication_courte": "Formé de géo-, « terre », et de -glyphe, « gravure »."
+      "explication_courte": "Formé de géo-, « terre », et de -glyphe, « gravure ».",
+      "explication_detaillee": "Le grec gê désigne la terre, et glúphein signifie « graver ». Un géoglyphe est un grand motif tracé sur le sol, que l’on ne voit en entier que de haut."
     }
   }
 }

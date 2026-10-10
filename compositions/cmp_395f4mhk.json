@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture du temps",
-      "explication_courte": "Formé de chrono-, « temps », et de -graphie, « écriture »."
+      "explication_courte": "Formé de chrono-, « temps », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le grec khrónos désigne le temps, et graphḗ l’écriture. La chronographie est l’enregistrement graphique de la durée d’un phénomène : le temps y laisse une trace écrite."
     }
   }
 }

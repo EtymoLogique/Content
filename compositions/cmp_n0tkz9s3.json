@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "petit litre",
-      "explication_courte": "Du grec mikrós, « petit », et litre."
+      "explication_courte": "Du grec mikrós, « petit », et litre.",
+      "explication_detaillee": "Le grec mikrós signifie « petit ». Dans le système métrique, micro- divise l’unité par un million : un microlitre vaut un millionième de litre."
     }
   }
 }

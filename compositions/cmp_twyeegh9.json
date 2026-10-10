@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste du caché",
-      "explication_courte": "Formé de crypto-, « caché », et de -logue, « spécialiste »."
+      "explication_courte": "Formé de crypto-, « caché », et de -logue, « spécialiste ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et le suffixe -logue désigne le spécialiste. Le cryptologue étudie les écritures secrètes et leur déchiffrement."
     }
   }
 }

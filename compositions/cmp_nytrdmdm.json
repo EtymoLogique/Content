@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des modèles",
-      "explication_courte": "Du grec túpos, « modèle », et lógos, « discours »."
+      "explication_courte": "Du grec túpos, « modèle », et lógos, « discours ».",
+      "explication_detaillee": "Le grec túpos désigne le type, le modèle, et logía l’étude. La typologie classe des choses en types, et étudie ces types."
     }
   }
 }

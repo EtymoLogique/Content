@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un centième de litre",
-      "explication_courte": "Du latin centum, « cent », et litre."
+      "explication_courte": "Du latin centum, « cent », et litre.",
+      "explication_detaillee": "Le préfixe centi-, du latin centum, « cent », divise l’unité par cent. Il s’ajoute à litre, un mot qui remonte au grec lítra, une unité de poids. Un centilitre vaut un centième de litre."
     }
   }
 }

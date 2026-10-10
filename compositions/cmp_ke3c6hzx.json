@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture des idées",
-      "explication_courte": "Du grec idéa, « idée », et gráphein, « écrire »."
+      "explication_courte": "Du grec idéa, « idée », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec idéa désigne l’idée, et graphḗ l’écriture. L’idéographie est une écriture faite d’idéogrammes, où chaque signe note une idée ou un objet."
     }
   }
 }

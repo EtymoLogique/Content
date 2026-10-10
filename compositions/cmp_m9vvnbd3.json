@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "usage de faux noms",
-      "explication_courte": "Formé de pseudo-, « faux », et de -onymie, « ensemble des noms »."
+      "explication_courte": "Formé de pseudo-, « faux », et de -onymie, « ensemble des noms ».",
+      "explication_detaillee": "Le grec pseudḗs signifie « faux », et ónoma « nom ». La pseudonymie est l’emploi d’un pseudonyme, un nom d’emprunt."
     }
   }
 }

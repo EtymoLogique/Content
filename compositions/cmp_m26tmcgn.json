@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "absence de son",
-      "explication_courte": "Du grec aphōnía, « absence de voix »."
+      "explication_courte": "Du grec aphōnía, « absence de voix ».",
+      "explication_detaillee": "Le préfixe a-, du grec a, « sans », s’ajoute à phōnḗ, « voix ». L’aphonie est la perte de la voix : on parle sans pouvoir produire de son."
     }
   }
 }

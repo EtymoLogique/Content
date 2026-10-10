@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "autre nom",
-      "explication_courte": "Formé de hétéro-, « autre », et de -onyme, « nom »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et ónoma « nom ». Un hétéronyme est un autre nom sous lequel un auteur publie, mais qui a sa propre personnalité, son style, parfois sa biographie inventée."
     }
   }
 }

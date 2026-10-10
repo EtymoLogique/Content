@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "deux sons",
-      "explication_courte": "Formé de di-, « deux », et de -phone, « voix, son »."
+      "explication_courte": "Formé de di-, « deux », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec dís signifie « deux fois », et phōnḗ « son ». En synthèse vocale, le diphone est une unité à cheval sur deux sons : elle va du milieu d’un son au milieu du suivant."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’ethnologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : ethnologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : ethnologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à ethnologie, l’étude des peuples. Une enquête ethnologique analyse les coutumes et les croyances d’un groupe humain."
     }
   }
 }

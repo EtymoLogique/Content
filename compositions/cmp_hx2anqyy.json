@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit les animaux",
-      "explication_courte": "Formé de zoo-, « animal », et de -graphe, « qui écrit »."
+      "explication_courte": "Formé de zoo-, « animal », et de -graphe, « qui écrit ».",
+      "explication_detaillee": "Le grec zôion désigne l’animal, et gráphein signifie « écrire ». Le zoographe décrit les animaux, par les mots ou par le dessin."
     }
   }
 }

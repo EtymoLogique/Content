@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "meurtre d’un peuple",
-      "explication_courte": "Du grec éthnos, « peuple », et du latin caedere, « tuer »."
+      "explication_courte": "Du grec éthnos, « peuple », et du latin caedere, « tuer ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et le suffixe -cide vient du latin caedere, « abattre, tuer ». L’ethnocide détruit la culture d’un peuple."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe en couches",
-      "explication_courte": "Du latin stratus, « étendu », et du grec sphaîra, « globe »."
+      "explication_courte": "Du latin stratus, « étendu », et du grec sphaîra, « globe ».",
+      "explication_detaillee": "Le préfixe strato- vient du latin stratus, « étendu », qui a donné l’idée de couche ; le grec sphaîra désigne le globe. La stratosphère est une couche de l’atmosphère, située au-dessus de celle où se forment les nuages."
     }
   }
 }

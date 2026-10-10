@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "modèle de la race",
-      "explication_courte": "Du grec génos, « race », et túpos, « modèle »."
+      "explication_courte": "Du grec génos, « race », et túpos, « modèle ».",
+      "explication_detaillee": "Le grec génos désigne la naissance, l’origine, et túpos le modèle. Le génotype est l’ensemble des gènes d’un individu, le modèle hérité à sa naissance."
     }
   }
 }

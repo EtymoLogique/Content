@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "examen du petit",
-      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer »."
+      "explication_courte": "Du grec mikrós, « petit », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit », et skopeîn « observer ». La microscopie est l’examen au microscope de ce qui est trop petit pour l’œil nu."
     }
   }
 }

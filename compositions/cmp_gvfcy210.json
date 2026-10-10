@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui étudie les mythes",
-      "explication_courte": "Du grec mûthos, « récit », et lógos, « discours »."
+      "explication_courte": "Du grec mûthos, « récit », et lógos, « discours ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, et le suffixe -logue désigne le spécialiste. Le mythologue étudie les mythes."
     }
   }
 }

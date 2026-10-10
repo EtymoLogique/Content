@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "loi d’un autre",
-      "explication_courte": "Du grec héteros, « autre », et nómos, « loi »."
+      "explication_courte": "Du grec héteros, « autre », et nómos, « loi ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et nómos « loi, règle ». L’hétéronomie est l’état de celui qui reçoit sa loi d’un autre, au lieu de se la donner. Son contraire est l’autonomie."
     }
   }
 }

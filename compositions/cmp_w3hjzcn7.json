@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "description des cristaux",
-      "explication_courte": "Du grec krústallos, « cristal », et gráphein, « écrire »."
+      "explication_courte": "Du grec krústallos, « cristal », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec krústallos désignait la glace, puis le cristal, et graphḗ la description. La cristallographie est la science des cristaux et de la façon dont leurs atomes s’ordonnent."
     }
   }
 }

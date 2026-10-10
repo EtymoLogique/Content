@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui étudie les sons",
-      "explication_courte": "Du grec phōnḗ, « voix, son », et lógos, « discours »."
+      "explication_courte": "Du grec phōnḗ, « voix, son », et lógos, « discours ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et le suffixe -logue désigne le spécialiste. Le phonologue étudie les sons des langues."
     }
   }
 }

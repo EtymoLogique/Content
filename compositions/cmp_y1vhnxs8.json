@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du monde",
-      "explication_courte": "Du grec kósmos, « monde », et lógos, « discours »."
+      "explication_courte": "Du grec kósmos, « monde », et lógos, « discours ».",
+      "explication_detaillee": "Le grec kósmos désigne le monde ordonné, et logía l’étude. La cosmologie étudie la structure de l’univers et son histoire, de son origine à son évolution."
     }
   }
 }

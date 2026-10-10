@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture des mythes",
-      "explication_courte": "Formé de mytho-, « récit, mythe », et de -graphie, « écriture »."
+      "explication_courte": "Formé de mytho-, « récit, mythe », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, et graphḗ l’écriture. La mythographie recueille les mythes et les étudie."
     }
   }
 }

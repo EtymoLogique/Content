@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "milliardième de litre",
-      "explication_courte": "Formé de nano-, « milliardième », et de litre, « unité de volume »."
+      "explication_courte": "Formé de nano-, « milliardième », et de litre, « unité de volume ».",
+      "explication_detaillee": "Le préfixe nano- vient du latin nanus, « nain » ; il divise l’unité par un milliard. Un nanolitre vaut un milliardième de litre."
     }
   }
 }

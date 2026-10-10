@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "course de l’air",
-      "explication_courte": "Du grec aḗr, « air », et drómos, « course »."
+      "explication_courte": "Du grec aḗr, « air », et drómos, « course ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et drómos la course. L’aérodrome est un terrain aménagé pour le décollage et l’atterrissage des avions."
     }
   }
 }

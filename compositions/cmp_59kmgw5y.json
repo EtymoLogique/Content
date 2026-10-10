@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "corps coloré",
-      "explication_courte": "Du grec khrôma, « couleur », et sôma, « corps » : il se colore bien au microscope."
+      "explication_courte": "Du grec khrôma, « couleur », et sôma, « corps » : il se colore bien au microscope.",
+      "explication_detaillee": "Le grec khrôma désigne la couleur, et sôma le corps. Le chromosome est un « corps coloré » : cet élément du noyau de la cellule, qui porte les gènes, se teint fortement quand on le colore pour l’observer."
     }
   }
 }

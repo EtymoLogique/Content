@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui dit la même chose",
-      "explication_courte": "Du grec homólogos, « qui parle de même, qui s’accorde »."
+      "explication_courte": "Du grec homólogos, « qui parle de même, qui s’accorde ».",
+      "explication_detaillee": "Le grec homós signifie « même », et lógos « parole, rapport ». Est homologue ce qui correspond à un autre élément dans un ensemble différent. Un ministre rencontre son homologue étranger : celui qui occupe le même poste."
     }
   }
 }

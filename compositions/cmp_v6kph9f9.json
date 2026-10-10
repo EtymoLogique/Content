@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe l’œil",
-      "explication_courte": "Du grec ophthalmós, « œil », et skopeîn, « observer »."
+      "explication_courte": "Du grec ophthalmós, « œil », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec ophthalmós désigne l’œil, et skopeîn signifie « observer ». L’ophtalmoscope éclaire le fond de l’œil pour l’observer."
     }
   }
 }

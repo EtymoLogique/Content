@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur à travers",
-      "explication_courte": "Du grec diá, « à travers », et thérmē, « chaleur »."
+      "explication_courte": "Du grec diá, « à travers », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec diá signifie « à travers », et thérmē « chaleur ». La diathermie chauffe les tissus du corps en y faisant passer un courant électrique."
     }
   }
 }

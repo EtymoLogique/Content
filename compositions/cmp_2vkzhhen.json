@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine de la psychologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : psychologie reçoit -isme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : psychologie reçoit -isme.",
+      "explication_detaillee": "Le suffixe -isme désigne une doctrine ; il s’ajoute à psychologie, l’étude de l’esprit. Le psychologisme tend à tout expliquer par la psychologie."
     }
   }
 }

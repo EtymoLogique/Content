@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "absence d’écriture",
-      "explication_courte": "Formé de a-, « sans, privé de », et de -graphie, « écriture »."
+      "explication_courte": "Formé de a-, « sans, privé de », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le préfixe a-, du grec a, « sans », s’ajoute à graphḗ, « écriture ». L’agraphie est la perte de la capacité d’écrire, à la suite d’une lésion du cerveau."
     }
   }
 }

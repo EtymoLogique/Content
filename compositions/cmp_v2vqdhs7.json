@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure de la pierre",
-      "explication_courte": "Formé de litho-, « pierre », et de -tomie, « coupure »."
+      "explication_courte": "Formé de litho-, « pierre », et de -tomie, « coupure ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et tomḗ la coupure. La lithotomie est une opération qui retire un calcul, une petite pierre formée dans l’organisme, en pratiquant une incision."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "parole nouvelle",
-      "explication_courte": "Du grec néos, « nouveau », et lógos, « parole »."
+      "explication_courte": "Du grec néos, « nouveau », et lógos, « parole ».",
+      "explication_detaillee": "Le grec néos signifie « nouveau », et logía « discours ». La néologie est la création de mots nouveaux dans une langue."
     }
   }
 }

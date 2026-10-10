@@ -55,7 +55,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte au millimètre",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : millimètre reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : millimètre reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à millimètre. Le è devient é : millimétrique. Une précision millimétrique est extrême."
     }
   }
 }

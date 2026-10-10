@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte au mythe",
-      "explication_courte": "Du grec muthikós, de mûthos, « récit »."
+      "explication_courte": "Du grec muthikós, de mûthos, « récit ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, la légende. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est mythique ce qui relève du mythe, de l’imaginaire ou de la légende."
     }
   }
 }

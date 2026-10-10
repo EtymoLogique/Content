@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mille mètres",
-      "explication_courte": "Du grec khílioi, « mille », et mètre, unité du système métrique."
+      "explication_courte": "Du grec khílioi, « mille », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le grec khílioi signifie « mille », et métron « mesure ». Le préfixe kilo- multiplie l’unité par mille : un kilomètre vaut mille mètres."
     }
   }
 }

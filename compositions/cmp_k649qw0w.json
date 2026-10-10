@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture des lieux",
-      "explication_courte": "Du grec topographía, « description d’un lieu »."
+      "explication_courte": "Du grec topographía, « description d’un lieu ».",
+      "explication_detaillee": "Le grec tópos désigne le lieu, et graphḗ l’écriture. La topographie est la description détaillée d’un terrain : son relief, ses pentes, ses chemins. Une carte topographique en donne l’image."
     }
   }
 }

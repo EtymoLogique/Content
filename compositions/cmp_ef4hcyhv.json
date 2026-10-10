@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mange la pierre",
-      "explication_courte": "Formé de litho-, « pierre », et de -phage, « qui mange »."
+      "explication_courte": "Formé de litho-, « pierre », et de -phage, « qui mange ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et phageîn signifie « manger ». Est lithophage ce qui creuse la pierre, comme certains mollusques qui s’y logent."
     }
   }
 }

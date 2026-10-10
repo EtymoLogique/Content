@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure du cœur",
-      "explication_courte": "Formé de cardio-, « cœur », et de -tomie, « coupure »."
+      "explication_courte": "Formé de cardio-, « cœur », et de -tomie, « coupure ».",
+      "explication_detaillee": "Le grec kardía désigne le cœur, et tomḗ la coupure. La cardiotomie est une incision du cœur, pratiquée en chirurgie."
     }
   }
 }

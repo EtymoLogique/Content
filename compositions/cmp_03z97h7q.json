@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gravure en relief",
-      "explication_courte": "Formé de ana-, « en remontant », et de -glyphe, « gravure »."
+      "explication_courte": "Formé de ana-, « en remontant », et de -glyphe, « gravure ».",
+      "explication_detaillee": "Le grec aná signifie « de bas en haut », et glúphein « graver ». L’anaglyphe était d’abord un ornement sculpté en relief. Le mot désigne une image en deux couleurs qui, vue avec des lunettes adaptées, donne l’illusion du relief."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pierre animale",
-      "explication_courte": "Formé de zoo-, « animal », et de -lithe, « pierre »."
+      "explication_courte": "Formé de zoo-, « animal », et de -lithe, « pierre ».",
+      "explication_detaillee": "Le grec zôion désigne l’animal, et líthos la pierre. Un zoolithe est une partie d’animal changée en pierre : un fossile."
     }
   }
 }

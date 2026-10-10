@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin de l’écriture",
-      "explication_courte": "Formé de grapho-, « écriture », et de -thérapie, « soin »."
+      "explication_courte": "Formé de grapho-, « écriture », et de -thérapie, « soin ».",
+      "explication_detaillee": "Le grec gráphein signifie « écrire », et therapeía « soin ». La graphothérapie rééduque l’écriture des personnes qui ont du mal à écrire."
     }
   }
 }

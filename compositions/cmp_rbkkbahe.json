@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture sur",
-      "explication_courte": "Du grec epí, « sur », et gráphein, « écrire »."
+      "explication_courte": "Du grec epí, « sur », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et graphḗ « écriture ». L’épigraphie étudie les inscriptions anciennes gravées sur la pierre, le métal ou d’autres supports."
     }
   }
 }

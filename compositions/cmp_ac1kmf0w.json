@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son de pierre",
-      "explication_courte": "Formé de litho-, « pierre », et de -phone, « voix, son »."
+      "explication_courte": "Formé de litho-, « pierre », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et phōnḗ le son. Le lithophone est un instrument de musique fait de pierres sonores."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "grande mesure",
-      "explication_courte": "Formé de méga-, « grand », et de -mètre, « mesure »."
+      "explication_courte": "Formé de méga-, « grand », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec mégas signifie « grand », et métron « mesure ». Dans le système métrique, méga- multiplie l’unité par un million : un mégamètre vaut un million de mètres."
     }
   }
 }

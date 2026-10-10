@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui gouverne par la technique",
-      "explication_courte": "Du grec tékhnē, « art, technique », et krátos, « pouvoir »."
+      "explication_courte": "Du grec tékhnē, « art, technique », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec tékhnē désigne l’art, le savoir-faire, et krátos le pouvoir. Le technocrate fait passer les vues techniques avant les choix politiques."
     }
   }
 }

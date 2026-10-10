@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’économie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à économie, la gestion des richesses. Est économique ce qui concerne l’économie, ou ce qui permet de dépenser peu."
     }
   }
 }

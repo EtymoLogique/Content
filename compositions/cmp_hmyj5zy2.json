@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de l’écriture",
-      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours »."
+      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours ».",
+      "explication_detaillee": "Le grec gráphein signifie « écrire », et logía « étude ». La graphologie étudie l’écriture à la main et prétend y lire le caractère de la personne qui écrit."
     }
   }
 }

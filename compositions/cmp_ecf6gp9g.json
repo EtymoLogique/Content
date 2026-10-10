@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’écologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à écologie, l’étude du milieu vivant. Est écologique ce qui relève de l’écologie, ou ce qui respecte l’environnement."
     }
   }
 }

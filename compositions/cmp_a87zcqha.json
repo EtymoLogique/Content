@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des souffrances",
-      "explication_courte": "Du grec páthos, « souffrance », et lógos, « discours »."
+      "explication_courte": "Du grec páthos, « souffrance », et lógos, « discours ».",
+      "explication_detaillee": "Le grec páthos désigne la souffrance, d’où la maladie, et logía l’étude. La pathologie est l’étude des maladies ; le mot désigne aussi l’ensemble des troubles d’une maladie."
     }
   }
 }

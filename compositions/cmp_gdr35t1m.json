@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur de dent",
-      "explication_courte": "Du grec odoús, « dent », et álgos, « douleur »."
+      "explication_courte": "Du grec odoús, « dent », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec odoús désigne la dent, et álgos la douleur. L’odontalgie est le mal de dents. Le o d’odonto- s’efface devant la voyelle d’-algie."
     }
   }
 }

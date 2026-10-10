@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la chaleur",
-      "explication_courte": "Du grec thermós, « chaud », et du suffixe -ique."
+      "explication_courte": "Du grec thermós, « chaud », et du suffixe -ique.",
+      "explication_detaillee": "Le grec thermós signifie « chaud ». Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est thermique ce qui concerne la chaleur. Une centrale thermique produit de l’électricité à partir de la chaleur."
     }
   }
 }

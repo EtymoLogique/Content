@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine de l’économie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -isme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : économie reçoit -isme.",
+      "explication_detaillee": "Le suffixe -isme désigne une doctrine ; il s’ajoute à économie, la gestion des richesses. L’économisme fait de l’économie la clé de toute explication."
     }
   }
 }

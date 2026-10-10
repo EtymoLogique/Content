@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine morale",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : moral reçoit -isme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : moral reçoit -isme.",
+      "explication_detaillee": "Le suffixe -isme désigne une doctrine ; il s’ajoute à moral, qui vient du latin moralis, « relatif aux mœurs ». Le moralisme est un attachement étroit aux règles morales."
     }
   }
 }

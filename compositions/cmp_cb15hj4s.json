@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fait de manger le cheval",
-      "explication_courte": "Du grec híppos, « cheval », et phageîn, « manger »."
+      "explication_courte": "Du grec híppos, « cheval », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et phageîn signifie « manger ». L’hippophagie est la consommation de viande de cheval."
     }
   }
 }

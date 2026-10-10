@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "modèle du vivant",
-      "explication_courte": "Du grec bíos, « vie », et túpos, « modèle »."
+      "explication_courte": "Du grec bíos, « vie », et túpos, « modèle ».",
+      "explication_detaillee": "Le grec bíos désigne la vie, et túpos l’empreinte, le modèle. Un biotype rassemble des êtres vivants qui partagent le même patrimoine héréditaire, comme s’ils étaient frappés au même modèle."
     }
   }
 }

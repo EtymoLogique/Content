@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un dixième de mètre",
-      "explication_courte": "Du latin decimus, « dixième », et mètre, unité du système métrique."
+      "explication_courte": "Du latin decimus, « dixième », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le préfixe déci-, du latin decimus, « dixième », divise l’unité par dix, et le grec métron désigne la mesure. Un décimètre vaut un dixième de mètre."
     }
   }
 }

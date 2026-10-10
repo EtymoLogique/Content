@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit caché",
-      "explication_courte": "Du grec kruptós, « caché », et grámma, « lettre »."
+      "explication_courte": "Du grec kruptós, « caché », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et grámma « lettre, écrit ». Un cryptogramme est un message dont le sens est caché par un code secret."
     }
   }
 }

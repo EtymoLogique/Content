@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la biographie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : biographie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biographie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, du latin icus, « qui se rapporte à », s’ajoute ici à biographie, le récit d’une vie. Est biographique ce qui concerne la vie d’une personne : une notice, une date, un détail."
     }
   }
 }

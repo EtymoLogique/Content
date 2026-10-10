@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "naissance du monde",
-      "explication_courte": "Du grec kosmogonía, « création du monde »."
+      "explication_courte": "Du grec kosmogonía, « création du monde ».",
+      "explication_detaillee": "Le grec kósmos désigne le monde, et gonḗ la naissance. Une cosmogonie raconte ou explique la naissance de l’univers, qu’il s’agisse d’un mythe ou d’une théorie savante."
     }
   }
 }

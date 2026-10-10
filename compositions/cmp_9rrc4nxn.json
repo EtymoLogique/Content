@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la dermatologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : dermatologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : dermatologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à dermatologie, la médecine de la peau. Un soin dermatologique est conçu pour la peau."
     }
   }
 }

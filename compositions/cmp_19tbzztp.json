@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fait de manger l’air",
-      "explication_courte": "Du grec aḗr, « air », et phageîn, « manger »."
+      "explication_courte": "Du grec aḗr, « air », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et phageîn signifie « manger ». L’aérophagie est le fait d’avaler de l’air, ce qui gonfle l’estomac."
     }
   }
 }

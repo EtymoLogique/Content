@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "règle de l’estomac",
-      "explication_courte": "Du grec gastronomía, titre d’un poème sur l’art de la table."
+      "explication_courte": "Du grec gastronomía, titre d’un poème sur l’art de la table.",
+      "explication_detaillee": "Le grec gastḗr désigne le ventre, et nómos la règle. La gastronomie est en quelque sorte la règle du ventre : l’art de bien cuisiner et de bien manger."
     }
   }
 }

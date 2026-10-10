@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des os",
-      "explication_courte": "Du grec ostéon, « os », et lógos, « discours »."
+      "explication_courte": "Du grec ostéon, « os », et lógos, « discours ».",
+      "explication_detaillee": "Le grec ostéon désigne l’os, et logía l’étude. L’ostéologie est l’étude des os."
     }
   }
 }

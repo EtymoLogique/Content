@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son au loin",
-      "explication_courte": "Du grec tếle, « au loin », et phōnḗ, « voix »."
+      "explication_courte": "Du grec tếle, « au loin », et phōnḗ, « voix ».",
+      "explication_detaillee": "Le grec têle signifie « au loin », et phōnḗ « voix ». La téléphonie est la transmission de la voix à distance."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du caché",
-      "explication_courte": "Du grec kruptós, « caché », et lógos, « discours »."
+      "explication_courte": "Du grec kruptós, « caché », et lógos, « discours ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et logía « étude ». La cryptologie est la science des écritures secrètes : elle apprend à chiffrer les messages et à les déchiffrer."
     }
   }
 }

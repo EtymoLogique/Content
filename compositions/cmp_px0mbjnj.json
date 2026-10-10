@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe de pierre",
-      "explication_courte": "Du grec líthos, « pierre », et sphaîra, « globe »."
+      "explication_courte": "Du grec líthos, « pierre », et sphaîra, « globe ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et sphaîra le globe. La lithosphère est l’enveloppe de pierre de la Terre : la couche rigide et rocheuse qui forme sa surface."
     }
   }
 }

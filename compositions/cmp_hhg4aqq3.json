@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit la roche",
-      "explication_courte": "Formé de pétro-, « roche », et de -graphe, « qui écrit »."
+      "explication_courte": "Formé de pétro-, « roche », et de -graphe, « qui écrit ».",
+      "explication_detaillee": "Le grec pétra désigne la roche, et gráphein signifie « écrire, décrire ». Le pétrographe décrit et classe les roches."
     }
   }
 }

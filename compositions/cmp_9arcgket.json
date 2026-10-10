@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur de la terre",
-      "explication_courte": "Du grec gê, « terre », et thérmē, « chaleur »."
+      "explication_courte": "Du grec gê, « terre », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec gê désigne la terre, et thérmē la chaleur. La géothermie est la chaleur interne de la Terre ; le mot désigne aussi son exploitation pour produire de l’énergie."
     }
   }
 }

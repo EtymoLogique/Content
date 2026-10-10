@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur du cœur",
-      "explication_courte": "Du grec kardía, « cœur », et álgos, « douleur »."
+      "explication_courte": "Du grec kardía, « cœur », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec kardía désigne le cœur, et álgos la douleur. La cardialgie est une douleur au cœur, ou au creux de l’estomac. Le o de cardio- s’efface devant la voyelle d’-algie."
     }
   }
 }

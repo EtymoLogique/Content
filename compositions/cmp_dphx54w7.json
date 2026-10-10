@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’hématologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : hématologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hématologie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui pratique ; il s’ajoute à hématologie. L’hématologiste est un spécialiste du sang, comme l’hématologue."
     }
   }
 }

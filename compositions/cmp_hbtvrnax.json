@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur d’oreille",
-      "explication_courte": "Du grec oûs, « oreille », et álgos, « douleur »."
+      "explication_courte": "Du grec oûs, « oreille », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec oûs désigne l’oreille, et álgos la douleur. L’otalgie est une douleur d’oreille. Le o d’oto- s’efface devant la voyelle d’-algie."
     }
   }
 }

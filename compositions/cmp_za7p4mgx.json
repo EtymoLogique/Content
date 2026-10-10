@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la vie",
-      "explication_courte": "Formé de bio-, « vie », et de -mètre, « mesure »."
+      "explication_courte": "Formé de bio-, « vie », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec bíos désigne la vie, et métron la mesure. Le biomètre est un instrument de mesure biologique ; il mesure en particulier les dimensions de l’œil."
     }
   }
 }

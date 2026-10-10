@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "ce qui est écrit dessus",
-      "explication_courte": "Du grec epígramma, d’abord « inscription »."
+      "explication_courte": "Du grec epígramma, d’abord « inscription ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et grámma « lettre, écrit ». L’épigramme était d’abord une inscription. Le mot désigne un petit poème satirique, ou un mot mordant."
     }
   }
 }

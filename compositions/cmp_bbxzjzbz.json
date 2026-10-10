@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la pierre",
-      "explication_courte": "Formé de litho-, « pierre », et de -ique, « qui se rapporte à »."
+      "explication_courte": "Formé de litho-, « pierre », et de -ique, « qui se rapporte à ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est lithique ce qui se rapporte à la pierre, comme un outil lithique."
     }
   }
 }

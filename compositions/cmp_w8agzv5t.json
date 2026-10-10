@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de l’air",
-      "explication_courte": "Du grec aḗr, « air », et lógos, « discours »."
+      "explication_courte": "Du grec aḗr, « air », et lógos, « discours ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et logía l’étude. L’aérologie étudie les hautes couches de l’atmosphère."
     }
   }
 }

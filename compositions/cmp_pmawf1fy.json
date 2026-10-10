@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui tue la vie",
-      "explication_courte": "Du grec bíos, « vie », et du latin caedere, « tuer »."
+      "explication_courte": "Du grec bíos, « vie », et du latin caedere, « tuer ».",
+      "explication_detaillee": "Le grec bíos désigne la vie, et le suffixe -cide vient du latin caedere, « abattre, tuer ». Un produit biocide tue les organismes vivants. Le mot mêle le grec et le latin."
     }
   }
 }

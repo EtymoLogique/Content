@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin par la couleur",
-      "explication_courte": "Formé de chromo-, « couleur », et de -thérapie, « soin »."
+      "explication_courte": "Formé de chromo-, « couleur », et de -thérapie, « soin ».",
+      "explication_detaillee": "Le grec khrôma désigne la couleur, et therapeía le soin. La chromothérapie prétend soigner par les couleurs."
     }
   }
 }

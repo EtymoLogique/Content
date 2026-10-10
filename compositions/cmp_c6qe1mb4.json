@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "armoire à sons",
-      "explication_courte": "Du grec phōnḗ, « son », et thḗkē, « coffre »."
+      "explication_courte": "Du grec phōnḗ, « son », et thḗkē, « coffre ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et thḗkē le coffre, le réceptacle. La phonothèque rassemble des enregistrements sonores ; le mot désigne aussi le lieu où on les conserve."
     }
   }
 }

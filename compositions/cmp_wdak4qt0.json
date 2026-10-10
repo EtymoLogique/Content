@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "description des roches",
-      "explication_courte": "Du grec pétra, « roche », et gráphein, « écrire »."
+      "explication_courte": "Du grec pétra, « roche », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec pétra désigne la roche, et graphḗ l’écriture, la description. La pétrographie décrit et classe les roches."
     }
   }
 }

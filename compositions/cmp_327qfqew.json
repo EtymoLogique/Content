@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "modèle unique",
-      "explication_courte": "Du grec mónos, « seul », et túpos, « empreinte »."
+      "explication_courte": "Du grec mónos, « seul », et túpos, « empreinte ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et túpos « empreinte ». Un monotype est une estampe dont on ne tire qu’une seule empreinte."
     }
   }
 }

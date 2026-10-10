@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "même son",
-      "explication_courte": "Du grec homós, « même », et phōnḗ, « son »."
+      "explication_courte": "Du grec homós, « même », et phōnḗ, « son ».",
+      "explication_detaillee": "Le grec homós signifie « même », et phōnḗ « voix, son ». L’homophonie est l’identité de prononciation entre des mots différents, comme ver, vert et verre."
     }
   }
 }

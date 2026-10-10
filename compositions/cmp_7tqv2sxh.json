@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture sur la pierre",
-      "explication_courte": "Du grec líthos, « pierre », et gráphein, « écrire »."
+      "explication_courte": "Du grec líthos, « pierre », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et graphḗ l’écriture, le dessin. La lithographie est un procédé d’impression à partir d’un dessin fait sur une pierre calcaire ; le mot désigne aussi l’estampe obtenue."
     }
   }
 }

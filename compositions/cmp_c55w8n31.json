@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "autre écriture",
-      "explication_courte": "Formé de hétéro-, « autre », et de -graphie, « écriture »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et graphḗ « écriture ». L’hétérographie est une autre façon d’écrire un même mot, comme clé et clef."
     }
   }
 }

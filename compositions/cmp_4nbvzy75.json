@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure par le tracé",
-      "explication_courte": "Formé de grapho-, « écriture », et de -mètre, « mesure »."
+      "explication_courte": "Formé de grapho-, « écriture », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec gráphein signifie « écrire, tracer », et métron « mesure ». Le graphomètre est un instrument d’arpentage qui mesure les angles sur le terrain, pour en tracer le plan."
     }
   }
 }

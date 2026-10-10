@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "même modèle",
-      "explication_courte": "Formé de homo-, « même », et de -type, « modèle »."
+      "explication_courte": "Formé de homo-, « même », et de -type, « modèle ».",
+      "explication_detaillee": "Le grec homós signifie « même », et túpos « type, modèle ». Un homotype est un organe bâti sur le même modèle qu’un autre, qui lui est symétrique."
     }
   }
 }

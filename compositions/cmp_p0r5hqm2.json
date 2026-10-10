@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte au sang",
-      "explication_courte": "Du grec haimatikós, de haîma, « sang »."
+      "explication_courte": "Du grec haimatikós, de haîma, « sang ».",
+      "explication_detaillee": "Le grec haîma désigne le sang. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est hématique ce qui concerne le sang."
     }
   }
 }

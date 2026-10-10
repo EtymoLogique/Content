@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "cœur lent",
-      "explication_courte": "Du grec bradús, « lent », et kardía, « cœur »."
+      "explication_courte": "Du grec bradús, « lent », et kardía, « cœur ».",
+      "explication_detaillee": "Le grec bradús signifie « lent », et kardía « cœur ». La bradycardie est un ralentissement du rythme du cœur."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit le monde",
-      "explication_courte": "Du grec kósmos, « monde », et gráphein, « écrire »."
+      "explication_courte": "Du grec kósmos, « monde », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec kósmos désigne le monde, et gráphein signifie « écrire ». Le cosmographe décrit l’univers : la disposition des astres et la figure de la Terre."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de deux formes",
-      "explication_courte": "Du grec dímorphos, « à deux formes »."
+      "explication_courte": "Du grec dímorphos, « à deux formes ».",
+      "explication_detaillee": "Le grec dís signifie « deux fois », et morphḗ « forme ». Est dimorphe ce qui se présente sous deux formes, comme une espèce où mâles et femelles diffèrent."
     }
   }
 }

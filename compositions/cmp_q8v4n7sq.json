@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sans loi",
-      "explication_courte": "Du grec anomía, « absence de loi »."
+      "explication_courte": "Du grec anomía, « absence de loi ».",
+      "explication_detaillee": "Le préfixe a-, du grec a, « sans », s’ajoute à nómos, « loi, règle ». L’anomie est l’absence de règles ou de normes dans une société."
     }
   }
 }

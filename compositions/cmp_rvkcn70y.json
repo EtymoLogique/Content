@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit sur le bois",
-      "explication_courte": "Formé de xylo-, « bois », et de -graphe, « qui écrit »."
+      "explication_courte": "Formé de xylo-, « bois », et de -graphe, « qui écrit ».",
+      "explication_detaillee": "Le grec xúlon désigne le bois, et gráphein signifie « écrire ». Le xylographe grave sur bois des images ou des textes destinés à l’impression."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "corps de soi-même",
-      "explication_courte": "Formé de auto-, « soi-même », et de -some, « corps »."
+      "explication_courte": "Formé de auto-, « soi-même », et de -some, « corps ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et sôma « corps ». Un autosome est un chromosome qui n’est pas sexuel."
     }
   }
 }

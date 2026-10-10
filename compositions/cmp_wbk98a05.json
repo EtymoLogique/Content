@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "accord du discours",
-      "explication_courte": "Du grec homología, « accord, conformité »."
+      "explication_courte": "Du grec homología, « accord, conformité ».",
+      "explication_detaillee": "Le grec homós signifie « même », et logía « discours ». L’homologie est la correspondance entre deux éléments qui jouent le même rôle ou ont la même origine. Le bras humain et l’aile de la chauve-souris sont des organes homologues."
     }
   }
 }

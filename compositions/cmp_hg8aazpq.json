@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la phonologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : phonologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : phonologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à phonologie, l’étude des sons. Une règle phonologique décrit comment les sons d’une langue se combinent."
     }
   }
 }

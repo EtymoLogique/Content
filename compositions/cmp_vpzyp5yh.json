@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des pierres",
-      "explication_courte": "Du grec líthos, « pierre », et lógos, « discours »."
+      "explication_courte": "Du grec líthos, « pierre », et lógos, « discours ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et logía l’étude. La lithologie étudie la nature des roches."
     }
   }
 }

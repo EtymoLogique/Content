@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "selon la raison",
-      "explication_courte": "Du grec analogía, « proportion »."
+      "explication_courte": "Du grec analogía, « proportion ».",
+      "explication_detaillee": "Le grec aná signifie « en remontant, selon », et logía « raisonnement, discours ». L’analogie est un rapport de ressemblance entre des choses différentes : on raisonne de l’une à l’autre."
     }
   }
 }

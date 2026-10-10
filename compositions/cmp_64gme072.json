@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "couleur par la lumière",
-      "explication_courte": "Formé de photo-, « lumière », et de -chrome, « couleur »."
+      "explication_courte": "Formé de photo-, « lumière », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le grec phôs désigne la lumière, et khrôma la couleur. Un verre photochrome change de couleur sous l’effet de la lumière : il fonce au soleil."
     }
   }
 }

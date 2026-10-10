@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "triple mesure",
-      "explication_courte": "Formé de tri-, « trois », et de -mètre, « mesure »."
+      "explication_courte": "Formé de tri-, « trois », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le préfixe tri- signifie « trois », et le grec métron « mesure ». En poésie, le mètre est l’unité de mesure du vers : un trimètre en compte trois."
     }
   }
 }

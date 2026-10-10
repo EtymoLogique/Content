@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’ophtalmologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : ophtalmologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : ophtalmologie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui pratique ; il s’ajoute à ophtalmologie. L’ophtalmologiste est un médecin des yeux, comme l’ophtalmologue."
     }
   }
 }

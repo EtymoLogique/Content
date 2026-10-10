@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sans affection",
-      "explication_courte": "Du grec apátheia, « insensibilité »."
+      "explication_courte": "Du grec apátheia, « insensibilité ».",
+      "explication_detaillee": "Le préfixe a-, du grec a, « sans », s’ajoute à páthos, « ce qu’on éprouve ». L’apathie est l’état de qui n’éprouve plus rien : indifférence, manque d’énergie ou d’émotion."
     }
   }
 }

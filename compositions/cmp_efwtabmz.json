@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste du sang",
-      "explication_courte": "Du grec haîma, « sang », et lógos, « discours »."
+      "explication_courte": "Du grec haîma, « sang », et lógos, « discours ».",
+      "explication_detaillee": "Le grec haîma désigne le sang, et le suffixe -logue désigne le spécialiste. L’hématologue est le médecin spécialiste du sang."
     }
   }
 }

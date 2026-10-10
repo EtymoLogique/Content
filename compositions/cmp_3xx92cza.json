@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mange le cheval",
-      "explication_courte": "Du grec híppos, « cheval », et phageîn, « manger »."
+      "explication_courte": "Du grec híppos, « cheval », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et phageîn signifie « manger ». Est hippophage celui qui mange de la viande de cheval."
     }
   }
 }

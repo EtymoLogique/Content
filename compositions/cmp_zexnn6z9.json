@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fait de manger au-delà",
-      "explication_courte": "Du grec hupér, « au-dessus », et phageîn, « manger »."
+      "explication_courte": "Du grec hupér, « au-dessus », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec hupér signifie « au-dessus, au-delà », et phageîn « manger ». L’hyperphagie est un besoin de manger au-delà de la faim."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "à trois couleurs",
-      "explication_courte": "Formé de tri-, « trois », et de -chrome, « couleur »."
+      "explication_courte": "Formé de tri-, « trois », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le préfixe tri- signifie « trois », et le grec khrôma « couleur ». Est trichrome ce qui est à trois couleurs."
     }
   }
 }

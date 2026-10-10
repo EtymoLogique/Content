@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un dixième de litre",
-      "explication_courte": "Du latin decimus, « dixième », et litre."
+      "explication_courte": "Du latin decimus, « dixième », et litre.",
+      "explication_detaillee": "Le préfixe déci-, du latin decimus, « dixième », divise l’unité par dix. Un décilitre vaut un dixième de litre."
     }
   }
 }

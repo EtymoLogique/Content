@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "biologie du dehors",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : exo- s’ajoute à biologie."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : exo- s’ajoute à biologie.",
+      "explication_detaillee": "Le grec éxō signifie « dehors » ; il s’ajoute à biologie, un mot que vous connaissez. L’exobiologie étudie les formes de vie possibles hors de la Terre."
     }
   }
 }

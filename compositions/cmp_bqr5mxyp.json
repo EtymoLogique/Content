@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "divination par le livre",
-      "explication_courte": "Formé de biblio-, « livre », et de -mancie, « divination »."
+      "explication_courte": "Formé de biblio-, « livre », et de -mancie, « divination ».",
+      "explication_detaillee": "Le grec biblíon désigne le livre, et manteía la divination. La bibliomancie prétend prédire l’avenir en ouvrant un livre au hasard et en lisant le passage qui apparaît."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit par l’air",
-      "explication_courte": "Du grec aḗr, « air », et gráphein, « écrire »."
+      "explication_courte": "Du grec aḗr, « air », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et gráphein signifie « écrire, peindre ». L’aérographe est un pistolet qui pulvérise la peinture à l’air comprimé."
     }
   }
 }

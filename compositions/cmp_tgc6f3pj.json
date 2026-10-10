@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure de l’estomac",
-      "explication_courte": "Du grec gastḗr, « ventre », et tomḗ, « coupure »."
+      "explication_courte": "Du grec gastḗr, « ventre », et tomḗ, « coupure ».",
+      "explication_detaillee": "Le grec gastḗr désigne l’estomac, et tomḗ la coupure. La gastrotomie est l’ouverture chirurgicale de l’estomac."
     }
   }
 }

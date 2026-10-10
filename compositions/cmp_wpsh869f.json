@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin de l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et iatreía, « traitement »."
+      "explication_courte": "Du grec psukhḗ, « âme », et iatreía, « traitement ».",
+      "explication_detaillee": "Le grec psukhḗ désigne l’âme, l’esprit, et iatreía le traitement. La psychiatrie est la branche de la médecine qui soigne les maladies mentales."
     }
   }
 }

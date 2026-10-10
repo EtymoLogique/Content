@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son propre nom",
-      "explication_courte": "Formé de auto-, « soi-même », et de -onyme, « nom »."
+      "explication_courte": "Formé de auto-, « soi-même », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et ónoma « nom ». Un mot est autonyme quand il se désigne lui-même, comme chat dans la phrase « chat a quatre lettres »."
     }
   }
 }

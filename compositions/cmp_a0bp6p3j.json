@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "meurtre de la maison",
-      "explication_courte": "Du grec oîkos, « maison », et du latin caedere, « tuer »."
+      "explication_courte": "Du grec oîkos, « maison », et du latin caedere, « tuer ».",
+      "explication_detaillee": "Le grec oîkos désigne la maison, ici le milieu de vie, et le suffixe -cide vient du latin caedere, « abattre, tuer ». L’écocide est la destruction grave d’un milieu naturel."
     }
   }
 }

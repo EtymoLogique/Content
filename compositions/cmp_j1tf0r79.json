@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "impression en couleur",
-      "explication_courte": "Formé de chromo-, « couleur », et de -typie, « impression »."
+      "explication_courte": "Formé de chromo-, « couleur », et de -typie, « impression ».",
+      "explication_detaillee": "Le grec khrôma désigne la couleur, et túpos l’empreinte. La chromotypie est une impression en couleurs."
     }
   }
 }

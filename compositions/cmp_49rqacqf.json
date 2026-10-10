@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin du cheval",
-      "explication_courte": "Du grec híppos, « cheval », et iatreía, « traitement »."
+      "explication_courte": "Du grec híppos, « cheval », et iatreía, « traitement ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et iatreía le traitement. L’hippiatrie est la médecine des chevaux. Le o d’hippo- s’efface devant la voyelle d’-iatrie."
     }
   }
 }

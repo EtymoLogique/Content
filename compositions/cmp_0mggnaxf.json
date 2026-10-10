@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit les cartes",
-      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire »."
+      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire ».",
+      "explication_detaillee": "Le préfixe carto- vient du latin charta, « feuille de papyrus », puis « papier, carte » ; gráphein signifie « écrire, dessiner ». Le cartographe dresse les cartes."
     }
   }
 }

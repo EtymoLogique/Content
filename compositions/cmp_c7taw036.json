@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’empreinte",
-      "explication_courte": "Formé de typo-, « caractère », et de -ique, « qui se rapporte à »."
+      "explication_courte": "Formé de typo-, « caractère », et de -ique, « qui se rapporte à ».",
+      "explication_detaillee": "Le grec túpos désigne le type, le modèle. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est typique ce qui caractérise un type, ce qui en est un bon exemple."
     }
   }
 }

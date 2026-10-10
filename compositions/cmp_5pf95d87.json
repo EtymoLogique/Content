@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "faux nom",
-      "explication_courte": "Du grec pseudḗs, « faux », et ónoma, « nom »."
+      "explication_courte": "Du grec pseudḗs, « faux », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec pseudḗs signifie « faux », et ónoma « nom ». Un pseudonyme est un nom d’emprunt, un « faux nom » que l’on choisit pour signer ou se faire connaître. Le o de pseudo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

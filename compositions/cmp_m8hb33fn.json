@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "armoire à cartes",
-      "explication_courte": "Du latin charta, « papier », et du grec thḗkē, « coffre »."
+      "explication_courte": "Du latin charta, « papier », et du grec thḗkē, « coffre ».",
+      "explication_detaillee": "Le préfixe carto- vient du latin charta, « feuille, carte », et le grec thḗkē désigne le coffre, le réceptacle. La cartothèque est une collection de cartes géographiques, et le lieu où on la conserve."
     }
   }
 }

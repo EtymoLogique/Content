@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "selon le rapport",
-      "explication_courte": "Du grec análogos, « proportionné »."
+      "explication_courte": "Du grec análogos, « proportionné ».",
+      "explication_detaillee": "Le grec aná signifie « selon », et lógos « rapport, proportion ». Est analogue ce qui ressemble à autre chose, ce qui est dans un rapport semblable."
     }
   }
 }

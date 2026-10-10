@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’art, au métier",
-      "explication_courte": "Formé de techno-, « technique », et de -ique, « qui se rapporte à »."
+      "explication_courte": "Formé de techno-, « technique », et de -ique, « qui se rapporte à ».",
+      "explication_detaillee": "Le grec tékhnē désigne l’art, le savoir-faire. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est technique ce qui relève d’un métier ou d’un savoir-faire précis."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son en relief",
-      "explication_courte": "Du grec stereós, « solide », et phōnḗ, « son »."
+      "explication_courte": "Du grec stereós, « solide », et phōnḗ, « son ».",
+      "explication_detaillee": "Le grec stereós signifie « solide », d’où « en relief », et phōnḗ « son ». La stéréophonie reproduit le son sur deux voies, pour lui rendre son relief."
     }
   }
 }

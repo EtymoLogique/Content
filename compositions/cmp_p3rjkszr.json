@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe l’estomac",
-      "explication_courte": "Du grec gastḗr, « ventre », et skopeîn, « observer »."
+      "explication_courte": "Du grec gastḗr, « ventre », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec gastḗr désigne l’estomac, et skopeîn signifie « observer ». Le gastroscope permet d’observer l’intérieur de l’estomac."
     }
   }
 }

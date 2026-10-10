@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "naissance des dieux",
-      "explication_courte": "Du grec theogonía, titre d’un poème d’Hésiode."
+      "explication_courte": "Du grec theogonía, titre d’un poème d’Hésiode.",
+      "explication_detaillee": "Le grec theós désigne le dieu, et gonḗ la naissance. Une théogonie raconte la naissance des dieux et leurs liens de parenté."
     }
   }
 }

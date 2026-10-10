@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "impression sur pierre en couleurs",
-      "explication_courte": "Formé de chromo-, « couleur », et de lithographie, « impression sur pierre »."
+      "explication_courte": "Formé de chromo-, « couleur », et de lithographie, « impression sur pierre ».",
+      "explication_detaillee": "Le grec khrôma désigne la couleur ; il s’ajoute à lithographie, l’impression sur pierre. La chromolithographie est une lithographie en couleurs."
     }
   }
 }

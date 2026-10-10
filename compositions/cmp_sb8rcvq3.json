@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit les mots",
-      "explication_courte": "Du grec léxis, « mot », et gráphein, « écrire »."
+      "explication_courte": "Du grec léxis, « mot », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec léxis désigne le mot, et gráphein signifie « écrire ». Le lexicographe écrit sur les mots : il rédige des dictionnaires."
     }
   }
 }

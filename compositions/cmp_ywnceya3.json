@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "d’une autre origine",
-      "explication_courte": "Du grec heterogenḗs, « d’un autre genre »."
+      "explication_courte": "Du grec heterogenḗs, « d’un autre genre ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et gennáō « engendrer ». Est hétérogène ce qui est fait d’éléments de nature différente, comme s’ils venaient d’origines diverses. Son contraire est homogène."
     }
   }
 }

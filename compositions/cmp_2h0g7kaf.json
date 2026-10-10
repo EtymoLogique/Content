@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chef unique",
-      "explication_courte": "Du grec monárkhēs, « qui commande seul »."
+      "explication_courte": "Du grec monárkhēs, « qui commande seul ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et árkhein « commander ». Le monarque est celui qui commande seul : le souverain d’une monarchie."
     }
   }
 }

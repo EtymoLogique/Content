@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur du sang",
-      "explication_courte": "Du grec haîma, « sang », et phóbos, « peur »."
+      "explication_courte": "Du grec haîma, « sang », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec haîma désigne le sang, et phóbos la crainte. L’hématophobie est la peur du sang."
     }
   }
 }

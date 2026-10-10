@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la gynécologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : gynécologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : gynécologie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui pratique ; il s’ajoute à gynécologie. Le gynécologiste est un spécialiste de gynécologie, comme le gynécologue."
     }
   }
 }

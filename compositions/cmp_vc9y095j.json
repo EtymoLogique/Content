@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure de bas en haut",
-      "explication_courte": "Du grec anatomḗ, « dissection »."
+      "explication_courte": "Du grec anatomḗ, « dissection ».",
+      "explication_detaillee": "Le grec aná signifie « de bas en haut », et tomḗ « coupure ». L’anatomie est d’abord l’art de disséquer, de couper pour voir à l’intérieur. Le mot désigne l’étude de la structure des êtres vivants, et cette structure même."
     }
   }
 }

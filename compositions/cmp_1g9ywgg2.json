@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la microbiologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : microbiologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : microbiologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à microbiologie, l’étude des êtres vivants microscopiques. Une analyse microbiologique recherche les bactéries ou les levures présentes dans un échantillon."
     }
   }
 }

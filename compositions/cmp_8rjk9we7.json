@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "navigateur des astres",
-      "explication_courte": "Du grec astḗr, « astre », et naútēs, « marin »."
+      "explication_courte": "Du grec astḗr, « astre », et naútēs, « marin ».",
+      "explication_detaillee": "Le grec ástron désigne l’astre, et naútēs le marin. L’astronaute est un navigateur des astres : une personne qui voyage dans l’espace."
     }
   }
 }

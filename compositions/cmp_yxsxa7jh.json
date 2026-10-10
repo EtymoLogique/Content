@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe l’oreille",
-      "explication_courte": "Du grec oûs, « oreille », et skopeîn, « observer »."
+      "explication_courte": "Du grec oûs, « oreille », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec oûs désigne l’oreille, et skopeîn signifie « observer ». L’otoscope sert à observer le conduit de l’oreille."
     }
   }
 }

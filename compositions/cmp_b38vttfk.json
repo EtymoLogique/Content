@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’âme",
-      "explication_courte": "Du grec psukhikós, de psukhḗ, « âme »."
+      "explication_courte": "Du grec psukhikós, de psukhḗ, « âme ».",
+      "explication_detaillee": "Le grec psukhḗ désigne le souffle de vie, puis l’âme et l’esprit. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est psychique ce qui relève de la vie mentale."
     }
   }
 }

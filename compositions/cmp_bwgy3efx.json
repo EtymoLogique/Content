@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "meurtre d’une race",
-      "explication_courte": "Forgé en 1944 par Raphael Lemkin, du grec génos, « race », et du latin caedere, « tuer »."
+      "explication_courte": "Forgé en 1944 par Raphael Lemkin, du grec génos, « race », et du latin caedere, « tuer ».",
+      "explication_detaillee": "Le grec génos désigne la naissance, la race, et le suffixe -cide vient du latin caedere, « abattre, tuer ». Le génocide est l’extermination délibérée d’un groupe humain. Le mot mêle le grec et le latin."
     }
   }
 }

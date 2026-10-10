@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "usage de son propre nom",
-      "explication_courte": "Formé de auto-, « soi-même », et de -onymie, « ensemble des noms »."
+      "explication_courte": "Formé de auto-, « soi-même », et de -onymie, « ensemble des noms ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et ónoma « nom ». L’autonymie est l’emploi d’un mot pour se désigner lui-même, comme dans « le mot mot a trois lettres »."
     }
   }
 }

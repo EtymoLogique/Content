@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gravure sacrée",
-      "explication_courte": "Du grec hierogluphikós, « qui grave des caractères sacrés »."
+      "explication_courte": "Du grec hierogluphikós, « qui grave des caractères sacrés ».",
+      "explication_detaillee": "Le grec hierós signifie « sacré », et glúphein « graver ». Un hiéroglyphe est une gravure sacrée : un signe de l’écriture des anciens Égyptiens. Au figuré, le mot désigne une écriture illisible."
     }
   }
 }

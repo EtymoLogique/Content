@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur de l’estomac",
-      "explication_courte": "Du grec gastḗr, « ventre », et álgos, « douleur »."
+      "explication_courte": "Du grec gastḗr, « ventre », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec gastḗr désigne le ventre, l’estomac, et álgos la douleur. La gastralgie est une douleur de l’estomac. Le o de gastro- s’efface devant la voyelle d’-algie."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la peau",
-      "explication_courte": "Du grec dérma, « peau », et lógos, « discours »."
+      "explication_courte": "Du grec dérma, « peau », et lógos, « discours ».",
+      "explication_detaillee": "Le grec dérma désigne la peau, et le suffixe -logue désigne le spécialiste. Le dermatologue est le médecin de la peau."
     }
   }
 }

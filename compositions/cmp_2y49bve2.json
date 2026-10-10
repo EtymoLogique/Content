@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de même origine",
-      "explication_courte": "Du grec homogenḗs, « de même race »."
+      "explication_courte": "Du grec homogenḗs, « de même race ».",
+      "explication_detaillee": "Le grec homós signifie « même », et gennáō « engendrer ». Est homogène ce qui est fait d’éléments de même nature, comme s’ils avaient la même origine. Une pâte homogène n’a pas de grumeaux."
     }
   }
 }

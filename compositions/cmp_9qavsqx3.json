@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui étudie les idées",
-      "explication_courte": "Du grec idéa, « idée », et lógos, « discours »."
+      "explication_courte": "Du grec idéa, « idée », et lógos, « discours ».",
+      "explication_detaillee": "Le grec idéa désigne l’idée, et le suffixe -logue désigne celui qui en parle. L’idéologue défend une idéologie, parfois sans se soucier de la réalité."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui étudie l’écriture",
-      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours »."
+      "explication_courte": "Du grec gráphein, « écrire », et lógos, « discours ».",
+      "explication_detaillee": "Le grec gráphein signifie « écrire », et le suffixe -logue désigne le spécialiste. Le graphologue analyse les écritures manuscrites."
     }
   }
 }

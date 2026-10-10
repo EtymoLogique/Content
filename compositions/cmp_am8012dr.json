@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte au son",
-      "explication_courte": "Du grec phōnḗ, « voix, son », et du suffixe -ique."
+      "explication_courte": "Du grec phōnḗ, « voix, son », et du suffixe -ique.",
+      "explication_detaillee": "Le grec phōnḗ désigne la voix, le son. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est phonique ce qui concerne les sons de la voix."
     }
   }
 }

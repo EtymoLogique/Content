@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "impression par la pierre",
-      "explication_courte": "Formé de litho-, « pierre », et de -typie, « impression »."
+      "explication_courte": "Formé de litho-, « pierre », et de -typie, « impression ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et túpos l’empreinte. La lithotypie est un procédé d’impression à l’aide de pierres gravées."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit dessus",
-      "explication_courte": "Du grec epigraphḗ, « inscription »."
+      "explication_courte": "Du grec epigraphḗ, « inscription ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et gráphein « écrire ». L’épigraphe est ce qu’on écrit sur un édifice, une inscription ; c’est aussi une citation placée en tête d’un livre."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure de soi-même",
-      "explication_courte": "Formé de auto-, « soi-même », et de -tomie, « coupure »."
+      "explication_courte": "Formé de auto-, « soi-même », et de -tomie, « coupure ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et tomḗ « coupure ». L’autotomie est l’amputation d’un membre par l’animal lui-même, comme le lézard qui abandonne sa queue pour échapper à un prédateur."
     }
   }
 }

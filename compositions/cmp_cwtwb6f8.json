@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit les mythes",
-      "explication_courte": "Du grec muthográphos, « qui écrit des légendes »."
+      "explication_courte": "Du grec muthográphos, « qui écrit des légendes ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, et gráphein signifie « écrire ». Le mythographe recueille les mythes et les met par écrit."
     }
   }
 }

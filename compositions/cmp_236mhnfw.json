@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "course à rebours",
-      "explication_courte": "Du grec pálin, « en arrière », et drómos, « course »."
+      "explication_courte": "Du grec pálin, « en arrière », et drómos, « course ».",
+      "explication_detaillee": "Le grec pálin signifie « en arrière, à rebours », et drómos « course ». Le palindrome se lit dans les deux sens, comme si l’on refaisait la course à rebours : ressasser, kayak."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement de dieu",
-      "explication_courte": "Formé de théo-, « dieu », et de -archie, « commandement »."
+      "explication_courte": "Formé de théo-, « dieu », et de -archie, « commandement ».",
+      "explication_detaillee": "Le grec theós désigne le dieu, et arkhḗ le commandement. La théarchie est le gouvernement des dieux, ou l’ordre hiérarchique des êtres divins."
     }
   }
 }

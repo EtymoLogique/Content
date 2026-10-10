@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui aime le bois",
-      "explication_courte": "Formé de xylo-, « bois », et de -phile, « qui aime »."
+      "explication_courte": "Formé de xylo-, « bois », et de -phile, « qui aime ».",
+      "explication_detaillee": "Le grec xúlon désigne le bois, et phílos l’ami. Un organisme xylophile « aime le bois » : il y vit ou s’en nourrit, comme certains insectes et champignons."
     }
   }
 }

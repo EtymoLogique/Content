@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom au-dessus",
-      "explication_courte": "Du grec hupér, « au-dessus », et ónoma, « nom »."
+      "explication_courte": "Du grec hupér, « au-dessus », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec hupér signifie « au-dessus », et ónoma « nom ». L’hyperonyme est le mot du dessus, dont le sens englobe celui d’autres mots : fleur est l’hyperonyme de rose."
     }
   }
 }

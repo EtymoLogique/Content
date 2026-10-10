@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture rapide",
-      "explication_courte": "Du grec takhús, « rapide », et gráphein, « écrire »."
+      "explication_courte": "Du grec takhús, « rapide », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec takhús signifie « rapide », et graphḗ « écriture ». La tachygraphie est une écriture rapide, faite de signes abrégés."
     }
   }
 }

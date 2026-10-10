@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "description du monde",
-      "explication_courte": "Du grec kosmographía, « description du monde »."
+      "explication_courte": "Du grec kosmographía, « description du monde ».",
+      "explication_detaillee": "Le grec kósmos désigne le monde, et graphḗ l’écriture, la description. La cosmographie décrit l’univers et le mouvement des astres."
     }
   }
 }

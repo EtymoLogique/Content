@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "faux discours",
-      "explication_courte": "Formé de pseudo-, « faux », et de -logie, « étude »."
+      "explication_courte": "Formé de pseudo-, « faux », et de -logie, « étude ».",
+      "explication_detaillee": "Le grec pseudḗs signifie « faux, menteur », et logía « discours ». La pseudologie est une tendance maladive à mentir : un discours faux, tenu sans nécessité."
     }
   }
 }

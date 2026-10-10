@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure du son",
-      "explication_courte": "Formé de phono-, « son, voix », et de -mètre, « mesure »."
+      "explication_courte": "Formé de phono-, « son, voix », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et métron la mesure. Le phonomètre mesure l’intensité d’un son."
     }
   }
 }

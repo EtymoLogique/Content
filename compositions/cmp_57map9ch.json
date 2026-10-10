@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit le son",
-      "explication_courte": "Mot forgé en anglais par Edison en 1877, du grec phōnḗ, « son », et gráphein, « écrire »."
+      "explication_courte": "Mot forgé en anglais par Edison en 1877, du grec phōnḗ, « son », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et gráphein signifie « écrire ». Le phonographe « écrit le son » : cet ancien appareil gravait les sons sur un support, puis les restituait."
     }
   }
 }

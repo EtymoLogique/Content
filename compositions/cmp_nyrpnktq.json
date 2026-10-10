@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement de peu",
-      "explication_courte": "Du grec oligarkhía, « gouvernement de quelques-uns »."
+      "explication_courte": "Du grec oligarkhía, « gouvernement de quelques-uns ».",
+      "explication_detaillee": "Le grec olígos signifie « peu nombreux », et arkhḗ « commandement ». L’oligarchie est le régime où le pouvoir appartient à un petit groupe. Le o d’oligo- s’efface devant la voyelle d’-archie."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit de l’air",
-      "explication_courte": "Du grec aḗr, « air », et grámma, « lettre »."
+      "explication_courte": "Du grec aḗr, « air », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et grámma la lettre. L’aérogramme est une lettre sur papier léger, pliée en enveloppe, envoyée par avion."
     }
   }
 }

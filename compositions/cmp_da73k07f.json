@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de l’eau",
-      "explication_courte": "Formé de hydro-, « eau », et de -mètre, « mesure »."
+      "explication_courte": "Formé de hydro-, « eau », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec húdōr désigne l’eau, et métron la mesure. L’hydromètre mesure la densité ou le débit d’un liquide."
     }
   }
 }

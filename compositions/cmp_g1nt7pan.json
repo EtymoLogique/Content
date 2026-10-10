@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nombreux modèles",
-      "explication_courte": "Formé de poly-, « nombreux », et de -type, « modèle »."
+      "explication_courte": "Formé de poly-, « nombreux », et de -type, « modèle ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux », et túpos « empreinte ». Un polytype est un cliché typographique reproduit en de nombreux exemplaires."
     }
   }
 }

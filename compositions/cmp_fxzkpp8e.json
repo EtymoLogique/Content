@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture droite",
-      "explication_courte": "Du grec orthographía, « écriture correcte »."
+      "explication_courte": "Du grec orthographía, « écriture correcte ».",
+      "explication_detaillee": "Le grec orthós signifie « droit, correct », et gráphein « écrire ». L’orthographe est la façon correcte d’écrire les mots, conforme à l’usage et aux règles."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mener de nouveau",
-      "explication_courte": "Formé de re-, « de nouveau », et de mener, « conduire »."
+      "explication_courte": "Formé de re-, « de nouveau », et de mener, « conduire ».",
+      "explication_detaillee": "Le préfixe re-, du latin re, « de nouveau », s’ajoute au verbe mener, qui vient du latin minare, « pousser devant soi ». Remener, c’est mener de nouveau, ramener."
     }
   }
 }

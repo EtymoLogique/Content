@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un milliardième de mètre",
-      "explication_courte": "Du grec nânos, « nain », et mètre, unité du système métrique."
+      "explication_courte": "Du grec nânos, « nain », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le préfixe nano- vient du latin nanus, « nain » ; dans le système métrique, il divise l’unité par un milliard. Un nanomètre vaut un milliardième de mètre."
     }
   }
 }

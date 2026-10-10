@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de la chaleur",
-      "explication_courte": "Formé de thermo-, « chaleur », et de -logie, « étude »."
+      "explication_courte": "Formé de thermo-, « chaleur », et de -logie, « étude ».",
+      "explication_detaillee": "Le grec thermós signifie « chaud », et logía « étude ». La thermologie est l’étude de la chaleur ; en médecine, elle mesure la température du corps."
     }
   }
 }

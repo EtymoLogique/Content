@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "trois discours",
-      "explication_courte": "Du grec trilogía, « suite de trois tragédies »."
+      "explication_courte": "Du grec trilogía, « suite de trois tragédies ».",
+      "explication_detaillee": "Le préfixe tri- signifie « trois », et le grec logía « discours ». Une trilogie est un ensemble de trois œuvres qui se suivent."
     }
   }
 }

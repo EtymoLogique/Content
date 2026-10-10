@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’hématologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : hématologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hématologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à hématologie, l’étude du sang. Un bilan hématologique analyse les cellules du sang."
     }
   }
 }

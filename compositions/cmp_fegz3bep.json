@@ -36,7 +36,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "dix litres",
-      "explication_courte": "Du grec déka, « dix », et litre."
+      "explication_courte": "Du grec déka, « dix », et litre.",
+      "explication_detaillee": "Le grec déka signifie « dix ». Le préfixe déca- multiplie l’unité par dix : un décalitre vaut dix litres."
     }
   }
 }

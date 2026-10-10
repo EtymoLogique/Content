@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui gouverne au nom de dieu",
-      "explication_courte": "Du grec theós, « dieu », et krátos, « pouvoir »."
+      "explication_courte": "Du grec theós, « dieu », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec theós désigne le dieu, et krátos le pouvoir. Le théocrate dirige ou défend une théocratie, un régime où le pouvoir se réclame de la divinité."
     }
   }
 }

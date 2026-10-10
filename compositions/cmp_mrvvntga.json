@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’œil",
-      "explication_courte": "Du grec ophthalmikós, de ophthalmós, « œil »."
+      "explication_courte": "Du grec ophthalmikós, de ophthalmós, « œil ».",
+      "explication_detaillee": "Le grec ophthalmós désigne l’œil. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est ophtalmique ce qui concerne l’œil."
     }
   }
 }

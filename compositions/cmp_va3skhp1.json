@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "navigateur de l’air",
-      "explication_courte": "Du grec aḗr, « air », et naútēs, « marin »."
+      "explication_courte": "Du grec aḗr, « air », et naútēs, « marin ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et naútēs le marin. L’aéronaute est un navigateur de l’air, qui voyage en ballon ou en dirigeable."
     }
   }
 }

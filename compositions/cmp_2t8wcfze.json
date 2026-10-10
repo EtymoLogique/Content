@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit sacré",
-      "explication_courte": "Formé de hiéro-, « sacré », et de -gramme, « écrit, tracé »."
+      "explication_courte": "Formé de hiéro-, « sacré », et de -gramme, « écrit, tracé ».",
+      "explication_detaillee": "Le grec hierós signifie « sacré », et grámma « lettre, signe ». Un hiérogramme est un signe d’écriture sacrée."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "course en avant",
-      "explication_courte": "Du grec pródromos, « qui court en avant »."
+      "explication_courte": "Du grec pródromos, « qui court en avant ».",
+      "explication_detaillee": "Le grec pró signifie « avant », et drómos « course ». Le prodrome est ce qui court devant : le signe avant-coureur d’une maladie ou d’un événement."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure des animaux",
-      "explication_courte": "Formé de zoo-, « animal », et de -mètre, « mesure »."
+      "explication_courte": "Formé de zoo-, « animal », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec zôion désigne l’animal, et métron la mesure. Le zoomètre est un instrument qui mesure les proportions des animaux."
     }
   }
 }

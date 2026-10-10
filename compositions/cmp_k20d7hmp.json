@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la hiérarchie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : hiérarchie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hiérarchie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à hiérarchie, l’ordre des rangs. Un supérieur hiérarchique est celui qui occupe le rang au-dessus du sien."
     }
   }
 }

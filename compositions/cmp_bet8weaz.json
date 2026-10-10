@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "course ensemble",
-      "explication_courte": "Du grec sundromḗ, « concours, rencontre »."
+      "explication_courte": "Du grec sundromḗ, « concours, rencontre ».",
+      "explication_detaillee": "Le grec sún signifie « avec, ensemble », et drómos « course ». Le syndrome est un ensemble de signes qui concourent, qui se présentent ensemble et caractérisent une maladie ou une situation."
     }
   }
 }

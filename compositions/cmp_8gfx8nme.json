@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "médecin de la voix",
-      "explication_courte": "Du grec phōnḗ, « voix », et iatrós, « médecin »."
+      "explication_courte": "Du grec phōnḗ, « voix », et iatrós, « médecin ».",
+      "explication_detaillee": "Le grec phōnḗ désigne la voix, et iatrós le médecin. Le phoniatre est le médecin des troubles de la voix. Le o de phono- s’efface devant la voyelle d’-iatre."
     }
   }
 }

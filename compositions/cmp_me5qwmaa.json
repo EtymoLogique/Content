@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom posé dessus",
-      "explication_courte": "Du grec epṓnumos, « qui donne son nom »."
+      "explication_courte": "Du grec epṓnumos, « qui donne son nom ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et ónoma « nom ». Est éponyme celui qui donne son nom à quelque chose : le héros éponyme d’un roman porte le nom du titre. Le i d’épi- s’efface devant la voyelle d’-onyme."
     }
   }
 }

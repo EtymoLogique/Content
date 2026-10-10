@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "seule sonorité",
-      "explication_courte": "Formé de mono-, « seul, unique », et de -phonie, « sonorité »."
+      "explication_courte": "Formé de mono-, « seul, unique », et de -phonie, « sonorité ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et phōnḗ « voix, son ». La monophonie est une musique à une seule voix ; en acoustique, c’est un son reproduit par un seul canal."
     }
   }
 }

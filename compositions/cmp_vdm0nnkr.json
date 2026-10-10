@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit le poids",
-      "explication_courte": "Formé de baro-, « poids », et de -graphe, « qui écrit »."
+      "explication_courte": "Formé de baro-, « poids », et de -graphe, « qui écrit ».",
+      "explication_detaillee": "Le grec báros signifie « poids », et gráphein « écrire ». Le barographe est un baromètre qui écrit lui-même : il trace sur un papier les variations de la pression de l’air."
     }
   }
 }

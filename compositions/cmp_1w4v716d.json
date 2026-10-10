@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre contre",
-      "explication_courte": "Formé au XXᵉ siècle sur anti(corps) et -gène, « qui engendre »."
+      "explication_courte": "Formé au XXᵉ siècle sur anti(corps) et -gène, « qui engendre ».",
+      "explication_detaillee": "Le grec antí signifie « contre », et gennáō « engendrer ». Un antigène est une substance que l’organisme reconnaît comme étrangère : il engendre en réponse des anticorps, chargés de lutter contre elle."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de l’oreille",
-      "explication_courte": "Du grec oûs, « oreille », et lógos, « discours »."
+      "explication_courte": "Du grec oûs, « oreille », et lógos, « discours ».",
+      "explication_detaillee": "Le grec oûs désigne l’oreille, et logía l’étude. L’otologie étudie l’oreille et ses maladies."
     }
   }
 }

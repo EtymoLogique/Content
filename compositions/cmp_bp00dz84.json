@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture du son",
-      "explication_courte": "Formé de phono-, « son, voix », et de -graphie, « écriture »."
+      "explication_courte": "Formé de phono-, « son, voix », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et graphḗ l’écriture. La phonographie est la transcription des sons de la parole ; le mot désigne aussi l’enregistrement sonore."
     }
   }
 }

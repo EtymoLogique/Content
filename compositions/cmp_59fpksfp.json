@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "cent mètres",
-      "explication_courte": "Du grec hekatón, « cent », et mètre, unité du système métrique."
+      "explication_courte": "Du grec hekatón, « cent », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le grec hekatón signifie « cent », et métron « mesure ». Le préfixe hecto- multiplie l’unité par cent : un hectomètre vaut cent mètres."
     }
   }
 }

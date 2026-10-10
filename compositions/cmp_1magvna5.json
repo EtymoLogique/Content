@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’anarchie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : anarchie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : anarchie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui défend une idée ; il s’ajoute à anarchie. L’anarchiste veut supprimer l’État et toute autorité imposée."
     }
   }
 }

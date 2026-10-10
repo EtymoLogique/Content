@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe de vapeur",
-      "explication_courte": "Du grec atmós, « vapeur », et sphaîra, « globe »."
+      "explication_courte": "Du grec atmós, « vapeur », et sphaîra, « globe ».",
+      "explication_detaillee": "Le grec atmós désigne la vapeur, et sphaîra le globe. L’atmosphère est l’enveloppe de gaz qui entoure la Terre comme un globe de vapeur. Au figuré, c’est l’ambiance d’un lieu."
     }
   }
 }

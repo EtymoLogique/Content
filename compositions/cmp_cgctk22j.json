@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la vapeur",
-      "explication_courte": "Formé de atmo-, « vapeur », et de -mètre, « mesure »."
+      "explication_courte": "Formé de atmo-, « vapeur », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec atmós désigne la vapeur, et métron la mesure. L’atmomètre mesure l’évaporation, c’est-à-dire la quantité d’eau qui part en vapeur."
     }
   }
 }

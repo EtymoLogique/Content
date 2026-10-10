@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "toutes les lettres",
-      "explication_courte": "Du grec pâs, « tout », et grámma, « lettre »."
+      "explication_courte": "Du grec pâs, « tout », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec pâs signifie « tout », et grámma « lettre ». Un pangramme est une phrase qui contient toutes les lettres de l’alphabet."
     }
   }
 }

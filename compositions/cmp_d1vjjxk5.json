@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’étymologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : étymologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : étymologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à étymologie, l’origine des mots. Un sens étymologique est le sens premier d’un mot, celui que révèle son origine."
     }
   }
 }

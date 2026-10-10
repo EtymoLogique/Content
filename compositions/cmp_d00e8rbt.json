@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pierre du son",
-      "explication_courte": "Formé de phono-, « son, voix », et de -lithe, « pierre »."
+      "explication_courte": "Formé de phono-, « son, voix », et de -lithe, « pierre ».",
+      "explication_detaillee": "Le grec phōnḗ désigne le son, et líthos la pierre. La phonolithe est une roche volcanique qui sonne quand on la frappe : une pierre qui chante."
     }
   }
 }

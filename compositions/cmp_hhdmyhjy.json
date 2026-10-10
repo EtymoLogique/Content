@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de la peau",
-      "explication_courte": "Du grec dérma, « peau », et lógos, « discours »."
+      "explication_courte": "Du grec dérma, « peau », et lógos, « discours ».",
+      "explication_detaillee": "Le grec dérma désigne la peau, et logía l’étude. La dermatologie est la branche de la médecine qui étudie et soigne la peau."
     }
   }
 }

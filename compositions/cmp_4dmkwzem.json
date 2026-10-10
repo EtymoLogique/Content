@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chef d’un quart",
-      "explication_courte": "Du grec tetrárkhēs, « chef d’un quart de pays »."
+      "explication_courte": "Du grec tetrárkhēs, « chef d’un quart de pays ».",
+      "explication_detaillee": "Le grec téttares signifie « quatre », et árkhein « commander ». Le tétrarque gouverne l’une des quatre parties d’un territoire."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine de la monarchie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : monarchie reçoit -isme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : monarchie reçoit -isme.",
+      "explication_detaillee": "Le suffixe -isme désigne une doctrine ; il s’ajoute à monarchie, le pouvoir d’un seul. Le monarchisme est la doctrine des partisans de la monarchie."
     }
   }
 }

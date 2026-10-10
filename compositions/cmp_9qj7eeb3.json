@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe la vie",
-      "explication_courte": "Formé de bio-, « vie », et de -scope, « qui observe »."
+      "explication_courte": "Formé de bio-, « vie », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec bíos désigne la vie, et skopeîn signifie « observer ». Le bioscope était un ancien appareil qui projetait des images animées : on y observait la vie en mouvement."
     }
   }
 }

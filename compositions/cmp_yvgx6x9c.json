@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "état de repli sur soi",
-      "explication_courte": "Forgé en allemand en 1911 par Eugen Bleuler, du grec autós, « soi-même »."
+      "explication_courte": "Forgé en allemand en 1911 par Eugen Bleuler, du grec autós, « soi-même ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et le suffixe -isme désigne un état. L’autisme est un trouble du développement qui affecte la communication et les relations sociales. Le mot est emprunté à l’allemand Autismus."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit serré",
-      "explication_courte": "Du grec stenós, « étroit », et gráphein, « écrire »."
+      "explication_courte": "Du grec stenós, « étroit », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec stenós signifie « étroit, serré », et gráphein « écrire ». Le sténographe écrit en abrégé, assez vite pour suivre la parole."
     }
   }
 }

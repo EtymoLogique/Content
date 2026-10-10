@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nombreux corps",
-      "explication_courte": "Formé de poly-, « nombreux », et de -some, « corps »."
+      "explication_courte": "Formé de poly-, « nombreux », et de -some, « corps ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux », et sôma « corps ». Un polysome réunit de nombreux ribosomes, de petits corps de la cellule, sur un même ARN messager."
     }
   }
 }

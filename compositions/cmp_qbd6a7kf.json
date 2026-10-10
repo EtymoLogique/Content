@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fou de récits",
-      "explication_courte": "Du grec mûthos, « récit », et manía, « folie »."
+      "explication_courte": "Du grec mûthos, « récit », et manía, « folie ».",
+      "explication_detaillee": "Le grec mûthos désigne le récit, la fable, et manía la folie. Le mythomane invente et ment par besoin maladif : il vit dans ses propres récits."
     }
   }
 }

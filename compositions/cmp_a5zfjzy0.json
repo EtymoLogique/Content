@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection du muscle",
-      "explication_courte": "Du grec mûs, « muscle », et páthos, « souffrance »."
+      "explication_courte": "Du grec mûs, « muscle », et páthos, « souffrance ».",
+      "explication_detaillee": "Le grec mûs désigne le muscle, et páthos la souffrance. La myopathie est une maladie des muscles."
     }
   }
 }

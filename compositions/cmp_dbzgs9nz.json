@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son de l’idée",
-      "explication_courte": "Formé de idéo-, « idée », et de -phone, « voix, son »."
+      "explication_courte": "Formé de idéo-, « idée », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec idéa désigne l’idée, l’image, et phōnḗ le son. Un idéophone est un mot dont le son évoque une sensation ou une image, à la manière d’une onomatopée."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "noms des lieux",
-      "explication_courte": "Du grec tópos, « lieu », et ónoma, « nom »."
+      "explication_courte": "Du grec tópos, « lieu », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec tópos désigne le lieu, et ónoma le nom. La toponymie étudie les noms de lieux, leur origine et leur histoire. Le mot désigne aussi l’ensemble des noms de lieux d’une région."
     }
   }
 }

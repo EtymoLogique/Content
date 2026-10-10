@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’estomac",
-      "explication_courte": "Du grec gastḗr, « ventre », et du suffixe -ique."
+      "explication_courte": "Du grec gastḗr, « ventre », et du suffixe -ique.",
+      "explication_detaillee": "Le grec gastḗr désigne le ventre, l’estomac. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est gastrique ce qui concerne l’estomac."
     }
   }
 }

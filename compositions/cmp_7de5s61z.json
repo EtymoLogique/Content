@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure de l’os",
-      "explication_courte": "Du grec ostéon, « os », et tomḗ, « coupure »."
+      "explication_courte": "Du grec ostéon, « os », et tomḗ, « coupure ».",
+      "explication_detaillee": "Le grec ostéon désigne l’os, et tomḗ la coupure. L’ostéotomie est la section chirurgicale d’un os."
     }
   }
 }

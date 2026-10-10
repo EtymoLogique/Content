@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure du nerf",
-      "explication_courte": "Formé de neuro-, « nerf », et de -tomie, « coupure »."
+      "explication_courte": "Formé de neuro-, « nerf », et de -tomie, « coupure ».",
+      "explication_detaillee": "Le grec neûron désigne le nerf, et tomḗ la coupure. La neurotomie est la section chirurgicale d’un nerf."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "trace d’une idée",
-      "explication_courte": "Du grec idéa, « idée », et grámma, « lettre, trait »."
+      "explication_courte": "Du grec idéa, « idée », et grámma, « lettre, trait ».",
+      "explication_detaillee": "Le grec idéa désigne la forme, l’idée, et grámma la lettre, le tracé. Un idéogramme est un signe d’écriture qui représente directement une idée ou un objet, et non un son."
     }
   }
 }

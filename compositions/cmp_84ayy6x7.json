@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fait de manger le sang",
-      "explication_courte": "Du grec haîma, « sang », et phageîn, « manger »."
+      "explication_courte": "Du grec haîma, « sang », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec haîma désigne le sang, et phageîn signifie « manger ». L’hématophagie est le fait de se nourrir de sang."
     }
   }
 }

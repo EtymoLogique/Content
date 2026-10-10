@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude de l’œil",
-      "explication_courte": "Du grec ophthalmós, « œil », et lógos, « discours »."
+      "explication_courte": "Du grec ophthalmós, « œil », et lógos, « discours ».",
+      "explication_detaillee": "Le grec ophthalmós désigne l’œil, et logía l’étude. L’ophtalmologie est la branche de la médecine qui soigne les yeux."
     }
   }
 }

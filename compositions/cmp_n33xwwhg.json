@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection partagée",
-      "explication_courte": "Du grec sumpátheia : sún, « avec », devenu sum- devant p, et páthos, « ce qu’on éprouve »."
+      "explication_courte": "Du grec sumpátheia : sún, « avec », devenu sum- devant p, et páthos, « ce qu’on éprouve ».",
+      "explication_detaillee": "Le grec sún signifie « avec », et páthos « ce qu’on éprouve ». La sympathie, c’est éprouver avec l’autre, se sentir proche de lui. Devant le p, syn- devient sym- : c’est une allomorphie."
     }
   }
 }

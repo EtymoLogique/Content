@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "douleur du muscle",
-      "explication_courte": "Du grec mûs, « muscle », et álgos, « douleur »."
+      "explication_courte": "Du grec mûs, « muscle », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec mûs désigne le muscle, et álgos la douleur. La myalgie est une douleur musculaire. Le o de myo- s’efface devant la voyelle d’-algie."
     }
   }
 }

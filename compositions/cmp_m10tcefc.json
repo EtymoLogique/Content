@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "grande voix",
-      "explication_courte": "Du grec mégas, « grand », et phōnḗ, « voix »."
+      "explication_courte": "Du grec mégas, « grand », et phōnḗ, « voix ».",
+      "explication_detaillee": "Le grec mégas signifie « grand », et phōnḗ « voix ». Le mégaphone est un appareil portatif qui rend la voix plus grande, plus forte."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "armoire à lumière",
-      "explication_courte": "Formé sur photo(graphie) et le grec thḗkē, « coffre »."
+      "explication_courte": "Formé sur photo(graphie) et le grec thḗkē, « coffre ».",
+      "explication_detaillee": "Le grec phôs désigne la lumière, et thḗkē le coffre, le réceptacle. Photo- vaut ici pour photographie : la photothèque est une collection de photographies, et le lieu où on la conserve."
     }
   }
 }

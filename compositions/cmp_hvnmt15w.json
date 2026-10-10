@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe à travers",
-      "explication_courte": "Formé de dia-, « à travers, entre », et de -scope, « qui observe »."
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec diá signifie « à travers », et skopeîn « observer ». Le diascope projette des images transparentes : la lumière passe à travers elles pour les montrer sur un écran."
     }
   }
 }

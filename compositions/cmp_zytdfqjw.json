@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’idéologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : idéologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : idéologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à idéologie, un système d’idées. Un débat idéologique oppose des visions du monde."
     }
   }
 }

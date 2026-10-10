@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de même couleur",
-      "explication_courte": "Formé de homo-, « même », et de -chrome, « couleur »."
+      "explication_courte": "Formé de homo-, « même », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le grec homós signifie « même », et khrôma « couleur ». Est homochrome ce qui a la même couleur que son milieu ou qu’un autre objet. Certains animaux se cachent ainsi en prenant la teinte de leur décor."
     }
   }
 }

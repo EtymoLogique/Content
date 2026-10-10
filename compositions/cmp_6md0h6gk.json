@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "examen du dedans",
-      "explication_courte": "Du grec éndon, « dedans », et skopeîn, « observer »."
+      "explication_courte": "Du grec éndon, « dedans », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec éndon signifie « dedans », et skopeîn « observer ». L’endoscopie est l’examen de l’intérieur du corps à l’aide d’un endoscope."
     }
   }
 }

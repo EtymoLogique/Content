@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "autre sonorité",
-      "explication_courte": "Formé de hétéro-, « autre », et de -phonie, « sonorité »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -phonie, « sonorité ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et phōnḗ « voix ». L’hétérophonie fait entendre en même temps des variantes d’une même mélodie : chaque voix chante la mélodie un peu autrement."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement de quatre",
-      "explication_courte": "Du grec tetrarkhía, « gouvernement de quatre »."
+      "explication_courte": "Du grec tetrarkhía, « gouvernement de quatre ».",
+      "explication_detaillee": "Le grec téttares signifie « quatre », et arkhḗ « commandement ». La tétrarchie partage le gouvernement entre quatre chefs."
     }
   }
 }

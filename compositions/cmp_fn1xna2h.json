@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur au-dessous",
-      "explication_courte": "Du grec hupó, « sous », et thérmē, « chaleur »."
+      "explication_courte": "Du grec hupó, « sous », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec hupó signifie « sous », et thérmē « chaleur ». L’hypothermie est un abaissement de la température du corps sous la normale."
     }
   }
 }

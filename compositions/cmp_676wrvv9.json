@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son qui passe à travers",
-      "explication_courte": "Formé de dia-, « à travers, entre », et de -phone, « voix, son »."
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec diá signifie « à travers », et phōnḗ « voix, son ». Le diaphone est un signal sonore de brume, dont le son porte loin à travers le brouillard."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du sang",
-      "explication_courte": "Du grec haîma, « sang », et lógos, « discours »."
+      "explication_courte": "Du grec haîma, « sang », et lógos, « discours ».",
+      "explication_detaillee": "Le grec haîma désigne le sang, et logía l’étude. L’hématologie étudie le sang et ses maladies."
     }
   }
 }

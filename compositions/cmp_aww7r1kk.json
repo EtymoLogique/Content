@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "un millième de mètre",
-      "explication_courte": "Du latin mille, « mille », et mètre, unité du système métrique."
+      "explication_courte": "Du latin mille, « mille », et mètre, unité du système métrique.",
+      "explication_detaillee": "Le préfixe milli-, du latin mille, divise l’unité par mille, et le grec métron désigne la mesure. Un millimètre vaut un millième de mètre."
     }
   }
 }

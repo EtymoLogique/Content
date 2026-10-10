@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "discours contraire",
-      "explication_courte": "Formé de anti-, « contre », et de -logie, « étude »."
+      "explication_courte": "Formé de anti-, « contre », et de -logie, « étude ».",
+      "explication_detaillee": "Le grec antí signifie « contre », et logía « discours ». Une antilogie est une contradiction : deux idées ou deux passages qui disent le contraire l’un de l’autre."
     }
   }
 }

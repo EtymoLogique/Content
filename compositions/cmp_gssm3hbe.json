@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "impression abrégée",
-      "explication_courte": "Du grec stenós, « étroit », et túpos, « caractère »."
+      "explication_courte": "Du grec stenós, « étroit », et túpos, « caractère ».",
+      "explication_detaillee": "Le grec stenós signifie « serré, abrégé », et túpos « caractère ». La sténotypie est la sténographie faite à la machine."
     }
   }
 }

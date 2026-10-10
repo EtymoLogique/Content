@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des peuples",
-      "explication_courte": "Du grec éthnos, « peuple », et lógos, « discours »."
+      "explication_courte": "Du grec éthnos, « peuple », et lógos, « discours ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et logía l’étude. L’ethnologie étudie les peuples et leurs cultures, et les compare entre eux."
     }
   }
 }

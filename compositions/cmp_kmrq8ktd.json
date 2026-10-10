@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "modèle du milieu",
-      "explication_courte": "Formé de éco-, « maison », et de -type, « modèle »."
+      "explication_courte": "Formé de éco-, « maison », et de -type, « modèle ».",
+      "explication_detaillee": "Le grec oîkos désigne la maison, ici le milieu de vie, et túpos le type. Un écotype est une population d’une espèce adaptée à un milieu particulier."
     }
   }
 }

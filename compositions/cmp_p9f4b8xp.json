@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure des caractères",
-      "explication_courte": "Formé de typo-, « caractère », et de -mètre, « mesure »."
+      "explication_courte": "Formé de typo-, « caractère », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec túpos désigne le caractère, et métron la mesure. Le typomètre est une règle qui mesure les caractères d’imprimerie, graduée en points typographiques."
     }
   }
 }

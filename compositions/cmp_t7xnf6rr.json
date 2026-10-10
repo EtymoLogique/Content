@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la géologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : géologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : géologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à géologie, l’étude de la Terre. Une carte géologique montre la nature des roches et des terrains d’une région."
     }
   }
 }

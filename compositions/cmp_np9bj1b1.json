@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des muscles",
-      "explication_courte": "Du grec mûs, « muscle », et lógos, « discours »."
+      "explication_courte": "Du grec mûs, « muscle », et lógos, « discours ».",
+      "explication_detaillee": "Le grec mûs désigne le muscle, et logía l’étude. La myologie est l’étude des muscles."
     }
   }
 }

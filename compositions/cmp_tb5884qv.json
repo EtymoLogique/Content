@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "noms contraires",
-      "explication_courte": "Du grec antí, « contre », et ónoma, « nom »."
+      "explication_courte": "Du grec antí, « contre », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec antí signifie « contre », et ónoma « nom ». L’antonymie est la relation qui unit deux mots de sens opposé, comme jour et nuit. Elle fait pendant à la synonymie."
     }
   }
 }

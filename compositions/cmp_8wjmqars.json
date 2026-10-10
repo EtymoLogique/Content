@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "d’un autre",
-      "explication_courte": "Formé de hétéro-, « autre », et de -logue, « spécialiste »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -logue, « spécialiste ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et lógos « rapport, relation ». Est hétérologue ce qui provient d’un autre individu ou d’une autre espèce, comme une greffe ou un sérum. Son contraire est homologue."
     }
   }
 }

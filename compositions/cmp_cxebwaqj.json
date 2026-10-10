@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe la terre",
-      "explication_courte": "Formé de géo-, « terre », et de -scope, « qui observe »."
+      "explication_courte": "Formé de géo-, « terre », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec gê désigne la terre, et skopeîn signifie « observer ». Le géoscope est un instrument qui sert à observer le sol ou le globe terrestre."
     }
   }
 }

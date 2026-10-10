@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit les cristaux",
-      "explication_courte": "Du grec krústallos, « cristal », et gráphein, « écrire »."
+      "explication_courte": "Du grec krústallos, « cristal », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec krústallos désignait la glace, puis le cristal ; gráphein signifie « écrire, décrire ». Le cristallographe est un spécialiste des cristaux et de leur structure."
     }
   }
 }

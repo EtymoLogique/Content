@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "seul son",
-      "explication_courte": "Formé de mono-, « seul, unique », et de -phone, « voix, son »."
+      "explication_courte": "Formé de mono-, « seul, unique », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et phōnḗ « voix, son ». Un instrument monophone ne produit qu’un seul son à la fois."
     }
   }
 }

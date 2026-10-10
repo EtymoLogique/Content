@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la pathologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : pathologie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : pathologie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui pratique ; il s’ajoute à pathologie. Le pathologiste est un spécialiste des maladies et de leurs causes."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit les peuples",
-      "explication_courte": "Du grec éthnos, « peuple », et gráphein, « écrire »."
+      "explication_courte": "Du grec éthnos, « peuple », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et gráphein signifie « écrire ». L’ethnographe observe un peuple sur le terrain et décrit sa façon de vivre."
     }
   }
 }

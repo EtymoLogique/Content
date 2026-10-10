@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique l’anatomie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : anatomie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : anatomie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui pratique ; il s’ajoute à anatomie. L’anatomiste est un spécialiste de l’anatomie."
     }
   }
 }

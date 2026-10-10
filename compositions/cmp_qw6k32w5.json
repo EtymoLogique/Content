@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "lettres remontées",
-      "explication_courte": "Du grec anagrammatismós, « transposition de lettres »."
+      "explication_courte": "Du grec anagrammatismós, « transposition de lettres ».",
+      "explication_detaillee": "Le grec aná signifie « de nouveau, en remontant », et grámma « lettre ». Une anagramme reprend les lettres d’un mot dans un autre ordre : chien devient niche."
     }
   }
 }

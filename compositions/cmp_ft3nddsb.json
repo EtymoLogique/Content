@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chef du peuple",
-      "explication_courte": "Formé de ethno-, « peuple », et de -arque, « chef »."
+      "explication_courte": "Formé de ethno-, « peuple », et de -arque, « chef ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et árkhein signifie « commander ». L’ethnarque commandait un peuple ou une province, dans l’Antiquité."
     }
   }
 }

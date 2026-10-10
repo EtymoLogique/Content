@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la neurologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : neurologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : neurologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à neurologie, l’étude des nerfs. Un examen neurologique vérifie le bon fonctionnement du système nerveux."
     }
   }
 }

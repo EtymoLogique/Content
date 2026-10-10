@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit sur la pierre",
-      "explication_courte": "Du grec líthos, « pierre », et gráphein, « écrire »."
+      "explication_courte": "Du grec líthos, « pierre », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec líthos désigne la pierre, et gráphein signifie « écrire, dessiner ». Le lithographe imprime des images à partir d’un dessin tracé sur une pierre."
     }
   }
 }

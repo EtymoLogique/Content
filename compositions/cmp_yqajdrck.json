@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "modèle à distance",
-      "explication_courte": "Formé de télé-, « au loin », et de -type, « modèle »."
+      "explication_courte": "Formé de télé-, « au loin », et de -type, « modèle ».",
+      "explication_detaillee": "Le grec têle signifie « au loin », et túpos « caractère ». Le télétype est un téléimprimeur : il imprime au loin les caractères tapés sur un autre appareil."
     }
   }
 }

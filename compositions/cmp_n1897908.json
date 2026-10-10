@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "médecin de l’âme",
-      "explication_courte": "Du grec psukhḗ, « âme », et iatrós, « médecin »."
+      "explication_courte": "Du grec psukhḗ, « âme », et iatrós, « médecin ».",
+      "explication_detaillee": "Le grec psukhḗ désigne l’âme, l’esprit, et iatrós le médecin. Le psychiatre est le médecin des maladies mentales : un « médecin de l’âme »."
     }
   }
 }

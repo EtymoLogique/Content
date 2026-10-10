@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom au-dessous",
-      "explication_courte": "Du grec hupó, « sous », et ónoma, « nom »."
+      "explication_courte": "Du grec hupó, « sous », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec hupó signifie « sous », et ónoma « nom ». L’hyponyme est le mot du dessous, dont le sens est inclus dans celui d’un autre : rose est un hyponyme de fleur. Le o d’hypo- s’efface devant la voyelle d’-onyme."
     }
   }
 }

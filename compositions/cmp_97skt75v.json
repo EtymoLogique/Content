@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement d’un peuple",
-      "explication_courte": "Formé de ethno-, « peuple », et de -archie, « commandement »."
+      "explication_courte": "Formé de ethno-, « peuple », et de -archie, « commandement ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et arkhḗ le commandement. L’ethnarchie est la fonction d’un ethnarque, ou le territoire qu’il gouverne."
     }
   }
 }

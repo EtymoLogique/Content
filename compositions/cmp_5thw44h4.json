@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte au monde",
-      "explication_courte": "Du grec kosmikós, de kósmos, « monde »."
+      "explication_courte": "Du grec kosmikós, de kósmos, « monde ».",
+      "explication_detaillee": "Le grec kósmos désignait l’ordre, puis le monde ordonné, l’univers. Le suffixe -ique, « qui se rapporte à », en fait un adjectif : est cosmique ce qui relève de l’univers."
     }
   }
 }

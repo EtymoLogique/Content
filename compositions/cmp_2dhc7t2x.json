@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "gravure sur roche",
-      "explication_courte": "Du grec pétra, « roche », et glúphein, « graver »."
+      "explication_courte": "Du grec pétra, « roche », et glúphein, « graver ».",
+      "explication_detaillee": "Le grec pétra désigne la roche, et glúphein signifie « graver ». Un pétroglyphe est un dessin gravé sur la roche à l’époque préhistorique."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture cachée",
-      "explication_courte": "Du grec kruptós, « caché », et gráphein, « écrire »."
+      "explication_courte": "Du grec kruptós, « caché », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et graphḗ « écriture ». La cryptographie est l’art d’écrire en secret : elle chiffre les messages pour que seul le destinataire puisse les lire."
     }
   }
 }

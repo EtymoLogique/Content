@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui naît dehors",
-      "explication_courte": "Du grec éxō, « dehors », et -genḗs, « qui naît »."
+      "explication_courte": "Du grec éxō, « dehors », et -genḗs, « qui naît ».",
+      "explication_detaillee": "Le grec éxō signifie « dehors », et gennáō « engendrer ». Est exogène ce qui vient de l’extérieur. Son contraire est endogène."
     }
   }
 }

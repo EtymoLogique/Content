@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "navigateur du monde",
-      "explication_courte": "Du grec kósmos, « monde », et naútēs, « marin »."
+      "explication_courte": "Du grec kósmos, « monde », et naútēs, « marin ».",
+      "explication_detaillee": "Le grec kósmos désigne l’univers, et naútēs le marin. Le cosmonaute est un navigateur de l’univers : un astronaute, en particulier russe ou soviétique."
     }
   }
 }

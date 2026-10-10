@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "divination par les astres",
-      "explication_courte": "Formé de astro-, « astre », et de -mancie, « divination »."
+      "explication_courte": "Formé de astro-, « astre », et de -mancie, « divination ».",
+      "explication_detaillee": "Le grec ástron désigne l’astre, et manteía la divination. L’astromancie prétend prédire l’avenir par l’observation des astres."
     }
   }
 }

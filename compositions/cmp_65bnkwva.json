@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "tracé sur une carte",
-      "explication_courte": "Formé de carto-, « carte », et de -gramme, « écrit, tracé »."
+      "explication_courte": "Formé de carto-, « carte », et de -gramme, « écrit, tracé ».",
+      "explication_detaillee": "Le préfixe carto- vient du latin charta, « feuille, carte », et le grec grámma désigne le tracé. Un cartogramme est une carte dont les surfaces sont déformées pour être proportionnelles à une donnée chiffrée, comme la population."
     }
   }
 }

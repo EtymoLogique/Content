@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "course de chevaux",
-      "explication_courte": "Du grec híppos, « cheval », et drómos, « course »."
+      "explication_courte": "Du grec híppos, « cheval », et drómos, « course ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et drómos la course. L’hippodrome est un champ de courses de chevaux."
     }
   }
 }

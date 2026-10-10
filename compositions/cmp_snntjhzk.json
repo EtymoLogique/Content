@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture des cartes",
-      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire »."
+      "explication_courte": "Du latin charta, « papier », et du grec gráphein, « écrire ».",
+      "explication_detaillee": "Le préfixe carto- vient du latin charta, « feuille », et graphḗ désigne l’écriture, le dessin. La cartographie est l’art et la technique de dresser les cartes géographiques. Le mot mêle ainsi le latin et le grec."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement d’un seul",
-      "explication_courte": "Du grec monarkhía, « gouvernement d’un seul »."
+      "explication_courte": "Du grec monarkhía, « gouvernement d’un seul ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et arkhḗ « commandement ». La monarchie est le régime où un seul souverain exerce le pouvoir. Le o de mono- s’efface devant la voyelle d’-archie."
     }
   }
 }

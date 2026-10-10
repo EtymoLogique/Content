@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son du cœur",
-      "explication_courte": "Formé de cardio-, « cœur », et de -phone, « voix, son »."
+      "explication_courte": "Formé de cardio-, « cœur », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec kardía désigne le cœur, et phōnḗ le son. Le cardiophone est un appareil qui amplifie les bruits du cœur."
     }
   }
 }

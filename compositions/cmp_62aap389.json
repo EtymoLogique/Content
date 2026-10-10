@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom du peuple",
-      "explication_courte": "Formé de ethno-, « peuple », et de -onyme, « nom »."
+      "explication_courte": "Formé de ethno-, « peuple », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec éthnos désigne le peuple, et ónoma le nom. Un ethnonyme est le nom d’un peuple. Le o d’ethno- s’efface devant la voyelle d’-onyme."
     }
   }
 }

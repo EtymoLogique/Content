@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "seule mesure",
-      "explication_courte": "Formé de mono-, « seul, unique », et de -mètre, « mesure »."
+      "explication_courte": "Formé de mono-, « seul, unique », et de -mètre, « mesure ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et métron « mesure ». En poésie, le mètre est l’unité de mesure du vers : un monomètre est un vers fait d’un seul mètre."
     }
   }
 }

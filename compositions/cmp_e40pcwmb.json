@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "examen de l’oreille",
-      "explication_courte": "Du grec oûs, « oreille », et skopeîn, « observer »."
+      "explication_courte": "Du grec oûs, « oreille », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec oûs désigne l’oreille, et skopeîn signifie « observer ». L’otoscopie est l’examen du conduit de l’oreille."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écrit serré",
-      "explication_courte": "Du grec stenós, « étroit », et grámma, « lettre »."
+      "explication_courte": "Du grec stenós, « étroit », et grámma, « lettre ».",
+      "explication_detaillee": "Le grec stenós signifie « étroit, serré », et grámma « écrit ». Un sténogramme est un texte noté en écriture abrégée, en sténographie."
     }
   }
 }

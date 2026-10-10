@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "impression par la lumière",
-      "explication_courte": "Formé de photo-, « lumière », et de -typie, « impression »."
+      "explication_courte": "Formé de photo-, « lumière », et de -typie, « impression ».",
+      "explication_detaillee": "Le grec phôs désigne la lumière, et túpos l’empreinte. La phototypie est un procédé d’impression où l’image est fixée par la lumière."
     }
   }
 }

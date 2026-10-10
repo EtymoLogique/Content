@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "couleur correcte",
-      "explication_courte": "Formé de ortho-, « droit, correct », et de -chrome, « couleur »."
+      "explication_courte": "Formé de ortho-, « droit, correct », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le grec orthós signifie « droit, correct », et khrôma « couleur ». Une émulsion photographique orthochrome rend correctement les couleurs, sauf le rouge, auquel elle n’est pas sensible."
     }
   }
 }

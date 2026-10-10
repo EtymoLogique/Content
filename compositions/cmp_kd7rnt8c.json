@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "une seule pierre",
-      "explication_courte": "Du grec monólithos, « d’une seule pierre »."
+      "explication_courte": "Du grec monólithos, « d’une seule pierre ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et líthos « pierre ». Un monolithe est un monument fait d’un seul bloc de pierre."
     }
   }
 }

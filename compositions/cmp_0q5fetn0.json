@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui mange le sang",
-      "explication_courte": "Du grec haîma, « sang », et phageîn, « manger »."
+      "explication_courte": "Du grec haîma, « sang », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec haîma désigne le sang, et phageîn signifie « manger ». Un animal hématophage se nourrit de sang, comme le moustique femelle."
     }
   }
 }

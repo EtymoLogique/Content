@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "coupure des animaux",
-      "explication_courte": "Formé de zoo-, « animal », et de -tomie, « coupure »."
+      "explication_courte": "Formé de zoo-, « animal », et de -tomie, « coupure ».",
+      "explication_detaillee": "Le grec zôion désigne l’animal, et tomḗ la coupure. La zootomie est la dissection des animaux."
     }
   }
 }

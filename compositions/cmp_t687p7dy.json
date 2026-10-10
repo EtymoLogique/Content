@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de même forme",
-      "explication_courte": "Formé de homo-, « même », et de -morphe, « forme »."
+      "explication_courte": "Formé de homo-, « même », et de -morphe, « forme ».",
+      "explication_detaillee": "Le grec homós signifie « même », et morphḗ « forme ». Est homomorphe ce qui a la même forme qu’autre chose."
     }
   }
 }

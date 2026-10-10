@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "de fausse forme",
-      "explication_courte": "Formé de pseudo-, « faux », et de -morphe, « forme »."
+      "explication_courte": "Formé de pseudo-, « faux », et de -morphe, « forme ».",
+      "explication_detaillee": "Le grec pseudḗs signifie « faux », et morphḗ « forme ». Un minéral pseudomorphe a pris la forme d’un autre : sa forme est trompeuse, elle ne correspond pas à sa nature."
     }
   }
 }

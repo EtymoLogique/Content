@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mille litres",
-      "explication_courte": "Formé de kilo-, « mille », et de litre, « unité de volume »."
+      "explication_courte": "Formé de kilo-, « mille », et de litre, « unité de volume ».",
+      "explication_detaillee": "Le grec khílioi signifie « mille ». Le préfixe kilo- multiplie l’unité par mille : un kilolitre vaut mille litres."
     }
   }
 }

@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom caché",
-      "explication_courte": "Formé de crypto-, « caché », et de -onyme, « nom »."
+      "explication_courte": "Formé de crypto-, « caché », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec kruptós signifie « caché », et ónoma « nom ». Un cryptonyme est un nom caché, sous lequel une personne dissimule son identité. Le o de crypto- s’efface devant la voyelle d’-onyme."
     }
   }
 }

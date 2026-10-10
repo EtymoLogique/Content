@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "petite sonorité",
-      "explication_courte": "Formé de micro-, « petit », et de -phonie, « sonorité »."
+      "explication_courte": "Formé de micro-, « petit », et de -phonie, « sonorité ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit », et phōnḗ « voix ». La microphonie est la faiblesse de la voix : une voix devenue petite."
     }
   }
 }

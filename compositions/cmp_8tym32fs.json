@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "trois gravures",
-      "explication_courte": "Du grec trígluphos, « à trois rainures »."
+      "explication_courte": "Du grec trígluphos, « à trois rainures ».",
+      "explication_detaillee": "Le préfixe tri- signifie « trois », et le grec glúphein « graver ». Le triglyphe est un ornement de frise creusé de trois rainures."
     }
   }
 }

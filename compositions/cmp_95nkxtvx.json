@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la lithographie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : lithographie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : lithographie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à lithographie, l’impression sur pierre. Une pierre lithographique sert de support à ce procédé."
     }
   }
 }

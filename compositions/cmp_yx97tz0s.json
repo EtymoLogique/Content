@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sans nom",
-      "explication_courte": "Du grec anṓnumos : le a- privatif devient an- devant voyelle, et ónoma, « nom »."
+      "explication_courte": "Du grec anṓnumos : le a- privatif devient an- devant voyelle, et ónoma, « nom ».",
+      "explication_detaillee": "Le grec ónoma signifie « nom », et le préfixe privatif a- prend la forme an- devant la voyelle qui suit. Un texte anonyme est donc « sans nom » : on ignore qui l’a écrit."
     }
   }
 }

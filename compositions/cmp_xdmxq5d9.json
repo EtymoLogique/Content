@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "course du monde",
-      "explication_courte": "Du grec kósmos, « monde », et drómos, « course »."
+      "explication_courte": "Du grec kósmos, « monde », et drómos, « course ».",
+      "explication_detaillee": "Le grec kósmos désigne le monde, l’univers, et drómos la course. Le cosmodrome est une base d’où l’on lance des engins vers l’espace."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mesure de la vitesse",
-      "explication_courte": "Du grec takhús, « rapide », et métron, « mesure »."
+      "explication_courte": "Du grec takhús, « rapide », et métron, « mesure ».",
+      "explication_detaillee": "Le grec takhús signifie « rapide », et métron « mesure ». Le tachymètre mesure une vitesse de rotation, par exemple celle d’un moteur."
     }
   }
 }

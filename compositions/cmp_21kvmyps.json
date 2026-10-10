@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "doctrine de l’écologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -isme."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : écologie reçoit -isme.",
+      "explication_detaillee": "Le suffixe -isme désigne une doctrine ; il s’ajoute à écologie, l’étude du milieu vivant. L’écologisme fait de la protection de la nature une priorité."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "chaleur au-dessus",
-      "explication_courte": "Du grec hupér, « au-dessus », et thérmē, « chaleur »."
+      "explication_courte": "Du grec hupér, « au-dessus », et thérmē, « chaleur ».",
+      "explication_detaillee": "Le grec hupér signifie « au-dessus », et thérmē « chaleur ». L’hyperthermie est une élévation de la température du corps au-dessus de la normale."
     }
   }
 }

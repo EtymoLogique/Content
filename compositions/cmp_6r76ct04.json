@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste des roches",
-      "explication_courte": "Formé de pétro-, « roche », et de -logue, « spécialiste »."
+      "explication_courte": "Formé de pétro-, « roche », et de -logue, « spécialiste ».",
+      "explication_detaillee": "Le grec pétra désigne la roche, et le suffixe -logue désigne le spécialiste. Le pétrologue étudie la formation et la composition des roches."
     }
   }
 }

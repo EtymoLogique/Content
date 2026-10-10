@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "globe coloré",
-      "explication_courte": "Du grec khrôma, « couleur », et sphaîra, « globe »."
+      "explication_courte": "Du grec khrôma, « couleur », et sphaîra, « globe ».",
+      "explication_detaillee": "Le grec khrôma désigne la couleur, et sphaîra le globe. La chromosphère est une couche de l’atmosphère du Soleil, située au-dessus de sa surface visible, et colorée."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture du relief",
-      "explication_courte": "Formé de stéréo-, « solide, en relief », et de -graphie, « écriture »."
+      "explication_courte": "Formé de stéréo-, « solide, en relief », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le grec stereós signifie « solide », et graphḗ « dessin ». La stéréographie représente les solides sur un plan."
     }
   }
 }

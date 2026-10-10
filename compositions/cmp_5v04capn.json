@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "soin de la voix",
-      "explication_courte": "Du grec phōnḗ, « voix », et iatreía, « traitement »."
+      "explication_courte": "Du grec phōnḗ, « voix », et iatreía, « traitement ».",
+      "explication_detaillee": "Le grec phōnḗ désigne la voix, et iatreía le traitement. La phoniatrie est la branche de la médecine qui soigne les troubles de la voix."
     }
   }
 }

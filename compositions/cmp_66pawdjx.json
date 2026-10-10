@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "petit corps",
-      "explication_courte": "Formé de micro-, « petit », et de -some, « corps »."
+      "explication_courte": "Formé de micro-, « petit », et de -some, « corps ».",
+      "explication_detaillee": "Le grec mikrós signifie « petit », et sôma « corps ». Un microsome est un tout petit corps : une vésicule à l’intérieur de la cellule."
     }
   }
 }

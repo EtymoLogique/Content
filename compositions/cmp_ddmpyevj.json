@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui gouverne seul",
-      "explication_courte": "Formé de mono-, « seul, unique », et de -crate, « qui gouverne »."
+      "explication_courte": "Formé de mono-, « seul, unique », et de -crate, « qui gouverne ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et krátos « pouvoir ». Le monocrate gouverne seul."
     }
   }
 }

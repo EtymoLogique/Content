@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui gouverne par soi-même",
-      "explication_courte": "Du grec autokratḗs, « qui gouverne seul »."
+      "explication_courte": "Du grec autokratḗs, « qui gouverne seul ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et krátos « pouvoir ». L’autocrate gouverne par lui-même, seul : il détient un pouvoir absolu, sans partage ni contrôle."
     }
   }
 }

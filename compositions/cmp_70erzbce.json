@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "son de la chaleur",
-      "explication_courte": "Formé de thermo-, « chaleur », et de -phone, « voix, son »."
+      "explication_courte": "Formé de thermo-, « chaleur », et de -phone, « voix, son ».",
+      "explication_detaillee": "Le grec thermós signifie « chaud », et phōnḗ « voix, son ». Le thermophone est un appareil qui produit un son par des variations rapides de température."
     }
   }
 }

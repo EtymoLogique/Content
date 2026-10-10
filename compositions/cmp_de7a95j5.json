@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui décrit les lieux",
-      "explication_courte": "Du grec tópos, « lieu », et gráphein, « écrire »."
+      "explication_courte": "Du grec tópos, « lieu », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec tópos désigne le lieu, et gráphein signifie « écrire ». Le topographe décrit les lieux : il mesure les terrains et en dresse des plans précis."
     }
   }
 }

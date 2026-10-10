@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "d’une autre couleur",
-      "explication_courte": "Formé de hétéro-, « autre », et de -chrome, « couleur »."
+      "explication_courte": "Formé de hétéro-, « autre », et de -chrome, « couleur ».",
+      "explication_detaillee": "Le grec héteros signifie « autre », et khrôma « couleur ». Est hétérochrome ce qui présente des couleurs différentes, comme deux yeux de teintes distinctes."
     }
   }
 }

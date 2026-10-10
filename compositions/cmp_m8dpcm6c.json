@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "nom correct",
-      "explication_courte": "Formé de ortho-, « droit, correct », et de -onyme, « nom »."
+      "explication_courte": "Formé de ortho-, « droit, correct », et de -onyme, « nom ».",
+      "explication_detaillee": "Le grec orthós signifie « droit, correct », et ónoma « nom ». L’orthonyme est le vrai nom d’un auteur, par opposition à son pseudonyme. Le o d’ortho- s’efface devant la voyelle d’-onyme."
     }
   }
 }

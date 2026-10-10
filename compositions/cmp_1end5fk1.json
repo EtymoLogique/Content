@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "commandement sacré",
-      "explication_courte": "Du grec hierarkhía, d’abord l’ordre des choses sacrées ; le sens s’est élargi."
+      "explication_courte": "Du grec hierarkhía, d’abord l’ordre des choses sacrées ; le sens s’est élargi.",
+      "explication_detaillee": "Le grec hierós signifie « sacré », et arkhḗ « commandement ». La hiérarchie désignait d’abord l’ordre des pouvoirs sacrés. Le mot nomme toute organisation où chacun est subordonné à celui du rang supérieur."
     }
   }
 }

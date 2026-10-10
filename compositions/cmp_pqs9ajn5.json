@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "mariage dehors",
-      "explication_courte": "Du grec éxō, « dehors », et gámos, « mariage »."
+      "explication_courte": "Du grec éxō, « dehors », et gámos, « mariage ».",
+      "explication_detaillee": "Le grec éxō signifie « dehors », et gámos « mariage ». L’exogamie est le mariage hors de son propre groupe. Son contraire est l’endogamie."
     }
   }
 }

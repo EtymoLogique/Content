@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui engendre la maladie",
-      "explication_courte": "Du grec páthos, « souffrance », et -genḗs, « qui engendre »."
+      "explication_courte": "Du grec páthos, « souffrance », et -genḗs, « qui engendre ».",
+      "explication_detaillee": "Le grec páthos désigne la souffrance, d’où la maladie, et gennáō signifie « engendrer ». Est pathogène ce qui peut engendrer une maladie, comme un microbe."
     }
   }
 }

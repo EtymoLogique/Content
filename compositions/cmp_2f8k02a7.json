@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "spécialiste de la femme",
-      "explication_courte": "Du grec gunḗ, « femme », et lógos, « discours »."
+      "explication_courte": "Du grec gunḗ, « femme », et lógos, « discours ».",
+      "explication_detaillee": "Le grec gunḗ désigne la femme, et le suffixe -logue désigne le spécialiste. Le gynécologue est le médecin spécialiste de gynécologie."
     }
   }
 }

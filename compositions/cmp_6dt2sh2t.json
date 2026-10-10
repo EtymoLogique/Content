@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude des roches",
-      "explication_courte": "Du grec pétra, « roche », et lógos, « discours »."
+      "explication_courte": "Du grec pétra, « roche », et lógos, « discours ».",
+      "explication_detaillee": "Le grec pétra désigne la roche, et logía l’étude. La pétrologie étudie la formation et la composition des roches."
     }
   }
 }

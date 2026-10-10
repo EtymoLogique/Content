@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à l’hydrologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydrologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : hydrologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à hydrologie, l’étude des eaux. Un bassin hydrologique est l’étendue dont les eaux s’écoulent vers un même cours d’eau."
     }
   }
 }

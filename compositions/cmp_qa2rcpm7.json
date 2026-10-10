@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "fait de ne pas manger",
-      "explication_courte": "Du grec a- privatif et phageîn, « manger »."
+      "explication_courte": "Du grec a- privatif et phageîn, « manger ».",
+      "explication_detaillee": "Le préfixe a-, du grec a, « sans », s’ajoute à phageîn, « manger ». L’aphagie est l’impossibilité d’avaler."
     }
   }
 }

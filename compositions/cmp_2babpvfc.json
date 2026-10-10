@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la sténographie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : sténographie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : sténographie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à sténographie, l’écriture abrégée. Des notes sténographiques sont prises en sténographie."
     }
   }
 }

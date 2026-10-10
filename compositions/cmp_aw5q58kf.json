@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe en grand",
-      "explication_courte": "Formé de méga-, « grand », et de -scope, « qui observe »."
+      "explication_courte": "Formé de méga-, « grand », et de -scope, « qui observe ».",
+      "explication_detaillee": "Le grec mégas signifie « grand », et skopeîn « observer ». Le mégascope projette l’image agrandie d’un objet opaque, pour l’observer en grand."
     }
   }
 }

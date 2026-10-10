@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "étude du cheval",
-      "explication_courte": "Du grec híppos, « cheval », et lógos, « discours »."
+      "explication_courte": "Du grec híppos, « cheval », et lógos, « discours ».",
+      "explication_detaillee": "Le grec híppos désigne le cheval, et logía l’étude. L’hippologie est l’étude du cheval."
     }
   }
 }

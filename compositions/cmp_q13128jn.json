@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "pierre de l’air",
-      "explication_courte": "Du grec aḗr, « air », et líthos, « pierre »."
+      "explication_courte": "Du grec aḗr, « air », et líthos, « pierre ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et líthos la pierre. L’aérolithe est une pierre tombée du ciel : une météorite de nature pierreuse."
     }
   }
 }

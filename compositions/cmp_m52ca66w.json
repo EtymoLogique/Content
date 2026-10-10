@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "examen de l’estomac",
-      "explication_courte": "Du grec gastḗr, « ventre », et skopeîn, « observer »."
+      "explication_courte": "Du grec gastḗr, « ventre », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec gastḗr désigne l’estomac, et skopeîn signifie « observer ». La gastroscopie est l’examen de l’intérieur de l’estomac, à l’aide d’un gastroscope."
     }
   }
 }

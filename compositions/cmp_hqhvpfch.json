@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la zoologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : zoologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : zoologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à zoologie, l’étude des animaux. Un jardin zoologique est un lieu où l’on montre des animaux au public."
     }
   }
 }

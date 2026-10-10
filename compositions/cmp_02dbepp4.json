@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection de l’estomac",
-      "explication_courte": "Du grec gastḗr, « ventre », et páthos, « souffrance »."
+      "explication_courte": "Du grec gastḗr, « ventre », et páthos, « souffrance ».",
+      "explication_detaillee": "Le grec gastḗr désigne l’estomac, et páthos la souffrance. La gastropathie est une maladie de l’estomac."
     }
   }
 }

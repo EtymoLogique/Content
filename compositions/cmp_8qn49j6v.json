@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui pratique la monarchie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : monarchie reçoit -iste."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : monarchie reçoit -iste.",
+      "explication_detaillee": "Le suffixe -iste désigne celui qui défend une idée ; il s’ajoute à monarchie. Le monarchiste est partisan de la monarchie."
     }
   }
 }

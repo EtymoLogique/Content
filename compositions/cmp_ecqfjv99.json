@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit la vitesse",
-      "explication_courte": "Du grec takhús, « rapide », et gráphein, « écrire »."
+      "explication_courte": "Du grec takhús, « rapide », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec takhús signifie « rapide », et gráphein « écrire ». Le tachygraphe enregistre la vitesse d’un véhicule : il écrit la vitesse au fil du trajet."
     }
   }
 }

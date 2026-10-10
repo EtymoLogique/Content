@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "sonorité à travers",
-      "explication_courte": "Formé de dia-, « à travers, entre », et de -phonie, « sonorité »."
+      "explication_courte": "Formé de dia-, « à travers, entre », et de -phonie, « sonorité ».",
+      "explication_detaillee": "Le grec diá signifie « à travers, entre », et phōnḗ « voix, son ». La diaphonie est le mélange parasite de deux signaux qui passent l’un dans l’autre sur une ligne. En musique ancienne, elle désignait un chant à deux voix."
     }
   }
 }

@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui observe en relief",
-      "explication_courte": "Du grec stereós, « solide », et skopeîn, « observer »."
+      "explication_courte": "Du grec stereós, « solide », et skopeîn, « observer ».",
+      "explication_detaillee": "Le grec stereós signifie « solide, en relief », et skopeîn « observer ». Le stéréoscope permet d’observer en relief deux images prises sous des angles légèrement différents."
     }
   }
 }

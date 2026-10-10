@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "affection des os",
-      "explication_courte": "Du grec ostéon, « os », et páthos, « souffrance »."
+      "explication_courte": "Du grec ostéon, « os », et páthos, « souffrance ».",
+      "explication_detaillee": "Le grec ostéon désigne l’os, et páthos ce qu’on éprouve, la souffrance. L’ostéopathie est une méthode de soin qui manipule les os et les articulations."
     }
   }
 }

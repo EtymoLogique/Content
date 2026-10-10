@@ -44,7 +44,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui se rapporte à la biologie",
-      "explication_courte": "Un mot déjà découvert devient un ingrédient : biologie reçoit -ique."
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : biologie reçoit -ique.",
+      "explication_detaillee": "Le suffixe -ique, « qui se rapporte à », s’ajoute à biologie, l’étude du vivant. Est biologique ce qui relève des êtres vivants. Le mot désigne aussi un produit cultivé sans engrais ni pesticides de synthèse."
     }
   }
 }

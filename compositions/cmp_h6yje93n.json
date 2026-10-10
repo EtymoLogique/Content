@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "écriture sur le bois",
-      "explication_courte": "Formé de xylo-, « bois », et de -graphie, « écriture »."
+      "explication_courte": "Formé de xylo-, « bois », et de -graphie, « écriture ».",
+      "explication_detaillee": "Le grec xúlon désigne le bois, et graphḗ l’écriture. La xylographie est la gravure sur bois, et l’impression obtenue à partir d’une planche de bois gravée."
     }
   }
 }

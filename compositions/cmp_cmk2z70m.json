@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "qui écrit en caractères",
-      "explication_courte": "Du grec túpos, « caractère », et gráphein, « écrire »."
+      "explication_courte": "Du grec túpos, « caractère », et gráphein, « écrire ».",
+      "explication_detaillee": "Le grec túpos désigne l’empreinte, le caractère, et gráphein signifie « écrire ». Le typographe compose les textes à imprimer avec des caractères."
     }
   }
 }

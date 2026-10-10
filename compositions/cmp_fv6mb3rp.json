@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "peur de l’air",
-      "explication_courte": "Du grec aḗr, « air », et phóbos, « peur »."
+      "explication_courte": "Du grec aḗr, « air », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec aḗr désigne l’air, et phóbos la crainte. L’aérophobie est la peur de l’avion ou des courants d’air."
     }
   }
 }

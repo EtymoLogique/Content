@@ -31,7 +31,8 @@
   "libelles": {
     "fr": {
       "sens_litteral": "impression unique",
-      "explication_courte": "Formé de mono-, « seul, unique », et de -typie, « impression »."
+      "explication_courte": "Formé de mono-, « seul, unique », et de -typie, « impression ».",
+      "explication_detaillee": "Le grec mónos signifie « seul », et túpos « empreinte ». La monotypie est une estampe tirée en un seul exemplaire."
     }
   }
 }
