@@ -5,10 +5,15 @@
   "type_analyse": "synchronique",
   "preferee": true,
   "fait": {
-    "confiance": "etablie",
+    "confiance": "probable",
     "etat_relecture": "brouillon",
-    "sources": [],
-    "note_interne": "À vérifier : entrée « millimètre » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : Wikidata compose « millimètre » de milli- + L18790, le catalogue de milli + mètre : à trancher en relecture. Non publiable tant que Wikidata ne le porte pas."
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L19837, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Wikidata compose « millimètre » (L19837) avec le nom « mètre » (L18790), « combine les lexèmes » (P5238), déclarations sans référence. Partie réalignée du suffixe -mètre sur le nom mètre. Réalignement sur Wikidata décidé le 10 octobre 2026 (issue Content #32, ADR 0061). Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
   },
   "parties": [
     {
@@ -21,9 +26,9 @@
     },
     {
       "rang": 2,
-      "unite_id": "unt_5f6v9qv2",
-      "sens_id": "sns_20mc9k7p",
-      "forme_id": "frm_by0tw0ey",
+      "unite_id": "unt_bwmv5srt",
+      "sens_id": "sns_4br0ac8p",
+      "forme_id": "frm_xpcy8h34",
       "segment_debut": 5,
       "segment_fin": 10
     }
@@ -32,7 +37,7 @@
     "fr": {
       "sens_litteral": "un millième de mètre",
       "explication_courte": "Du latin mille, « mille », et mètre, unité du système métrique.",
-      "explication_detaillee": "Le préfixe milli-, du latin mille, divise l’unité par mille, et le grec métron désigne la mesure. Un millimètre vaut un millième de mètre."
+      "explication_detaillee": "Le préfixe milli-, du latin mille, divise l’unité par mille. Un millimètre vaut un millième de mètre."
     }
   }
 }

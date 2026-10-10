@@ -1,0 +1,57 @@
+{
+  "id": "unt_qxp76d4a",
+  "nature": "mot",
+  "langue_id": "lng_c5sy8ve2",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L278677, consulté le 10 octobre 2026"
+      }
+    ],
+    "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191, sur « mètre », L18790). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_m4np01fe",
+      "texte": "metrum",
+      "cle_normalisee": "metrum",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L278677, consulté le 10 octobre 2026"
+          }
+        ],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191, sur « mètre », L18790). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_ahdkth2g",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "mesure"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191, sur « mètre », L18790). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème L278677 ne déclare aucun sens : glose à vérifier, non publiable tant que Wikidata ne porte pas de sens."
+      }
+    }
+  ]
+}
