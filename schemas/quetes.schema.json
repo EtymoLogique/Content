@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.etymologique.invalid/quetes.schema.json",
+  "title": "Quêtes et cadeau de bienvenue",
+  "description": "Couche ludique commune à tous les fascicules (ADR 0045, 0046) : le cadeau de bienvenue et les quêtes au long cours, avec leurs paliers. Recopiés dans l’index global. Les conditions des quêtes forment une liste fermée : langue, famille, transformation, ricochets (maîtrise), lecteur (cartes remplies), plus l’exception « première légendaire ». Les valeurs de récompense sont des valeurs de départ, à simuler.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "quetes"],
+  "properties": {
+    "version": {
+      "description": "Version de la déclaration.",
+      "type": "string",
+      "pattern": "^[0-9A-Za-z._-]{1,64}$"
+    },
+    "cadeau_de_bienvenue": {
+      "description": "Récompense unique par profil (ADR 0046) : une brique par pli de bienvenue, au contenu fixé, choisie pour ouvrir des recettes, jamais une légendaire.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["plis", "sabliers", "encre"],
+      "properties": {
+        "plis": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": { "$ref": "communs.schema.json#/$defs/id_brique" }
+        },
+        "sabliers": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "encre": { "type": "integer", "minimum": 0, "maximum": 1000 }
+      }
+    },
+    "quetes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/quete" }
+    }
+  },
+  "$defs": {
+    "palier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "seuil"],
+      "properties": {
+        "id": { "$ref": "communs.schema.json#/$defs/id_palier" },
+        "seuil": { "type": "integer", "minimum": 1 },
+        "encre": { "type": "integer", "minimum": 0, "maximum": 1000 },
+        "sabliers": { "type": "integer", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "libelles": {
+      "type": "object",
+      "required": ["fr"],
+      "propertyNames": { "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["titre", "consigne"],
+        "properties": {
+          "titre": { "type": "string", "minLength": 1, "maxLength": 80 },
+          "consigne": { "type": "string", "minLength": 1, "maxLength": 200 }
+        }
+      }
+    },
+    "quete": {
+      "type": "object",
+      "required": ["id", "sorte", "paliers", "libelles"],
+      "properties": {
+        "id": { "$ref": "communs.schema.json#/$defs/id_quete" },
+        "paliers": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/palier" } },
+        "libelles": { "$ref": "#/$defs/libelles" }
+      },
+      "oneOf": [
+        {
+          "properties": { "sorte": { "const": "langue" }, "langue_id": { "$ref": "communs.schema.json#/$defs/id_langue" } },
+          "required": ["langue_id"]
+        },
+        {
+          "properties": { "sorte": { "const": "famille" }, "mots_par_famille": { "type": "integer", "minimum": 2 } },
+          "required": ["mots_par_famille"]
+        },
+        {
+          "properties": { "sorte": { "const": "transformation" }, "type_code": { "type": "string", "minLength": 1 } },
+          "required": ["type_code"]
+        },
+        { "properties": { "sorte": { "const": "ricochets" } } },
+        { "properties": { "sorte": { "const": "lecteur" } } },
+        { "properties": { "sorte": { "const": "premiere_legendaire" } } }
+      ],
+      "unevaluatedProperties": false
+    }
+  }
+}

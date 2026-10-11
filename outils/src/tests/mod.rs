@@ -101,6 +101,8 @@ fn gabarit() -> &'static Path {
                 racine: racine.to_owned(),
                 _dossier: TempDir::new().unwrap(),
             };
+            // Le cadeau du dépôt vise des briques de fascicules publiés, retirés ici : chaque test déclare le sien.
+            let _ = fs::remove_file(racine.join("ludique/quetes.json"));
             depot.retirer_fascicules_publies();
             depot.remettre_en_brouillon();
             // Le fascicule d'essai porte une légendaire, comme l'exige le validateur (ADR 0043).
@@ -182,6 +184,39 @@ impl Depot {
                 self.ecrire(&chemin, &donnees);
             }
         }
+    }
+
+    /// Déclaration valide des quêtes et du cadeau : une quête de maîtrise à deux paliers et
+    /// un cadeau d'une brique non légendaire du fascicule d'essai.
+    pub fn quetes_valides(&self) -> Value {
+        let unites: HashSet<String> = liste(&self.fascicule().1["unites"])
+            .iter()
+            .map(|u| texte(&u["unite_id"]).to_owned())
+            .collect();
+        let brique = self
+            .fichiers("ludique/briques")
+            .iter()
+            .map(|c| self.lire(c))
+            .find(|b| unites.contains(texte(&b["unite_id"])) && b["rarete"] != "legendaire")
+            .map(|b| texte(&b["id"]).to_owned())
+            .unwrap();
+        json!({
+            "version": "test",
+            "cadeau_de_bienvenue": { "plis": [brique], "sabliers": 1, "encre": 1 },
+            "quetes": [{
+                "id": id("qlc"),
+                "sorte": "ricochets",
+                "libelles": { "fr": { "titre": "Maîtrise", "consigne": "Maîtrisez des cartes." } },
+                "paliers": [
+                    { "id": id("pal"), "seuil": 1, "sabliers": 1 },
+                    { "id": id("pal"), "seuil": 5, "encre": 5 }
+                ]
+            }]
+        })
+    }
+
+    pub fn ecrire_quetes(&self, quetes: &Value) {
+        self.ecrire(&self.racine.join("ludique/quetes.json"), quetes);
     }
 
     pub fn lire(&self, chemin: &Path) -> Value {

@@ -1,0 +1,420 @@
+{
+  "version": "2026-10-11a",
+  "cadeau_de_bienvenue": {
+    "plis": [
+      "brq_e99p5xzq",
+      "brq_htjp6jdr",
+      "brq_yhxxnrds"
+    ],
+    "sabliers": 12,
+    "encre": 40
+  },
+  "quetes": [
+    {
+      "id": "qlc_zpznh32p",
+      "sorte": "langue",
+      "langue_id": "lng_wa90y54n",
+      "libelles": {
+        "fr": {
+          "titre": "Français",
+          "consigne": "Trouvez des formes de cette langue : 10, 25, puis 50."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_y20pd8y1",
+          "seuil": 10,
+          "encre": 20
+        },
+        {
+          "id": "pal_0ef9cqxj",
+          "seuil": 25,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_18gtpcke",
+          "seuil": 50,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_p6aw4ynn",
+      "sorte": "langue",
+      "langue_id": "lng_c5sy8ve2",
+      "libelles": {
+        "fr": {
+          "titre": "Latin",
+          "consigne": "Trouvez des formes de cette langue : 10, 25, puis 50."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_qjmxee37",
+          "seuil": 10,
+          "encre": 20
+        },
+        {
+          "id": "pal_e1fsbpkj",
+          "seuil": 25,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_gmdsqtg6",
+          "seuil": 50,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_4py4dmhb",
+      "sorte": "langue",
+      "langue_id": "lng_kmf44d76",
+      "libelles": {
+        "fr": {
+          "titre": "Grec ancien",
+          "consigne": "Trouvez des formes de cette langue : 10, 25, puis 50."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_x6tnc0rz",
+          "seuil": 10,
+          "encre": 20
+        },
+        {
+          "id": "pal_7n9nwq0s",
+          "seuil": 25,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_cwkk02xy",
+          "seuil": 50,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_wzpd6wmh",
+      "sorte": "langue",
+      "langue_id": "lng_8qktr7vk",
+      "libelles": {
+        "fr": {
+          "titre": "Anglais",
+          "consigne": "Trouvez des formes de cette langue : 5, 10, puis 20."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_3dkkg1d0",
+          "seuil": 5,
+          "encre": 20
+        },
+        {
+          "id": "pal_zq1kmn3p",
+          "seuil": 10,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_yt8rq9w9",
+          "seuil": 20,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_g4ysqzxn",
+      "sorte": "langue",
+      "langue_id": "lng_dtj32axw",
+      "libelles": {
+        "fr": {
+          "titre": "Italien",
+          "consigne": "Trouvez des formes de cette langue : 5, 10, puis 20."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_ma5wt8fy",
+          "seuil": 5,
+          "encre": 20
+        },
+        {
+          "id": "pal_0a5bg5kb",
+          "seuil": 10,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_hb16nd52",
+          "seuil": 20,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_hdcnye1j",
+      "sorte": "langue",
+      "langue_id": "lng_x62stdq7",
+      "libelles": {
+        "fr": {
+          "titre": "Allemand",
+          "consigne": "Trouvez des formes de cette langue : 5, 10, puis 20."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_nwxms5pf",
+          "seuil": 5,
+          "encre": 20
+        },
+        {
+          "id": "pal_tthvmxdg",
+          "seuil": 10,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_t2cxs9b3",
+          "seuil": 20,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_kgvrjjtw",
+      "sorte": "famille",
+      "mots_par_famille": 5,
+      "libelles": {
+        "fr": {
+          "titre": "Familles de cinq mots",
+          "consigne": "Trouvez trois familles de cinq mots formés sur une même brique, puis dix."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_2vpe1zw1",
+          "seuil": 3,
+          "encre": 30,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_9m2by1fx",
+          "seuil": 10,
+          "encre": 60,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_z0p5d3e3",
+      "sorte": "famille",
+      "mots_par_famille": 10,
+      "libelles": {
+        "fr": {
+          "titre": "Une grande famille",
+          "consigne": "Trouvez une famille de dix mots formés sur une même brique, puis trois."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_gr3bq198",
+          "seuil": 1,
+          "encre": 30,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_rjk8zvqz",
+          "seuil": 3,
+          "encre": 60,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_2gp04mt5",
+      "sorte": "transformation",
+      "type_code": "elision",
+      "libelles": {
+        "fr": {
+          "titre": "Élision",
+          "consigne": "Trouvez des mots où une voyelle s’élide."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_8mbake08",
+          "seuil": 1,
+          "encre": 20,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_16c4rsp8",
+          "seuil": 3,
+          "encre": 50,
+          "sabliers": 1
+        }
+      ]
+    },
+    {
+      "id": "qlc_ss85w6p2",
+      "sorte": "transformation",
+      "type_code": "voyelle_de_liaison",
+      "libelles": {
+        "fr": {
+          "titre": "Voyelle de liaison",
+          "consigne": "Trouvez des mots qui prennent une voyelle de liaison."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_5hnptwm6",
+          "seuil": 1,
+          "encre": 20,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_74qbdhjr",
+          "seuil": 3,
+          "encre": 50,
+          "sabliers": 1
+        }
+      ]
+    },
+    {
+      "id": "qlc_1d6dw9rh",
+      "sorte": "transformation",
+      "type_code": "allomorphie",
+      "libelles": {
+        "fr": {
+          "titre": "Allomorphie",
+          "consigne": "Trouvez des mots dont une brique change de forme."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_yrgetgs7",
+          "seuil": 1,
+          "encre": 20,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_0x9sd4ey",
+          "seuil": 3,
+          "encre": 50,
+          "sabliers": 1
+        }
+      ]
+    },
+    {
+      "id": "qlc_efpwyzgv",
+      "sorte": "transformation",
+      "type_code": "adaptation_graphie",
+      "libelles": {
+        "fr": {
+          "titre": "Adaptation de graphie",
+          "consigne": "Trouvez des mots dont la graphie s’adapte."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_d25hpn95",
+          "seuil": 1,
+          "encre": 20,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_rz17zh0h",
+          "seuil": 3,
+          "encre": 50,
+          "sabliers": 1
+        }
+      ]
+    },
+    {
+      "id": "qlc_jppbz16n",
+      "sorte": "ricochets",
+      "libelles": {
+        "fr": {
+          "titre": "Maîtrise",
+          "consigne": "Maîtrisez des cartes par les ricochets : 10, 50, puis 150."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_j2e3j4x9",
+          "seuil": 10,
+          "encre": 20
+        },
+        {
+          "id": "pal_dnj6x0an",
+          "seuil": 50,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_dkjp0kr7",
+          "seuil": 150,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_55s44m2v",
+      "sorte": "lecteur",
+      "libelles": {
+        "fr": {
+          "titre": "Carte de lecteur",
+          "consigne": "Remplissez des cartes de lecteur : 1, 5, puis 20."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_aanmj0ky",
+          "seuil": 1,
+          "encre": 20
+        },
+        {
+          "id": "pal_252pa1ew",
+          "seuil": 5,
+          "encre": 40,
+          "sabliers": 1
+        },
+        {
+          "id": "pal_d9t4gkta",
+          "seuil": 20,
+          "encre": 80,
+          "sabliers": 2
+        }
+      ]
+    },
+    {
+      "id": "qlc_v7xb7bqp",
+      "sorte": "premiere_legendaire",
+      "libelles": {
+        "fr": {
+          "titre": "Première légendaire",
+          "consigne": "Trouvez votre première légendaire."
+        }
+      },
+      "paliers": [
+        {
+          "id": "pal_46tr96d3",
+          "seuil": 1,
+          "encre": 100,
+          "sabliers": 2
+        }
+      ]
+    }
+  ]
+}

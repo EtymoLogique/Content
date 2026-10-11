@@ -640,3 +640,24 @@ fn les_homographes_sont_publies_par_groupes_sans_legendaire() {
     assert_eq!(groupes.len(), 2, "les « a- » et la seconde « géo »");
     assert!(groupes.contains(&json!(attendu)));
 }
+
+#[test]
+fn les_quetes_et_le_cadeau_vont_dans_l_index() {
+    let depot = Depot::new();
+    let sans = tempfile::tempdir().unwrap();
+    let parutions = compiler_vers(&depot, &sans.path().join("a"), true);
+    assert!(
+        parutions.get("quetes").is_none(),
+        "sans déclaration, rien dans l'index"
+    );
+
+    let quetes = depot.quetes_valides();
+    depot.ecrire_quetes(&quetes);
+    let avec = tempfile::tempdir().unwrap();
+    let parutions = compiler_vers(&depot, &avec.path().join("a"), true);
+    assert_eq!(parutions["quetes"], quetes["quetes"]);
+    assert_eq!(
+        parutions["cadeau_de_bienvenue"],
+        quetes["cadeau_de_bienvenue"]
+    );
+}

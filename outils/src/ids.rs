@@ -9,7 +9,7 @@ use regex::Regex;
 pub const ALPHABET: &[u8; 32] = b"0123456789abcdefghjkmnpqrstvwxyz";
 pub const LONGUEUR: usize = 8;
 
-pub const PREFIXES: [(&str, &str); 18] = [
+pub const PREFIXES: [(&str, &str); 20] = [
     ("lng", "langue"),
     ("ecr", "système d’écriture"),
     ("cnv", "convention de translittération"),
@@ -28,6 +28,8 @@ pub const PREFIXES: [(&str, &str); 18] = [
     ("med", "média"),
     ("jal", "jalon"),
     ("tpl", "trompe-l’œil"),
+    ("qlc", "quête au long cours"),
+    ("pal", "palier de quête"),
 ];
 
 // `\n?` : le `$` de Python admet un saut de ligne final.

@@ -34,6 +34,8 @@ pub const DOSSIERS: [(&str, &str, &str); 13] = [
 ];
 
 pub const EQUILIBRAGE: &str = "ludique/equilibrage.json";
+/// Quêtes au long cours et cadeau de bienvenue, communs à tous les fascicules (ADR 0045, 0046).
+pub const QUETES: &str = "ludique/quetes.json";
 
 const VOCABULAIRES: [&str; 2] = [
     "referentiels/types-relation.json",
@@ -60,6 +62,8 @@ pub struct Catalogue {
     pub types_transformation: Table,
     /// Paramètres des plis (ludique/equilibrage.json), recopiés dans chaque manifeste.
     pub equilibrage: Option<Value>,
+    /// Quêtes au long cours et cadeau de bienvenue (ludique/quetes.json), recopiés dans l'index global.
+    pub quetes: Option<Value>,
     /// Objets imbriqués : identifiant → (unité, objet).
     pub formes: HashMap<String, (String, Value)>,
     pub sens: HashMap<String, (String, Value)>,
@@ -317,6 +321,15 @@ pub fn charger(racine: &Path, rapport: &mut Rapport) -> Result<Catalogue, String
             Some(relatif),
             None,
         );
+    }
+
+    // Facultatif : sans ce fichier, l'index ne déclare ni quête ni cadeau.
+    let relatif = QUETES;
+    if racine.join(relatif).exists()
+        && let Some(donnees) = lire_json(&racine.join(relatif), relatif, rapport)
+        && valider_schema(validateur("quetes")?, &donnees, relatif, rapport)
+    {
+        catalogue.quetes = Some(donnees);
     }
 
     let mut vus: HashMap<String, String> = HashMap::new();
