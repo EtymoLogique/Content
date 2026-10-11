@@ -242,6 +242,7 @@ impl<'a> Controleur<'a> {
         self.briques();
         self.recettes();
         self.fascicules();
+        self.quetes();
         self.exclusions();
         self.trompes_l_oeil();
         self.medias();
@@ -1464,6 +1465,136 @@ impl<'a> Controleur<'a> {
                         None,
                     );
                 }
+            }
+        }
+    }
+
+    /// Quêtes au long cours et cadeau de bienvenue (ADR 0045, 0046) : références,
+    /// paliers croissants, aucune légendaire comptée ni donnée.
+    fn quetes(&mut self) {
+        let c = self.c;
+        let Some(quetes) = c.quetes.as_ref() else {
+            return;
+        };
+        let fichier = Some(crate::chargement::QUETES);
+        let mut ids: HashSet<&str> = HashSet::new();
+        for quete in liste(&quetes["quetes"]) {
+            let qid = texte(&quete["id"]);
+            if !ids.insert(qid) {
+                self.r.erreur(
+                    "quete.doublon",
+                    format!("La quête {qid} est déclarée deux fois."),
+                    fichier,
+                    Some(qid),
+                );
+            }
+            match texte(&quete["sorte"]) {
+                "langue" => {
+                    let langue = texte(&quete["langue_id"]);
+                    if !c.langues.contains_key(langue) {
+                        self.r.erreur(
+                            "reference.cassee",
+                            format!("langue_id : langue {langue} introuvable."),
+                            fichier,
+                            Some(qid),
+                        );
+                    }
+                }
+                "transformation" => {
+                    let code = texte(&quete["type_code"]);
+                    if !c.types_transformation.contains_key(code) {
+                        self.r.erreur(
+                            "reference.cassee",
+                            format!("type_code : type de transformation {code} introuvable."),
+                            fichier,
+                            Some(qid),
+                        );
+                    }
+                }
+                _ => {}
+            }
+            let mut precedent = 0;
+            let legendaire = texte(&quete["sorte"]) == "premiere_legendaire";
+            for palier in liste(&quete["paliers"]) {
+                let pid = texte(&palier["id"]);
+                if !ids.insert(pid) {
+                    self.r.erreur(
+                        "quete.doublon",
+                        format!("Le palier {pid} est déclaré deux fois."),
+                        fichier,
+                        Some(pid),
+                    );
+                }
+                let seuil = palier["seuil"].as_i64().unwrap_or(0);
+                if seuil <= precedent {
+                    self.r.erreur(
+                        "quete.paliers_non_croissants",
+                        format!("{qid} : les seuils des paliers doivent croître strictement ({seuil} après {precedent})."),
+                        fichier,
+                        Some(pid),
+                    );
+                }
+                precedent = seuil;
+                let encre = palier["encre"].as_i64().unwrap_or(0);
+                let sabliers = palier["sabliers"].as_i64().unwrap_or(0);
+                if encre + sabliers == 0 {
+                    self.r.erreur(
+                        "quete.palier_sans_recompense",
+                        format!("{qid} : le palier {pid} ne donne rien."),
+                        fichier,
+                        Some(pid),
+                    );
+                }
+                // Aucune quête ne fixe un nombre de légendaires : il trahirait combien il en existe.
+                if legendaire && seuil != 1 {
+                    self.r.erreur(
+                        "quete.legendaires_comptees",
+                        format!("{qid} : seule « Trouvez votre première légendaire » est permise, à un seul palier de seuil 1."),
+                        fichier,
+                        Some(pid),
+                    );
+                }
+            }
+        }
+        self.cadeau(quetes);
+    }
+
+    /// Le cadeau de bienvenue ne donne que des briques de fascicules, jamais une légendaire (ADR 0043, 0046).
+    fn cadeau(&mut self, quetes: &Value) {
+        let c = self.c;
+        let fichier = Some(crate::chargement::QUETES);
+        let dans_un_fascicule: HashSet<&str> = c
+            .fascicules
+            .values()
+            .flat_map(|f| liste(&f["unites"]))
+            .map(|u| texte(&u["unite_id"]))
+            .collect();
+        for brique in liste(&quetes["cadeau_de_bienvenue"]["plis"]) {
+            let bid = texte(brique);
+            let Some(objet) = c.briques.get(bid) else {
+                self.r.erreur(
+                    "reference.cassee",
+                    format!("cadeau_de_bienvenue : brique {bid} introuvable."),
+                    fichier,
+                    Some(bid),
+                );
+                continue;
+            };
+            if objet["rarete"] == "legendaire" {
+                self.r.erreur(
+                    "cadeau.legendaire",
+                    format!("La brique {bid} est légendaire : le cadeau n'en donne jamais."),
+                    fichier,
+                    Some(bid),
+                );
+            }
+            if !dans_un_fascicule.contains(texte(&objet["unite_id"])) {
+                self.r.erreur(
+                    "cadeau.hors_fascicule",
+                    format!("La brique {bid} n'appartient à aucun fascicule."),
+                    fichier,
+                    Some(bid),
+                );
             }
         }
     }

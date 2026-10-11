@@ -21,6 +21,8 @@
     "id_trompe_l_oeil": { "type": "string", "pattern": "^tpl_[0-9a-z]{8}$" },
     "id_media": { "type": "string", "pattern": "^med_[0-9a-z]{8}$" },
     "id_jalon": { "type": "string", "pattern": "^jal_[0-9a-z]{8}$" },
+    "id_quete": { "type": "string", "pattern": "^qlc_[0-9a-z]{8}$" },
+    "id_palier": { "type": "string", "pattern": "^pal_[0-9a-z]{8}$" },
     "code_vocabulaire": { "type": "string", "pattern": "^[a-z][a-z_]*$" },
     "texte": { "type": "string", "minLength": 1 },
     "texte_nullable": { "type": ["string", "null"], "minLength": 1 },

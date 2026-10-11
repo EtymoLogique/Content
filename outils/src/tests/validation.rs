@@ -1705,3 +1705,81 @@ fn cli_codes_de_retour() {
     assert_eq!(cli(&["valider", "--racine", racine, "--json"]), 1);
     assert!(depot.valider().en_json().contains("\"reference.cassee\""));
 }
+
+// ------------------------------------------------- quêtes et cadeau (ADR 0045, 0046)
+
+#[test]
+fn quetes_et_cadeau_valides() {
+    let depot = Depot::new();
+    depot.ecrire_quetes(&depot.quetes_valides());
+    assert!(
+        erreurs(&depot.valider()).is_empty(),
+        "{:?}",
+        erreurs(&depot.valider())
+    );
+}
+
+#[test]
+fn les_seuils_des_paliers_croissent() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    quetes["quetes"][0]["paliers"][1]["seuil"] = json!(1);
+    depot.ecrire_quetes(&quetes);
+    assert!(a_erreur(&depot, "quete.paliers_non_croissants"));
+}
+
+#[test]
+fn un_palier_donne_quelque_chose() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    retirer(&mut quetes["quetes"][0]["paliers"][0], "sabliers");
+    depot.ecrire_quetes(&quetes);
+    assert!(a_erreur(&depot, "quete.palier_sans_recompense"));
+}
+
+#[test]
+fn une_quete_de_langue_vise_une_langue_connue() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    quetes["quetes"][0]["sorte"] = json!("langue");
+    quetes["quetes"][0]["langue_id"] = json!("lng_00000000");
+    depot.ecrire_quetes(&quetes);
+    assert!(a_erreur(&depot, "reference.cassee"));
+}
+
+#[test]
+fn une_quete_sans_condition_connue_est_refusee() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    quetes["quetes"][0]["sorte"] = json!("mots_legendaires");
+    depot.ecrire_quetes(&quetes);
+    assert!(a_erreur(&depot, "schema"));
+}
+
+#[test]
+fn aucune_quete_ne_compte_des_legendaires() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    quetes["quetes"][0]["sorte"] = json!("premiere_legendaire");
+    depot.ecrire_quetes(&quetes);
+    // Deux paliers, dont un à cinq : cela trahirait combien il en existe.
+    assert!(a_erreur(&depot, "quete.legendaires_comptees"));
+}
+
+#[test]
+fn le_cadeau_ne_donne_jamais_une_legendaire() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    quetes["cadeau_de_bienvenue"]["plis"] = json!([depot.id_brique("étymo")]);
+    depot.ecrire_quetes(&quetes);
+    assert!(a_erreur(&depot, "cadeau.legendaire"));
+}
+
+#[test]
+fn le_cadeau_ne_donne_que_des_briques_de_fascicules() {
+    let depot = Depot::new();
+    let mut quetes = depot.quetes_valides();
+    quetes["cadeau_de_bienvenue"]["plis"] = json!(["brq_00000000"]);
+    depot.ecrire_quetes(&quetes);
+    assert!(a_erreur(&depot, "reference.cassee"));
+}

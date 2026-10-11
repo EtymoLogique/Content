@@ -712,13 +712,20 @@ impl<'a> Compilateur<'a> {
             .map(|fid| self.fascicule(fid))
             .collect::<Result<Vec<_>, _>>()?;
 
-        let parutions = json!({
+        let mut parutions = json!({
             "format": FORMAT,
             "version": self.version,
             "essai": self.essai,
             "referentiels": self.referentiels(),
             "fascicules": calendrier,
         });
+        // Couche ludique commune (ADR 0045, 0046) : absente sans `ludique/quetes.json`.
+        if let Some(quetes) = &c.quetes {
+            parutions["quetes"] = quetes["quetes"].clone();
+            if !quetes["cadeau_de_bienvenue"].is_null() {
+                parutions["cadeau_de_bienvenue"] = quetes["cadeau_de_bienvenue"].clone();
+            }
+        }
         self.artefact
             .fichiers
             .insert("parutions.json".into(), serialiser(&parutions));
