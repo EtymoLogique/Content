@@ -1,0 +1,63 @@
+{
+  "id": "unt_82d8x7s0",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q2961137, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q2961137 (aucun lexème français)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_dwnzbzdj",
+      "texte": "nécrophagie",
+      "cle_normalisee": "nécrophagie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q2961137, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q2961137 (aucun lexème français)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_md0wffc3",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "fait de manger des cadavres",
+          "definition": "Fait de se nourrir de cadavres."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q2961137, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q2961137) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_stcp2cq6",
+  "mot_id": "unt_xydmphpe",
+  "forme_resultat_id": "frm_mzp61w16",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « hyperalgie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4tx8033j",
+      "sens_id": "sns_vdzmf7ps",
+      "forme_id": "frm_y87hna9r",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4sh0mv59",
+      "sens_id": "sns_g2nefepd",
+      "forme_id": "frm_8gz3wtgn",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "douleur au-dessus",
+      "explication_courte": "Du grec hupér, « au-dessus », et álgos, « douleur ».",
+      "explication_detaillee": "Le grec hupér signifie « au-dessus, au-delà », et álgos « douleur ». Dans l’hyperalgie, la douleur dépasse ce que justifie sa cause : une piqûre fait l’effet d’une brûlure."
+    }
+  }
+}

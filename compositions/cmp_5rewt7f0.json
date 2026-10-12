@@ -1,0 +1,38 @@
+{
+  "id": "cmp_5rewt7f0",
+  "mot_id": "unt_vxegx972",
+  "forme_resultat_id": "frm_2g3szrgz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécrocratie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_c1rc3mzx",
+      "sens_id": "sns_8bqm5b02",
+      "forme_id": "frm_sc2bjqa9",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pouvoir des morts",
+      "explication_courte": "Du grec nekrós, « mort », et krátos, « pouvoir ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et krátos « force, pouvoir ». On parle de nécrocratie quand un dirigeant défunt reste le chef officiel d’un pays, et que ses successeurs gouvernent en son nom."
+    }
+  }
+}

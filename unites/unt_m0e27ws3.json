@@ -1,0 +1,63 @@
+{
+  "id": "unt_m0e27ws3",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q1305428, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q1305428 (aucun lexème français)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_z1g4dtcm",
+      "texte": "photopsie",
+      "cle_normalisee": "photopsie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q1305428, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q1305428 (aucun lexème français)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_7z8wdagd",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "éclairs perçus",
+          "definition": "Perception d’éclairs ou de points lumineux qui n’existent pas dans le champ de vision."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q1305428, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q1305428) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

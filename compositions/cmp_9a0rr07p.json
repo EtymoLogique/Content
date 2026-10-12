@@ -1,0 +1,51 @@
+{
+  "id": "cmp_9a0rr07p",
+  "mot_id": "unt_m0e27ws3",
+  "forme_resultat_id": "frm_z1g4dtcm",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « photopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_78vz8xyv",
+      "sens_id": "sns_4m0rv8vh",
+      "forme_id": "frm_5gygmbbv",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_66t01s0w",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de photo- s’élide devant -opsie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue de lumière",
+      "explication_courte": "Du grec phỗs, « lumière », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec phỗs, phōtós, signifie « lumière », et ópsis « vue ». La photopsie est une vue de lumière sans lumière : des éclairs ou des points brillants que l’œil ou le cerveau produit seul."
+    }
+  }
+}

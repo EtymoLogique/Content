@@ -1,0 +1,38 @@
+{
+  "id": "cmp_1v11dr8s",
+  "mot_id": "unt_ngj3y19p",
+  "forme_resultat_id": "frm_gvwsntp8",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécrologue » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste des morts",
+      "explication_courte": "Du grec nekrós, « mort », et lógos, « discours ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et lógos « parole ». Le nécrologue n’est ni médecin ni fossoyeur : c’est le journaliste qui écrit la vie des disparus."
+    }
+  }
+}

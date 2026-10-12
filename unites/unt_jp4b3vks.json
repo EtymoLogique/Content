@@ -1,0 +1,63 @@
+{
+  "id": "unt_jp4b3vks",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q337935, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q337935 (aucun lexème français)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_2sep2bn5",
+      "texte": "nécromancie",
+      "cle_normalisee": "nécromancie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q337935, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q337935 (aucun lexème français)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_cmsynzgn",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "divination par les morts",
+          "definition": "Divination qui prétend interroger les morts."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q337935, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q337935) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

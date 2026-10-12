@@ -1,0 +1,68 @@
+{
+  "id": "unt_e1ex424c",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1102090, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Lexème L1102090 (grec ancien, nom) consulté le 12 octobre 2026 (ADR 0060). Glose rédigée."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_a6np7597",
+      "texte": "ὁδός",
+      "cle_normalisee": "ὁδός",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "hodós"
+        }
+      ],
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1102090, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1102090 (grec ancien, nom) consulté le 12 octobre 2026 (ADR 0060). Glose rédigée."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_q9w9zmnj",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "chemin, route"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1102090, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1102090 (grec ancien, nom) consulté le 12 octobre 2026 (ADR 0060). Glose rédigée."
+      }
+    }
+  ]
+}

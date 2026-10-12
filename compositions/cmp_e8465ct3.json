@@ -1,0 +1,38 @@
+{
+  "id": "cmp_e8465ct3",
+  "mot_id": "unt_h3dvcyzq",
+  "forme_resultat_id": "frm_j3gxe7h2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « téléopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_dmdgbtfy",
+      "sens_id": "sns_rxbbre2h",
+      "forme_id": "frm_npedz42v",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue au loin",
+      "explication_courte": "Du grec tēle, « au loin », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec tēle signifie « au loin », et ópsis « vue ». Dans la téléopsie, tout semble reculer : une tasse posée à portée de main paraît au bout de la table."
+    }
+  }
+}

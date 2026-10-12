@@ -1,0 +1,38 @@
+{
+  "id": "cmp_80gyw0ek",
+  "mot_id": "unt_v24png83",
+  "forme_resultat_id": "frm_d4fekvfb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécrologie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des morts",
+      "explication_courte": "Du grec nekrós, « mort », et lógos, « discours ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et lógos « parole, discours ». La nécrologie n’étudie pas les morts : c’est le court récit d’une vie qu’un journal publie au lendemain d’un décès."
+    }
+  }
+}

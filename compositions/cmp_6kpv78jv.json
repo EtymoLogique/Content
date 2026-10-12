@@ -1,0 +1,51 @@
+{
+  "id": "cmp_6kpv78jv",
+  "mot_id": "unt_8agdkavf",
+  "forme_resultat_id": "frm_0c6ncfv2",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « anode » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7np98nyh",
+      "sens_id": "sns_710q0zyt",
+      "forme_id": "frm_m5tn9n2b",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_85he85m5",
+      "sens_id": "sns_4gkjxz9r",
+      "forme_id": "frm_yz54axv4",
+      "segment_debut": 2,
+      "segment_fin": 5
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_pgkq65h8",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le a final de ana- s’élide devant -ode."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chemin vers le haut",
+      "explication_courte": "Du grec ána, « vers le haut », et hodós, « chemin ».",
+      "explication_detaillee": "Le grec ána signifie « vers le haut », et hodós « chemin ». Le mot est forgé pour l’électricité : l’anode est la porte par laquelle le courant entre, en face de la cathode, par laquelle il sort."
+    }
+  }
+}

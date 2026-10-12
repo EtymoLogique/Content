@@ -1,0 +1,51 @@
+{
+  "id": "cmp_gpp75fbt",
+  "mot_id": "unt_ygm47bss",
+  "forme_resultat_id": "frm_08szr3fp",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécronyme » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_ahgs7vy9",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de nécro- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom de mort",
+      "explication_courte": "Du grec nekrós, « mort », et ónoma, « nom ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et ónoma « nom ». Dans certaines cultures, on évite de prononcer le nom d’un défunt : on le désigne autrement, par un nécronyme."
+    }
+  }
+}

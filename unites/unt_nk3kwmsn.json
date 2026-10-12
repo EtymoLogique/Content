@@ -1,0 +1,63 @@
+{
+  "id": "unt_nk3kwmsn",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q41482, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q41482 (aucun lexème français)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_8fj9e6xg",
+      "texte": "nécropsie",
+      "cle_normalisee": "nécropsie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q41482, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q41482 (aucun lexème français)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_5sqp7sfq",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "examen d’un cadavre",
+          "definition": "Autre nom de l’autopsie : examen médical d’un corps après la mort."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q41482, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q41482) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

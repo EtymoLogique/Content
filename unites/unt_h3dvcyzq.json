@@ -1,0 +1,63 @@
+{
+  "id": "unt_h3dvcyzq",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q7696427, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q7696427 (aucun lexème français)."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_j3gxe7h2",
+      "texte": "téléopsie",
+      "cle_normalisee": "téléopsie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q7696427, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q7696427 (aucun lexème français)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_09m6rd0q",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "objets vus lointains",
+          "definition": "Trouble de la perception où les objets paraissent plus éloignés qu’ils ne le sont."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q7696427, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q7696427) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

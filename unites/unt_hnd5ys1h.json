@@ -1,0 +1,63 @@
+{
+  "id": "unt_hnd5ys1h",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q25524623, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q25524623 (aucun lexème français)."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_tnkaxmrx",
+      "texte": "nécrophage",
+      "cle_normalisee": "nécrophage",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q25524623, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : élément Q25524623 (aucun lexème français)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_25x45jqn",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "qui mange les cadavres",
+          "definition": "Qui se nourrit de cadavres, comme le vautour ou certains insectes."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q25524623, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q25524623) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

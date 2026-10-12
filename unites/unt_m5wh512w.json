@@ -1,0 +1,63 @@
+{
+  "id": "unt_m5wh512w",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L16277, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L16277."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_mfc2yvk9",
+      "texte": "période",
+      "cle_normalisee": "période",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L16277, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L16277."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_c1v08akn",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "espace de temps",
+          "definition": "Espace de temps entre deux dates ou deux événements, ou qui revient de façon régulière."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L16277, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (L16277) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

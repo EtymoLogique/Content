@@ -1,0 +1,51 @@
+{
+  "id": "cmp_a2dtbbe7",
+  "mot_id": "unt_ms44y8m2",
+  "forme_resultat_id": "frm_1hgp2gj3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « graphiste » (L621402). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cp8xdmmv",
+      "sens_id": "sns_5kzgrg66",
+      "forme_id": "frm_ckjksfws",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 5,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_dcbmwb05",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de grapho- s’élide devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui pratique l’écriture",
+      "explication_courte": "Formé sur le grec gráphein, « écrire, dessiner », et le suffixe -iste.",
+      "explication_detaillee": "Le grec gráphein signifie « écrire » et « dessiner », et le suffixe -iste désigne celui qui pratique. Le graphiste ne recopie pas des textes : il dessine les lettres, les images et leur agencement."
+    }
+  }
+}

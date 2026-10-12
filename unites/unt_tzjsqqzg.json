@@ -1,0 +1,47 @@
+{
+  "id": "unt_tzjsqqzg",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucun lexème français « nécro » ni « nécro- » trouvé par lemme exact, tirets normalisés. Non publiable tant que Wikidata ne le porte pas."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_abjmbs1q",
+      "texte": "nécro",
+      "cle_normalisee": "nécro",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucun lexème français « nécro » ni « nécro- » trouvé par lemme exact, tirets normalisés. Non publiable tant que Wikidata ne le porte pas."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_0x0qe6n6",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "mort"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucun lexème français « nécro » ni « nécro- » trouvé par lemme exact, tirets normalisés. Non publiable tant que Wikidata ne le porte pas."
+      }
+    }
+  ]
+}

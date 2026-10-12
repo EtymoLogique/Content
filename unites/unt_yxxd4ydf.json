@@ -1,0 +1,63 @@
+{
+  "id": "unt_yxxd4ydf",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1503343, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L1503343."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_b8hhzj5k",
+      "texte": "autiste",
+      "cle_normalisee": "autiste",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1503343, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L1503343."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_g2t37xfb",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "personne autiste",
+          "definition": "Personne qui présente un trouble du spectre de l’autisme."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1503343-S1, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (L1503343-S1) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

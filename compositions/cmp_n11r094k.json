@@ -1,0 +1,51 @@
+{
+  "id": "cmp_n11r094k",
+  "mot_id": "unt_nk3kwmsn",
+  "forme_resultat_id": "frm_8fj9e6xg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécropsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_8wjyncf4",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de nécro- s’élide devant -opsie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue du mort",
+      "explication_courte": "Du grec nekrós, « mort », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et ópsis « vue ». La nécropsie dit franchement ce que l’autopsie sous-entend : c’est un mort que le médecin examine. Wikidata la donne comme autre nom de l’autopsie."
+    }
+  }
+}

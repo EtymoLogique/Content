@@ -1,0 +1,51 @@
+{
+  "id": "cmp_vm7ccchz",
+  "mot_id": "unt_nxj2nwhg",
+  "forme_resultat_id": "frm_kmxdgfjz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « éponymie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zhgpk4fs",
+      "sens_id": "sns_rbma3jrg",
+      "forme_id": "frm_v7r235v3",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf",
+      "segment_debut": 2,
+      "segment_fin": 8
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_mwg3mnza",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le i final de épi- s’élide devant -onymie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "noms posés sur",
+      "explication_courte": "Du grec epṓnumos, « qui donne son nom ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et ónoma « nom ». L’éponymie est le lien entre une personne et ce qui porte son nom : la poubelle doit le sien au préfet Eugène Poubelle."
+    }
+  }
+}

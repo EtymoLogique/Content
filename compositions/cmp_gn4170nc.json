@@ -1,0 +1,51 @@
+{
+  "id": "cmp_gn4170nc",
+  "mot_id": "unt_07m8h46t",
+  "forme_resultat_id": "frm_gz3ve4tz",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « biopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_03se7jnq",
+      "sens_id": "sns_cb6mhvs9",
+      "forme_id": "frm_0qqq2jcc",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 2,
+      "segment_fin": 7
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_kyrw5ebn",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de bio- s’élide devant -opsie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue du vivant",
+      "explication_courte": "Du grec bíos, « vie », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec bíos signifie « vie », et ópsis « vue ». Le mot répond à autopsie : on examine un fragment prélevé sur le vivant, et non sur un mort."
+    }
+  }
+}

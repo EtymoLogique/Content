@@ -1,0 +1,38 @@
+{
+  "id": "cmp_xn7gmc2v",
+  "mot_id": "unt_a8t3cvcd",
+  "forme_resultat_id": "frm_8178hg9r",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « diode » (L1219826). Le lexème déclare seulement « dérivé du lexème » L22874. Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_2xrqv000",
+      "sens_id": "sns_8pxy44p3",
+      "forme_id": "frm_p07fp3z3",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_85he85m5",
+      "sens_id": "sns_4gkjxz9r",
+      "forme_id": "frm_yz54axv4",
+      "segment_debut": 2,
+      "segment_fin": 5
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "double chemin",
+      "explication_courte": "Formé sur le grec di-, « deux », et la fin d’électrode.",
+      "explication_detaillee": "Le grec di- signifie « deux », et hodós « chemin », par électrode. La diode porte deux électrodes, l’anode et la cathode, et le courant ne la traverse que dans un sens."
+    }
+  }
+}

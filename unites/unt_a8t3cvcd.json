@@ -1,0 +1,63 @@
+{
+  "id": "unt_a8t3cvcd",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1219826, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L1219826."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_8178hg9r",
+      "texte": "diode",
+      "cle_normalisee": "diode",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1219826, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L1219826."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_8xvak4fg",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "composant à sens unique",
+          "definition": "Composant électronique qui ne laisse passer le courant que dans un seul sens."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q11656, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q11656) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

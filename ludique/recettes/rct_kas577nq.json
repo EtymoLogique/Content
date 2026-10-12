@@ -1,0 +1,19 @@
+{
+  "id": "rct_kas577nq",
+  "composition_id": "cmp_dvn81v50",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_d5z0v2tn"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_kb5eeqkg"
+      ]
+    }
+  ],
+  "note_interne": null
+}

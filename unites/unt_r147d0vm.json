@@ -1,0 +1,63 @@
+{
+  "id": "unt_r147d0vm",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L25598, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L25598."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_83wmvrj7",
+      "texte": "graphisme",
+      "cle_normalisee": "graphisme",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L25598, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L25598."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_a0qsk82c",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "art du tracé",
+          "definition": "Conception et mise en forme visuelle de textes et d’images, en particulier pour la communication."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q185925, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q185925) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

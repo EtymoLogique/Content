@@ -1,0 +1,38 @@
+{
+  "id": "cmp_fg100ftq",
+  "mot_id": "unt_db251s5r",
+  "forme_resultat_id": "frm_c9fqhbdd",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécrophobie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur des morts",
+      "explication_courte": "Du grec nekrós, « mort », et phóbos, « peur ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et phóbos « peur, effroi ». Dans la nécrophobie, cadavres, cercueils ou cimetières déclenchent une angoisse que rien ne justifie."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cmp_ym01cjj2",
+  "mot_id": "unt_m8z62dqr",
+  "forme_resultat_id": "frm_hyf3dah1",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « graphique » (L578986). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cp8xdmmv",
+      "sens_id": "sns_5kzgrg66",
+      "forme_id": "frm_ckjksfws",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_w18b9t8b",
+      "sens_id": "sns_hj48bcne",
+      "forme_id": "frm_mkeqny60",
+      "segment_debut": 5,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_f2t9apke",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de grapho- s’élide devant -ique."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui se rapporte à l’écriture",
+      "explication_courte": "Du grec graphikós, « qui concerne l’écriture ou le dessin ».",
+      "explication_detaillee": "Le grec gráphein signifie à la fois « écrire » et « dessiner », et le suffixe -ique forme des adjectifs. L’adjectif graphique, « qui se rapporte au tracé », est devenu un nom : le graphique traduit des chiffres en dessin."
+    }
+  }
+}
