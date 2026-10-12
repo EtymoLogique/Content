@@ -300,21 +300,26 @@ pub fn retenu(objet: &Value) -> bool {
     objet["fait"]["confiance"] != "non_retenue"
 }
 
-/// Langues des cartes d'un fascicule et de leurs étymons : chacune a sa silhouette (ADR 0023).
+/// Langues des cartes d'un fascicule et de tous les étymons de leur chaîne : chacune a sa silhouette (ADR 0023).
 #[must_use]
 pub fn langues_citees(catalogue: &Catalogue, uids: &[String]) -> Vec<String> {
-    let mut langues: BTreeSet<String> = uids
-        .iter()
-        .filter_map(|u| catalogue.unites.get(u))
-        .map(|u| texte(&u["langue_id"]).to_owned())
-        .collect();
-    for relation in catalogue.relations.values() {
-        if let Some(source) = catalogue.unites.get(texte(&relation["unite_source_id"]))
-            && uids.iter().any(|u| u == texte(&relation["unite_cible_id"]))
-            && retenu(relation)
-        {
-            langues.insert(texte(&source["langue_id"]).to_owned());
+    let mut vus: BTreeSet<&str> = uids.iter().map(String::as_str).collect();
+    let mut pile: Vec<&str> = vus.iter().copied().collect();
+    while let Some(cible) = pile.pop() {
+        for relation in catalogue.relations.values().filter(|r| retenu(r)) {
+            let source = texte(&relation["unite_source_id"]);
+            if texte(&relation["unite_cible_id"]) == cible
+                && catalogue.unites.contains_key(source)
+                && vus.insert(source)
+            {
+                pile.push(source);
+            }
         }
     }
-    langues.into_iter().collect()
+    vus.into_iter()
+        .filter_map(|u| catalogue.unites.get(u))
+        .map(|u| texte(&u["langue_id"]).to_owned())
+        .collect::<BTreeSet<_>>()
+        .into_iter()
+        .collect()
 }

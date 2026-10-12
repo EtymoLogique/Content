@@ -661,3 +661,27 @@ fn les_quetes_et_le_cadeau_vont_dans_l_index() {
         quetes["cadeau_de_bienvenue"]
     );
 }
+
+#[test]
+fn etymon_publie_sa_propre_chaine() {
+    let depot = Depot::new();
+    let (ge, geologue) = (depot.uid("γῆ"), depot.uid("géologue"));
+    depot.copier_sous(depot.relation("géo"), &id("rel"), |r| {
+        r["unite_source_id"] = json!(geologue);
+        r["unite_cible_id"] = json!(ge);
+    });
+    let sortie = TempDir::new().unwrap();
+    compiler_vers(&depot, sortie.path(), true);
+    // Un maillon lointain figure dans une carte, sous l'étymon qui le porte.
+    let trouve = tous_les_fichiers(&sortie.path().join("r"))
+        .iter()
+        .map(|f| lire(f))
+        .any(|carte| {
+            liste(&carte["relations"]).iter().any(|r| {
+                liste(&r["etymon"]["relations"])
+                    .iter()
+                    .any(|s| s["etymon"]["id"] == geologue.as_str())
+            })
+        });
+    assert!(trouve);
+}

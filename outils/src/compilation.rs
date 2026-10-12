@@ -253,7 +253,34 @@ impl<'a> Compilateur<'a> {
             "langue_id": unite["langue_id"],
             "forme": canonique,
             "sens": liste(&unite["sens"]).iter().filter(|s| retenu(s)).collect::<Vec<_>>(),
+            // Maillons suivants de la chaîne ; le graphe est acyclique (contrôle `valider`).
+            "relations": self.relations_entrantes(uid),
+            "compositions": self.compositions_retenues(uid),
         }))
+    }
+
+    fn relations_entrantes(&self, uid: &str) -> Vec<Value> {
+        tries(&self.c.relations)
+            .into_iter()
+            .filter(|(_, r)| {
+                r["unite_cible_id"] == uid
+                    && retenu(r)
+                    && self.c.unites.contains_key(texte(&r["unite_source_id"]))
+            })
+            .map(|(_, r)| {
+                let mut r = r.clone();
+                r["etymon"] = self.etymon(texte(&r["unite_source_id"]));
+                r
+            })
+            .collect()
+    }
+
+    fn compositions_retenues(&self, uid: &str) -> Vec<Value> {
+        tries(&self.c.compositions)
+            .into_iter()
+            .filter(|(_, c)| c["mot_id"] == uid && retenu(c))
+            .map(|(_, c)| c.clone())
+            .collect()
     }
 
     fn carte(&self, uid: &str) -> Value {
@@ -281,30 +308,16 @@ impl<'a> Compilateur<'a> {
                 .cloned()
                 .collect(),
         );
-        let relations = tries(&self.c.relations)
-            .into_iter()
-            .filter(|(_, r)| {
-                r["unite_cible_id"] == uid
-                    && retenu(r)
-                    && self.c.unites.contains_key(texte(&r["unite_source_id"]))
-            })
-            .map(|(_, r)| {
-                let mut r = r.clone();
-                r["etymon"] = self.etymon(texte(&r["unite_source_id"]));
-                r
-            })
-            .collect();
-        carte.insert("relations".into(), relations);
+        let relations = self.relations_entrantes(uid);
+        carte.insert("relations".into(), relations.into());
         if !unite.get("attestation").is_some_and(retenu) {
             carte.remove("attestation");
         }
         if unite["nature"] == "mot" {
-            let compositions = tries(&self.c.compositions)
-                .into_iter()
-                .filter(|(_, c)| c["mot_id"] == uid && retenu(c))
-                .map(|(_, c)| c.clone())
-                .collect();
-            carte.insert("compositions".into(), compositions);
+            carte.insert(
+                "compositions".into(),
+                self.compositions_retenues(uid).into(),
+            );
         }
         if let Some(brique) = self.brique_par_unite.get(uid) {
             let extrait: Map<String, Value> =
