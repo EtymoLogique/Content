@@ -6,7 +6,7 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "À vérifier : entrée « biomètre » du TLFi, localisation à renseigner. Attestation à confirmer : mot absent des dictionnaires usuels, à vérifier aussi dans le Littré. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « biomètre » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },

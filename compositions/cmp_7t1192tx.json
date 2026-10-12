@@ -6,7 +6,7 @@
   "preferee": true,
   "fait": {
     "confiance": "probable",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « exode » (sans lexème). Le grec éxodos est formé sur ex, « hors de », parent de exō : l’analyse par exo- est à relire. Non publiable tant que Wikidata ne le porte pas."
   },

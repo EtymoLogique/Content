@@ -5,7 +5,7 @@
   "type_code": "emprunt",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_tyvnmjjn",

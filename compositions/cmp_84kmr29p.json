@@ -6,7 +6,7 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "Formation donnée par le TLFi, entrée « archéologie », consultée le 9 octobre 2026. Sens littéral rédigé. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « ἀρχαιολογία » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   },

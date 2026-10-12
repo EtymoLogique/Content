@@ -4,7 +4,7 @@
   "langue_id": "lng_wa90y54n",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "À vérifier : entrée « chrome » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « chrome » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
   },
@@ -21,7 +21,7 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [],
         "note_interne": "À vérifier : entrée « chrome » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « chrome » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
@@ -38,7 +38,7 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [],
         "note_interne": "À vérifier : entrée « chrome » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « chrome » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }

@@ -6,7 +6,7 @@
   "preferee": true,
   "fait": {
     "confiance": "non_retenue",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "Non retenue : Wikidata compose « Ökologie » (L499774, consulté le 10 octobre 2026) de öko- (L492312) et -logie (L616422), « combine les lexèmes » (P5238), et non directement de οἶκος et λόγος. Ni öko- ni -logie allemands ne sont au catalogue. Décision du 10 octobre 2026 (issue Content #32) : Wikidata fait référence, sans contribution de l’équipe ; une analyse qu’il contredit n’est pas retenue."
   },

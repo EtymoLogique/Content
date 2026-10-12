@@ -4,7 +4,7 @@
   "langue_id": "lng_c5sy8ve2",
   "fait": {
     "confiance": "probable",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [
       {
         "source_id": "src_tyvnmjjn",
@@ -31,7 +31,7 @@
       "contexte": null,
       "fait": {
         "confiance": "probable",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
@@ -53,7 +53,7 @@
       },
       "fait": {
         "confiance": "probable",
-        "etat_relecture": "brouillon",
+        "etat_relecture": "relu",
         "sources": [
           {
             "source_id": "src_tyvnmjjn",
