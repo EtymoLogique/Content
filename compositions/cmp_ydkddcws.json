@@ -6,7 +6,7 @@
   "preferee": true,
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [],
     "note_interne": "À vérifier : entrée « télescope » du TLFi, localisation à confirmer. Explication détaillée rédigée sans copie de source, à relire et à confirmer dans le TLFi (dates et attributions comprises). Repassé en brouillon le 9 octobre 2026 : transformation ajoutée (adaptation de graphie), relues dans le TLFi ; à relire. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » sur « télescope » (L1460339). Non publiable tant que Wikidata ne le porte pas. Transformation « emprunt par l’italien telescopio » (trf_7syqng9a) retirée le 10 octobre 2026, jamais publiée en prod : Wikidata (L1460339) dérive le mot directement du latin tēlescopium (issue Content #32, ADR 0061)."
   },

@@ -6,7 +6,7 @@
   "preferee": true,
   "fait": {
     "confiance": "probable",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [],
     "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « diode » (L1219826). Le lexème déclare seulement « dérivé du lexème » L22874. Non publiable tant que Wikidata ne le porte pas."
   },

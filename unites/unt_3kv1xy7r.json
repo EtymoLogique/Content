@@ -49,7 +49,7 @@
       },
       "fait": {
         "confiance": "probable",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "À vérifier : entrée « amener » du TLFi, localisation à confirmer. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L9162-S1) : le seul sens Wikidata est « abaisser (une voile, un pavillon) », pas « faire venir ». Non publiable tant que Wikidata ne le porte pas. Repassé en brouillon : la relecture humaine doit rejouer la requête."
       }
