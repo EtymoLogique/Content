@@ -500,5 +500,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_n6tmtsrc",
+      "decouvertes": 16,
+      "pli": [
+        "brq_71br28gx",
+        "brq_eb8py1gp"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_4rehbwps",
+      "decouvertes": 32,
+      "pli": [
+        "brq_g4gq3jbf",
+        "brq_fstdzp93"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_151qty1h",
+      "decouvertes": 64,
+      "pli": [
+        "brq_71br28gx",
+        "brq_eb8py1gp",
+        "brq_g4gq3jbf"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Mots nouveaux autour du corps et de la médecine. Fermeture sans exclusion : toute combinaison attestée est publiée avec sa recette. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }

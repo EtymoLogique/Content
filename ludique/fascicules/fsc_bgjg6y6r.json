@@ -810,5 +810,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_7k7j47nx",
+      "decouvertes": 27,
+      "pli": [
+        "brq_g0kdys5j",
+        "brq_esyqjr7x"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_tqhg156b",
+      "decouvertes": 53,
+      "pli": [
+        "brq_wwrp37pw",
+        "brq_stm5qm5w"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_v082r1mq",
+      "decouvertes": 106,
+      "pli": [
+        "brq_g0kdys5j",
+        "brq_esyqjr7x",
+        "brq_wwrp37pw"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour des noms (-onyme, -onymie) et du suffixe -ique. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }

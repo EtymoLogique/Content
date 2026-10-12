@@ -617,5 +617,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_44ksa6e1",
+      "decouvertes": 21,
+      "pli": [
+        "brq_g61wx52f",
+        "brq_wbvswm9b"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_nkhrf24m",
+      "decouvertes": 41,
+      "pli": [
+        "brq_0v04grrk",
+        "brq_e99p5xzq"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_r9vmdw0g",
+      "decouvertes": 81,
+      "pli": [
+        "brq_g61wx52f",
+        "brq_wbvswm9b",
+        "brq_0v04grrk"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour des langues, des récits et des peuples. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }
