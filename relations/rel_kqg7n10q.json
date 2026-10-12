@@ -1,0 +1,12 @@
+{
+  "id": "rel_kqg7n10q",
+  "unite_source_id": "unt_k2xdafwv",
+  "unite_cible_id": "unt_tv44kfgq",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : « opsie » n’a pas de lexème, donc aucune déclaration « dérivé du lexème » vers « ὄψις » (L1103334). Non publiable tant que Wikidata ne le porte pas."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "unt_k2xdafwv",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1103334, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Lexème L1103334 (grec ancien, nom) consulté le 12 octobre 2026 (ADR 0060). Glose rédigée."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_32xbepkz",
+      "texte": "ὄψις",
+      "cle_normalisee": "ὄψις",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "ópsis"
+        }
+      ],
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1103334, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1103334 (grec ancien, nom) consulté le 12 octobre 2026 (ADR 0060). Glose rédigée."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_xdax8v4r",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "vue, vision"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1103334, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1103334 (grec ancien, nom) consulté le 12 octobre 2026 (ADR 0060). Glose rédigée."
+      }
+    }
+  ]
+}

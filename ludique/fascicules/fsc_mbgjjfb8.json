@@ -1,0 +1,353 @@
+{
+  "id": "fsc_mbgjjfb8",
+  "numero": 11,
+  "nom": "Ogham",
+  "parution": "2026-12-01T00:00:00Z",
+  "test": false,
+  "unites": [
+    {
+      "unite_id": "unt_8agdkavf",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_tq49ggmr",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_07m8h46t",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_yxxd4ydf",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_m8z62dqr",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_r147d0vm",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_ms44y8m2",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_nxj2nwhg",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_bhpc7vgc",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_m5wh512w",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_y6jr9yxq",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_cfgj7r20",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_a8t3cvcd",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_rk47fybw",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_m0e27ws3",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_msq1fgq7",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_ygm47bss",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_v24png83",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_ngj3y19p",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_hnd5ys1h",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_82d8x7s0",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_jp4b3vks",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_db251s5r",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_vxegx972",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_5tkvap2y",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_srt4egty",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_xydmphpe",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_9dq14sdk",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_whz0f5bs",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_nk3kwmsn",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_h3dvcyzq",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_7np98nyh",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_85he85m5",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_y051tbbp",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_tv44kfgq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_03se7jnq",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wqz6cnsr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_cp8xdmmv",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_w18b9t8b",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_vytqjb98",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_zhgpk4fs",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_n7h1qr6w",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_yygt0ren",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_acdstds3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_7w5qh08v",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_m6c8rjvy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_2xrqv000",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wfeshxgc",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_78vz8xyv",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_pbktznfj",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_tzjsqqzg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ak4fdsk0",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_mk61g05z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bdmzv0a",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_3jma5g3z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_6t7fkn6e",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_thep0hgb",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5hc0cnmn",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_c1rc3mzx",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_81tn2txv",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_1p6hqgkh",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4tx8033j",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4sh0mv59",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wdz7x013",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_v5raa9z2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dmdgbtfy",
+      "role": "ingredient"
+    }
+  ],
+  "graines": [
+    {
+      "brique_id": "brq_pffx8hn7",
+      "exemplaires": 3
+    },
+    {
+      "brique_id": "brq_e99p5xzq",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_egz0f95f",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_rejbztty",
+      "exemplaires": 1
+    }
+  ],
+  "jalons": [
+    {
+      "id": "jal_pwx8j1d8",
+      "decouvertes": 7,
+      "pli": [
+        "brq_vrf568ts",
+        "brq_kb5eeqkg"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_k5mw7vnp",
+      "decouvertes": 14,
+      "pli": [
+        "brq_pffx8hn7",
+        "brq_vrf568ts"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_9fnyawkt",
+      "decouvertes": 31,
+      "pli": [
+        "brq_pffx8hn7",
+        "brq_vrf568ts",
+        "brq_kb5eeqkg"
+      ],
+      "sabliers": 1
+    }
+  ],
+  "note_interne": "Parution au 1ᵉʳ décembre 2026, 19 jours après le n° 10 : choix éditorial du 12 octobre 2026. Nouvelles briques : -ode « chemin », -opsie « vue », nécro- « mort ». Tous leurs mots croisés attestés par Wikidata sont publiés, y compris photopsie, polyopsie, zoopsie, bradyopsie, téléopsie, nécronyme, nécrocratie et nécropsie (choix éditorial du 12 octobre 2026). Palinopsie, sur palin- légendaire, est le mot légendaire du fascicule. Trous de fermeture des fascicules précédents comblés : autiste, graphique, graphisme, graphiste, éponymie, éparchie, hyperalgie, aéromancie. Restent ouverts, attestés par Wikidata : endonyme, exonyme, synarchie, stéréotomie, toparque, exarque, éparque, mononyme, hyponymie, hyperonymie, théonymie, zoonymie, ethnonymie, chrononyme, hipparque, hypothèque. Trompe-l’œil à examiner : géode et épode, qui ne viennent pas de hodós, et hydropsie, du grec hudrôps. Nécrophile écarté par une exclusion (offensant). 31 mots, un de plus que le plafond : choix éditorial du 12 octobre 2026, pour garder les tiers. Faits en brouillon : Wikidata ne porte aucune composition de ces mots."
+}

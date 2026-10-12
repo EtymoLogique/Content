@@ -1,0 +1,38 @@
+{
+  "id": "cmp_mjtmtemd",
+  "mot_id": "unt_hnd5ys1h",
+  "forme_resultat_id": "frm_tnkaxmrx",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécrophage » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_3jma5g3z",
+      "sens_id": "sns_6hsybknc",
+      "forme_id": "frm_6drkjf66",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui mange les morts",
+      "explication_courte": "Du grec nekrós, « mort », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et phageîn « manger ». Les animaux nécrophages, vautours, hyènes ou mouches, font disparaître les cadavres et recyclent la matière."
+    }
+  }
+}

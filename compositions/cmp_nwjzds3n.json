@@ -1,0 +1,51 @@
+{
+  "id": "cmp_nwjzds3n",
+  "mot_id": "unt_yxxd4ydf",
+  "forme_resultat_id": "frm_b8hhzj5k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « autiste » (L1503343). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_y051tbbp",
+      "sens_id": "sns_7sv7teda",
+      "forme_id": "frm_7d4cshb5",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_wqz6cnsr",
+      "sens_id": "sns_eschctms",
+      "forme_id": "frm_vj4gj4zb",
+      "segment_debut": 3,
+      "segment_fin": 7
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_xr3zr53g",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de auto- s’élide devant -iste."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "qui vit en soi-même",
+      "explication_courte": "Dérivé d’autisme, du grec autós, « soi-même ».",
+      "explication_detaillee": "Le grec autós signifie « soi-même », et le suffixe -iste désigne une personne. Le mot est tiré d’autisme, nom d’un trouble du développement qui touche la communication et les relations sociales."
+    }
+  }
+}

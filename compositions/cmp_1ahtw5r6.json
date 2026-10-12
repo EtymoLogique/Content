@@ -1,0 +1,38 @@
+{
+  "id": "cmp_1ahtw5r6",
+  "mot_id": "unt_9dq14sdk",
+  "forme_resultat_id": "frm_e473dcnw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « aéromancie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wdz7x013",
+      "sens_id": "sns_158e3w55",
+      "forme_id": "frm_ad6r0k0a",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_thep0hgb",
+      "sens_id": "sns_84v8ta9x",
+      "forme_id": "frm_wm9n3s05",
+      "segment_debut": 4,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "divination par l’air",
+      "explication_courte": "Du grec aḗr, « air », et manteía, « divination ».",
+      "explication_detaillee": "Le grec aḗr signifie « air », et manteía « divination ». L’aéromancien lisait l’avenir dans la forme des nuages, la direction des vents ou les phénomènes du ciel."
+    }
+  }
+}

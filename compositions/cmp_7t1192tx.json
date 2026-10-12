@@ -1,0 +1,51 @@
+{
+  "id": "cmp_7t1192tx",
+  "mot_id": "unt_y6jr9yxq",
+  "forme_resultat_id": "frm_x6kffy8g",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « exode » (sans lexème). Le grec éxodos est formé sur ex, « hors de », parent de exō : l’analyse par exo- est à relire. Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7w5qh08v",
+      "sens_id": "sns_qtcm633q",
+      "forme_id": "frm_43wkbf9r",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_85he85m5",
+      "sens_id": "sns_4gkjxz9r",
+      "forme_id": "frm_yz54axv4",
+      "segment_debut": 2,
+      "segment_fin": 5
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_kraxp1e0",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de exo- s’élide devant -ode."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chemin vers le dehors",
+      "explication_courte": "Du grec éxodos, « sortie ».",
+      "explication_detaillee": "Le grec ex signifie « hors de », comme exō, « dehors », et hodós « chemin ». L’Exode est d’abord le livre de la Bible qui raconte la sortie d’Égypte du peuple hébreu ; le mot désigne aujourd’hui tout départ en masse."
+    }
+  }
+}

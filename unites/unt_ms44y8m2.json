@@ -1,0 +1,63 @@
+{
+  "id": "unt_ms44y8m2",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L621402, consulté le 12 octobre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L621402."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_1hgp2gj3",
+      "texte": "graphiste",
+      "cle_normalisee": "graphiste",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L621402, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 12 octobre 2026 (ADR 0060) : lexème L621402."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_wekzykzv",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "créateur d’images",
+          "definition": "Professionnel qui conçoit la partie visuelle d’un message : affiche, logo, mise en page."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q627325, consulté le 12 octobre 2026"
+          }
+        ],
+        "note_interne": "Glose et définition rédigées, comparées au sens Wikidata (Q627325) le 12 octobre 2026 : concordantes."
+      }
+    }
+  ]
+}

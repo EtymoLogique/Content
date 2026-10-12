@@ -1,0 +1,51 @@
+{
+  "id": "cmp_cnevbn92",
+  "mot_id": "unt_bhpc7vgc",
+  "forme_resultat_id": "frm_8pq82jj3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « éparchie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_zhgpk4fs",
+      "sens_id": "sns_rbma3jrg",
+      "forme_id": "frm_v7r235v3",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_yygt0ren",
+      "sens_id": "sns_wgsskjq4",
+      "forme_id": "frm_2zf62htv",
+      "segment_debut": 2,
+      "segment_fin": 8
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_5synnqev",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le i final de épi- s’élide devant -archie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "commandement posé sur",
+      "explication_courte": "Du grec eparkhía, « province ».",
+      "explication_detaillee": "Le grec epí signifie « sur », et árkhein « commander ». Dans l’Empire romain d’Orient, l’éparchie était une province gouvernée ; les Églises d’Orient ont gardé le mot pour leurs diocèses."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cmp_mpp0f5n4",
+  "mot_id": "unt_m5wh512w",
+  "forme_resultat_id": "frm_mfc2yvk9",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « période » (L16277). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_acdstds3",
+      "sens_id": "sns_kjg12hh5",
+      "forme_id": "frm_mexg51v4",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_85he85m5",
+      "sens_id": "sns_4gkjxz9r",
+      "forme_id": "frm_yz54axv4",
+      "segment_debut": 4,
+      "segment_fin": 7
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "chemin autour",
+      "explication_courte": "Du grec períodos, « circuit, révolution ».",
+      "explication_detaillee": "Le grec perí signifie « autour », et hodós « chemin ». La períodos était le tour complet qu’on fait autour d’un lieu, comme un astre qui revient à son point de départ. Le mot a fini par désigner le temps que prend ce tour."
+    }
+  }
+}

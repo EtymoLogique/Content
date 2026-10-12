@@ -1,0 +1,38 @@
+{
+  "id": "cmp_rsns0dw3",
+  "mot_id": "unt_srt4egty",
+  "forme_resultat_id": "frm_t3g6fwve",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « bradyopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_1p6hqgkh",
+      "sens_id": "sns_2g1e1rmz",
+      "forme_id": "frm_s06723rw",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue lente",
+      "explication_courte": "Du grec bradús, « lent », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec bradús signifie « lent », et ópsis « vue ». Celui qui souffre de bradyopsie met longtemps à y voir quand il passe de l’ombre au grand soleil, ou l’inverse."
+    }
+  }
+}

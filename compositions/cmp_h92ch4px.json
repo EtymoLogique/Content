@@ -1,0 +1,38 @@
+{
+  "id": "cmp_h92ch4px",
+  "mot_id": "unt_rk47fybw",
+  "forme_resultat_id": "frm_8gmmk89a",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « triode » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_wfeshxgc",
+      "sens_id": "sns_j5rx110n",
+      "forme_id": "frm_71xe5wth",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_85he85m5",
+      "sens_id": "sns_4gkjxz9r",
+      "forme_id": "frm_yz54axv4",
+      "segment_debut": 3,
+      "segment_fin": 6
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "triple chemin",
+      "explication_courte": "Formé sur le grec tri-, « trois », et la fin d’électrode.",
+      "explication_detaillee": "Le grec tri- signifie « trois », et hodós « chemin », par électrode. La triode ajoute une grille entre l’anode et la cathode : en la réglant, on règle le courant, et on amplifie un signal."
+    }
+  }
+}

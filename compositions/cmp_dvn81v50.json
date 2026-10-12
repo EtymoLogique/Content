@@ -1,0 +1,51 @@
+{
+  "id": "cmp_dvn81v50",
+  "mot_id": "unt_msq1fgq7",
+  "forme_resultat_id": "frm_tbaq3hkg",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « zoopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_pbktznfj",
+      "sens_id": "sns_4zh2hx7t",
+      "forme_id": "frm_jscs10sp",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 2,
+      "segment_fin": 7
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_fj6qy8ce",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de zoo- s’élide devant -opsie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue d’animaux",
+      "explication_courte": "Du grec zỗion, « animal », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec zỗion signifie « être vivant, animal », et ópsis « vue ». La zoopsie est une hallucination : on voit des animaux, souvent des insectes ou des rongeurs, là où il n’y en a pas."
+    }
+  }
+}

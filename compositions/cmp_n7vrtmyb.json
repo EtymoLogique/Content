@@ -1,0 +1,38 @@
+{
+  "id": "cmp_n7vrtmyb",
+  "mot_id": "unt_82d8x7s0",
+  "forme_resultat_id": "frm_dwnzbzdj",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « nécrophagie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_tzjsqqzg",
+      "sens_id": "sns_0x0qe6n6",
+      "forme_id": "frm_abjmbs1q",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_6t7fkn6e",
+      "sens_id": "sns_7jh3jyk6",
+      "forme_id": "frm_2h439csq",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fait de manger les morts",
+      "explication_courte": "Du grec nekrós, « mort », et phageîn, « manger ».",
+      "explication_detaillee": "Le grec nekrós signifie « mort », et phageîn « manger ». La nécrophagie est le régime des charognards : elle débarrasse la nature de ses cadavres."
+    }
+  }
+}

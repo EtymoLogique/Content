@@ -1,0 +1,38 @@
+{
+  "id": "cmp_bkarm1qe",
+  "mot_id": "unt_5tkvap2y",
+  "forme_resultat_id": "frm_yqmjqkbb",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « polyopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_81tn2txv",
+      "sens_id": "sns_c1p2y6hr",
+      "forme_id": "frm_j1ks276z",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 4,
+      "segment_fin": 9
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue nombreuse",
+      "explication_courte": "Du grec polús, « nombreux », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec polús signifie « nombreux », et ópsis « vue ». Dans la polyopsie, un seul objet se répète en plusieurs images, comme dans un kaléidoscope."
+    }
+  }
+}

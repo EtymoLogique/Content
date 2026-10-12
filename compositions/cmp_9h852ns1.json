@@ -1,0 +1,38 @@
+{
+  "id": "cmp_9h852ns1",
+  "mot_id": "unt_whz0f5bs",
+  "forme_resultat_id": "frm_44asbbma",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « palinopsie » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_v5raa9z2",
+      "sens_id": "sns_tck8w17c",
+      "forme_id": "frm_tcnh1z4m",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_tv44kfgq",
+      "sens_id": "sns_5hc5aypv",
+      "forme_id": "frm_3ngfvtnc",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "vue à rebours",
+      "explication_courte": "Du grec pálin, « de nouveau », et ópsis, « vue ».",
+      "explication_detaillee": "Le grec pálin signifie « en arrière, de nouveau », et ópsis « vue ». Dans la palinopsie, la vue revient en arrière : l’image d’un objet reste ou réapparaît alors qu’on regarde ailleurs."
+    }
+  }
+}

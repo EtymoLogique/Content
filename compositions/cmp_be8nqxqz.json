@@ -1,0 +1,51 @@
+{
+  "id": "cmp_be8nqxqz",
+  "mot_id": "unt_r147d0vm",
+  "forme_resultat_id": "frm_83wmvrj7",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « graphisme » (L25598). Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cp8xdmmv",
+      "sens_id": "sns_5kzgrg66",
+      "forme_id": "frm_ckjksfws",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_vytqjb98",
+      "sens_id": "sns_770ct01j",
+      "forme_id": "frm_fsmc83tp",
+      "segment_debut": 5,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_qqzzb9xv",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de grapho- s’élide devant -isme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "doctrine de l’écriture",
+      "explication_courte": "Formé sur le grec gráphein, « écrire, dessiner », et le suffixe -isme.",
+      "explication_detaillee": "Le grec gráphein signifie « écrire » et « dessiner ». Le graphisme désigne d’abord la façon de tracer les lettres, puis tout l’art de composer textes et images pour qu’ils se lisent d’un coup d’œil."
+    }
+  }
+}
