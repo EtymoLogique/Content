@@ -5,7 +5,7 @@
   "type_code": "forme_de_composition",
   "fait": {
     "confiance": "probable",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "Wikidata ne porte pas ce fait (consulté le 12 octobre 2026, ADR 0060) : « ode » n’a pas de lexème, donc aucune déclaration « dérivé du lexème » vers « ὁδός » (L1102090). Non publiable tant que Wikidata ne le porte pas."
   }

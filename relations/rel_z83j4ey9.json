@@ -5,7 +5,7 @@
   "type_code": "emprunt",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "brouillon",
+    "etat_relecture": "relu",
     "sources": [],
     "note_interne": "Chaîne relue dans la rubrique « Étymologie et histoire » de l’entrée « géomètre » du TLFi, le 9 octobre 2026. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucune déclaration « dérivé du lexème » entre « geometres » (L274723) et « γεωμέτρης » (sans lexème). Non publiable tant que Wikidata ne le porte pas."
   }
