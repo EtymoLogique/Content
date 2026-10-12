@@ -4,7 +4,7 @@
   "langue_id": "lng_kmf44d76",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [],
     "note_interne": "À vérifier : entrée « τέτταρες » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « τέτταρες » (Q35497) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
   },
@@ -27,7 +27,7 @@
       ],
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "À vérifier : entrée « τέτταρες » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « τέτταρες » (Q35497) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
@@ -44,7 +44,7 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "À vérifier : entrée « τέτταρες » du Bailly, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « τέτταρες » (Q35497) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }

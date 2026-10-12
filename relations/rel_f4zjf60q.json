@@ -5,7 +5,7 @@
   "type_code": "emprunt",
   "fait": {
     "confiance": "non_retenue",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [],
     "note_interne": "Non retenue : Wikidata dérive « télescope » (L1460339, déclaration référencée, consulté le 10 octobre 2026) du latin tēlescopium, emprunt direct saisi à part ; il ne cite pas l’italien telescopio. Décision du 10 octobre 2026 (issue Content #32) : Wikidata fait référence, sans contribution de l’équipe ; une analyse qu’il contredit n’est pas retenue."
   }

@@ -4,7 +4,7 @@
   "langue_id": "lng_wa90y54n",
   "fait": {
     "confiance": "etablie",
-    "etat_relecture": "relu",
+    "etat_relecture": "brouillon",
     "sources": [],
     "note_interne": "À vérifier : entrée « sténographique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « sténographique » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
   },
@@ -21,7 +21,7 @@
       "contexte": null,
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "À vérifier : entrée « sténographique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « sténographique » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }
@@ -38,7 +38,7 @@
       },
       "fait": {
         "confiance": "etablie",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "À vérifier : entrée « sténographique » du TLFi, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : aucun lexème « sténographique » (Q150) trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
       }

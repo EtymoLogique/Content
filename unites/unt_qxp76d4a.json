@@ -48,7 +48,7 @@
       },
       "fait": {
         "confiance": "probable",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "Étymon déclaré par Wikidata (« dérivé du lexème », P5191, sur « mètre », L18790). Glose rédigée, sans copie de la source. Recoupé avec Wikidata le 10 octobre 2026 (ADR 0060). Le lexème L278677 ne déclare aucun sens : glose à vérifier, non publiable tant que Wikidata ne porte pas de sens."
       }

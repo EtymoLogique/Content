@@ -48,7 +48,7 @@
       },
       "fait": {
         "confiance": "probable",
-        "etat_relecture": "relu",
+        "etat_relecture": "brouillon",
         "sources": [],
         "note_interne": "À vérifier : entrée « caedere » du Gaffiot, localisation à renseigner. Wikidata ne porte pas ce fait (consulté le 10 octobre 2026, ADR 0060) : glose comparée au sens Wikidata (L261461-S1) : le lexème retenu (L261461) n’a qu’un sens « keikogi », sans rapport avec « abattre, tuer » : erreur probable dans Wikidata. Non publiable tant que Wikidata ne le porte pas."
       }
