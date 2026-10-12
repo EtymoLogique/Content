@@ -35,6 +35,7 @@ Le test : **un joueur reconnaît l'objet en une seconde, et l'objet évoque le s
 - Des traits courts et parallèles sur un objet se lisent comme des **lettres** (« VIT », un « M ») ou comme un **bandeau**. Un reflet ou un trait isolé sous un objet passe pour un défaut.
 - Un visage de face rogné par le bord, un visage grimaçant ou à l'air bête. Préférez le profil, un trait pour l'œil.
 - Un animal approximatif (éléphant qui tient du cochon, cheval informe) : redessinez sa silhouette caractéristique (trompe, oreilles, crinière) ou changez d'animal.
+- **Aucune araignée** (ADR 0066), ni entière, ni en partie (pattes, toile, fil), ni stylisée, sur aucun visuel. Un mot qui touche aux araignées prend un autre sujet.
 
 Proposez le sujet à l'utilisateur avant de dessiner s'il y a un doute.
 
