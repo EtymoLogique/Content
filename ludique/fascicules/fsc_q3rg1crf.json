@@ -651,5 +651,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_enz91saj",
+      "decouvertes": 21,
+      "pli": [
+        "brq_wvkq2kfq",
+        "brq_79zkdkd3"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_nxxzrh1w",
+      "decouvertes": 42,
+      "pli": [
+        "brq_7tv70pgm",
+        "brq_htjp6jdr"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_0a0ngg06",
+      "decouvertes": 83,
+      "pli": [
+        "brq_wvkq2kfq",
+        "brq_79zkdkd3",
+        "brq_7tv70pgm"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour des mesures, des caractères et des nombres. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Les mots de masse (kilogramme…) sont exclus : la brique -gramme publiée signifie « écrit », pas l’unité. Silhouettes à dessiner."
 }

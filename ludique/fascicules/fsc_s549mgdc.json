@@ -366,5 +366,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_6y4e7d5e",
+      "decouvertes": 13,
+      "pli": [
+        "brq_gf6ye5j7",
+        "brq_9v8w7dzj"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_tgtzr4q5",
+      "decouvertes": 25,
+      "pli": [
+        "brq_rpa8g1qx",
+        "brq_e99p5xzq"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_fvw6mgvn",
+      "decouvertes": 50,
+      "pli": [
+        "brq_gf6ye5j7",
+        "brq_9v8w7dzj",
+        "brq_rpa8g1qx"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Mots repris des fascicules d’essai Bêta et Bêta 2 et mots nouveaux, 50 mots. Faits en brouillon, localisations à renseigner. Silhouettes et jaquette à dessiner."
 }

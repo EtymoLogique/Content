@@ -597,5 +597,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_qt479cs2",
+      "decouvertes": 18,
+      "pli": [
+        "brq_vsxn1fvq",
+        "brq_0rbb0r4a"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_7j3jb5ye",
+      "decouvertes": 35,
+      "pli": [
+        "brq_s2m5eg6p",
+        "brq_jjx8njmv"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_9jw6beky",
+      "decouvertes": 69,
+      "pli": [
+        "brq_vsxn1fvq",
+        "brq_0rbb0r4a",
+        "brq_s2m5eg6p"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Mots nouveaux autour du voyage, du retour et des doctrines. Fermeture sans exclusion : toute combinaison attestée est publiée avec sa recette, et apathie, anomie et théiste comblent des trous de fermeture des fascicules précédents. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main : à relire. Silhouettes à dessiner."
 }

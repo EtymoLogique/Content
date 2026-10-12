@@ -694,5 +694,35 @@
       "exemplaires": 3
     }
   ],
+  "jalons": [
+    {
+      "id": "jal_p1j8y2gf",
+      "decouvertes": 23,
+      "pli": [
+        "brq_174dx17d",
+        "brq_39b613me"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_fchrqctc",
+      "decouvertes": 45,
+      "pli": [
+        "brq_76d58d84",
+        "brq_htjp6jdr"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_7kyqv080",
+      "decouvertes": 90,
+      "pli": [
+        "brq_174dx17d",
+        "brq_39b613me",
+        "brq_76d58d84"
+      ],
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour de la pierre, de l’inscription et du pouvoir. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }
