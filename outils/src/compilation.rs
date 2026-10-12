@@ -409,6 +409,30 @@ impl<'a> Compilateur<'a> {
             .collect()
     }
 
+    /// Les deux briques de la composition préférée, préfixe puis suffixe, quand le mot s'assemble
+    /// (ADR 0067) ; vide sinon. Les deux briques doivent figurer parmi celles des ricochets.
+    fn assemblage(&self, mot_id: &str, briques: &[Value]) -> Vec<String> {
+        let Some(composition) = self.composition_preferee(mot_id) else {
+            return Vec::new();
+        };
+        let mut parties: Vec<&Value> = liste(&composition["parties"]).iter().collect();
+        parties.sort_by_key(|p| p["rang"].as_i64());
+        let [devant, derriere] = parties.as_slice() else {
+            return Vec::new();
+        };
+        let choisie = |partie: &Value, position: &str| {
+            let brique = self.brique_par_unite.get(texte(&partie["unite_id"]))?;
+            briques
+                .iter()
+                .find(|b| b["id"] == brique["id"] && b["position"] == position)
+                .map(|b| texte(&b["id"]).to_owned())
+        };
+        match (choisie(devant, "prefixe"), choisie(derriere, "suffixe")) {
+            (Some(prefixe), Some(suffixe)) => vec![prefixe, suffixe],
+            _ => Vec::new(),
+        }
+    }
+
     /// De quoi juger un ricochet sans lire un texte (ADR 0044) : sens affiché et classes de sens des
     /// briques, classe du sens littéral et coupes des mots. Jamais de légendaire ni de mot qui en dépend.
     fn ricochets(&self, resultats: &BTreeSet<&str>, visibles: &[&String]) -> Value {
@@ -425,7 +449,7 @@ impl<'a> Compilateur<'a> {
             if matches!(nature, "prefixe" | "suffixe")
                 && let Some(classe) = classes_sens.get(sens)
             {
-                briques.push(json!({"id": brique["id"], "sens_id": sens, "classe_sens": classe}));
+                briques.push(json!({"id": brique["id"], "sens_id": sens, "classe_sens": classe, "position": nature}));
             }
         }
         briques.sort_by(|a, b| texte(&a["id"]).cmp(texte(&b["id"])));
@@ -438,12 +462,19 @@ impl<'a> Compilateur<'a> {
                 .composition_preferee(uid)
                 .map(|c| self.coupes(c))
                 .unwrap_or_default();
+            let assemblage = self.assemblage(uid, &briques);
             let mut mot = json!({"id": uid, "coupes": coupes});
+            if !assemblage.is_empty() {
+                mot["assemblage"] = json!(assemblage);
+            }
             let classe = classes_litteral.get(uid);
             if let Some(classe) = classe {
                 mot["classe_litteral"] = json!(classe);
             }
-            if classe.is_some() || !mot["coupes"].as_array().is_some_and(Vec::is_empty) {
+            if classe.is_some()
+                || !assemblage.is_empty()
+                || !mot["coupes"].as_array().is_some_and(Vec::is_empty)
+            {
                 mots.push(mot);
             }
         }

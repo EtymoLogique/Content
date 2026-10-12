@@ -535,6 +535,29 @@ fn manifeste_porte_les_donnees_de_jugement_des_ricochets() {
             .iter()
             .all(|m| m["coupes"].is_array())
     );
+    // Assembler (ADR 0067) : chaque brique a sa colonne, et l'assemblage d'un mot
+    // est un préfixe puis un suffixe publiés dans ce même manifeste.
+    assert!(
+        briques
+            .iter()
+            .all(|b| matches!(texte(&b["position"]), "prefixe" | "suffixe"))
+    );
+    let position = |id: &str| {
+        briques
+            .iter()
+            .find(|b| texte(&b["id"]) == id)
+            .map(|b| texte(&b["position"]))
+    };
+    let assemblages: Vec<&Vec<Value>> = liste(&ricochets["mots"])
+        .iter()
+        .filter_map(|m| m["assemblage"].as_array())
+        .collect();
+    assert!(!assemblages.is_empty(), "aucun mot ne s'assemble");
+    for a in assemblages {
+        assert_eq!(a.len(), 2);
+        assert_eq!(position(texte(&a[0])), Some("prefixe"));
+        assert_eq!(position(texte(&a[1])), Some("suffixe"));
+    }
 }
 
 // ------------------------------------------------------------------ trompe-l'œil (ADR 0052)
