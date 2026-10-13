@@ -959,6 +959,15 @@ fn jalon_ordre() {
 }
 
 #[test]
+fn jalon_deblocage() {
+    let depot = Depot::new();
+    depot.modifier(depot.fascicule(), |f| {
+        f["jalons"] = json!([f["jalons"][0].clone()]);
+    });
+    assert!(a_erreur(&depot, "fascicule.jalon_deblocage"));
+}
+
+#[test]
 fn jalon_duplique() {
     let depot = Depot::new();
     depot.modifier(depot.fascicule(), |f| {

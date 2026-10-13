@@ -1397,7 +1397,8 @@ impl<'a> Controleur<'a> {
     }
 
     /// Jalons (ADR 0038) : identifiants uniques, découvertes strictement croissantes,
-    /// pli fait des préfixes et suffixes du fascicule.
+    /// pli fait des préfixes et suffixes du fascicule ; au moins deux, car le
+    /// deuxième débloque le fascicule suivant (ADR 0068).
     fn jalons(
         &mut self,
         fid: &str,
@@ -1406,6 +1407,16 @@ impl<'a> Controleur<'a> {
         vus: &mut HashMap<String, String>,
     ) {
         let c = self.c;
+        if liste(&fsc["jalons"]).len() < 2 {
+            self.erreur(
+                "fascicule.jalon_deblocage",
+                format!(
+                    "Le fascicule {fid} doit déclarer au moins deux jalons : le deuxième débloque le fascicule suivant (ADR 0068)."
+                ),
+                fid,
+                None,
+            );
+        }
         let mut precedent = 0;
         for jalon in liste(&fsc["jalons"]) {
             let jid = texte(&jalon["id"]);

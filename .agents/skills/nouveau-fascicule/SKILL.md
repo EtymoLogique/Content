@@ -53,6 +53,7 @@ Avant de saisir quoi que ce soit, proposez un plan à l'utilisateur et faites-le
 - **Autonomie** : tout ingrédient est déclaré dans le fascicule, et publié par lui ou par un fascicule précédent.
 - **Unicité** : un mot n'est le résultat que d'un seul fascicule. Un mot déjà publié peut revenir comme ingrédient (*biologie* + *-iste*), jamais comme résultat.
 - **Langues** : elles découlent des unités et de leurs étymons, et chacune demande sa silhouette (ADR 0023). La langue n'est jamais une brique.
+- **Jalons** (ADR 0038) : au moins deux, idéalement trois (environ un quart, la moitié et la totalité des mots). Le deuxième débloque le fascicule suivant pour le joueur (ADR 0068) : placez-le assez tôt pour ne pas enfermer le joueur, vers la moitié des mots.
 
 ## 4. Remplir le fascicule
 
