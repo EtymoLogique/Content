@@ -33,7 +33,10 @@
       "rang": 1,
       "libelles": {
         "fr": {
-          "definition": "Carte dont les surfaces sont proportionnelles à une donnée statistique."
+          "definition": "Carte dont les surfaces sont proportionnelles à une donnée statistique.",
+          "exemples": [
+            "Une carte d’Europe où chaque pays est gonflé ou rétréci selon sa population."
+          ]
         }
       },
       "fait": {

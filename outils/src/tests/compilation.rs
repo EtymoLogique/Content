@@ -246,6 +246,29 @@ fn attestation_publiee_sur_la_carte() {
 }
 
 #[test]
+fn exemples_publies_sur_la_carte() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["sens"][0]["libelles"]["fr"]["exemples"] =
+            json!(["Une falaise dont les couches de roche sont visibles."]);
+    });
+    let uid = depot.uid("géologie");
+    let sortie = TempDir::new().unwrap();
+    let parutions = compiler_vers(&depot, sortie.path(), true);
+    let index = manifeste(sortie.path(), &parutions["fascicules"][0]);
+    let entree = liste(&index["cartes"])
+        .iter()
+        .find(|c| c["id"] == uid.as_str())
+        .unwrap()
+        .clone();
+    let carte = lire(&sortie.path().join(texte(&entree["carte"])));
+    assert_eq!(
+        carte["sens"][0]["libelles"]["fr"]["exemples"],
+        json!(["Une falaise dont les couches de roche sont visibles."])
+    );
+}
+
+#[test]
 fn manifeste_et_carte() {
     let (depot, sortie, parutions) = essai();
     let manifeste = manifeste(sortie.path(), &parutions["fascicules"][0]);

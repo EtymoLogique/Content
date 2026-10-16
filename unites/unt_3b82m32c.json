@@ -33,7 +33,12 @@
       "rang": 1,
       "libelles": {
         "fr": {
-          "definition": "Qui fait entendre plusieurs voix ou plusieurs sons à la fois."
+          "definition": "Qui fait entendre plusieurs voix ou plusieurs sons à la fois.",
+          "exemples": [
+            "Un chœur dont chaque groupe de voix chante sa propre mélodie en même temps.",
+            "Un piano ou un orgue, qui font sonner plusieurs notes à la fois.",
+            "Une sonnerie de téléphone qui joue un accord plutôt qu’une seule note."
+          ]
         }
       },
       "fait": {

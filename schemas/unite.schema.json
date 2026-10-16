@@ -131,6 +131,14 @@
               "definition": {
                 "description": "Sens actuel, en une phrase. Obligatoire pour un mot découvrable.",
                 "$ref": "communs.schema.json#/$defs/texte"
+              },
+              "exemples": {
+                "description": "Exemples concrets pour se représenter un mot peu imaginable (une situation, un objet, une scène), rédigés, jamais copiés. Affichés au dos de la carte, sans nommer le mot nécessairement.",
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 5,
+                "uniqueItems": true,
+                "items": { "$ref": "communs.schema.json#/$defs/texte" }
               }
             }
           }

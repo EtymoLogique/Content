@@ -33,7 +33,10 @@
       "rang": 1,
       "libelles": {
         "fr": {
-          "definition": "Correspondance entre des éléments de même origine ou de même rôle."
+          "definition": "Correspondance entre des éléments de même origine ou de même rôle.",
+          "exemples": [
+            "Le bras d’un humain, la nageoire d’une baleine et l’aile d’une chauve-souris : des os disposés de la même façon pour des usages différents."
+          ]
         }
       },
       "fait": {
