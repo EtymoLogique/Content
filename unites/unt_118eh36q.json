@@ -43,7 +43,11 @@
       "rang": 1,
       "libelles": {
         "fr": {
-          "definition": "Branche des mathématiques qui étudie les propriétés conservées par déformation continue."
+          "definition": "Branche des mathématiques qui étudie les propriétés conservées par déformation continue.",
+          "exemples": [
+            "Une tasse et un beignet : on passe de l’une à l’autre en déformant la pâte, sans la couper ni la recoller.",
+            "Le plan d’un métro, qui garde l’ordre des stations et leurs correspondances, mais pas les distances."
+          ]
         }
       },
       "fait": {

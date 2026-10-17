@@ -186,6 +186,35 @@ fn forme_sans_trait_union() {
     assert!(a_erreur(&depot, "forme.trait_union"));
 }
 
+// ---------------------------------------------------------------- exemples d'un sens
+
+#[test]
+fn exemples_valides() {
+    let depot = Depot::new();
+    depot.modifier(depot.unite("géologie"), |u| {
+        u["sens"][0]["libelles"]["fr"]["exemples"] =
+            json!(["Une falaise dont les couches de roche sont visibles."]);
+    });
+    let rapport = depot.valider();
+    assert!(erreurs(&rapport).is_empty(), "{}", rapport.en_texte());
+}
+
+#[test]
+fn exemples_non_vides_bornes_et_distincts() {
+    let depot = Depot::new();
+    for exemples in [
+        json!([]),
+        json!([""]),
+        json!(["a", "b", "c", "d", "e", "f"]),
+        json!(["Deux fois", "Deux fois"]),
+    ] {
+        depot.modifier(depot.unite("géologie"), |u| {
+            u["sens"][0]["libelles"]["fr"]["exemples"] = exemples.clone();
+        });
+        assert!(a_erreur(&depot, "schema"), "{exemples}");
+    }
+}
+
 // ------------------------------------------------------------- attestation (ADR 0056)
 
 pub(super) fn attestation(annee: i64, precision: &str) -> Value {
