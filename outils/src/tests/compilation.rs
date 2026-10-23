@@ -530,6 +530,49 @@ fn manifeste_publie_les_jalons() {
 }
 
 #[test]
+fn manifeste_publie_les_quetes_de_collection_sans_legendaire() {
+    let (manifeste, _) = manifeste_apres(|depot| {
+        depot.modifier(depot.fascicule(), |f| {
+            f["collections"] = json!([
+                {"id": "pal_00000c01", "critere": "prefixes", "encre": 20, "sabliers": 1},
+                {"id": "pal_00000c02", "critere": "mots_communs", "encre": 20, "sabliers": 0},
+            ]);
+        });
+    });
+    let collections = liste(&manifeste["collections"]);
+    assert_eq!(collections.len(), 2);
+    let cles: BTreeSet<&str> = collections[0]
+        .as_object()
+        .unwrap()
+        .keys()
+        .map(String::as_str)
+        .collect();
+    assert_eq!(
+        cles,
+        BTreeSet::from(["id", "critere", "encre", "sabliers", "membres"])
+    );
+    let prefixes: Vec<&str> = liste(&collections[0]["membres"])
+        .iter()
+        .map(texte)
+        .collect();
+    assert!(!prefixes.is_empty());
+    assert!(prefixes.iter().all(|b| b.starts_with("brq_")));
+    // La brique légendaire du jeu d'exemples n'y figure jamais (ADR 0043).
+    assert!(!prefixes.contains(&Depot::new().id_brique("étymo").as_str()));
+    let mots: Vec<&str> = liste(&collections[1]["membres"])
+        .iter()
+        .map(texte)
+        .collect();
+    assert!(!mots.is_empty() && mots.iter().all(|m| m.starts_with("unt_")));
+}
+
+#[test]
+fn sans_quete_de_collection_le_manifeste_n_en_porte_pas() {
+    let (manifeste, _) = manifeste_apres(|_| {});
+    assert!(manifeste.get("collections").is_none());
+}
+
+#[test]
 fn manifeste_porte_les_donnees_de_jugement_des_ricochets() {
     let (depot, sortie, parutions) = essai();
     let ricochets = manifeste(sortie.path(), &parutions["fascicules"][0])["ricochets"].clone();

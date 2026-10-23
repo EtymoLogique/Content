@@ -27,6 +27,7 @@ use sha2::{Digest, Sha256};
 use unicode_normalization::UnicodeNormalization;
 
 use crate::chargement::{Catalogue, Table};
+use crate::collections;
 use crate::homographes;
 use crate::json::{CANONIQUE, a_cle, ecrire, liste, texte, vrai};
 use crate::medias::{self, CleMedia};
@@ -673,6 +674,14 @@ impl<'a> Compilateur<'a> {
                 json!({"id": j["id"], "decouvertes": j["decouvertes"], "pli": pli, "sabliers": j["sabliers"]})
             })
             .collect();
+        // Quêtes de collection (App#90) : leurs membres, hors légendaires, calculés une fois ici.
+        let collections: Vec<Value> = liste(&fsc["collections"])
+            .iter()
+            .map(|q| {
+                let membres = collections::membres(c, fid, texte(&q["critere"]));
+                json!({"id": q["id"], "critere": q["critere"], "encre": q["encre"], "sabliers": q["sabliers"], "membres": membres})
+            })
+            .collect();
         let mut graines: Vec<&Value> = liste(&fsc["graines"]).iter().collect();
         graines.sort_by(|a, b| texte(&a["brique_id"]).cmp(texte(&b["brique_id"])));
 
@@ -709,6 +718,9 @@ impl<'a> Compilateur<'a> {
         }
         if !homographes.is_empty() {
             manifeste["homographes"] = json!(homographes);
+        }
+        if !collections.is_empty() {
+            manifeste["collections"] = json!(collections);
         }
         if vrai(&fsc["test"]) {
             manifeste["test"] = Value::Bool(true);

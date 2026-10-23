@@ -10,6 +10,7 @@ use clap::{Parser, Subcommand};
 
 mod candidats;
 mod chargement;
+mod collections;
 mod compilation;
 mod controles;
 mod homographes;

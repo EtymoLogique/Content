@@ -81,6 +81,21 @@
         ]
       }
     },
+    "collections": {
+      "description": "Quêtes de collection du fascicule (App#90) : tous ses préfixes, tous ses suffixes, tous ses mots d'une rareté. Les membres se calculent à la compilation, hors légendaires ; la récompense se récupère comme un palier (ADR 0042).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "critere", "encre", "sabliers"],
+        "properties": {
+          "id": { "$ref": "communs.schema.json#/$defs/id_palier" },
+          "critere": { "enum": ["prefixes", "suffixes", "mots_communs", "mots_peu_communs", "mots_rares"] },
+          "encre": { "type": "integer", "minimum": 0, "maximum": 200 },
+          "sabliers": { "type": "integer", "minimum": 0, "maximum": 12 }
+        }
+      }
+    },
     "note_interne": { "$ref": "communs.schema.json#/$defs/note_interne" }
   },
   "if": { "properties": { "test": { "const": false } } },

@@ -1821,3 +1821,65 @@ fn le_cadeau_ne_donne_que_des_briques_de_fascicules() {
     depot.ecrire_quetes(&quetes);
     assert!(a_erreur(&depot, "reference.cassee"));
 }
+
+// ------------------------------------------------------------ quêtes de collection (App#90)
+
+fn collections(depot: &Depot, quetes: serde_json::Value) {
+    depot.modifier(depot.fascicule(), |f| f["collections"] = quetes);
+}
+
+#[test]
+fn collection_doublon() {
+    let depot = Depot::new();
+    collections(
+        &depot,
+        json!([
+            {"id": "pal_00000c01", "critere": "suffixes", "encre": 20, "sabliers": 1},
+            {"id": "pal_00000c02", "critere": "suffixes", "encre": 20, "sabliers": 1},
+        ]),
+    );
+    assert!(a_erreur(&depot, "fascicule.collection_doublon"));
+}
+
+#[test]
+fn collection_doublon_avec_un_palier_de_quete() {
+    let depot = Depot::new();
+    let quetes = depot.quetes_valides();
+    let palier = quetes["quetes"][0]["paliers"][0]["id"].clone();
+    depot.ecrire_quetes(&quetes);
+    collections(
+        &depot,
+        json!([{"id": palier, "critere": "suffixes", "encre": 20, "sabliers": 1}]),
+    );
+    assert!(a_erreur(&depot, "fascicule.collection_doublon"));
+}
+
+#[test]
+fn collection_trop_petite() {
+    let depot = Depot::new();
+    collections(
+        &depot,
+        json!([{"id": "pal_00000c01", "critere": "mots_rares", "encre": 40, "sabliers": 1}]),
+    );
+    assert!(a_erreur(&depot, "fascicule.collection_trop_petite"));
+}
+
+#[test]
+fn collection_sans_recompense() {
+    let depot = Depot::new();
+    collections(
+        &depot,
+        json!([{"id": "pal_00000c01", "critere": "suffixes", "encre": 0, "sabliers": 0}]),
+    );
+    assert!(a_erreur(&depot, "fascicule.collection_sans_recompense"));
+}
+
+#[test]
+fn collection_critere_inconnu() {
+    let depot = Depot::new();
+    collections(
+        &depot,
+        json!([{"id": "pal_00000c01", "critere": "mots_difficiles", "encre": 20, "sabliers": 0}]),
+    );
+    assert!(a_erreur(&depot, "schema"));
+}
