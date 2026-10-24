@@ -647,5 +647,37 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_ha4s1xct",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_hy6jdbs7",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_mm8tqwfw",
+      "critere": "mots_communs",
+      "encre": 20,
+      "sabliers": 0
+    },
+    {
+      "id": "pal_2vak1vjj",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_af3t5rmy",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour des langues, des récits et des peuples. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }

@@ -530,5 +530,37 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_3kswngy7",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_b1a51y00",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_hxxt1kjx",
+      "critere": "mots_communs",
+      "encre": 20,
+      "sabliers": 0
+    },
+    {
+      "id": "pal_kf4gv151",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_g7mh1dvv",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Mots nouveaux autour du corps et de la médecine. Fermeture sans exclusion : toute combinaison attestée est publiée avec sa recette. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }

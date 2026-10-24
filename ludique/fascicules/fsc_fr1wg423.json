@@ -404,5 +404,37 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_15vt26h8",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_e245tk3n",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_j4y80ey9",
+      "critere": "mots_communs",
+      "encre": 20,
+      "sabliers": 0
+    },
+    {
+      "id": "pal_er6h2t1w",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_q9cf905c",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Mots repris des fascicules d’essai Bêta et Bêta 2 et mots nouveaux, 50 mots. Faits en brouillon, localisations à renseigner. Silhouettes et jaquette à dessiner."
 }

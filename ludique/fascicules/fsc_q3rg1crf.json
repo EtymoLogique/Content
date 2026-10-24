@@ -681,5 +681,37 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_79r62528",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_4bn0t3gd",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_c9fh455m",
+      "critere": "mots_communs",
+      "encre": 20,
+      "sabliers": 0
+    },
+    {
+      "id": "pal_8s05e05p",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_gc34mkrt",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour des mesures, des caractères et des nombres. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Les mots de masse (kilogramme…) sont exclus : la brique -gramme publiée signifie « écrit », pas l’unité. Silhouettes à dessiner."
 }

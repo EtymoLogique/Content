@@ -627,5 +627,37 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_bwhht2pv",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_8cjdez98",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_9r3xn0z2",
+      "critere": "mots_communs",
+      "encre": 20,
+      "sabliers": 0
+    },
+    {
+      "id": "pal_54nwc90d",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_jp2yehb6",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Mots nouveaux autour du voyage, du retour et des doctrines. Fermeture sans exclusion : toute combinaison attestée est publiée avec sa recette, et apathie, anomie et théiste comblent des trous de fermeture des fascicules précédents. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main : à relire. Silhouettes à dessiner."
 }

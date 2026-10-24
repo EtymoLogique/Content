@@ -840,5 +840,37 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_akpt12cm",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_3pwfbdja",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_8pa2zrvd",
+      "critere": "mots_communs",
+      "encre": 20,
+      "sabliers": 0
+    },
+    {
+      "id": "pal_7vygpsfj",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_s48z6abe",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "50 mots nouveaux autour des noms (-onyme, -onymie) et du suffixe -ique. Faits en brouillon, localisations à renseigner. Fermeture vérifiée à la main sur toutes les briques publiées : à relire. Silhouettes à dessiner."
 }

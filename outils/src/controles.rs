@@ -1191,6 +1191,19 @@ impl<'a> Controleur<'a> {
         let c = self.c;
         let mut numeros: HashMap<(bool, i64), &str> = HashMap::new();
         let mut jalons: HashMap<String, String> = HashMap::new();
+        // Identifiants de palier déjà pris : ceux des quêtes au long cours, puis ceux des collections.
+        let mut collections: HashMap<String, String> = c
+            .quetes
+            .iter()
+            .flat_map(|q| liste(&q["quetes"]))
+            .flat_map(|q| liste(&q["paliers"]))
+            .map(|p| {
+                (
+                    texte(&p["id"]).to_owned(),
+                    crate::chargement::QUETES.to_owned(),
+                )
+            })
+            .collect();
         let mut resultats: HashMap<(bool, &str), &str> = HashMap::new();
         for (fid, fsc) in &c.fascicules {
             let test = vrai(&fsc["test"]);
@@ -1263,6 +1276,7 @@ impl<'a> Controleur<'a> {
             }
             self.graines(fid, fsc, &vus);
             self.jalons(fid, fsc, &vus, &mut jalons);
+            self.collections(fid, fsc, &mut collections);
         }
 
         for (fid, fsc) in &c.fascicules {
@@ -1476,6 +1490,56 @@ impl<'a> Controleur<'a> {
                         None,
                     );
                 }
+            }
+        }
+    }
+
+    /// Quêtes de collection (App#90) : un identifiant de palier jamais repris, un
+    /// critère au plus une fois par fascicule, au moins trois membres hors
+    /// légendaires, et une récompense.
+    fn collections(&mut self, fid: &str, fsc: &Value, vus: &mut HashMap<String, String>) {
+        let mut criteres: HashSet<&str> = HashSet::new();
+        for quete in liste(&fsc["collections"]) {
+            let id = texte(&quete["id"]);
+            let critere = texte(&quete["critere"]);
+            if let Some(autre) = vus.get(id) {
+                self.erreur(
+                    "fascicule.collection_doublon",
+                    format!("Le palier {id} est déjà déclaré par {autre}."),
+                    fid,
+                    None,
+                );
+            }
+            vus.insert(id.to_owned(), fid.to_owned());
+            if !criteres.insert(critere) {
+                self.erreur(
+                    "fascicule.collection_doublon",
+                    format!("La quête de collection « {critere} » est déclarée deux fois."),
+                    fid,
+                    None,
+                );
+            }
+            let membres = crate::collections::membres(self.c, fid, critere).len();
+            if membres < crate::collections::MEMBRES_MIN {
+                self.erreur(
+                    "fascicule.collection_trop_petite",
+                    format!(
+                        "La quête de collection « {critere} » ne compte que {membres} carte(s), hors légendaires : il en faut au moins {}.",
+                        crate::collections::MEMBRES_MIN
+                    ),
+                    fid,
+                    None,
+                );
+            }
+            if quete["encre"].as_i64().unwrap_or(0) == 0
+                && quete["sabliers"].as_i64().unwrap_or(0) == 0
+            {
+                self.erreur(
+                    "fascicule.collection_sans_recompense",
+                    format!("La quête de collection {id} ne donne rien."),
+                    fid,
+                    None,
+                );
             }
         }
     }

@@ -349,5 +349,31 @@
       "sabliers": 1
     }
   ],
+  "collections": [
+    {
+      "id": "pal_me8kxa47",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_p8dfg0pf",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_2aenyapb",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_9p4hgr4b",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
   "note_interne": "Parution au 1ᵉʳ décembre 2026, 19 jours après le n° 10 : choix éditorial du 12 octobre 2026. Nouvelles briques : -ode « chemin », -opsie « vue », nécro- « mort ». Tous leurs mots croisés attestés par Wikidata sont publiés, y compris photopsie, polyopsie, zoopsie, bradyopsie, téléopsie, nécronyme, nécrocratie et nécropsie (choix éditorial du 12 octobre 2026). Palinopsie, sur palin- légendaire, est le mot légendaire du fascicule. Trous de fermeture des fascicules précédents comblés : autiste, graphique, graphisme, graphiste, éponymie, éparchie, hyperalgie, aéromancie. Restent ouverts, attestés par Wikidata : endonyme, exonyme, synarchie, stéréotomie, toparque, exarque, éparque, mononyme, hyponymie, hyperonymie, théonymie, zoonymie, ethnonymie, chrononyme, hipparque, hypothèque. Trompe-l’œil à examiner : géode et épode, qui ne viennent pas de hodós, et hydropsie, du grec hudrôps. Nécrophile écarté par une exclusion (offensant). 31 mots, un de plus que le plafond : choix éditorial du 12 octobre 2026, pour garder les tiers. Faits en brouillon : Wikidata ne porte aucune composition de ces mots."
 }
