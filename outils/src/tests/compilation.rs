@@ -626,6 +626,60 @@ fn manifeste_porte_les_donnees_de_jugement_des_ricochets() {
     }
 }
 
+// ------------------------------------------------------- découpes en chaîne (ADR 0084)
+
+/// Le mot publié dans les ricochets du manifeste, par sa graphie.
+fn mot_de_ricochet(manifeste: &Value, depot: &Depot, graphie: &str) -> Option<Value> {
+    let uid = depot.uid(graphie);
+    liste(&manifeste["ricochets"]["mots"])
+        .iter()
+        .find(|m| texte(&m["id"]) == uid)
+        .cloned()
+}
+
+#[test]
+fn une_composition_chainee_publie_ses_autres_decoupes() {
+    let depot = Depot::new();
+    let sortie = TempDir::new().unwrap();
+    let parutions = compiler_vers(&depot, sortie.path(), true);
+    let manifeste = manifeste(sortie.path(), &liste(&parutions["fascicules"])[0]);
+    // biologiste = biologie · iste, et biologie = bio · logie.
+    let mot = mot_de_ricochet(&manifeste, &depot, "biologiste").expect("biologiste est publié");
+    assert_eq!(mot["coupes"], json!([6]));
+    assert_eq!(mot["autres_coupes"], json!([[3, 6]]));
+}
+
+#[test]
+fn un_mot_sans_composition_chainee_n_a_pas_d_autres_decoupes() {
+    let depot = Depot::new();
+    let sortie = TempDir::new().unwrap();
+    let parutions = compiler_vers(&depot, sortie.path(), true);
+    let manifeste = manifeste(sortie.path(), &liste(&parutions["fascicules"])[0]);
+    let mot = mot_de_ricochet(&manifeste, &depot, "géologie").expect("géologie est publié");
+    assert_eq!(mot["coupes"], json!([3]));
+    assert!(mot.get("autres_coupes").is_none());
+}
+
+#[test]
+fn une_coupe_au_dela_de_la_partie_elidee_n_existe_pas() {
+    // Si la partie « biologie » ne couvre plus que [0, 2) de « biologiste », la coupe de « biologie »
+    // à 3 tombe hors du mot : il ne reste que la découpe de premier niveau.
+    let depot = Depot::new();
+    let ecrire = |depot: &Depot| {
+        depot.modifier(depot.composition("biologiste"), |c| {
+            c["parties"][0]["segment_fin"] = json!(2);
+            c["parties"][1]["segment_debut"] = json!(2);
+        });
+    };
+    ecrire(&depot);
+    let sortie = TempDir::new().unwrap();
+    let parutions = compiler_vers(&depot, sortie.path(), true);
+    let manifeste = manifeste(sortie.path(), &liste(&parutions["fascicules"])[0]);
+    let mot = mot_de_ricochet(&manifeste, &depot, "biologiste").expect("biologiste est publié");
+    assert_eq!(mot["coupes"], json!([2]));
+    assert!(mot.get("autres_coupes").is_none());
+}
+
 // ------------------------------------------------------------------ trompe-l'œil (ADR 0052)
 
 /// Compile l'essai après avoir préparé le dépôt ; renvoie le manifeste du fascicule d'essai.

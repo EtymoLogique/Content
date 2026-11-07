@@ -34,6 +34,9 @@ use crate::medias::{self, CleMedia};
 
 pub const FORMAT: i64 = 1;
 
+/// Nombre de découpes que l'API accepte pour un mot (`DECOUPES_MAX`, crates/api/src/ricochets.rs).
+const DECOUPES_MAX: usize = 4;
+
 /// Champs éditoriaux jamais publiés (modèle de données, carte de répartition).
 pub const CHAMPS_PRIVES: [&str; 2] = ["note_interne", "etat_relecture"];
 
@@ -410,6 +413,68 @@ impl<'a> Compilateur<'a> {
             .collect()
     }
 
+    /// Toutes les découpes justes d'un mot, la préférée d'abord, positions relatives à sa forme (ADR 0084).
+    ///
+    /// Une partie qui est elle-même un mot composé peut se couper à son tour : *étymologiste* se coupe
+    /// en *étymologie · iste*, puis *étymologie* en *étymo · logie*, soit `[10]` et `[5, 10]`. Chaque
+    /// partie compte pour une découpe indépendante, d'où toutes les combinaisons. Une partie élidée
+    /// (*biologie* dans *biologiste*) est bornée par son segment : une coupe au-delà n'existe pas dans
+    /// le mot. Vide : le mot ne se coupe pas.
+    fn decoupes(&self, mot_id: &str, vus: &[&str]) -> Vec<Vec<i64>> {
+        let Some(composition) = self.composition_preferee(mot_id) else {
+            return Vec::new();
+        };
+        let base = self.coupes(composition);
+        if base.is_empty() {
+            return Vec::new();
+        }
+        let mut parties: Vec<&Value> = liste(&composition["parties"]).iter().collect();
+        parties.sort_by_key(|p| p["rang"].as_i64());
+        let vus: Vec<&str> = vus.iter().copied().chain([mot_id]).collect();
+        let mut toutes = vec![base];
+        for partie in parties {
+            let (Some(debut), Some(fin)) = (
+                partie["segment_debut"].as_i64(),
+                partie["segment_fin"].as_i64(),
+            ) else {
+                continue;
+            };
+            let unite = texte(&partie["unite_id"]);
+            if vus.contains(&unite) {
+                continue;
+            }
+            // Les façons de couper cette partie, ramenées dans le mot entier.
+            let mut options: Vec<Vec<i64>> = Vec::new();
+            for relatives in self.decoupes(unite, &vus) {
+                let ramenees: Vec<i64> = relatives
+                    .into_iter()
+                    .filter(|c| *c < fin - debut)
+                    .map(|c| c + debut)
+                    .collect();
+                if !ramenees.is_empty() && !options.contains(&ramenees) {
+                    options.push(ramenees);
+                }
+            }
+            let mut suite = toutes.clone();
+            for existante in &toutes {
+                for option in &options {
+                    let mut fusion: Vec<i64> = existante.iter().chain(option).copied().collect();
+                    fusion.sort_unstable();
+                    fusion.dedup();
+                    if !suite.contains(&fusion) {
+                        suite.push(fusion);
+                    }
+                }
+            }
+            toutes = suite;
+        }
+        // La préférée d'abord, puis les autres par nombre de coupes croissant.
+        let base = toutes.remove(0);
+        toutes.sort_by(|a, b| a.len().cmp(&b.len()).then_with(|| a.cmp(b)));
+        toutes.insert(0, base);
+        toutes
+    }
+
     /// Les deux briques de la composition préférée, préfixe puis suffixe, quand le mot s'assemble
     /// (ADR 0067) ; vide sinon. Les deux briques doivent figurer parmi celles des ricochets.
     fn assemblage(&self, mot_id: &str, briques: &[Value]) -> Vec<String> {
@@ -465,6 +530,12 @@ impl<'a> Compilateur<'a> {
                 .unwrap_or_default();
             let assemblage = self.assemblage(uid, &briques);
             let mut mot = json!({"id": uid, "coupes": coupes});
+            // Les autres découpes justes (ADR 0084). Au-delà de ce que l'API accepte, le joueur ne pourrait
+            // pas deviner lesquelles poser : on n'en publie aucune plutôt qu'une partie.
+            let decoupes = self.decoupes(uid, &[]);
+            if (2..=DECOUPES_MAX).contains(&decoupes.len()) {
+                mot["autres_coupes"] = json!(&decoupes[1..]);
+            }
             if !assemblage.is_empty() {
                 mot["assemblage"] = json!(assemblage);
             }
