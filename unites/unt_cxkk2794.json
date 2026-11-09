@@ -1,0 +1,62 @@
+{
+  "id": "unt_cxkk2794",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1174151, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Lexème L1174151 « radio- » (français, préfixe) consulté le 9 novembre 2026 (ADR 0060) : dérivé du lexème latin radius (L283145)."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_b61fkxg8",
+      "texte": "radio",
+      "cle_normalisee": "radio",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1174151, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1174151 « radio- » (français, préfixe) consulté le 9 novembre 2026 (ADR 0060) : dérivé du lexème latin radius (L283145)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_m612dm02",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "rayon"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1174151, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1174151 « radio- » (français, préfixe) consulté le 9 novembre 2026 (ADR 0060) : dérivé du lexème latin radius (L283145). Glose rédigée."
+      }
+    }
+  ]
+}

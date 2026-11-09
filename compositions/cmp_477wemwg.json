@@ -1,0 +1,39 @@
+{
+  "id": "cmp_477wemwg",
+  "mot_id": "unt_fkwewt1q",
+  "forme_resultat_id": "frm_x4t63h2k",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiobiologie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_hbcnmcc7",
+      "sens_id": "sns_z6x4nf1x",
+      "forme_id": "frm_380t4yaz",
+      "segment_debut": 5,
+      "segment_fin": 13
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "biologie des rayons",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : radio- s’ajoute à biologie.",
+      "explication_detaillee": "La biologie reçoit le préfixe radio-, « rayon ». La radiobiologie cherche ce que les rayonnements font aux cellules : les abîmer, les réparer, ou les tuer pour soigner."
+    }
+  }
+}

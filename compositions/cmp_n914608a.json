@@ -1,0 +1,39 @@
+{
+  "id": "cmp_n914608a",
+  "mot_id": "unt_ds5hgena",
+  "forme_resultat_id": "frm_2jbqey6p",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiomètre ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5f6v9qv2",
+      "sens_id": "sns_20mc9k7p",
+      "forme_id": "frm_by0tw0ey",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "mesure des rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec métron, « mesure ».",
+      "explication_detaillee": "Le radiomètre mesure la force d’un rayonnement, lumière ou chaleur. Le plus célèbre est un moulinet sous une cloche de verre, qui tourne tout seul au soleil."
+    }
+  }
+}

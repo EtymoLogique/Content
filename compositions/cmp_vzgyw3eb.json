@@ -1,0 +1,39 @@
+{
+  "id": "cmp_vzgyw3eb",
+  "mot_id": "unt_83zp8jd8",
+  "forme_resultat_id": "frm_75rfqwfw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiologue ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste des rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec lógos, « discours, étude ».",
+      "explication_detaillee": "Le radiologue n’étudie pas les rayons pour eux-mêmes : c’est un médecin. Il prend des clichés, lit des scanners et des IRM, puis explique ce qu’il voit."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "unt_9t5rfwa8",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q1144278 et Q18246606, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q1144278 et Q18246606."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_t7z7h81p",
+      "texte": "éparque",
+      "cle_normalisee": "éparque",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q1144278 et Q18246606, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q1144278 et Q18246606."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_125b9w3x",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "évêque d’une Église d’Orient",
+          "definition": "Évêque à la tête d’un diocèse, dans les Églises orientales ; dans l’Empire byzantin, gouverneur d’une province."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q1144278 et Q18246606, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q1144278 et Q18246606. Glose rédigée."
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cmp_nh5pme5w",
+  "mot_id": "unt_krknpn4d",
+  "forme_resultat_id": "frm_tpavd98z",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiogéologie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg3f1bfz",
+      "sens_id": "sns_5jwf144h",
+      "forme_id": "frm_9kfe8v54",
+      "segment_debut": 5,
+      "segment_fin": 13
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "géologie des rayons",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : radio- s’ajoute à géologie.",
+      "explication_detaillee": "La géologie reçoit le préfixe radio-. La radiogéologie mesure les rayonnements que les roches émettent d’elles-mêmes. Ils servent aussi à les dater."
+    }
+  }
+}

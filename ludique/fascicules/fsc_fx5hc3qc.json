@@ -1,0 +1,366 @@
+{
+  "id": "fsc_fx5hc3qc",
+  "numero": 12,
+  "nom": "Cunéiforme",
+  "parution": "2027-01-01T00:00:00Z",
+  "test": false,
+  "unites": [
+    {
+      "unite_id": "unt_nfvnra63",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_83zp8jd8",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_ds5hgena",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_m6tsnkad",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_2w53yr50",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_fkwewt1q",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_g2zpfe8s",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_krknpn4d",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_cq4dyyjr",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_a0ayfb7w",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_dzpm620t",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_677t2tqp",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_mq03pbfk",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_grsvpfg7",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_d2br3mb3",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_2g51ee26",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_0wp9cbs7",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_3ew6mzmy",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_msx8w09a",
+      "role": "resultat",
+      "difficulte": "facile"
+    },
+    {
+      "unite_id": "unt_bmqzmgvv",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_1vr74fsy",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_5jk7g642",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_80c0y5h2",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_aatecwtp",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_9t5rfwa8",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_s6q7zkcr",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_rq4tcjg0",
+      "role": "resultat",
+      "difficulte": "difficile"
+    },
+    {
+      "unite_id": "unt_1fph0v9x",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_swxk4qd5",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_7qpyq08j",
+      "role": "resultat",
+      "difficulte": "moyen"
+    },
+    {
+      "unite_id": "unt_cxkk2794",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_a68qbsx3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_k3cdbdp9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_mk61g05z",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4bdmzv0a",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5f6v9qv2",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_r0a5xapy",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x195x7vr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_hbcnmcc7",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ernd6cxe",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dg3f1bfz",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5c0dmses",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5hc0cnmn",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_9034v2xa",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_58txf6bd",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wqz6cnsr",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_t7qdb2f7",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_cwjcezp8",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_vq28zv88",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ak4fdsk0",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_7w5qh08v",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_8vpkshzf",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_x8r491qt",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_7a7vdys9",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_5cfw2nca",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_zhgpk4fs",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_wj9ynyj3",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_xk6sz9vg",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_n7h1qr6w",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_4tx8033j",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_ys8y007w",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_k7kbn7rj",
+      "role": "ingredient"
+    },
+    {
+      "unite_id": "unt_dg2k1q5r",
+      "role": "ingredient"
+    }
+  ],
+  "graines": [
+    {
+      "brique_id": "brq_mr2w5pqv",
+      "exemplaires": 3
+    },
+    {
+      "brique_id": "brq_nxnskges",
+      "exemplaires": 1
+    },
+    {
+      "brique_id": "brq_e99p5xzq",
+      "exemplaires": 2
+    },
+    {
+      "brique_id": "brq_dgsqy6tc",
+      "exemplaires": 1
+    }
+  ],
+  "jalons": [
+    {
+      "id": "jal_ka3f5vmc",
+      "decouvertes": 8,
+      "pli": [
+        "brq_mr2w5pqv",
+        "brq_nxnskges"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_b46z3n9t",
+      "decouvertes": 15,
+      "pli": [
+        "brq_mr2w5pqv",
+        "brq_stm5qm5w"
+      ],
+      "sabliers": 0
+    },
+    {
+      "id": "jal_sb0f71k1",
+      "decouvertes": 30,
+      "pli": [
+        "brq_mr2w5pqv",
+        "brq_nxnskges",
+        "brq_gxz06b3e"
+      ],
+      "sabliers": 1
+    }
+  ],
+  "collections": [
+    {
+      "id": "pal_9h3881jr",
+      "critere": "prefixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_v6s5nfme",
+      "critere": "suffixes",
+      "encre": 20,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_145qyspe",
+      "critere": "mots_peu_communs",
+      "encre": 30,
+      "sabliers": 1
+    },
+    {
+      "id": "pal_jnwkaf5e",
+      "critere": "mots_rares",
+      "encre": 40,
+      "sabliers": 1
+    }
+  ],
+  "note_interne": "Date provisoire (1ᵉʳ janvier 2027, 31 jours après le n° 11), à confirmer par le skill preparer-publication. Nouvelles briques : radio- « rayon » (lexème L1174151, du latin radius), toxico- « poison » (sans lexème d’affixe dans Wikidata), et deux mots déjà découverts devenus briques pour les chaînes : radiobiologie (rare) et télégraphiste (légendaire, d’où radiotélégraphiste, mot légendaire du fascicule). Tous les mots croisés de radio- et toxico- attestés par Wikidata (éléments ou lexèmes, consultés le 9 novembre 2026) sont publiés. radiophonique (L657207) n’est pas publié : il faudrait faire de phonique une brique, ce qui ouvre une cascade de fermeture. Dette du n° 11 comblée : endonyme, exonyme, mononyme, chrononyme, toparque, éparque, hipparque, hyponymie, hyperonymie, stéréotomie, hypothèque. Restent ouverts, attestés par Wikidata : synarchie, hippologue, théonymie, zoonymie, ethnonymie (reportés au n° 13 pour tenir sous 30 mots), et exarque (Q4144428), qui vient du grec ex- et non d’exo- : un trompe-l’œil probable, non saisi faute d’une source Wikidata pour l’étymologie. Tiers : 10 faciles, 11 moyens, 8 difficiles ; seuls les mots à élision peuvent être difficiles, et la fermeture impose les faciles de radio- et toxico-. Faits en brouillon : Wikidata ne porte aucune composition de ces mots."
+}

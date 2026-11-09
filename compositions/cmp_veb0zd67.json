@@ -1,0 +1,51 @@
+{
+  "id": "cmp_veb0zd67",
+  "mot_id": "unt_5jk7g642",
+  "forme_resultat_id": "frm_srfr32p3",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « mononyme ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_8vpkshzf",
+      "sens_id": "sns_td6c0wkj",
+      "forme_id": "frm_5cqyxegq",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj",
+      "segment_debut": 3,
+      "segment_fin": 8
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_nvpaz4kp",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de mono- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom seul",
+      "explication_courte": "Du grec mónos, « seul », et ónoma, « nom ».",
+      "explication_detaillee": "Un seul nom suffit : Platon, Cléopâtre ou Michel-Ange sont des mononymes. Le mot désigne la personne autant que le nom."
+    }
+  }
+}

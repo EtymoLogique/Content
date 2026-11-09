@@ -1,0 +1,39 @@
+{
+  "id": "cmp_sxwvd0pc",
+  "mot_id": "unt_0wp9cbs7",
+  "forme_resultat_id": "frm_j73r5e9c",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « toxicomane ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a68qbsx3",
+      "sens_id": "sns_a6kgq1sn",
+      "forme_id": "frm_3pvssh82",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_t7qdb2f7",
+      "sens_id": "sns_wqnw6amm",
+      "forme_id": "frm_3578z368",
+      "segment_debut": 6,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "fou de poison",
+      "explication_courte": "Du grec toxikón, « poison », et manía, « folie ».",
+      "explication_detaillee": "Le sens littéral, « fou de poison », a glissé : le toxicomane est une personne prise dans la dépendance à une drogue. Le mot décrit une maladie, pas une folie."
+    }
+  }
+}

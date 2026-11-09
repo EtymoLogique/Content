@@ -1,0 +1,39 @@
+{
+  "id": "cmp_3557rxjq",
+  "mot_id": "unt_g2zpfe8s",
+  "forme_resultat_id": "frm_828426x0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiogramme ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ernd6cxe",
+      "sens_id": "sns_5c7yghcv",
+      "forme_id": "frm_d8av9w3y",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écrit par les rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec grámma, « lettre, écrit ».",
+      "explication_detaillee": "Avant le téléphone portable, un navire en mer envoyait des radiogrammes. Le texte voyageait par ondes radio, puis on le recopiait à l’arrivée, comme un télégramme."
+    }
+  }
+}

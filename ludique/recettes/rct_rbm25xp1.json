@@ -1,0 +1,19 @@
+{
+  "id": "rct_rbm25xp1",
+  "composition_id": "cmp_7jp3c57x",
+  "emplacements": [
+    {
+      "rang": 1,
+      "briques_acceptees": [
+        "brq_nxnskges"
+      ]
+    },
+    {
+      "rang": 2,
+      "briques_acceptees": [
+        "brq_yhxxnrds"
+      ]
+    }
+  ],
+  "note_interne": null
+}

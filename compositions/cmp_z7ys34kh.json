@@ -1,0 +1,39 @@
+{
+  "id": "cmp_z7ys34kh",
+  "mot_id": "unt_a0ayfb7w",
+  "forme_resultat_id": "frm_gfatp243",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiophobie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur des rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec phóbos, « peur ».",
+      "explication_detaillee": "La radiophobie est la peur des rayonnements, qu’on ne voit ni ne sent. Elle peut aller jusqu’à refuser une simple radio chez le dentiste."
+    }
+  }
+}

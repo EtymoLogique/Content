@@ -1,0 +1,63 @@
+{
+  "id": "unt_mq03pbfk",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L621541 et Q21202260, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L621541 et Q21202260."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_bhbjv33v",
+      "texte": "radiobiologiste",
+      "cle_normalisee": "radiobiologiste",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L621541 et Q21202260, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L621541 et Q21202260."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_mrgefnmn",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "spécialiste de radiobiologie",
+          "definition": "Scientifique qui étudie les effets des rayonnements sur le vivant."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L621541 et Q21202260, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L621541 et Q21202260. Glose rédigée."
+      }
+    }
+  ]
+}

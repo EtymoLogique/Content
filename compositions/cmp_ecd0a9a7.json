@@ -1,0 +1,39 @@
+{
+  "id": "cmp_ecd0a9a7",
+  "mot_id": "unt_1fph0v9x",
+  "forme_resultat_id": "frm_3rk1yvbc",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « hyperonymie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_4tx8033j",
+      "sens_id": "sns_vdzmf7ps",
+      "forme_id": "frm_y87hna9r",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "noms du dessus",
+      "explication_courte": "Du grec hupér, « au-dessus », et ónoma, « nom ».",
+      "explication_detaillee": "« Oiseau » est placé au-dessus de « moineau », de « merle » et de « pie ». L’hyperonymie est la relation du mot général aux mots qu’il couvre."
+    }
+  }
+}

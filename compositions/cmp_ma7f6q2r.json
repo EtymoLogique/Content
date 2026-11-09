@@ -1,0 +1,39 @@
+{
+  "id": "cmp_ma7f6q2r",
+  "mot_id": "unt_m6tsnkad",
+  "forme_resultat_id": "frm_n58z2pct",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiographie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_r0a5xapy",
+      "sens_id": "sns_x5fh6je5",
+      "forme_id": "frm_wrstf9rk",
+      "segment_debut": 5,
+      "segment_fin": 12
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "écriture par les rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec gráphein, « écrire ».",
+      "explication_detaillee": "Ici, ce sont les rayons qui écrivent. Ils traversent la chair et laissent l’ombre des os sur le film. On dit souvent « une radio »."
+    }
+  }
+}

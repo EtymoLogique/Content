@@ -1,0 +1,51 @@
+{
+  "id": "cmp_bk22xhz7",
+  "mot_id": "unt_1vr74fsy",
+  "forme_resultat_id": "frm_cny3yrp0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « exonyme ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_7w5qh08v",
+      "sens_id": "sns_qtcm633q",
+      "forme_id": "frm_43wkbf9r",
+      "segment_debut": 0,
+      "segment_fin": 2
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj",
+      "segment_debut": 2,
+      "segment_fin": 7
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_xmg27761",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final d’exo- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom du dehors",
+      "explication_courte": "Du grec éxō, « dehors », et ónoma, « nom ».",
+      "explication_detaillee": "L’exonyme est le nom vu de l’extérieur. « Allemagne » est un exonyme français : les Allemands, eux, disent Deutschland."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cmp_rz6g3q3r",
+  "mot_id": "unt_7qpyq08j",
+  "forme_resultat_id": "frm_cwmcaq5g",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « hypothèque ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_xk6sz9vg",
+      "sens_id": "sns_f5wrfgqf",
+      "forme_id": "frm_v92431jc",
+      "segment_debut": 0,
+      "segment_fin": 4
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_dg2k1q5r",
+      "sens_id": "sns_e67bsqqj",
+      "forme_id": "frm_hs7escy3",
+      "segment_debut": 4,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "ce qu’on dépose dessous",
+      "explication_courte": "Du grec hupó, « sous », et thḗkē, « dépôt ».",
+      "explication_detaillee": "Le grec hupothḗkē désignait un gage, ce qu’on met dessous pour garantir. Qui achète une maison à crédit la donne en hypothèque : s’il ne rembourse pas, la banque peut la saisir."
+    }
+  }
+}

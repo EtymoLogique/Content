@@ -1,0 +1,39 @@
+{
+  "id": "cmp_a3xnh5te",
+  "mot_id": "unt_3ew6mzmy",
+  "forme_resultat_id": "frm_946g0c55",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « toxicomanie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a68qbsx3",
+      "sens_id": "sns_a6kgq1sn",
+      "forme_id": "frm_3pvssh82",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_cwjcezp8",
+      "sens_id": "sns_rfkfp2jj",
+      "forme_id": "frm_df5hp0zq",
+      "segment_debut": 6,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "folie du poison",
+      "explication_courte": "Du grec toxikón, « poison », et manía, « folie ».",
+      "explication_detaillee": "La toxicomanie n’est plus vue comme une folie mais comme une dépendance, qui se soigne. On parle aujourd’hui plus volontiers d’addiction."
+    }
+  }
+}

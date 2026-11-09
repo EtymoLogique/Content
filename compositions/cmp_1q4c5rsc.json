@@ -1,0 +1,39 @@
+{
+  "id": "cmp_1q4c5rsc",
+  "mot_id": "unt_cq4dyyjr",
+  "forme_resultat_id": "frm_ez3gstk1",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiopathologie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5c0dmses",
+      "sens_id": "sns_tfy443z8",
+      "forme_id": "frm_hpkv9z26",
+      "segment_debut": 5,
+      "segment_fin": 15
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "pathologie des rayons",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : radio- s’ajoute à pathologie.",
+      "explication_detaillee": "La pathologie reçoit le préfixe radio-. La radiopathologie étudie les brûlures et les maladies que provoque une trop forte dose de rayons."
+    }
+  }
+}

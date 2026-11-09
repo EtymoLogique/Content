@@ -1,0 +1,68 @@
+{
+  "id": "unt_44qd04q5",
+  "nature": "mot",
+  "langue_id": "lng_kmf44d76",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1111357, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Lexème L1111357 (grec ancien, adjectif) consulté le 9 novembre 2026 (ADR 0060)."
+  },
+  "mot": {
+    "categorie": "adjectif"
+  },
+  "formes": [
+    {
+      "id": "frm_m3022881",
+      "texte": "τοξικός",
+      "cle_normalisee": "τοξικός",
+      "systeme_ecriture_id": "ecr_m63cytfk",
+      "role": "canonique",
+      "contexte": null,
+      "translitterations": [
+        {
+          "convention_id": "cnv_570ncjj6",
+          "texte": "toxikós"
+        }
+      ],
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1111357, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1111357 (grec ancien, adjectif) consulté le 9 novembre 2026 (ADR 0060)."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_mfzvr278",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "des flèches, de l’arc"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1111357, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Lexème L1111357 (grec ancien, adjectif) consulté le 9 novembre 2026 (ADR 0060). Glose rédigée."
+      }
+    }
+  ]
+}

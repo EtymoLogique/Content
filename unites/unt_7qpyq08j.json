@@ -1,0 +1,63 @@
+{
+  "id": "unt_7qpyq08j",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1582441 et Q184260, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L1582441 et Q184260."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_cwmcaq5g",
+      "texte": "hypothèque",
+      "cle_normalisee": "hypothèque",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1582441 et Q184260, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L1582441 et Q184260."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_vh4rzz9k",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "garantie sur un bien",
+          "definition": "Droit donné à un prêteur sur un bien immobilier, qui garantit le remboursement d’une dette."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1582441 et Q184260, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L1582441 et Q184260. Glose rédigée."
+      }
+    }
+  ]
+}

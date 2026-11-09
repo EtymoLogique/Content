@@ -1,0 +1,63 @@
+{
+  "id": "unt_0wp9cbs7",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L22526, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L22526."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_j73r5e9c",
+      "texte": "toxicomane",
+      "cle_normalisee": "toxicomane",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L22526, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L22526."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_4yzpkdr7",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "personne dépendante",
+          "definition": "Personne qui dépend d’une drogue ou d’une substance qu’elle consomme sans pouvoir s’en passer."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L22526, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L22526. Glose rédigée."
+      }
+    }
+  ]
+}
