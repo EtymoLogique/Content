@@ -1,0 +1,63 @@
+{
+  "id": "unt_2w53yr50",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L1582143 et Q180507, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L1582143 et Q180507."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_83q0cjnq",
+      "texte": "radiothérapie",
+      "cle_normalisee": "radiothérapie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1582143 et Q180507, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L1582143 et Q180507."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_d1barzwh",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "soin par les rayons",
+          "definition": "Traitement d’une maladie, souvent un cancer, par des rayonnements."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L1582143 et Q180507, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L1582143 et Q180507. Glose rédigée."
+      }
+    }
+  ]
+}

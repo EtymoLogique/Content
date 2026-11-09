@@ -1,0 +1,39 @@
+{
+  "id": "cmp_7jp3c57x",
+  "mot_id": "unt_2g51ee26",
+  "forme_resultat_id": "frm_vvm91ea5",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « toxicologue ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a68qbsx3",
+      "sens_id": "sns_a6kgq1sn",
+      "forme_id": "frm_3pvssh82",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_4bdmzv0a",
+      "sens_id": "sns_0g2eqv7m",
+      "forme_id": "frm_ng53zgpf",
+      "segment_debut": 6,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "spécialiste des poisons",
+      "explication_courte": "Du grec toxikón, « poison », et lógos, « discours, étude ».",
+      "explication_detaillee": "Le toxicologue sait reconnaître un poison et ses effets. On l’appelle à l’hôpital, au laboratoire de police ou pour juger un nouveau produit."
+    }
+  }
+}

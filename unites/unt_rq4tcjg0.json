@@ -1,0 +1,63 @@
+{
+  "id": "unt_rq4tcjg0",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q12730005, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q12730005."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_hp9hzf9c",
+      "texte": "hyponymie",
+      "cle_normalisee": "hyponymie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q12730005, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q12730005."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_1x12j1ft",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "relation du mot plus précis",
+          "definition": "Relation entre un mot de sens plus précis et un mot de sens plus général qui l’englobe."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q12730005, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q12730005. Glose rédigée."
+      }
+    }
+  ]
+}

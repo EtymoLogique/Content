@@ -1,0 +1,39 @@
+{
+  "id": "cmp_kntw8kv8",
+  "mot_id": "unt_grsvpfg7",
+  "forme_resultat_id": "frm_2ch9s3k6",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiotélégraphiste ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k3cdbdp9",
+      "sens_id": "sns_bvd783vs",
+      "forme_id": "frm_6mdxx1mp",
+      "segment_debut": 5,
+      "segment_fin": 18
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "télégraphiste par radio",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : radio- s’ajoute à télégraphiste.",
+      "explication_detaillee": "Le télégraphiste reçoit le préfixe radio-. À bord des paquebots, le radiotélégraphiste tapait en morse les messages des passagers et les appels de détresse."
+    }
+  }
+}

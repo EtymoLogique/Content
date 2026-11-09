@@ -1,0 +1,47 @@
+{
+  "id": "unt_a68qbsx3",
+  "nature": "prefixe",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucun lexème français « toxico » ni « toxico- » trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
+  },
+  "affixe": {
+    "statut": "element_de_composition"
+  },
+  "formes": [
+    {
+      "id": "frm_3pvssh82",
+      "texte": "toxico",
+      "cle_normalisee": "toxico",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucun lexème français « toxico » ni « toxico- » trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_a6kgq1sn",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "poison"
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [],
+        "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucun lexème français « toxico » ni « toxico- » trouvé par lemme exact. Non publiable tant que Wikidata ne le porte pas. Glose rédigée."
+      }
+    }
+  ]
+}

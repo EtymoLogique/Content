@@ -1,0 +1,63 @@
+{
+  "id": "unt_5jk7g642",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q2985549, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q2985549."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_srfr32p3",
+      "texte": "mononyme",
+      "cle_normalisee": "mononyme",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q2985549, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q2985549."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_afdrnjk5",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "personne au nom unique",
+          "definition": "Personne connue sous un seul nom, sans prénom ni nom de famille."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q2985549, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q2985549. Glose rédigée."
+      }
+    }
+  ]
+}

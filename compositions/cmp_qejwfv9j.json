@@ -1,0 +1,39 @@
+{
+  "id": "cmp_qejwfv9j",
+  "mot_id": "unt_swxk4qd5",
+  "forme_resultat_id": "frm_ghb2y5f0",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « stéréotomie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_ys8y007w",
+      "sens_id": "sns_3k9rxz7g",
+      "forme_id": "frm_0wss1y4w",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_k7kbn7rj",
+      "sens_id": "sns_qrytx8dq",
+      "forme_id": "frm_8y8j6ex4",
+      "segment_debut": 6,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "coupe des solides",
+      "explication_courte": "Du grec stereós, « solide », et tomḗ, « coupure ».",
+      "explication_detaillee": "La stéréotomie découpe des solides. Les tailleurs de pierre l’employaient pour les voûtes et les escaliers : chaque bloc trouve sa place exacte, sans mortier."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "unt_2g51ee26",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L621769 et Q4459623, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L621769 et Q4459623."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_vvm91ea5",
+      "texte": "toxicologue",
+      "cle_normalisee": "toxicologue",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L621769 et Q4459623, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L621769 et Q4459623."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_32p3e77v",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "spécialiste des poisons",
+          "definition": "Spécialiste de la toxicologie."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L621769 et Q4459623, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L621769 et Q4459623. Glose rédigée."
+      }
+    }
+  ]
+}

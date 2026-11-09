@@ -1,0 +1,39 @@
+{
+  "id": "cmp_4f8na2sa",
+  "mot_id": "unt_msx8w09a",
+  "forme_resultat_id": "frm_swe0fdsr",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « toxicophobie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a68qbsx3",
+      "sens_id": "sns_a6kgq1sn",
+      "forme_id": "frm_3pvssh82",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_5hc0cnmn",
+      "sens_id": "sns_6nk5ww52",
+      "forme_id": "frm_9k20cef2",
+      "segment_debut": 6,
+      "segment_fin": 12
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "peur des poisons",
+      "explication_courte": "Du grec toxikón, « poison », et phóbos, « peur ».",
+      "explication_detaillee": "La personne toxicophobe craint sans cesse qu’on l’empoisonne. Elle se méfie de chaque plat et de chaque verre."
+    }
+  }
+}

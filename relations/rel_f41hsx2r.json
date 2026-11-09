@@ -1,0 +1,12 @@
+{
+  "id": "rel_f41hsx2r",
+  "unite_source_id": "unt_44qd04q5",
+  "unite_cible_id": "unt_a68qbsx3",
+  "type_code": "forme_de_composition",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : « toxico » n’a pas de lexème, donc aucune déclaration « dérivé du lexème » vers « τοξικός » (L1111357). Non publiable tant que Wikidata ne le porte pas."
+  }
+}

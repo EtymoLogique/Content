@@ -33,6 +33,7 @@
       "rang": 1,
       "libelles": {
         "fr": {
+          "glose": "opérateur du télégraphe",
           "definition": "Personne chargée de transmettre et de recevoir des télégrammes."
         }
       },

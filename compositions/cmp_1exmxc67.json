@@ -1,0 +1,39 @@
+{
+  "id": "cmp_1exmxc67",
+  "mot_id": "unt_nfvnra63",
+  "forme_resultat_id": "frm_ds7r4294",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiologie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec lógos, « discours, étude ».",
+      "explication_detaillee": "Le latin radius désigne un rayon, et le grec lógos un discours. La radiologie est née avec les rayons X, à la fin du xixe siècle : on vit enfin à travers la peau. C’est aujourd’hui une spécialité médicale de l’imagerie."
+    }
+  }
+}

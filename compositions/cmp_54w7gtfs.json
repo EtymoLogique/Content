@@ -1,0 +1,51 @@
+{
+  "id": "cmp_54w7gtfs",
+  "mot_id": "unt_rq4tcjg0",
+  "forme_resultat_id": "frm_hp9hzf9c",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « hyponymie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_xk6sz9vg",
+      "sens_id": "sns_f5wrfgqf",
+      "forme_id": "frm_v92431jc",
+      "segment_debut": 0,
+      "segment_fin": 3
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_n7h1qr6w",
+      "sens_id": "sns_h3cdqvez",
+      "forme_id": "frm_pa0ppgbf",
+      "segment_debut": 3,
+      "segment_fin": 9
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_am6k3rep",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final d’hypo- s’élide devant -onymie."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "noms du dessous",
+      "explication_courte": "Du grec hupó, « sous », et ónoma, « nom ».",
+      "explication_detaillee": "« Moineau » est placé sous « oiseau » : il en est un cas particulier. Cette relation entre le mot précis et le mot général s’appelle l’hyponymie."
+    }
+  }
+}

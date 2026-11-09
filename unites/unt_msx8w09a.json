@@ -1,0 +1,63 @@
+{
+  "id": "unt_msx8w09a",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "Q25339134, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q25339134."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_swe0fdsr",
+      "texte": "toxicophobie",
+      "cle_normalisee": "toxicophobie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q25339134, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q25339134."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_ww1sh9zd",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "peur des poisons",
+          "definition": "Peur excessive d’être empoisonné."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "Q25339134, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : Q25339134. Glose rédigée."
+      }
+    }
+  ]
+}

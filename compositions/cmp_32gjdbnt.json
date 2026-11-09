@@ -1,0 +1,39 @@
+{
+  "id": "cmp_32gjdbnt",
+  "mot_id": "unt_d2br3mb3",
+  "forme_resultat_id": "frm_qwt5943n",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « toxicologie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_a68qbsx3",
+      "sens_id": "sns_a6kgq1sn",
+      "forme_id": "frm_3pvssh82",
+      "segment_debut": 0,
+      "segment_fin": 6
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_mk61g05z",
+      "sens_id": "sns_t9ng9amb",
+      "forme_id": "frm_3qgy37m7",
+      "segment_debut": 6,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "étude des poisons",
+      "explication_courte": "Du grec toxikón, « poison », et lógos, « discours, étude ».",
+      "explication_detaillee": "Le grec toxikón désignait d’abord le poison dont on enduisait les flèches, de tóxon, « arc ». La toxicologie étudie tous les poisons : plantes, venins, produits chimiques."
+    }
+  }
+}

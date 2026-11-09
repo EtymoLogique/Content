@@ -1,0 +1,39 @@
+{
+  "id": "cmp_hm56cqcx",
+  "mot_id": "unt_dzpm620t",
+  "forme_resultat_id": "frm_rkg1fscw",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radiophotographie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_9034v2xa",
+      "sens_id": "sns_j7ngzwxq",
+      "forme_id": "frm_4j4rtfkg",
+      "segment_debut": 5,
+      "segment_fin": 17
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "photographie par les rayons",
+      "explication_courte": "Un mot déjà découvert devient un ingrédient : radio- s’ajoute à photographie.",
+      "explication_detaillee": "La photographie reçoit le préfixe radio-. Au xxe siècle, des camions équipés photographiaient l’écran de radioscopie pour dépister vite la tuberculose."
+    }
+  }
+}

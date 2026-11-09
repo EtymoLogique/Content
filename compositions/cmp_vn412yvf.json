@@ -1,0 +1,39 @@
+{
+  "id": "cmp_vn412yvf",
+  "mot_id": "unt_677t2tqp",
+  "forme_resultat_id": "frm_h86vms4w",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « radioscopie ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_cxkk2794",
+      "sens_id": "sns_m612dm02",
+      "forme_id": "frm_b61fkxg8",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_58txf6bd",
+      "sens_id": "sns_50t0cv73",
+      "forme_id": "frm_prwycnqq",
+      "segment_debut": 5,
+      "segment_fin": 11
+    }
+  ],
+  "transformations": [],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "examen par les rayons",
+      "explication_courte": "Du latin radius, « rayon », et du grec skopeîn, « observer ».",
+      "explication_detaillee": "La radiographie fixe une image ; la radioscopie la montre en mouvement. Le médecin voit battre le cœur ou avaler le patient."
+    }
+  }
+}

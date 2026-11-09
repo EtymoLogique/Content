@@ -1,0 +1,51 @@
+{
+  "id": "cmp_rxcvt8mk",
+  "mot_id": "unt_80c0y5h2",
+  "forme_resultat_id": "frm_ctmhk3tq",
+  "type_analyse": "synchronique",
+  "preferee": true,
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [],
+    "note_interne": "Wikidata ne porte pas ce fait (consulté le 9 novembre 2026, ADR 0060) : aucune déclaration « combine les lexèmes » (P5238) sur « chrononyme ». Non publiable tant que Wikidata ne le porte pas."
+  },
+  "parties": [
+    {
+      "rang": 1,
+      "unite_id": "unt_x8r491qt",
+      "sens_id": "sns_tsqxkh8a",
+      "forme_id": "frm_jnjm7syy",
+      "segment_debut": 0,
+      "segment_fin": 5
+    },
+    {
+      "rang": 2,
+      "unite_id": "unt_ak4fdsk0",
+      "sens_id": "sns_347fhdwy",
+      "forme_id": "frm_4pzmarxj",
+      "segment_debut": 5,
+      "segment_fin": 10
+    }
+  ],
+  "transformations": [
+    {
+      "id": "trf_r338r0wa",
+      "rang_partie": 1,
+      "type_code": "elision",
+      "ordre": 1,
+      "libelles": {
+        "fr": {
+          "texte": "Le o final de chrono- s’élide devant -onyme."
+        }
+      }
+    }
+  ],
+  "libelles": {
+    "fr": {
+      "sens_litteral": "nom du temps",
+      "explication_courte": "Du grec khrónos, « temps », et ónoma, « nom ».",
+      "explication_detaillee": "La Belle Époque, les Trente Glorieuses ou la Renaissance sont des chrononymes. Ils donnent un nom propre à un morceau du temps."
+    }
+  }
+}

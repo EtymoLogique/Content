@@ -1,0 +1,63 @@
+{
+  "id": "unt_3ew6mzmy",
+  "nature": "mot",
+  "langue_id": "lng_wa90y54n",
+  "fait": {
+    "confiance": "probable",
+    "etat_relecture": "brouillon",
+    "sources": [
+      {
+        "source_id": "src_tyvnmjjn",
+        "localisation": "L21420 et Q182413, consulté le 9 novembre 2026"
+      }
+    ],
+    "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L21420 et Q182413."
+  },
+  "mot": {
+    "categorie": "nom"
+  },
+  "formes": [
+    {
+      "id": "frm_946g0c55",
+      "texte": "toxicomanie",
+      "cle_normalisee": "toxicomanie",
+      "systeme_ecriture_id": "ecr_ww2jr3g9",
+      "role": "canonique",
+      "contexte": null,
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L21420 et Q182413, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L21420 et Q182413."
+      }
+    }
+  ],
+  "sens": [
+    {
+      "id": "sns_wnabhvd3",
+      "rang": 1,
+      "libelles": {
+        "fr": {
+          "glose": "dépendance à une drogue",
+          "definition": "Dépendance physique ou psychique à une drogue ou à une autre substance."
+        }
+      },
+      "fait": {
+        "confiance": "probable",
+        "etat_relecture": "brouillon",
+        "sources": [
+          {
+            "source_id": "src_tyvnmjjn",
+            "localisation": "L21420 et Q182413, consulté le 9 novembre 2026"
+          }
+        ],
+        "note_interne": "Recoupé avec Wikidata le 9 novembre 2026 (ADR 0060) : L21420 et Q182413. Glose rédigée."
+      }
+    }
+  ]
+}
